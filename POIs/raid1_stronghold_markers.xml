@@ -1,0 +1,51 @@
+<OverlayData>
+	<MarkerCategory name="Raid">
+		<MarkerCategory name="StrongholdOfTheFaithful" DisplayName="Stronghold of the Faithful">
+			<MarkerCategory name="Escort">
+				<MarkerCategory name="CavePath" DisplayName="Cave Path"/>
+				<MarkerCategory name="SkipTo4thTower" DisplayName="Skip to 4th Tower"/>
+			</MarkerCategory>
+			<MarkerCategory name="KeepConstruct" DisplayName="Keep Construct"/>
+			<MarkerCategory name="TwistedCastle" DisplayName="Twisted Castle">
+				<MarkerCategory name="AlternateOne" DisplayName="Alternate 1st Button"/>
+				<MarkerCategory name="Buttons"/>
+			</MarkerCategory>
+			<MarkerCategory name="Xera"/>
+			<MarkerCategory name="Chests"/>
+		</MarkerCategory>
+	</MarkerCategory>
+	
+	<POIs>
+		<!--  Escort's Markers and Routes -->
+		<Trail trailData="Data/HeroPack/Raids/Escort.trl" texture="Data/HeroPack/Raids/escortcavetrail.png" animSpeed="2" alpha="1" type="Raid.StrongholdOfTheFaithful.Escort.CavePath" fadeNear="750" fadeFar="900"/>
+		<Route name="SkipTo4thTower" BackwardDirection="0" resetposx="45.1487" resetposy="137.379" resetposz="390.77" resetRange="1" MapID="1156">
+			<POI MapID="1156" xpos="45.1487" ypos="137.379" zpos="390.77" type="Raid.StrongholdOfTheFaithful.Escort.SkipTo4thTower" GUID="0FYMBEHn9EqAZCEwGXLOMQ==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
+			<POI MapID="1156" xpos="45.8498" ypos="142.315" zpos="382.24" type="Raid.StrongholdOfTheFaithful.Escort.SkipTo4thTower" GUID="lMufEQq85kSg6zLeUKZB3g==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
+			<POI MapID="1156" xpos="54.2233" ypos="143.771" zpos="385.1" type="Raid.StrongholdOfTheFaithful.Escort.SkipTo4thTower" GUID="fukMoUoIUEqRNTRX9hzFNA==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="900"/>
+			<POI MapID="1156" xpos="41.3695" ypos="148.483" zpos="388.983" type="Raid.StrongholdOfTheFaithful.Escort.SkipTo4thTower" GUID="Vd6I6z1q4kWEsC+BLlFzCw==" iconFile="Data/HeroPack/Raids/StrongholdDidSkip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="900"/>
+		</Route>
+		
+		<!-- Keep Construct's Markers -->
+		<POI MapID="1156" xpos="-97.048" ypos="150.156" zpos="255.802" type="Raid.StrongholdOfTheFaithful.KeepConstruct" GUID="fhaeyOkgC0SweDMNHtlWzg==" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize=".5" heightOffset="0" fadeNear="2000" fadeFar="2500"/>
+		<POI MapID="1156" xpos="-80.6538" ypos="150.156" zpos="229.251" type="Raid.StrongholdOfTheFaithful.KeepConstruct" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize=".5" heightOffset="0" fadeNear="2000" fadeFar="2500"/>
+		<POI MapID="1156" xpos="-113.822" ypos="150.156" zpos="229.125" type="Raid.StrongholdOfTheFaithful.KeepConstruct" GUID="fg81J0pga0SNm4K8SUYn7Q==" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize=".5" heightOffset="0" fadeNear="2000" fadeFar="2500"/>
+		
+		<!-- Twisted Castle's Trails and Markers -->
+		<Trail trailData="Data/HeroPack/Raids/TwistedCastle.trl" texture="Data/HeroPack/Raids/twistedcastletrail.png" animSpeed="2" alpha="1" type="Raid.StrongholdOfTheFaithful.TwistedCastle.AlternateOne" fadeNear="1250" fadeFar="1750"/>
+		<POI MapID="1156" xpos="-27.9002" ypos="95.0864" zpos="74.2116" type="Raid.StrongholdOfTheFaithful.TwistedCastle.Buttons" GUID="t0VldGp1GESAIL3ssiIKUg==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="5000" fadeFar="5500"/>
+		<POI MapID="1156" xpos="-2.84159" ypos="164.876" zpos="-57.0431" type="Raid.StrongholdOfTheFaithful.TwistedCastle.Buttons" GUID="vSfb/vVRzEGATQAGG49frA==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="5000" fadeFar="5500"/>
+		<POI MapID="1156" xpos="-156.468" ypos="137.349" zpos="-65.7955" type="Raid.StrongholdOfTheFaithful.TwistedCastle.Buttons" GUID="H3eTIC2UEkyl5pf+mSYL5Q==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="5000" fadeFar="5500"/>
+		<POI MapID="1156" xpos="-84.9082" ypos="138.124" zpos="-20.9081" type="Raid.StrongholdOfTheFaithful.TwistedCastle.Buttons" GUID="qYG1gAP260eMQotj3cMaPA==" iconFile="Data/HeroPack/Multipurpose/four.png" fadeNear="5000" fadeFar="5500"/>
+		<POI MapID="1156" xpos="-25.0042" ypos="191.191" zpos="31.2641" type="Raid.StrongholdOfTheFaithful.TwistedCastle.Buttons" GUID="cYXiWIsxtkqw7oQgwQQCRw==" iconFile="Data/HeroPack/Multipurpose/five.png" fadeNear="5000" fadeFar="5500"/>
+		
+		<!-- Xera's Markers -->
+		<POI MapID="1156" xpos="-55.5242" ypos="512.354" zpos="-92.326" type="Raid.StrongholdOfTheFaithful.Xera" GUID="sj40sryhwUiOQ2gCcaI1MQ==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="2500" fadeFar="3000"/>
+		<POI MapID="1156" xpos="-98.7245" ypos="512.354" zpos="-68.1676" type="Raid.StrongholdOfTheFaithful.Xera" GUID="qgI+oAkQD0y//JFZYlBNaw==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="2500" fadeFar="3000"/>
+		<POI MapID="1156" xpos="-64.3676" ypos="512.354" zpos="-58.5051" type="Raid.StrongholdOfTheFaithful.Xera" GUID="e3TSFGqltESwLLN+jeAnfA==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="2500" fadeFar="3000"/>
+		
+		<!-- Stronghold of the Faithful's Markers -->
+		<POI MapID="1156" xpos="-144.959" ypos="196.119" zpos="-15.1037" type="Raid.StrongholdOfTheFaithful.Chests" GUID="5E99G0iZ00SSWpHKs2cVLw==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1500" fadeFar="2000-->"/>
+		<POI MapID="1156" xpos="-74.9414" ypos="193.939" zpos="11.7519" type="Raid.StrongholdOfTheFaithful.Chests" GUID="IVX/ZwUu8U6W0MnnZjOO1A==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1500" fadeFar="2000-->"/>
+		<POI MapID="1156" xpos="-140.886" ypos="199.803" zpos="115.294" type="Raid.StrongholdOfTheFaithful.Chests" GUID="O+m8BVoxv0ywAiGRZvzu1A==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1500" fadeFar="2000-->"/>
+	</POIs>
+</OverlayData>

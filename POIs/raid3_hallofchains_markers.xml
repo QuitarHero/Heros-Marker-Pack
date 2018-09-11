@@ -1,0 +1,58 @@
+<OverlayData>
+	<MarkerCategory name="Raid" DisplayName="Raid">
+		<MarkerCategory name="HallofChains" DisplayName="Hall of Chains">
+			<MarkerCategory name="SoullessHorror" DisplayName="Soulless Horror"/>
+			<MarkerCategory name="Darkness" DisplayName="Statue of Darkness"/>
+			<MarkerCategory name="Dhuum">
+				<MarkerCategory name="Reapers"/>
+				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png"/>
+				<MarkerCategory name="OrbAoe" DisplayName="Death AoE" iconFile="Data/HeroPack/Raids/Death.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="Chests"/>
+		</MarkerCategory>
+	</MarkerCategory>
+
+	<POIs>
+		<!-- Soulless Horror's Markers -->
+		<POI MapID="1264" xpos="-282.591" ypos="20.7626" zpos="18.4165" type="Raid.HallOfChains.SoullessHorror" GUID="O3r698jXbkyiZoxShdmFVA==" iconFile="Data/HeroPack/Raids/arrow.png" fadeNear="3500" fadeFar="4000"/>
+		<POI MapID="1264" xpos="-266.291" ypos="20.7626" zpos="8.77906" type="Raid.HallOfChains.SoullessHorror" GUID="nzYD4KMcF0iMwOfaHhGEYg==" iconFile="Data/HeroPack/Raids/circle.png" fadeNear="3500" fadeFar="4000"/>
+		<POI MapID="1264" xpos="-256.338" ypos="20.7626" zpos="24.8296" type="Raid.HallOfChains.SoullessHorror" GUID="N5t0jBFzaUOaUazzQShtzA==" iconFile="Data/HeroPack/Raids/heart.png" fadeNear="3500" fadeFar="4000"/>
+		<POI MapID="1264" xpos="-272.783" ypos="20.7626" zpos="34.8079" type="Raid.HallOfChains.SoullessHorror" GUID="ayA+SkixgUy8TJEb1q/B/Q==" iconFile="Data/HeroPack/Raids/square.png" fadeNear="3500" fadeFar="4000"/>
+		
+		<!-- Statue of Darkness Markers -->
+		<POI MapID="1264" xpos="344.015" ypos="98.9088" zpos="28.7093" type="Raid.HallOfChains.Darkness" GUID="d9Wqmji74kWQJgU1iMVDNQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset=".5" iconSize=".5" fadeNear="2800" fadeFar="3000"/>
+		<POI MapID="1264" xpos="364.569" ypos="98.9088" zpos="24.8182" type="Raid.HallOfChains.Darkness" GUID="bVntJ42H6keMS4NQ4QrYDQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset=".5" iconSize=".5" fadeNear="2800" fadeFar="3000"/>
+		<POI MapID="1264" xpos="384.978" ypos="98.9088" zpos="20.7388" type="Raid.HallOfChains.Darkness" GUID="jDkcSZokJUSzaTgg/4Bk9g==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset=".5" iconSize=".5" fadeNear="2800" fadeFar="3000"/>
+		
+		<!-- Dhuum Markers -->
+		<POI MapID="1264" xpos="429.189" ypos="157.867" zpos="30.7462" type="Raid.HallOfChains.Dhuum.Reapers" GUID="7lAXpIckh0etEDT7qkgtIg==" iconFile="Data/HeroPack/Raids/arrow.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="427.832" ypos="157.867" zpos="1.91091" type="Raid.HallOfChains.Dhuum.Reapers" GUID="Iqrpk9JOtkGC6V8iv8rcKA==" iconFile="Data/HeroPack/Raids/circle.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="404.769" ypos="157.864" zpos="-14.6993" type="Raid.HallOfChains.Dhuum.Reapers" GUID="XM2/dG4/LkuWpoTNZcCOlg==" iconFile="Data/HeroPack/Raids/heart.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="377.723" ypos="157.861" zpos="-6.41917" type="Raid.HallOfChains.Dhuum.Reapers" GUID="lTh96zuv702S+mtGJOWb5Q==" iconFile="Data/HeroPack/Raids/square.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="365.995" ypos="157.872" zpos="19.3292" type="Raid.HallOfChains.Dhuum.Reapers" GUID="YzhiOdvBf0y1GNebTAkfmw==" iconFile="Data/HeroPack/Raids/star.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="379.073" ypos="157.86" zpos="44.8172" type="Raid.HallOfChains.Dhuum.Reapers" GUID="OpI4IpyEqUeS5Zsfd9KPyg==" iconFile="Data/HeroPack/Raids/swirl.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="407.78" ypos="157.864" zpos="49.9504" type="Raid.HallOfChains.Dhuum.Reapers" GUID="Im4Wm3WM5kCKHI1D/ov4FA==" iconFile="Data/HeroPack/Raids/triangle.png" fadeNear="3500" fadeFar="4000" heightOffset="2"/>
+		<POI MapID="1264" xpos="377.774" ypos="157.86" zpos="-6.48558" type="Raid.HallOfChains.Dhuum.Timer" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" iconFile="Data/HeroPack/Raids/starttimer.png" fadeNear="3500" fadeFar="4000" heightOffset="0"/>
+		
+		<!-- Dhuum's Death AoE -->
+		<POI MapID="1264" xpos="394.704" ypos="157.862" zpos="20.2688" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="go+qP7KOH0OukDhtk4HU0A==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="398.19" ypos="157.863" zpos="23.159" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="6/t2iveREke/WR+28277cA==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="402.271" ypos="157.864" zpos="21.825" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="AOHelqhY90uAbUDsViRt7Q==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="403.825" ypos="157.864" zpos="17.5073" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="dDt4AkIbXUaUOiESsFGc3w==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="401.807" ypos="157.864" zpos="13.7051" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="AsGDF6rDCUqFwHPX23S43g==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="397.656" ypos="157.863" zpos="12.995" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="0wwXXCeOfUSNuBgY22Uibw==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="394.79" ypos="157.863" zpos="15.8832" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="UaRflAY/fEO7hkocgGeUzw==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="394.432" ypos="157.862" zpos="18.1237" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="ArD/1tPsTUOzCCMRRHAyHw==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="396.191" ypos="157.863" zpos="21.8221" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="ajSck29/20agnUVjZkY83w==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="400.418" ypos="157.863" zpos="22.6389" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="HaWLipbcl06Ua7Cw4gqN6A==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="403.61" ypos="157.864" zpos="19.7813" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="i3Rvo50VFEWqRNWaDVF6cg==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="403.353" ypos="157.864" zpos="15.5199" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="aIVEy+p8aEGU56FJmX/bzQ==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="399.813" ypos="157.863" zpos="12.7156" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="O3rIQN53YU+PFm4GhGstlw==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		<POI MapID="1264" xpos="396.055" ypos="157.863" zpos="14.2364" type="Raid.HallOfChains.Dhuum.OrbAoe" GUID="8edHA9wae0G1/n0/Z/9u+w==" iconFile="Data/HeroPack/Raids/Death.png" heightOffset="45" fadeNear="1650" fadeFar="2000"/>
+		
+		<!-- Hall of Chain's Markers -->
+		<POI MapID="1264" xpos="-339.278" ypos="37.4618" zpos="179.794" type="Raid.HallOfChains.Chests" GUID="ljo0u+dqp0WFZkoJ8DDLFw==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1000" fadeFar="1500"/>
+		<POI MapID="1264" xpos="227.027" ypos="23.5521" zpos="-51.9579" type="Raid.HallOfChains.Chests" GUID="zXy+4KUY7EOnBCv0jOsSEA==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="2500" fadeFar="3000"/>
+		<POI MapID="1264" xpos="468.948" ypos="164.634" zpos="15.3085" type="Raid.HallOfChains.Chests" GUID="D9EyjAP7VkqisFpFTLzb7Q==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1000" fadeFar="1500"/>
+	</POIs>
+</OverlayData>
