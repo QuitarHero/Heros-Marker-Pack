@@ -1,0 +1,46 @@
+<OverlayData>
+	<MarkerCategory name="FractalTraining" DisplayName="Fractal Training">
+		<MarkerCategory name="Volcanic" DisplayName="Volcanic">
+			<MarkerCategory name="Border" DisplayName="Cutscene Trigger"/>
+			<MarkerCategory name="Grawl_1" DisplayName="Grawl Spawns 1"/>
+			<MarkerCategory name="Portals" DisplayName="Portal Skip"/>
+			<MarkerCategory name="Grawl_2" DisplayName="Grawl Spawns 2"/>
+			<MarkerCategory name="Throne" DisplayName="Stack Spot"/>
+			<MarkerCategory name="CliffFall" DisplayName="Cliff Skip"/>
+			<MarkerCategory name="BossArena" DisplayName="Final Boss"/>
+		</MarkerCategory>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</MarkerCategory>
+	
+	<POIs>
+		<!-- Volcanic Markers -->
+		<Trail trailData="Data/HeroPack/Fractals/volcanic cutscene border.trl" texture="Data/HeroPack/Fractals/volcanictrail.png" animSpeed="0" alpha="0.5" type="FractalTraining.Volcanic.Border" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="954" xpos="330.81" ypos="82.7144" zpos="-733.107" type="FractalTraining.Volcanic.Grawl_1" GUID="qZtKlfL/QkyJ+ZV9HzLeIg==" iconFile="Data/HeroPack/Multipurpose/one.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="367.686" ypos="82.126" zpos="-723.945" type="FractalTraining.Volcanic.Grawl_1" GUID="ZQkypCjx70WdKhvq8arZXQ==" iconFile="Data/HeroPack/Multipurpose/two.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="353.773" ypos="81.8819" zpos="-756.492" type="FractalTraining.Volcanic.Grawl_1" GUID="BBexe+QPckqlAc9F7q6A+g==" iconFile="Data/HeroPack/Multipurpose/three.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="375.437" ypos="82.3527" zpos="-760.893" type="FractalTraining.Volcanic.Grawl_1" GUID="ZV/ECyq2zUCN1Q05OuZzYA==" iconFile="Data/HeroPack/Multipurpose/four.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="351.456" ypos="82.2953" zpos="-716.535" type="FractalTraining.Volcanic.Portals" GUID="8RAWwc6Wq0Wl5qtJfNzTdA==" iconFile="Data/HeroPack/Multipurpose/five.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="233.029" ypos="54.4139" zpos="-691.261" type="FractalTraining.Volcanic.Portals" GUID="V8QwBJYJd0WvjONN9W8NJQ==" iconFile="Data/HeroPack/Multipurpose/five.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="173.37" ypos="54.2133" zpos="-702.598" type="FractalTraining.Volcanic.Grawl_2" GUID="b15RMloSIUuuO7jzuyWU3g==" iconFile="Data/HeroPack/Multipurpose/six.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="178.23" ypos="54.3013" zpos="-694.896" type="FractalTraining.Volcanic.Grawl_2" GUID="pkWtv8pyc0SWAnKllX/5aw==" iconFile="Data/HeroPack/Multipurpose/seven.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="169.441" ypos="53.2919" zpos="-673.876" type="FractalTraining.Volcanic.Grawl_2" GUID="d1wmg0+rZE+BLdeTs//fxQ==" iconFile="Data/HeroPack/Multipurpose/eight.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="188.498" ypos="54.8661" zpos="-676.635" type="FractalTraining.Volcanic.Grawl_2" GUID="y3LM07LJ80SpepgIhYiU/g==" iconFile="Data/HeroPack/Multipurpose/nine.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="221.554" ypos="54.6041" zpos="-709.602" type="FractalTraining.Volcanic.Throne" GUID="MB3hRW7mZEGJh6dGWR58jA==" iconFile="Data/HeroPack/Multipurpose/ten.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="198.55" ypos="54.1504" zpos="-726.109" type="FractalTraining.Volcanic.CliffFall" GUID="UCxHxoOYh02PhgMoaAE1ZQ==" iconFile="Data/HeroPack/Multipurpose/eleven.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<POI MapID="954" xpos="247.586" ypos="10.309" zpos="-804.081" type="FractalTraining.Volcanic.BossArena" GUID="x9p8sCxkhkWH2RlInAB7TQ==" iconFile="Data/HeroPack/Multipurpose/twelve.png" heightOffset="0.5" fadeNear="2250" fadeFar="2500"/>
+		<Trail trailData="Data/HeroPack/Fractals/Volcanic.trl" texture="Data/HeroPack/Fractals/volcanictrail.png" animSpeed="2" alpha="1" type="FractalTraining.Volcanic.CliffFall" fadeNear="800" fadeFar="1000"/>
+		<POI MapID="954" xpos="201.607" ypos="7.22761" zpos="-737.238" type="FractalTraining.Volcanic.CliffFall" GUID="vJpxrQmGp0Sd6jU7PgTVMA==" iconFile="Data/HeroPack/Fractals/startjumping.png" fadeNear="1100" fadeFar="1350"/>
+		
+		
+		
+	</POIs>
+</OverlayData>
