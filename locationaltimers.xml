@@ -158,7 +158,7 @@
 	</areatriggeredtimer>
 	<areatriggeredtimer mapid="1264" enterspherex="377.774" enterspherey="157.86" enterspherez="-6.48558" entersphererad="2" exitspherex="377.774" exitspherey="157.86" exitspherez="-6.48558" exitsphererad="102" length="600" resetpointx="208.934" resetpointy="146.636" resetpointz="29.1171" startdelay="0">	
 		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="1"/>
-		<timeevent text="(1) ARROW" timestamp="35" countdown=30" onscreentime="0"/>
+		<timeevent text="(1) ARROW" timestamp="35" countdown="30" onscreentime="0"/>
 		<timeevent text="(2) CIRCLE" timestamp="65" countdown="30" onscreentime="0"/>
 		<timeevent text="(3) HEART" timestamp="95" countdown="30" onscreentime="0"/>
 		<timeevent text="(1) SQUARE" timestamp="125" countdown="30" onscreentime="0"/>
