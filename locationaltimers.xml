@@ -158,41 +158,41 @@
 	</areatriggeredtimer>
 	<areatriggeredtimer mapid="1264" enterspherex="377.774" enterspherey="157.86" enterspherez="-6.48558" entersphererad="2" exitspherex="377.774" exitspherey="157.86" exitspherez="-6.48558" exitsphererad="102" length="600" resetpointx="208.934" resetpointy="146.636" resetpointz="29.1171" startdelay="0">	
 		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="1"/>
-		<timeevent text="(1) ARROW" timestamp="35" countdown="7" onscreentime="0"/>
-		<timeevent text="(2) CIRCLE" timestamp="65" countdown="7" onscreentime="0"/>
-		<timeevent text="(3) HEART" timestamp="95" countdown="7" onscreentime="0"/>
-		<timeevent text="(1) SQUARE" timestamp="125" countdown="7" onscreentime="0"/>
-		<timeevent text="(2) STAR" timestamp="155" countdown="7" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="175" countdown="7" onscreentime="0"/>
-		<timeevent text="(3) SWIRL" timestamp="185" countdown="7" onscreentime="0"/>
-		<timeevent text="(1) TRIANGLE" timestamp="215" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="215" countdown="7" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="215" countdown="7" onscreentime="0"/>
-		<timeevent text="(2) ARROW" timestamp="245" countdown="7" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="255" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="265" countdown="7" onscreentime="0"/>
-		<timeevent text="(3) CIRCLE" timestamp="275" countdown="7" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="295" countdown="7" onscreentime="0"/>
-		<timeevent text="(1) HEART" timestamp="305" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="325" countdown="7" onscreentime="0"/>
-		<timeevent text="(2) SQUARE" timestamp="335" countdown="7" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="335" countdown="7" onscreentime="0"/>
-		<timeevent text="(3) STAR" timestamp="365" countdown="7" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="375" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="385" countdown="7" onscreentime="0"/>
-		<timeevent text="(1) SWIRL" timestamp="395" countdown="7" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="415" countdown="7" onscreentime="0"/>
-		<timeevent text="(2) TRIANGLE" timestamp="425" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="455" countdown="7" onscreentime="0"/>
-		<timeevent text="(3) ARROW" timestamp="455" countdown="7" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="455" countdown="7" onscreentime="0"/>
-		<timeevent text="(1) CIRCLE"  timestamp="485" countdown="7" onscreentime="0"/>
-		<timeevent text="Dip(Stack)" timestamp="495" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="505" countdown="7" onscreentime="0"/>
-		<timeevent text="(2) HEART" timestamp="515" countdown="7" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="535" countdown="7" onscreentime="0"/>
-		<timeevent text="(3) SQUARE" timestamp="545" countdown="7" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="565" countdown="7" onscreentime="0"/>
-		<timeevent text="(1) STAR" timestamp="575" countdown="7" onscreentime="0"/>
+		<timeevent text="(1) ARROW" timestamp="35" countdown=30" onscreentime="0"/>
+		<timeevent text="(2) CIRCLE" timestamp="65" countdown="30" onscreentime="0"/>
+		<timeevent text="(3) HEART" timestamp="95" countdown="30" onscreentime="0"/>
+		<timeevent text="(1) SQUARE" timestamp="125" countdown="30" onscreentime="0"/>
+		<timeevent text="(2) STAR" timestamp="155" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)" timestamp="175" countdown="45" onscreentime="0"/>
+		<timeevent text="(3) SWIRL" timestamp="185" countdown="30" onscreentime="0"/>
+		<timeevent text="(1) TRIANGLE" timestamp="215" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="215" countdown="10" onscreentime="0"/>
+		<timeevent text="Soul Split" timestamp="215" countdown="40" onscreentime="0"/>
+		<timeevent text="(2) ARROW" timestamp="245" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)" timestamp="255" countdown="40" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="265" countdown="10" onscreentime="0"/>
+		<timeevent text="(3) CIRCLE" timestamp="275" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" timestamp="295" countdown="40" onscreentime="0"/>
+		<timeevent text="(1) HEART" timestamp="305" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="325" countdown="10" onscreentime="0"/>
+		<timeevent text="(2) SQUARE" timestamp="335" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)" timestamp="335" countdown="40" onscreentime="0"/>
+		<timeevent text="(3) STAR" timestamp="365" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" timestamp="375" countdown="40" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="385" countdown="10" onscreentime="0"/>
+		<timeevent text="(1) SWIRL" timestamp="395" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)" timestamp="415" countdown="40" onscreentime="0"/>
+		<timeevent text="(2) TRIANGLE" timestamp="425" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="455" countdown="10" onscreentime="0"/>
+		<timeevent text="(3) ARROW" timestamp="455" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" timestamp="455" countdown="40" onscreentime="0"/>
+		<timeevent text="(1) CIRCLE"  timestamp="485" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip(Stack)" timestamp="495" countdown="40" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="505" countdown="10" onscreentime="0"/>
+		<timeevent text="(2) HEART" timestamp="515" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" timestamp="535" countdown="40" onscreentime="0"/>
+		<timeevent text="(3) SQUARE" timestamp="545" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn" timestamp="565" countdown="10" onscreentime="0"/>
+		<timeevent text="(1) STAR" timestamp="575" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer>
 </timers>
