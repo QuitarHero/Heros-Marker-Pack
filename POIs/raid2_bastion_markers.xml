@@ -8,7 +8,6 @@
 			</MarkerCategory>
 			<MarkerCategory name="MursaatOverseer" DisplayName="Mursaat Overseer">
 				<MarkerCategory name="DispelTimer" DisplayName="Dispel Timer" iconFile="Data/HeroPack/Raids/starttimer.png"/>
-				<MarkerCategory name="CMTimer" DisplayName="CM Timer" iconFile="Data/HeroPack/Raids/startcmtimer.png"/>
 			</MarkerCategory>
 			<MarkerCategory name="Door" DisplayName="Sam's Door"/>
 			<MarkerCategory name="Chests"/>
@@ -25,7 +24,6 @@
 	
 		<!-- Mursaat Overseer's Markers -->
 		<POI MapID="1188" xpos="98.396" ypos="106.187" zpos="101.323" type="Raid.BastionOfThePenitent.MursaatOverseer.DispelTimer" GUID="FNBVzp3IsEeS8TGJz2iJGA==" iconFile="Data/HeroPack/Raids/starttimer.png"  fadeNear="2500" fadeFar="3000" heightOffset="0"/>
-		<POI MapID="1188" xpos="75.24" ypos="106.187" zpos="125.458" type="Raid.BastionOfThePenitent.MursaatOverseer.CMTimer" GUID="chTzX3Sa70iWTX2rLEGbwA==" iconFile="Data/HeroPack/Raids/startcmtimer.png" fadeNear="2500" fadeFar="3000" heightOffset="0"/>
 		
 		<!-- Samarog's Door Markers -->
 		<POI MapID="1188" xpos="-9.23107" ypos="122.451" zpos="90.2396" type="Raid.BastionOfThePenitent.Door" GUID="Fr/eTEAoO06UgxlWr6JrWg==" iconFile="Data/HeroPack/Raids/TrueSight.png" iconSize=".5" heightOffset=".5" fadeNear="1250" fadeFar="1500"/>
