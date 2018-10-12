@@ -57,7 +57,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - An optional timer for Dhuum's mechanics.
 - A poorly made ring of death to assist those doing Greens in Dhuum.
 - Markers for various chests in Hall of Chains.
-### Mythwright Gambit:
+#### Mythwright Gambit:
 - Markers to orient oneself to collect Greatswords and Shields in Conjured Amalgamate.
 - Markers to lead individuals through the most efficient paths for Qadim's lamp.
 - Markers to sort individuals by what boon group they're assigned after a phase.
