@@ -8,6 +8,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 
 ### Fractal of the Mists:
 - Markers to show a guideline to my variant of the Aetherblade Skip.
+- Markers for 4 seperate Portal (Speed) Skips for Cliffside.
 - A Route showcasing an alternate route to complete the Mistlock Observatory's Jumping Puzzle (Low gravity is necessary).
 - Markers for a showy spot to avoid Molten Furnace's Tornadoes and an optimized spot to reflect the Weapon Testing's fireballs.
 - Markers showing where Nightmare CM's Scarlet Watchwork spawn during the MAMA fight.
