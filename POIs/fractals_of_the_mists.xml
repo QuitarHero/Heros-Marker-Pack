@@ -3,6 +3,12 @@
 		<MarkerCategory name="Aetherblade">
 			<MarkerCategory name="MinigameSkip" DisplayName="Minigame Skip"/>
 		</MarkerCategory>
+		<MarkerCategory name="Cliffside">
+			<MarkerCategory name="Skip1" DisplayName="Starting Speed Skip"/>
+			<MarkerCategory name="Skip2" DisplayName="Wind Skip"/>
+			<MarkerCategory name="Skip3" DisplayName="Chest Speed Skip"/>
+			<MarkerCategory name="Skip4" DisplayName="Skip to Boss"/>
+		</MarkerCategory>
 		<MarkerCategory name="MistlockObservatory" DisplayName="Mistlock Observatory">
 			<MarkerCategory name="AlternateJP" DisplayName="Alternate JP Route"/>
 		</MarkerCategory>
@@ -43,6 +49,21 @@
 		<!-- Aetherblade's Markers -->
 		<POI MapID="956" xpos="-21.4808" ypos="9.35175" zpos="96.879" type="FractalsOfTheMists.Aetherblade.MinigameSkip" GUID="TeExJPcqu0qaos1t9NVy5Q==" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeNear="600" fadeFar="850" heightOffset="-.5" minSize="96x96" maxSize="24x24"/>
 		<POI MapID="956" xpos="-10.685" ypos="10.252" zpos="111.652" type="FractalsOfTheMists.Aetherblade.MinigameSkip" GUID="aJe17B+snUiRQyHnGDkmXQ==" iconFile="Data/HeroPack/Fractals/groupGG.png" fadeNear="500" fadeFar="550" heightOffset="1"/>
+		
+		<!-- Cliffside's Markers -->
+		<POI MapID="952" xpos="28.9063" ypos="563.581" zpos="-31.47" type="FractalsOfTheMists.Cliffside.Skip1" GUID="6g3UyuZKaE+xwQZtjKEOhA==" iconFile="Data/HeroPack/Fractals/PortalEnterStealth.png" heightOffset="0" fadeNear="1750" fadeFar="2250" iconSize="0.75"/>
+		<POI MapID="952" xpos="29.8626" ypos="593.286" zpos="-23.1576" type="FractalsOfTheMists.Cliffside.Skip1" GUID="pdXNCnwv3U+BdE3bNOw+mQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
+		
+		<POI MapID="952" xpos="64.2842" ypos="593.03" zpos="96.7851" type="FractalsOfTheMists.Cliffside.Skip2" GUID="0rMXPgdqGk6zn89nFpCYKw==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.75"/>
+		<POI MapID="952" xpos="58.2893" ypos="614.594" zpos="103.089" type="FractalsOfTheMists.Cliffside.Skip2" GUID="x1KlRA0eoUWd9ZF5ucGrTw==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.5"/>
+		<POI MapID="952" xpos="63.7218" ypos="630.829" zpos="104.489" type="FractalsOfTheMists.Cliffside.Skip2" GUID="+7Z2NyX+GUirveUK0Ocbfg==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.5"/>
+		<POI MapID="952" xpos="66.5532" ypos="630.806" zpos="106.4" type="FractalsOfTheMists.Cliffside.Skip2" GUID="YmFq1+jrZEOTJzw1E4bRuQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
+		
+		<POI MapID="952" xpos="55.5988" ypos="668.616" zpos="-11.5716" type="FractalsOfTheMists.Cliffside.Skip3" GUID="MFNW+q4CmEKPXl4L7cv/ew==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.75"/>
+		<POI MapID="952" xpos="63.0969" ypos="690.362" zpos="-31.7456" type="FractalsOfTheMists.Cliffside.Skip3" GUID="0DMnz4d9BE2Inse4u86rlw==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
+		
+		<POI MapID="952" xpos="83.8425" ypos="688.208" zpos="-33.996" type="FractalsOfTheMists.Cliffside.Skip4" GUID="bY15ybLJ0EegXffsyufENg==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
+		<POI MapID="952" xpos="92.9409" ypos="712.236" zpos="-17.7006" type="FractalsOfTheMists.Cliffside.Skip4" GUID="YL0H2eq37E+Ivn8ePXjLMA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="1500" fadeFar="1750" iconSize="0.75"/>
 		
 		<!-- Mistlock Observatory Markers -->
 		<Route name="AlternateJPRoute" BackwardDirection="0" resetposx="116.747" resetposy="239.714" resetposz="-122.934" resetRange="1" MapID="872">

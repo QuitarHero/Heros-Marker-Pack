@@ -23,16 +23,20 @@
 		<POI MapID="1303" xpos="-146.784" ypos="120.173" zpos="306.827" type="Raid.MythwrightGambit.Qadim.Boons" GUID="ypES4xqerEKwOyo2/3QAIA==" iconFile="Data/HeroPack/Raids/Stability.png" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
 		<POI MapID="1303" xpos="-209.289" ypos="120.173" zpos="342.735" type="Raid.MythwrightGambit.Qadim.Boons" GUID="rCgJb/C/IkinIV8wDMFViA==" iconFile="Data/HeroPack/Raids/Protection.png" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
 		<POI MapID="1303" xpos="-209.234" ypos="120.168" zpos="270.859" type="Raid.MythwrightGambit.Qadim.Boons" GUID="RXgkgVpDpE+T4yNwuEtpog==" iconFile="Data/HeroPack/Raids/Retaliation.png" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
-		<Trail trailData="Data/HeroPack/Raids/first qadim trail.trl" texture="Data/HeroPack/Multipurpose/one.png" animSpeed="2" alpha="1" type="Raid.MythwrightGambit.Qadim.Lamp1" fadeNear="10000" fadeFar="20000"/>
-		<Trail trailData="Data/HeroPack/Raids/second qadim trail.trl" texture="Data/HeroPack/Multipurpose/two.png" animSpeed="2" alpha="1" type="Raid.MythwrightGambit.Qadim.Lamp2" fadeNear="10000" fadeFar="20000"/>
-		<Trail trailData="Data/HeroPack/Raids/third qadim trail.trl" texture="Data/HeroPack/Multipurpose/three.png" animSpeed="2" alpha="1" type="Raid.MythwrightGambit.Qadim.Lamp3" fadeNear="10000" fadeFar="20000"/>
 		
-		<!--
-		<POI MapID="1303" xpos="-240.61075" ypos="2.06539" zpos="357.9595" type="Raid.MythwrightGambit.Qadim.Lamp1" GUID="2Y9krt2x/kWrpIpeLIch6A==" iconFile="Data/HeroPack/Raids/OneTwoThree.png"/>
-		<POI MapID="1303" xpos="-205.30225" ypos="2.06539" zpos="357.9495" type="Raid.MythwrightGambit.Qadim.Lamp2" GUID="HwePETOJPEmW+jOZ6LA5lQ==" iconFile="Data/HeroPack/Raids/OneThree.png"/>
-		<POI MapID="1303" xpos="-240.62575" ypos="2.06054" zpos="325.0015" type="Raid.MythwrightGambit.Qadim.Lamp3" GUID="4qkdzxjI5kaiJ7Cw44Xqcg==" iconFile="Data/HeroPack/Raids/Two.png"/>
-		-->
-		
+		<POI MapID="1303" xpos="-240.61075" ypos="2.06539" zpos="357.9595" GUID="2Y9krt2x/kWrpIpeLIch6A==" iconFile="Data/HeroPack/Raids/OneTwoThree.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-205.413" ypos="2.06539" zpos="358.268" GUID="Jx0WcthzMUy918YSdUk9zg==" iconFile="Data/HeroPack/Raids/OneThree.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-239.26" ypos="2.06539" zpos="324.358" GUID="QaoLHUyufkCCy4/32IlW2w==" iconFile="Data/HeroPack/Raids/Two.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-169.766" ypos="2.06539" zpos="357.921" GUID="Fqh3eT+bKkeQgXRveW/1sA==" iconFile="Data/HeroPack/Raids/One.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-205.211" ypos="2.06539" zpos="324.05" GUID="doJWtcErzkeR22nrFdA5Sw==" iconFile="Data/HeroPack/Raids/Three.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-239.204" ypos="2.06539" zpos="289.543" GUID="yx/DV9KpJUOpOXmRaeipQQ==" iconFile="Data/HeroPack/Raids/Two.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-205.29" ypos="2.06055" zpos="288.986" GUID="jxPA517Bp0+mWSjF+loigw==" iconFile="Data/HeroPack/Raids/TwoThree.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-170.293" ypos="2.06539" zpos="324.533" GUID="MItAtydiA0+9ZbxfiGi13w==" iconFile="Data/HeroPack/Raids/One.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-169.973" ypos="2.06054" zpos="289.316" GUID="EGi2jEi8d0ORy/sASrZoTQ==" iconFile="Data/HeroPack/Raids/OneTwo.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-170.237" ypos="2.06054" zpos="256.052" GUID="JbOoMXi4LUWQG3iaSA2SLw==" iconFile="Data/HeroPack/Raids/TwoThree.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-136.69" ypos="2.06054" zpos="289.577" GUID="LsCN1BDyBEOZDcD3tTmfjQ==" iconFile="Data/HeroPack/Raids/One.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-136.43" ypos="2.07065" zpos="255.978" GUID="GQUBgVjYDUaQy1sXujtkTw==" iconFile="Data/HeroPack/Raids/OneTwoThree.png" fadeNear="2000" fadeFar="3000"/>
+		<POI MapID="1303" xpos="-205.546" ypos="2.06189" zpos="256.048" GUID="HhLPCQEdx029RwfoH/x4EA==" iconFile="Data/HeroPack/Raids/Three.png" fadeNear="2000" fadeFar="3000"/>
 		
 	</POIs>
 </OverlayData>
