@@ -7,60 +7,94 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ## Features of this pack:
 
 ### Fractal of the Mists:
-- Markers to show a guideline to my variant of the Aetherblade Skip.
-- Markers for 4 seperate Portal (Speed) Skips for Cliffside.
-- A Route showcasing an alternate route to complete the Mistlock Observatory's Jumping Puzzle (Low gravity is necessary).
-- Markers for a showy spot to avoid Molten Furnace's Tornadoes and an optimized spot to reflect the Weapon Testing's fireballs.
-- Markers showing where Nightmare CM's Scarlet Watchwork spawn during the MAMA fight.
-- Markers to help guide individuals to proper capture points during Ensolyss' phases.
-- A Route showcasing a portal skip to Viirastra.
-- Markers for Solid Ocean's Colossus spawns.
-- Trails to help guide individuals through Thaumanova Reactor's maze.
-- A route to my skip to the 2nd sandblinder in Twilight Oasis (requires portal).
-- A route to my skip to the 3rd sandblinder in Twilight Oasis (requires portal).
-- A trail to a difficult jumping puzzle skip in Uncategorized, skipping the second set of Harpies.
-- A trail to a difficult (unless DD) skip to the 2nd plate in Underground Facility.
-- Markers to optimal markers for a portal skip in Volcanic (requires a good group).
-- A trail + marker on how to safely fall down the cliff to the final boss in Volcanic.
+- **Aetherblade:**
+  - *Markers* for a quick, group coordinated skip for the electric minigame.
+- **Cliffside:**
+  - *Markers* for 4 Portal (Speed) Skips.
+- **Mistlock Observatory:**
+  - *A Route* for an alternate route to complete the Jumping Puzzle (low gravity is necessary).
+- **Molten Furnace:**
+  - *Markers* in the Weapons Testing room to avoid all the Tornadoes and where to reflect the fireballs.
+- **Nightmare (CM):**
+  - *Markers* showing where the Watchwork Knights spawn during the MAMA fight.
+  - *Markers* to orient players as to where the capture points spawn during Ensolyss' phases.
+- **Shattered Observatory:**
+  - *A Route:* showcasing a portal skip to Viirastra (during the ball minigame).
+- **Solid Ocean:**
+  - *Markers* for Colossus spawns.
+- **Thaumanova Reactor:**
+  - *A Trail:* to guide players through the (south) maze.
+- **Twilight Oasis:**
+  - *A Route* for a skip to the 2nd sandblinder (best used with a portal).
+  - *A Route* for a skip to the 3rd sandblinder (best used with a portal).
+- **Uncategorized:**
+  - *A Trail* for a difficult skip (skipping the 2nd set of harpies).
+- **Underground Facility:**
+  - *A Trail* to a difficult (unless Daredevil) skip to the 2nd button (removes the need to go to 1st button).
+- **Volcanic:**
+  - *Markers* for a (speed) portal skip at the beginning (skips running with fire rocks).
+  - *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss.
 
 ### Raids:
 #### Spirit Vale:
-- Timers to Vale Guardian's Speed Mushrooms and Spirit Woods' Adrenal Mushrooms.
-- Two markers to two different spirit spawns during Gorseval's phases.
-- Directional markers to Sabetha's cannons.
-- A timer for Sabetha's cannons.
-- Markers to the various chests in Spirit Vale.
+- **Spirit Woods:**
+  - *Timers* to the capture point area's Adrenal Mushrooms.
+- **Gorseval:**
+  - *Markers* for two spirit spawns during its phase.
+- **Sabetha:**
+  - *Markers* for her cannon locations.
+  - *A Timer* (optional) for her mechanics (cannons)
+- **General:**
+  - *Markers* on the various chests in Spirit Vale.
 #### Salvation Pass:
-- Markers for Slothasor's Mushrooms.
-- An optional timer for Slothasor's Slubling & Mushroom spawns.
-- Markers for Trio's boss spawns, kegs, and beehives.
-- Markers for Matthias' Wells.
-- An optional timer for Matthias' corruption (wells).
-- Markers for various chests in Salvation Pass.
+- **Slothasor:**
+  - *Markers* for its Mushrooms.
+  - *A Timer* (optional) for its mushroom and slubling spawns.
+- **Trio:**
+  - *Markers* for boss spawns and keg & beehive stack points.
+- **Matthias:**
+  - *Markers* for his wells.
+  - *A Timer* (optional) for his corruption applications and the first four sacrifices.
+- **General:**
+  - *Markers* for the various chests in Salvation Pass.
 #### Stronghold of the Faithful:
-- A trail to lead individuals through Escort's cave.
-- A hidden route for a skip to Escort's fourth tower.
-- Markers for Keep Construct's Green Circles.
-- A trail showcasing a skip to the first button for Twisted Castle.
-- Markers for Twisted Castle's buttons (in the order to activate them).
-- Markers for optimal Xera tanking spots (in the ideal order they're taken).
-- Markers for various chests in Stronghold of the Faithful.
+- **Escort:**
+  - *A Trail* to help players navigate the cave.
+  - *A Route* (hidden) for a skip to the fourth tower.
+- **Keep Construct:**
+  - *Markers* for his Green Circles.
+- **Twisted Castle:**
+  - *A Trail* for a skip to the first button (only can be done with certain skills)
+  - *Markers* for the encounter's buttons (in the order to activate them).
+- **Xera:**
+  - *Markers* for tanking spots (in the ideal order they're taken).
+- **General:**
+  - *Markers* for various chests in Stronghold of the Faithful.
 #### Bastion of the Penitent:
-- Optimal markers for proper agony placement in Cairn.
-- A timer for Cairn's Agony Applications.
-- An optional timer for Mursaat Overseer's Dispels.
-- Markers for the location of the orbs to open Samarog's Door.
-- Markers for various chests in Bastion of the Penitent.
+- **Cairn:**
+  - *Markers* for optimal agony placement.
+  - *A Timer* for his agony applications.
+- **Mursaat Overseer:**
+  - *A Timer* (optional) for Dispels.
+- **General:**
+  - *Markers* for the locations of the orbs (rubble) to open Samarog's Door.
+  - *Markers* for various chests in Bastion of the Penitent.
 #### Hall of Chains:
-- Markers to help orient individuals in Soulless Horror.
-- Markers to easily identify orb spawns in the Statue of Darkness.
-- Markers for each of Dhuum's Reapers.
-- An optional timer for Dhuum's mechanics.
-- A poorly made ring of death to assist those doing Greens in Dhuum.
-- Markers for various chests in Hall of Chains.
+- **Soulless Horror:**
+  - *Markers* to help orient players and where to bring her.
+- **Statue of Darkness:**
+  - *Markers* for Light Orb spawns.
+- **Dhuum:**
+  - *Markers* for each of the Reapers.
+  - *A Timer* (optional) for Dhuum's greens, Soul Split, and Dips.
+  - *Markers* creating a border of death for individuals performing the Greens mechanic.
+- **General:**
+  - *Markers* for various chests in Hall of Chains.
 #### Mythwright Gambit:
-- Markers to orient oneself to collect Greatswords and Shields in Conjured Amalgamate.
-- Markers to lead individuals through the most efficient paths for Qadim's lamp.
-- Markers to sort individuals by what boon group they're assigned after a phase.
+- **Conjured Amalgamate:**
+  - *Markers* to orient players as to where to collect Greatswords and Shields.
+- **Qadim:**
+  - *Markers* to lead players through his lamp (efficiently).
+  - *Markers* to sort players to their boon pyre.
 
-Support Discord: https://discord.gg/rCEuzGz
+**Support Discord:** https://discord.gg/rCEuzGz
