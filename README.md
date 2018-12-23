@@ -6,7 +6,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 
 ## Features of this pack:
 
-### Fractal of the Mists:
+## Fractal of the Mists:
 - **Aetherblade:**
   - *Markers* for a quick, group coordinated skip for the electric minigame.
 - **Cliffside:**
@@ -35,8 +35,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for a (speed) portal skip at the beginning (skips running with fire rocks).
   - *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss.
 
-### Raids:
-#### Spirit Vale:
+## Raids:
+### Spirit Vale:
 - **Spirit Woods:**
   - *Timers* to the capture point area's Adrenal Mushrooms.
 - **Gorseval:**
@@ -46,7 +46,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *A Timer* (optional) for her mechanics (cannons)
 - **General:**
   - *Markers* on the various chests in Spirit Vale.
-#### Salvation Pass:
+### Salvation Pass:
 - **Slothasor:**
   - *Markers* for its Mushrooms.
   - *A Timer* (optional) for its mushroom and slubling spawns.
@@ -57,7 +57,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *A Timer* (optional) for his corruption applications and the first four sacrifices.
 - **General:**
   - *Markers* for the various chests in Salvation Pass.
-#### Stronghold of the Faithful:
+### Stronghold of the Faithful:
 - **Escort:**
   - *A Trail* to help players navigate the cave.
   - *A Route* (hidden) for a skip to the fourth tower.
@@ -70,7 +70,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for tanking spots (in the ideal order they're taken).
 - **General:**
   - *Markers* for various chests in Stronghold of the Faithful.
-#### Bastion of the Penitent:
+### Bastion of the Penitent:
 - **Cairn:**
   - *Markers* for optimal agony placement.
   - *A Timer* for his agony applications.
@@ -79,7 +79,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - **General:**
   - *Markers* for the locations of the orbs (rubble) to open Samarog's Door.
   - *Markers* for various chests in Bastion of the Penitent.
-#### Hall of Chains:
+### Hall of Chains:
 - **Soulless Horror:**
   - *Markers* to help orient players and where to bring her.
 - **Statue of Darkness:**
@@ -90,7 +90,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* creating a border of death for individuals performing the Greens mechanic.
 - **General:**
   - *Markers* for various chests in Hall of Chains.
-#### Mythwright Gambit:
+### Mythwright Gambit:
 - **Conjured Amalgamate:**
   - *Markers* to orient players as to where to collect Greatswords and Shields.
 - **Qadim:**
