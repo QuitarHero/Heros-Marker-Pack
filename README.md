@@ -43,7 +43,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for two spirit spawns during its phase.
 - **Sabetha:**
   - *Markers* for her cannon locations.
-  - *A Timer* (optional) for her mechanics (cannons)
+  - *A Timer* (optional) for her mechanics (cannons).
 - **General:**
   - *Markers* on the various chests in Spirit Vale.
 ### Salvation Pass:
@@ -87,7 +87,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - **Dhuum:**
   - *Markers* for each of the Reapers.
   - *A Timer* (optional) for Dhuum's greens, Soul Split, and Dips.
-  - *Markers* creating a border of death for individuals performing the Greens mechanic.
+  - *Markers* creating a border of death for players performing the Greens mechanic.
 - **General:**
   - *Markers* for various chests in Hall of Chains.
 ### Mythwright Gambit:
