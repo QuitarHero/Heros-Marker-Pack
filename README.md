@@ -23,10 +23,11 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - **Solid Ocean:**
   - *Markers* for Colossus spawns.
 - **Thaumanova Reactor:**
-  - *A Trail:* to guide players through the (south) maze.
+  - *Markers* for the 3 panels in the Maze.
+  - *Markers* for a speed portal "skip" from apartments to Subject 6.
 - **Twilight Oasis:**
-  - *A Route* for a skip to the 2nd sandblinder (best used with a portal).
-  - *A Route* for a skip to the 3rd sandblinder (best used with a portal).
+  - *A Route* for a skip to the 2nd sandblinder.
+  - *Markers* for portals for the skip to the 2nd sandblinder.
 - **Uncategorized:**
   - *A Trail* for a difficult skip (skipping the 2nd set of harpies).
 - **Underground Facility:**
@@ -43,13 +44,13 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for two spirit spawns during its phase.
 - **Sabetha:**
   - *Markers* for her cannon locations.
-  - *A Timer* (optional) for her mechanics (cannons).
+  - *A Timer* for her mechanics (cannons).
 - **General:**
   - *Markers* on the various chests in Spirit Vale.
 ### Salvation Pass:
 - **Slothasor:**
   - *Markers* for its Mushrooms.
-  - *A Timer* (optional) for its mushroom and slubling spawns.
+  - *A Timer* for its mushroom and slubling spawns.
 - **Trio:**
   - *Markers* for boss spawns and keg & beehive stack points.
 - **Matthias:**
