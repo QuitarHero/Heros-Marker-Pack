@@ -7,8 +7,6 @@
 			</MarkerCategory>
 			<MarkerCategory name="Gorseval"/>
 			<MarkerCategory name="Sabetha">
-				<MarkerCategory name="Directions"/>
-				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png"/>
 			</MarkerCategory>
 			<MarkerCategory name="Chests"/>
 		</MarkerCategory>
@@ -27,11 +25,10 @@
 		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SpiritVale.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Raids/circle.png" fadeNear="3500" fadeFar="4000"/>
 		
 		<!-- Sabetha's Markers -->
-		<POI MapID="1062" xpos="-126.917" ypos="62.9524" zpos="111.433" type="Raid.SpiritVale.Sabetha.Directions" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/north.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-132.693" ypos="62.9657" zpos="56.4836" type="Raid.SpiritVale.Sabetha.Directions" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/south.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-101.375" ypos="63.0427" zpos="81.268" type="Raid.SpiritVale.Sabetha.Directions" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-157.841" ypos="62.273" zpos="86.823" type="Raid.SpiritVale.Sabetha.Directions" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-110.567" ypos="62.5931" zpos="104.443" type="Raid.SpiritVale.Sabetha.Timer" GUID="L2ajWOu9YUaXDrV2vHZgew==" iconFile="Data/HeroPack/Raids/starttimer.png" fadeNear="3000" fadeFar="2500" heightOffset="0"/>
+		<POI MapID="1062" xpos="-126.917" ypos="62.9524" zpos="111.433" type="Raid.SpiritVale.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/north.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
+		<POI MapID="1062" xpos="-132.693" ypos="62.9657" zpos="56.4836" type="Raid.SpiritVale.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/south.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
+		<POI MapID="1062" xpos="-101.375" ypos="63.0427" zpos="81.268" type="Raid.SpiritVale.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
+		<POI MapID="1062" xpos="-157.841" ypos="62.273" zpos="86.823" type="Raid.SpiritVale.Sabetha" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
 		
 		<!-- Spirit Vale's Chests -->
 		<POI MapID="1062" xpos="-125.512" ypos="30.6309" zpos="-223.008" type="Raid.SpiritVale.Chests" GUID="Cw8mcIvoSUWFcJM/ErVp1Q==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1000" fadeFar="1500"/>

@@ -28,16 +28,20 @@
 		</MarkerCategory>
 		<MarkerCategory name="ThaumanovaReactor" DisplayName="Thaumanova Reactor">
 			<MarkerCategory name="Maze" DisplayName="Maze"/>
+			<MarkerCategory name="Portal" DisplayName="Speed Portal to Subject 6"/>
 		</MarkerCategory>
 		<MarkerCategory name="TwilightOasis" DisplayName="Twilight Oasis">
-			<MarkerCategory name="SkipTo2ndMiniboss" DisplayName="Skip to 2nd Sandblinder"/>
-			<MarkerCategory name="SkipTo3rdMiniboss" DisplayName="Skip to 3rd Sandblinder"/>
+			<MarkerCategory name="SecondSandblinderPath" DisplayName="2nd Sandblinder Skip Path"/>
+			<MarkerCategory name="SecondSandblinderPortal" DisplayName="2nd Sandblinder Portals"/>
 		</MarkerCategory>
 		<MarkerCategory name="Uncategorized">
 			<MarkerCategory name="HarpySkip" DisplayName="Harpy Skip"/>
 		</MarkerCategory>
 		<MarkerCategory name="UndergroundFacility" DisplayName="Underground Facility">
 			<MarkerCategory name="PlateSkip" DisplayName="2nd Plate Skip"/>
+		</MarkerCategory>
+		<MarkerCategory name="UrbanBattlegrounds" DisplayName="Urban Battlegrounds">
+			<MarkerCategory name="OilBorder" DisplayName="Burning Oil Trigger Line"/>
 		</MarkerCategory>
 		<MarkerCategory name="Volcanic">
 			<MarkerCategory name="Portal" iconFile="Data/stack.png"/>
@@ -112,24 +116,27 @@
 		<POI MapID="958" xpos="738.195" ypos="587.885" zpos="819.331" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="qaJzH5kbLEqopYySdAFJbw==" iconFile="Data/HeroPack/Multipurpose/ten.png" fadeNear="3500" fadeFar="4000"/>
 		
 		<!-- Thaumanova Reactor's Trails and Markers -->
-		<Trail trailData="Data/HeroPack/Fractals/TR maze.trl" texture="Data/HeroPack/Fractals/trMazeTrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.ThaumanovaReactor.Maze" fadeNear="750" fadeFar="1000"/>
 		<POI MapID="957" xpos="-3.01448" ypos="37.3142" zpos="-214.196" type="FractalsOfTheMists.ThaumanovaReactor.Maze" GUID="RM53JibWak6Mu3tmiFVNhw==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="3250" fadeFar="3500"/>
 		<POI MapID="957" xpos="-52.7573" ypos="36.4647" zpos="-192.484" type="FractalsOfTheMists.ThaumanovaReactor.Maze" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="3250" fadeFar="3500"/>
 		<POI MapID="957" xpos="-18.9275" ypos="39.5972" zpos="-230.494" type="FractalsOfTheMists.ThaumanovaReactor.Maze" GUID="8jv47sgfbkmfME22/3LvqQ==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="3250" fadeFar="3500"/>
+		<POI MapID="957" xpos="134.845" ypos="22.4457" zpos="114.548" type="FractalsOfTheMists.ThaumanovaReactor.Portal" GUID="lGx15a7kx0WpH83FFFdq3A==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" fadeNear="1250" fadeFar="1750" heightOffset="0.5" iconSize="0.75"/>
+		<POI MapID="957" xpos="138.905" ypos="21.5895" zpos="15.4928" type="FractalsOfTheMists.ThaumanovaReactor.Portal" GUID="jRFM1oCAF0SUWpEQErqKaA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="1000" fadeFar="1500" heightOffset="0.5" iconSize="0.75"/>
 		
-		<!-- Twilight Oasis' Routes -->
-		<Route name="SkipTo2ndMiniboss" BackwardDirection="0" resetposx="43.1469" resetposy="40.3094" resetposz="90.2181" resetRange="3" MapID="1267">
-			<POI MapID="1267" xpos="43.1469" ypos="40.3094" zpos="90.2181" type="FractalsOfTheMists.TwilightOasis.SkipTo2ndMiniboss" GUID="D7BRp+GAA0me/mpdQuWoiw==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="350" fadeFar="600"/>
-			<POI MapID="1267" xpos="52.54" ypos="49.7237" zpos="94.5491" type="FractalsOfTheMists.TwilightOasis.SkipTo2ndMiniboss" GUID="Rgh1yBQl3kOw+n+W9RUjkQ==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
-			<POI MapID="1267" xpos="64.7208" ypos="49.7236" zpos="105.896" type="FractalsOfTheMists.TwilightOasis.SkipTo2ndMiniboss" GUID="Kj5ub7TSYUKhwu5rjhllKg==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
-			<POI MapID="1267" xpos="68.5931" ypos="56.3863" zpos="114.54" type="FractalsOfTheMists.TwilightOasis.SkipTo2ndMiniboss" GUID="skdD+JgdLkyQkHuUyPqMwA==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="1000"/>
-			<POI MapID="1267" xpos="72.2486" ypos="63.8358" zpos="118.78" type="FractalsOfTheMists.TwilightOasis.SkipTo2ndMiniboss" GUID="dsXx8P7mmEu3LJ/F2W8law==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
+		<!-- Twilight Oasis' Route and Markers -->
+		<POI MapID="1267" xpos="37.0486" ypos="42.0646" zpos="75.9669" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPortal" GUID="vuBCfqJ8h0yRqPAqrbkzRg==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" heightOffset="0.5" iconSize="0.75" fadeNear="1250" fadeFar="1500"/>
+		<Route name="SecondSandblinderPath" BackwardDirection="0" resetposx="43.1469" resetposy="40.3094" resetposz="90.2181" resetRange="3" MapID="1267">
+			<POI MapID="1267" xpos="43.1469" ypos="40.3094" zpos="90.2181" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="D7BRp+GAA0me/mpdQuWoiw==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
+			<POI MapID="1267" xpos="52.54" ypos="49.7237" zpos="94.5491" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="Rgh1yBQl3kOw+n+W9RUjkQ==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
+			<POI MapID="1267" xpos="64.7208" ypos="49.7236" zpos="105.896" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="Kj5ub7TSYUKhwu5rjhllKg==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
+			<POI MapID="1267" xpos="68.5931" ypos="56.3863" zpos="114.54" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="skdD+JgdLkyQkHuUyPqMwA==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="1000"/>
+			<POI MapID="1267" xpos="72.2486" ypos="63.8358" zpos="118.78" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="dsXx8P7mmEu3LJ/F2W8law==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
+			<POI MapID="1267" xpos="84.428" ypos="55.4647" zpos="126.834" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="l69oFbgBx0aQWOesS41beQ==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="1000"/>
+			<POI MapID="1267" xpos="102.037" ypos="44.668" zpos="120.768" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="6afibBGzK0KAGuJGKwhQ6g==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1250" fadeFar="1500"/>
+			<POI MapID="1267" xpos="110.311" ypos="55.9313" zpos="119.15" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="UBbR0CVB+0m/bK4EGAcM8Q==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1250" fadeFar="1500"/>
+			<POI MapID="1267" xpos="125.116" ypos="36.7678" zpos="111.594" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="KmSgfDIkzkes7eWXEbyQ2w==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1250" fadeFar="1500"/>
+			<POI MapID="1267" xpos="135.436" ypos="45.9942" zpos="104.532" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="c6lREZ5irEC/uGUmD4xu5A==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
 		</Route>
-		<Route name="SkipTo3rdMiniboss" BackwardDirection="0" resetposx="101.811" resetposy="44.6781" resetposz="121.166" resetRange="3" MapID="1267">
-			<POI MapID="1267" xpos="101.811" ypos="44.6781" zpos="121.166" type="FractalsOfTheMists.TwilightOasis.SkipTo3rdMiniboss" GUID="dTwaHF6n8ESdtYGVKUvzGQ==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="350" fadeFar="600"/>
-			<POI MapID="1267" xpos="108.457" ypos="54.4426" zpos="119.739" type="FractalsOfTheMists.TwilightOasis.SkipTo3rdMiniboss" GUID="cxRmIFmXuUOLWn6+cL+OYg==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="1000"/>
-			<POI MapID="1267" xpos="131.48" ypos="45.9984" zpos="111.583" type="FractalsOfTheMists.TwilightOasis.SkipTo3rdMiniboss" GUID="WhUiTdofQEu9vyxyiwjLrw==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset=".5" iconSize=".5" fadeNear="1500" fadeFar="1750"/>
-		</Route>
+		<POI MapID="1267" xpos="134.683" ypos="45.995" zpos="101.341" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPortal" GUID="60DW0omH1ky1wokPoLXtNA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0.5" iconSize="0.75" fadeNear="1250" fadeFar="1500"/>
 		
 		<!-- Uncategorized's Trail -->
 		<Trail trailData="Data/HeroPack/Fractals/uncat trail.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.Uncategorized.HarpySkip" fadeNear="750" fadeFar="1000"/>
@@ -137,6 +144,9 @@
 		<!-- Underground Facility's Trails & Markers -->
 		<POI MapID="953" xpos="692.992" ypos="25.5082" zpos="391.388" type="FractalsOfTheMists.UndergroundFacility.PlateSkip" GUID="LXe2Q6cMIkqgoVz1mU0okw==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="-1" iconSize=".5" fadeNear="750" fadeFar="1000"/>
 		<Trail trailData="Data/HeroPack/Fractals/facility skip.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.UndergroundFacility.PlateSkip" fadeNear="750" fadeFar="1000"/>
+		
+		<!-- Urban Battleground's Trail -->
+		<Trail trailData="Data/HeroPack/Fractals/UB Oils.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.UrbanBattlegrounds.OilBorder" fadeNear="1000" fadeFar="1500"/>
 		
 		<!-- Volcanic's Trails and Markers -->
 		<POI MapID="954" xpos="348.928" ypos="82.7975" zpos="-716.983" type="FractalsOfTheMists.Volcanic.Portal" GUID="4bFCZMjeJESnDAfAWNvqSA==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" fadeNear="400" fadeFar="600" heightOffset="0" iconSize=".6"/>

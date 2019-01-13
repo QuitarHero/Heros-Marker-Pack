@@ -24,7 +24,7 @@
 		<POI MapID="1149" xpos="174.536" ypos="2.41479" zpos="-10.0162" type="Raid.SalvationPass.Slothasor.Mushrooms" GUID="FYA1LPmOl0SeX4qUTWMoyw==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="3250" fadeFar="3500"/>
 		<POI MapID="1149" xpos="192.923" ypos="0.846338" zpos="-35.958" type="Raid.SalvationPass.Slothasor.Mushrooms" GUID="y/MQHT7wCkagUkPZlpFa6A==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="3250" fadeFar="3500"/>
 		<POI MapID="1149" xpos="224.968" ypos="-0.177503" zpos="-13.498" type="Raid.SalvationPass.Slothasor.Mushrooms" GUID="K4lINKdqcEeKpuQMv9sU1g==" iconFile="Data/HeroPack/Multipurpose/four.png" fadeNear="3250" fadeFar="3500"/>
-		<POI MapID="1149" xpos="222.17" ypos="8.39545" zpos="32.7283" type="Raid.SalvationPass.Slothasor.Timer" GUID="eTHOv08Ac0+pw2C5WxJIwQ==" iconFile="Data/HeroPack/Raids/starttimer.png" fadeNear="3250" fadeFar="3500" heightOffset="0"/>
+		<POI MapID="1149" xpos="208.917" ypos="5.23024" zpos="26.3968" type="Raid.SalvationPass.Slothasor.Timer" GUID="B2NAEktjV0mh7E8YQ8TkgQ==" iconFile="Data/HeroPack/Raids/starttimer.png" fadeNear="3250" fadeFar="3500" heightOffset="0"/>
 	
 		<!-- Trio's Markers -->
 		<POI MapID="1149" xpos="-1.95322" ypos="1.53214" zpos="-235.489" type="Raid.SalvationPass.Trio.BossSpawns" GUID="eoxxKScsskiX+qOPk1EYdQ==" iconFile="Data/HeroPack/Raids/arrow.png" behavior="0" fadeNear="4500" fadeFar="4750" autoTrigger="true" triggerRange="10"/>
