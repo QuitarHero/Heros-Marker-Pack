@@ -31,7 +31,7 @@
 	<Event Name="Palawadan" Length="30" Color="80534260"/>
   </Map>
   <Map Name="Thunderhead Peaks" Length="120" Start="45" id="tp">
-    <Event Name="The Oil Slicks" Length="20" Color="80aaaaaa"/>
+    <Event Name="The Oil Floes" Length="20" Color="80aaaaaa"/>
 	<Event Name="Regular" Length="40" Color="80dddddd"/>
 	<Event Name="Thunderhead Keep" Length="20" Color="80aaaaaa"/>
 	<Event Name="Regular" Length="40" Color="80dddddd"/>
