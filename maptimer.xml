@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GW2MapTimer>
+  <Map Name="Daytime" Length="120" Start="30" id="daytime">
+    <Event Name="Daytime" Length="75" Color="80ffdc51"/>
+    <Event Name="Night" Length="45" Color="80565656"/>
+  </Map>
+  <Map Name="Verdant Brink" Length="120" Start="30" id="vb">
+    <Event Name="Daytime" Length="75" Color="80c4e2a5"/>
+    <Event Name="Night" Length="25" Color="8084c147"/>
+    <Event Name="Bosses" Length="20" Color="806dac2f"/>
+  </Map>
+  <Map Name="Auric Basin" Length="120" Start="60" id="ab">
+    <Event Name="Octovine" Length="20" Color="80eab700"/>
+    <Event Name="Loot" Length="10" Color="80fff1c1"/>
+    <Event Name="Pillars" Length="75" Color="80ffe37f"/>
+    <Event Name="Challenges" Length="15" Color="80ffd53d"/>
+  </Map>
+  <Map Name="Tangled Depths" Length="120" Start="50" id="td">
+    <Event Name="Help the outposts" Length="100" Color="80ffd7d7"/>
+    <Event Name="Chak Gerent" Length="20" Color="80ff9999"/>
+  </Map>
+  <Map Name="Dragon's Stand" Length="120" Start="90" id="ds">
+    <Event Name="Starts again in..." Length="120" Color="805f8caa"/>
+  </Map>
+  <Map Name="Desert Highlands" Length="120" Start="80" id="dh">
+	<Event Name="Regular" Length="100" Color="80ddd7a6"/>
+	<Event Name="Buried Treasure" Length="20" Color="80ded98a"/>
+  </Map>
+  <Map Name="Domain of Istan" Length="120" Start="15" id="doi">
+    <Event Name="Sunspear Uprising" Length="90" Color="809280a0"/>
+	<Event Name="Palawadan" Length="30" Color="80534260"/>
+  </Map>
+  <Map Name="Thunderhead Peaks" Length="120" Start="45" id="tp">
+    <Event Name="The Oil Slicks" Length="20" Color="80aaaaaa"/>
+	<Event Name="Regular" Length="40" Color="80dddddd"/>
+	<Event Name="Thunderhead Keep" Length="20" Color="80aaaaaa"/>
+	<Event Name="Regular" Length="40" Color="80dddddd"/>
+  </Map>
+</GW2MapTimer>
