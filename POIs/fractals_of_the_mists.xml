@@ -92,7 +92,7 @@
 		
 		<POI MapID="1177" xpos="32.7043" ypos="44.6368" zpos="25.6605" type="FractalsOfTheMists.Nightmare.Orbs" GUID="DijNR9RjrU2qeI58A1CaHQ==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
 		<POI MapID="1177" xpos="28.2628" ypos="44.6375" zpos="40.2083" type="FractalsOfTheMists.Nightmare.Orbs" GUID="fs8EMCk4Z0O5+SpXk384Ww==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
-		<POI MapID="1177" xpos="41.0741" ypos="44.6372" zpos="49.0661" type="FractalsOfTheMists.Nightmare.Orbs" GUID="2I2VcNI2vEezT6b7D8zQew==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
+		<POI MapID="1177" xpos="41.0741" ypos="44.6372" zpos="49.0661" type="FractalsOfTheMists.Nightmare.Orbs" GUID="2I2VcNI2vEezT6b7D8zQew==" iconFile="Data/HeroPack/Fractals/fotm n ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
 		<POI MapID="1177" xpos="53.6736" ypos="44.6364" zpos="40.2005" type="FractalsOfTheMists.Nightmare.Orbs" GUID="hWKe8oFIf0WLkb3oEmos0A==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
 		<POI MapID="1177" xpos="48.1348" ypos="44.6364" zpos="26.1157" type="FractalsOfTheMists.Nightmare.Orbs" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
 		
