@@ -1,6 +1,6 @@
 <timers>
-	<areatriggeredtimer mapid="1062" enterspherex="-110.567" enterspherey="62.5931" enterspherez="104.443" entersphererad="2" exitspherex="-110.567" exitspherey="62.5931" exitspherez="104.443" exitsphererad="100" length="540" resetpointx="-59.5703" resetpointy="72.231" resetpointz="192.469" startdelay="-1">
-		<timeevent text="Start" timestamp="1" countdown="0" onscreentime="2"/>
+	<areatriggeredtimer mapid="1062" enterspherex="-130.039" enterspherey="62.4019" enterspherez="83.7634" entersphererad="30" exitspherex="-130.039" exitspherey="62.4019" exitspherez="83.7634" exitsphererad="105" length="540" resetpointx="-59.5703" resetpointy="72.231" resetpointz="192.469" startdelay="0">
+		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="2"/>
 		<timeevent text="SOUTH (1)" timestamp="35" countdown="30" onscreentime="0"/>
 		<timeevent text="WEST (2)" timestamp="65" countdown="30" onscreentime="0"/>
 		<timeevent text="NORTH (1)" timestamp="95" countdown="30" onscreentime="0"/>
@@ -19,36 +19,36 @@
 		<timeevent text="EAST (2)" timestamp="485" countdown="30" onscreentime="0"/>
 		<timeevent text="SOUTH (1)" timestamp="515" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer>
-	<areatriggeredtimer mapid="1149" enterspherex="202.725" enterspherey="6.28561" enterspherez="31.0064" entersphererad="1" exitspherex="202.725" exitspherey="6.28561" exitspherez="31.0064" exitsphererad="90" length="420" startdelay="1">
-		<timeevent text="Start" timestamp="0" countdown="2"/>
-		<timeevent text="Slubling Spawning" timestamp="30" countdown="30" onscreentime="0"/>
+	<areatriggeredtimer mapid="1149" enterspherex="208.917" enterspherey="5.23024" enterspherez="26.3968" entersphererad="1" exitspherex="208.917" exitspherey="5.23024" exitspherez="26.3968" exitsphererad="90" length="420" startdelay="0">
+		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="1"/>
+		<timeevent text="Slublings Spawn" timestamp="30" countdown="30" onscreentime="0"/>
 		<timeevent text="2nd Mushroom" timestamp="50" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="60" countdown="30" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="90" countdown="30" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="60" countdown="30" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="90" countdown="30" onscreentime="0"/>
 		<timeevent text="3rd Mushroom" timestamp="100" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="120" countdown="30" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="150" countdown="30" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="120" countdown="30" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="150" countdown="30" onscreentime="0"/>
 		<timeevent text="4th Mushroom" timestamp="150" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="180" countdown="30" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="180" countdown="30" onscreentime="0"/>
 		<timeevent text="1st Mushroom" timestamp="200" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="200" countdown="20" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="220" countdown="20" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="240" countdown="20" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="200" countdown="20" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="220" countdown="20" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="240" countdown="20" onscreentime="0"/>
 		<timeevent text="2nd Mushroom" timestamp="250" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="260" countdown="20" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="280" countdown="20" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="300" countdown="20" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="260" countdown="20" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="280" countdown="20" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="300" countdown="20" onscreentime="0"/>
 		<timeevent text="3rd Mushroom" timestamp="300" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="315" countdown="15" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="330" countdown="15" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="345" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="315" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="330" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="345" countdown="15" onscreentime="0"/>
 		<timeevent text="4th Mushroom" timestamp="350" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="360" countdown="15" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="375" countdown="15" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="390" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="360" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="375" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="390" countdown="15" onscreentime="0"/>
 		<timeevent text="1st Mushroom" timestamp="400" countdown="50" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="405" countdown="15" onscreentime="0"/>
-		<timeevent text="Slubling Spawning" timestamp="420" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="405" countdown="15" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="420" countdown="15" onscreentime="0"/>
 	</areatriggeredtimer>
 	<areatriggeredtimer mapid="1149" enterspherex="-181.45" enterspherey="131.523" enterspherez="155.317" entersphererad="1" exitspherex="-181.45" exitspherey="131.523" exitspherez="155.317" exitsphererad="65" length="600" resetpointx="-65.7187" resetpointy="109.563" resetpointz="79.9329" startdelay="2">
 		<timeevent text="Start" timestamp="-2" countdown="0" onscreentime="2"/>
