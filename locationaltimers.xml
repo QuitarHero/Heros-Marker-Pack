@@ -1,5 +1,5 @@
 <timers>
-	<areatriggeredtimer mapid="1062" enterspherex="-130.039" enterspherey="62.4019" enterspherez="83.7634" entersphererad="30" exitspherex="-130.039" exitspherey="62.4019" exitspherez="83.7634" exitsphererad="105" length="540" resetpointx="-59.5703" resetpointy="72.231" resetpointz="192.469" startdelay="0">
+	<areatriggeredtimer mapid="1062" enterspherex="-130.039" enterspherey="62.4019" enterspherez="83.7634" entersphererad="30" exitspherex="-130.039" exitspherey="62.4019" exitspherez="83.7634" exitsphererad="115" length="540" resetpointx="-59.5703" resetpointy="72.231" resetpointz="192.469" startdelay="0">
 		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="2"/>
 		<timeevent text="SOUTH (1)" timestamp="35" countdown="30" onscreentime="0"/>
 		<timeevent text="WEST (2)" timestamp="65" countdown="30" onscreentime="0"/>
