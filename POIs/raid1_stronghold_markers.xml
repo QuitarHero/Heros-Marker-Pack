@@ -46,8 +46,8 @@
 		<POI MapID="1156" xpos="-106.872" ypos="138.071" zpos="-27.2099" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="HrP/GT7ubU6EeLbHeB2mhw==" iconFile="Data/HeroPack/Fractals/PortalExit.png" iconSize="0.5" heightOffset="0" fadeNear="2500" fadeFar="3000"/>
 		<POI MapID="1156" xpos="-116.015" ypos="138.07" zpos="-34.4197" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="CrsCWpeTw0WAd94BIKVweA==" iconFile="Data/HeroPack/Raids/tc door 3.png" iconSize="0.75" heightOffset="0.5" fadeNear="1750" fadeFar="2250"/>
 		<POI MapID="1156" xpos="-8.57436" ypos="192.755" zpos="-12.7984" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="vj0iXFAXJ0O6XIiwv5e0BQ==" iconFile="Data/HeroPack/Raids/tc locked 3.png" iconSize="0.75" heightOffset="0.5" fadeNear="2500" fadeFar="3000"/>
-		<POI MapID="1156" xpos="-178.856" ypos="201.627" zpos="30.1966" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="EBJqJD8YJ06CFgykCTGJzg==" iconFile="Data/HeroPack/Raids/tc locked 5.png" iconSize="0.75" heightOffset="0.5" fadeNear="2500" fadeFar="3000"/>
-		<POI MapID="1156" xpos="-179.504" ypos="201.73" zpos="-10.2901" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="DbSwUSuAK0au7TUjxxkpMw==" iconFile="Data/HeroPack/Raids/tc locked 4.png" iconSize="0.75" heightOffset="0.5" fadeNear="2500" fadeFar="3000"/>
+		<POI MapID="1156" xpos="-178.856" ypos="201.627" zpos="30.1966" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="EBJqJD8YJ06CFgykCTGJzg==" iconFile="Data/HeroPack/Raids/tc locked 4.png" iconSize="0.75" heightOffset="0.5" fadeNear="2500" fadeFar="3000"/>
+		<POI MapID="1156" xpos="-179.504" ypos="201.73" zpos="-10.2901" type="Raid.StrongholdOfTheFaithful.TwistedCastle.P_Buttons" GUID="DbSwUSuAK0au7TUjxxkpMw==" iconFile="Data/HeroPack/Raids/tc locked 5.png" iconSize="0.75" heightOffset="0.5" fadeNear="2500" fadeFar="3000"/>
 		
 		<!-- Xera's Markers -->
 		<POI MapID="1156" xpos="-55.5242" ypos="512.354" zpos="-92.326" type="Raid.StrongholdOfTheFaithful.Xera" GUID="sj40sryhwUiOQ2gCcaI1MQ==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="2500" fadeFar="3000"/>
