@@ -30,8 +30,8 @@
 		<POI MapID="1149" xpos="-1.95322" ypos="1.53214" zpos="-235.489" type="Raid.SalvationPass.Trio.BossSpawns" GUID="eoxxKScsskiX+qOPk1EYdQ==" iconFile="Data/HeroPack/Raids/arrow.png" behavior="0" fadeNear="4500" fadeFar="4750" autoTrigger="true" triggerRange="10"/>
 		<POI MapID="1149" xpos="-0.567632" ypos="1.01967" zpos="-290.812" type="Raid.SalvationPass.Trio.BossSpawns" GUID="uF937Qyrt0qXElHSMUW5nw==" iconFile="Data/HeroPack/Raids/circle.png" fadeNear="4500" fadeFar="4750"/>
 		<POI MapID="1149" xpos="-32.9359" ypos="5.87644" zpos="-221.024" type="Raid.SalvationPass.Trio.BossSpawns" GUID="yrpc6HFBLUa1dwelKFK/vQ==" iconFile="Data/HeroPack/Raids/heart.png" fadeNear="4500" fadeFar="4750"/>
-		<POI MapID="1149" xpos="-30.5065" ypos="3.97447" zpos="-238.025" type="Raid.SalvationPass.Trio.OilStack" GUID="/3CTOpcuskeYgQorlQ/0IQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeNear="4500" fadeFar="4750" heightOffset=".5" minSize="128x128" maxSize="16x16"/>
-		<POI MapID="1149" xpos="-32.1932" ypos="15.1371" zpos="-208.824" type="Raid.SalvationPass.Trio.BeehiveStack" GUID="3jovEtVOQkmKPuQALsyBBQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeNear="4500" fadeFar="4750" heightOffset=".5" minSize="128x128" maxSize="16x16"/>
+		<POI MapID="1149" xpos="-30.5065" ypos="3.97447" zpos="-238.025" type="Raid.SalvationPass.Trio.BeehiveStack" GUID="/3CTOpcuskeYgQorlQ/0IQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeNear="4500" fadeFar="4750" heightOffset=".5" minSize="128x128" maxSize="16x16"/>
+		<POI MapID="1149" xpos="-32.1932" ypos="15.1371" zpos="-208.824" type="Raid.SalvationPass.Trio.OilStack" GUID="3jovEtVOQkmKPuQALsyBBQ==" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeNear="4500" fadeFar="4750" heightOffset=".5" minSize="128x128" maxSize="16x16"/>
   
 		<!-- Matthias' Markers -->
 		<POI MapID="1149" xpos="-173.504" ypos="131.625" zpos="126.676" type="Raid.SalvationPass.Matthias.Wells" GUID="pCa90+bN6k2VQkym8Ova6w==" iconFile="Data/HeroPack/Raids/arrow.png" fadeNear="2500" fadeFar="3000" heightOffset="2"/>
