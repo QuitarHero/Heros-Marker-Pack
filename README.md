@@ -27,6 +27,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* to orient players as to where the capture points spawn during Ensolyss' phases.
 - **Shattered Observatory:**
   - *A Route:* showcasing a portal skip to Viirastra (during the ball minigame).
+  - *Markers* to orient players in the Arkk fight.
 - **Solid Ocean:**
   - *Markers* for Colossus spawns.
 - **Thaumanova Reactor:**
@@ -36,7 +37,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *A Route* for a skip to the 2nd sandblinder.
   - *Markers* for portals for the skip to the 2nd sandblinder.
 - **Uncategorized:**
-  - *A Trail* for a difficult skip (skipping the 2nd set of harpies).
+  - *A Trail* for a difficult skip (skipping the second set of harpies).
+  - *Markers* for an alternative skip to the above skip (skipping the second set of harpies, requiring a leap).
 - **Underground Facility:**
   - *A Trail* to a difficult (unless Daredevil) skip to the 2nd button (removes the need to go to 1st button).
 - **Volcanic:**
@@ -47,6 +49,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ### Spirit Vale:
 - **Spirit Woods:**
   - *Timers* to the capture point area's Adrenal Mushrooms.
+  - *Trails* showcasing Spirit Run's Capture Point Triggers (WIP).
 - **Gorseval:**
   - *Markers* for two spirit spawns during its phase.
 - **Sabetha:**
