@@ -22,6 +22,7 @@
 		</MarkerCategory>
 		<MarkerCategory name="ShatteredObservatory" DisplayName="Shattered Observatory">
 			<MarkerCategory name="SkipToVirastra" DisplayName="Skip To Virastra"/>
+			<MarkerCategory name="Arkk" DisplayName="Arkk Directions"/>
 		</MarkerCategory>
 		<MarkerCategory name="SolidOcean" DisplayName="Solid Ocean">
 			<MarkerCategory name="ColossusSpawns" DisplayName="Jade Colossus Spawns"/>
@@ -35,7 +36,8 @@
 			<MarkerCategory name="SecondSandblinderPortal" DisplayName="2nd Sandblinder Portals"/>
 		</MarkerCategory>
 		<MarkerCategory name="Uncategorized">
-			<MarkerCategory name="HarpySkip" DisplayName="Harpy Skip"/>
+			<MarkerCategory name="JpSkip" DisplayName="Harpy JP Skip"/>
+			<MarkerCategory name="LeapSkip" DisplayName="Harpy Leap Skip"/>
 		</MarkerCategory>
 		<MarkerCategory name="UndergroundFacility" DisplayName="Underground Facility">
 			<MarkerCategory name="PlateSkip" DisplayName="2nd Plate Skip"/>
@@ -102,6 +104,10 @@
 			<POI MapID="1205" xpos="331.75" ypos="111.834" zpos="90.7721" type="FractalsOfTheMists.ShatteredObservatory.SkipToVirastra" GUID="qtKVAC3yhU2uaEFf4bWp+g==" iconFile="Data/HeroPack/Fractals/skip.png" iconSize=".75" fadeNear="750" fadeFar="1000"/>
 			<POI MapID="1205" xpos="293.118" ypos="115.052" zpos="67.3484" type="FractalsOfTheMists.ShatteredObservatory.SkipToVirastra" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize="1" fadeNear="2000" fadeFar="3000"/>
 		</Route>
+		<POI MapID="1205" xpos="-455.425" ypos="72.8774" zpos="-398.342" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" iconFile="Data/HeroPack/Multipurpose/north.png" fadeNear="2750" fadeFar="3000"/>
+		<POI MapID="1205" xpos="-424.33" ypos="72.8811" zpos="-429.535" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="KyDTNWNN9kGRYKUbq9HUjw==" iconFile="Data/HeroPack/Multipurpose/east.png" fadeNear="2750" fadeFar="3000"/>
+		<POI MapID="1205" xpos="-455.334" ypos="72.8811" zpos="-460.629" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="XFRHjzwReEK2vd2B3wF75A==" iconFile="Data/HeroPack/Multipurpose/south.png" fadeNear="2750" fadeFar="3000"/>
+		<POI MapID="1205" xpos="-486.53" ypos="72.8811" zpos="-429.453" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="rs/YBaonHEGS4Ce9VgFv5A==" iconFile="Data/HeroPack/Multipurpose/west.png" fadeNear="2750" fadeFar="3000"/>
 		
 		<!-- Solid Ocean's Markers -->
 		<POI MapID="958" xpos="770.913" ypos="587.657" zpos="823.828" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="W7kOZYbknku8PBOHjicXWQ==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="3500" fadeFar="4000"/>
@@ -139,7 +145,9 @@
 		<POI MapID="1267" xpos="134.683" ypos="45.995" zpos="101.341" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPortal" GUID="60DW0omH1ky1wokPoLXtNA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0.5" iconSize="0.75" fadeNear="1250" fadeFar="1500"/>
 		
 		<!-- Uncategorized's Trail -->
-		<Trail trailData="Data/HeroPack/Fractals/uncat trail.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.Uncategorized.HarpySkip" fadeNear="750" fadeFar="1000"/>
+		<Trail trailData="Data/HeroPack/Fractals/uncat trail.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.Uncategorized.JPSkip" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="947" xpos="-825.045" ypos="843.757" zpos="-729.421" type="FractalsOfTheMists.Uncategorized.LeapSkip" GUID="Mr/yCDE/n06e8w9vz/bC8g==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset="0.25" iconSize=".35" fadeNear="1500" fadeFar="1750"/>
+		<POI MapID="947" xpos="-844.347" ypos="856.572" zpos="-707.482" type="FractalsOfTheMists.Uncategorized.LeapSkip" GUID="y/A1JLvboU6goza818v4rg==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="0.5" iconSize="0.5" fadeNear="1500" fadeFar="1750"/>
 		
 		<!-- Underground Facility's Trails & Markers -->
 		<POI MapID="953" xpos="692.992" ypos="25.5082" zpos="391.388" type="FractalsOfTheMists.UndergroundFacility.PlateSkip" GUID="LXe2Q6cMIkqgoVz1mU0okw==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="-1" iconSize=".5" fadeNear="750" fadeFar="1000"/>
