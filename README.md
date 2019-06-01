@@ -67,7 +67,6 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for the various chests in Salvation Pass.
 ### Stronghold of the Faithful:
 - **Escort:**
-  - *A Trail* to help players navigate the cave.
   - *A Route* (hidden) for a skip to the fourth tower.
 - **Keep Construct:**
   - *Markers* for his Green Circles.
