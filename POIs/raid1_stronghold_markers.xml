@@ -2,7 +2,6 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="StrongholdOfTheFaithful" DisplayName="Stronghold of the Faithful">
 			<MarkerCategory name="Escort">
-				<MarkerCategory name="CavePath" DisplayName="Cave Path"/>
 				<MarkerCategory name="SkipTo4thTower" DisplayName="Skip to 4th Tower"/>
 			</MarkerCategory>
 			<MarkerCategory name="KeepConstruct" DisplayName="Keep Construct"/>
@@ -18,7 +17,6 @@
 	
 	<POIs>
 		<!--  Escort's Markers and Routes -->
-		<Trail trailData="Data/HeroPack/Raids/Escort.trl" texture="Data/HeroPack/Raids/escortcavetrail.png" animSpeed="2" alpha="1" type="Raid.StrongholdOfTheFaithful.Escort.CavePath" fadeNear="750" fadeFar="900"/>
 		<Route name="SkipTo4thTower" BackwardDirection="0" resetposx="45.1487" resetposy="137.379" resetposz="390.77" resetRange="1" MapID="1156">
 			<POI MapID="1156" xpos="45.1487" ypos="137.379" zpos="390.77" type="Raid.StrongholdOfTheFaithful.Escort.SkipTo4thTower" GUID="0FYMBEHn9EqAZCEwGXLOMQ==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
 			<POI MapID="1156" xpos="45.8498" ypos="142.315" zpos="382.24" type="Raid.StrongholdOfTheFaithful.Escort.SkipTo4thTower" GUID="lMufEQq85kSg6zLeUKZB3g==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
