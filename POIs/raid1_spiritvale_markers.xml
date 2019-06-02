@@ -1,45 +1,40 @@
 <OverlayData>
-	<MarkerCategory name="Raid">
-		<MarkerCategory name="SpiritVale" DisplayName="Spirit Vale">
-			<MarkerCategory name="Mushrooms">
-				<MarkerCategory name="SpeedMushrooms" DisplayName="Speed Mushrooms" iconFile="Data/empty.png" triggerRange="1.7" resetLength="20" behavior="4" hasCountdown="1"/>
-				<MarkerCategory name="AdrenalMushrooms" DisplayName="Adrenal Mushrooms" iconFile="Data/empty.png" triggerRange="2" resetLength="30.9" behavior="4" hasCountdown="1"/>
+	<MarkerCategory name="Raid" DisplayName="Raid">
+		<MarkerCategory name="SV" DisplayName="Spirit Vale">
+			<MarkerCategory name="Mushrooms" DisplayName="Mushrooms">
+				<MarkerCategory name="Speed" DisplayName="Speed Mushrooms" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="1.7" resetLength="20" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="Adrenal" DisplayName="Adrenal Mushrooms" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="2" resetLength="30.9" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
 			</MarkerCategory>
-			<MarkerCategory name="SpiritRun" DisplayName="Spirit Run">
+			<MarkerCategory name="SR" DisplayName="Spirit Run">
 				<MarkerCategory name="Trigger" DisplayName="Portal Stuffs"/>
 			</MarkerCategory>
-			<MarkerCategory name="Gorseval"/>
-			<MarkerCategory name="Sabetha">
-			</MarkerCategory>
-			<MarkerCategory name="Chests"/>
+			<MarkerCategory name="Gorseval" DisplayName="Gorseval" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Sabetha" DisplayName="Sabetha" heightOffset="2.5" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Chests" DisplayName="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
 		<!-- Vale Guardian's and Spirit Woods' Mushrooms -->
-		<POI MapID="1062" xpos="-91.0706" ypos="60.9373" zpos="-506.081" type="Raid.SpiritVale.Mushrooms.SpeedMushrooms" GUID="trI4Ikkxf0uEl0Of2dGZUg==" iconFile="Data/empty.png" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1062" xpos="-151.658" ypos="60.9373" zpos="-507.339" type="Raid.SpiritVale.Mushrooms.SpeedMushrooms" GUID="VVruJ+afv0CW7XgO9/unJg==" iconFile="Data/empty.png" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1062" xpos="-121.094" ypos="60.9373" zpos="-559.273" type="Raid.SpiritVale.Mushrooms.SpeedMushrooms" GUID="OCw6WOaUKEqltHMKIqH3aA==" iconFile="Data/empty.png" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" type="Raid.SpiritVale.Mushrooms.AdrenalMushrooms" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" iconFile="Data/empty.png" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1062" xpos="-63.0339" ypos="36.0128" zpos="-328.275" type="Raid.SpiritVale.Mushrooms.AdrenalMushrooms" GUID="otxqOJuKkU2UIroCyDomnA==" iconFile="Data/empty.png" fadeNear="3000" fadeFar="3500"/>
-		
+		<POI MapID="1062" xpos="-91.0706" ypos="60.9373" zpos="-506.081" type="Raid.SV.Mushrooms.Speed" GUID="trI4Ikkxf0uEl0Of2dGZUg=="/>
+		<POI MapID="1062" xpos="-151.658" ypos="60.9373" zpos="-507.339" type="Raid.SV.Mushrooms.Speed" GUID="VVruJ+afv0CW7XgO9/unJg=="/>
+		<POI MapID="1062" xpos="-121.094" ypos="60.9373" zpos="-559.273" type="Raid.SV.Mushrooms.Speed" GUID="OCw6WOaUKEqltHMKIqH3aA=="/>
+		<POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" type="Raid.SV.Mushrooms.Adrenal" GUID="CVvJijVfQ0q3Eq91Jp4EUQ=="/>
+		<POI MapID="1062" xpos="-63.0339" ypos="36.0128" zpos="-328.275" type="Raid.SV.Mushrooms.Adrenal" GUID="otxqOJuKkU2UIroCyDomnA=="/>
 		<!-- Spirit Run -->
-		<Trail trailData="Data/HeroPack/Raids/SR_TriggerLines.trl" texture="Data/HeroPack/Raids/SR_Trigger.png" animSpeed="0" alpha="1" type="Raid.SpiritVale.SpiritRun.Trigger" fadeNear="1000" fadeFar="1500"/>
-		
-		<!-- Gorseval's Markers -->
-		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SpiritVale.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Raids/arrow.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SpiritVale.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Raids/circle.png" fadeNear="3500" fadeFar="4000"/>
-		
-		<!-- Sabetha's Markers -->
-		<POI MapID="1062" xpos="-126.917" ypos="62.9524" zpos="111.433" type="Raid.SpiritVale.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/north.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-132.693" ypos="62.9657" zpos="56.4836" type="Raid.SpiritVale.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/south.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-101.375" ypos="63.0427" zpos="81.268" type="Raid.SpiritVale.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		<POI MapID="1062" xpos="-157.841" ypos="62.273" zpos="86.823" type="Raid.SpiritVale.Sabetha" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png" fadeNear="3000" fadeFar="3500" heightOffset="2.5"/>
-		
-		<!-- Spirit Vale's Chests -->
-		<POI MapID="1062" xpos="-125.512" ypos="30.6309" zpos="-223.008" type="Raid.SpiritVale.Chests" GUID="Cw8mcIvoSUWFcJM/ErVp1Q==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1000" fadeFar="1500"/>
-		<POI MapID="1062" xpos="-62.944" ypos="55.4889" zpos="-154.726" type="Raid.SpiritVale.Chests" GUID="GXd06oAwjEmgK3dUui+DCg==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="750" fadeFar="1000"/>
-		<POI MapID="1062" xpos="-85.5946" ypos="75.2272" zpos="-209.77" type="Raid.SpiritVale.Chests" GUID="zqE4ZxDQakaMrOttWjcx0w==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1300" fadeFar="1800"/>
-		<POI MapID="1062" xpos="-289.046" ypos="89.3568" zpos="109.174" type="Raid.SpiritVale.Chests" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset=".5" behavior="2" triggerRange="3" fadeNear="1000" fadeFar="1500"/>
+		<Trail trailData="Data/HeroPack/Raids/SR_TriggerLines.trl" texture="Data/HeroPack/Raids/SR_Trigger.png" animSpeed="0" alpha="1" type="Raid.SV.SR.Trigger" fadeNear="1000" fadeFar="1500"/>
+		<!-- Gorseval -->
+		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Raids/arrow.png"/>
+		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Raids/circle.png"/>
+		<!-- Sabetha -->
+		<POI MapID="1062" xpos="-126.917" ypos="62.9524" zpos="111.433" type="Raid.SV.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/north.png"/>
+		<POI MapID="1062" xpos="-132.693" ypos="62.9657" zpos="56.4836" type="Raid.SV.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
+		<POI MapID="1062" xpos="-101.375" ypos="63.0427" zpos="81.268" type="Raid.SV.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png"/>
+		<POI MapID="1062" xpos="-157.841" ypos="62.273" zpos="86.823" type="Raid.SV.Sabetha" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png"/>
+		<!-- Chests -->
+		<POI MapID="1062" xpos="-125.512" ypos="30.6309" zpos="-223.008" type="Raid.SV.Chests" GUID="Cw8mcIvoSUWFcJM/ErVp1Q==" fadeNear="1000" fadeFar="1500"/>
+		<POI MapID="1062" xpos="-62.944" ypos="55.4889" zpos="-154.726" type="Raid.SV.Chests" GUID="GXd06oAwjEmgK3dUui+DCg==" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="1062" xpos="-85.5946" ypos="75.2272" zpos="-209.77" type="Raid.SV.Chests" GUID="zqE4ZxDQakaMrOttWjcx0w==" fadeNear="1300" fadeFar="1800"/>
+		<POI MapID="1062" xpos="-289.046" ypos="89.3568" zpos="109.174" type="Raid.SV.Chests" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" fadeNear="1000" fadeFar="1500"/>
 	</POIs>
 </OverlayData>
