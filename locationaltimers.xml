@@ -1,87 +1,91 @@
 <timers>
-	<areatriggeredtimer mapid="1062" enterspherex="-130.039" enterspherey="62.4019" enterspherez="83.7634" entersphererad="30" exitspherex="-130.039" exitspherey="62.4019" exitspherez="83.7634" exitsphererad="115" length="540" resetpointx="-59.5703" resetpointy="72.231" resetpointz="192.469" startdelay="0">
+	<!-- Sabetha -->
+	<areatriggeredtimer mapid="1062" enterspherex="-130.039" enterspherey="62.4019" enterspherez="83.7634" entersphererad="30" exitspherex="-130.039" exitspherey="62.4019" exitspherez="83.7634" exitsphererad="105" length="540" resetpointx="-59.5703" resetpointy="72.231" resetpointz="192.469" startdelay="0">
 		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="2"/>
-		<timeevent text="SOUTH (1)" timestamp="35" countdown="30" onscreentime="0"/>
-		<timeevent text="WEST (2)" timestamp="65" countdown="30" onscreentime="0"/>
-		<timeevent text="NORTH (1)" timestamp="95" countdown="30" onscreentime="0"/>
-		<timeevent text="EAST (2)" timestamp="125" countdown="30" onscreentime="0"/>
+		<timeevent text="SOUTH (1)" timestamp="35"  countdown="30" onscreentime="0"/>
+		<timeevent text="WEST (2)" 	timestamp="65"  countdown="30" onscreentime="0"/>
+		<timeevent text="NORTH (1)" timestamp="95"  countdown="30" onscreentime="0"/>
+		<timeevent text="EAST (2)" 	timestamp="125" countdown="30" onscreentime="0"/>
 		<timeevent text="SOUTH (1)" timestamp="155" countdown="30" onscreentime="0"/>
 		<timeevent text="NORTH (2)" timestamp="185" countdown="30" onscreentime="0"/>
-		<timeevent text="WEST (1)" timestamp="215" countdown="30" onscreentime="0"/>
-		<timeevent text="EAST (2)" timestamp="245" countdown="30" onscreentime="0"/>
+		<timeevent text="WEST (1)" 	timestamp="215" countdown="30" onscreentime="0"/>
+		<timeevent text="EAST (2)" 	timestamp="245" countdown="30" onscreentime="0"/>
 		<timeevent text="SOUTH (1)" timestamp="275" countdown="30" onscreentime="0"/>
-		<timeevent text="WEST (2)" timestamp="305" countdown="30" onscreentime="0"/>
+		<timeevent text="WEST (2)" 	timestamp="305" countdown="30" onscreentime="0"/>
 		<timeevent text="NORTH (1)" timestamp="335" countdown="30" onscreentime="0"/>
-		<timeevent text="EAST (2)" timestamp="365" countdown="30" onscreentime="0"/>
+		<timeevent text="EAST (2)" 	timestamp="365" countdown="30" onscreentime="0"/>
 		<timeevent text="SOUTH (1)" timestamp="395" countdown="30" onscreentime="0"/>
 		<timeevent text="NORTH (2)" timestamp="425" countdown="30" onscreentime="0"/>
-		<timeevent text="WEST (1)" timestamp="455" countdown="30" onscreentime="0"/>
-		<timeevent text="EAST (2)" timestamp="485" countdown="30" onscreentime="0"/>
+		<timeevent text="WEST (1)" 	timestamp="455" countdown="30" onscreentime="0"/>
+		<timeevent text="EAST (2)"	timestamp="485" countdown="30" onscreentime="0"/>
 		<timeevent text="SOUTH (1)" timestamp="515" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer>
+	<!-- Slothasor -->
 	<areatriggeredtimer mapid="1149" enterspherex="208.917" enterspherey="5.23024" enterspherez="26.3968" entersphererad="1" exitspherex="208.917" exitspherey="5.23024" exitspherez="26.3968" exitsphererad="90" length="420" startdelay="0">
 		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="1"/>
-		<timeevent text="Slublings Spawn" timestamp="30" countdown="30" onscreentime="0"/>
-		<timeevent text="2nd Mushroom" timestamp="50" countdown="50" onscreentime="0"/>
-		<timeevent text="Slublings Spawn" timestamp="60" countdown="30" onscreentime="0"/>
-		<timeevent text="Slublings Spawn" timestamp="90" countdown="30" onscreentime="0"/>
-		<timeevent text="3rd Mushroom" timestamp="100" countdown="50" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="30"  countdown="30" onscreentime="0"/>
+		<timeevent text="2nd Mushroom" 	  timestamp="50"  countdown="50" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="60"  countdown="30" onscreentime="0"/>
+		<timeevent text="Slublings Spawn" timestamp="90"  countdown="30" onscreentime="0"/>
+		<timeevent text="3rd Mushroom" 	  timestamp="100" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="120" countdown="30" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="150" countdown="30" onscreentime="0"/>
-		<timeevent text="4th Mushroom" timestamp="150" countdown="50" onscreentime="0"/>
+		<timeevent text="4th Mushroom"    timestamp="150" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="180" countdown="30" onscreentime="0"/>
-		<timeevent text="1st Mushroom" timestamp="200" countdown="50" onscreentime="0"/>
+		<timeevent text="1st Mushroom" 	  timestamp="200" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="200" countdown="20" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="220" countdown="20" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="240" countdown="20" onscreentime="0"/>
-		<timeevent text="2nd Mushroom" timestamp="250" countdown="50" onscreentime="0"/>
+		<timeevent text="2nd Mushroom"    timestamp="250" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="260" countdown="20" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="280" countdown="20" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="300" countdown="20" onscreentime="0"/>
-		<timeevent text="3rd Mushroom" timestamp="300" countdown="50" onscreentime="0"/>
+		<timeevent text="3rd Mushroom"    timestamp="300" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="315" countdown="15" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="330" countdown="15" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="345" countdown="15" onscreentime="0"/>
-		<timeevent text="4th Mushroom" timestamp="350" countdown="50" onscreentime="0"/>
+		<timeevent text="4th Mushroom"    timestamp="350" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="360" countdown="15" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="375" countdown="15" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="390" countdown="15" onscreentime="0"/>
-		<timeevent text="1st Mushroom" timestamp="400" countdown="50" onscreentime="0"/>
+		<timeevent text="1st Mushroom"    timestamp="400" countdown="50" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="405" countdown="15" onscreentime="0"/>
 		<timeevent text="Slublings Spawn" timestamp="420" countdown="15" onscreentime="0"/>
 	</areatriggeredtimer>
+	<!-- Matthias -->
 	<areatriggeredtimer mapid="1149" enterspherex="-181.45" enterspherey="131.523" enterspherez="155.317" entersphererad="1" exitspherex="-181.45" exitspherey="131.523" exitspherez="155.317" exitsphererad="65" length="600" resetpointx="-65.7187" resetpointy="109.563" resetpointz="79.9329" startdelay="2">
-		<timeevent text="Start" timestamp="-2" countdown="0" onscreentime="2"/>
-		<timeevent text="Corruption go to ARROW" timestamp="5" countdown="5" onscreentime="0"/>
-		<timeevent text="Sacrifice" timestamp="15" countdown="15" onscreentime="0"/>
-		<timeevent text="Corruption go to CIRCLE" timestamp="35" countdown="30" onscreentime="0"/>
-		<timeevent text="Sacrifice" timestamp="60" countdown="45" onscreentime="0"/>
-		<timeevent text="Corruption go to HEART" timestamp="65" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to SQUARE" timestamp="95" countdown="30" onscreentime="0"/>
-		<timeevent text="Sacrifice" timestamp="105" countdown="45" onscreentime="0"/>
-		<timeevent text="Corruption go to ARROW" timestamp="125" countdown="30" onscreentime="0"/>
-		<timeevent text="Sacrifice" timestamp="150" countdown="45" onscreentime="0"/>
-		<timeevent text="Corruption go to CIRCLE" timestamp="155" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to HEART" timestamp="185" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to SQUARE" timestamp="215" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to ARROW" timestamp="245" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to CIRCLE" timestamp="275" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to HEART" timestamp="305" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to SQUARE" timestamp="335" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to ARROW" timestamp="365" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to CIRCLE" timestamp="395" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to HEART" timestamp="425" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to SQUARE" timestamp="455" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to ARROW" timestamp="485" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to CIRCLE" timestamp="515" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to HEART" timestamp="545" countdown="30" onscreentime="0"/>
-		<timeevent text="Corruption go to SQUARE" timestamp="575" countdown="30" onscreentime="0"/>
+		<timeevent text="Start" 					timestamp="-2"  countdown="0"  onscreentime="2"/>
+		<timeevent text="Corruption go to ARROW" 	timestamp="5"	countdown="5"  onscreentime="0"/>
+		<timeevent text="Sacrifice" 				timestamp="15"	countdown="15" onscreentime="0"/>
+		<timeevent text="Corruption go to CIRCLE" 	timestamp="35" 	countdown="30" onscreentime="0"/>
+		<timeevent text="Sacrifice" 				timestamp="60" 	countdown="45" onscreentime="0"/>
+		<timeevent text="Corruption go to HEART" 	timestamp="65" 	countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to SQUARE" 	timestamp="95" 	countdown="30" onscreentime="0"/>
+		<timeevent text="Sacrifice" 				timestamp="105" countdown="45" onscreentime="0"/>
+		<timeevent text="Corruption go to ARROW" 	timestamp="125" countdown="30" onscreentime="0"/>
+		<timeevent text="Sacrifice" 				timestamp="150" countdown="45" onscreentime="0"/>
+		<timeevent text="Corruption go to CIRCLE" 	timestamp="155" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to HEART" 	timestamp="185" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to SQUARE" 	timestamp="215" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to ARROW" 	timestamp="245" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to CIRCLE" 	timestamp="275" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to HEART" 	timestamp="305" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to SQUARE" 	timestamp="335" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to ARROW" 	timestamp="365" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to CIRCLE" 	timestamp="395" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to HEART" 	timestamp="425" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to SQUARE" 	timestamp="455" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to ARROW" 	timestamp="485" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to CIRCLE" 	timestamp="515" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to HEART" 	timestamp="545" countdown="30" onscreentime="0"/>
+		<timeevent text="Corruption go to SQUARE" 	timestamp="575" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer>
+	<!-- Cairn -->
 	<areatriggeredtimer mapid="1188" enterspherex="364.78" enterspherey="33.60" enterspherez="51.19" entersphererad="34.91" exitspherex="364.78" exitspherey="33.60" exitspherez="51.19" exitsphererad="37" length="600" startdelay="0">
-		<timeevent text="Agony" timestamp="23" countdown="23" onscreentime="0"/>
-		<timeevent text="Agony" timestamp="43" countdown="20" onscreentime="0"/>
-		<timeevent text="Agony" timestamp="63" countdown="20" onscreentime="0"/>
-		<timeevent text="Agony" timestamp="83" countdown="20" onscreentime="0"/>
+		<timeevent text="Agony" timestamp="23"  countdown="23" onscreentime="0"/>
+		<timeevent text="Agony" timestamp="43"  countdown="20" onscreentime="0"/>
+		<timeevent text="Agony" timestamp="63"  countdown="20" onscreentime="0"/>
+		<timeevent text="Agony" timestamp="83"  countdown="20" onscreentime="0"/>
 		<timeevent text="Agony" timestamp="103" countdown="20" onscreentime="0"/>
 		<timeevent text="Agony" timestamp="123" countdown="20" onscreentime="0"/>
 		<timeevent text="Agony" timestamp="143" countdown="20" onscreentime="0"/>
@@ -108,12 +112,13 @@
 		<timeevent text="Agony" timestamp="563" countdown="20" onscreentime="0"/>
 		<timeevent text="Agony" timestamp="583" countdown="20" onscreentime="0"/>
 	</areatriggeredtimer>
+	<!-- Mursaat Overseer -->
 	<areatriggeredtimer mapid="1188" enterspherex="98.396" enterspherey="106.187" enterspherez="101.323" entersphererad="1" exitspherex="98.396" exitspherey="106.187" exitspherez="101.323" exitsphererad="69" length="360" startdelay="2">
-		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="0"/>
-		<timeevent text="Dispel" timestamp="10" countdown="10" onscreentime="0"/>
-		<timeevent text="Dispel" timestamp="35" countdown="25" onscreentime="0"/>
-		<timeevent text="Dispel" timestamp="60" countdown="25" onscreentime="0"/>
-		<timeevent text="Dispel" timestamp="85" countdown="25" onscreentime="0"/>
+		<timeevent text="Start"  timestamp="0"   countdown="0"  onscreentime="0"/>
+		<timeevent text="Dispel" timestamp="10"  countdown="10" onscreentime="0"/>
+		<timeevent text="Dispel" timestamp="35"  countdown="25" onscreentime="0"/>
+		<timeevent text="Dispel" timestamp="60"  countdown="25" onscreentime="0"/>
+		<timeevent text="Dispel" timestamp="85"  countdown="25" onscreentime="0"/>
 		<timeevent text="Dispel" timestamp="110" countdown="25" onscreentime="0"/>
 		<timeevent text="Dispel" timestamp="135" countdown="25" onscreentime="0"/>
 		<timeevent text="Dispel" timestamp="160" countdown="25" onscreentime="0"/>
@@ -126,43 +131,44 @@
 		<timeevent text="Dispel" timestamp="335" countdown="25" onscreentime="0"/>
 		<timeevent text="Dispel" timestamp="360" countdown="25" onscreentime="0"/>
 	</areatriggeredtimer>
+	<!-- Dhuum -->
 	<areatriggeredtimer mapid="1264" enterspherex="377.774" enterspherey="157.86" enterspherez="-6.48558" entersphererad="2" exitspherex="377.774" exitspherey="157.86" exitspherez="-6.48558" exitsphererad="102" length="600" resetpointx="208.934" resetpointy="146.636" resetpointz="29.1171" startdelay="0">	
 		<timeevent text="Start" timestamp="0" countdown="0" onscreentime="1"/>
-		<timeevent text="(1) ARROW" timestamp="35" countdown="30" onscreentime="0"/>
-		<timeevent text="(2) CIRCLE" timestamp="65" countdown="30" onscreentime="0"/>
-		<timeevent text="(3) HEART" timestamp="95" countdown="30" onscreentime="0"/>
-		<timeevent text="(1) SQUARE" timestamp="125" countdown="30" onscreentime="0"/>
-		<timeevent text="(2) STAR" timestamp="155" countdown="30" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="175" countdown="45" onscreentime="0"/>
-		<timeevent text="(3) SWIRL" timestamp="185" countdown="30" onscreentime="0"/>
-		<timeevent text="(1) TRIANGLE" timestamp="215" countdown="30" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="215" countdown="10" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="215" countdown="40" onscreentime="0"/>
-		<timeevent text="(2) ARROW" timestamp="245" countdown="30" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="255" countdown="40" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="265" countdown="10" onscreentime="0"/>
-		<timeevent text="(3) CIRCLE" timestamp="275" countdown="30" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="295" countdown="40" onscreentime="0"/>
-		<timeevent text="(1) HEART" timestamp="305" countdown="30" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="325" countdown="10" onscreentime="0"/>
-		<timeevent text="(2) SQUARE" timestamp="335" countdown="30" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="335" countdown="40" onscreentime="0"/>
-		<timeevent text="(3) STAR" timestamp="365" countdown="30" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="375" countdown="40" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="385" countdown="10" onscreentime="0"/>
-		<timeevent text="(1) SWIRL" timestamp="395" countdown="30" onscreentime="0"/>
-		<timeevent text="Dip (Stack)" timestamp="415" countdown="40" onscreentime="0"/>
-		<timeevent text="(2) TRIANGLE" timestamp="425" countdown="30" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="455" countdown="10" onscreentime="0"/>
-		<timeevent text="(3) ARROW" timestamp="455" countdown="30" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="455" countdown="40" onscreentime="0"/>
-		<timeevent text="(1) CIRCLE"  timestamp="485" countdown="30" onscreentime="0"/>
-		<timeevent text="Dip(Stack)" timestamp="495" countdown="40" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="505" countdown="10" onscreentime="0"/>
-		<timeevent text="(2) HEART" timestamp="515" countdown="30" onscreentime="0"/>
-		<timeevent text="Soul Split" timestamp="535" countdown="40" onscreentime="0"/>
-		<timeevent text="(3) SQUARE" timestamp="545" countdown="30" onscreentime="0"/>
-		<timeevent text="Golem Spawn" timestamp="565" countdown="10" onscreentime="0"/>
-		<timeevent text="(1) STAR" timestamp="575" countdown="30" onscreentime="0"/>
+		<timeevent text="(1) ARROW"    	timestamp="35"  countdown="30" onscreentime="0"/>
+		<timeevent text="(2) CIRCLE"   	timestamp="65"  countdown="30" onscreentime="0"/>
+		<timeevent text="(3) HEART"    	timestamp="95"  countdown="30" onscreentime="0"/>
+		<timeevent text="(1) SQUARE"   	timestamp="125" countdown="30" onscreentime="0"/>
+		<timeevent text="(2) STAR"     	timestamp="155" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)"  	timestamp="175" countdown="45" onscreentime="0"/>
+		<timeevent text="(3) SWIRL"    	timestamp="185" countdown="30" onscreentime="0"/>
+		<timeevent text="(1) TRIANGLE" 	timestamp="215" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn"  	timestamp="215" countdown="10" onscreentime="0"/>
+		<timeevent text="Soul Split"   	timestamp="215" countdown="40" onscreentime="0"/>
+		<timeevent text="(2) ARROW"    	timestamp="245" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)"  	timestamp="255" countdown="40" onscreentime="0"/>
+		<timeevent text="Golem Spawn"  	timestamp="265" countdown="10" onscreentime="0"/>
+		<timeevent text="(3) CIRCLE"   	timestamp="275" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split"   	timestamp="295" countdown="40" onscreentime="0"/>
+		<timeevent text="(1) HEART"    	timestamp="305" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn"  	timestamp="325" countdown="10" onscreentime="0"/>
+		<timeevent text="(2) SQUARE"  	timestamp="335" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)" 	timestamp="335" countdown="40" onscreentime="0"/>
+		<timeevent text="(3) STAR" 		timestamp="365" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" 	timestamp="375" countdown="40" onscreentime="0"/>
+		<timeevent text="Golem Spawn"   timestamp="385" countdown="10" onscreentime="0"/>
+		<timeevent text="(1) SWIRL" 	timestamp="395" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip (Stack)" 	timestamp="415" countdown="40" onscreentime="0"/>
+		<timeevent text="(2) TRIANGLE"  timestamp="425" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn" 	timestamp="455" countdown="10" onscreentime="0"/>
+		<timeevent text="(3) ARROW" 	timestamp="455" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" 	timestamp="455" countdown="40" onscreentime="0"/>
+		<timeevent text="(1) CIRCLE"  	timestamp="485" countdown="30" onscreentime="0"/>
+		<timeevent text="Dip(Stack)" 	timestamp="495" countdown="40" onscreentime="0"/>
+		<timeevent text="Golem Spawn" 	timestamp="505" countdown="10" onscreentime="0"/>
+		<timeevent text="(2) HEART" 	timestamp="515" countdown="30" onscreentime="0"/>
+		<timeevent text="Soul Split" 	timestamp="535" countdown="40" onscreentime="0"/>
+		<timeevent text="(3) SQUARE" 	timestamp="545" countdown="30" onscreentime="0"/>
+		<timeevent text="Golem Spawn" 	timestamp="565" countdown="10" onscreentime="0"/>
+		<timeevent text="(1) STAR" 		timestamp="575" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer>
 </timers>
