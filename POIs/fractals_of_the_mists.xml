@@ -1,165 +1,154 @@
 <OverlayData>
-	<MarkerCategory name="FractalsOfTheMists" DisplayName="Fractals of the Mists">
-		<MarkerCategory name="Aetherblade">
-			<MarkerCategory name="MinigameSkip" DisplayName="Minigame Skip"/>
+	<MarkerCategory name="FOTM" DisplayName="Fractals of the Mists">
+		<MarkerCategory name="AB" DisplayName="Aetherblade">
+			<MarkerCategory name="Skip" DisplayName="Electric Skip"/>
 		</MarkerCategory>
-		<MarkerCategory name="Cliffside">
-			<MarkerCategory name="Skip1" DisplayName="Starting Speed Skip"/>
-			<MarkerCategory name="Skip2" DisplayName="Wind Skip"/>
-			<MarkerCategory name="Skip3" DisplayName="Chest Speed Skip"/>
-			<MarkerCategory name="Skip4" DisplayName="Skip to Boss"/>
+		<MarkerCategory name="CS" DisplayName="Cliffside">
+			<MarkerCategory name="Skip1" DisplayName="Initial Skip" heightOffset="0" iconSize="0.75"/>
+			<MarkerCategory name="Skip2" DisplayName="Wind Skip" heightOffset="0"/>
+			<MarkerCategory name="Skip3" DisplayName="Chest Speed Skip" heightOffset="0" iconSize="0.75"/>
+			<MarkerCategory name="Skip4" DisplayName="Boss Skip" heightOffset="0" iconSize="0.75"/>
 		</MarkerCategory>
-		<MarkerCategory name="MistlockObservatory" DisplayName="Mistlock Observatory">
-			<MarkerCategory name="AlternateJP" DisplayName="Alternate JP Route"/>
+		<MarkerCategory name="MO" DisplayName="Mistlock Observatory">
+			<MarkerCategory name="JP" DisplayName="Alternate JP Route" heightOffset="0.5" iconSize="0.5"/>
 		</MarkerCategory>
-		<MarkerCategory name="MoltenFurnace" DisplayName="Molten Furnace">
-			<MarkerCategory name="SafeWalls" DisplayName="Safe from Walls"/>
-			<MarkerCategory name="ReflectBalls" DisplayName="Reflect Spot"/>
+		<MarkerCategory name="MF" DisplayName="Molten Furnace" heightOffset="0" iconSize="0.5" fadeNear="1000" fadeFar="1250">
+			<MarkerCategory name="Tornadoes" DisplayName="Safe from Tornadoes" iconFile="Data/HeroPack/Multipurpose/stack.png"/>
+			<MarkerCategory name="Reflect" DisplayName="Reflect Spot" iconFile="Data/HeroPack/Fractals/Feedback.png"/>
 		</MarkerCategory>
-		<MarkerCategory name="Nightmare">
-			<MarkerCategory name="KnightSpawns" DisplayName="Knight Spawns"/>
-			<MarkerCategory name="Orbs" DisplayName="Ensolyss' Orbs"/>
+		<MarkerCategory name="NM" DisplayName="Nightmare">
+			<MarkerCategory name="Knights" DisplayName="Knight Spawns" heightOffset="0.5" iconSize=".75" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Orbs" DisplayName="Ensolyss' Orbs" heightOffset="0" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
 		</MarkerCategory>
-		<MarkerCategory name="ShatteredObservatory" DisplayName="Shattered Observatory">
-			<MarkerCategory name="SkipToVirastra" DisplayName="Skip To Virastra"/>
-			<MarkerCategory name="Arkk" DisplayName="Arkk Directions"/>
+		<MarkerCategory name="ShO" DisplayName="Shattered Observatory">
+			<MarkerCategory name="VirastraSkip" DisplayName="Virastra Skip"/>
+			<MarkerCategory name="Arkk" DisplayName="Arkk Directions" fadeNear="2750" fadeFar="3000"/>
 		</MarkerCategory>
-		<MarkerCategory name="SolidOcean" DisplayName="Solid Ocean">
-			<MarkerCategory name="ColossusSpawns" DisplayName="Jade Colossus Spawns"/>
+		<MarkerCategory name="SoO" DisplayName="Solid Ocean">
+			<MarkerCategory name="Colossus" DisplayName="Jade Colossus Spawns" fadeNear="3500" fadeFar="4000"/>
 		</MarkerCategory>
-		<MarkerCategory name="ThaumanovaReactor" DisplayName="Thaumanova Reactor">
-			<MarkerCategory name="Maze" DisplayName="Maze"/>
-			<MarkerCategory name="Portal" DisplayName="Speed Portal to Subject 6"/>
+		<MarkerCategory name="TR" DisplayName="Thaumanova Reactor">
+			<MarkerCategory name="Maze" DisplayName="Maze" fadeNear="3250" fadeFar="3500"/>
+			<MarkerCategory name="Portal" DisplayName="Subject 6 Portal" heightOffset="0.5" iconSize="0.75"/>
 		</MarkerCategory>
-		<MarkerCategory name="TwilightOasis" DisplayName="Twilight Oasis">
-			<MarkerCategory name="SecondSandblinderPath" DisplayName="2nd Sandblinder Skip Path"/>
-			<MarkerCategory name="SecondSandblinderPortal" DisplayName="2nd Sandblinder Portals"/>
+		<MarkerCategory name="TO" DisplayName="Twilight Oasis">
+			<MarkerCategory name="Path" DisplayName="2nd Sandblinder Skip Path" heightOffset="0.5" iconSize="0.5"/>
+			<MarkerCategory name="Portal" DisplayName="2nd Sandblinder Portal" heightOffset="0.5" iconSize="0.75" fadeNear="1250" fadeFar="1500"/>
 		</MarkerCategory>
-		<MarkerCategory name="Uncategorized">
-			<MarkerCategory name="JpSkip" DisplayName="Harpy JP Skip"/>
-			<MarkerCategory name="LeapSkip" DisplayName="Harpy Leap Skip"/>
+		<MarkerCategory name="UC" DisplayName="Uncategorized">
+			<MarkerCategory name="JP" DisplayName="Harpy JP Skip"/>
+			<MarkerCategory name="Leap" DisplayName="Harpy Leap Skip" fadeNear="1500" fadeFar="1750"/>
 		</MarkerCategory>
-		<MarkerCategory name="UndergroundFacility" DisplayName="Underground Facility">
-			<MarkerCategory name="PlateSkip" DisplayName="2nd Plate Skip"/>
+		<MarkerCategory name="UF" DisplayName="Underground Facility">
+			<MarkerCategory name="Skip" DisplayName="2nd Plate Skip" fadeNear="750" fadeFar="1000"/>
 		</MarkerCategory>
-		<MarkerCategory name="UrbanBattlegrounds" DisplayName="Urban Battlegrounds">
-			<MarkerCategory name="OilBorder" DisplayName="Burning Oil Trigger Line"/>
+		<MarkerCategory name="UB" DisplayName="Urban Battlegrounds">
+			<MarkerCategory name="Oil" DisplayName="Burning Oil Trigger Line"/>
 		</MarkerCategory>
-		<MarkerCategory name="Volcanic">
-			<MarkerCategory name="Portal" iconFile="Data/stack.png"/>
-			<MarkerCategory name="CliffFall" DisplayName="Cliff Fall" iconFile="Data/HeroPack/Multipurpose/stack.png"/>
+		<MarkerCategory name="Vo" DisplayName="Volcanic">
+			<MarkerCategory name="Portal" DisplayName="Portal" iconSize="0.6"/>
+			<MarkerCategory name="Cliff" DisplayName="Cliff Fall"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
-		<!-- Aetherblade's Markers -->
-		<POI MapID="956" xpos="-21.4808" ypos="9.35175" zpos="96.879" type="FractalsOfTheMists.Aetherblade.MinigameSkip" GUID="TeExJPcqu0qaos1t9NVy5Q==" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeNear="600" fadeFar="850" heightOffset="-.5" minSize="96x96" maxSize="24x24"/>
-		<POI MapID="956" xpos="-10.685" ypos="10.252" zpos="111.652" type="FractalsOfTheMists.Aetherblade.MinigameSkip" GUID="aJe17B+snUiRQyHnGDkmXQ==" iconFile="Data/HeroPack/Fractals/groupGG.png" fadeNear="500" fadeFar="550" heightOffset="1"/>
-		
-		<!-- Cliffside's Markers -->
-		<POI MapID="952" xpos="28.9063" ypos="563.581" zpos="-31.47" type="FractalsOfTheMists.Cliffside.Skip1" GUID="6g3UyuZKaE+xwQZtjKEOhA==" iconFile="Data/HeroPack/Fractals/PortalEnterStealth.png" heightOffset="0" fadeNear="1750" fadeFar="2250" iconSize="0.75"/>
-		<POI MapID="952" xpos="29.8626" ypos="593.286" zpos="-23.1576" type="FractalsOfTheMists.Cliffside.Skip1" GUID="pdXNCnwv3U+BdE3bNOw+mQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
-		
-		<POI MapID="952" xpos="64.2842" ypos="593.03" zpos="96.7851" type="FractalsOfTheMists.Cliffside.Skip2" GUID="0rMXPgdqGk6zn89nFpCYKw==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.75"/>
-		<POI MapID="952" xpos="58.2893" ypos="614.594" zpos="103.089" type="FractalsOfTheMists.Cliffside.Skip2" GUID="x1KlRA0eoUWd9ZF5ucGrTw==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.5"/>
-		<POI MapID="952" xpos="63.7218" ypos="630.829" zpos="104.489" type="FractalsOfTheMists.Cliffside.Skip2" GUID="+7Z2NyX+GUirveUK0Ocbfg==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.5"/>
-		<POI MapID="952" xpos="66.5532" ypos="630.806" zpos="106.4" type="FractalsOfTheMists.Cliffside.Skip2" GUID="YmFq1+jrZEOTJzw1E4bRuQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
-		
-		<POI MapID="952" xpos="55.5988" ypos="668.616" zpos="-11.5716" type="FractalsOfTheMists.Cliffside.Skip3" GUID="MFNW+q4CmEKPXl4L7cv/ew==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" heightOffset="0" fadeNear="1000" fadeFar="1250" iconSize="0.75"/>
-		<POI MapID="952" xpos="63.0969" ypos="690.362" zpos="-31.7456" type="FractalsOfTheMists.Cliffside.Skip3" GUID="0DMnz4d9BE2Inse4u86rlw==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
-		
-		<POI MapID="952" xpos="83.8425" ypos="688.208" zpos="-33.996" type="FractalsOfTheMists.Cliffside.Skip4" GUID="bY15ybLJ0EegXffsyufENg==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" heightOffset="0" fadeNear="750" fadeFar="1000" iconSize="0.75"/>
-		<POI MapID="952" xpos="92.9409" ypos="712.236" zpos="-17.7006" type="FractalsOfTheMists.Cliffside.Skip4" GUID="YL0H2eq37E+Ivn8ePXjLMA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="1500" fadeFar="1750" iconSize="0.75"/>
-		
-		<!-- Mistlock Observatory Markers -->
-		<Route name="AlternateJPRoute" BackwardDirection="0" resetposx="116.747" resetposy="239.714" resetposz="-122.934" resetRange="1" MapID="872">
-			<POI MapID="872" xpos="111.597" ypos="219.424" zpos="-116.44" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="350" fadeFar="500"/>
-			<POI MapID="872" xpos="119.212" ypos="221.917" zpos="-121.199" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="uc3ZaYVYsUatFafvXlyQDA==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="550" fadeFar="800"/>
-			<POI MapID="872" xpos="124.155" ypos="224.912" zpos="-122.018" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="400" fadeFar="600"/>
-			<POI MapID="872" xpos="113.674" ypos="226.347" zpos="-117.076" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="xTB1mTnifk2HelFqfpahpA==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="550" fadeFar="750"/>
-			<POI MapID="872" xpos="118.028" ypos="229.75" zpos="-121.688" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="rgRGmmQ2u0mohqUgGQfm8g==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="400" fadeFar="600"/>
-			<POI MapID="872" xpos="116.53" ypos="232.699" zpos="-120.867" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="0+4hrHAa00i5hYhN5ERNqw==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="250" fadeFar="450"/>
-			<POI MapID="872" xpos="119.993" ypos="235.636" zpos="-123.047" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="pIv4b14WPUiMRACj8ziBsw==" iconFile="Data/HeroPack/Fractals/Skip.png" iconSize=".5" heightOffset=".5" fadeNear="300" fadeFar="500"/>
-			<POI MapID="872" xpos="116.747" ypos="239.714" zpos="-122.934" type="FractalsOfTheMists.MistlockObservatory.AlternateJP" GUID="8WThfkq6NEamQhjtOjtj4Q==" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize=".5" heightOffset=".5" fadeNear="350" fadeFar="550"/>
+		<!-- Aetherblade -->
+		<POI MapID="956" xpos="-21.4808" ypos="9.35175" zpos="96.879" type="FOTM.AB.Skip" GUID="TeExJPcqu0qaos1t9NVy5Q==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="-0.5" iconSize="0.5" fadeNear="600" fadeFar="850"/>
+		<POI MapID="956" xpos="-10.685" ypos="10.252" zpos="111.652" type="FOTM.AB.Skip" GUID="aJe17B+snUiRQyHnGDkmXQ==" iconFile="Data/HeroPack/Fractals/groupGG.png" heightOffset="1" fadeNear="500" fadeFar="550"/>
+		<!-- Cliffside -->
+		<POI MapID="952" xpos="28.9063" ypos="563.581" zpos="-31.47" type="FOTM.CS.Skip1" GUID="6g3UyuZKaE+xwQZtjKEOhA==" iconFile="Data/HeroPack/Fractals/PortalEnterStealth.png" fadeNear="1750" fadeFar="2250"/>
+		<POI MapID="952" xpos="29.8626" ypos="593.286" zpos="-23.1576" type="FOTM.CS.Skip1" GUID="pdXNCnwv3U+BdE3bNOw+mQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="952" xpos="64.2842" ypos="593.03" zpos="96.7851" type="FOTM.CS.Skip2" GUID="0rMXPgdqGk6zn89nFpCYKw==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" iconSize="0.75" fadeNear="1000" fadeFar="1250"/>
+		<POI MapID="952" xpos="58.2893" ypos="614.594" zpos="103.089" type="FOTM.CS.Skip2" GUID="x1KlRA0eoUWd9ZF5ucGrTw==" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize="0.5" fadeNear="1000" fadeFar="1250"/>
+		<POI MapID="952" xpos="63.7218" ypos="630.829" zpos="104.489" type="FOTM.CS.Skip2" GUID="+7Z2NyX+GUirveUK0Ocbfg==" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize="0.5" fadeNear="1000" fadeFar="1250"/>
+		<POI MapID="952" xpos="66.5532" ypos="630.806" zpos="106.4" type="FOTM.CS.Skip2" GUID="YmFq1+jrZEOTJzw1E4bRuQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" iconSize="0.75" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="952" xpos="55.5988" ypos="668.616" zpos="-11.5716" type="FOTM.CS.Skip3" GUID="MFNW+q4CmEKPXl4L7cv/ew==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" fadeNear="1000" fadeFar="1250"/>
+		<POI MapID="952" xpos="63.0969" ypos="690.362" zpos="-31.7456" type="FOTM.CS.Skip3" GUID="0DMnz4d9BE2Inse4u86rlw==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="952" xpos="83.8425" ypos="688.208" zpos="-33.996" type="FOTM.CS.Skip4" GUID="bY15ybLJ0EegXffsyufENg==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="952" xpos="92.9409" ypos="712.236" zpos="-17.7006" type="FOTM.CS.Skip4" GUID="YL0H2eq37E+Ivn8ePXjLMA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="1500" fadeFar="1750"/>
+		<!-- Mistlock Observatory -->
+		<Route name="JP" BackwardDirection="0" resetposx="116.747" resetposy="239.714" resetposz="-122.934" resetRange="1" MapID="872">
+			<POI MapID="872" xpos="111.597" ypos="219.424" zpos="-116.44" type="FOTM.MO.JP" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="350" fadeFar="500"/>
+			<POI MapID="872" xpos="119.212" ypos="221.917" zpos="-121.199" type="FOTM.MO.JP" GUID="uc3ZaYVYsUatFafvXlyQDA==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="550" fadeFar="800"/>
+			<POI MapID="872" xpos="124.155" ypos="224.912" zpos="-122.018" type="FOTM.MO.JP" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="400" fadeFar="600"/>
+			<POI MapID="872" xpos="113.674" ypos="226.347" zpos="-117.076" type="FOTM.MO.JP" GUID="xTB1mTnifk2HelFqfpahpA==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="550" fadeFar="750"/>
+			<POI MapID="872" xpos="118.028" ypos="229.75" zpos="-121.688" type="FOTM.MO.JP" GUID="rgRGmmQ2u0mohqUgGQfm8g==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="400" fadeFar="600"/>
+			<POI MapID="872" xpos="116.53" ypos="232.699" zpos="-120.867" type="FOTM.MO.JP" GUID="0+4hrHAa00i5hYhN5ERNqw==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="250" fadeFar="450"/>
+			<POI MapID="872" xpos="119.993" ypos="235.636" zpos="-123.047" type="FOTM.MO.JP" GUID="pIv4b14WPUiMRACj8ziBsw==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="300" fadeFar="500"/>
+			<POI MapID="872" xpos="116.747" ypos="239.714" zpos="-122.934" type="FOTM.MO.JP" GUID="8WThfkq6NEamQhjtOjtj4Q==" iconFile="Data/HeroPack/Fractals/didSkip.png" fadeNear="350" fadeFar="550"/>
 		</Route>
-		
-		<!-- Molten Furnace's Markers -->
-		<POI MapID="955" xpos="-227.374" ypos="226.547" zpos="30.6353" type="FractalsOfTheMists.MoltenFurnace.SafeWalls" GUID="dmLlqOrZLEm6C4buSjebyg==" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize=".5" heightOffset="0" fadeNear="1000" fadeFar="1250"/>
-		<POI MapID="955" xpos="-227.066" ypos="226.547" zpos="26.5557" type="FractalsOfTheMists.MoltenFurnace.ReflectBalls" GUID="SgzrhHYFR0qAtymSIPFl1Q==" iconFile="Data/HeroPack/Fractals/Feedback.png" iconSize=".5" heightOffset="0" fadeNear="1000" fadeFar="1250"/>
-		
-		<!-- Nightmare's Markers -->
-		<POI MapID="1177" xpos="115.401" ypos="14.0562" zpos="153.006" type="FractalsOfTheMists.Nightmare.KnightSpawns" GUID="D3TdNEjLFECd1ntKnkDcaA==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="3000" fadeFar="3500" heightOffset=".5" iconSize=".75"/>
-		<POI MapID="1177" xpos="92.6183" ypos="13.6697" zpos="168.462" type="FractalsOfTheMists.Nightmare.KnightSpawns" GUID="ZeSgHnJTfECytz2/yyLeXw==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="3000" fadeFar="3500" heightOffset=".5" iconSize=".75"/>
-		<POI MapID="1177" xpos="90.3668" ypos="13.7478" zpos="139.64" type="FractalsOfTheMists.Nightmare.KnightSpawns" GUID="Z+mzkaYKOECG+yc90OclmA==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="3000" fadeFar="3500" heightOffset=".5" iconSize=".75"/>
-		
-		<POI MapID="1177" xpos="32.7043" ypos="44.6368" zpos="25.6605" type="FractalsOfTheMists.Nightmare.Orbs" GUID="DijNR9RjrU2qeI58A1CaHQ==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
-		<POI MapID="1177" xpos="28.2628" ypos="44.6375" zpos="40.2083" type="FractalsOfTheMists.Nightmare.Orbs" GUID="fs8EMCk4Z0O5+SpXk384Ww==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
-		<POI MapID="1177" xpos="41.0741" ypos="44.6372" zpos="49.0661" type="FractalsOfTheMists.Nightmare.Orbs" GUID="2I2VcNI2vEezT6b7D8zQew==" iconFile="Data/HeroPack/Fractals/fotm n ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
-		<POI MapID="1177" xpos="53.6736" ypos="44.6364" zpos="40.2005" type="FractalsOfTheMists.Nightmare.Orbs" GUID="hWKe8oFIf0WLkb3oEmos0A==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
-		<POI MapID="1177" xpos="48.1348" ypos="44.6364" zpos="26.1157" type="FractalsOfTheMists.Nightmare.Orbs" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" iconFile="Data/HeroPack/Fractals/fotm ball.png" heightOffset="0" iconSize=".5" fadeNear="2000" fadeFar="2500"/>
-		
-		<!-- Shattered Observatory's Routes -->
-		<Route name="SkipToVirastra" BackwardDirection="0" resetposx="342.781" resetposy="110.248" resetposz="96.8604" resetRange="2" MapID="1205">
-			<POI MapID="1205" xpos="342.781" ypos="110.248" zpos="96.8604" type="FractalsOfTheMists.ShatteredObservatory.SkipToVirastra" GUID="fbTuKujAs0iRKamV7PwQyA==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset="1" iconSize=".5" fadeNear="500" fadeFar="1000"/>
-			<POI MapID="1205" xpos="331.75" ypos="111.834" zpos="90.7721" type="FractalsOfTheMists.ShatteredObservatory.SkipToVirastra" GUID="qtKVAC3yhU2uaEFf4bWp+g==" iconFile="Data/HeroPack/Fractals/skip.png" iconSize=".75" fadeNear="750" fadeFar="1000"/>
-			<POI MapID="1205" xpos="293.118" ypos="115.052" zpos="67.3484" type="FractalsOfTheMists.ShatteredObservatory.SkipToVirastra" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize="1" fadeNear="2000" fadeFar="3000"/>
+		<!-- Molten Furnace -->
+		<POI MapID="955" xpos="-227.374" ypos="226.547" zpos="30.6353" type="FOTM.MF.Tornadoes" GUID="dmLlqOrZLEm6C4buSjebyg=="/>
+		<POI MapID="955" xpos="-227.066" ypos="226.547" zpos="26.5557" type="FOTM.MF.Reflect" GUID="SgzrhHYFR0qAtymSIPFl1Q=="/>
+		<!-- Nightmare -->
+		<POI MapID="1177" xpos="115.401" ypos="14.0562" zpos="153.006" type="FOTM.NM.Knights" GUID="D3TdNEjLFECd1ntKnkDcaA==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
+		<POI MapID="1177" xpos="92.6183" ypos="13.6697" zpos="168.462" type="FOTM.NM.Knights" GUID="ZeSgHnJTfECytz2/yyLeXw==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
+		<POI MapID="1177" xpos="90.3668" ypos="13.7478" zpos="139.64" type="FOTM.NM.Knights" GUID="Z+mzkaYKOECG+yc90OclmA==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
+		<POI MapID="1177" xpos="32.7043" ypos="44.6368" zpos="25.6605" type="FOTM.NM.Orbs" GUID="DijNR9RjrU2qeI58A1CaHQ==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
+		<POI MapID="1177" xpos="28.2628" ypos="44.6375" zpos="40.2083" type="FOTM.NM.Orbs" GUID="fs8EMCk4Z0O5+SpXk384Ww==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
+		<POI MapID="1177" xpos="41.0741" ypos="44.6372" zpos="49.0661" type="FOTM.NM.Orbs" GUID="2I2VcNI2vEezT6b7D8zQew==" iconFile="Data/HeroPack/Fractals/fotm n ball.png"/>
+		<POI MapID="1177" xpos="53.6736" ypos="44.6364" zpos="40.2005" type="FOTM.NM.Orbs" GUID="hWKe8oFIf0WLkb3oEmos0A==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
+		<POI MapID="1177" xpos="48.1348" ypos="44.6364" zpos="26.1157" type="FOTM.NM.Orbs" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
+		<!-- Shattered Observatory -->
+		<Route name="VirastraSkip" BackwardDirection="0" resetposx="342.781" resetposy="110.248" resetposz="96.8604" resetRange="2" MapID="1205">
+			<POI MapID="1205" xpos="342.781" ypos="110.248" zpos="96.8604" type="FOTM.ShO.VirastraSkip" GUID="fbTuKujAs0iRKamV7PwQyA==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset="1" iconSize="0.5" fadeNear="500" fadeFar="1000"/>
+			<POI MapID="1205" xpos="331.75" ypos="111.834" zpos="90.7721" type="FOTM.ShO.VirastraSkip" GUID="qtKVAC3yhU2uaEFf4bWp+g==" iconFile="Data/HeroPack/Fractals/skip.png" iconSize="0.75" fadeNear="750" fadeFar="1000"/>
+			<POI MapID="1205" xpos="293.118" ypos="115.052" zpos="67.3484" type="FOTM.ShO.VirastraSkip" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize="1" fadeNear="2000" fadeFar="3000"/>
 		</Route>
-		<POI MapID="1205" xpos="-455.425" ypos="72.8774" zpos="-398.342" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" iconFile="Data/HeroPack/Multipurpose/north.png" fadeNear="2750" fadeFar="3000"/>
-		<POI MapID="1205" xpos="-424.33" ypos="72.8811" zpos="-429.535" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="KyDTNWNN9kGRYKUbq9HUjw==" iconFile="Data/HeroPack/Multipurpose/east.png" fadeNear="2750" fadeFar="3000"/>
-		<POI MapID="1205" xpos="-455.334" ypos="72.8811" zpos="-460.629" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="XFRHjzwReEK2vd2B3wF75A==" iconFile="Data/HeroPack/Multipurpose/south.png" fadeNear="2750" fadeFar="3000"/>
-		<POI MapID="1205" xpos="-486.53" ypos="72.8811" zpos="-429.453" type="FractalsOfTheMists.ShatteredObservatory.Arkk" GUID="rs/YBaonHEGS4Ce9VgFv5A==" iconFile="Data/HeroPack/Multipurpose/west.png" fadeNear="2750" fadeFar="3000"/>
-		
-		<!-- Solid Ocean's Markers -->
-		<POI MapID="958" xpos="770.913" ypos="587.657" zpos="823.828" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="W7kOZYbknku8PBOHjicXWQ==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="760.923" ypos="587.641" zpos="791.083" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="737.936" ypos="587.872" zpos="805.532" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="nxJBQoVS10iz75vDtFhveQ==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="752.218" ypos="587.851" zpos="815.256" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="zqnbM7ZzZEenmmg+DvMvSA==" iconFile="Data/HeroPack/Multipurpose/four.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="777.881" ypos="587.76" zpos="791.418" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="flcdVoGDNEilezff3lqm9g==" iconFile="Data/HeroPack/Multipurpose/five.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="768.241" ypos="587.7" zpos="808.04" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="vJemMyXPEUuNSZPGfzvu/w==" iconFile="Data/HeroPack/Multipurpose/six.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="746.085" ypos="587.802" zpos="790.579" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" iconFile="Data/HeroPack/Multipurpose/seven.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="727.075" ypos="588.39" zpos="794.372" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="d1+i93+WI0i/KfLy7GK8Dw==" iconFile="Data/HeroPack/Multipurpose/eight.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="753.406" ypos="587.813" zpos="802.226" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="wxAzC4Em3UuQxmGh5uZDxA==" iconFile="Data/HeroPack/Multipurpose/nine.png" fadeNear="3500" fadeFar="4000"/>
-		<POI MapID="958" xpos="738.195" ypos="587.885" zpos="819.331" type="FractalsOfTheMists.SolidOcean.ColossusSpawns" GUID="qaJzH5kbLEqopYySdAFJbw==" iconFile="Data/HeroPack/Multipurpose/ten.png" fadeNear="3500" fadeFar="4000"/>
-		
-		<!-- Thaumanova Reactor's Trails and Markers -->
-		<POI MapID="957" xpos="-3.01448" ypos="37.3142" zpos="-214.196" type="FractalsOfTheMists.ThaumanovaReactor.Maze" GUID="RM53JibWak6Mu3tmiFVNhw==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="3250" fadeFar="3500"/>
-		<POI MapID="957" xpos="-52.7573" ypos="36.4647" zpos="-192.484" type="FractalsOfTheMists.ThaumanovaReactor.Maze" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="3250" fadeFar="3500"/>
-		<POI MapID="957" xpos="-18.9275" ypos="39.5972" zpos="-230.494" type="FractalsOfTheMists.ThaumanovaReactor.Maze" GUID="8jv47sgfbkmfME22/3LvqQ==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="3250" fadeFar="3500"/>
-		<POI MapID="957" xpos="134.845" ypos="22.4457" zpos="114.548" type="FractalsOfTheMists.ThaumanovaReactor.Portal" GUID="lGx15a7kx0WpH83FFFdq3A==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" fadeNear="1250" fadeFar="1750" heightOffset="0.5" iconSize="0.75"/>
-		<POI MapID="957" xpos="138.905" ypos="21.5895" zpos="15.4928" type="FractalsOfTheMists.ThaumanovaReactor.Portal" GUID="jRFM1oCAF0SUWpEQErqKaA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="1000" fadeFar="1500" heightOffset="0.5" iconSize="0.75"/>
-		
-		<!-- Twilight Oasis' Route and Markers -->
-		<POI MapID="1267" xpos="37.0486" ypos="42.0646" zpos="75.9669" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPortal" GUID="vuBCfqJ8h0yRqPAqrbkzRg==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" heightOffset="0.5" iconSize="0.75" fadeNear="1250" fadeFar="1500"/>
-		<Route name="SecondSandblinderPath" BackwardDirection="0" resetposx="43.1469" resetposy="40.3094" resetposz="90.2181" resetRange="3" MapID="1267">
-			<POI MapID="1267" xpos="43.1469" ypos="40.3094" zpos="90.2181" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="D7BRp+GAA0me/mpdQuWoiw==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
-			<POI MapID="1267" xpos="52.54" ypos="49.7237" zpos="94.5491" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="Rgh1yBQl3kOw+n+W9RUjkQ==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
-			<POI MapID="1267" xpos="64.7208" ypos="49.7236" zpos="105.896" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="Kj5ub7TSYUKhwu5rjhllKg==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
-			<POI MapID="1267" xpos="68.5931" ypos="56.3863" zpos="114.54" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="skdD+JgdLkyQkHuUyPqMwA==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="1000"/>
-			<POI MapID="1267" xpos="72.2486" ypos="63.8358" zpos="118.78" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="dsXx8P7mmEu3LJ/F2W8law==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="500" fadeFar="750"/>
-			<POI MapID="1267" xpos="84.428" ypos="55.4647" zpos="126.834" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="l69oFbgBx0aQWOesS41beQ==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="750" fadeFar="1000"/>
-			<POI MapID="1267" xpos="102.037" ypos="44.668" zpos="120.768" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="6afibBGzK0KAGuJGKwhQ6g==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1250" fadeFar="1500"/>
-			<POI MapID="1267" xpos="110.311" ypos="55.9313" zpos="119.15" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="UBbR0CVB+0m/bK4EGAcM8Q==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1250" fadeFar="1500"/>
-			<POI MapID="1267" xpos="125.116" ypos="36.7678" zpos="111.594" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="KmSgfDIkzkes7eWXEbyQ2w==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset=".5" iconSize=".5" fadeNear="1250" fadeFar="1500"/>
-			<POI MapID="1267" xpos="135.436" ypos="45.9942" zpos="104.532" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPath" GUID="c6lREZ5irEC/uGUmD4xu5A==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset=".5" iconSize=".5" fadeNear="1000" fadeFar="1250"/>
+		<POI MapID="1205" xpos="-455.425" ypos="72.8774" zpos="-398.342" type="FOTM.ShO.Arkk" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" iconFile="Data/HeroPack/Multipurpose/north.png"/>
+		<POI MapID="1205" xpos="-424.33" ypos="72.8811" zpos="-429.535" type="FOTM.ShO.Arkk" GUID="KyDTNWNN9kGRYKUbq9HUjw==" iconFile="Data/HeroPack/Multipurpose/east.png"/>
+		<POI MapID="1205" xpos="-455.334" ypos="72.8811" zpos="-460.629" type="FOTM.ShO.Arkk" GUID="XFRHjzwReEK2vd2B3wF75A==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
+		<POI MapID="1205" xpos="-486.53" ypos="72.8811" zpos="-429.453" type="FOTM.ShO.Arkk" GUID="rs/YBaonHEGS4Ce9VgFv5A==" iconFile="Data/HeroPack/Multipurpose/west.png"/>
+		<!-- Solid Ocean -->
+		<POI MapID="958" xpos="770.913" ypos="587.657" zpos="823.828" type="FOTM.SoO.Colossus" GUID="W7kOZYbknku8PBOHjicXWQ==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
+		<POI MapID="958" xpos="760.923" ypos="587.641" zpos="791.083" type="FOTM.SoO.Colossus" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
+		<POI MapID="958" xpos="737.936" ypos="587.872" zpos="805.532" type="FOTM.SoO.Colossus" GUID="nxJBQoVS10iz75vDtFhveQ==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
+		<POI MapID="958" xpos="752.218" ypos="587.851" zpos="815.256" type="FOTM.SoO.Colossus" GUID="zqnbM7ZzZEenmmg+DvMvSA==" iconFile="Data/HeroPack/Multipurpose/four.png"/>
+		<POI MapID="958" xpos="777.881" ypos="587.76" zpos="791.418" type="FOTM.SoO.Colossus" GUID="flcdVoGDNEilezff3lqm9g==" iconFile="Data/HeroPack/Multipurpose/five.png"/>
+		<POI MapID="958" xpos="768.241" ypos="587.7" zpos="808.04" type="FOTM.SoO.Colossus" GUID="vJemMyXPEUuNSZPGfzvu/w==" iconFile="Data/HeroPack/Multipurpose/six.png"/>
+		<POI MapID="958" xpos="746.085" ypos="587.802" zpos="790.579" type="FOTM.SoO.Colossus" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" iconFile="Data/HeroPack/Multipurpose/seven.png"/>
+		<POI MapID="958" xpos="727.075" ypos="588.39" zpos="794.372" type="FOTM.SoO.Colossus" GUID="d1+i93+WI0i/KfLy7GK8Dw==" iconFile="Data/HeroPack/Multipurpose/eight.png"/>
+		<POI MapID="958" xpos="753.406" ypos="587.813" zpos="802.226" type="FOTM.SoO.Colossus" GUID="wxAzC4Em3UuQxmGh5uZDxA==" iconFile="Data/HeroPack/Multipurpose/nine.png"/>
+		<POI MapID="958" xpos="738.195" ypos="587.885" zpos="819.331" type="FOTM.SoO.Colossus" GUID="qaJzH5kbLEqopYySdAFJbw==" iconFile="Data/HeroPack/Multipurpose/ten.png"/>
+		<!-- Thaumanova Reactor -->
+		<POI MapID="957" xpos="-3.01448" ypos="37.3142" zpos="-214.196" type="FOTM.TR.Maze" GUID="RM53JibWak6Mu3tmiFVNhw==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
+		<POI MapID="957" xpos="-52.7573" ypos="36.4647" zpos="-192.484" type="FOTM.TR.Maze" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
+		<POI MapID="957" xpos="-18.9275" ypos="39.5972" zpos="-230.494" type="FOTM.TR.Maze" GUID="8jv47sgfbkmfME22/3LvqQ==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
+		<POI MapID="957" xpos="134.845" ypos="22.4457" zpos="114.548" type="FOTM.TR.Portal" GUID="lGx15a7kx0WpH83FFFdq3A==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" fadeNear="1250" fadeFar="1750"/>
+		<POI MapID="957" xpos="138.905" ypos="21.5895" zpos="15.4928" type="FOTM.TR.Portal" GUID="jRFM1oCAF0SUWpEQErqKaA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="1000" fadeFar="1500"/>
+		<!-- <Trail trailData="Data/HeroPack/Fractals/golem 1.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.TR.Maze" fadeNear="10000" fadeFar="11000"/>
+		<Trail trailData="Data/HeroPack/Fractals/golem real 2.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.TR.Maze" fadeNear="10000" fadeFar="11000"/>
+		<Trail trailData="Data/HeroPack/Fractals/golem 3.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.TR.Maze" fadeNear="10000" fadeFar="11000"/>
+		<Trail trailData="Data/HeroPack/Fractals/golem 4.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.TR.Maze" fadeNear="10000" fadeFar="11000"/>
+		<Trail trailData="Data/HeroPack/Fractals/golem 5.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.TR.Maze" fadeNear="10000" fadeFar="11000"/> THIS IS A WIP -->
+		<!-- Twilight Oasis -->
+		<POI MapID="1267" xpos="37.0486" ypos="42.0646" zpos="75.9669" type="FOTM.TO.Portal" GUID="vuBCfqJ8h0yRqPAqrbkzRg==" iconFile="Data/HeroPack/Fractals/PortalEnter.png"/>
+		<POI MapID="1267" xpos="134.683" ypos="45.995" zpos="101.341" type="FOTM.TO.Portal" GUID="60DW0omH1ky1wokPoLXtNA==" iconFile="Data/HeroPack/Fractals/PortalExit.png"/>
+		<Route name="Path" BackwardDirection="0" resetposx="43.1469" resetposy="40.3094" resetposz="90.2181" resetRange="3" MapID="1267">
+			<POI MapID="1267" xpos="43.1469" ypos="40.3094" zpos="90.2181" type="FOTM.TO.Path" GUID="D7BRp+GAA0me/mpdQuWoiw==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="500" fadeFar="750"/>
+			<POI MapID="1267" xpos="52.54" ypos="49.7237" zpos="94.5491" type="FOTM.TO.Path" GUID="Rgh1yBQl3kOw+n+W9RUjkQ==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="1000" fadeFar="1250"/>
+			<POI MapID="1267" xpos="64.7208" ypos="49.7236" zpos="105.896" type="FOTM.TO.Path" GUID="Kj5ub7TSYUKhwu5rjhllKg==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="1000" fadeFar="1250"/>
+			<POI MapID="1267" xpos="68.5931" ypos="56.3863" zpos="114.54" type="FOTM.TO.Path" GUID="skdD+JgdLkyQkHuUyPqMwA==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="750" fadeFar="1000"/>
+			<POI MapID="1267" xpos="72.2486" ypos="63.8358" zpos="118.78" type="FOTM.TO.Path" GUID="dsXx8P7mmEu3LJ/F2W8law==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="500" fadeFar="750"/>
+			<POI MapID="1267" xpos="84.428" ypos="55.4647" zpos="126.834" type="FOTM.TO.Path" GUID="l69oFbgBx0aQWOesS41beQ==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="750" fadeFar="1000"/>
+			<POI MapID="1267" xpos="102.037" ypos="44.668" zpos="120.768" type="FOTM.TO.Path" GUID="6afibBGzK0KAGuJGKwhQ6g==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="1250" fadeFar="1500"/>
+			<POI MapID="1267" xpos="110.311" ypos="55.9313" zpos="119.15" type="FOTM.TO.Path" GUID="UBbR0CVB+0m/bK4EGAcM8Q==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="1250" fadeFar="1500"/>
+			<POI MapID="1267" xpos="125.116" ypos="36.7678" zpos="111.594" type="FOTM.TO.Path" GUID="KmSgfDIkzkes7eWXEbyQ2w==" iconFile="Data/HeroPack/Fractals/skip.png" fadeNear="1250" fadeFar="1500"/>
+			<POI MapID="1267" xpos="135.436" ypos="45.9942" zpos="104.532" type="FOTM.TO.Path" GUID="c6lREZ5irEC/uGUmD4xu5A==" iconFile="Data/HeroPack/Fractals/didSkip.png" fadeNear="1000" fadeFar="1250"/>
 		</Route>
-		<POI MapID="1267" xpos="134.683" ypos="45.995" zpos="101.341" type="FractalsOfTheMists.TwilightOasis.SecondSandblinderPortal" GUID="60DW0omH1ky1wokPoLXtNA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0.5" iconSize="0.75" fadeNear="1250" fadeFar="1500"/>
-		
-		<!-- Uncategorized's Trail -->
-		<Trail trailData="Data/HeroPack/Fractals/uncat trail.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.Uncategorized.JPSkip" fadeNear="750" fadeFar="1000"/>
-		<POI MapID="947" xpos="-825.045" ypos="843.757" zpos="-729.421" type="FractalsOfTheMists.Uncategorized.LeapSkip" GUID="Mr/yCDE/n06e8w9vz/bC8g==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset="0.25" iconSize=".35" fadeNear="1500" fadeFar="1750"/>
-		<POI MapID="947" xpos="-844.347" ypos="856.572" zpos="-707.482" type="FractalsOfTheMists.Uncategorized.LeapSkip" GUID="y/A1JLvboU6goza818v4rg==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="0.5" iconSize="0.5" fadeNear="1500" fadeFar="1750"/>
-		
-		<!-- Underground Facility's Trails & Markers -->
-		<POI MapID="953" xpos="692.992" ypos="25.5082" zpos="391.388" type="FractalsOfTheMists.UndergroundFacility.PlateSkip" GUID="LXe2Q6cMIkqgoVz1mU0okw==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="-1" iconSize=".5" fadeNear="750" fadeFar="1000"/>
-		<Trail trailData="Data/HeroPack/Fractals/facility skip.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.UndergroundFacility.PlateSkip" fadeNear="750" fadeFar="1000"/>
-		
-		<!-- Urban Battleground's Trail -->
-		<Trail trailData="Data/HeroPack/Fractals/UB Oils.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.UrbanBattlegrounds.OilBorder" fadeNear="1000" fadeFar="1500"/>
-		
-		<!-- Volcanic's Trails and Markers -->
-		<POI MapID="954" xpos="348.928" ypos="82.7975" zpos="-716.983" type="FractalsOfTheMists.Volcanic.Portal" GUID="4bFCZMjeJESnDAfAWNvqSA==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" fadeNear="400" fadeFar="600" heightOffset="0" iconSize=".6"/>
-		<POI MapID="954" xpos="233.9" ypos="54.172" zpos="-693.285" type="FractalsOfTheMists.Volcanic.Portal" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="750" fadeFar="900" heightOffset="-.5" iconSize=".6"/>
-		<Trail trailData="Data/HeroPack/Fractals/Volcanic.trl" texture="Data/HeroPack/Fractals/volcanictrail.png" animSpeed="2" alpha="1" type="FractalsOfTheMists.Volcanic.CliffFall" fadeNear="800" fadeFar="1000"/>
-		<POI MapID="954" xpos="201.607" ypos="7.22761" zpos="-737.238" type="FractalsOfTheMists.Volcanic.CliffFall" GUID="vJpxrQmGp0Sd6jU7PgTVMA==" iconFile="Data/HeroPack/Fractals/startjumping.png" fadeNear="1100" fadeFar="1350"/>
+		<!-- Uncategorized -->
+		<Trail trailData="Data/HeroPack/Fractals/uncat trail.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.UC.JP" fadeNear="750" fadeFar="1000"/>
+		<POI MapID="947" xpos="-825.045" ypos="843.757" zpos="-729.421" type="FOTM.UC.Leap" GUID="Mr/yCDE/n06e8w9vz/bC8g==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset="0.25" iconSize="0.35"/>
+		<POI MapID="947" xpos="-844.347" ypos="856.572" zpos="-707.482" type="FOTM.UC.Leap" GUID="y/A1JLvboU6goza818v4rg==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="0.5" iconSize="0.5"/>
+		<!-- Underground Facility -->
+		<POI MapID="953" xpos="692.992" ypos="25.5082" zpos="391.388" type="FOTM.UF.Skip" GUID="LXe2Q6cMIkqgoVz1mU0okw==" iconFile="Data/HeroPack/Fractals/didSkip.png" heightOffset="-1" iconSize="0.5"/>
+		<Trail trailData="Data/HeroPack/Fractals/facility skip.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.UF.Skip" fadeNear="750" fadeFar="1000"/>
+		<!-- Urban Battleground -->
+		<Trail trailData="Data/HeroPack/Fractals/UB Oils.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.UB.Oil" fadeNear="1000" fadeFar="1500"/>
+		<!-- Volcanic -->
+		<POI MapID="954" xpos="348.928" ypos="82.7975" zpos="-716.983" type="FOTM.Vo.Portal" GUID="4bFCZMjeJESnDAfAWNvqSA==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" heightOffset="0" fadeNear="400" fadeFar="600"/>
+		<POI MapID="954" xpos="233.9" ypos="54.172" zpos="-693.285" type="FOTM.Vo.Portal" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="-0.5" fadeNear="750" fadeFar="900"/>
+		<Trail trailData="Data/HeroPack/Fractals/Volcanic.trl" texture="Data/HeroPack/Fractals/volcanictrail.png" animSpeed="2" alpha="1" type="FOTM.Vo.Cliff" fadeNear="800" fadeFar="1000"/>
+		<POI MapID="954" xpos="201.607" ypos="7.22761" zpos="-737.238" type="FOTM.Vo.Cliff" GUID="vJpxrQmGp0Sd6jU7PgTVMA==" iconFile="Data/HeroPack/Fractals/startjumping.png" fadeNear="1100" fadeFar="1350"/>
 	</POIs>
 </OverlayData>
