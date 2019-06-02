@@ -6,13 +6,6 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 
 ## Features of this pack:
 
-## Map Timer:
-*I know this is by default in tac0, but I tailored it to my preferences. As such there are no World Bosses, Hardcore Bosses, Dry Top, and Ley Line Anomalies in this timer.*
-- Daytime, and HoT metas are edited to be more intuitive.
-- Desert Highlands' Buried Treasure meta is listed.
-- Domain of Istan's Palawadan meta is listed.
-- Thunderhead Peaks' Thunderhead Keep and The Oil Floes metas are listed.
-
 ## Fractal of the Mists:
 - **Aetherblade:**
   - *Markers* for a quick, group coordinated skip for the electric minigame.
