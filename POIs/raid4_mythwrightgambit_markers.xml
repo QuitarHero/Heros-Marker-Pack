@@ -1,42 +1,41 @@
 <OverlayData>
 	<MarkerCategory name="Raid" DisplayName="Raid">
-		<MarkerCategory name="MythwrightGambit" DisplayName="Mythwright Gambit">
-			<MarkerCategory name="ConjuredAmalgamate" DisplayName="Conjured Amalgamate">
-				<MarkerCategory name="Greatswords" DisplayName="Greatsword Orb Spawns"/>
-				<MarkerCategory name="Shields" DisplayName="Shield Orb Spawns"/>
+		<MarkerCategory name="MG" DisplayName="Mythwright Gambit">
+			<MarkerCategory name="CA" DisplayName="Conjured Amalgamate" heightOffset="0.5" iconSize="0.75" fadeNear="2500" fadeFar="3000">
+				<MarkerCategory name="Greatswords" DisplayName="Greatsword Side" iconFile="Data/HeroPack/Raids/GS.png"/>
+				<MarkerCategory name="Shields" DisplayName="Shield Side" iconFile="Data/HeroPack/Raids/Shield.png"/>
 			</MarkerCategory>
-			<MarkerCategory name="Qadim">
-				<MarkerCategory name="Boons" DisplayName="Elemental's Boons"/>
-				<MarkerCategory name="Lamp1" DisplayName="100% Lamp Path"/>
-				<MarkerCategory name="Lamp2" DisplayName="66% Lamp Path"/>
-				<MarkerCategory name="Lamp3" DisplayName="33% Lamp Path"/>
+			<MarkerCategory name="Qadim" DisplayName="Qadim">
+				<MarkerCategory name="Boons" DisplayName="Pyre Boons" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
+				<MarkerCategory name="Lamp" DisplayName="Lamp Path" fadeNear="2000" fadeFar="3000"/>
 			</MarkerCategory>
+			<MarkerCategory name="Chests" DisplayName="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3" fadeNear="1250" fadeFar="1500"/>
 		</MarkerCategory>
 	</MarkerCategory>
 
 	<POIs>
-		<!-- Conjured Amalgamate's Markers -->
-		<POI MapID="1303" xpos="-96.9369" ypos="52.4141" zpos="-314.767" type="Raid.MythwrightGambit.ConjuredAmalgamate.Greatswords" GUID="dEwIb7aW6UiY6ai/12wYOg==" iconFile="Data/HeroPack/Raids/GS.png" heightOffset="0.5" iconSize="0.75" fadeNear="2500" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-95.3615" ypos="52.4141" zpos="-343.214" type="Raid.MythwrightGambit.ConjuredAmalgamate.Shields" GUID="9uBOUgNzJUG5HC8e+jq9uw==" iconFile="Data/HeroPack/Raids/Shield.png" heightOffset="0.5" iconSize="0.75" fadeNear="2500" fadeFar="3000"/>
-		
-		<!-- Qadim's Markers & Trails -->
-		<POI MapID="1303" xpos="-145.739" ypos="120.167" zpos="331.472" type="Raid.MythwrightGambit.Qadim.Boons" GUID="5Zg83JXFyEGiEVGDpwlIEQ==" iconFile="Data/HeroPack/Raids/Stability.png" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
-		<POI MapID="1303" xpos="-188.487" ypos="120.147" zpos="257.289" type="Raid.MythwrightGambit.Qadim.Boons" GUID="xzLu/d06k0yKVkd4p3L2lw==" iconFile="Data/HeroPack/Raids/Retaliation.png" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
-		<POI MapID="1303" xpos="-230.839" ypos="120.168" zpos="331.257" type="Raid.MythwrightGambit.Qadim.Boons" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" iconFile="Data/HeroPack/Raids/Protection.png" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
-		
-		<POI MapID="1303" xpos="-240.61075" ypos="2.06539" zpos="357.9595" GUID="2Y9krt2x/kWrpIpeLIch6A==" iconFile="Data/HeroPack/Raids/OneTwoThree.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-205.413" ypos="2.06539" zpos="358.268" GUID="Jx0WcthzMUy918YSdUk9zg==" iconFile="Data/HeroPack/Raids/OneThree.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-239.26" ypos="2.06539" zpos="324.358" GUID="QaoLHUyufkCCy4/32IlW2w==" iconFile="Data/HeroPack/Raids/Two.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-169.766" ypos="2.06539" zpos="357.921" GUID="Fqh3eT+bKkeQgXRveW/1sA==" iconFile="Data/HeroPack/Raids/One.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-205.211" ypos="2.06539" zpos="324.05" GUID="doJWtcErzkeR22nrFdA5Sw==" iconFile="Data/HeroPack/Raids/Three.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-239.204" ypos="2.06539" zpos="289.543" GUID="yx/DV9KpJUOpOXmRaeipQQ==" iconFile="Data/HeroPack/Raids/Two.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-205.29" ypos="2.06055" zpos="288.986" GUID="jxPA517Bp0+mWSjF+loigw==" iconFile="Data/HeroPack/Raids/TwoThree.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-170.293" ypos="2.06539" zpos="324.533" GUID="MItAtydiA0+9ZbxfiGi13w==" iconFile="Data/HeroPack/Raids/One.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-169.973" ypos="2.06054" zpos="289.316" GUID="EGi2jEi8d0ORy/sASrZoTQ==" iconFile="Data/HeroPack/Raids/OneTwo.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-170.237" ypos="2.06054" zpos="256.052" GUID="JbOoMXi4LUWQG3iaSA2SLw==" iconFile="Data/HeroPack/Raids/TwoThree.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-136.69" ypos="2.06054" zpos="289.577" GUID="LsCN1BDyBEOZDcD3tTmfjQ==" iconFile="Data/HeroPack/Raids/One.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-136.43" ypos="2.07065" zpos="255.978" GUID="GQUBgVjYDUaQy1sXujtkTw==" iconFile="Data/HeroPack/Raids/OneTwoThree.png" fadeNear="2000" fadeFar="3000"/>
-		<POI MapID="1303" xpos="-205.546" ypos="2.06189" zpos="256.048" GUID="HhLPCQEdx029RwfoH/x4EA==" iconFile="Data/HeroPack/Raids/Three.png" fadeNear="2000" fadeFar="3000"/>
-		
+		<!-- Conjured Amalgamate -->
+		<POI MapID="1303" xpos="-96.9369" ypos="52.4141" zpos="-314.767" type="Raid.MG.CA.Greatswords" GUID="dEwIb7aW6UiY6ai/12wYOg=="/>
+		<POI MapID="1303" xpos="-95.3615" ypos="52.4141" zpos="-343.214" type="Raid.MG.CA.Shields" GUID="9uBOUgNzJUG5HC8e+jq9uw=="/>
+		<!-- Qadim -->
+		<POI MapID="1303" xpos="-145.739" ypos="120.167" zpos="331.472" type="Raid.MG.Qadim.Boons" GUID="5Zg83JXFyEGiEVGDpwlIEQ==" iconFile="Data/HeroPack/Raids/Stability.png"/>
+		<POI MapID="1303" xpos="-188.487" ypos="120.147" zpos="257.289" type="Raid.MG.Qadim.Boons" GUID="xzLu/d06k0yKVkd4p3L2lw==" iconFile="Data/HeroPack/Raids/Retaliation.png"/>
+		<POI MapID="1303" xpos="-230.839" ypos="120.168" zpos="331.257" type="Raid.MG.Qadim.Boons" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" iconFile="Data/HeroPack/Raids/Protection.png"/>
+		<POI MapID="1303" xpos="-240.61075" ypos="2.06539" zpos="357.9595" type="Raid.MG.Qadim.Lamp" GUID="2Y9krt2x/kWrpIpeLIch6A==" iconFile="Data/HeroPack/Raids/OneTwoThree.png"/>
+		<POI MapID="1303" xpos="-205.413" ypos="2.06539" zpos="358.268" type="Raid.MG.Qadim.Lamp" GUID="Jx0WcthzMUy918YSdUk9zg==" iconFile="Data/HeroPack/Raids/OneThree.png"/>
+		<POI MapID="1303" xpos="-239.26" ypos="2.06539" zpos="324.358" type="Raid.MG.Qadim.Lamp" GUID="QaoLHUyufkCCy4/32IlW2w==" iconFile="Data/HeroPack/Raids/Two.png"/>
+		<POI MapID="1303" xpos="-169.766" ypos="2.06539" zpos="357.921" type="Raid.MG.Qadim.Lamp" GUID="Fqh3eT+bKkeQgXRveW/1sA==" iconFile="Data/HeroPack/Raids/One.png"/>
+		<POI MapID="1303" xpos="-205.211" ypos="2.06539" zpos="324.05" type="Raid.MG.Qadim.Lamp" GUID="doJWtcErzkeR22nrFdA5Sw==" iconFile="Data/HeroPack/Raids/Three.png"/>
+		<POI MapID="1303" xpos="-239.204" ypos="2.06539" zpos="289.543" type="Raid.MG.Qadim.Lamp" GUID="yx/DV9KpJUOpOXmRaeipQQ==" iconFile="Data/HeroPack/Raids/Two.png"/>
+		<POI MapID="1303" xpos="-205.29" ypos="2.06055" zpos="288.986" type="Raid.MG.Qadim.Lamp" GUID="jxPA517Bp0+mWSjF+loigw==" iconFile="Data/HeroPack/Raids/TwoThree.png"/>
+		<POI MapID="1303" xpos="-170.293" ypos="2.06539" zpos="324.533" type="Raid.MG.Qadim.Lamp" GUID="MItAtydiA0+9ZbxfiGi13w==" iconFile="Data/HeroPack/Raids/One.png"/>
+		<POI MapID="1303" xpos="-169.973" ypos="2.06054" zpos="289.316" type="Raid.MG.Qadim.Lamp" GUID="EGi2jEi8d0ORy/sASrZoTQ==" iconFile="Data/HeroPack/Raids/OneTwo.png"/>
+		<POI MapID="1303" xpos="-170.237" ypos="2.06054" zpos="256.052" type="Raid.MG.Qadim.Lamp" GUID="JbOoMXi4LUWQG3iaSA2SLw==" iconFile="Data/HeroPack/Raids/TwoThree.png"/>
+		<POI MapID="1303" xpos="-136.69" ypos="2.06054" zpos="289.577" type="Raid.MG.Qadim.Lamp" GUID="LsCN1BDyBEOZDcD3tTmfjQ==" iconFile="Data/HeroPack/Raids/One.png"/>
+		<POI MapID="1303" xpos="-136.43" ypos="2.07065" zpos="255.978" type="Raid.MG.Qadim.Lamp" GUID="GQUBgVjYDUaQy1sXujtkTw==" iconFile="Data/HeroPack/Raids/OneTwoThree.png"/>
+		<POI MapID="1303" xpos="-205.546" ypos="2.06189" zpos="256.048" type="Raid.MG.Qadim.Lamp" GUID="HhLPCQEdx029RwfoH/x4EA==" iconFile="Data/HeroPack/Raids/Three.png"/>
+		<!-- Chests -->
+		<POI MapID="1303" xpos="-254.979" ypos="148.98" zpos="-482.841" type="Raid.MG.Chests" GUID="eVxGWPyLa0eUySUE1YoM3Q=="/>
+		<POI MapID="1303" xpos="-33.3596" ypos="121.39" zpos="318.836" type="Raid.MG.Chests" GUID="VMf89b+HhUiybPCQz2TuuA=="/>
 	</POIs>
 </OverlayData>
