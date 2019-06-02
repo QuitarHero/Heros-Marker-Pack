@@ -62,7 +62,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for its Mushrooms.
   - *A Timer* for its mushroom and slubling spawns.
 - **Trio:**
-  - *Markers* for boss spawns and keg & beehive stack points.
+  - *Markers* for boss spawns, oil kegs & beehive stack points.
 - **Matthias:**
   - *Markers* for his wells.
   - *A Timer* (optional) for his corruption applications and the first four sacrifices.
@@ -70,7 +70,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* for the various chests in Salvation Pass.
 ### Stronghold of the Faithful:
 - **Escort:**
-  - *A Route* (hidden) for a skip to the fourth tower.
+  - *Markers* (hidden) for a skip to the fourth tower.
 - **Keep Construct:**
   - *Markers* for his Green Circles.
 - **Twisted Castle:**
@@ -93,11 +93,12 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - **Soulless Horror:**
   - *Markers* to help orient players and where to bring her.
 - **Statue of Darkness:**
+  - *Markers* for Broken King to orient players for greens.
   - *Markers* for Light Orb spawns.
 - **Dhuum:**
   - *Markers* for each of the Reapers.
   - *A Timer* (optional) for Dhuum's greens, Soul Split, and Dips.
-  - *Markers* creating a border of death for players performing the Greens mechanic.
+  - *A Trail* creating a border of death for players performing the Greens mechanic.
 - **General:**
   - *Markers* for various chests in Hall of Chains.
 ### Mythwright Gambit:
@@ -106,5 +107,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - **Qadim:**
   - *Markers* to lead players through his lamp (efficiently).
   - *Markers* to sort players to their boon pyre.
+- **General:**
+  - *Markers* for various chests in Mythwright Gambit.
 
 **Support Discord:** https://discord.gg/rCEuzGz
