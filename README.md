@@ -102,5 +102,13 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* to sort players to their boon pyre.
 - **General:**
   - *Markers* for various chests in Mythwright Gambit.
+### The Key of Ahdashim:
+- **Cardinal Sabir:**
+  - *Markers* to orient players for the last platform's shields.
+- **Cardinal Adina:**
+  - *Markers* to orient players to Hand spawns are in 50% and 25%.
+- **Qadim the Peerless:**
+  - *Markers* showing the pylon destruction order.
+  - *Markers* to orient players to Orb / Distortion spawns.
 
 **Support Discord:** https://discord.gg/rCEuzGz
