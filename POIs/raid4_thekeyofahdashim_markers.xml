@@ -28,8 +28,8 @@
 	
 	<!-- Qadim the Peerless -->
 	<POI MapID="1323" xpos="41.5434" ypos="16.8134" zpos="294.356" type="raid.ahdashim.qadim.pylons" GUID="0OXp2ufTbU6/fEo+UcwOMA==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
-	<POI MapID="1323" xpos="74.8618" ypos="16.8134" zpos="236.7" type="raid.ahdashim.qadim.pylons" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
-	<POI MapID="1323" xpos="8.31707" ypos="16.812" zpos="236.796" type="raid.ahdashim.qadim.pylons" GUID="UPNrnI78QEKYECwurS+1KQ==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
+	<POI MapID="1323" xpos="8.31707" ypos="16.812" zpos="236.796" type="raid.ahdashim.qadim.pylons" GUID="UPNrnI78QEKYECwurS+1KQ==" iconFile="Data/HeroPack/Multipurpose/two.png"/>	
+	<POI MapID="1323" xpos="74.8618" ypos="16.8134" zpos="236.7" type="raid.ahdashim.qadim.pylons" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
 	<POI MapID="1323" xpos="74.7666" ypos="16.8134" zpos="275.343" type="raid.ahdashim.qadim.directions" GUID="rNrmuquiNUGqxmuz9Ysvzw==" iconFile="Data/HeroPack/Multipurpose/northeast.png"/>
 	<POI MapID="1323" xpos="41.4614" ypos="16.8132" zpos="217.273" type="raid.ahdashim.qadim.directions" GUID="vtZJzGM3MEOwmt+k5FD1FA==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
 	<POI MapID="1323" xpos="7.94487" ypos="16.812" zpos="275.227" type="raid.ahdashim.qadim.directions" GUID="rfDvbBXZREyzilspeVkaXA==" iconFile="Data/HeroPack/Multipurpose/northwest.png"/>
