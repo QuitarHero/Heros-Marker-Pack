@@ -1,15 +1,15 @@
 <OverlayData>
-	<MarkerCategory name="Raid" DisplayName="Raid">
+	<MarkerCategory name="Raid">
 		<MarkerCategory name="MG" DisplayName="Mythwright Gambit">
 			<MarkerCategory name="CA" DisplayName="Conjured Amalgamate" heightOffset="0.5" iconSize="0.75" fadeNear="2500" fadeFar="3000">
-				<MarkerCategory name="Greatswords" DisplayName="Greatsword Side" iconFile="Data/HeroPack/Raids/GS.png"/>
-				<MarkerCategory name="Shields" DisplayName="Shield Side" iconFile="Data/HeroPack/Raids/Shield.png"/>
+				<MarkerCategory name="Greatswords" iconFile="Data/HeroPack/Raids/GS.png"/>
+				<MarkerCategory name="Shields" iconFile="Data/HeroPack/Raids/Shield.png"/>
 			</MarkerCategory>
-			<MarkerCategory name="Qadim" DisplayName="Qadim">
+			<MarkerCategory name="Qadim">
 				<MarkerCategory name="Boons" DisplayName="Pyre Boons" heightOffset="0.5" iconSize="0.75" fadeNear="4500" fadeFar="5000"/>
 				<MarkerCategory name="Lamp" DisplayName="Lamp Path" fadeNear="2000" fadeFar="3000"/>
 			</MarkerCategory>
-			<MarkerCategory name="Chests" DisplayName="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3" fadeNear="1250" fadeFar="1500"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3" fadeNear="1250" fadeFar="1500"/>
 		</MarkerCategory>
 	</MarkerCategory>
 
