@@ -1,16 +1,16 @@
 <OverlayData>
-	<MarkerCategory name="Raid" DisplayName="Raid">
+	<MarkerCategory name="Raid">
 		<MarkerCategory name="SV" DisplayName="Spirit Vale">
-			<MarkerCategory name="Mushrooms" DisplayName="Mushrooms">
-				<MarkerCategory name="Speed" DisplayName="Speed Mushrooms" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="1.7" resetLength="20" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
-				<MarkerCategory name="Adrenal" DisplayName="Adrenal Mushrooms" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="2" resetLength="30.9" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Mushrooms">
+				<MarkerCategory name="Speed" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="1.7" resetLength="20" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="Adrenal" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="2" resetLength="30.9" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
 			</MarkerCategory>
 			<MarkerCategory name="SR" DisplayName="Spirit Run">
 				<MarkerCategory name="Trigger" DisplayName="Portal Stuffs"/>
 			</MarkerCategory>
-			<MarkerCategory name="Gorseval" DisplayName="Gorseval" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Sabetha" DisplayName="Sabetha" heightOffset="2.5" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Chests" DisplayName="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="Gorseval" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Sabetha" heightOffset="2.5" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -24,8 +24,8 @@
 		<!-- Spirit Run -->
 		<Trail trailData="Data/HeroPack/Raids/SR_TriggerLines.trl" texture="Data/HeroPack/Raids/SR_Trigger.png" animSpeed="0" alpha="1" type="Raid.SV.SR.Trigger" fadeNear="1000" fadeFar="1500"/>
 		<!-- Gorseval -->
-		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Raids/arrow.png"/>
-		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Raids/circle.png"/>
+		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
+		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
 		<!-- Sabetha -->
 		<POI MapID="1062" xpos="-126.917" ypos="62.9524" zpos="111.433" type="Raid.SV.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/north.png"/>
 		<POI MapID="1062" xpos="-132.693" ypos="62.9657" zpos="56.4836" type="Raid.SV.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
