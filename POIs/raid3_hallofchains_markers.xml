@@ -1,17 +1,17 @@
 <OverlayData>
-	<MarkerCategory name="Raid" DisplayName="Raid">
+	<MarkerCategory name="Raid">
 		<MarkerCategory name="HOC" DisplayName="Hall of Chains">
 			<MarkerCategory name="SH" DisplayName="Soulless Horror" fadeNear="3500" fadeFar="4000"/>
-			<MarkerCategory name="Statues" DisplayName="Statues">
+			<MarkerCategory name="Statues">
 				<MarkerCategory name="King" DisplayName="Broken King" fadeNear="3000" fadeFar="3500"/>
 				<MarkerCategory name="Darkness" DisplayName="Statue of Darkness" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0.5" iconSize="0.5" fadeNear="2800" fadeFar="3000"/>
 			</MarkerCategory>
-			<MarkerCategory name="Dhuum" DisplayName="Dhuum">
-				<MarkerCategory name="Reapers" DisplayName="Reapers" heightOffset="2" fadeNear="3500" fadeFar="4000"/>
+			<MarkerCategory name="Dhuum">
+				<MarkerCategory name="Reapers" heightOffset="2" fadeNear="3500" fadeFar="4000"/>
 				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" heightOffset="0" fadeNear="3500" fadeFar="4000"/>
 				<MarkerCategory name="Death" DisplayName="Death AoE"/>
 			</MarkerCategory>
-			<MarkerCategory name="Chests" DisplayName="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 
