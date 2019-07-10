@@ -12,7 +12,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - **Cliffside:**
   - *Markers* for 4 Portal (Speed) Skips.
 - **Mistlock Observatory:**
-  - *A Route* for an alternate route to complete the Jumping Puzzle (low gravity is necessary).
+  - *Markers* for an alternate route to complete the Jumping Puzzle (low gravity is necessary).
 - **Molten Furnace:**
   - *Markers* in the Weapons Testing room to avoid all the Tornadoes and where to reflect the fireballs.
 - **Nightmare (CM):**
@@ -70,13 +70,13 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *A Trail* for a skip to the first button (only can be done with certain skills)
   - *Markers* for the encounter's buttons (in the order to activate them).
 - **Xera:**
-  - *Markers* for tanking spots (in the ideal order they're taken).
+  - *Markers* for tanking spots (this assumes 75% DPS Check).
 - **General:**
   - *Markers* for various chests in Stronghold of the Faithful.
 ### Bastion of the Penitent:
 - **Cairn:**
   - *Markers* for optimal agony placement.
-  - *A Timer* for his agony applications.
+  - *A Timer* (optional) for his agony applications (this assumes you start on platform).
 - **Mursaat Overseer:**
   - *A Timer* (optional) for Dispels.
 - **General:**
@@ -107,6 +107,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - *Markers* to orient players for the last platform's shields.
 - **Cardinal Adina:**
   - *Markers* to orient players to Hand spawns are in 50% and 25%.
+  - *Markers* to orient players to good, consistent spots to place pillars.
 - **Qadim the Peerless:**
   - *Markers* showing the pylon destruction order.
   - *Markers* to orient players to Orb / Distortion spawns.
