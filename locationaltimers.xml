@@ -81,7 +81,8 @@
 		<timeevent text="Corruption go to SQUARE" 	timestamp="575" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer>
 	<!-- Cairn -->
-	<areatriggeredtimer mapid="1188" enterspherex="364.78" enterspherey="33.60" enterspherez="51.19" entersphererad="34.91" exitspherex="364.78" exitspherey="33.60" exitspherez="51.19" exitsphererad="37" length="600" startdelay="0">
+	<areatriggeredtimer mapid="1188" enterspherex="369.76" enterspherey="33.7203" enterspherez="60.1624" entersphererad="2" exitspherex="369.76" exitspherey="33.7203" exitspherez="60.1624" exitsphererad="50" length="600" startdelay="1">
+		<timeevent text="Start" timestamp="-1" countdown="0" onscreentime="1"/>
 		<timeevent text="Agony" timestamp="23"  countdown="23" onscreentime="0"/>
 		<timeevent text="Agony" timestamp="43"  countdown="20" onscreentime="0"/>
 		<timeevent text="Agony" timestamp="63"  countdown="20" onscreentime="0"/>
