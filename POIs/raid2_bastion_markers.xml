@@ -1,7 +1,7 @@
 <OverlayData>
-	<MarkerCategory name="Raid" DisplayName="Raid">
+	<MarkerCategory name="Raid">
 		<MarkerCategory name="BOTP" DisplayName="Bastion of the Penitent">
-			<MarkerCategory name="Cairn" DisplayName="Cairn" heightOffset="0.5" iconSize="0.5" fadeNear="3500" fadeFar="4000">
+			<MarkerCategory name="Cairn" heightOffset="0.5" iconSize="0.5" fadeNear="3500" fadeFar="4000">
 				<MarkerCategory name="Agony" DisplayName="Agony Placements" iconFile="Data/HeroPack/Raids/Agony.png"/>
 				<MarkerCategory name="Stack" DisplayName="Group Stack" iconFile="Data/HeroPack/Multipurpose/Stack.png"/>
 				<MarkerCategory name="Kiter" DisplayName="Kiter Placement" iconFile="Data/HeroPack/Raids/Kiter.png"/>
@@ -11,7 +11,7 @@
 				<MarkerCategory name="CM" DisplayName="CM Timer" iconFile="Data/HeroPack/Raids/startcmtimer.png"/>
 			</MarkerCategory>
 			<MarkerCategory name="Door" DisplayName="Samarog's Door" iconFile="Data/HeroPack/Raids/TrueSight.png" heightOffset="0.5" iconSize="0.5" fadeNear="1250" fadeFar="1500"/>
-			<MarkerCategory name="Chests" DisplayName="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -22,6 +22,7 @@
 		<POI MapID="1188" xpos="361.518" ypos="33.7203" zpos="63.2356" type="Raid.BOTP.Cairn.Agony" GUID="MPL7+6k9ok2ajPAdN+b7yA=="/>
 		<POI MapID="1188" xpos="363.371" ypos="33.7203" zpos="55.9746" type="Raid.BOTP.Cairn.Stack" GUID="Kagn0i1KW0CZnfT6hw4NGQ=="/>
 		<POI MapID="1188" xpos="369.301" ypos="33.7209" zpos="34.1896" type="Raid.BOTP.Cairn.Kiter" GUID="xXkIzhbDjkC7KmaMBOeoag=="/>
+		<POI MapID="1188" xpos="369.76" ypos="33.7203" zpos="60.1624" type="Raid.BOTP.Cairn" GUID="X61Xv4ZCakilicnR4E+sHA==" iconFile="Data/HeroPack/Raids/starttimer.png" iconSize="1.25" heightOffset="0"/>
 		<!-- Mursaat Overseer -->
 		<POI MapID="1188" xpos="98.396" ypos="106.187" zpos="101.323" type="Raid.BOTP.MO.Dispel" GUID="FNBVzp3IsEeS8TGJz2iJGA=="/>
 		<POI MapID="1188" xpos="75.24" ypos="106.187" zpos="125.458" type="Raid.BOTP.MO.CM" GUID="chTzX3Sa70iWTX2rLEGbwA=="/>
