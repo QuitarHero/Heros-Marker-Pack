@@ -1,38 +1,45 @@
 <OverlayData>
 	<MarkerCategory name="Raid">
-		<MarkerCategory name="ahdashim" DisplayName="The Key of Ahdashim">
-			<MarkerCategory name="sabir" DisplayName="Cardinal Sabir" heightOffset="1" iconSize="0.75" fadeNear="2500" fadeFar="3000"/>
-			<MarkerCategory name="adina" DisplayName="Cardinal Adina" heightOffset="0.5" fadeNear="2750" fadeFar="3250">
-				<MarkerCategory name="Directions"/>
-				<MarkerCategory name="pillars" DisplayName="Pillar Locations" iconSize="0.5"/>
+		<MarkerCategory name="Ahdashim" DisplayName="The Key of Ahdashim">
+			<MarkerCategory name="Sabir" DisplayName="Cardinal Sabir" heightOffset="0.5" iconSize="1" rotate-x="135" fadeNear="2500" fadeFar="3000"/>
+			<MarkerCategory name="Adina" DisplayName="Cardinal Adina">
+				<MarkerCategory name="Directions" rotate-x="90" fadeNear="2750" fadeFar="3250"/>
+				<MarkerCategory name="pillars" DisplayName="Pillar Locations" iconFile="Data/HeroPack/Multipurpose/dot.png" iconSize="0.5" heightOffset="-0.1" rotate-x="180" fadeNear="2750" fadeFar="3250"/>
 			</MarkerCategory>
-			<MarkerCategory name="Qadim" fadeNear="5000" fadeFar="5500">
-				<MarkerCategory name="Pylons"/>
-				<MarkerCategory name="Directions" heightOffset="0.5"/>
+			<MarkerCategory name="Qadim">
+				<MarkerCategory name="Pylons" iconSize="1" fadeNear="5000" fadeFar="5500"/>
+				<MarkerCategory name="Directions" heightOffset="0.25" rotate-x="135" fadeNear="5000" fadeFar="5500"/>
+				<MarkerCategory name="Fire" DisplayName="Fire Placements" iconFile="Data/HeroPack/Multipurpose/dot.png" heightOffset="-0.1" iconSize="0.75" rotate-x="180"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
 	<!-- Cardinal Sabir (Air) -->
-	<POI MapID="1323" xpos="-288.139" ypos="166.229" zpos="80.4262" type="raid.ahdashim.sabir" GUID="SmqagJ2ejESUZ12uFnW/Xw==" iconFile="Data/HeroPack/Multipurpose/northeast.png"/>
-	<POI MapID="1323" xpos="-288.161" ypos="166.229" zpos="42.0665" type="raid.ahdashim.sabir" GUID="7qWLIWdl2UeOwid4tWTq+Q==" iconFile="Data/HeroPack/Multipurpose/southeast.png"/>
-	<POI MapID="1323" xpos="-326.405" ypos="166.229" zpos="42.0755" type="raid.ahdashim.sabir" GUID="zsArcVZUJEW+Xl6cxUzqnA==" iconFile="Data/HeroPack/Multipurpose/southwest.png"/>
-	<POI MapID="1323" xpos="-326.491" ypos="166.229" zpos="80.4264" type="raid.ahdashim.sabir" GUID="FycB7z1mqUmffYlUSJrqbg==" iconFile="Data/HeroPack/Multipurpose/northwest.png"/>
+	<POI MapID="1323" xpos="-288.139" ypos="166.229" zpos="80.4262" type="Raid.Ahdashim.Sabir" GUID="SmqagJ2ejESUZ12uFnW/Xw==" iconFile="Data/HeroPack/Multipurpose/northeast.png" rotate-z="135"/>
+	<POI MapID="1323" xpos="-288.161" ypos="166.229" zpos="42.0665" type="Raid.Ahdashim.Sabir" GUID="7qWLIWdl2UeOwid4tWTq+Q==" iconFile="Data/HeroPack/Multipurpose/southeast.png" rotate-z="45"/>
+	<POI MapID="1323" xpos="-326.405" ypos="166.229" zpos="42.0755" type="Raid.Ahdashim.Sabir" GUID="zsArcVZUJEW+Xl6cxUzqnA==" iconFile="Data/HeroPack/Multipurpose/southwest.png" rotate-z="315"/>
+	<POI MapID="1323" xpos="-326.491" ypos="166.229" zpos="80.4264" type="Raid.Ahdashim.Sabir" GUID="FycB7z1mqUmffYlUSJrqbg==" iconFile="Data/HeroPack/Multipurpose/northwest.png" rotate-z="225"/>
 	<!-- Cardinal Adina (Earth) -->
-	<POI MapID="1323" xpos="378.602" ypos="7.75297" zpos="-14.7883" type="raid.ahdashim.adina.Directions" GUID="1UaGuT0bd0yPUsAtwyFPpQ==" iconFile="Data/HeroPack/Multipurpose/north.png"/>
-	<POI MapID="1323" xpos="378.693" ypos="7.75297" zpos="-59.9873" type="raid.ahdashim.adina.Directions" GUID="AIpxVl+9c0qqZnSqcZ/W2w==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
-	<POI MapID="1323" xpos="378.634" ypos="7.75728" zpos="-26.0017" type="raid.ahdashim.adina.pillars" GUID="+qDcWauW20a8Q8KpfSXdDA==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
-	<POI MapID="1323" xpos="388.652" ypos="7.75482" zpos="-37.4559" type="raid.ahdashim.adina.pillars" GUID="Zjb30Wh9HkaAK1cuhGvXoA==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
-	<POI MapID="1323" xpos="381.331" ypos="7.75483" zpos="-50.1194" type="raid.ahdashim.adina.pillars" GUID="TBf8zCj5WUuw0O0U0dKHlA==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
-	<POI MapID="1323" xpos="378.714" ypos="7.75483" zpos="-48.9908" type="raid.ahdashim.adina.pillars" GUID="sRLnUiLsn0OyVjSQG7fGqg==" iconFile="Data/HeroPack/Multipurpose/four.png"/>
-	<POI MapID="1323" xpos="368.734" ypos="7.75483" zpos="-37.2894" type="raid.ahdashim.adina.pillars" GUID="LK3HYGkFJUCX8aUtxGuVhA==" iconFile="Data/HeroPack/Multipurpose/five.png"/>
+	<POI MapID="1323" xpos="378.58" ypos="7.75411" zpos="-7.83436" type="Raid.Ahdashim.Adina.Directions" GUID="XjkNdote70a+BUidfQ7/Aw==" iconFile="Data/HeroPack/Multipurpose/north.png" rotate-z="180"/>
+	<POI MapID="1323" xpos="378.767" ypos="7.75297" zpos="-66.7338" type="Raid.Ahdashim.Adina.Directions" GUID="QvNEXKwrd0OBwpasrWvG5Q==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
+	<POI MapID="1323" xpos="378.634" ypos="7.75728" zpos="-26.0017" type="Raid.Ahdashim.Adina.pillars" GUID="+qDcWauW20a8Q8KpfSXdDA=="/>
+	<POI MapID="1323" xpos="378.592" ypos="7.75303" zpos="-48.8003" type="Raid.Ahdashim.Adina.pillars" GUID="/ZrMwfAtSkWhLenh/nA5Uw=="/>
+	<POI MapID="1323" xpos="381.097" ypos="7.75303" zpos="-50.2269" type="Raid.Ahdashim.Adina.pillars" GUID="mgeK+szOhk6vLhrhm1oSrQ=="/>
+	<POI MapID="1323" xpos="388.349" ypos="7.75303" zpos="-37.3409" type="Raid.Ahdashim.Adina.pillars" GUID="9g1K9lXLoU2hT0VMVx/Stg=="/>
+	<POI MapID="1323" xpos="368.997" ypos="7.75297" zpos="-37.3858" type="Raid.Ahdashim.Adina.pillars" GUID="WtRHIgyaFkWPCSaiRUzoHw=="/>
 	<!-- Qadim the Peerless -->
-	<POI MapID="1323" xpos="41.5434" ypos="16.8134" zpos="294.356" type="raid.ahdashim.Qadim.Pylons" GUID="0OXp2ufTbU6/fEo+UcwOMA==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
-	<POI MapID="1323" xpos="8.31707" ypos="16.812" zpos="236.796" type="raid.ahdashim.Qadim.Pylons" GUID="UPNrnI78QEKYECwurS+1KQ==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
-	<POI MapID="1323" xpos="74.8618" ypos="16.8134" zpos="236.7" type="raid.ahdashim.Qadim.Pylons" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
-	<POI MapID="1323" xpos="74.7666" ypos="16.8134" zpos="275.343" type="raid.ahdashim.Qadim.Directions" GUID="rNrmuquiNUGqxmuz9Ysvzw==" iconFile="Data/HeroPack/Multipurpose/northeast.png"/>
-	<POI MapID="1323" xpos="7.94487" ypos="16.812" zpos="275.227" type="raid.ahdashim.Qadim.Directions" GUID="rfDvbBXZREyzilspeVkaXA==" iconFile="Data/HeroPack/Multipurpose/northwest.png"/>
-	<POI MapID="1323" xpos="41.4614" ypos="16.8132" zpos="217.273" type="raid.ahdashim.Qadim.Directions" GUID="vtZJzGM3MEOwmt+k5FD1FA==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
+	<POI MapID="1323" xpos="41.5434" ypos="16.8134" zpos="294.356" type="Raid.Ahdashim.Qadim.Pylons" GUID="0OXp2ufTbU6/fEo+UcwOMA==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
+	<POI MapID="1323" xpos="8.31707" ypos="16.812" zpos="236.796" type="Raid.Ahdashim.Qadim.Pylons" GUID="UPNrnI78QEKYECwurS+1KQ==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
+	<POI MapID="1323" xpos="74.8618" ypos="16.8134" zpos="236.7" type="Raid.Ahdashim.Qadim.Pylons" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
+	<POI MapID="1323" xpos="74.7666" ypos="16.8134" zpos="275.343" type="Raid.Ahdashim.Qadim.Directions" GUID="rNrmuquiNUGqxmuz9Ysvzw==" iconFile="Data/HeroPack/Multipurpose/northeast.png" iconSize="1" rotate-z="120"/>
+	<POI MapID="1323" xpos="7.94487" ypos="16.812" zpos="275.227" type="Raid.Ahdashim.Qadim.Directions" GUID="rfDvbBXZREyzilspeVkaXA==" iconFile="Data/HeroPack/Multipurpose/northwest.png" iconSize="1" rotate-z="240"/>
+	<POI MapID="1323" xpos="41.4614" ypos="16.8132" zpos="217.273" type="Raid.Ahdashim.Qadim.Directions" GUID="vtZJzGM3MEOwmt+k5FD1FA==" iconFile="Data/HeroPack/Multipurpose/south.png" iconSize="1.25"/>
+	<POI MapID="1323" xpos="13.2256" ypos="16.8123" zpos="261.338" type="Raid.Ahdashim.Qadim.Fire" GUID="X5Uu+2XzIkeW25s5IobysA=="/>
+	<POI MapID="1323" xpos="31.3303" ypos="16.8123" zpos="229.034" type="Raid.Ahdashim.Qadim.Fire" GUID="gwUZcxvlEUWtsfyLn9UK4A=="/>
+	<POI MapID="1323" xpos="51.5372" ypos="16.8123" zpos="229.197" type="Raid.Ahdashim.Qadim.Fire" GUID="s0/sh5qLQEqE9Zv5yrNieA=="/>
+	<POI MapID="1323" xpos="69.5517" ypos="16.8123" zpos="260.601" type="Raid.Ahdashim.Qadim.Fire" GUID="XCl9c1J/wU2dD7witzAqAA=="/>
+	<POI MapID="1323" xpos="59.5045" ypos="16.812" zpos="277.788" type="Raid.Ahdashim.Qadim.Fire" GUID="a90szDLj1EO59iM+urCCLA=="/>
+	<POI MapID="1323" xpos="23.5685" ypos="16.812" zpos="278.362" type="Raid.Ahdashim.Qadim.Fire" GUID="gZJ5YPQBvUaAMPTQWK4iiw=="/>
 	</POIs>
 </OverlayData>
