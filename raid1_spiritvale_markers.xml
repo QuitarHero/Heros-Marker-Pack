@@ -2,15 +2,15 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="SV" DisplayName="Spirit Vale">
 			<MarkerCategory name="Mushrooms">
-				<MarkerCategory name="Speed" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="1.7" resetLength="20" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
-				<MarkerCategory name="Adrenal" iconFile="Data/HeroPack/Multipurpose/empty.png" triggerRange="2" resetLength="30.9" behavior="4" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="Speed" iconFile="Data/HeroPack/Multipurpose/one.png" behavior="1" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="Adrenal" iconFile="Data/HeroPack/Multipurpose/empty.png" behavior="4" triggerRange="2" resetLength="30.9" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
 			</MarkerCategory>
 			<MarkerCategory name="SR" DisplayName="Spirit Run">
 				<MarkerCategory name="Trigger" DisplayName="Portal Stuffs"/>
 			</MarkerCategory>
 			<MarkerCategory name="Gorseval" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Sabetha" heightOffset="2.5" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="Sabetha" heightOffset="1.5" rotate-x="90" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" iconSize="0.5" heightOffset="0" behavior="2" triggerRange="3" rotate-x="90"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -27,14 +27,14 @@
 		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
 		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
 		<!-- Sabetha -->
-		<POI MapID="1062" xpos="-126.917" ypos="62.9524" zpos="111.433" type="Raid.SV.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/north.png"/>
-		<POI MapID="1062" xpos="-132.693" ypos="62.9657" zpos="56.4836" type="Raid.SV.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/south.png"/>
-		<POI MapID="1062" xpos="-101.375" ypos="63.0427" zpos="81.268" type="Raid.SV.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png"/>
-		<POI MapID="1062" xpos="-157.841" ypos="62.273" zpos="86.823" type="Raid.SV.Sabetha" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png"/>
+		<POI MapID="1062" xpos="-133.137" ypos="62.7407" zpos="52.1523" type="Raid.SV.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/south.png" rotate-z="-5"/>
+		<POI MapID="1062" xpos="-97.8473" ypos="62.8841" zpos="80.9271" type="Raid.SV.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png" rotate-z="85"/>
+		<POI MapID="1062" xpos="-126.366" ypos="62.6864" zpos="116.039" type="Raid.SV.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/north.png" rotate-z="175"/>
+		<POI MapID="1062" xpos="-161.633" ypos="62.0667" zpos="87.3431" type="Raid.SV.Sabetha" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png" rotate-z="265"/>
 		<!-- Chests -->
-		<POI MapID="1062" xpos="-125.512" ypos="30.6309" zpos="-223.008" type="Raid.SV.Chests" GUID="Cw8mcIvoSUWFcJM/ErVp1Q==" fadeNear="1000" fadeFar="1500"/>
-		<POI MapID="1062" xpos="-62.944" ypos="55.4889" zpos="-154.726" type="Raid.SV.Chests" GUID="GXd06oAwjEmgK3dUui+DCg==" fadeNear="750" fadeFar="1000"/>
-		<POI MapID="1062" xpos="-85.5946" ypos="75.2272" zpos="-209.77" type="Raid.SV.Chests" GUID="zqE4ZxDQakaMrOttWjcx0w==" fadeNear="1300" fadeFar="1800"/>
-		<POI MapID="1062" xpos="-289.046" ypos="89.3568" zpos="109.174" type="Raid.SV.Chests" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" fadeNear="1000" fadeFar="1500"/>
+		<POI MapID="1062" xpos="-126.154" ypos="30.0067" zpos="-223.073" type="Raid.SV.Chests" GUID="cjZXgMou5USqfnzLndQviA==" rotate-z="90" fadeNear="1250" fadeFar="1500"/>
+		<POI MapID="1062" xpos="-63.604" ypos="54.8789" zpos="-154.726" type="Raid.SV.Chests" GUID="GXd06oAwjEmgK3dUui+DCg==" rotate-z="90" fadeNear="1250" fadeFar="1500"/>
+		<POI MapID="1062" xpos="-85.5367" ypos="74.6366" zpos="-208.998" type="Raid.SV.Chests" GUID="rP/zhuCv/EGs7J27tLVPzQ==" fadeNear="1300" fadeFar="1800"/>
+		<POI MapID="1062" xpos="-288.772" ypos="88.6247" zpos="108.459" type="Raid.SV.Chests" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" rotate-z="195" fadeNear="1000" fadeFar="1250"/>
 	</POIs>
 </OverlayData>
