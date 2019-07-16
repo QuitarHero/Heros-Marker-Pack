@@ -7,7 +7,7 @@
 			<MarkerCategory name="Skip3" DisplayName="Chest Speed Skip" heightOffset="0" iconSize="0.75"/>
 			<MarkerCategory name="Skip4" DisplayName="Boss Skip" heightOffset="0" iconSize="0.75"/>
 		</MarkerCategory>
-		<MarkerCategory name="MO" DisplayName="Mistlock Observatory" heightOffset="0.5" iconSize="0.5"/>
+		<MarkerCategory name="MO" DisplayName="Mistlock Observatory" heightOffset="0" iconSize="0.2"/>
 		<MarkerCategory name="MF" DisplayName="Molten Furnace" heightOffset="0" iconSize="0.5" fadeNear="1000" fadeFar="1250">
 			<MarkerCategory name="Tornadoes" iconFile="Data/HeroPack/Multipurpose/stack.png"/>
 			<MarkerCategory name="Reflect" iconFile="Data/HeroPack/Fractals/Feedback.png"/>
@@ -43,8 +43,8 @@
 	
 	<POIs>
 		<!-- Aetherblade -->
-		<POI MapID="956" xpos="-21.4808" ypos="9.35175" zpos="96.879" type="FOTM.AB" GUID="TeExJPcqu0qaos1t9NVy5Q==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="-0.5" iconSize="0.5" fadeNear="600" fadeFar="850"/>
-		<POI MapID="956" xpos="-10.685" ypos="10.252" zpos="111.652" type="FOTM.AB" GUID="aJe17B+snUiRQyHnGDkmXQ==" iconFile="Data/HeroPack/Fractals/groupGG.png" heightOffset="1" fadeNear="500" fadeFar="550"/>
+		<POI MapID="956" xpos="-21.4808" ypos="9.35175" zpos="96.879" type="FOTM.AB" GUID="TeExJPcqu0qaos1t9NVy5Q==" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="-0.5" iconSize="0.5" rotate-x="1" fadeNear="600" fadeFar="850"/>
+		<POI MapID="956" xpos="-10.685" ypos="10.252" zpos="111.652" type="FOTM.AB" GUID="aJe17B+snUiRQyHnGDkmXQ==" title="Group /gg After" title-color="white" heightOffset="0.01" fadeNear="500" fadeFar="550"/>
 		<!-- Cliffside -->
 		<POI MapID="952" xpos="28.8183" ypos="562.548" zpos="-26.4448" type="FOTM.CS.Skip1" GUID="6g3UyuZKaE+xwQZtjKEOhA==" iconFile="Data/HeroPack/Fractals/PortalEnterStealth.png" rotate-x="160" fadeNear="1750" fadeFar="2250"/>
 		<POI MapID="952" xpos="32.6509" ypos="593.572" zpos="-22.8343" type="FOTM.CS.Skip1" GUID="pdXNCnwv3U+BdE3bNOw+mQ==" iconFile="Data/HeroPack/Fractals/PortalExit.png" rotate-x="172" rotate-z="113" fadeNear="750" fadeFar="1000"/>
@@ -57,8 +57,9 @@
 		<POI MapID="952" xpos="83.8425" ypos="688.208" zpos="-33.996" type="FOTM.CS.Skip4" GUID="bY15ybLJ0EegXffsyufENg==" iconFile="Data/HeroPack/Fractals/PortalEnterBlink.png" fadeNear="750" fadeFar="1000"/>
 		<POI MapID="952" xpos="92.9409" ypos="712.236" zpos="-17.7006" type="FOTM.CS.Skip4" GUID="YL0H2eq37E+Ivn8ePXjLMA==" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeNear="1500" fadeFar="1750"/>
 		<!-- Mistlock Observatory -->
-		<POI MapID="872" xpos="111.597" ypos="219.424" zpos="-116.44" type="FOTM.MO" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="350" fadeFar="500"/>
-		<POI MapID="872" xpos="119.212" ypos="221.917" zpos="-121.199" type="FOTM.MO" GUID="uc3ZaYVYsUatFafvXlyQDA==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="550" fadeFar="800"/>
+		<POI MapID="872" xpos="111.697" ypos="219.500" zpos="-116.844" type="FOTM.MO" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" iconFile="Data/HeroPack/Fractals/Skip.png" rotate-x="135" rotate-z="-20" fadeNear="350" fadeFar="500"/>
+		<POI MapID="872" xpos="119.212" ypos="221.917" zpos="-121.199" type="FOTM.MO" GUID="uc3ZaYVYsUatFafvXlyQDA==" iconFile="Data/HeroPack/Fractals/Skip.png" rotate-x="170" fadeNear="550" fadeFar="800"/>
+		<POI MapID="872" xpos="119.212" ypos="221.917" zpos="-121.199" type="FOTM.MO" GUID="uc3ZaYVYsUatFafvXlyQDA==" iconFile="Data/HeroPack/Fractals/Skip.png" rotate-x="150" fadeNear="550" fadeFar="800"/>
 		<POI MapID="872" xpos="124.155" ypos="224.912" zpos="-122.018" type="FOTM.MO" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="400" fadeFar="600"/>
 		<POI MapID="872" xpos="113.674" ypos="226.347" zpos="-117.076" type="FOTM.MO" GUID="xTB1mTnifk2HelFqfpahpA==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="550" fadeFar="750"/>
 		<POI MapID="872" xpos="118.028" ypos="229.75" zpos="-121.688" type="FOTM.MO" GUID="rgRGmmQ2u0mohqUgGQfm8g==" iconFile="Data/HeroPack/Fractals/Skip.png" fadeNear="400" fadeFar="600"/>
