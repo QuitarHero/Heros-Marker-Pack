@@ -8,11 +8,11 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 
 ## ❌ Fractal of the Mists:
 - ❌ **Aetherblade:**
-  - ❌ *Markers* for a quick, group coordinated skip for the electric minigame.
+  - ❌ *Markers* for a quick, group coordinated skip for the electric minigame. **(2/3 done)**
 - ❌ **Cliffside:**
-  - ❌ *Markers* for 4 Portal (Speed) Skips. **(WIP)**
+  - ❌ *Markers* for 4 Portal (Speed) Skips. **(1/4 done)**
 - ❌ **Mistlock Observatory:**
-  - ❌ *Markers* for an alternate route to complete the Jumping Puzzle (low gravity is necessary).
+  - ❌ *Markers* for an alternate route to complete the Jumping Puzzle (low gravity is necessary). **(1/7 done)**
 - ❌ **Molten Furnace:**
   - ❌ *Markers* in the Weapons Testing room to avoid all the Tornadoes and where to reflect the fireballs.
 - ❌ **Nightmare (CM):**
@@ -30,18 +30,18 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *A Route* for a skip to the 2nd sandblinder.
   - ❌ *Markers* for portals for the skip to the 2nd sandblinder.
 - ❌ **Uncategorized:**
-  - ❌ *A Trail* for a difficult skip (skipping the second set of harpies). **(WIP)**
-  - ❌ *Markers* for an alternative skip to the above skip (skipping the second set of harpies, requiring a leap). **(WIP)**
+  - ❌ *A Trail* for a difficult skip (skipping the second set of harpies). **(6/7 done)**
+  - ❌ *Markers* for an alternative skip to the above skip (skipping the second set of harpies, requiring a leap). **(1/2 done)**
 - ❌ **Underground Facility:**
   - ❌ *A Trail* to a difficult (unless Daredevil) skip to the 2nd button (removes the need to go to 1st button).
 - ❌ **Volcanic:**
   - ✅ *Markers* for a (speed) portal skip at the beginning (skips running with fire rocks).
-  - ❌ *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss. **(WIP)**
+  - ❌ *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss.
 
 ## Raids:
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
-  - ❌ *Timers* to the capture point area's Adrenal Mushrooms. **(behaviors are currently not supported)**
+  - ❌ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
   - ✅ *Trails* showcasing Spirit Run's Capture Point Triggers (WIP).
 - ❌ **Gorseval:**
   - ❌ *Markers* for two spirit spawns during its phase.
@@ -49,7 +49,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ✅ *Markers* for her cannon locations.
   - ❌ *A Timer* for her mechanics (cannons). **(timers are currently not supported)**
 - ❌ **General:**
-  - ❌ *Markers* on the various chests in Spirit Vale. **(behaviors are currently not supported)**
+  - ❌ *Markers* on the various chests in Spirit Vale. **(done, but behaviors are currently not supported)**
 ### ❌ Salvation Pass:
 - ❌ **Slothasor:**
   - ❌ *Markers* for its Mushrooms.
