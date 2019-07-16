@@ -1,6 +1,6 @@
-# Hero's Taco Pack
+# Hero's Marker Pack
 
-This Tac0 Pack is developed by QuitarHero.
+This Marker Pack is developed by QuitarHero.
 
 The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, markers, trails, and timers. It is not to add every little detail anyone can think of, regardless if it's less or more efficient.
 
