@@ -8,7 +8,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 
 ## ❌ Fractal of the Mists:
 - ❌ **Aetherblade:**
-  - ❌ *Markers* for a quick, group coordinated skip for the electric minigame. **(2/3 done)**
+  - ❌ *Markers* for a quick, group coordinated skip for the electric minigame. **(2/3 done, waiting for Blish support for fadeNear/fadeFar with Titles)**
 - ❌ **Cliffside:**
   - ❌ *Markers* for 4 Portal (Speed) Skips. **(1/4 done)**
 - ❌ **Mistlock Observatory:**
@@ -34,15 +34,18 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *Markers* for an alternative skip to the above skip (skipping the second set of harpies, requiring a leap). **(1/2 done)**
 - ❌ **Underground Facility:**
   - ❌ *A Trail* to a difficult (unless Daredevil) skip to the 2nd button (removes the need to go to 1st button).
+- ❌ **Urban Battlegrounds:**
+  - ❌ *A Trail* showing the boundary of the Burning Oils.
+  - ❌ *Markers* showcasing a skip to bypass adds / the long run to the courtyard.
 - ❌ **Volcanic:**
   - ✅ *Markers* for a (speed) portal skip at the beginning (skips running with fire rocks).
   - ❌ *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss.
 
-## Raids:
+## ❌ Raids:
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
   - ❌ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
-  - ✅ *Trails* showcasing Spirit Run's Capture Point Triggers (WIP).
+  - ✅ *Trails* showcasing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with)**
 - ❌ **Gorseval:**
   - ❌ *Markers* for two spirit spawns during its phase.
 - ❌ **Sabetha:**
