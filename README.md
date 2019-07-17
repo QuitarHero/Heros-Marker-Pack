@@ -50,13 +50,13 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ✅ *Markers* for two spirit spawns during its phase.
 - ❌ **Sabetha:**
   - ✅ *Markers* for her cannon locations.
-  - ❌ *A Timer* for her mechanics (cannons). **(timers are currently not supported)**
+  - ❌ *A Timer* for her mechanics (cannons). **(done, but timers are currently not supported)**
 - ❌ **General:**
   - ❌ *Markers* on the various chests in Spirit Vale. **(done, but behaviors are currently not supported)**
 ### ❌ Salvation Pass:
 - ❌ **Slothasor:**
-  - ❌ *Markers* for its Mushrooms.
-  - ❌ *A Timer* for its mushroom and slubling spawns. **(timers are currently not supported)**
+  - ✅ *Markers* for its Mushrooms.
+  - ❌ *A Timer* for its mushroom and slubling spawns. **(done, but timers are currently not supported)**
 - ❌ **Trio:**
   - ❌ *Markers* for boss spawns, oil kegs & beehive stack points.
 - ❌ **Matthias:**
