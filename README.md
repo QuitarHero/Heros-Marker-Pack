@@ -59,9 +59,9 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *A Timer* for its mushroom and slubling spawns. **(done, but timers are currently not supported)**
 - ✅ **Trio:**
   - ✅ *Markers* for boss spawns, oil kegs & beehive stack points.
-- ❌ **Matthias:**
-  - ❌ *Markers* for his wells.
-  - ❌ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(timers are currently not supported)**
+- ✅ **Matthias:**
+  - ✅ *Markers* for his wells.
+  - ❌ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(done, but timers are currently not supported)**
 - ❌ **General:**
   - ❌ *Markers* for the various chests in Salvation Pass. **(behaviors are currently not supported)**
 ### ❌ Stronghold of the Faithful:
