@@ -11,10 +11,10 @@
 				<MarkerCategory name="Oils" DisplayName="Oil Kegs" iconFile="Data/HeroPack/Multipurpose/stack.png" rotate-x="185" rotate-y="-1" heightOffset="-0.1" iconSize="0.5" fadeNear="4500" fadeFar="4750"/>
 			</MarkerCategory>
 			<MarkerCategory name="Matthias" fadeNear="2500" fadeFar="3000">
-				<MarkerCategory name="Wells" DisplayName="Wells" iconSize="0.5" heightOffset="2.25" rotate-x="125"/>
-				<MarkerCategory name="Timer" DisplayName="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" rotate-x="180" rotate-z="270" heightOffset="-0.1"/>
+				<MarkerCategory name="Wells" DisplayName="Wells" iconSize="0.5" heightOffset="2.25" rotate-x="125" fadeNear="2500" fadeFar="2750"/>
+				<MarkerCategory name="Timer" DisplayName="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" rotate-x="180" rotate-z="270" heightOffset="-0.1" fadeNear="2500" fadeFar="2750"/>
 			</MarkerCategory>
-			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" iconSize="0.6" behavior="2" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -38,9 +38,9 @@
 		<POI MapID="1149" xpos="-126.271" ypos="131.625" zpos="125.600" type="Raid.SP.Matthias.Wells" GUID="s6fhrG1hNkmW5cJJHZsbJg==" iconFile="Data/HeroPack/Raids/square.png" rotate-z="45"/>
 		<POI MapID="1149" xpos="-181.45" ypos="131.523" zpos="155.317" type="Raid.SP.Matthias.Timer" GUID="if3XON30j0m26dihfDnSEg=="/> 
 		<!-- Chests -->
-		<POI MapID="1149" xpos="209.571" ypos="-0.455155" zpos="-53.0231" type="Raid.SP.Chests" GUID="iRCrHJxb20O5LMcM2jLBqQ==" fadeNear="400" fadeFar="600"/>
-		<POI MapID="1149" xpos="284.458" ypos="75.5146" zpos="-364.214" type="Raid.SP.Chests" GUID="4gvlQ1IY4kKni2cWKCtTRA==" fadeNear="2500" fadeFar="3000"/>
-		<POI MapID="1149" xpos="3.66128" ypos="86.1871" zpos="-116.43" type="Raid.SP.Chests" GUID="GrIzR9IAjkmMVvwCadAHgw==" fadeNear="2000" fadeFar="2500"/>
+		<POI MapID="1149" xpos="210.66" ypos="-0.564165" zpos="-54.4054" type="Raid.SP.Chests" GUID="iRCrHJxb20O5LMcM2jLBqQ==" heightOffset="-0.3" rotate-x="180" rotate-z="205" fadeNear="400" fadeFar="600"/>
+		<POI MapID="1149" xpos="283.288" ypos="75.5024" zpos="-365.385" type="Raid.SP.Chests" GUID="4gvlQ1IY4kKni2cWKCtTRA==" rotate-x="90" fadeNear="2750" fadeFar="3250"/>
+		<POI MapID="1149" xpos="3.74059" ypos="84.7822" zpos="-120.950" type="Raid.SP.Chests" GUID="GrIzR9IAjkmMVvwCadAHgw==" rotate-x="120" rotate-z="200" fadeNear="2000" fadeFar="2500"/>
 		<POI MapID="1149" xpos="-95.8426" ypos="106.8" zpos="61.2378" type="Raid.SP.Chests" GUID="M9ogYIfe2E2O74+ZDtMKYw==" fadeNear="1000" fadeFar="1500"/>
 	</POIs>
 </OverlayData>
