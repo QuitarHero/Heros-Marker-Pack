@@ -2,8 +2,8 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="SP" DisplayName="Salvation Pass">
 			<MarkerCategory name="Slothasor">
-				<MarkerCategory name="Mushrooms" DisplayName="Mushrooms" fadeNear="3250" fadeFar="3500"/>
-				<MarkerCategory name="Timer" DisplayName="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" heightOffset="0" fadeNear="3250" fadeFar="3500"/>
+				<MarkerCategory name="Mushrooms" DisplayName="Mushrooms" iconSize="1" fadeNear="3250" fadeFar="3500"/>
+				<MarkerCategory name="Timer" DisplayName="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" iconSize="1" rotate-x="195" heightOffset="-0.1" fadeNear="3250" fadeFar="3500"/>
 			</MarkerCategory>
 			<MarkerCategory name="Trio">
 				<MarkerCategory name="Bosses" DisplayName="Boss Spawns" fadeNear="4500" fadeFar="4750"/>
