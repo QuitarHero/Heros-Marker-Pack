@@ -45,7 +45,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
   - ❌ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
-  - ✅ *Trails* showcasing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with)**
+  - ❌ *Trails* showcasing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with)**
 - ✅ **Gorseval:**
   - ✅ *Markers* for two spirit spawns during its phase.
 - ❌ **Sabetha:**
@@ -63,7 +63,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ✅ *Markers* for his wells.
   - ❌ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(done, but timers are currently not supported)**
 - ❌ **General:**
-  - ❌ *Markers* for the various chests in Salvation Pass. **(behaviors are currently not supported)**
+  - ❌ *Markers* for the various chests in Salvation Pass. **(done, but behaviors are currently not supported)**
 ### ❌ Stronghold of the Faithful:
 - ❌ **Escort:**
   - ❌ *Markers* (hidden) for a skip to the fourth tower.
@@ -101,7 +101,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ❌ **Conjured Amalgamate:**
   - ❌ *Markers* to orient players as to where to collect Greatswords and Shields.
 - ❌ **Qadim:**
-  - ❌ *Markers* to lead players through his lamp (efficiently).
+  - ❌ *Markers* to lead players through his lamp (efficiently). **(need a group that doesn't mind doing nothing and occasionally fighting)**
   - ❌ *Markers* to sort players to their boon pyre.
 - ❌ **General:**
   - ❌ *Markers* for various chests in Mythwright Gambit. **(behaviors are currently not supported)**
