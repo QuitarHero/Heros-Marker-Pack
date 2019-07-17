@@ -21,8 +21,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ❌ **Shattered Observatory:**
   - ❌ *A Route:* showcasing a portal skip to Viirastra (during the ball minigame).
   - ❌ *Markers* to orient players in the Arkk fight.
-- ❌ **Solid Ocean:**
-  - ❌ *Markers* for Colossus spawns.
+- ✅ **Solid Ocean:**
+  - ✅ *Markers* for Colossus spawns.
 - ❌ **Thaumanova Reactor:**
   - ❌ *Markers* for the 3 panels in the Maze.
   - ❌ *Markers* for a speed portal "skip" from apartments to Subject 6.
