@@ -6,15 +6,15 @@
 				<MarkerCategory name="Timer" DisplayName="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" iconSize="1" rotate-x="195" heightOffset="-0.1" fadeNear="3250" fadeFar="3500"/>
 			</MarkerCategory>
 			<MarkerCategory name="Trio">
-				<MarkerCategory name="Bosses" DisplayName="Boss Spawns" fadeNear="4500" fadeFar="4750"/>
-				<MarkerCategory name="Beehives" DisplayName="Beehives" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0.5" iconSize="0.5" fadeNear="4500" fadeFar="4750"/>
-				<MarkerCategory name="Oils" DisplayName="Oil Kegs" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0.5" iconSize="0.5" fadeNear="4500" fadeFar="4750"/>
+				<MarkerCategory name="Bosses" DisplayName="Boss Spawns" iconSize="1" fadeNear="4500" fadeFar="4750"/>
+				<MarkerCategory name="Beehives" DisplayName="Beehives" iconFile="Data/HeroPack/Multipurpose/stack.png" rotate-x="183" rotate-y="5" heightOffset="-0.1" iconSize="0.5" fadeNear="4500" fadeFar="4750"/>
+				<MarkerCategory name="Oils" DisplayName="Oil Kegs" iconFile="Data/HeroPack/Multipurpose/stack.png" rotate-x="185" rotate-y="-1" heightOffset="-0.1" iconSize="0.5" fadeNear="4500" fadeFar="4750"/>
 			</MarkerCategory>
 			<MarkerCategory name="Matthias" fadeNear="2500" fadeFar="3000">
 				<MarkerCategory name="Wells" DisplayName="Wells" heightOffset="2"/>
 				<MarkerCategory name="Timer" DisplayName="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" heightOffset="0"/>
 			</MarkerCategory>
-			<MarkerCategory name="Chests" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -26,9 +26,9 @@
 		<POI MapID="1149" xpos="224.968" ypos="-0.177503" zpos="-13.498" type="Raid.SP.Slothasor.Mushrooms" GUID="K4lINKdqcEeKpuQMv9sU1g==" iconFile="Data/HeroPack/Multipurpose/four.png"/>
 		<POI MapID="1149" xpos="208.917" ypos="5.23024" zpos="26.3968" type="Raid.SP.Slothasor.Timer" GUID="B2NAEktjV0mh7E8YQ8TkgQ=="/>
 		<!-- Trio -->
-		<POI MapID="1149" xpos="-1.95322" ypos="1.53214" zpos="-235.489" type="Raid.SP.Trio.Bosses" GUID="eoxxKScsskiX+qOPk1EYdQ==" iconFile="Data/HeroPack/Raids/arrow.png"/>
-		<POI MapID="1149" xpos="-0.567632" ypos="1.01967" zpos="-290.812" type="Raid.SP.Trio.Bosses" GUID="uF937Qyrt0qXElHSMUW5nw==" iconFile="Data/HeroPack/Raids/circle.png"/>
-		<POI MapID="1149" xpos="-32.9359" ypos="5.87644" zpos="-221.024" type="Raid.SP.Trio.Bosses" GUID="yrpc6HFBLUa1dwelKFK/vQ==" iconFile="Data/HeroPack/Raids/heart.png"/>
+		<POI MapID="1149" xpos="-1.95322" ypos="1.53214" zpos="-235.489" type="Raid.SP.Trio.Bosses" GUID="eoxxKScsskiX+qOPk1EYdQ==" iconFile="Data/HeroPack/Raids/arrow.png" heightOffset="-0.1" rotate-x="185" rotate-y="-3" rotate-z="115"/>
+		<POI MapID="1149" xpos="-0.567632" ypos="1.01967" zpos="-290.812" type="Raid.SP.Trio.Bosses" GUID="uF937Qyrt0qXElHSMUW5nw==" iconFile="Data/HeroPack/Raids/circle.png" heightOffset="-0.1" rotate-x="180"/>
+		<POI MapID="1149" xpos="-32.9359" ypos="5.87644" zpos="-221.024" type="Raid.SP.Trio.Bosses" GUID="yrpc6HFBLUa1dwelKFK/vQ==" iconFile="Data/HeroPack/Raids/heart.png" heightOffset="-0.2" rotate-x="162" rotate-z="225"/>
 		<POI MapID="1149" xpos="-30.5065" ypos="3.97447" zpos="-238.025" type="Raid.SP.Trio.Beehives" GUID="/3CTOpcuskeYgQorlQ/0IQ=="/>
 		<POI MapID="1149" xpos="-16.4345" ypos="4.62365" zpos="-211.941" type="Raid.SP.Trio.Oils" GUID="m4f94Wsn90GHWJhUjoVrnw=="/>
 		<!-- Matthias -->
