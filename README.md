@@ -46,8 +46,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ❌ **Spirit Woods:**
   - ❌ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
   - ✅ *Trails* showcasing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with)**
-- ❌ **Gorseval:**
-  - ❌ *Markers* for two spirit spawns during its phase.
+- ✅ **Gorseval:**
+  - ✅ *Markers* for two spirit spawns during its phase.
 - ❌ **Sabetha:**
   - ✅ *Markers* for her cannon locations.
   - ❌ *A Timer* for her mechanics (cannons). **(timers are currently not supported)**
