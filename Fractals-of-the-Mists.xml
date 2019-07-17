@@ -20,7 +20,7 @@
 			<MarkerCategory name="VirastraSkip" DisplayName="Virastra Skip"/>
 			<MarkerCategory name="Arkk" DisplayName="Arkk Directions" fadeNear="2750" fadeFar="3000"/>
 		</MarkerCategory>
-		<MarkerCategory name="SoO" DisplayName="Solid Ocean" fadeNear="3500" fadeFar="4000"/>
+		<MarkerCategory name="SoO" DisplayName="Solid Ocean" iconSize="1" rotate-x="180" rotate-z="180" heightOffset="-0.1" fadeNear="3500" fadeFar="4000"/>
 		<MarkerCategory name="TR" DisplayName="Thaumanova Reactor">
 			<MarkerCategory name="Maze" fadeNear="3250" fadeFar="3500"/>
 			<MarkerCategory name="Portal" DisplayName="Subject 6 Portal" heightOffset="0.5" iconSize="0.75"/>
