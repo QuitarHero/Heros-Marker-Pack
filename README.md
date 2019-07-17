@@ -44,26 +44,26 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ## ❌ Raids:
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
-  - ❌ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
+  - ✅ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
   - ❌ *Trails* showcasing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with)**
 - ✅ **Gorseval:**
   - ✅ *Markers* for two spirit spawns during its phase.
-- ❌ **Sabetha:**
+- ✅ **Sabetha:**
   - ✅ *Markers* for her cannon locations.
-  - ❌ *A Timer* for her mechanics (cannons). **(done, but timers are currently not supported)**
-- ❌ **General:**
-  - ❌ *Markers* on the various chests in Spirit Vale. **(done, but behaviors are currently not supported)**
-### ❌ Salvation Pass:
-- ❌ **Slothasor:**
+  - ✅ *A Timer* for her mechanics (cannons). **(done, but timers are currently not supported)**
+- ✅ **General:**
+  - ✅ *Markers* on the various chests in Spirit Vale. **(done, but behaviors are currently not supported)**
+### ✅ Salvation Pass:
+- ✅ **Slothasor:**
   - ✅ *Markers* for its Mushrooms.
-  - ❌ *A Timer* for its mushroom and slubling spawns. **(done, but timers are currently not supported)**
+  - ✅ *A Timer* for its mushroom and slubling spawns. **(done, but timers are currently not supported)**
 - ✅ **Trio:**
   - ✅ *Markers* for boss spawns, oil kegs & beehive stack points.
 - ✅ **Matthias:**
   - ✅ *Markers* for his wells.
-  - ❌ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(done, but timers are currently not supported)**
-- ❌ **General:**
-  - ❌ *Markers* for the various chests in Salvation Pass. **(done, but behaviors are currently not supported)**
+  - ✅ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(done, but timers are currently not supported)**
+- ✅ **General:**
+  - ✅ *Markers* for the various chests in Salvation Pass. **(done, but behaviors are currently not supported)**
 ### ❌ Stronghold of the Faithful:
 - ❌ **Escort:**
   - ❌ *Markers* (hidden) for a skip to the fourth tower.
