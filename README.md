@@ -57,8 +57,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ❌ **Slothasor:**
   - ✅ *Markers* for its Mushrooms.
   - ❌ *A Timer* for its mushroom and slubling spawns. **(done, but timers are currently not supported)**
-- ❌ **Trio:**
-  - ❌ *Markers* for boss spawns, oil kegs & beehive stack points.
+- ✅ **Trio:**
+  - ✅ *Markers* for boss spawns, oil kegs & beehive stack points.
 - ❌ **Matthias:**
   - ❌ *Markers* for his wells.
   - ❌ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(timers are currently not supported)**
