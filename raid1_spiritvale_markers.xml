@@ -24,8 +24,8 @@
 		<!-- Spirit Run -->
 		<Trail trailData="Data/HeroPack/Raids/SR_TriggerLines.trl" texture="Data/HeroPack/Raids/SR_Trigger.png" animSpeed="0" alpha="1" type="Raid.SV.SR.Trigger" fadeNear="1000" fadeFar="1500"/>
 		<!-- Gorseval -->
-		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
-		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
+		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Multipurpose/one.png" heightOffset="-0.1" rotate-x="180" rotate-z="220"/>
+		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Multipurpose/two.png" heightOffset="-0.1" rotate-x="180" rotate-z="135"/>
 		<!-- Sabetha -->
 		<POI MapID="1062" xpos="-133.137" ypos="62.7407" zpos="52.1523" type="Raid.SV.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/south.png" rotate-z="-5"/>
 		<POI MapID="1062" xpos="-97.8473" ypos="62.8841" zpos="80.9271" type="Raid.SV.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png" rotate-z="85"/>
