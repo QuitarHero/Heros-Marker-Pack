@@ -1,7 +1,6 @@
 <OverlayData>
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="SOTF" DisplayName="Stronghold of the Faithful">
-			<MarkerCategory name="Escort" heightOffset="0.5" iconSize="0.5"/>
 			<MarkerCategory name="KC" DisplayName="Keep Construct" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
 			<MarkerCategory name="TC" DisplayName="Twisted Castle">
 				<MarkerCategory name="One" DisplayName="1st Button Skip"/>
@@ -14,17 +13,12 @@
 	</MarkerCategory>
 	
 	<POIs>
-		<!--  Escort -->
-		<POI MapID="1156" xpos="45.1487" ypos="137.379" zpos="390.77" type="Raid.SOTF.Escort" GUID="0FYMBEHn9EqAZCEwGXLOMQ==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" fadeNear="500" fadeFar="750"/>
-		<POI MapID="1156" xpos="45.8498" ypos="142.315" zpos="382.24" type="Raid.SOTF.Escort" GUID="lMufEQq85kSg6zLeUKZB3g==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" fadeNear="500" fadeFar="750"/>
-		<POI MapID="1156" xpos="54.2233" ypos="143.771" zpos="385.1" type="Raid.SOTF.Escort" GUID="fukMoUoIUEqRNTRX9hzFNA==" iconFile="Data/HeroPack/Raids/StrongholdSkip.png" fadeNear="750" fadeFar="900"/>
-		<POI MapID="1156" xpos="41.3695" ypos="148.483" zpos="388.983" type="Raid.SOTF.Escort" GUID="Vd6I6z1q4kWEsC+BLlFzCw==" iconFile="Data/HeroPack/Raids/StrongholdDidSkip.png" fadeNear="750" fadeFar="900"/>
 		<!-- Keep Construct -->
 		<POI MapID="1156" xpos="-97.048" ypos="150.156" zpos="255.802" type="Raid.SOTF.KC" GUID="fhaeyOkgC0SweDMNHtlWzg=="/>
 		<POI MapID="1156" xpos="-80.6538" ypos="150.156" zpos="229.251" type="Raid.SOTF.KC" GUID="1kMFZOLPCkS6JiJdIcz4YQ=="/>
 		<POI MapID="1156" xpos="-113.822" ypos="150.156" zpos="229.125" type="Raid.SOTF.KC" GUID="fg81J0pga0SNm4K8SUYn7Q=="/>
 		<!-- Twisted Castle -->
-		<Trail trailData="Data/HeroPack/Raids/TwistedCastle.trl" texture="Data/HeroPack/Raids/twistedcastletrail.png" animSpeed="2" alpha="1" type="Raid.StrongholdOfTheFaithful.TwistedCastle.One" fadeNear="1250" fadeFar="1750"/>
+		<Trail trailData="Data/HeroPack/Raids/TwistedCastle.trl" texture="Data/HeroPack/Raids/twistedcastletrail.png" animSpeed="2" alpha="1" type="Raid.SOTF.TC.One" fadeNear="1250" fadeFar="1750"/>
 		<POI MapID="1156" xpos="-27.9002" ypos="95.0864" zpos="74.2116" type="Raid.SOTF.TC.Buttons" GUID="t0VldGp1GESAIL3ssiIKUg==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="1500" fadeFar="2000"/>
 		<POI MapID="1156" xpos="-2.84159" ypos="164.876" zpos="-57.0431" type="Raid.SOTF.TC.Buttons" GUID="vSfb/vVRzEGATQAGG49frA==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="1500" fadeFar="2000"/>
 		<POI MapID="1156" xpos="-156.468" ypos="137.349" zpos="-65.7955" type="Raid.SOTF.TC.Buttons" GUID="H3eTIC2UEkyl5pf+mSYL5Q==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="2500" fadeFar="3000"/>
