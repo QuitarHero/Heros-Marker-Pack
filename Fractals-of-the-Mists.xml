@@ -8,9 +8,9 @@
 			<MarkerCategory name="Skip4" DisplayName="Boss Skip" heightOffset="0" iconSize="0.75"/>
 		</MarkerCategory>
 		<MarkerCategory name="MO" DisplayName="Mistlock Observatory" heightOffset="0" iconSize="0.2"/>
-		<MarkerCategory name="MF" DisplayName="Molten Furnace" heightOffset="0" iconSize="0.5" fadeNear="1000" fadeFar="1250">
-			<MarkerCategory name="Tornadoes" iconFile="Data/HeroPack/Multipurpose/stack.png"/>
-			<MarkerCategory name="Reflect" iconFile="Data/HeroPack/Fractals/Feedback.png"/>
+		<MarkerCategory name="MF" DisplayName="Molten Furnace">
+			<MarkerCategory name="Tornadoes" iconFile="Data/HeroPack/Multipurpose/stack.png" rotate-x="180" heightOffset="-0.1" iconSize="0.4" fadeNear="1000" fadeFar="1250"/>
+			<MarkerCategory name="Reflect" iconFile="Data/HeroPack/Fractals/Feedback.png" rotate-x="180" heightOffset="-0.1" iconSize="0.4" fadeNear="1000" fadeFar="1250"/>
 		</MarkerCategory>
 		<MarkerCategory name="NM" DisplayName="Nightmare">
 			<MarkerCategory name="Knights" DisplayName="Knight Spawns" heightOffset="0.5" iconSize=".75" fadeNear="3000" fadeFar="3500"/>
