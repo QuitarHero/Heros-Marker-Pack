@@ -65,8 +65,6 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ✅ **General:**
   - ✅ *Markers* for the various chests in Salvation Pass. **(done, but behaviors are currently not supported)**
 ### ❌ Stronghold of the Faithful:
-- ❌ **Escort:**
-  - ❌ *Markers* (hidden) for a skip to the fourth tower.
 - ❌ **Keep Construct:**
   - ❌ *Markers* for his Green Circles.
 - ❌ **Twisted Castle:**
