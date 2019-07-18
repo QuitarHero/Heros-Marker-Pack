@@ -13,8 +13,9 @@
 			<MarkerCategory name="Reflect" iconFile="Data/HeroPack/Fractals/Feedback.png" rotate-x="180" heightOffset="-0.1" iconSize="0.4" fadeNear="1000" fadeFar="1250"/>
 		</MarkerCategory>
 		<MarkerCategory name="NM" DisplayName="Nightmare">
-			<MarkerCategory name="Knights" DisplayName="Knight Spawns" heightOffset="0.5" iconSize=".75" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Orbs" DisplayName="Ensolyss' Orbs" heightOffset="0" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
+			<MarkerCategory name="Knights" DisplayName="Knight Spawns" rotate-x="180" iconSize=".75" fadeNear="3000" fadeFar="3500"/>
+			<MarkerCategory name="Orbs" DisplayName="Ensolyss' Orbs" heightOffset="-0.1" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
+			<MarkerCategory name="North" rotate-x="90" rotate-z="180" iconSize="1" fadeNear="2000" fadeFar="2500"/>
 		</MarkerCategory>
 		<MarkerCategory name="ShO" DisplayName="Shattered Observatory">
 			<MarkerCategory name="VirastraSkip" DisplayName="Virastra Skip"/>
@@ -68,14 +69,15 @@
 		<POI MapID="955" xpos="-227.374" ypos="226.547" zpos="30.6353" type="FOTM.MF.Tornadoes" GUID="dmLlqOrZLEm6C4buSjebyg=="/>
 		<POI MapID="955" xpos="-227.066" ypos="226.547" zpos="26.5557" type="FOTM.MF.Reflect" GUID="SgzrhHYFR0qAtymSIPFl1Q=="/>
 		<!-- Nightmare -->
-		<POI MapID="1177" xpos="115.401" ypos="14.0562" zpos="153.006" type="FOTM.NM.Knights" GUID="D3TdNEjLFECd1ntKnkDcaA==" iconFile="Data/HeroPack/Multipurpose/one.png"/>
-		<POI MapID="1177" xpos="92.6183" ypos="13.6697" zpos="168.462" type="FOTM.NM.Knights" GUID="ZeSgHnJTfECytz2/yyLeXw==" iconFile="Data/HeroPack/Multipurpose/two.png"/>
-		<POI MapID="1177" xpos="90.3668" ypos="13.7478" zpos="139.64" type="FOTM.NM.Knights" GUID="Z+mzkaYKOECG+yc90OclmA==" iconFile="Data/HeroPack/Multipurpose/three.png"/>
-		<POI MapID="1177" xpos="32.7043" ypos="44.6368" zpos="25.6605" type="FOTM.NM.Orbs" GUID="DijNR9RjrU2qeI58A1CaHQ==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
-		<POI MapID="1177" xpos="28.2628" ypos="44.6375" zpos="40.2083" type="FOTM.NM.Orbs" GUID="fs8EMCk4Z0O5+SpXk384Ww==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
-		<POI MapID="1177" xpos="41.0741" ypos="44.6372" zpos="49.0661" type="FOTM.NM.Orbs" GUID="2I2VcNI2vEezT6b7D8zQew==" iconFile="Data/HeroPack/Fractals/fotm n ball.png"/>
-		<POI MapID="1177" xpos="53.6736" ypos="44.6364" zpos="40.2005" type="FOTM.NM.Orbs" GUID="hWKe8oFIf0WLkb3oEmos0A==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
-		<POI MapID="1177" xpos="48.1348" ypos="44.6364" zpos="26.1157" type="FOTM.NM.Orbs" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" iconFile="Data/HeroPack/Fractals/fotm ball.png"/>
+		<POI MapID="1177" xpos="115.401" ypos="14.0562" zpos="153.006" type="FOTM.NM.Knights" GUID="D3TdNEjLFECd1ntKnkDcaA==" iconFile="Data/HeroPack/Multipurpose/one.png" rotate-z="90" heightOffset="-0.1"/>
+		<POI MapID="1177" xpos="92.6183" ypos="13.6697" zpos="168.462" type="FOTM.NM.Knights" GUID="ZeSgHnJTfECytz2/yyLeXw==" iconFile="Data/HeroPack/Multipurpose/two.png" rotate-z="205" heightOffset="-0.1"/>
+		<POI MapID="1177" xpos="90.3668" ypos="13.7478" zpos="139.64" type="FOTM.NM.Knights" GUID="Z+mzkaYKOECG+yc90OclmA==" iconFile="Data/HeroPack/Multipurpose/three.png" rotate-z="-35" heightOffset="-0.3"/>
+		<POI MapID="1177" xpos="32.7043" ypos="44.6368" zpos="25.6605" type="FOTM.NM.Orbs" GUID="DijNR9RjrU2qeI58A1CaHQ==" iconFile="Data/HeroPack/Fractals/fotm ball.png" rotate-x="180"/>
+		<POI MapID="1177" xpos="28.2628" ypos="44.6375" zpos="40.2083" type="FOTM.NM.Orbs" GUID="fs8EMCk4Z0O5+SpXk384Ww==" iconFile="Data/HeroPack/Fractals/fotm ball.png" rotate-x="180"/>
+		<POI MapID="1177" xpos="41.0741" ypos="44.6372" zpos="49.0661" type="FOTM.NM.Orbs" GUID="2I2VcNI2vEezT6b7D8zQew==" iconFile="Data/HeroPack/Fractals/fotm ball.png" rotate-x="180"/>
+		<POI MapID="1177" xpos="53.6736" ypos="44.6364" zpos="40.2005" type="FOTM.NM.Orbs" GUID="hWKe8oFIf0WLkb3oEmos0A==" iconFile="Data/HeroPack/Fractals/fotm ball.png" rotate-x="180"/>
+		<POI MapID="1177" xpos="48.1348" ypos="44.6364" zpos="26.1157" type="FOTM.NM.Orbs" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" iconFile="Data/HeroPack/Fractals/fotm ball.png" rotate-x="180"/>
+		<POI MapID="1177" xpos="41.7465" ypos="44.7974" zpos="64.0361" type="FOTM.NM.North" GUID="P0VtrunYg0O7c+g/POoDVw==" iconFile="Data/HeroPack/Multipurpose/north.png"/>
 		<!-- Shattered Observatory -->
 		<Route name="VirastraSkip" BackwardDirection="0" resetposx="342.781" resetposy="110.248" resetposz="96.8604" resetRange="2" MapID="1205">
 			<POI MapID="1205" xpos="342.781" ypos="110.248" zpos="96.8604" type="FOTM.ShO.VirastraSkip" GUID="fbTuKujAs0iRKamV7PwQyA==" iconFile="Data/HeroPack/Fractals/skip.png" heightOffset="1" iconSize="0.5" fadeNear="500" fadeFar="1000"/>
