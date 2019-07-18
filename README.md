@@ -10,7 +10,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ❌ **Aetherblade:**
   - ❌ *Markers* for a quick, group coordinated Electric Minigame Skip. **(2/3 done, waiting for Blish support for fadeNear/fadeFar with Titles)**
 - ❌ **Cliffside:**
-  - ❌ *Markers* for four Portal (Speed) Skips **(1/4 done)**
+  - ❌ *Markers* for four Portal (Speed) Skips **(3/4 done)**
 - ✅ **Mistlock Observatory:**
   - ✅ *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary).
 - ✅ **Molten Furnace:**
@@ -45,7 +45,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ## ❌ Raids:
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
-  - ✅ *Timers* for the initial Adrenal Mushrooms. **(done, but behaviors are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
+  - ✅ *Timers* for the initial Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
   - ❌ *Trails* showing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with. also waiting for improved trail functionality)**
 - ✅ **Gorseval:**
   - ✅ *Markers* for two Spirit Spawns inbetween phases.
