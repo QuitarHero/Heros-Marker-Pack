@@ -1,7 +1,7 @@
 <OverlayData>
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="SOTF" DisplayName="Stronghold of the Faithful">
-			<MarkerCategory name="KC" DisplayName="Keep Construct" iconFile="Data/HeroPack/Multipurpose/stack.png" heightOffset="0" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
+			<MarkerCategory name="KC" DisplayName="Keep Construct" iconFile="Data/HeroPack/Multipurpose/stack.png" rotate-x="180" heightOffset="-0.1" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
 			<MarkerCategory name="TC" DisplayName="Twisted Castle">
 				<MarkerCategory name="One" DisplayName="1st Button Skip"/>
 				<MarkerCategory name="Buttons" DisplayName="Buttons"/>
