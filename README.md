@@ -15,9 +15,10 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ✅ *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary).
 - ✅ **Molten Furnace:**
   - ✅ *Markers* in the Weapons Testing area to avoid tornadoes and reflect fireballs.
-- ❌ **Nightmare (CM):**
-  - ❌ *Markers* that show where Watchwork Knights spawn during the MAMA fight.
-  - ❌ *Markers* that show where Enolyss' capture points are.
+- ✅ **Nightmare (CM):**
+  - ✅ *Markers* that show where Watchwork Knights spawn during the MAMA fight.
+  - ✅ *Markers* that show where Enolyss' capture points are.
+  - ✅ *A Marker* that shows North.
 - ❌ **Shattered Observatory:**
   - ❌ *A Route:* guiding players for Viirastra's skip (during the ball minigame). **(needs to be re-done)**
   - ❌ *Markers* to orient players at Arkk.
