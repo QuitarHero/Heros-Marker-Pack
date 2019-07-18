@@ -11,8 +11,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *Markers* for a quick, group coordinated Electric Minigame Skip. **(2/3 done, waiting for Blish support for fadeNear/fadeFar with Titles)**
 - ❌ **Cliffside:**
   - ❌ *Markers* for four Portal (Speed) Skips **(1/4 done)**
-- ❌ **Mistlock Observatory:**
-  - ❌ *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary). **(1/7 done)**
+- ✅ **Mistlock Observatory:**
+  - ✅ *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary).
 - ❌ **Molten Furnace:**
   - ❌ *Markers* in the Weapons Testing area to avoid tornadoes and reflect fireballs.
 - ❌ **Nightmare (CM):**
