@@ -13,14 +13,16 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *Markers* for four Portal (Speed) Skips **(1/4 done)**
 - ✅ **Mistlock Observatory:**
   - ✅ *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary).
-- ❌ **Molten Furnace:**
-  - ❌ *Markers* in the Weapons Testing area to avoid tornadoes and reflect fireballs.
+- ✅ **Molten Furnace:**
+  - ✅ *Markers* in the Weapons Testing area to avoid tornadoes and reflect fireballs.
 - ❌ **Nightmare (CM):**
   - ❌ *Markers* that show where Watchwork Knights spawn during the MAMA fight.
   - ❌ *Markers* that show where Enolyss' capture points are.
 - ❌ **Shattered Observatory:**
   - ❌ *A Route:* guiding players for Viirastra's skip (during the ball minigame). **(needs to be re-done)**
   - ❌ *Markers* to orient players at Arkk.
+- ❌ **Siren's Reef:**
+  - ❌ *Markers* for the Last Area's Chests.
 - ✅ **Solid Ocean:**
   - ✅ *Markers* for Colossus spawns.
 - ❌ **Thaumanova Reactor:**
@@ -43,24 +45,24 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ## ❌ Raids:
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
-  - ✅ *Timers* for the initial Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
+  - ✅ *Timers* for the initial Adrenal Mushrooms. **(done, but behaviors are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
   - ❌ *Trails* showing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with. also waiting for improved trail functionality)**
 - ✅ **Gorseval:**
   - ✅ *Markers* for two Spirit Spawns inbetween phases.
 - ✅ **Sabetha:**
   - ✅ *Markers* for Cannon Locations.
-  - ✅ *A Timer* (forced) for Cannons. **(done, but timers are currently not supported)**
+  - ✅ *A Timer* (forced) for Cannons. **(done, but timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
 - ✅ **General:**
   - ✅ *Markers* for the Raid's Chests. **(done, but behaviors are currently not supported)**
 ### ✅ Salvation Pass:
 - ✅ **Slothasor:**
   - ✅ *Markers* for Mushrooms.
-  - ✅ *A Timer* (run-over) for Mushrooms / Slub Spawns. **(done, but timers are currently not supported)**
+  - ✅ *A Timer* (run-over) for Mushrooms / Slub Spawns. **(done, but timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
 - ✅ **Trio:**
   - ✅ *Markers* for Boss Spawns, Oil Kegs & Beehive Stack Points.
 - ✅ **Matthias:**
   - ✅ *Markers* for Wells.
-  - ✅ *A Timer* (run-over) for Corruptions / Four Sacrifices. **(done, but timers are currently not supported)**
+  - ✅ *A Timer* (run-over) for Corruptions / Four Sacrifices. **(done, but timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
 - ✅ **General:**
   - ✅ *Markers* for the Raid's Chests. **(done, but behaviors are currently not supported)**
 ### ❌ Stronghold of the Faithful:
@@ -76,9 +78,9 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 ### ❌ Bastion of the Penitent:
 - ❌ **Cairn:**
   - ✅ *Markers* for Agony, Group Stack, and Kiter Placements.
-  - ❌ *A Timer* (run-over) for Agony Applications (this assumes you start on platform). **(timers are currently not supported)**
+  - ❌ *A Timer* (run-over) for Agony Applications (this assumes you start on platform). **(timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
 - ❌ **Mursaat Overseer:**
-  - ❌ *A Timer* (run-over) for Dispels. **(timers are currently not supported)**
+  - ❌ *A Timer* (run-over) for Dispels. **(timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
 - ❌ **General:**
   - ❌ *Markers* showing Rubble Locations to open Samarog's Door.
   - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
@@ -90,7 +92,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *Markers* for Light Orb Spawns.
 - ❌ **Dhuum:**
   - ❌ *Markers* for each Reaper.
-  - ❌ *A Timer* (run-over) for Greens, Soul Split, and Dips. **(timers are currently not supported)**
+  - ❌ *A Timer* (run-over) for Greens, Soul Split, and Dips. **(timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
   - ❌ *A Trail* easily showing the Death Border when gathering Orbs. **(waiting for improved trail functionality)**
 - ❌ **General:**
   - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
