@@ -8,110 +8,111 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 
 ## ❌ Fractal of the Mists:
 - ❌ **Aetherblade:**
-  - ❌ *Markers* for a quick, group coordinated skip for the electric minigame. **(2/3 done, waiting for Blish support for fadeNear/fadeFar with Titles)**
+  - ❌ *Markers* for a quick, group coordinated Electric Minigame Skip. **(2/3 done, waiting for Blish support for fadeNear/fadeFar with Titles)**
 - ❌ **Cliffside:**
-  - ❌ *Markers* for 4 Portal (Speed) Skips. **(1/4 done)**
+  - ❌ *Markers* for four Portal (Speed) Skips **(1/4 done)**
 - ❌ **Mistlock Observatory:**
-  - ❌ *Markers* for an alternate route to complete the Jumping Puzzle (low gravity is necessary). **(1/7 done)**
+  - ❌ *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary). **(1/7 done)**
 - ❌ **Molten Furnace:**
-  - ❌ *Markers* in the Weapons Testing room to avoid all the Tornadoes and where to reflect the fireballs.
+  - ❌ *Markers* in the Weapons Testing area to avoid tornadoes and reflect fireballs.
 - ❌ **Nightmare (CM):**
-  - ❌ *Markers* showing where the Watchwork Knights spawn during the MAMA fight.
-  - ❌ *Markers* to orient players as to where the capture points spawn during Ensolyss' phases.
+  - ❌ *Markers* that show where Watchwork Knights spawn during the MAMA fight.
+  - ❌ *Markers* that show where Enolyss' capture points are.
 - ❌ **Shattered Observatory:**
-  - ❌ *A Route:* showcasing a portal skip to Viirastra (during the ball minigame).
-  - ❌ *Markers* to orient players in the Arkk fight.
+  - ❌ *A Route:* guiding players for Viirastra's skip (during the ball minigame). **(needs to be re-done)**
+  - ❌ *Markers* to orient players at Arkk.
 - ✅ **Solid Ocean:**
   - ✅ *Markers* for Colossus spawns.
 - ❌ **Thaumanova Reactor:**
-  - ❌ *Markers* for the 3 panels in the Maze.
-  - ❌ *Markers* for a speed portal "skip" from apartments to Subject 6.
+  - ❌ *Markers* for the three panels in the Maze.
+  - ❌ *Markers* for a Speed Portal "Skip" from Apartments to Subject 6.
 - ❌ **Twilight Oasis:**
-  - ❌ *A Route* for a skip to the 2nd sandblinder.
-  - ❌ *Markers* for portals for the skip to the 2nd sandblinder.
+  - ❌ *A Route* for the 2nd Sandblinder Skip. **(needs to be re-done)**
 - ❌ **Uncategorized:**
-  - ❌ *A Trail* for a difficult skip (skipping the second set of harpies). **(6/7 done)**
-  - ❌ *Markers* for an alternative skip to the above skip (skipping the second set of harpies, requiring a leap). **(1/2 done)**
+  - ❌ *Markers* for the JP version of the Skip. **(6/7 done)**
+  - ❌ *Markers* for the Leap version of the Skip. **(1/2 done)**
 - ❌ **Underground Facility:**
-  - ❌ *A Trail* to a difficult (unless Daredevil) skip to the 2nd button (removes the need to go to 1st button).
+  - ❌ *A Trail* for the 1st Plate Skip. (Daredevil makes it easy) **(waiting for improved trail functionality)**
 - ❌ **Urban Battlegrounds:**
-  - ❌ *A Trail* showing the boundary of the Burning Oils.
-  - ❌ *Markers* showcasing a skip to bypass adds / the long run to the courtyard.
+  - ❌ *A Trail* showing the Burning Oil boundary. **(waiting for improved trail functionality)**
+  - ❌ *Markers* for a Speed Skip if the fastest route is not available.
 - ❌ **Volcanic:**
-  - ✅ *Markers* for a (speed) portal skip at the beginning (skips running with fire rocks).
-  - ❌ *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss.
+  - ✅ *Markers* for the beginning Portal (Speed) Skip.
+  - ❌ *Markers* to safely fall down the Cliff to the Final Boss.
 
 ## ❌ Raids:
 ### ❌ Spirit Vale:
 - ❌ **Spirit Woods:**
-  - ✅ *Timers* to the capture point area's Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
-  - ❌ *Trails* showcasing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with)**
+  - ✅ *Timers* for the initial Adrenal Mushrooms. **(done, but behaviors are currently not supported)**
+  - ❌ *Trails* showing Spirit Run's Capture Point Triggers **(WIP, need a group to grind SW with. also waiting for improved trail functionality)**
 - ✅ **Gorseval:**
-  - ✅ *Markers* for two spirit spawns during its phase.
+  - ✅ *Markers* for two Spirit Spawns inbetween phases.
 - ✅ **Sabetha:**
-  - ✅ *Markers* for her cannon locations.
-  - ✅ *A Timer* for her mechanics (cannons). **(done, but timers are currently not supported)**
+  - ✅ *Markers* for Cannon Locations.
+  - ✅ *A Timer* (forced) for Cannons. **(done, but timers are currently not supported)**
 - ✅ **General:**
-  - ✅ *Markers* on the various chests in Spirit Vale. **(done, but behaviors are currently not supported)**
+  - ✅ *Markers* for the Raid's Chests. **(done, but behaviors are currently not supported)**
 ### ✅ Salvation Pass:
 - ✅ **Slothasor:**
-  - ✅ *Markers* for its Mushrooms.
-  - ✅ *A Timer* for its mushroom and slubling spawns. **(done, but timers are currently not supported)**
+  - ✅ *Markers* for Mushrooms.
+  - ✅ *A Timer* (run-over) for Mushrooms / Slub Spawns. **(done, but timers are currently not supported)**
 - ✅ **Trio:**
-  - ✅ *Markers* for boss spawns, oil kegs & beehive stack points.
+  - ✅ *Markers* for Boss Spawns, Oil Kegs & Beehive Stack Points.
 - ✅ **Matthias:**
-  - ✅ *Markers* for his wells.
-  - ✅ *A Timer* (optional) for his corruption applications and the first four sacrifices. **(done, but timers are currently not supported)**
+  - ✅ *Markers* for Wells.
+  - ✅ *A Timer* (run-over) for Corruptions / Four Sacrifices. **(done, but timers are currently not supported)**
 - ✅ **General:**
-  - ✅ *Markers* for the various chests in Salvation Pass. **(done, but behaviors are currently not supported)**
+  - ✅ *Markers* for the Raid's Chests. **(done, but behaviors are currently not supported)**
 ### ❌ Stronghold of the Faithful:
 - ✅ **Keep Construct:**
-  - ✅ *Markers* for his Green Circles.
+  - ✅ *Markers* for Green Circles.
 - ❌ **Twisted Castle:**
-  - ❌ *A Trail* for a skip to the first button (only can be done with certain skills)
-  - ❌ *Markers* for the encounter's buttons (in the order to activate them).
+  - ❌ *A Trail* for the First Button Skip (only can be done with certain skills). **(waiting for improved trail functionality)**
+  - ❌ *Markers* for Buttons (in ideal activation order).
 - ❌ **Xera:**
-  - ❌ *Markers* for tanking spots (this assumes 75% DPS Check).
+  - ❌ *Markers* for Tanking (75% DPS Check is assumed).
 - ❌ **General:**
-  - ❌ *Markers* for various chests in Stronghold of the Faithful. **(behaviors are currently not supported)**
+  - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
 ### ❌ Bastion of the Penitent:
 - ❌ **Cairn:**
-  - ✅ *Markers* for optimal agony placement.
-  - ❌ *A Timer* (optional) for his agony applications (this assumes you start on platform). **(timers are currently not supported)**
+  - ✅ *Markers* for Agony, Group Stack, and Kiter Placements.
+  - ❌ *A Timer* (run-over) for Agony Applications (this assumes you start on platform). **(timers are currently not supported)**
 - ❌ **Mursaat Overseer:**
-  - ❌ *A Timer* (optional) for Dispels. **(timers are currently not supported)**
+  - ❌ *A Timer* (run-over) for Dispels. **(timers are currently not supported)**
 - ❌ **General:**
-  - ❌ *Markers* for the locations of the orbs (rubble) to open Samarog's Door.
-  - ❌ *Markers* for various chests in Bastion of the Penitent. **(behaviors are currently not supported)**
+  - ❌ *Markers* showing Rubble Locations to open Samarog's Door.
+  - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
 ### ❌ Hall of Chains:
 - ❌ **Soulless Horror:**
-  - ❌ *Markers* to help orient players and where to bring her.
+  - ❌ *Markers* to orient players.
 - ❌ **Statue of Darkness:**
-  - ❌ *Markers* for Broken King to orient players for greens.
-  - ❌ *Markers* for Light Orb spawns.
+  - ❌ *Markers* for Broken King to orient players.
+  - ❌ *Markers* for Light Orb Spawns.
 - ❌ **Dhuum:**
-  - ❌ *Markers* for each of the Reapers.
-  - ❌ *A Timer* (optional) for Dhuum's greens, Soul Split, and Dips. **(timers are currently not supported)**
-  - ❌ *A Trail* creating a border of death for players performing the Greens mechanic.
+  - ❌ *Markers* for each Reaper.
+  - ❌ *A Timer* (run-over) for Greens, Soul Split, and Dips. **(timers are currently not supported)**
+  - ❌ *A Trail* easily showing the Death Border when gathering Orbs. **(waiting for improved trail functionality)**
 - ❌ **General:**
-  - ❌ *Markers* for various chests in Hall of Chains. **(behaviors are currently not supported)**
+  - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
 ### ❌ Mythwright Gambit:
 - ❌ **Conjured Amalgamate:**
-  - ❌ *Markers* to orient players as to where to collect Greatswords and Shields.
+  - ❌ *Markers* for Greatsword and Shield starting locations.
+- ❌ **Twin Largos:**
+  - ❌ *Markers* to orient players at 50% Split.
 - ❌ **Qadim:**
-  - ❌ *Markers* to lead players through his lamp (efficiently). **(need a group that doesn't mind doing nothing and occasionally fighting)**
-  - ❌ *Markers* to sort players to their boon pyre.
+  - ❌ *Markers* to lead players through the lamp. **(need a group that doesn't mind doing nothing and occasionally fighting)**
+  - ❌ *Markers* for Boon Pyres.
 - ❌ **General:**
-  - ❌ *Markers* for various chests in Mythwright Gambit. **(behaviors are currently not supported)**
+  - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
 ### ✅ The Key of Ahdashim:
 - ✅ **Cardinal Sabir:**
-  - ✅ *Markers* to orient players for the last platform's shields.
+  - ✅ *Markers* to orient players at <60%.
 - ✅ **Cardinal Adina:**
-  - ✅ *Markers* to orient players to Hand spawns are in 50% and 25%.
-  - ✅ *Markers* to orient players to good, consistent spots to place pillars.
+  - ✅ *Markers* to orient players.
+  - ✅ *Markers* for ideal Pillar Locations.
 - ✅ **Qadim the Peerless:**
-  - ✅ *Markers* showing the pylon destruction order.
-  - ✅ *Markers* to orient players to Orb / Distortion spawns.
-  - ✅ *Markers* showing ideal fire placements.
+  - ✅ *Markers* for Pylons (destruction order).
+  - ✅ *Markers* for Orb / Distortion Spawns.
+  - ✅ *Markers* for ideal Fire Placements.
 
 **Support Discord:** https://discord.gg/rCEuzGz
