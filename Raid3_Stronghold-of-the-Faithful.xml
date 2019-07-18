@@ -4,7 +4,7 @@
 			<MarkerCategory name="KC" DisplayName="Keep Construct" iconFile="Data/HeroPack/Multipurpose/stack.png" rotate-x="180" heightOffset="-0.1" iconSize="0.5" fadeNear="2000" fadeFar="2500"/>
 			<MarkerCategory name="TC" DisplayName="Twisted Castle">
 				<MarkerCategory name="One" DisplayName="1st Button Skip"/>
-				<MarkerCategory name="Buttons" DisplayName="Buttons"/>
+				<MarkerCategory name="Buttons" DisplayName="Buttons" iconSize="0.75" heightOffset="0.75"/>
 				<MarkerCategory name="Path" DisplayName="Button Paths" iconSize="0.75"/>
 			</MarkerCategory>
 			<MarkerCategory name="Xera" fadeNear="2500" fadeFar="3000"/>
@@ -20,13 +20,27 @@
 		<!-- Twisted Castle -->
 		<Trail trailData="Data/HeroPack/Raids/TwistedCastle.trl" texture="Data/HeroPack/Raids/twistedcastletrail.png" animSpeed="2" alpha="1" type="Raid.SOTF.TC.One" fadeNear="1250" fadeFar="1750"/>
 		<POI MapID="1156" xpos="-27.9002" ypos="95.0864" zpos="74.2116" type="Raid.SOTF.TC.Buttons" GUID="t0VldGp1GESAIL3ssiIKUg==" iconFile="Data/HeroPack/Multipurpose/one.png" fadeNear="1500" fadeFar="2000"/>
-		<POI MapID="1156" xpos="-2.84159" ypos="164.876" zpos="-57.0431" type="Raid.SOTF.TC.Buttons" GUID="vSfb/vVRzEGATQAGG49frA==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="1500" fadeFar="2000"/>
+		<POI MapID="1156" xpos="-3.05368" ypos="164.885" zpos="-57.3263" type="Raid.SOTF.TC.Buttons" GUID="vSfb/vVRzEGATQAGG49frA==" iconFile="Data/HeroPack/Multipurpose/two.png" fadeNear="1500" fadeFar="2000"/>
 		<POI MapID="1156" xpos="-156.468" ypos="137.349" zpos="-65.7955" type="Raid.SOTF.TC.Buttons" GUID="H3eTIC2UEkyl5pf+mSYL5Q==" iconFile="Data/HeroPack/Multipurpose/three.png" fadeNear="2500" fadeFar="3000"/>
 		<POI MapID="1156" xpos="-84.9082" ypos="138.124" zpos="-20.9081" type="Raid.SOTF.TC.Buttons" GUID="qYG1gAP260eMQotj3cMaPA==" iconFile="Data/HeroPack/Multipurpose/four.png" fadeNear="2000" fadeFar="2500"/>
 		<POI MapID="1156" xpos="-25.0042" ypos="191.191" zpos="31.2641" type="Raid.SOTF.TC.Buttons" GUID="cYXiWIsxtkqw7oQgwQQCRw==" iconFile="Data/HeroPack/Multipurpose/five.png" fadeNear="2750" fadeFar="3250"/>
-		<POI MapID="1156" xpos="-105.547" ypos="141.391" zpos="140.492" type="Raid.SOTF.TC.Path" GUID="4K4zw9CiaEmk6tDCRzHzUg==" iconFile="Data/HeroPack/Raids/tc door 1.png" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
-		<POI MapID="1156" xpos="-64.0301" ypos="141.019" zpos="157.651" type="Raid.SOTF.TC.Path" GUID="PCWU9nxTwkOrQXCRIA6a+w==" iconFile="Data/HeroPack/Raids/tc door 2 to 5.png" heightOffset="0.5" fadeNear="1750" fadeFar="2250"/>
-		<POI MapID="1156" xpos="-48.8633" ypos="121.71" zpos="105.857" type="Raid.SOTF.TC.Path" GUID="fPFRYsy8x02t0LiUwndEhA==" iconFile="Data/HeroPack/Raids/tc door 2.png" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
+		
+		<POI MapID="1156" xpos="-110.690" ypos="142.022" zpos="143.800" type="Raid.SOTF.TC.Path" GUID="4K4zw9CiaEmk6tDCRzHzUg==" iconFile="Data/HeroPack/Multipurpose/one.png" rotate-x="90" rotate-z="314" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
+		<POI MapID="1156" xpos="-68.4036" ypos="142.022" zpos="164.239" type="Raid.SOTF.TC.Path" GUID="peUKcGILAUaKrNd1wWSnjA==" iconFile="Data/HeroPack/Multipurpose/two.png" rotate-x="90" rotate-z="129" heightOffset="0.5" fadeNear="1750" fadeFar="2250"/>
+		<POI MapID="1156" xpos="-68.4036" ypos="144.022" zpos="164.239" type="Raid.SOTF.TC.Path" GUID="sX0So1xIw06sOVe/DTGGPQ==" iconFile="Data/HeroPack/Multipurpose/three.png" rotate-x="90" rotate-z="129" heightOffset="0.5" fadeNear="1750" fadeFar="2250"/>
+		<POI MapID="1156" xpos="-64.5173" ypos="142.022" zpos="159.358" type="Raid.SOTF.TC.Path" GUID="PCWU9nxTwkOrQXCRIA6a+w==" iconFile="Data/HeroPack/Multipurpose/four.png" rotate-x="90" rotate-z="129" heightOffset="0.5" fadeNear="1750" fadeFar="2250"/>
+		<POI MapID="1156" xpos="-64.5173" ypos="144.022" zpos="159.358" type="Raid.SOTF.TC.Path" GUID="I1s/Y8CRmUCvy+vrXxUAfQ==" iconFile="Data/HeroPack/Multipurpose/five.png" rotate-x="90" rotate-z="129" heightOffset="0.5" fadeNear="1750" fadeFar="2250"/>
+		<POI MapID="1156" xpos="-48.5356" ypos="123.146" zpos="107.354" type="Raid.SOTF.TC.Path" GUID="fPFRYsy8x02t0LiUwndEhA==" iconFile="Data/HeroPack/Multipurpose/two.png" rotate-x="90" rotate-y="3" rotate-z="135" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
+		
+		
+		<POI MapID="1156" xpos="-76.0419" ypos="124.175" zpos="80.3719" type="Raid.SOTF.TC.Path" GUID="NQzwvsTD10OrfjeJtHDH0g==" iconFile="Data/HeroPack/Multipurpose/three.png" rotate-x="87" rotate-y="-5" rotate-z="315" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
+		<POI MapID="1156" xpos="-76.0419" ypos="126.175" zpos="80.5719" type="Raid.SOTF.TC.Path" GUID="VXhnAFvZxkWv7CF1byctvg==" iconFile="Data/HeroPack/Multipurpose/four.png" rotate-x="87" rotate-y="-5" rotate-z="315" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
+		<POI MapID="1156" xpos="-82.5103" ypos="123.73" zpos="86.8359" type="Raid.SOTF.TC.Path" GUID="SIC6u0kTNECzz5I0KbaDdQ==" iconFile="Data/HeroPack/Multipurpose/five.png" rotate-x="87" rotate-y="-5" rotate-z="315" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
+		
+		
+		
+		
+		
 		<POI MapID="1156" xpos="-103.395" ypos="192.917" zpos="-40.2008" type="Raid.SOTF.TC.Path" GUID="+fg+a9wzF0SLDlSLI4gf2w==" iconFile="Data/HeroPack/Raids/tc door 5.png" heightOffset="0.5" fadeNear="1500" fadeFar="2000"/>
 		<POI MapID="1156" xpos="-94.2398" ypos="191.443" zpos="-52.5586" type="Raid.SOTF.TC.Path" GUID="3XEqUsZs0UOCPneTyymtfQ==" iconFile="Data/HeroPack/Fractals/PortalEnter.png" heightOffset="0" fadeNear="1000" fadeFar="1500"/>
 		<POI MapID="1156" xpos="-106.872" ypos="138.071" zpos="-27.2099" type="Raid.SOTF.TC.Path" GUID="HrP/GT7ubU6EeLbHeB2mhw==" iconFile="Data/HeroPack/Fractals/PortalExit.png" heightOffset="0" fadeNear="2500" fadeFar="3000"/>
