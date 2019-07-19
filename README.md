@@ -19,9 +19,9 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ✅ *Markers* that show where Watchwork Knights spawn during the MAMA fight.
   - ✅ *Markers* that show where Enolyss' capture points are.
   - ✅ *A Marker* that shows North.
-- ❌ **Shattered Observatory:**
-  - ❌ *A Route:* guiding players for Viirastra's skip (during the ball minigame). **(needs to be re-done)**
-  - ❌ *Markers* to orient players at Arkk.
+- ✅ **Shattered Observatory:**
+  - ✅ *Markers* for Viirastra's Skip.
+  - ✅ *Markers* to orient players at Arkk.
 - ❌ **Siren's Reef:**
   - ❌ *Markers* for the Last Area's Chests.
 - ✅ **Solid Ocean:**
