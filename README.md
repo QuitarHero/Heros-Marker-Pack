@@ -31,9 +31,9 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ✅ *Markers* for a Speed Portal "Skip" from Apartments to Subject 6.
 - ❌ **Twilight Oasis:**
   - ❌ *A Route* for the 2nd Sandblinder Skip. **(needs to be re-done)**
-- ❌ **Uncategorized:**
-  - ❌ *Markers* for the JP version of the Skip. **(6/7 done)**
-  - ❌ *Markers* for the Leap version of the Skip. **(1/2 done)**
+- ✅ **Uncategorized:**
+  - ✅ *Markers* for the JP version of the Skip.
+  - ✅ *Markers* for the Leap version of the Skip.
 - ❌ **Underground Facility:**
   - ❌ *A Trail* for the 1st Plate Skip. (Daredevil makes it easy) **(waiting for improved trail functionality)**
 - ❌ **Urban Battlegrounds:**
