@@ -18,8 +18,8 @@
 			<MarkerCategory name="North" iconFile="Data/HeroPack/Multipurpose/north.png" fadeFar="2500" fadeNear="2000" iconSize="1" rotate-x="90" rotate-z="180"/>
 		</MarkerCategory>
 		<MarkerCategory name="ShO" DisplayName="Shattered Observatory">
-			<MarkerCategory name="VirastraSkip" DisplayName="Virastra Skip"/>
-			<MarkerCategory name="Arkk" DisplayName="Arkk Directions" fadeFar="3000" fadeNear="2750"/>
+			<MarkerCategory name="VirastraSkip" DisplayName="Virastra Skip" iconSize="0.5"/>
+			<MarkerCategory name="Arkk" DisplayName="Arkk Directions" fadeFar="3000" fadeNear="2750" rotate-x="90"/>
 		</MarkerCategory>
 		<MarkerCategory name="SoO" DisplayName="Solid Ocean" fadeFar="4000" fadeNear="3500" iconSize="1" rotate-x="180" rotate-z="180"/>
 		<MarkerCategory name="TR" DisplayName="Thaumanova Reactor">
@@ -86,14 +86,14 @@
 		<POI MapID="1177" xpos="0041.746" ypos="0044.797" zpos="0064.036" GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.North"/>
 		<!-- ==================== Shattered Observatory ==================== -->
 		<!-- Viirastra Skip -->
-		<POI MapID="1205" xpos="0342.781" ypos="0109.848" zpos="0096.860" GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.VirastraSkip" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="1000" fadeNear="500" iconSize="0.5"/>
-		<POI MapID="1205" xpos="0331.750" ypos="0111.834" zpos="0090.772" GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.VirastraSkip" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="1000" fadeNear="750" iconSize="0.75"/>
-		<POI MapID="1205" xpos="0293.118" ypos="0115.052" zpos="0067.348" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.VirastraSkip" iconFile="Data/HeroPack/Fractals/didSkip.png" fadeFar="3000" fadeNear="2000" iconSize="1"/>
+		<POI MapID="1205" xpos="0342.781" ypos="0108.648" zpos="0096.860" GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.VirastraSkip" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="1000" fadeNear="500" rotate-x="190" rotate-z="310"/>
+		<POI MapID="1205" xpos="0331.750" ypos="0111.834" zpos="0090.772" GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.VirastraSkip" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="1000" fadeNear="750" rotate-x="90" rotate-z="-65"/>
+		<POI MapID="1205" xpos="0293.118" ypos="0115.052" zpos="0067.348" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.VirastraSkip" iconFile="Data/HeroPack/Fractals/didSkip.png" fadeFar="3000" fadeNear="2000" rotate-x="90" rotate-z="-65"/>
 		<!-- Arkk Directions -->
-		<POI MapID="1205" xpos="-455.425" ypos="0072.877" zpos="-398.342" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/north.png"/>
-		<POI MapID="1205" xpos="-424.330" ypos="0072.881" zpos="-429.535" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/east.png"/>
-		<POI MapID="1205" xpos="-455.334" ypos="0072.881" zpos="-460.629" GUID="XFRHjzwReEK2vd2B3wF75A==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/south.png"/>
-		<POI MapID="1205" xpos="-486.530" ypos="0072.881" zpos="-429.453" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/west.png"/>
+		<POI MapID="1205" xpos="-455.315" ypos="0072.456" zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/north.png" rotate-z="180"/>
+		<POI MapID="1205" xpos="-421.715" ypos="0072.477" zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/east.png" rotate-z="90"/>
+		<POI MapID="1205" xpos="-455.382" ypos="0072.477" zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/south.png"/>
+		<POI MapID="1205" xpos="-489.319" ypos="0072.477" zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.Arkk" iconFile="Data/HeroPack/Multipurpose/west.png" rotate-z="270"/>
 		<!-- ==================== Solid Ocean ==================== -->
 		<POI MapID="0958" xpos="0770.913" ypos="0586.057" zpos="0823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO" iconFile="Data/HeroPack/Multipurpose/one.png"/>
 		<POI MapID="0958" xpos="0760.923" ypos="0586.041" zpos="0791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO" iconFile="Data/HeroPack/Multipurpose/two.png"/>
