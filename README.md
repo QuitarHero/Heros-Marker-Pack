@@ -86,8 +86,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *Markers* showing Rubble Locations to open Samarog's Door.
   - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
 ### ❌ Hall of Chains:
-- ❌ **Soulless Horror:**
-  - ❌ *Markers* to orient players.
+- ✅ **Soulless Horror:**
+  - ✅ *Markers* to orient players.
 - ❌ **Statue of Darkness:**
   - ❌ *Markers* for Broken King to orient players.
   - ❌ *Markers* for Light Orb Spawns.
