@@ -31,8 +31,8 @@
 			<MarkerCategory name="Portal" DisplayName="2nd Sandblinder Portal" fadeFar="1500" fadeNear="1250" iconSize="0.75"/>
 		</MarkerCategory>
 		<MarkerCategory name="UC" DisplayName="Uncategorized">
-			<MarkerCategory name="JP" DisplayName="Harpy JP Skip" iconSize="0.2"/>
-			<MarkerCategory name="Leap" DisplayName="Harpy Leap Skip"/>
+			<MarkerCategory name="JP" DisplayName="Harpy JP Skip" fadeFar="1000" fadeNear="750" iconSize="0.2"/>
+			<MarkerCategory name="Leap" DisplayName="Harpy Leap Skip" fadeFar="1000" fadeNear="750"/>
 		</MarkerCategory>
 		<MarkerCategory name="UF" DisplayName="Underground Facility" fadeFar="1000" fadeNear="750"/>
 		<MarkerCategory name="UB" DisplayName="Urban Battleground"/>
@@ -131,7 +131,7 @@
 		<!-- ==================== Uncategorized ==================== -->
 		<!-- Leap Version -->
 		<POI MapID="0947" xpos="-824.750" ypos="0841.984" zpos="-729.816" GUID="Q3pB7fmuVkm7erxOABdX+Q==" type="FOTM.UC.Leap" iconFile="Data/HeroPack/Fractals/skip.png" iconSize="0.35" rotate-x="140" rotate-z="235"/>
-		<POI MapID="0947" xpos="-844.347" ypos="0855.572" zpos="-707.482" GUID="y/A1JLvboU6goza818v4rg==" type="FOTM.UC.Leap" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize="0.5"/>
+		<POI MapID="0947" xpos="-842.013" ypos="0857.209" zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="FOTM.UC.Leap" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize="0.5" rotate-x="125" rotate-y="17" rotate-z="150"/>
 		<!-- JP Version -->
 		<POI MapID="0947" xpos="-773.973" ypos="0838.598" zpos="-766.206" GUID="xmRtsVhexUCyM087px4mzg==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/skip.png" rotate-x="65" rotate-y="-40" rotate-z="70"/>
 		<POI MapID="0947" xpos="-773.709" ypos="0839.839" zpos="-765.221" GUID="3eMN6GYkTUyO9/RE+5q+Tw==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/skip.png" rotate-x="95" rotate-y="-20" rotate-z="45"/>
@@ -139,7 +139,7 @@
 		<POI MapID="0947" xpos="-779.275" ypos="0840.528" zpos="-757.400" GUID="tv45QQEqFUOqZ3ouRQ9bNQ==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/skip.png" rotate-x="125" rotate-z="135"/>
 		<POI MapID="0947" xpos="-780.850" ypos="0846.768" zpos="-749.200" GUID="HEow3lpVmE+/7ZGRPcbIdg==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/skip.png" rotate-x="122" rotate-z="260"/>
 		<POI MapID="0947" xpos="-776.717" ypos="0848.189" zpos="-753.146" GUID="H73jBUtzCUGuLHHMZd654g==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/skip.png" rotate-x="125" rotate-z="140"/>
-		<POI MapID="0947" xpos="-772.775" ypos="0850.969" zpos="-753.525" GUID="Q7GuhpvSJUan9baSSU5+/w==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/didSkip.png" rotate-x="90" rotate-z="135"/>
+		<POI MapID="0947" xpos="-772.825" ypos="0850.759" zpos="-753.725" GUID="Q7GuhpvSJUan9baSSU5+/w==" type="FOTM.UC.JP" iconFile="Data/HeroPack/Fractals/didSkip.png" rotate-x="125" rotate-y="-7" rotate-z="140"/>
 		<!-- ==================== Underground Facility ==================== -->
 		<POI MapID="0953" xpos="0692.992" ypos="0023.008" zpos="0391.388" GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF" iconFile="Data/HeroPack/Fractals/didSkip.png" iconSize="0.5"/>
 		<Trail trailData="Data/HeroPack/Fractals/facility skip.trl" texture="Data/HeroPack/Fractals/facilitytrail.png" animSpeed="2" alpha="1" type="FOTM.UF" trailScale="2" fadeNear="750" fadeFar="1000"/>
