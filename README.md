@@ -26,9 +26,9 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
   - ❌ *Markers* for the Last Area's Chests.
 - ✅ **Solid Ocean:**
   - ✅ *Markers* for Colossus spawns.
-- ❌ **Thaumanova Reactor:**
-  - ❌ *Markers* for the three panels in the Maze.
-  - ❌ *Markers* for a Speed Portal "Skip" from Apartments to Subject 6.
+- ✅ **Thaumanova Reactor:**
+  - ✅ *Markers* for the three panels in the Maze.
+  - ✅ *Markers* for a Speed Portal "Skip" from Apartments to Subject 6.
 - ❌ **Twilight Oasis:**
   - ❌ *A Route* for the 2nd Sandblinder Skip. **(needs to be re-done)**
 - ❌ **Uncategorized:**
