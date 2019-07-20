@@ -2,36 +2,36 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="BOTP" DisplayName="Bastion of the Penitent">
 			<MarkerCategory name="Cairn">
-				<MarkerCategory name="Agony" DisplayName="Agony Placements" iconFile="Data/HeroPack/Raids/Agony.png" heightOffset="-0.1" iconSize="0.5" rotate-x="180" rotate-z="15" fadeNear="3500" fadeFar="4000"/>
-				<MarkerCategory name="Stack" DisplayName="Group Stack" iconFile="Data/HeroPack/Multipurpose/Stack.png" heightOffset="-0.1" iconSize="0.5" rotate-x="180" rotate-z="15" fadeNear="3500" fadeFar="4000"/>
-				<MarkerCategory name="Kiter" DisplayName="Kiter Placement" iconFile="Data/HeroPack/Raids/Kiter.png" heightOffset="-0.1" iconSize="0.5" rotate-x="180" rotate-z="15" fadeNear="3500" fadeFar="4000"/>
-				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" heightOffset="-0.1" iconSize="1.5" rotate-x="180" rotate-z="330" fadeNear="3500" fadeFar="4000"/>
+				<MarkerCategory name="Agony" DisplayName="Agony Placements" iconFile="Data/HeroPack/Raids/Agony.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
+				<MarkerCategory name="Stack" DisplayName="Group Stack" iconFile="Data/HeroPack/Multipurpose/Stack.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
+				<MarkerCategory name="Kiter" DisplayName="Kiter Placement" iconFile="Data/HeroPack/Raids/Kiter.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
+				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" fadeFar="4000" fadeNear="3500" rotate-x="180" rotate-z="330"/>
 			</MarkerCategory>
-			<MarkerCategory name="MO" DisplayName="Mursaat Overseer" iconFile="Data/HeroPack/Raids/starttimer.png" heightOffset="0" fadeNear="2500" fadeFar="3000"/>
-			<MarkerCategory name="Door" DisplayName="Samarog's Door" iconFile="Data/HeroPack/Raids/TrueSight.png" heightOffset="0.5" iconSize="0.5" fadeNear="1250" fadeFar="1500"/>
-			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" heightOffset="0.5" behavior="2" triggerRange="3"/>
+			<MarkerCategory name="MO" DisplayName="Mursaat Overseer" iconFile="Data/HeroPack/Raids/starttimer.png" fadeFar="3000" fadeNear="2500" iconSize="1" rotate-x="180" rotate-z="90"/>
+			<MarkerCategory name="Door" DisplayName="Samarog's Door" iconFile="Data/HeroPack/Raids/TrueSight.png" behavior="6" fadeFar="1500" fadeNear="1250" iconSize="0.35"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" heightOffset="0.5" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
-		<!-- Cairn -->
-		<POI MapID="1188" xpos="369.295" ypos="33.7203" zpos="52.4758" type="Raid.BOTP.Cairn.Agony" GUID="wedtPfCXTEugS91HgQoMkg=="/>
-		<POI MapID="1188" xpos="359.92" ypos="33.7203" zpos="50.0431" type="Raid.BOTP.Cairn.Agony" GUID="sKrUfpjhCkqx1MObpkeN/w=="/>
-		<POI MapID="1188" xpos="361.518" ypos="33.7203" zpos="63.2356" type="Raid.BOTP.Cairn.Agony" GUID="MPL7+6k9ok2ajPAdN+b7yA=="/>
-		<POI MapID="1188" xpos="363.371" ypos="33.7203" zpos="55.9746" type="Raid.BOTP.Cairn.Stack" GUID="Kagn0i1KW0CZnfT6hw4NGQ=="/>
-		<POI MapID="1188" xpos="369.301" ypos="33.7209" zpos="34.1896" type="Raid.BOTP.Cairn.Kiter" GUID="xXkIzhbDjkC7KmaMBOeoag=="/>
-		<POI MapID="1188" xpos="369.76" ypos="33.7203" zpos="60.1624" type="Raid.BOTP.Cairn.Timer" GUID="X61Xv4ZCakilicnR4E+sHA=="/>
-		<!-- Mursaat Overseer -->
-		<POI MapID="1188" xpos="98.396" ypos="106.187" zpos="101.323" type="Raid.BOTP.MO" GUID="FNBVzp3IsEeS8TGJz2iJGA=="/>
-		<!-- Samarog's Door -->
-		<POI MapID="1188" xpos="-9.23107" ypos="122.451" zpos="90.2396" type="Raid.BOTP.Door" GUID="Fr/eTEAoO06UgxlWr6JrWg=="/>
-		<POI MapID="1188" xpos="24.2222" ypos="113.787" zpos="106.676" type="Raid.BOTP.Door" GUID="RvtVRF00I02rBTNZVVAE/Q=="/>
-		<POI MapID="1188" xpos="57.455" ypos="100.242" zpos="52.4906" type="Raid.BOTP.Door" GUID="qZr3hbBj4U2M8eDHAVUo4Q=="/>
-		<POI MapID="1188" xpos="103.528" ypos="107.197" zpos="114.606" type="Raid.BOTP.Door" GUID="AJnnDYZUAEGXGxOx3Zqchg=="/>
-		<!-- Chests -->
-		<POI MapID="1188" xpos="255.465" ypos="2.79581" zpos="-7.46514" type="Raid.BOTP.Chests" GUID="kSb9nf2xkkCgf3ec6shoOg==" fadeNear="1000" fadeFar="1500"/>
-		<POI MapID="1188" xpos="11.3836" ypos="105.79" zpos="157.892" type="Raid.BOTP.Chests" GUID="tFTlK9GZLkmXHutWAiPLGA==" fadeNear="400" fadeFar="650"/>
-		<POI MapID="1188" xpos="-55.7467" ypos="134.648" zpos="14.6493" type="Raid.BOTP.Chests" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" fadeNear="1250" fadeFar="1750"/>
-		<POI MapID="1188" xpos="-265.259" ypos="85.1305" zpos="-9.36661" type="Raid.BOTP.Chests" GUID="ep/PkTf+Okq5affn73w/lg==" fadeNear="1000" fadeFar="1500"/>
+		<!-- ==================== Cairn ==================== -->
+		<POI MapID="1188" xpos="0369.295" ypos="0032.120" zpos="0052.475" GUID="wedtPfCXTEugS91HgQoMkg==" type="Raid.BOTP.Cairn.Agony"/>
+		<POI MapID="1188" xpos="0359.920" ypos="0032.120" zpos="0050.043" GUID="sKrUfpjhCkqx1MObpkeN/w==" type="Raid.BOTP.Cairn.Agony"/>
+		<POI MapID="1188" xpos="0361.518" ypos="0032.120" zpos="0063.235" GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="Raid.BOTP.Cairn.Agony"/>
+		<POI MapID="1188" xpos="0363.371" ypos="0032.120" zpos="0055.974" GUID="Kagn0i1KW0CZnfT6hw4NGQ==" type="Raid.BOTP.Cairn.Stack"/>
+		<POI MapID="1188" xpos="0369.301" ypos="0032.120" zpos="0034.189" GUID="xXkIzhbDjkC7KmaMBOeoag==" type="Raid.BOTP.Cairn.Kiter"/>
+		<POI MapID="1188" xpos="0369.760" ypos="0032.120" zpos="0060.162" GUID="X61Xv4ZCakilicnR4E+sHA==" type="Raid.BOTP.Cairn.Timer"/>
+		<!-- ==================== Mursaat Overseer ==================== -->
+		<POI MapID="1188" xpos="0098.396" ypos="0104.587" zpos="0101.323" GUID="FNBVzp3IsEeS8TGJz2iJGA==" type="Raid.BOTP.MO"/>
+		<!-- ==================== Samarog's Door ==================== -->
+		<POI MapID="1188" xpos="0101.351" ypos="0105.300" zpos="0115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="Raid.BOTP.Door" rotate-x="155" rotate-z="50"/>
+		<POI MapID="1188" xpos="0057.325" ypos="0097.480" zpos="0053.245" GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="Raid.BOTP.Door" rotate-x="120" rotate-z="-25"/>
+		<POI MapID="1188" xpos="0022.747" ypos="0111.443" zpos="0103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.BOTP.Door" rotate-x="120" rotate-z="235"/>
+		<POI MapID="1188" xpos="-011.344" ypos="0120.690" zpos="0087.571" GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.BOTP.Door" rotate-x="160" rotate-z="72"/>
+		<!-- ==================== Chests ==================== -->
+		<POI MapID="1188" xpos="0255.465" ypos="0002.795" zpos="-007.465" GUID="kSb9nf2xkkCgf3ec6shoOg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000"/>
+		<POI MapID="1188" xpos="0011.383" ypos="0105.790" zpos="0157.892" GUID="tFTlK9GZLkmXHutWAiPLGA==" type="Raid.BOTP.Chests" fadeFar="650" fadeNear="400"/>
+		<POI MapID="1188" xpos="-055.746" ypos="0134.648" zpos="0014.649" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" type="Raid.BOTP.Chests" fadeFar="1750" fadeNear="1250"/>
+		<POI MapID="1188" xpos="-265.259" ypos="0085.130" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000"/>
 	</POIs>
 </OverlayData>
