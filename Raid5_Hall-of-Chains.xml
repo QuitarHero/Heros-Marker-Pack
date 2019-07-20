@@ -3,7 +3,7 @@
 		<MarkerCategory name="HOC" DisplayName="Hall of Chains">
 			<MarkerCategory name="SH" DisplayName="Soulless Horror" fadeFar="4000" fadeNear="3500" iconSize="1.25" rotate-x="180"/>
 			<MarkerCategory name="Statues">
-				<MarkerCategory name="King" DisplayName="Broken King" fadeFar="3500" fadeNear="3000"/>
+				<MarkerCategory name="King" DisplayName="Broken King" fadeFar="3500" fadeNear="3000" rotate-x="180"/>
 				<MarkerCategory name="Darkness" DisplayName="Statue of Darkness" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeFar="3000" fadeNear="2800" heightOffset="0.5" iconSize="0.5"/>
 			</MarkerCategory>
 			<MarkerCategory name="Dhuum">
@@ -22,14 +22,14 @@
 		<POI MapID="1264" xpos="-256.538" ypos="0019.162" zpos="0024.829" GUID="N5t0jBFzaUOaUazzQShtzA==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/heart.png" rotate-z="105"/>
 		<POI MapID="1264" xpos="-272.783" ypos="0019.162" zpos="0034.807" GUID="ayA+SkixgUy8TJEb1q/B/Q==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/square.png" rotate-z="10"/>
 		<!-- ==================== Broken King ==================== -->
-		<POI MapID="1264" xpos="0096.177" ypos="0110.865" zpos="0206.310" GUID="x/R2NZ1eWU6rfKFDG+6kyw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/heart.png"/>
-		<POI MapID="1264" xpos="0140.330" ypos="0112.015" zpos="0206.008" GUID="Y5a565leIESsmYtpeMdbHw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/triangle.png"/>
-		<POI MapID="1264" xpos="0117.302" ypos="0112.609" zpos="0183.694" GUID="wuFmB4ZMN026H5MrpXuwFw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/star.png"/>
-		<POI MapID="1264" xpos="0119.032" ypos="0112.122" zpos="0227.378" GUID="grZaI9v0MU+2ftEMaR5ZAA==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/arrow.png"/>
-		<POI MapID="1264" xpos="0102.190" ypos="0111.477" zpos="0190.563" GUID="b0Su2JArSEKwYNLwP2FN2A==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/square.png"/>
-		<POI MapID="1264" xpos="0134.913" ypos="0112.167" zpos="0220.439" GUID="z43HtXN4FU6EOx7ATCHK0w==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/x.png"/>
-		<POI MapID="1264" xpos="0133.497" ypos="0112.148" zpos="0189.629" GUID="Z8HUuYDJ7U6AL++dfJdSKg==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/swirl.png"/>
-		<POI MapID="1264" xpos="0103.172" ypos="0111.005" zpos="0221.664" GUID="V0pqQq3PXU2g511ppq7GzQ==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/circle.png"/>
+		<POI MapID="1264" xpos="0119.032" ypos="0110.522" zpos="0227.378" GUID="grZaI9v0MU+2ftEMaR5ZAA==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/arrow.png" rotate-z="-180"/>
+		<POI MapID="1264" xpos="0103.172" ypos="0109.405" zpos="0221.664" GUID="V0pqQq3PXU2g511ppq7GzQ==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/circle.png" rotate-z="-135"/>
+		<POI MapID="1264" xpos="0096.177" ypos="0109.265" zpos="0206.310" GUID="x/R2NZ1eWU6rfKFDG+6kyw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/heart.png" rotate-z="-90"/>
+		<POI MapID="1264" xpos="0102.190" ypos="0109.777" zpos="0190.563" GUID="b0Su2JArSEKwYNLwP2FN2A==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/square.png" rotate-z="-45"/>
+		<POI MapID="1264" xpos="0117.302" ypos="0110.909" zpos="0183.694" GUID="wuFmB4ZMN026H5MrpXuwFw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/star.png"/>
+		<POI MapID="1264" xpos="0133.497" ypos="0110.478" zpos="0189.629" GUID="Z8HUuYDJ7U6AL++dfJdSKg==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/swirl.png" rotate-z="-315"/>
+		<POI MapID="1264" xpos="0140.330" ypos="0110.215" zpos="0206.008" GUID="Y5a565leIESsmYtpeMdbHw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/triangle.png" rotate-z="-270"/>
+		<POI MapID="1264" xpos="0134.913" ypos="0110.567" zpos="0220.439" GUID="z43HtXN4FU6EOx7ATCHK0w==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/x.png" rotate-z="-225"/>
 		<!-- ==================== Statue of Darkness ==================== -->
 		<POI MapID="1264" xpos="0344.015" ypos="0098.908" zpos="0028.709" GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="Raid.HOC.Statues.Darkness"/>
 		<POI MapID="1264" xpos="0364.569" ypos="0098.908" zpos="0024.818" GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="Raid.HOC.Statues.Darkness"/>
