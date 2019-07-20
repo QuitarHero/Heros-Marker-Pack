@@ -89,7 +89,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ✅ **Soulless Horror:**
   - ✅ *Markers* to orient players.
 - ❌ **Statue of Darkness:**
-  - ❌ *Markers* for Broken King to orient players.
+  - ✅ *Markers* for Broken King to orient players.
   - ❌ *Markers* for Light Orb Spawns.
 - ❌ **Dhuum:**
   - ❌ *Markers* for each Reaper.
