@@ -80,10 +80,10 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, mar
 - ❌ **Cairn:**
   - ✅ *Markers* for Agony, Group Stack, and Kiter Placements.
   - ❌ *A Timer* (run-over) for Agony Applications (this assumes you start on platform). **(timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
-- ❌ **Mursaat Overseer:**
-  - ❌ *A Timer* (run-over) for Dispels. **(timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
+- ✅ **Mursaat Overseer:**
+  - ✅ *A Timer* (run-over) for Dispels. **(done, but timers are currently not supported. Also waiting for blish support for fadeNear/fadeFar with titles)**
 - ❌ **General:**
-  - ❌ *Markers* showing Rubble Locations to open Samarog's Door.
+  - ✅ *Markers* showing Rubble Locations to open Samarog's Door.
   - ❌ *Markers* for the Raid's Chests. **(behaviors are currently not supported)**
 ### ❌ Hall of Chains:
 - ✅ **Soulless Horror:**
