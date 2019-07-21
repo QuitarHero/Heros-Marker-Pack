@@ -9,7 +9,7 @@
 			</MarkerCategory>
 			<MarkerCategory name="MO" DisplayName="Mursaat Overseer" iconFile="Data/HeroPack/Raids/starttimer.png" fadeFar="3000" fadeNear="2500" iconSize="1" rotate-x="180" rotate-z="90"/>
 			<MarkerCategory name="Door" DisplayName="Samarog's Door" iconFile="Data/HeroPack/Raids/TrueSight.png" behavior="6" fadeFar="1500" fadeNear="1250" iconSize="0.35"/>
-			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" heightOffset="0.5" triggerRange="3"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" triggerRange="3" iconSize="0.75"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -29,9 +29,9 @@
 		<POI MapID="1188" xpos="0022.747" ypos="0111.443" zpos="0103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.BOTP.Door" rotate-x="120" rotate-z="235"/>
 		<POI MapID="1188" xpos="-011.344" ypos="0120.690" zpos="0087.571" GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.BOTP.Door" rotate-x="160" rotate-z="72"/>
 		<!-- ==================== Chests ==================== -->
-		<POI MapID="1188" xpos="0255.465" ypos="0002.795" zpos="-007.465" GUID="kSb9nf2xkkCgf3ec6shoOg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000"/>
-		<POI MapID="1188" xpos="0011.383" ypos="0105.790" zpos="0157.892" GUID="tFTlK9GZLkmXHutWAiPLGA==" type="Raid.BOTP.Chests" fadeFar="650" fadeNear="400"/>
-		<POI MapID="1188" xpos="-055.746" ypos="0134.648" zpos="0014.649" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" type="Raid.BOTP.Chests" fadeFar="1750" fadeNear="1250"/>
-		<POI MapID="1188" xpos="-265.259" ypos="0085.130" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000"/>
+		<POI MapID="1188" xpos="0255.450" ypos="0001.812" zpos="-008.769" GUID="kSb9nf2xkkCgf3ec6shoOg==" type="Raid.BOTP.Chests" fadeFar="2000" fadeNear="1500" rotate-x="90" rotate-y="20" rotate-z="15"/>
+		<POI MapID="1188" xpos="0012.754" ypos="0104.681" zpos="0157.706" GUID="tFTlK9GZLkmXHutWAiPLGA==" type="Raid.BOTP.Chests" fadeFar="1000" fadeNear="750" rotate-x="90" rotate-z="100"/>
+		<POI MapID="1188" xpos="-055.900" ypos="0134.096" zpos="0013.589" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" type="Raid.BOTP.Chests" fadeFar="1750" fadeNear="1250" rotate-x="80" rotate-z="10"/>
+		<POI MapID="1188" xpos="-265.259" ypos="0083.630" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000"/>
 	</POIs>
 </OverlayData>
