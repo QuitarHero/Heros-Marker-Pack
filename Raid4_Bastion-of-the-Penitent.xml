@@ -32,6 +32,6 @@
 		<POI MapID="1188" xpos="0255.450" ypos="0001.812" zpos="-008.769" GUID="kSb9nf2xkkCgf3ec6shoOg==" type="Raid.BOTP.Chests" fadeFar="2000" fadeNear="1500" rotate-x="90" rotate-y="20" rotate-z="15"/>
 		<POI MapID="1188" xpos="0012.754" ypos="0104.681" zpos="0157.706" GUID="tFTlK9GZLkmXHutWAiPLGA==" type="Raid.BOTP.Chests" fadeFar="1000" fadeNear="750" rotate-x="90" rotate-z="100"/>
 		<POI MapID="1188" xpos="-055.900" ypos="0134.096" zpos="0013.589" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" type="Raid.BOTP.Chests" fadeFar="1750" fadeNear="1250" rotate-x="80" rotate-z="10"/>
-		<POI MapID="1188" xpos="-265.259" ypos="0083.630" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000"/>
+		<POI MapID="1188" xpos="-265.259" ypos="0083.430" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.BOTP.Chests" fadeFar="1500" fadeNear="1000" rotate-x="160" rotate-z="270"/>
 	</POIs>
 </OverlayData>
