@@ -75,14 +75,14 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 ### Stronghold of the Faithful:
 - [x] **Keep Construct:**
   - [x] *Markers* for Green Circles.
-- [ ] **Twisted Castle:**
-  - [ ] **2\*** *A Trail* for the First Button Skip (only can be done with certain skills).
-  - [ ] *Markers* for Buttons (in ideal activation order).
-  - [ ] *Markers* for Doors.
+- [x] **Twisted Castle:**
+  - [x] **2\*** *A Trail* for the First Button Skip (only can be done with certain skills).
+  - [x] *Markers* for Buttons (in ideal activation order).
+  - [x] *Markers* for Doors.
 - [ ] **Xera:**
   - [ ] *Markers* for Tanking (75% DPS Check is assumed).
-- [ ] **General:**
-  - [ ] **3\*** *Markers* for the Raid's Chests.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Bastion of the Penitent:
 - [x] **Cairn:**
   - [x] *Markers* for Agony, Group Stack, and Kiter Placements.
