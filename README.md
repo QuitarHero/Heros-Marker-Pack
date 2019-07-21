@@ -105,15 +105,15 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [ ] **General:**
   - [ ] **3\*** *Markers* for the Raid's Chests.
 ### [ ] Mythwright Gambit:
-- [ ] **Conjured Amalgamate:**
-  - [ ] *Markers* for Greatsword and Shield starting locations.
+- [x] **Conjured Amalgamate:**
+  - [x] *Markers* for Greatsword and Shield starting locations.
 - [ ] **Twin Largos:**
   - [ ] *Markers* to orient players at 50% Split.
 - [ ] **Qadim:**
   - [ ] *Markers* to lead players through the lamp. **(need a group that doesn't mind doing nothing and occasionally fighting)**
   - [ ] *Markers* for Boon Pyres.
-- [ ] **General:**
-  - [ ] **3\*** *Markers* for the Raid's Chests.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### The Key of Ahdashim:
 - [x] **Cardinal Sabir:**
   - [x] *Markers* to orient players at <60%.
