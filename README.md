@@ -95,15 +95,15 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 ### Hall of Chains:
 - [x] **Soulless Horror:**
   - [x] *Markers* to orient players.
-- [ ] **Statue of Darkness:**
+- [x] **Statue of Darkness:**
   - [x] *Markers* for Broken King to orient players.
-  - [ ] *Markers* for Light Orb Spawns.
-- [ ] **Dhuum:**
-  - [ ] *Markers* for each Reaper.
-  - [ ] **1\*4\*** *A Timer* (run-over) for Greens, Soul Split, and Dips.
-  - [ ] **2\*** *A Trail* easily showing the Death Border when gathering Orbs.
-- [ ] **General:**
-  - [ ] **3\*** *Markers* for the Raid's Chests.
+  - [x] *Markers* for Light Orb Spawns.
+- [x] **Dhuum:**
+  - [x] *Markers* for each Reaper.
+  - [x] **1\*4\*** *A Timer* (run-over) for Greens, Soul Split, and Dips.
+  - [x] **2\*** *A Trail* easily showing the Death Border when gathering Orbs.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Mythwright Gambit:
 - [x] **Conjured Amalgamate:**
   - [x] *Markers* for Greatsword and Shield starting locations.
