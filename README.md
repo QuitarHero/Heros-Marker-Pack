@@ -84,14 +84,14 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [ ] **General:**
   - [ ] **3\*** *Markers* for the Raid's Chests.
 ### Bastion of the Penitent:
-- [ ] **Cairn:**
+- [x] **Cairn:**
   - [x] *Markers* for Agony, Group Stack, and Kiter Placements.
-  - [ ] **1\*4\*** *A Timer* (run-over) for Agony Applications (this assumes you start on platform).
+  - [x] **1\*4\*** *A Timer* (run-over) for Agony Applications (this assumes you start on platform).
 - [x] **Mursaat Overseer:**
   - [x] **1\*4\*** *A Timer* (run-over) for Dispels.
-- [ ] **General:**
+- [x] **General:**
   - [x] *Markers* showing Rubble Locations to open Samarog's Door.
-  - [ ] **3\*** *Markers* for the Raid's Chests.
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Hall of Chains:
 - [x] **Soulless Horror:**
   - [x] *Markers* to orient players.
@@ -104,7 +104,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
   - [ ] **2\*** *A Trail* easily showing the Death Border when gathering Orbs.
 - [ ] **General:**
   - [ ] **3\*** *Markers* for the Raid's Chests.
-### [ ] Mythwright Gambit:
+### Mythwright Gambit:
 - [x] **Conjured Amalgamate:**
   - [x] *Markers* for Greatsword and Shield starting locations.
 - [ ] **Twin Largos:**
