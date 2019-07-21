@@ -4,14 +4,14 @@
 			<MarkerCategory name="SH" DisplayName="Soulless Horror" fadeFar="4000" fadeNear="3500" iconSize="1.25" rotate-x="180"/>
 			<MarkerCategory name="Statues">
 				<MarkerCategory name="King" DisplayName="Broken King" fadeFar="3500" fadeNear="3000" rotate-x="180"/>
-				<MarkerCategory name="Darkness" DisplayName="Statue of Darkness" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeFar="3000" fadeNear="2800" heightOffset="0.5" iconSize="0.5"/>
+				<MarkerCategory name="Darkness" DisplayName="Statue of Darkness" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeFar="3000" fadeNear="2800" iconSize="0.5" rotate-x="180" rotate-z="-15"/>
 			</MarkerCategory>
 			<MarkerCategory name="Dhuum">
-				<MarkerCategory name="Reapers" fadeFar="4000" fadeNear="3500" heightOffset="2"/>
-				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" fadeFar="4000" fadeNear="3500" heightOffset="0"/>
+				<MarkerCategory name="Reapers" fadeFar="4000" fadeNear="3500" rotate-x="180"/>
+				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Multipurpose/empty.png" fadeFar="4000" fadeNear="3500"/>
 				<MarkerCategory name="Death" DisplayName="Death AoE"/>
 			</MarkerCategory>
-			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" heightOffset="0.5" triggerRange="3"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" iconSize="1" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 
@@ -31,22 +31,22 @@
 		<POI MapID="1264" xpos="0140.330" ypos="0110.215" zpos="0206.008" GUID="Y5a565leIESsmYtpeMdbHw==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/triangle.png" rotate-z="-270"/>
 		<POI MapID="1264" xpos="0134.913" ypos="0110.567" zpos="0220.439" GUID="z43HtXN4FU6EOx7ATCHK0w==" type="Raid.HOC.Statues.King" iconFile="Data/HeroPack/Raids/x.png" rotate-z="-225"/>
 		<!-- ==================== Statue of Darkness ==================== -->
-		<POI MapID="1264" xpos="0344.015" ypos="0098.908" zpos="0028.709" GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="Raid.HOC.Statues.Darkness"/>
-		<POI MapID="1264" xpos="0364.569" ypos="0098.908" zpos="0024.818" GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="Raid.HOC.Statues.Darkness"/>
-		<POI MapID="1264" xpos="0384.978" ypos="0098.908" zpos="0020.738" GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="Raid.HOC.Statues.Darkness"/>
+		<POI MapID="1264" xpos="0344.015" ypos="0097.308" zpos="0028.709" GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="Raid.HOC.Statues.Darkness"/>
+		<POI MapID="1264" xpos="0364.569" ypos="0097.308" zpos="0024.818" GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="Raid.HOC.Statues.Darkness"/>
+		<POI MapID="1264" xpos="0384.978" ypos="0097.308" zpos="0020.738" GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="Raid.HOC.Statues.Darkness"/>
 		<!-- ==================== Dhuum  ==================== -->
-		<POI MapID="1264" xpos="0429.189" ypos="0157.867" zpos="0030.746" GUID="7lAXpIckh0etEDT7qkgtIg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/arrow.png"/>
-		<POI MapID="1264" xpos="0427.832" ypos="0157.867" zpos="0001.910" GUID="Iqrpk9JOtkGC6V8iv8rcKA==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/circle.png"/>
-		<POI MapID="1264" xpos="0404.769" ypos="0157.864" zpos="-014.699" GUID="XM2/dG4/LkuWpoTNZcCOlg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/heart.png"/>
-		<POI MapID="1264" xpos="0377.723" ypos="0157.861" zpos="-006.419" GUID="lTh96zuv702S+mtGJOWb5Q==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/square.png"/>
-		<POI MapID="1264" xpos="0365.995" ypos="0157.872" zpos="0019.329" GUID="YzhiOdvBf0y1GNebTAkfmw==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/star.png"/>
-		<POI MapID="1264" xpos="0379.073" ypos="0157.860" zpos="0044.817" GUID="OpI4IpyEqUeS5Zsfd9KPyg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/swirl.png"/>
-		<POI MapID="1264" xpos="0407.780" ypos="0157.864" zpos="0049.950" GUID="Im4Wm3WM5kCKHI1D/ov4FA==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/triangle.png"/>
-		<POI MapID="1264" xpos="0377.774" ypos="0157.860" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.HOC.Dhuum.Timer"/>
+		<POI MapID="1264" xpos="0429.189" ypos="0156.367" zpos="0030.746" GUID="7lAXpIckh0etEDT7qkgtIg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/arrow.png" rotate-z="110"/>
+		<POI MapID="1264" xpos="0427.832" ypos="0156.367" zpos="0001.910" GUID="Iqrpk9JOtkGC6V8iv8rcKA==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/circle.png" rotate-z="60"/>
+		<POI MapID="1264" xpos="0404.769" ypos="0156.364" zpos="-014.699" GUID="XM2/dG4/LkuWpoTNZcCOlg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/heart.png" rotate-z="10"/>
+		<POI MapID="1264" xpos="0377.723" ypos="0156.361" zpos="-006.419" GUID="lTh96zuv702S+mtGJOWb5Q==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/square.png" rotate-z="-45"/>
+		<POI MapID="1264" xpos="0365.995" ypos="0156.372" zpos="0019.329" GUID="YzhiOdvBf0y1GNebTAkfmw==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/star.png" rotate-z="270"/>
+		<POI MapID="1264" xpos="0379.073" ypos="0156.360" zpos="0044.817" GUID="OpI4IpyEqUeS5Zsfd9KPyg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/swirl.png" rotate-z="200"/>
+		<POI MapID="1264" xpos="0407.780" ypos="0156.364" zpos="0049.950" GUID="Im4Wm3WM5kCKHI1D/ov4FA==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/triangle.png" rotate-z="165"/>
+		<POI MapID="1264" xpos="0377.774" ypos="0156.360" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.HOC.Dhuum.Timer"/>
 		<Trail trailData="Data/HeroPack/Raids/circle_of_death.trl" texture="Data/HeroPack/Raids/Death.png" animSpeed="-2" alpha="1" type="Raid.HOC.Dhuum.Death" fadeFar="2000" fadeNear="1650"/>
 		<!-- ==================== Chests ==================== -->
-		<POI MapID="1264" xpos="-339.278" ypos="0037.461" zpos="0179.794" GUID="ljo0u+dqp0WFZkoJ8DDLFw==" type="Raid.HOC.Chests" fadeFar="1500" fadeNear="1000"/>
-		<POI MapID="1264" xpos="0227.027" ypos="0023.552" zpos="-051.957" GUID="zXy+4KUY7EOnBCv0jOsSEA==" type="Raid.HOC.Chests" fadeFar="3000" fadeNear="2500"/>
-		<POI MapID="1264" xpos="0468.948" ypos="0164.634" zpos="0015.308" GUID="D9EyjAP7VkqisFpFTLzb7Q==" type="Raid.HOC.Chests" fadeFar="1500" fadeNear="1000"/>
+		<POI MapID="1264" xpos="-339.401" ypos="0036.625" zpos="0181.413" GUID="ljo0u+dqp0WFZkoJ8DDLFw==" type="Raid.HOC.Chests" fadeFar="1500" fadeNear="1000" rotate-x="90" rotate-z="180"/>
+		<POI MapID="1264" xpos="0225.671" ypos="0021.862" zpos="-052.562" GUID="zXy+4KUY7EOnBCv0jOsSEA==" type="Raid.HOC.Chests" fadeFar="3000" fadeNear="2500" rotate-x="180" rotate-z="110"/>
+		<POI MapID="1264" xpos="0470.616" ypos="0163.093" zpos="0015.220" GUID="D9EyjAP7VkqisFpFTLzb7Q==" type="Raid.HOC.Chests" fadeFar="1500" fadeNear="1000" rotate-x="180" rotate-z="270"/>
 	</POIs>
 </OverlayData>
