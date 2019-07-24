@@ -35,8 +35,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [x] **Thaumanova Reactor:**
   - [x] *Markers* for the three panels in the Maze.
   - [x] *Markers* for a Speed Portal "Skip" from Apartments to Subject 6.
-- [ ] **Twilight Oasis:**
-  - [ ] *Markers* for the 2nd Sandblinder Skip.
+- [x] **Twilight Oasis:**
+  - [x] *Markers* for the 2nd Sandblinder Skip's path and portal.
 - [x] **Uncategorized:**
   - [x] *Markers* for the JP version of the Skip.
   - [x] *Markers* for the Leap version of the Skip.
