@@ -3,8 +3,8 @@
 		<MarkerCategory name="SOTF" DisplayName="Stronghold of the Faithful">
 			<MarkerCategory name="KC" DisplayName="Keep Construct">
 				<MarkerCategory name="Circles" DisplayName="Green Circles" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeFar="2500" fadeNear="2000" iconSize="0.5" rotate-x="180"/>
-				<MarkerCategory name="Rifts" iconFile="Data/HeroPack/Multipurpose/dot.png" iconSize="0.5" rotate-x="180"/>
-				<MarkerCategory name="Pull" iconFile="Data/HeroPack/Multipurpose/stack.png" iconSize="0.5" rotate-x="180"/>
+				<MarkerCategory name="Rifts" iconFile="Data/HeroPack/Multipurpose/dot.png" fadeFar="2500" fadeNear="2000" iconSize="0.5" rotate-x="180"/>
+				<MarkerCategory name="Pull" iconFile="Data/HeroPack/Multipurpose/stack.png" fadeFar="2500" fadeNear="2000" iconSize="0.5" rotate-x="180"/>
 			</MarkerCategory>
 			<MarkerCategory name="TC" DisplayName="Twisted Castle">
 				<MarkerCategory name="One" DisplayName="1st Button Skip"/>
