@@ -9,6 +9,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - **2\*** Waiting for improved Blish support for `trail` functionality.
 - **3\*** Waiting for Blish support of `behavior` functionality.
 - **4\*** Waiting for Blish support of `timer` functionality.
+- **5\*** Waiting for improved Blish support for 'rotate' functionality.
 
 # Features of this Pack:
 
@@ -16,7 +17,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [ ] **Aetherblade:**
   - [ ] **1\*** *Markers* for a quick, group coordinated Electric Minigame Skip.
 - [ ] **Cliffside:**
-  - [ ] *Markers* for four Portal (Speed) Skips **(3/4 done)**
+  - [ ] **5\*** *Markers* for four Portal (Speed) Skips.
 - [x] **Mistlock Observatory:**
   - [x] *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary).
 - [x] **Molten Furnace:**
@@ -47,7 +48,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
   - [ ] *Markers* for a Speed Skip if the fastest route is not available.
 - [ ] **Volcanic:**
   - [x] *Markers* for the beginning Portal (Speed) Skip.
-  - [ ] *Markers* to safely fall down the Cliff to the Final Boss.
+  - [ ] **1\*** *Markers* to safely fall down the Cliff to the Final Boss.
 
 ## Raids:
 ### Spirit Vale:
