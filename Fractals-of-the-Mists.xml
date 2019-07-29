@@ -149,8 +149,9 @@
 		<POI MapID="0954" xpos="0232.187" ypos="0052.805" zpos="-691.025" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" type="FOTM.Vo.Portal" iconFile="Data/HeroPack/Fractals/PortalExit.png" fadeFar="900" fadeNear="750" rotate-x="173" rotate-y="-5" rotate-z="114"/>
 		<!-- Cliff -->
 		<POI MapID="0954" xpos="0201.607" ypos="0007.227" zpos="-737.238" GUID="vJpxrQmGp0Sd6jU7PgTVMA==" type="FOTM.Vo.Cliff" fadeFar="1350" fadeNear="1100" title="Start Jumping!" title-color="white"/>
-		<POI MapID="0954" xpos="0197.873" ypos="0052.827" zpos="-727.950" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/skip.png"/>
-		<POI MapID="0954" xpos="0196.428" ypos="0031.045" zpos="-732.791" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/skip.png"/>
-		<POI MapID="0954" xpos="0234.370" ypos="0008.028" zpos="-780.539" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/didSkip.png"/>
+		<POI MapID="0954" xpos="0198.889" ypos="0052.540" zpos="-725.508" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="750" fadeNear="500" rotate-x="180"/>
+		<POI MapID="0954" xpos="0196.401" ypos="0028.001" zpos="-730.729" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="1100" fadeNear="1000" rotate-x="135" rotate-z="-48"/>
+		<POI MapID="0954" xpos="0204.046" ypos="0005.654" zpos="-731.373" GUID="vW3ZXkN/PUiyF6P2m3Jlww==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/skip.png" fadeFar="1100" fadeNear="1000" rotate-x="180"/>
+		<POI MapID="0954" xpos="0235.295" ypos="0007.000" zpos="-781.714" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="FOTM.Vo.Cliff" iconFile="Data/HeroPack/Fractals/didSkip.png" fadeFar="2500" fadeNear="2250" rotate-x="160" rotate-z="20"/>
 	</POIs>
 </OverlayData>
