@@ -46,9 +46,9 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [ ] **Urban Battlegrounds:**
   - [ ] **2\*** *A Trail* showing the Burning Oil boundary.
   - [ ] *Markers* for a Speed Skip if the fastest route is not available.
-- [ ] **Volcanic:**
+- [x] **Volcanic:**
   - [x] *Markers* for the beginning Portal (Speed) Skip.
-  - [ ] **1\*** *Markers* to safely fall down the Cliff to the Final Boss.
+  - [x] **1\*** *Markers* to safely fall down the Cliff to the Final Boss.
 
 ## Raids:
 ### Spirit Vale:
