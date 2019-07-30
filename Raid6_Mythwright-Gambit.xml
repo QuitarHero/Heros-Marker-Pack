@@ -1,10 +1,9 @@
 <OverlayData>
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="MG" DisplayName="Mythwright Gambit">
-			<MarkerCategory name="CA" DisplayName="Conjured Amalgamate">
-				<MarkerCategory name="Greatswords" iconFile="Data/HeroPack/Raids/GS.png" fadeFar="3000" fadeNear="2500" iconSize="0.75" rotate-x="180" rotate-z="50"/>
-				<MarkerCategory name="Shields" iconFile="Data/HeroPack/Raids/Shield.png" fadeFar="3000" fadeNear="2500" iconSize="0.75" rotate-x="180" rotate-z="140"/>
-			</MarkerCategory>
+			<MarkerCategory name="Entrance" title="Mythwright Gambit" title-color="white"/>
+			<MarkerCategory name="CA" DisplayName="Conjured Amalgamate" fadeFar="3000" fadeNear="2500" iconSize="0.75" rotate-x="180"/>
+			<MarkerCategory name="Largos" DisplayName="Twin Largos" bounce-duration="240" bounce-height="-30" bounce-when="inzone" fadeFar="2000" fadeNear="1750" rotate-x="90" title-color="white"/>
 			<MarkerCategory name="Qadim">
 				<MarkerCategory name="Boons" DisplayName="Pyre Boons" fadeFar="5000" fadeNear="4500" heightOffset="0.5" iconSize="0.75"/>
 				<MarkerCategory name="Lamp" DisplayName="Lamp Path" fadeFar="3000" fadeNear="2000"/>
@@ -14,12 +13,16 @@
 	</MarkerCategory>
 
 	<POIs>
+		<!-- Entrance -->
+		<POI MapID="1155" xpos="0163.782" ypos="0035.704" zpos="-389.050" GUID="Jyq62wpej0ixx3e6jvKJqQ==" type="Raid.MG.Entrance"/>
 		<!-- ==================== Conjured Amalgamate ==================== -->
-		<POI MapID="1303" xpos="-096.686" ypos="0050.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.MG.CA.Greatswords"/>
-		<POI MapID="1303" xpos="-095.111" ypos="0050.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.MG.CA.Shields"/>
+		<POI MapID="1303" xpos="-096.686" ypos="0050.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.MG.CA.Greatswords" iconFile="Data/HeroPack/Raids/GS.png" rotate-z="50"/>
+		<POI MapID="1303" xpos="-095.111" ypos="0050.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.MG.CA.Shields" iconFile="Data/HeroPack/Raids/Shield.png" rotate-z="140"/>
+		<!-- ==================== Twin Largos ==================== -->
+		<!-- type="Raid.MG.Largos" iconFile="Data/HeroPack/Raids/Nikare.png" rotate-z="0" title="Nikare"/>
+		<!-- type="Raid.MG.Largos" iconFile="Data/HeroPack/Raids/Kenut.png" rotate-z="0" title="Kenut"/>
 		<!-- ==================== Qadim ==================== -->
 		<!-- Boon Pyres -->
-		<POI MapID="1303" xpos="-145.739" ypos="0120.167" zpos="0331.472" GUID="5Zg83JXFyEGiEVGDpwlIEQ==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/Stability.png"/>
 		<POI MapID="1303" xpos="-188.487" ypos="0120.147" zpos="0257.289" GUID="xzLu/d06k0yKVkd4p3L2lw==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/Retaliation.png"/>
 		<POI MapID="1303" xpos="-230.839" ypos="0120.168" zpos="0331.257" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/Protection.png"/>
 		<!-- Lamp -->
