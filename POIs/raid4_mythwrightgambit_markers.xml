@@ -18,7 +18,6 @@
 		<POI MapID="1303" xpos="-96.9369" ypos="52.4141" zpos="-314.767" type="Raid.MG.CA.Greatswords" GUID="dEwIb7aW6UiY6ai/12wYOg=="/>
 		<POI MapID="1303" xpos="-95.3615" ypos="52.4141" zpos="-343.214" type="Raid.MG.CA.Shields" GUID="9uBOUgNzJUG5HC8e+jq9uw=="/>
 		<!-- Qadim -->
-		<POI MapID="1303" xpos="-145.739" ypos="120.167" zpos="331.472" type="Raid.MG.Qadim.Boons" GUID="5Zg83JXFyEGiEVGDpwlIEQ==" iconFile="Data/HeroPack/Raids/Stability.png"/>
 		<POI MapID="1303" xpos="-188.487" ypos="120.147" zpos="257.289" type="Raid.MG.Qadim.Boons" GUID="xzLu/d06k0yKVkd4p3L2lw==" iconFile="Data/HeroPack/Raids/Retaliation.png"/>
 		<POI MapID="1303" xpos="-230.839" ypos="120.168" zpos="331.257" type="Raid.MG.Qadim.Boons" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" iconFile="Data/HeroPack/Raids/Protection.png"/>
 		<POI MapID="1303" xpos="-240.61075" ypos="2.06539" zpos="357.9595" type="Raid.MG.Qadim.Lamp" GUID="2Y9krt2x/kWrpIpeLIch6A==" iconFile="Data/HeroPack/Raids/OneTwoThree.png"/>
