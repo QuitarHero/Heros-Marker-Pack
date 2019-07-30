@@ -2,7 +2,7 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="HOC" DisplayName="Hall of Chains">
 			<MarkerCategory name="Entrance" title="Hall of Chains" title-color="white"/>
-			<MarkerCategory name="SH" DisplayName="Soulless Horror" fadeFar="4000" fadeNear="3500" iconSize="1.25" rotate-x="180"/>
+			<MarkerCategory name="SH" DisplayName="Soulless Horror" iconSize="1.25" rotate-x="180"/>
 			<MarkerCategory name="Statues">
 				<MarkerCategory name="King" DisplayName="Broken King" iconFile="Data/HeroPack/Multipurpose/dot.png" fadeFar="3500" fadeNear="3000" iconSize="0.75" rotate-x="180"/>
 				<MarkerCategory name="Darkness" DisplayName="Statue of Darkness" iconFile="Data/HeroPack/Multipurpose/dot.png" fadeFar="3000" fadeNear="2800" iconSize="0.5" rotate-x="180" rotate-z="-15"/>
@@ -20,10 +20,10 @@
 		<!-- Entrance -->
 		<POI MapID="1155" xpos="0126.663" ypos="0035.703" zpos="-410.112" GUID="/4ROEejsIUmuyf3LqHmjSg==" type="Raid.HOC.Entrance"/>
 		<!-- ==================== Soulless Horror ==================== -->
-		<POI MapID="1264" xpos="-282.591" ypos="0019.162" zpos="0018.416" GUID="O3r698jXbkyiZoxShdmFVA==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/arrow.png" rotate-z="285"/>
-		<POI MapID="1264" xpos="-266.291" ypos="0019.162" zpos="0008.779" GUID="nzYD4KMcF0iMwOfaHhGEYg==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/circle.png"/>
-		<POI MapID="1264" xpos="-256.538" ypos="0019.162" zpos="0024.829" GUID="N5t0jBFzaUOaUazzQShtzA==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/heart.png" rotate-z="105"/>
-		<POI MapID="1264" xpos="-272.783" ypos="0019.162" zpos="0034.807" GUID="ayA+SkixgUy8TJEb1q/B/Q==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/square.png" rotate-z="10"/>
+		<POI MapID="1264" xpos="-282.591" ypos="0019.162" zpos="0018.416" GUID="O3r698jXbkyiZoxShdmFVA==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/arrow.png" fadeFar="2500" fadeNear="2000" rotate-z="285"/>
+		<POI MapID="1264" xpos="-266.291" ypos="0019.162" zpos="0008.779" GUID="nzYD4KMcF0iMwOfaHhGEYg==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/circle.png" fadeFar="3000" fadeNear="2500"/>
+		<POI MapID="1264" xpos="-256.538" ypos="0019.162" zpos="0024.829" GUID="N5t0jBFzaUOaUazzQShtzA==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/heart.png" fadeFar="3500" fadeNear="3000" rotate-z="105"/>
+		<POI MapID="1264" xpos="-272.783" ypos="0019.162" zpos="0034.807" GUID="ayA+SkixgUy8TJEb1q/B/Q==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/square.png" fadeFar="3000" fadeNear="2500" rotate-z="10"/>
 		<!-- ==================== Broken King ==================== -->
 		<POI MapID="1264" xpos="0119.032" ypos="0110.522" zpos="0227.378" GUID="grZaI9v0MU+2ftEMaR5ZAA==" type="Raid.HOC.Statues.King"/>
 		<POI MapID="1264" xpos="0103.172" ypos="0109.405" zpos="0221.664" GUID="V0pqQq3PXU2g511ppq7GzQ==" type="Raid.HOC.Statues.King"/>
