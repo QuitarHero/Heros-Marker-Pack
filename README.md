@@ -11,6 +11,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - **4\*** Waiting for Blish support of `timer` functionality.
 - **5\*** Waiting for improved Blish support for `rotate` functionality.
 - **6\*** Waiting for Blish support of `bounce-distance` functionality.
+- **7\*** Waiting for Blish support for API functionality.
 
 # Features of this Pack:
 
@@ -52,6 +53,35 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
   - [x] **1\*** *Markers* to safely fall down the Cliff to the Final Boss.
 
 ## Raids:
+### Aerodome:
+- [ ] **Spirit Vale's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm or deny if a player has defeated various encounters.
+- [ ] **Salvation Pass's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm or deny if a player has defeated various encounters.
+- [ ] **Stronghold of the Faithful's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm or deny if a player has defeated various encounters.
+- [ ] **Bastion of the Penitent's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **\7*** *Markers* to confirm or deny if a player has defeated various encounters.
+- [ ] **Hall of Chains's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm or deny if a player has defeated various encounters.
+- [ ] **Mythwright Gambit's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm or deny if a player has defeated various encounters.
+- [ ] **The Key of Ahdashim's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm or deny if a player has defeated various encounters.
 ### Spirit Vale:
 - [ ] **Spirit Woods:**
   - [x] **3\*** *Timers* for the initial Adrenal Mushrooms.
@@ -119,8 +149,6 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [x] **General:**
   - [x] **3\*** *Markers* for the Raid's Chests.
 ### The Key of Ahdashim:
-- [x] **Cardinal Sabir:**
-  - [x] *Markers* to orient players at <60%.
 - [x] **Cardinal Adina:**
   - [x] *Markers* to orient players.
   - [x] *Markers* for ideal Pillar Locations.
