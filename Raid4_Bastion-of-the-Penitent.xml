@@ -2,13 +2,13 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="BOTP" DisplayName="Bastion of the Penitent">
 			<MarkerCategory name="Cairn">
-				<MarkerCategory name="Agony" DisplayName="Agony Placements" iconFile="Data/HeroPack/Raids/Agony.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
+				<MarkerCategory name="Agony" DisplayName="Agony Placements" iconFile="Data/HeroPack/Raids/W4/Agony.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
 				<MarkerCategory name="Stack" DisplayName="Group Stack" iconFile="Data/HeroPack/Multipurpose/Stack.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
-				<MarkerCategory name="Kiter" DisplayName="Kiter Placement" iconFile="Data/HeroPack/Raids/Kiter.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
+				<MarkerCategory name="Kiter" DisplayName="Kiter Placement" iconFile="Data/HeroPack/Raids/W4/Kiter.png" fadeFar="4000" fadeNear="3500" iconSize="0.5" rotate-x="180" rotate-z="15"/>
 				<MarkerCategory name="Timer" iconFile="Data/HeroPack/Raids/starttimer.png" fadeFar="4000" fadeNear="3500" rotate-x="180" rotate-z="330"/>
 			</MarkerCategory>
 			<MarkerCategory name="MO" DisplayName="Mursaat Overseer" iconFile="Data/HeroPack/Raids/starttimer.png" fadeFar="3000" fadeNear="2500" iconSize="1" rotate-x="180" rotate-z="90"/>
-			<MarkerCategory name="Door" DisplayName="Samarog's Door" iconFile="Data/HeroPack/Raids/TrueSight.png" behavior="6" fadeFar="1500" fadeNear="1250" iconSize="0.35"/>
+			<MarkerCategory name="Door" DisplayName="Samarog's Door" iconFile="Data/HeroPack/Raids/W4/TrueSight.png" behavior="6" fadeFar="1500" fadeNear="1250" iconSize="0.35"/>
 			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" triggerRange="3" iconSize="0.75"/>
 		</MarkerCategory>
 	</MarkerCategory>
