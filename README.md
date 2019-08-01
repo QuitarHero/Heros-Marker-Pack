@@ -9,7 +9,8 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - **2\*** Waiting for improved Blish support for `trail` functionality.
 - **3\*** Waiting for Blish support of `behavior` functionality.
 - **4\*** Waiting for Blish support of `timer` functionality.
-- **5\*** Waiting for improved Blish support for 'rotate' functionality.
+- **5\*** Waiting for improved Blish support for `rotate` functionality.
+- **6\*** Waiting for Blish support of `bounce-distance` functionality.
 
 # Features of this Pack:
 
@@ -111,7 +112,7 @@ The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, tr
 - [x] **Conjured Amalgamate:**
   - [x] *Markers* for Greatsword and Shield starting locations.
 - [x] **Twin Largos:**
-  - [x] *Markers* to orient players at 50% Split.
+  - [x] **6\*** *Markers* to orient players at 50% Split.
 - [x] **Qadim:**
   - [x] *Markers* to lead players through the lamp for each phase.
   - [x] *Markers* for Boon Pyres.
