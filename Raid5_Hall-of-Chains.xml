@@ -1,7 +1,6 @@
 <OverlayData>
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="HOC" DisplayName="Hall of Chains">
-			<MarkerCategory name="Entrance" title="Hall of Chains" title-color="white"/>
 			<MarkerCategory name="SH" DisplayName="Soulless Horror" iconSize="1.25" rotate-x="180"/>
 			<MarkerCategory name="Statues">
 				<MarkerCategory name="King" DisplayName="Broken King" iconFile="Data/HeroPack/Multipurpose/dot.png" fadeFar="3500" fadeNear="3000" iconSize="0.75" rotate-x="180"/>
@@ -17,8 +16,6 @@
 	</MarkerCategory>
 
 	<POIs>
-		<!-- Entrance -->
-		<POI MapID="1155" xpos="0126.663" ypos="0035.703" zpos="-410.112" GUID="/4ROEejsIUmuyf3LqHmjSg==" type="Raid.HOC.Entrance"/>
 		<!-- ==================== Soulless Horror ==================== -->
 		<POI MapID="1264" xpos="-282.591" ypos="0019.162" zpos="0018.416" GUID="O3r698jXbkyiZoxShdmFVA==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/arrow.png" fadeFar="2500" fadeNear="2000" rotate-z="285"/>
 		<POI MapID="1264" xpos="-266.291" ypos="0019.162" zpos="0008.779" GUID="nzYD4KMcF0iMwOfaHhGEYg==" type="Raid.HOC.SH" iconFile="Data/HeroPack/Raids/circle.png" fadeFar="3000" fadeNear="2500"/>
@@ -46,7 +43,7 @@
 		<POI MapID="1264" xpos="0379.073" ypos="0156.360" zpos="0044.817" GUID="OpI4IpyEqUeS5Zsfd9KPyg==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/swirl.png" rotate-z="200"/>
 		<POI MapID="1264" xpos="0407.780" ypos="0156.364" zpos="0049.950" GUID="Im4Wm3WM5kCKHI1D/ov4FA==" type="Raid.HOC.Dhuum.Reapers" iconFile="Data/HeroPack/Raids/triangle.png" rotate-z="165"/>
 		<POI MapID="1264" xpos="0377.774" ypos="0156.360" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.HOC.Dhuum.Timer"/>
-		<Trail trailData="Data/HeroPack/Raids/circle_of_death.trl" texture="Data/HeroPack/Raids/Death.png" animSpeed="-2" alpha="1" type="Raid.HOC.Dhuum.Death" fadeFar="2000" fadeNear="1650"/>
+		<Trail trailData="Data/HeroPack/Raids/W5/circle_of_death.trl" texture="Data/HeroPack/Raids/W5/Death.png" animSpeed="-2" alpha="1" type="Raid.HOC.Dhuum.Death" fadeFar="2000" fadeNear="1650"/>
 		<!-- ==================== Chests ==================== -->
 		<POI MapID="1264" xpos="-339.401" ypos="0036.625" zpos="0181.413" GUID="ljo0u+dqp0WFZkoJ8DDLFw==" type="Raid.HOC.Chests" fadeFar="1500" fadeNear="1000" rotate-x="90" rotate-z="180"/>
 		<POI MapID="1264" xpos="0225.671" ypos="0021.862" zpos="-052.562" GUID="zXy+4KUY7EOnBCv0jOsSEA==" type="Raid.HOC.Chests" fadeFar="3000" fadeNear="2500" rotate-x="180" rotate-z="110"/>
