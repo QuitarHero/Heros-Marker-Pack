@@ -1,0 +1,70 @@
+<OverlayData>
+	<MarkerCategory name="Raid">
+		<MarkerCategory name="SV" DisplayName="Spirit Vale">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.9" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="SP" DisplayName="Salvation Pass">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.9" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="SOTF" DisplayName="Stronghold of the Faithful">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.65" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="BOTP" DisplayName="Bastion of the Penitent">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.68" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="HOC" DisplayName="Hall of Chains">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.65" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="MG" DisplayName="Mythwright Gambit">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.9" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="TKOA" DisplayName="The Key of Ahdashim">
+			<MarkerCategory name="Entrance">
+				<MarkerCategory name="Name" title-color="white"/>
+				<MarkerCategory name="API" DisplayName="Bosses Killed" fadeFar="4000" fadeNear="3750" iconSize="0.65" rotate-x="90"/>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	
+	<POIs>
+	<!-- ==================== Spirit Vale ==================== -->
+	<POI MapID="1155" xpos="0057.956" ypos="0035.691" zpos="-344.268" GUID="yV/4u4j/7EKfV2DZGrqN2A==" type="Raid.SV.Entrance.Name" title="Spirit Vale"/>
+	<POI MapID="1155" xpos="0058.898" ypos="0038.870" zpos="-345.916" GUID="HsTGNEjZdEmPE49+qSfDTQ==" type="Raid.SV.Entrance.API" iconFile="Data/HeroPack/Raids/W1/Vale Guardian.png" rotate-z="-39"/>
+	<POI MapID="1155" xpos="0057.451" ypos="0038.870" zpos="-344.796" GUID="Fqso4cbgZ0Kvdp0OfxSBpQ==" type="Raid.SV.Entrance.API" iconFile="Data/HeroPack/Raids/W1/Gorseval.png" rotate-z="-39"/>
+	<POI MapID="1155" xpos="0055.727" ypos="0038.870" zpos="-343.578" GUID="G+yHT6OXIEGlc/RUYEK67A==" type="Raid.SV.Entrance.API" iconFile="Data/HeroPack/Raids/W1/Sabetha.png" rotate-z="-37"/>
+	<!-- ==================== Salvation Pass ==================== -->
+	<POI MapID="1155" xpos="0065.080" ypos="0041.311" zpos="-371.115" GUID="dLd7cuM/KUy8jBudSPyr6A==" type="Raid.SP.Entrance.Name" title="Salvation Pass"/>
+	<!-- ==================== Stronghold of the Faithful ==================== -->
+	<POI MapID="1155" xpos="0085.152" ypos="0035.733" zpos="-386.154" GUID="pof3RE39Y06jYBEjiWGpVQ==" type="Raid.SOTF.Entrance.Name" title="Stronghold of the Faithful"/>
+	<!-- ==================== Bastion of the Penitent ==================== -->
+	<POI MapID="1155" xpos="0092.381" ypos="0041.297" zpos="-415.361" GUID="7diXcTKUiESXHL9w5moU2g==" type="Raid.BOTP.Entrance.Name" title="Bastion of the Penitent"/>
+	<POI MapID="1155" xpos="0093.854" ypos="0044.247" zpos="-416.605" GUID="oUVAnwa6/E2ky94KbmbcRA==" type="Raid.BOTP.Entrance.API" iconFile="Data/HeroPack/Raids/W4/Cairn.png" rotate-z="-35"/>
+	<POI MapID="1155" xpos="0092.720" ypos="0044.247" zpos="-415.817" GUID="YFp3tCZHQE2ywQ+1rfZp3g==" type="Raid.BOTP.Entrance.API" iconFile="Data/HeroPack/Raids/W4/Mursaat Overseer.png" rotate-z="-35"/>
+	<POI MapID="1155" xpos="0091.586" ypos="0044.247" zpos="-415.029" GUID="lI5ahhKjRUaVPs2Izr7iRQ==" type="Raid.BOTP.Entrance.API" iconFile="Data/HeroPack/Raids/W4/Samarog.png" rotate-z="-35"/>
+	<POI MapID="1155" xpos="0090.452" ypos="0044.247" zpos="-414.241" GUID="HpwfSzpRG0+I98zojkBqFA==" type="Raid.BOTP.Entrance.API" iconFile="Data/HeroPack/Raids/W4/Deimos.png" rotate-z="-35"/>
+	<!-- ==================== Hall of Chains ==================== -->
+	<POI MapID="1155" xpos="0126.663" ypos="0035.703" zpos="-410.112" GUID="/4ROEejsIUmuyf3LqHmjSg==" type="Raid.HOC.Entrance.Name" title="Hall of Chains"/>
+	<!-- ==================== Mythwright Gambit ==================== -->
+	<POI MapID="1155" xpos="0163.782" ypos="0035.704" zpos="-389.050" GUID="Jyq62wpej0ixx3e6jvKJqQ==" type="Raid.MG.Entrance.Name" title="Mythwright Gambit"/>
+	<!-- ====================  The Key of Ahdashim ==================== -->
+	<POI MapID="1155" xpos="0157.541" ypos="0041.000" zpos="-413.666" GUID="fBLjxyPwokalk4KZMK2LPA==" type="Raid.TKOA.Entrance.Name" title="The Key of Ahdashim"/>
+	</POIs>
+</OverlayData>
