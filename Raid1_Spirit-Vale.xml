@@ -2,39 +2,39 @@
 	<MarkerCategory name="Raid">
 		<MarkerCategory name="SV" DisplayName="Spirit Vale">
 			<MarkerCategory name="Mushrooms">
-				<MarkerCategory name="Speed" iconFile="Data/HeroPack/Multipurpose/one.png" behavior="1" fadeNear="3000" fadeFar="3500"/>
-				<MarkerCategory name="Adrenal" iconFile="Data/HeroPack/Multipurpose/empty.png" behavior="4" triggerRange="2" resetLength="30.9" hasCountdown="1" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="Speed" iconFile="Data/HeroPack/Multipurpose/empty.png" behavior="1" fadeFar="3500" fadeNear="3000"/>
+				<MarkerCategory name="Adrenal" iconFile="Data/HeroPack/Multipurpose/empty.png" behavior="4" fadeFar="3500" fadeNear="3000" hasCountdown="1" resetLength="30.9" triggerRange="2"/>
 			</MarkerCategory>
 			<MarkerCategory name="SR" DisplayName="Spirit Run">
 				<MarkerCategory name="Trigger" DisplayName="Portal Stuffs"/>
 			</MarkerCategory>
-			<MarkerCategory name="Gorseval" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Sabetha" heightOffset="1.5" rotate-x="90" fadeNear="3000" fadeFar="3500"/>
-			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" iconSize="0.5" heightOffset="0" behavior="2" triggerRange="3" rotate-x="90"/>
+			<MarkerCategory name="Gorseval" fadeFar="3500" fadeNear="3000" rotate-x="180"/>
+			<MarkerCategory name="Sabetha" fadeFar="3500" fadeNear="3000" rotate-x="90"/>
+			<MarkerCategory name="Chests" iconFile="Data/HeroPack/Multipurpose/chest.png" behavior="2" iconSize="0.5" rotate-x="90" triggerRange="3"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
-		<!-- Vale Guardian's and Spirit Woods' Mushrooms -->
-		<POI MapID="1062" xpos="-91.0706" ypos="60.9373" zpos="-506.081" type="Raid.SV.Mushrooms.Speed" GUID="trI4Ikkxf0uEl0Of2dGZUg=="/>
-		<POI MapID="1062" xpos="-151.658" ypos="60.9373" zpos="-507.339" type="Raid.SV.Mushrooms.Speed" GUID="VVruJ+afv0CW7XgO9/unJg=="/>
-		<POI MapID="1062" xpos="-121.094" ypos="60.9373" zpos="-559.273" type="Raid.SV.Mushrooms.Speed" GUID="OCw6WOaUKEqltHMKIqH3aA=="/>
-		<POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" type="Raid.SV.Mushrooms.Adrenal" GUID="CVvJijVfQ0q3Eq91Jp4EUQ=="/>
-		<POI MapID="1062" xpos="-63.0339" ypos="36.0128" zpos="-328.275" type="Raid.SV.Mushrooms.Adrenal" GUID="otxqOJuKkU2UIroCyDomnA=="/>
-		<!-- Spirit Run -->
-		<Trail trailData="Data/HeroPack/Raids/SR_TriggerLines.trl" texture="Data/HeroPack/Raids/SR_Trigger.png" animSpeed="0" alpha="1" type="Raid.SV.SR.Trigger" fadeNear="1000" fadeFar="1500"/>
-		<!-- Gorseval -->
-		<POI MapID="1062" xpos="22.1685" ypos="50.1728" zpos="-93.4837" type="Raid.SV.Gorseval" GUID="oEXylxHkdkWsf+eMfVVQIw==" iconFile="Data/HeroPack/Multipurpose/one.png" heightOffset="-0.1" rotate-x="180" rotate-z="220"/>
-		<POI MapID="1062" xpos="62.5497" ypos="50.5088" zpos="-91.3473" type="Raid.SV.Gorseval" GUID="hGFPtRl7OE6JGHcwC8F18Q==" iconFile="Data/HeroPack/Multipurpose/two.png" heightOffset="-0.1" rotate-x="180" rotate-z="135"/>
-		<!-- Sabetha -->
-		<POI MapID="1062" xpos="-133.137" ypos="62.7407" zpos="52.1523" type="Raid.SV.Sabetha" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" iconFile="Data/HeroPack/Multipurpose/south.png" rotate-z="-5"/>
-		<POI MapID="1062" xpos="-97.8473" ypos="62.8841" zpos="80.9271" type="Raid.SV.Sabetha" GUID="7AZv3By300CwPslLkQaEnw==" iconFile="Data/HeroPack/Multipurpose/east.png" rotate-z="85"/>
-		<POI MapID="1062" xpos="-126.366" ypos="62.6864" zpos="116.039" type="Raid.SV.Sabetha" GUID="xxtnBLbCIEuoxx5nBpDqSA==" iconFile="Data/HeroPack/Multipurpose/north.png" rotate-z="175"/>
-		<POI MapID="1062" xpos="-161.633" ypos="62.0667" zpos="87.3431" type="Raid.SV.Sabetha" GUID="+oNUkf6Qx0KK4u9MhYitew==" iconFile="Data/HeroPack/Multipurpose/west.png" rotate-z="265"/>
-		<!-- Chests -->
-		<POI MapID="1062" xpos="-126.154" ypos="30.0067" zpos="-223.073" type="Raid.SV.Chests" GUID="cjZXgMou5USqfnzLndQviA==" rotate-z="90" fadeNear="1250" fadeFar="1500"/>
-		<POI MapID="1062" xpos="-63.604" ypos="54.8789" zpos="-154.726" type="Raid.SV.Chests" GUID="GXd06oAwjEmgK3dUui+DCg==" rotate-z="90" fadeNear="1250" fadeFar="1500"/>
-		<POI MapID="1062" xpos="-85.5367" ypos="74.6366" zpos="-208.998" type="Raid.SV.Chests" GUID="rP/zhuCv/EGs7J27tLVPzQ==" fadeNear="1300" fadeFar="1800"/>
-		<POI MapID="1062" xpos="-288.772" ypos="88.6247" zpos="108.459" type="Raid.SV.Chests" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" rotate-z="195" fadeNear="1000" fadeFar="1250"/>
+		<!-- ==================== Vale Guardian's and Spirit Woods' Mushrooms ==================== -->
+		<POI MapID="1062" xpos="-091.070" ypos="0060.937" zpos="-506.081" GUID="trI4Ikkxf0uEl0Of2dGZUg==" type="Raid.SV.Mushrooms.Speed"/>
+		<POI MapID="1062" xpos="-151.658" ypos="0060.937" zpos="-507.339" GUID="VVruJ+afv0CW7XgO9/unJg==" type="Raid.SV.Mushrooms.Speed"/>
+		<POI MapID="1062" xpos="-121.094" ypos="0060.937" zpos="-559.273" GUID="OCw6WOaUKEqltHMKIqH3aA==" type="Raid.SV.Mushrooms.Speed"/>
+		<POI MapID="1062" xpos="-109.085" ypos="0042.403" zpos="-355.932" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" type="Raid.SV.Mushrooms.Adrenal"/>
+		<POI MapID="1062" xpos="-063.033" ypos="0036.012" zpos="-328.275" GUID="otxqOJuKkU2UIroCyDomnA==" type="Raid.SV.Mushrooms.Adrenal"/>
+		<!-- ==================== Spirit Run ==================== -->
+		<Trail trailData="Data/HeroPack/Raids/W1/SR_TriggerLines.trl" texture="Data/HeroPack/Raids/W1/SR_Trigger.png" animSpeed="0" alpha="1" type="Raid.SV.SR.Trigger" fadeFar="1500" fadeNear="1000"/>
+		<!-- ==================== Gorseval ==================== -->
+		<POI MapID="1062" xpos="0022.168" ypos="0048.572" zpos="-093.483" GUID="oEXylxHkdkWsf+eMfVVQIw==" type="Raid.SV.Gorseval" iconFile="Data/HeroPack/Multipurpose/one.png" rotate-z="220"/>
+		<POI MapID="1062" xpos="0062.549" ypos="0049.908" zpos="-091.347" GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="Raid.SV.Gorseval" iconFile="Data/HeroPack/Multipurpose/two.png" rotate-z="135"/>
+		<!-- ==================== Sabetha ==================== -->
+		<POI MapID="1062" xpos="-133.137" ypos="0062.740" zpos="0052.152" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" type="Raid.SV.Sabetha" iconFile="Data/HeroPack/Multipurpose/south.png" rotate-z="-5"/>
+		<POI MapID="1062" xpos="-097.847" ypos="0062.884" zpos="0080.927" GUID="7AZv3By300CwPslLkQaEnw==" type="Raid.SV.Sabetha" iconFile="Data/HeroPack/Multipurpose/east.png" rotate-z="85"/>
+		<POI MapID="1062" xpos="-126.366" ypos="0062.686" zpos="0116.039" GUID="xxtnBLbCIEuoxx5nBpDqSA==" type="Raid.SV.Sabetha" iconFile="Data/HeroPack/Multipurpose/north.png" rotate-z="175"/>
+		<POI MapID="1062" xpos="-161.633" ypos="0062.066" zpos="0087.343" GUID="+oNUkf6Qx0KK4u9MhYitew==" type="Raid.SV.Sabetha" iconFile="Data/HeroPack/Multipurpose/west.png" rotate-z="265"/>
+		<!-- ==================== Chests ==================== -->
+		<POI MapID="1062" xpos="-126.154" ypos="0028.506" zpos="-223.073" GUID="cjZXgMou5USqfnzLndQviA==" type="Raid.SV.Chests" fadeFar="1500" fadeNear="1250" rotate-z="90"/>
+		<POI MapID="1062" xpos="-063.604" ypos="0053.378" zpos="-154.726" GUID="GXd06oAwjEmgK3dUui+DCg==" type="Raid.SV.Chests" fadeFar="1500" fadeNear="1250" rotate-z="90"/>
+		<POI MapID="1062" xpos="-085.536" ypos="0073.136" zpos="-208.998" GUID="rP/zhuCv/EGs7J27tLVPzQ==" type="Raid.SV.Chests" fadeFar="1800" fadeNear="1300"/>
+		<POI MapID="1062" xpos="-288.772" ypos="0087.124" zpos="0108.459" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" type="Raid.SV.Chests" fadeFar="1250" fadeNear="1000" rotate-z="195"/>
 	</POIs>
 </OverlayData>
