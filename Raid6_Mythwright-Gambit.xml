@@ -4,7 +4,7 @@
 			<MarkerCategory name="CA" DisplayName="Conjured Amalgamate" fadeFar="3000" fadeNear="2500" iconSize="0.75" rotate-x="180"/>
 			<MarkerCategory name="Largos" DisplayName="Twin Largos" bounce-duration="120" bounce-height="-31" bounce-when="inzone" fadeFar="2000" fadeNear="1750" rotate-x="90" title-color="yellow"/>
 			<MarkerCategory name="Qadim">
-				<MarkerCategory name="Boons" DisplayName="Pyre Boons" fadeFar="5000" fadeNear="4500" heightOffset="0.5" iconSize="0.75"/>
+				<MarkerCategory name="Boons" DisplayName="Pyre Boons" fadeFar="5000" fadeNear="4500" iconSize="0.75"/>
 				<MarkerCategory name="Lamp1" DisplayName="Lamp 1st Path" fadeFar="3000" fadeNear="2000" rotate-x="180"/>
 				<MarkerCategory name="Lamp2" DisplayName="Lamp 2nd Path" fadeFar="3000" fadeNear="2000" rotate-x="180"/>
 				<MarkerCategory name="Lamp3" DisplayName="Lamp 3rd Path" fadeFar="3000" fadeNear="2000" rotate-x="180"/>
@@ -22,8 +22,8 @@
 		<POI MapID="1303" xpos="0380.974" ypos="0032.762" zpos="0008.720" GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="Raid.MG.Largos" iconFile="Data/HeroPack/Raids/W6/Kenut.png" rotate-z="120" title="Kenut"/>
 		<!-- ==================== Qadim ==================== -->
 		<!-- Boon Pyres -->
-		<POI MapID="1303" xpos="-188.487" ypos="0120.147" zpos="0257.289" GUID="xzLu/d06k0yKVkd4p3L2lw==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/W6/Retaliation.png"/>
-		<POI MapID="1303" xpos="-230.839" ypos="0120.168" zpos="0331.257" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/W6/Protection.png"/>
+		<POI MapID="1303" xpos="-188.487" ypos="0119.147" zpos="0257.289" GUID="xzLu/d06k0yKVkd4p3L2lw==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/W6/Retaliation.png"/>
+		<POI MapID="1303" xpos="-230.839" ypos="0119.168" zpos="0331.257" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" type="Raid.MG.Qadim.Boons" iconFile="Data/HeroPack/Raids/W6/Protection.png"/>
 		<!-- Lamp Path 1 -->
 		<POI MapID="1303" xpos="-225.263" ypos="0000.512" zpos="0364.238" GUID="eGF+lHzvDE+O02xI/GRbdw==" type="Raid.MG.Qadim.Lamp1" iconFile="Data/HeroPack/Raids/W6/One.png" rotate-z="90"/>
 		<POI MapID="1303" xpos="-189.957" ypos="0000.510" zpos="0363.048" GUID="hPRoLFdtk0e0dlu8NvsUew==" type="Raid.MG.Qadim.Lamp1" iconFile="Data/HeroPack/Raids/W6/One.png" rotate-z="90"/>
