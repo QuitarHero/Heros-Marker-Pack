@@ -2,114 +2,168 @@
 
 This Marker Pack is developed by QuitarHero.
 
-The purpose of this pack is to enhance my Guild Wars 2 gameplay with guides, markers, trails, and timers. It is not to add every little detail anyone can think of, regardless if it's less or more efficient.
+The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, trails, and timers for strategies and skips I perform. It's not a pack designed to give people an advantage over others (besides knowledge), nor will it be a pack for every strategy and skip known. Once you know all the strategies and skips this pack provides, it shouldn't be required afterwards.
 
-## Features of this pack:
+THIS IS A REWORK WIP!
+But what's available works (for the most part)
 
-## Fractal of the Mists:
-- **Aetherblade:**
-  - *Markers* for a quick, group coordinated skip for the electric minigame.
-- **Cliffside:**
-  - *Markers* for 4 Portal (Speed) Skips.
-- **Mistlock Observatory:**
-  - *Markers* for an alternate route to complete the Jumping Puzzle (low gravity is necessary).
-- **Molten Furnace:**
-  - *Markers* in the Weapons Testing room to avoid all the Tornadoes and where to reflect the fireballs.
-- **Nightmare (CM):**
-  - *Markers* showing where the Watchwork Knights spawn during the MAMA fight.
-  - *Markers* to orient players as to where the capture points spawn during Ensolyss' phases.
-- **Shattered Observatory:**
-  - *A Route:* showcasing a portal skip to Viirastra (during the ball minigame).
-  - *Markers* to orient players in the Arkk fight.
-- **Solid Ocean:**
-  - *Markers* for Colossus spawns.
-- **Thaumanova Reactor:**
-  - *Markers* for the 3 panels in the Maze.
-  - *Markers* for a speed portal "skip" from apartments to Subject 6.
-- **Twilight Oasis:**
-  - *A Route* for a skip to the 2nd sandblinder.
-  - *Markers* for portals for the skip to the 2nd sandblinder.
-- **Uncategorized:**
-  - *A Trail* for a difficult skip (skipping the second set of harpies).
-  - *Markers* for an alternative skip to the above skip (skipping the second set of harpies, requiring a leap).
-- **Underground Facility:**
-  - *A Trail* to a difficult (unless Daredevil) skip to the 2nd button (removes the need to go to 1st button).
-- **Volcanic:**
-  - *Markers* for a (speed) portal skip at the beginning (skips running with fire rocks).
-  - *A Trail/Marker* to safely fall down the cliff (post 2nd grawl cutscene) to the final boss.
+### Notes:
+- **1\*** Waiting for improved Blish support for `title` functionality.
+- **2\*** Waiting for improved Blish support for `trail` functionality.
+- **3\*** Waiting for Blish support of `behavior` functionality.
+- **4\*** Waiting for Blish support of `timer` functionality.
+- **5\*** Waiting for improved Blish support for `rotate` functionality.
+- **6\*** Waiting for Blish support of `bounce-distance` functionality.
+- **7\*** Waiting for Blish support for API functionality.
+- **8\*** Waiting for Blish support of cross-marker behavioral functionality.
+
+# Features of this Pack:
+
+##  Fractal of the Mists:
+- [ ] **Aetherblade:**
+  - [ ] **1\*** *Markers* for a quick, group coordinated Electric Minigame Skip.
+- [ ] **Cliffside:**
+  - [ ] **5\*** *Markers* for four Portal (Speed) Skips.
+- [x] **Mistlock Observatory:**
+  - [x] *Markers* for an alternate way to complete the Jumping Puzzle (low gravity is necessary).
+- [x] **Molten Furnace:**
+  - [x] *Markers* in the Weapons Testing area to avoid tornadoes and reflect fireballs.
+- [x] **Nightmare (CM):**
+  - [x] *Markers* that show where Watchwork Knights spawn during the MAMA fight.
+  - [x] *Markers* that show where Enolyss' capture points are.
+  - [x] *Marker* that shows North.
+- [x] **Shattered Observatory:**
+  - [x] *Markers* for Viirastra's Skip.
+  - [x] *Markers* to orient players at Arkk.
+- [ ] **Siren's Reef:**
+  - [ ] *Markers* for the Last Area's Chests.
+- [x] **Solid Ocean:**
+  - [x] *Markers* for Colossus spawns.
+- [x] **Thaumanova Reactor:**
+  - [x] *Markers* for the three panels in the Maze.
+  - [x] *Markers* for a Speed Portal "Skip" from Apartments to Subject 6.
+- [x] **Twilight Oasis:**
+  - [x] *Markers* for the 2nd Sandblinder Skip's path and portal.
+- [x] **Uncategorized:**
+  - [x] *Markers* for the JP version of the Skip.
+  - [x] *Markers* for the Leap version of the Skip.
+- [ ] **Underground Facility:**
+  - [ ] **2\*** *A Trail* for the 1st Plate Skip.
+- [ ] **Urban Battlegrounds:**
+  - [ ] **2\*** *A Trail* showing the Burning Oil boundary.
+  - [ ] *Markers* for a Speed Skip if the fastest route is not available.
+- [x] **Volcanic:**
+  - [x] *Markers* for the beginning Portal (Speed) Skip.
+  - [x] **1\*** *Markers* to safely fall down the Cliff to the Final Boss.
 
 ## Raids:
 ### Spirit Vale:
-- **Spirit Woods:**
-  - *Timers* to the capture point area's Adrenal Mushrooms.
-  - *Trails* showcasing Spirit Run's Capture Point Triggers (WIP).
-- **Gorseval:**
-  - *Markers* for two spirit spawns during its phase.
-- **Sabetha:**
-  - *Markers* for her cannon locations.
-  - *A Timer* for her mechanics (cannons).
-- **General:**
-  - *Markers* on the various chests in Spirit Vale.
+- [ ] **Aerodome Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+  - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
+- [ ] **Spirit Woods:**
+  - [x] **3\*** *Timers* for the initial Adrenal Mushrooms.
+  - [ ] **2\*** *Trails* showing Spirit Run's Capture Point Triggers **(Need a group to grind SW with)**.
+- [x] **Gorseval:**
+  - [x] *Markers* for two Spirit Spawns inbetween phases.
+- [x] **Sabetha:**
+  - [x] *Markers* for Cannon Locations.
+  - [x] **1\*4\*** *A Timer* (forced) for Cannons.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Salvation Pass:
-- **Slothasor:**
-  - *Markers* for its Mushrooms.
-  - *A Timer* for its mushroom and slubling spawns.
-- **Trio:**
-  - *Markers* for boss spawns, oil kegs & beehive stack points.
-- **Matthias:**
-  - *Markers* for his wells.
-  - *A Timer* (optional) for his corruption applications and the first four sacrifices.
-- **General:**
-  - *Markers* for the various chests in Salvation Pass.
+- [ ] **Aerodome Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+  - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
+- [x] **Slothasor:**
+  - [x] *Markers* for Mushrooms.
+  - [x] **1\*4\*** *A Timer* (run-over) for Mushrooms / Slub Spawns.
+- [x] **Trio:**
+  - [x] *Markers* for Boss Spawns, Oil Kegs & Beehive Stack Points.
+- [x] **Matthias:**
+  - [x] *Markers* for Wells.
+  - [x] **1\*4\*** *A Timer* (run-over) for Corruptions / Four Sacrifices.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Stronghold of the Faithful:
-- **Escort:**
-  - *Markers* (hidden) for a skip to the fourth tower.
-- **Keep Construct:**
-  - *Markers* for his Green Circles.
-- **Twisted Castle:**
-  - *A Trail* for a skip to the first button (only can be done with certain skills)
-  - *Markers* for the encounter's buttons (in the order to activate them).
-- **Xera:**
-  - *Markers* for tanking spots (this assumes 75% DPS Check).
-- **General:**
-  - *Markers* for various chests in Stronghold of the Faithful.
+- [ ] **Aerodome Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+  - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
+- [x] **Keep Construct:**
+  - [x] *Markers* for Green Circles.
+  - [x] *Markers* for Rifts.
+  - [x] *A Marker* for one of many spots for an instant pull.
+- [x] **Twisted Castle:**
+  - [x] **2\*** *A Trail* for the First Button Skip (only can be done with certain skills).
+  - [x] *Markers* for Buttons (in ideal activation order).
+  - [x] *Markers* for Doors.
+- [x] **Xera:**
+  - [x] *Markers* for Tanking (75% DPS Check is assumed).
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Bastion of the Penitent:
-- **Cairn:**
-  - *Markers* for optimal agony placement.
-  - *A Timer* (optional) for his agony applications (this assumes you start on platform).
-- **Mursaat Overseer:**
-  - *A Timer* (optional) for Dispels.
-- **General:**
-  - *Markers* for the locations of the orbs (rubble) to open Samarog's Door.
-  - *Markers* for various chests in Bastion of the Penitent.
+- [ ] **Aerodome Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+  - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
+- [x] **Cairn:**
+  - [x] *Markers* for Agony, Group Stack, and Kiter Placements.
+  - [x] **1\*4\*** *A Timer* (run-over) for Agony Applications (this assumes you start on platform).
+- [x] **Mursaat Overseer:**
+  - [x] **1\*4\*** *A Timer* (run-over) for Dispels.
+- [x] **General:**
+  - [x] *Markers* showing Rubble Locations to open Samarog's Door.
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Hall of Chains:
-- **Soulless Horror:**
-  - *Markers* to help orient players and where to bring her.
-- **Statue of Darkness:**
-  - *Markers* for Broken King to orient players for greens.
-  - *Markers* for Light Orb spawns.
-- **Dhuum:**
-  - *Markers* for each of the Reapers.
-  - *A Timer* (optional) for Dhuum's greens, Soul Split, and Dips.
-  - *A Trail* creating a border of death for players performing the Greens mechanic.
-- **General:**
-  - *Markers* for various chests in Hall of Chains.
+- [ ] **Aerodome Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+  - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
+- [x] **Soulless Horror:**
+  - [x] *Markers* to orient players.
+- [x] **Statue of Darkness:**
+  - [x] *Markers* for Broken King to orient players.
+  - [x] *Markers* for Light Orb Spawns.
+- [x] **Dhuum:**
+  - [x] *Markers* for each Reaper.
+  - [x] **1\*4\*** *A Timer* (run-over) for Greens, Soul Split, and Dips.
+  - [x] **2\*** *A Trail* easily showing the Death Border when gathering Orbs.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### Mythwright Gambit:
-- **Conjured Amalgamate:**
-  - *Markers* to orient players as to where to collect Greatswords and Shields.
-- **Qadim:**
-  - *Markers* to lead players through his lamp (efficiently).
-  - *Markers* to sort players to their boon pyre.
-- **General:**
-  - *Markers* for various chests in Mythwright Gambit.
+- [ ] **Aerodome Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+  - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
+- [x] **Conjured Amalgamate:**
+  - [x] *Markers* for Greatsword and Shield starting locations.
+- [x] **Twin Largos:**
+  - [x] **6\*** *Markers* to orient players at 50% Split.
+- [x] **Qadim:**
+  - [x] *Markers* to lead players through the lamp for each phase.
+  - [x] *Markers* for Boon Pyres.
+- [x] **General:**
+  - [x] **3\*** *Markers* for the Raid's Chests.
 ### The Key of Ahdashim:
-- **Cardinal Sabir:**
-  - *Markers* to orient players for the last platform's shields.
-- **Cardinal Adina:**
-  - *Markers* to orient players to Hand spawns are in 50% and 25%.
-  - *Markers* to orient players to good, consistent spots to place pillars.
-- **Qadim the Peerless:**
-  - *Markers* showing the pylon destruction order.
-  - *Markers* to orient players to Orb / Distortion spawns.
+- [ ] **The Key of Ahdashim's Entrance:**
+  - [x] **1\*** *A Marker* displaying the wing's name above the door.
+  - [ ] *Markers* for each boss / encounter.
+  - [ ] **7\*** *Markers* to confirm if a player has defeated various encounters.
+- [x] **Cardinal Adina:**
+  - [x] *Markers* to orient players.
+  - [x] *Markers* for ideal Pillar Locations.
+- [x] **Qadim the Peerless:**
+  - [x] *Markers* for Pylons (destruction order).
+  - [x] *Markers* for Orb / Distortion Spawns.
+  - [x] *Markers* for ideal Fire Placements.
 
 **Support Discord:** https://discord.gg/rCEuzGz
