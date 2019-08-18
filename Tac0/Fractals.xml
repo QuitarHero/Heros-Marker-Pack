@@ -1,41 +1,38 @@
 <OverlayData>
-  <MarkerCategory 	  name="FOTM" 	DisplayName="Fractals of the Mists">
-   <MarkerCategory 	  name="Ti" 	DisplayName="Hero's Marker Pack" 																					  IsSeparator="1"/>
-	<MarkerCategory   name="AB"  	DisplayName="Aetherblade" 				fadeFar="850"  fadeNear="600"/>
-	<MarkerCategory   name="CS" 	DisplayName="Cliffside">
-	  <MarkerCategory name="c1"		DisplayName="Speed Skip" 																			  iconSize="0.75"/>
-	  <MarkerCategory name="c2" 	DisplayName="Wind Skip" 				fadeFar="1250" fadeNear="1000"/>
-	  <MarkerCategory name="c3"		DisplayName="Chest Speed Skip" 																		  iconSize="0.75"/>
-	  <MarkerCategory name="c4" 	DisplayName="Boss Skip" 																			  iconSize="0.5"/>
+  <MarkerCategory 	  name="FOTM"	DisplayName="Fractals of the Mists">
+   <MarkerCategory 	  name="Ti"		DisplayName="Hero's Marker Pack"																					  IsSeparator="1"/>
+	<MarkerCategory   name="AB"		DisplayName="Aetherblade"				fadeFar="850"  fadeNear="600"/>
+	<MarkerCategory   name="CS"		DisplayName="Cliffside">
+	  <MarkerCategory name="c1"		DisplayName="Speed Skip"																			  iconSize="0.75"/>
+	  <MarkerCategory name="c2"		DisplayName="Wind Skip"					fadeFar="1250" fadeNear="1000"/>
+	  <MarkerCategory name="c3"		DisplayName="Chest Speed Skip"																		  iconSize="0.75"/>
+	  <MarkerCategory name="c4"		DisplayName="Boss Skip"																				  iconSize="0.5"/>
 	</MarkerCategory>
-	<MarkerCategory   name="MO" 	DisplayName="Mistlock Observatory" 																	  iconSize="0.2"/>
-	<MarkerCategory   name="NM" 	DisplayName="Nightmare">
-	  <MarkerCategory name="c1" 	DisplayName="Knight Spawns" 			fadeFar="3500" fadeNear="3000" 								  iconSize=".75"/>
-	  <MarkerCategory name="c2" 	DisplayName="Ensolyss' Orbs" 			fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png" iconSize="0.5"/>
-	  <MarkerCategory name="c3" 	DisplayName="North"						fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png" 	  iconSize="1"/>
+	<MarkerCategory   name="MO"		DisplayName="Mistlock Observatory"																	  iconSize="0.2"/>
+	<MarkerCategory   name="NM"		DisplayName="Nightmare">
+	  <MarkerCategory name="c1"		DisplayName="Knight Spawns"				fadeFar="3500" fadeNear="3000"								  iconSize="0.75"/>
+	  <MarkerCategory name="c2"		DisplayName="Ensolyss' Orbs"			fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png" iconSize="0.5"/>
+	  <MarkerCategory name="c3"		DisplayName="North"						fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png"	  iconSize="1"/>
 	</MarkerCategory>
-	<MarkerCategory   name="ShO" 	DisplayName="Shattered Observatory">
-	  <MarkerCategory name="c1" 	DisplayName="Virastra Skip" 																		  iconSize="0.5"/>
-	  <MarkerCategory name="c2" 	DisplayName="Arkk Directions" 			fadeFar="3000" fadeNear="2750"/>
+	<MarkerCategory   name="ShO"	DisplayName="Shattered Observatory">
+	  <MarkerCategory name="c1"		DisplayName="Virastra Skip"																			  iconSize="0.5"/>
+	  <MarkerCategory name="c2"		DisplayName="Arkk Directions"			fadeFar="3000" fadeNear="2750"/>
 	</MarkerCategory>
-	<MarkerCategory   name="SoO" 	DisplayName="Solid Ocean" 				fadeFar="4000" fadeNear="3500" 								  iconSize="1"/>
-	<MarkerCategory   name="TR" 	DisplayName="Thaumanova Reactor">
-	  <MarkerCategory name="c1" 	DisplayName="Maze" 						fadeFar="3000" fadeNear="2750" 								  iconSize="0.75"/>
-	  <MarkerCategory name="c2" 	DisplayName="Subject 6 Portal" 																		  iconSize="0.75"/>
+	<MarkerCategory   name="SoO"	DisplayName="Solid Ocean"				fadeFar="4000" fadeNear="3500"								  iconSize="1"/>
+	<MarkerCategory   name="TR"		DisplayName="Thaumanova Reactor">
+	  <MarkerCategory name="c1"		DisplayName="Maze"						fadeFar="3000" fadeNear="2750"								  iconSize="0.75"/>
+	  <MarkerCategory name="c2"		DisplayName="Subject 6 Portal"																		  iconSize="0.75"/>
 	</MarkerCategory>
-	<MarkerCategory   name="TO" 	DisplayName="Twilight Oasis">
-	  <MarkerCategory name="c1" 	DisplayName="2nd Sandblinder Portal" 	fadeFar="1500" fadeNear="1250" 								  iconSize="0.75"/>
-	  <MarkerCategory name="c2" 	DisplayName="2nd Sandblinder Skip Path" 															  iconSize="0.5"/>
+	<MarkerCategory   name="TO"   	DisplayName="Twilight Oasis"			fadeFar="1000" fadeNear="750"								  iconSize="0.5"/>
+	<MarkerCategory   name="UC"		DisplayName="Uncategorized">
+	  <MarkerCategory name="c1"		DisplayName="Harpy JP Skip"				fadeFar="1000" fadeNear="750"								  iconSize="0.2"/>
+	  <MarkerCategory name="c2"		DisplayName="Harpy Leap Skip"			fadeFar="1000" fadeNear="750"/>
 	</MarkerCategory>
-	<MarkerCategory   name="UC" 	DisplayName="Uncategorized">
-	  <MarkerCategory name="c1" 	DisplayName="Harpy JP Skip" 			fadeFar="1000" fadeNear="750" 								  iconSize="0.2"/>
-	  <MarkerCategory name="c2" 	DisplayName="Harpy Leap Skip" 			fadeFar="1000" fadeNear="750"/>
-	</MarkerCategory>
-	<MarkerCategory   name="UF" 	DisplayName="Underground Facility" 		fadeFar="1000" fadeNear="750"/>
-	<MarkerCategory   name="UB" 	DisplayName="Urban Battleground"/>
-	<MarkerCategory   name="Vo" 	DisplayName="Volcanic">
-	  <MarkerCategory name="c1" 	DisplayName="Portal" 																				  iconSize="0.5"/>
-	  <MarkerCategory name="c2" 	DisplayName="Cliff Fall"/>
+	<MarkerCategory   name="UF"		DisplayName="Underground Facility"		fadeFar="1000" fadeNear="750"/>
+	<MarkerCategory   name="UB"		DisplayName="Urban Battleground"/>
+	<MarkerCategory   name="Vo"		DisplayName="Volcanic">
+	  <MarkerCategory name="c1"		DisplayName="Portal"																				  iconSize="0.5"/>
+	  <MarkerCategory name="c2"		DisplayName="Cliff Fall"/>
 	</MarkerCategory>
   </MarkerCategory>
 	
@@ -46,93 +43,86 @@
 	
 	<!-- ======================================== CLIFFSIDE ======================================== -->
 	<!-- Initial Speed Skip -->
-	<POI MapID="952"  xpos="28.818"   ypos="560.948" zpos="-26.444"  GUID="6g3UyuZKaE+xwQZtjKEOhA==" type="FOTM.CS.c1" 	fadeFar="2250" fadeNear="1750" iconFile="Data/Fracs/pEnterS.png"/>
-	<POI MapID="952"  xpos="32.650"   ypos="591.972" zpos="-22.834"  GUID="pdXNCnwv3U+BdE3bNOw+mQ==" type="FOTM.CS.c1" 	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"/>
+	<POI MapID="952"  xpos="28.818"	  ypos="560.948" zpos="-26.444"	 GUID="6g3UyuZKaE+xwQZtjKEOhA==" type="FOTM.CS.c1"	fadeFar="2250" fadeNear="1750" iconFile="Data/Fracs/pEnterS.png"/>
+	<POI MapID="952"  xpos="32.650"	  ypos="591.972" zpos="-22.834"	 GUID="pdXNCnwv3U+BdE3bNOw+mQ==" type="FOTM.CS.c1"	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"/>
 	<!-- Wind Skip -->
-	<POI MapID="952"  xpos="64.284"   ypos="591.430" zpos="96.785"   GUID="0rMXPgdqGk6zn89nFpCYKw==" type="FOTM.CS.c2" 								   iconFile="Data/Fracs/pEnterB.png" iconSize="0.75"/>
-	<POI MapID="952"  xpos="58.289"   ypos="612.994" zpos="103.089"  GUID="x1KlRA0eoUWd9ZF5ucGrTw==" type="FOTM.CS.c2" 								   iconFile="Data/Multi/stack.png"   iconSize="0.4"/>
-	<POI MapID="952"  xpos="63.395"   ypos="629.228" zpos="104.334"  GUID="+7Z2NyX+GUirveUK0Ocbfg==" type="FOTM.CS.c2" 								   iconFile="Data/Multi/stack.png"   iconSize="0.35"/>
-	<POI MapID="952"  xpos="66.268"   ypos="629.205" zpos="106.401"  GUID="YmFq1+jrZEOTJzw1E4bRuQ==" type="FOTM.CS.c2" 								   iconFile="Data/Fracs/pExit.png"   iconSize="0.75"/>
+	<POI MapID="952"  xpos="64.284"	  ypos="591.430" zpos="96.785"	 GUID="0rMXPgdqGk6zn89nFpCYKw==" type="FOTM.CS.c2" 								   iconFile="Data/Fracs/pEnterB.png" iconSize="0.75"/>
+	<POI MapID="952"  xpos="58.289"	  ypos="612.994" zpos="103.089"	 GUID="x1KlRA0eoUWd9ZF5ucGrTw==" type="FOTM.CS.c2" 								   iconFile="Data/Multi/stack.png"   iconSize="0.4"/>
+	<POI MapID="952"  xpos="63.395"	  ypos="629.228" zpos="104.334"	 GUID="+7Z2NyX+GUirveUK0Ocbfg==" type="FOTM.CS.c2" 								   iconFile="Data/Multi/stack.png"   iconSize="0.35"/>
+	<POI MapID="952"  xpos="66.268"	  ypos="629.205" zpos="106.401"	 GUID="YmFq1+jrZEOTJzw1E4bRuQ==" type="FOTM.CS.c2" 								   iconFile="Data/Fracs/pExit.png"   iconSize="0.75"/>
 	<!-- Chest Speed Skip -->
-	<POI MapID="952"  xpos="55.598"   ypos="666.716" zpos="-11.571"  GUID="MFNW+q4CmEKPXl4L7cv/ew==" type="FOTM.CS.c3" 	fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/pEnter.png"/>
-	<POI MapID="952"  xpos="63.096"   ypos="690.362" zpos="-30.095"  GUID="0DMnz4d9BE2Inse4u86rlw==" type="FOTM.CS.c3" 	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"/>
+	<POI MapID="952"  xpos="55.598"	  ypos="666.716" zpos="-11.571"	 GUID="MFNW+q4CmEKPXl4L7cv/ew==" type="FOTM.CS.c3"	fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/pEnter.png"/>
+	<POI MapID="952"  xpos="63.096"	  ypos="690.362" zpos="-30.095"	 GUID="0DMnz4d9BE2Inse4u86rlw==" type="FOTM.CS.c3"	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"/>
 	<!-- Boss Skip -->
-	<POI MapID="952"  xpos="83.842"   ypos="686.608" zpos="-33.996"  GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4" 	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"/>
-	<POI MapID="952"  xpos="92.940"   ypos="710.636" zpos="-17.700"  GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4" 	fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
+	<POI MapID="952"  xpos="83.842"	  ypos="686.608" zpos="-33.996"	 GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4"	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"/>
+	<POI MapID="952"  xpos="92.940"	  ypos="710.636" zpos="-17.700"	 GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4"	fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
 	
 	
 	<!-- ======================================== MISTLOCK OBSERVATORY ======================================== -->
-	<POI MapID="872"  xpos="111.697"  ypos="218.000" zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO" 	fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="872"  xpos="118.867"  ypos="220.026" zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="FOTM.MO" 	fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="872"  xpos="124.155"  ypos="223.412" zpos="-122.468" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" type="FOTM.MO" 	fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="872"  xpos="113.774"  ypos="224.847" zpos="-117.626" GUID="xTB1mTnifk2HelFqfpahpA==" type="FOTM.MO" 	fadeFar="750"  fadeNear="550"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="872"  xpos="118.028"  ypos="227.950" zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="FOTM.MO" 	fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="872"  xpos="119.893"  ypos="233.836" zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="FOTM.MO" 	fadeFar="500"  fadeNear="300"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="872"  xpos="117.047"  ypos="237.964" zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="FOTM.MO" 	fadeFar="550"  fadeNear="350"  iconFile="Data/Fracs/didSkip.png"/>
+	<POI MapID="872"  xpos="111.697"  ypos="218.000" zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO"		fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="872"  xpos="118.867"  ypos="220.026" zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="FOTM.MO"		fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="872"  xpos="124.155"  ypos="223.412" zpos="-122.468" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" type="FOTM.MO"		fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="872"  xpos="113.774"  ypos="224.847" zpos="-117.626" GUID="xTB1mTnifk2HelFqfpahpA==" type="FOTM.MO"		fadeFar="750"  fadeNear="550"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="872"  xpos="118.028"  ypos="227.950" zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="FOTM.MO"		fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="872"  xpos="119.893"  ypos="233.836" zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="FOTM.MO"		fadeFar="500"  fadeNear="300"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="872"  xpos="117.047"  ypos="237.964" zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="FOTM.MO"		fadeFar="550"  fadeNear="350"  iconFile="Data/Fracs/didSkip.png"/>
 	
 	
 	<!-- ======================================== NIGHTMARE ======================================== -->
 	<!-- Knights -->
-	<POI MapID="1177" xpos="115.401"  ypos="12.456"  zpos="153.006"  GUID="D3TdNEjLFECd1ntKnkDcaA==" type="FOTM.NM.c1" 								   iconFile="Data/Multi/1.png"/>
-	<POI MapID="1177" xpos="92.618"   ypos="12.069"  zpos="168.462"  GUID="ZeSgHnJTfECytz2/yyLeXw==" type="FOTM.NM.c1" 								   iconFile="Data/Multi/2.png"/>
-	<POI MapID="1177" xpos="90.366"   ypos="11.947"  zpos="139.640"  GUID="Z+mzkaYKOECG+yc90OclmA==" type="FOTM.NM.c1" 								   iconFile="Data/Multi/3.png"/>
+	<POI MapID="1177" xpos="115.401"  ypos="12.456"	 zpos="153.006"	 GUID="D3TdNEjLFECd1ntKnkDcaA==" type="FOTM.NM.c1" 								   iconFile="Data/Multi/1.png"/>
+	<POI MapID="1177" xpos="92.618"	  ypos="12.069"	 zpos="168.462"	 GUID="ZeSgHnJTfECytz2/yyLeXw==" type="FOTM.NM.c1" 								   iconFile="Data/Multi/2.png"/>
+	<POI MapID="1177" xpos="90.366"	  ypos="11.947"	 zpos="139.640"	 GUID="Z+mzkaYKOECG+yc90OclmA==" type="FOTM.NM.c1" 								   iconFile="Data/Multi/3.png"/>
 	<!-- Orbs / North -->
-	<POI MapID="1177" xpos="32.704"   ypos="43.036"  zpos="25.660"   GUID="DijNR9RjrU2qeI58A1CaHQ==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="28.262"   ypos="43.037"  zpos="40.208"   GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="41.074"   ypos="43.037"  zpos="49.066"   GUID="2I2VcNI2vEezT6b7D8zQew==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="53.673"   ypos="43.036"  zpos="40.200"   GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="48.134"   ypos="43.036"  zpos="26.115"   GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="41.746"   ypos="44.797"  zpos="64.036"   GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c3"/>
+	<POI MapID="1177" xpos="32.704"	  ypos="43.036"	 zpos="25.660"	 GUID="DijNR9RjrU2qeI58A1CaHQ==" type="FOTM.NM.c2"/>
+	<POI MapID="1177" xpos="28.262"	  ypos="43.037"	 zpos="40.208"	 GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="FOTM.NM.c2"/>
+	<POI MapID="1177" xpos="41.074"	  ypos="43.037"	 zpos="49.066"	 GUID="2I2VcNI2vEezT6b7D8zQew==" type="FOTM.NM.c2"/>
+	<POI MapID="1177" xpos="53.673"	  ypos="43.036"	 zpos="40.200"	 GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c2"/>
+	<POI MapID="1177" xpos="48.134"	  ypos="43.036"	 zpos="26.115"	 GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c2"/>
+	<POI MapID="1177" xpos="41.746"	  ypos="44.797"	 zpos="64.036"	 GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c3"/>
 	
 	
 	<!-- ======================================== SHATTERED OBSERVATORY ======================================== -->
 	<!-- Viirastra Skip -->
-	<POI MapID="1205" xpos="342.781"  ypos="108.648" zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1205" xpos="331.750"  ypos="111.834" zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1205" xpos="293.118"  ypos="115.052" zpos="67.348"   GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/didSkip.png"/>
+	<POI MapID="1205" xpos="342.781"  ypos="108.648" zpos="96.860"	 GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.c1"	fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="1205" xpos="331.750"  ypos="111.834" zpos="90.772"	 GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.c1"	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="1205" xpos="293.118"  ypos="115.052" zpos="67.348"	 GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1"	fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/didSkip.png"/>
 	<!-- Arkk Directions -->
-	<POI MapID="1205" xpos="-455.315" ypos="72.456"  zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/n.png"/>
-	<POI MapID="1205" xpos="-421.715" ypos="72.477"  zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/e.png"/>
-	<POI MapID="1205" xpos="-455.382" ypos="72.477"  zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/s.png"/>
-	<POI MapID="1205" xpos="-489.319" ypos="72.477"  zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/w.png"/>
+	<POI MapID="1205" xpos="-455.315" ypos="72.456"	 zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/n.png"/>
+	<POI MapID="1205" xpos="-421.715" ypos="72.477"	 zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/e.png"/>
+	<POI MapID="1205" xpos="-455.382" ypos="72.477"	 zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/s.png"/>
+	<POI MapID="1205" xpos="-489.319" ypos="72.477"	 zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.c2" 							   iconFile="Data/Multi/w.png"/>
 	
 	
 	<!-- ======================================== SOLID OCEAN ======================================== -->
-	<POI MapID="958"  xpos="770.913"  ypos="586.057" zpos="823.828"  GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO" 								   iconFile="Data/Multi/1.png"/>
-	<POI MapID="958"  xpos="760.923"  ypos="586.041" zpos="791.083"  GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO" 								   iconFile="Data/Multi/2.png"/>
-	<POI MapID="958"  xpos="737.936"  ypos="586.272" zpos="805.532"  GUID="nxJBQoVS10iz75vDtFhveQ==" type="FOTM.SoO" 								   iconFile="Data/Multi/3.png"/>
-	<POI MapID="958"  xpos="752.218"  ypos="586.251" zpos="815.256"  GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="FOTM.SoO" 								   iconFile="Data/Multi/4.png"/>
-	<POI MapID="958"  xpos="777.881"  ypos="586.160" zpos="791.418"  GUID="flcdVoGDNEilezff3lqm9g==" type="FOTM.SoO" 								   iconFile="Data/Multi/5.png"/>
-	<POI MapID="958"  xpos="768.241"  ypos="586.100" zpos="808.040"  GUID="vJemMyXPEUuNSZPGfzvu/w==" type="FOTM.SoO" 								   iconFile="Data/Multi/6.png"/>
-	<POI MapID="958"  xpos="746.085"  ypos="586.202" zpos="790.579"  GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="FOTM.SoO" 								   iconFile="Data/Multi/7.png"/>
-	<POI MapID="958"  xpos="727.075"  ypos="586.890" zpos="794.372"  GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="FOTM.SoO" 								   iconFile="Data/Multi/8.png"/>
-	<POI MapID="958"  xpos="753.406"  ypos="586.213" zpos="802.226"  GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="FOTM.SoO" 								   iconFile="Data/Multi/9.png"/>
-	<POI MapID="958"  xpos="738.195"  ypos="586.285" zpos="819.331"  GUID="qaJzH5kbLEqopYySdAFJbw==" type="FOTM.SoO" 								   iconFile="Data/Multi/10.png"/>
+	<POI MapID="958"  xpos="770.913"  ypos="586.057" zpos="823.828"	 GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO" 								   iconFile="Data/Multi/1.png"/>
+	<POI MapID="958"  xpos="760.923"  ypos="586.041" zpos="791.083"	 GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO" 								   iconFile="Data/Multi/2.png"/>
+	<POI MapID="958"  xpos="737.936"  ypos="586.272" zpos="805.532"	 GUID="nxJBQoVS10iz75vDtFhveQ==" type="FOTM.SoO" 								   iconFile="Data/Multi/3.png"/>
+	<POI MapID="958"  xpos="752.218"  ypos="586.251" zpos="815.256"	 GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="FOTM.SoO" 								   iconFile="Data/Multi/4.png"/>
+	<POI MapID="958"  xpos="777.881"  ypos="586.160" zpos="791.418"	 GUID="flcdVoGDNEilezff3lqm9g==" type="FOTM.SoO" 								   iconFile="Data/Multi/5.png"/>
+	<POI MapID="958"  xpos="768.241"  ypos="586.100" zpos="808.040"	 GUID="vJemMyXPEUuNSZPGfzvu/w==" type="FOTM.SoO" 								   iconFile="Data/Multi/6.png"/>
+	<POI MapID="958"  xpos="746.085"  ypos="586.202" zpos="790.579"	 GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="FOTM.SoO" 								   iconFile="Data/Multi/7.png"/>
+	<POI MapID="958"  xpos="727.075"  ypos="586.890" zpos="794.372"	 GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="FOTM.SoO" 								   iconFile="Data/Multi/8.png"/>
+	<POI MapID="958"  xpos="753.406"  ypos="586.213" zpos="802.226"	 GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="FOTM.SoO" 								   iconFile="Data/Multi/9.png"/>
+	<POI MapID="958"  xpos="738.195"  ypos="586.285" zpos="819.331"	 GUID="qaJzH5kbLEqopYySdAFJbw==" type="FOTM.SoO" 								   iconFile="Data/Multi/10.png"/>
 	
 	
 	<!-- ======================================== THAUMANOVA REACTOR ======================================== -->
 	<!-- Maze -->
-	<POI MapID="957"  xpos="-3.014"   ypos="37.314"  zpos="-214.196" GUID="RM53JibWak6Mu3tmiFVNhw==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/1.png"/>
-	<POI MapID="957"  xpos="-52.757"  ypos="36.464"  zpos="-192.484" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/2.png"/>
-	<POI MapID="957"  xpos="-18.927"  ypos="39.597"  zpos="-230.494" GUID="8jv47sgfbkmfME22/3LvqQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/3.png"/>
+	<POI MapID="957"  xpos="-3.014"	  ypos="37.314"	 zpos="-214.196" GUID="RM53JibWak6Mu3tmiFVNhw==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/1.png"/>
+	<POI MapID="957"  xpos="-52.757"  ypos="36.464"	 zpos="-192.484" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/2.png"/>
+	<POI MapID="957"  xpos="-18.927"  ypos="39.597"	 zpos="-230.494" GUID="8jv47sgfbkmfME22/3LvqQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/3.png"/>
 	<!-- Portal -->
-	<POI MapID="957"  xpos="133.990"  ypos="20.133"  zpos="116.249"  GUID="lGx15a7kx0WpH83FFFdq3A==" type="FOTM.TR.c2" 	fadeFar="1750" fadeNear="1250" iconFile="Data/Fracs/pEnter.png"/>
-	<POI MapID="957"  xpos="133.990"  ypos="19.889"  zpos="26.760"   GUID="jRFM1oCAF0SUWpEQErqKaA==" type="FOTM.TR.c2" 	fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/pExit.png"/>
+	<POI MapID="957"  xpos="133.990"  ypos="20.133"	 zpos="116.249"	 GUID="lGx15a7kx0WpH83FFFdq3A==" type="FOTM.TR.c2"	fadeFar="1750" fadeNear="1250" iconFile="Data/Fracs/pEnter.png"/>
+	<POI MapID="957"  xpos="133.990"  ypos="19.889"	 zpos="26.760"	 GUID="jRFM1oCAF0SUWpEQErqKaA==" type="FOTM.TR.c2"	fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/pExit.png"/>
 	
 	
 	<!-- ======================================== TWILIGHT OASIS ======================================== -->
-	<!-- Portal -->
-	<POI MapID="1267" xpos="36.545"   ypos="40.562"  zpos="75.323"   GUID="vuBCfqJ8h0yRqPAqrbkzRg==" type="FOTM.TO.c1" 	iconFile="Data/Fracs/pEnter.png"/>
-	<POI MapID="1267" xpos="134.683"  ypos="44.395"  zpos="101.341"  GUID="60DW0omH1ky1wokPoLXtNA==" type="FOTM.TO.c1" 	iconFile="Data/Fracs/pExit.png"/>
-	<!-- Path to 2nd Sandblinder -->
-	<POI MapID="1267" xpos="40.592"   ypos="40.519"  zpos="90.540"   GUID="D7BRp+GAA0me/mpdQuWoiw==" type="FOTM.TO.c2" 	fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="52.540"   ypos="47.723"  zpos="94.549"   GUID="Rgh1yBQl3kOw+n+W9RUjkQ==" type="FOTM.TO.c2" 	fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="64.920"   ypos="47.723"  zpos="105.796"  GUID="Kj5ub7TSYUKhwu5rjhllKg==" type="FOTM.TO.c2" 	fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="68.593"   ypos="55.386"  zpos="115.340"  GUID="skdD+JgdLkyQkHuUyPqMwA==" type="FOTM.TO.c2" 	fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="72.248"   ypos="61.735"  zpos="118.280"  GUID="dsXx8P7mmEu3LJ/F2W8law==" type="FOTM.TO.c2" 	fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="101.787"  ypos="43.118"  zpos="120.368"  GUID="6afibBGzK0KAGuJGKwhQ6g==" type="FOTM.TO.c2" 	fadeFar="1600" fadeNear="1350" iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="109.057"  ypos="53.546"  zpos="119.771"  GUID="UBbR0CVB+0m/bK4EGAcM8Q==" type="FOTM.TO.c2" 	fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skip.png"/>
-	<POI MapID="1267" xpos="134.695"  ypos="44.394"  zpos="102.418"  GUID="c6lREZ5irEC/uGUmD4xu5A==" type="FOTM.TO.c2" 	fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/didSkip.png"/>
+	<POI MapID="1267" xpos="126.685"  ypos="11.943"   zpos="76.939"   GUID="Y9iDxpas+UCJvnT78e5Lqg==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="1267" xpos="128.429"  ypos="22.525"   zpos="76.136"   GUID="kF1rIo0U+0eMdn220VSTrQ==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="1267" xpos="126.675"  ypos="30.480"   zpos="75.335"   GUID="J3pK25KUMkWq5Wf5vLCBOw==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="1267" xpos="128.852"  ypos="34.851"   zpos="68.165"   GUID="cPrIEthiB0igyCtqA3f5Sg==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png"/>
+	<POI MapID="1267" xpos="135.409"  ypos="43.761"   zpos="73.991"   GUID="j9TmY/3caUK/E900bC9ORQ==" type="FOTM.TO" 									iconFile="Data/Fracs/didSkip.png"/>
 	
 	
 	<!-- ======================================== UNCATEGORIZED ======================================== -->
