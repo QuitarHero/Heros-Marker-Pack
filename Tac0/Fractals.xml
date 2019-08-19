@@ -1,39 +1,42 @@
+<!-- ======================================================================================================================== -->
+<!-- ===================================================== TAC0 VERSION ===================================================== -->
+<!-- ======================================================================================================================== -->
 <OverlayData>
-  <MarkerCategory 	  name="FOTM"	DisplayName="Fractals of the Mists">
-   <MarkerCategory 	  name="Ti"		DisplayName="Hero's Marker Pack"																					  IsSeparator="1"/>
-	<MarkerCategory   name="AB"		DisplayName="Aetherblade"				fadeFar="850"  fadeNear="600"/>
-	<MarkerCategory   name="CS"		DisplayName="Cliffside">
-	  <MarkerCategory name="c1"		DisplayName="Speed Skip"																			  iconSize="0.75"/>
-	  <MarkerCategory name="c2"		DisplayName="Wind Skip"					fadeFar="1250" fadeNear="1000"/>
-	  <MarkerCategory name="c3"		DisplayName="Chest Speed Skip"																		  iconSize="0.75"/>
-	  <MarkerCategory name="c4"		DisplayName="Boss Skip"																				  iconSize="0.5"/>
-	</MarkerCategory>
-	<MarkerCategory   name="MO"		DisplayName="Mistlock Observatory"																	  iconSize="0.2"/>
-	<MarkerCategory   name="NM"		DisplayName="Nightmare">
-	  <MarkerCategory name="c1"		DisplayName="Knight Spawns"				fadeFar="3500" fadeNear="3000"								  iconSize="0.75"/>
-	  <MarkerCategory name="c2"		DisplayName="Ensolyss' Orbs"			fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png" iconSize="0.5"/>
-	  <MarkerCategory name="c3"		DisplayName="North"						fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png"	  iconSize="1"/>
-	</MarkerCategory>
-	<MarkerCategory   name="ShO"	DisplayName="Shattered Observatory">
-	  <MarkerCategory name="c1"		DisplayName="Virastra Skip"																			  iconSize="0.5"/>
-	  <MarkerCategory name="c2"		DisplayName="Arkk Directions"			fadeFar="3000" fadeNear="2750"/>
-	</MarkerCategory>
-	<MarkerCategory   name="SoO"	DisplayName="Solid Ocean"				fadeFar="4000" fadeNear="3500"								  iconSize="1"/>
-	<MarkerCategory   name="TR"		DisplayName="Thaumanova Reactor">
-	  <MarkerCategory name="c1"		DisplayName="Maze"						fadeFar="3000" fadeNear="2750"								  iconSize="0.75"/>
-	  <MarkerCategory name="c2"		DisplayName="Subject 6 Portal"																		  iconSize="0.75"/>
-	</MarkerCategory>
-	<MarkerCategory   name="TO"   	DisplayName="Twilight Oasis"			fadeFar="1000" fadeNear="750"								  iconSize="0.5"/>
-	<MarkerCategory   name="UC"		DisplayName="Uncategorized">
-	  <MarkerCategory name="c1"		DisplayName="Harpy JP Skip"				fadeFar="1000" fadeNear="750"								  iconSize="0.2"/>
-	  <MarkerCategory name="c2"		DisplayName="Harpy Leap Skip"			fadeFar="1000" fadeNear="750"/>
-	</MarkerCategory>
-	<MarkerCategory   name="UF"		DisplayName="Underground Facility"		fadeFar="1000" fadeNear="750"/>
-	<MarkerCategory   name="UB"		DisplayName="Urban Battleground"/>
-	<MarkerCategory   name="Vo"		DisplayName="Volcanic">
-	  <MarkerCategory name="c1"		DisplayName="Portal"																				  iconSize="0.5"/>
-	  <MarkerCategory name="c2"		DisplayName="Cliff Fall"/>
-	</MarkerCategory>
+  <MarkerCategory     name="FOTM"   DisplayName="Fractals of the Mists">
+   <MarkerCategory    name="Ti"     DisplayName="Hero's Marker Pack"                                                                                      IsSeparator="1"/>
+    <MarkerCategory   name="AB"	    DisplayName="Aetherblade"               fadeFar="850"  fadeNear="600"/>
+    <MarkerCategory   name="CS"	    DisplayName="Cliffside">
+      <MarkerCategory name="c1"	    DisplayName="Speed Skip"                                                                              iconSize="0.75"/>
+      <MarkerCategory name="c2"	    DisplayName="Wind Skip"	                fadeFar="1250" fadeNear="1000"/>
+      <MarkerCategory name="c3"	    DisplayName="Chest Speed Skip"                                                                        iconSize="0.75"/>
+      <MarkerCategory name="c4"	    DisplayName="Boss Skip"                                                                               iconSize="0.5"/>
+    </MarkerCategory>
+    <MarkerCategory   name="MO"	    DisplayName="Mistlock Observatory"                                                                    iconSize="0.2"/>
+    <MarkerCategory   name="NM"	    DisplayName="Nightmare">
+      <MarkerCategory name="c1"	    DisplayName="Knight Spawns"	            fadeFar="3500" fadeNear="3000"                                iconSize="0.75"/>
+      <MarkerCategory name="c2"	    DisplayName="Ensolyss' Orbs"            fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png" iconSize="0.5"/>
+      <MarkerCategory name="c3"	    DisplayName="North"	                    fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png"    iconSize="1"/>
+    </MarkerCategory>
+    <MarkerCategory   name="ShO"    DisplayName="Shattered Observatory">
+      <MarkerCategory name="c1"	    DisplayName="Virastra Skip"	                                                                          iconSize="0.5"/>
+      <MarkerCategory name="c2"     DisplayName="Arkk Directions"           fadeFar="3000" fadeNear="2750"/>
+    </MarkerCategory>
+    <MarkerCategory   name="SoO"    DisplayName="Solid Ocean"               fadeFar="4000" fadeNear="3500"                                iconSize="1"/>
+    <MarkerCategory   name="TR"	    DisplayName="Thaumanova Reactor">
+      <MarkerCategory name="c1"	    DisplayName="Maze"                      fadeFar="3000" fadeNear="2750"                                iconSize="0.75"/>
+     <MarkerCategory  name="c2"	    DisplayName="Subject 6 Portal"                                                                        iconSize="0.75"/>
+    </MarkerCategory>
+    <MarkerCategory   name="TO"     DisplayName="Twilight Oasis"            fadeFar="1000" fadeNear="750"                                 iconSize="0.5"/>
+    <MarkerCategory   name="UC"	    DisplayName="Uncategorized">
+      <MarkerCategory name="c1"	    DisplayName="Harpy JP Skip"	            fadeFar="1000" fadeNear="750"                                 iconSize="0.2"/>
+      <MarkerCategory name="c2"	    DisplayName="Harpy Leap Skip"           fadeFar="1000" fadeNear="750"/>
+    </MarkerCategory>
+    <MarkerCategory   name="UF"	    DisplayName="Underground Facility"      fadeFar="1000" fadeNear="750"/>
+    <MarkerCategory   name="UB"	    DisplayName="Urban Battleground"/>
+    <MarkerCategory   name="Vo"	    DisplayName="Volcanic">
+      <MarkerCategory name="c1"	    DisplayName="Portal"                                                                                  iconSize="0.5"/>
+      <MarkerCategory name="c2"	    DisplayName="Cliff Fall"/>
+    </MarkerCategory>
   </MarkerCategory>
 	
   <POIs>
@@ -109,9 +112,9 @@
 	
 	<!-- ======================================== THAUMANOVA REACTOR ======================================== -->
 	<!-- Maze -->
-	<POI MapID="957"  xpos="-3.014"	  ypos="37.314"	 zpos="-214.196" GUID="RM53JibWak6Mu3tmiFVNhw==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/1.png"/>
-	<POI MapID="957"  xpos="-52.757"  ypos="36.464"	 zpos="-192.484" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/2.png"/>
-	<POI MapID="957"  xpos="-18.927"  ypos="39.597"	 zpos="-230.494" GUID="8jv47sgfbkmfME22/3LvqQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/3.png"/>
+	<POI MapID="957"  xpos="-2.204"   ypos="37.664"  zpos="-214.180" GUID="RM53JibWak6Mu3tmiFVNhw==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/1.png"/>
+	<POI MapID="957"  xpos="-52.010"  ypos="37.164"  zpos="-192.614" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/2.png"/>
+	<POI MapID="957"  xpos="-18.967"  ypos="40.647"  zpos="-231.344" GUID="8jv47sgfbkmfME22/3LvqQ==" type="FOTM.TR.c1" 								   iconFile="Data/Multi/3.png"/>
 	<!-- Portal -->
 	<POI MapID="957"  xpos="133.990"  ypos="20.133"	 zpos="116.249"	 GUID="lGx15a7kx0WpH83FFFdq3A==" type="FOTM.TR.c2"	fadeFar="1750" fadeNear="1250" iconFile="Data/Fracs/pEnter.png"/>
 	<POI MapID="957"  xpos="133.990"  ypos="19.889"	 zpos="26.760"	 GUID="jRFM1oCAF0SUWpEQErqKaA==" type="FOTM.TR.c2"	fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/pExit.png"/>
