@@ -2,164 +2,164 @@
 <!-- ================================================== BLISH HUD VERSION ================================================== -->
 <!-- ======================================================================================================================= -->
 <OverlayData>
-  <MarkerCategory 	  name="FOTM" DisplayName="Fractals of the Mists">
-	<MarkerCategory   name="AB"   DisplayName="Aetherblade" 		  	  fadeFar="850"  fadeNear="600"/>
-	<MarkerCategory   name="CS"   DisplayName="Cliffside">
-	  <MarkerCategory name="c1"   DisplayName="Speed Skip" 			  	  																 iconSize="0.75"/>
-	  <MarkerCategory name="c2"   DisplayName="Wind Skip" 			  	  fadeFar="1250" fadeNear="1000"/>
-	  <MarkerCategory name="c3"   DisplayName="Chest Speed Skip" 	  	  																 iconSize="0.75" rotate-x="180"/>
-	  <MarkerCategory name="c4"   DisplayName="Boss Skip" 			  	  																 iconSize="0.5"/>
-	</MarkerCategory>
-	<MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"  	  																 iconSize="0.2"/>
-	<MarkerCategory   name="NM"   DisplayName="Nightmare">
-	  <MarkerCategory name="c1"   DisplayName="Knight Spawns" 		  	  fadeFar="3500" fadeNear="3000" 								 iconSize=".75"  rotate-x="180"/>
-	  <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs" 		  	  fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"  iconSize="0.5"  rotate-x="180"/>
-	  <MarkerCategory name="c3"   DisplayName="North"				  	  fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png" 	 iconSize="1" 	 rotate-x="90"  rotate-z="180"/>
-	</MarkerCategory>
-	<MarkerCategory   name="ShO"  DisplayName="Shattered Observatory">
-	  <MarkerCategory name="c1"   DisplayName="Virastra Skip" 		  	  																 iconSize="0.5"/>
-	  <MarkerCategory name="c2"   DisplayName="Arkk Directions" 	  	  fadeFar="3000" fadeNear="2750" 								 rotate-x="90"/>
-	</MarkerCategory>
-	<MarkerCategory   name="SoO"  DisplayName="Solid Ocean" 		  	  fadeFar="4000" fadeNear="3500" 								 iconSize="1" 	 rotate-x="180" rotate-z="180"/>
-	<MarkerCategory   name="TR"   DisplayName="Thaumanova Reactor">
-	  <MarkerCategory name="c1"	  DisplayName="Maze" 				  	  fadeFar="3000" fadeNear="2750" 								 iconSize="0.75"/>
-	  <MarkerCategory name="c2"   DisplayName="Subject 6 Portal" 	  	  																 iconSize="0.75" rotate-x="180"/>
-	</MarkerCategory>
-	<MarkerCategory   name="TO"   DisplayName="Twilight Oasis"			  fadeFar="1000" fadeNear="750"									 iconSize="0.5"/>
-	<MarkerCategory   name="UC"   DisplayName="Uncategorized">
-	  <MarkerCategory name="c1"   DisplayName="Harpy JP Skip" 			  fadeFar="1000" fadeNear="750" 								 iconSize="0.2"/>
-	  <MarkerCategory name="c2"   DisplayName="Harpy Leap Skip" 		  fadeFar="1000" fadeNear="750"/>
-	</MarkerCategory>
-	<MarkerCategory   name="UF"   DisplayName="Underground Facility" 	  fadeFar="1000" fadeNear="750"/>
-	<MarkerCategory   name="UB"   DisplayName="Urban Battleground"/>
-	<MarkerCategory   name="Vo"   DisplayName="Volcanic">
-	  <MarkerCategory name="c1"   DisplayName="Portal" 					  																 iconSize="0.5"/>
-	  <MarkerCategory name="c2"   DisplayName="Cliff Fall"/>
-	</MarkerCategory>
+  <MarkerCategory     name="FOTM" DisplayName="Fractals of the Mists">
+    <MarkerCategory   name="AB"   DisplayName="Aetherblade"           fadeFar="850"  fadeNear="600"/>
+    <MarkerCategory   name="CS"   DisplayName="Cliffside">
+      <MarkerCategory name="c1"   DisplayName="Speed Skip"                                                                          iconSize="0.75"/>
+      <MarkerCategory name="c2"   DisplayName="Wind Skip"             fadeFar="1250" fadeNear="1000"/>
+      <MarkerCategory name="c3"   DisplayName="Chest Speed Skip"                                                                    iconSize="0.75" rotate-x="180"/>
+      <MarkerCategory name="c4"   DisplayName="Boss Skip"                                                                           iconSize="0.5"/>
+    </MarkerCategory>
+    <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                                                iconSize="0.2"/>
+    <MarkerCategory   name="NM"   DisplayName="Nightmare">
+      <MarkerCategory name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                iconSize=".75"  rotate-x="180"/>
+      <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png" iconSize="0.5"  rotate-x="180"/>
+      <MarkerCategory name="c3"   DisplayName="North"                 fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png"    iconSize="1"    rotate-x="90"  rotate-z="180"/>
+    </MarkerCategory>
+    <MarkerCategory   name="ShO"  DisplayName="Shattered Observatory">
+      <MarkerCategory name="c1"   DisplayName="Virastra Skip"                                                                       iconSize="0.5"/>
+      <MarkerCategory name="c2"   DisplayName="Arkk Directions"       fadeFar="3000" fadeNear="2750"                                                rotate-x="90"/>
+    </MarkerCategory>
+    <MarkerCategory   name="SoO"  DisplayName="Solid Ocean"           fadeFar="4000" fadeNear="3500"                                iconSize="1"    rotate-x="180"/>
+    <MarkerCategory   name="TR"   DisplayName="Thaumanova Reactor">
+      <MarkerCategory name="c1"   DisplayName="Maze"                  fadeFar="3000" fadeNear="2750"                                iconSize="0.75"/>
+      <MarkerCategory name="c2"   DisplayName="Subject 6 Portal"                                                                    iconSize="0.75" rotate-x="180"/>
+    </MarkerCategory>
+    <MarkerCategory   name="TO"   DisplayName="Twilight Oasis"        fadeFar="1000" fadeNear="750"                                 iconSize="0.5"/>
+    <MarkerCategory   name="UC"   DisplayName="Uncategorized">
+      <MarkerCategory name="c1"   DisplayName="Harpy JP Skip"         fadeFar="1000" fadeNear="750"                                 iconSize="0.2"/>
+      <MarkerCategory name="c2"   DisplayName="Harpy Leap Skip"       fadeFar="1000" fadeNear="750"/>
+    </MarkerCategory>
+    <MarkerCategory   name="UF"   DisplayName="Underground Facility"  fadeFar="1000" fadeNear="750"/>
+    <MarkerCategory   name="UB"   DisplayName="Urban Battleground"/>
+    <MarkerCategory   name="Vo"   DisplayName="Volcanic">
+      <MarkerCategory name="c1"   DisplayName="Portal"                                                                              iconSize="0.5"/>
+      <MarkerCategory name="c2"   DisplayName="Cliff Fall"/>
+    </MarkerCategory>
   </MarkerCategory>
-	
+    
   <POIs>
-	<!-- ======================================== AETHERBLADE ======================================== -->
-	<POI MapID="956"  xpos="-021.480" ypos="7.351"    zpos="96.879"   GUID="TeExJPcqu0qaos1t9NVy5Q==" type="FOTM.AB" 									iconFile="Data/Multi/stack.png"   iconSize="0.5"  rotate-x="0.01"/>
-	<POI MapID="956"  xpos="-010.685" ypos="10.252"   zpos="111.652"  GUID="aJe17B+snUiRQyHnGDkmXQ==" type="FOTM.AB" 		   								  																						   title="/gg After" title-color="white"/>
-	
-	
-	<!-- ======================================== CLIFFSIDE ======================================== -->
-	<!-- Initial Speed Skip -->
-	<POI MapID="952"  xpos="28.818"   ypos="560.948"  zpos="-26.444"  GUID="6g3UyuZKaE+xwQZtjKEOhA==" type="FOTM.CS.c1"  fadeFar="2250" fadeNear="1750" iconFile="Data/Fracs/pEnterS.png" 				  rotate-x="160"/>
-	<POI MapID="952"  xpos="32.650"   ypos="591.972"  zpos="-22.834"  GUID="pdXNCnwv3U+BdE3bNOw+mQ==" type="FOTM.CS.c1"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png" 		   		  rotate-x="172"  			    rotate-z="113"/>
-	<!-- Wind Skip -->
-	<POI MapID="952"  xpos="64.284"   ypos="591.430"  zpos="96.785"   GUID="0rMXPgdqGk6zn89nFpCYKw==" type="FOTM.CS.c2" 	   							iconFile="Data/Fracs/pEnterB.png" iconSize="0.75" rotate-x="180"  			    rotate-z="180"/>
-	<POI MapID="952"  xpos="58.289"   ypos="612.994"  zpos="103.089"  GUID="x1KlRA0eoUWd9ZF5ucGrTw==" type="FOTM.CS.c2" 	   							iconFile="Data/Multi/stack.png"   iconSize="0.4"  rotate-x="20"   			    rotate-z="90"/>
-	<POI MapID="952"  xpos="63.395"   ypos="629.228"  zpos="104.334"  GUID="+7Z2NyX+GUirveUK0Ocbfg==" type="FOTM.CS.c2" 	   							iconFile="Data/Multi/stack.png"   iconSize="0.35" rotate-x="0.01" 			    rotate-z="45"/>
-	<POI MapID="952"  xpos="66.268"   ypos="629.205"  zpos="106.401"  GUID="YmFq1+jrZEOTJzw1E4bRuQ==" type="FOTM.CS.c2" 	  							iconFile="Data/Fracs/pExit.png"   iconSize="0.75" rotate-x="180"/>
-	<!-- Chest Speed Skip -->
-	<POI MapID="952"  xpos="55.598"   ypos="666.716"  zpos="-11.571"  GUID="MFNW+q4CmEKPXl4L7cv/ew==" type="FOTM.CS.c3"  fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/pEnter.png" 	   			  rotate-x="180"  			    rotate-z="90"/>
-	<POI MapID="952"  xpos="63.096"   ypos="690.362"  zpos="-30.095"  GUID="0DMnz4d9BE2Inse4u86rlw==" type="FOTM.CS.c3"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png" 		   										rotate-z="175"/>
-	<!-- Boss Skip -->
-	<POI MapID="952"  xpos="83.842"   ypos="686.608"  zpos="-33.996"  GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"   											rotate-z="90"/>
-	<POI MapID="952"  xpos="92.940"   ypos="710.636"  zpos="-17.700"  GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4"  fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
-	
-	
-	<!-- ======================================== MISTLOCK OBSERVATORY ======================================== -->
-	<POI MapID="872"  xpos="111.697"  ypos="218.000"  zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO" 	 fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="135" 			    rotate-z="-20"/>
-	<POI MapID="872"  xpos="118.867"  ypos="220.026"  zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="FOTM.MO" 	 fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="90"  rotate-y="-40" rotate-z="45"/>
-	<POI MapID="872"  xpos="124.155"  ypos="223.412"  zpos="-122.468" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" type="FOTM.MO" 	 fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="90"  rotate-y="-40" rotate-z="10"/>
-	<POI MapID="872"  xpos="113.774"  ypos="224.847"  zpos="-117.626" GUID="xTB1mTnifk2HelFqfpahpA==" type="FOTM.MO" 	 fadeFar="750"  fadeNear="550"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="95"  rotate-y="15"  rotate-z="315"/>
-	<POI MapID="872"  xpos="118.028"  ypos="227.950"  zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="FOTM.MO" 	 fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="90"  rotate-y="-47" rotate-z="-20"/>
-	<POI MapID="872"  xpos="119.893"  ypos="233.836"  zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="FOTM.MO" 	 fadeFar="500"  fadeNear="300"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="90"/>
-	<POI MapID="872"  xpos="117.047"  ypos="237.964"  zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="FOTM.MO" 	 fadeFar="550"  fadeNear="350"  iconFile="Data/Fracs/didSkip.png" 		   		  rotate-x="90" 				rotate-z="245"/>
-	
-	
-	<!-- ======================================== NIGHTMARE ======================================== -->
-	<!-- Knights -->
-	<POI MapID="1177" xpos="115.401"  ypos="12.456"   zpos="153.006"  GUID="D3TdNEjLFECd1ntKnkDcaA==" type="FOTM.NM.c1"   							    iconFile="Data/Multi/1.png" 		   											rotate-z="90"/>
-	<POI MapID="1177" xpos="92.618"   ypos="12.069"   zpos="168.462"  GUID="ZeSgHnJTfECytz2/yyLeXw==" type="FOTM.NM.c1"   							    iconFile="Data/Multi/2.png" 		   											rotate-z="205"/>
-	<POI MapID="1177" xpos="90.366"   ypos="11.947"   zpos="139.640"  GUID="Z+mzkaYKOECG+yc90OclmA==" type="FOTM.NM.c1"   						 	    iconFile="Data/Multi/3.png" 		   											rotate-z="-35"/>
-	<!-- Orbs / North -->
-	<POI MapID="1177" xpos="32.704"   ypos="43.036"   zpos="25.660"   GUID="DijNR9RjrU2qeI58A1CaHQ==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="28.262"   ypos="43.037"   zpos="40.208"   GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="41.074"   ypos="43.037"   zpos="49.066"   GUID="2I2VcNI2vEezT6b7D8zQew==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="53.673"   ypos="43.036"   zpos="40.200"   GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="48.134"   ypos="43.036"   zpos="26.115"   GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c2"/>
-	<POI MapID="1177" xpos="41.746"   ypos="44.797"   zpos="64.036"   GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c3"/>
-	
-	
-	<!-- ======================================== SHATTERED OBSERVATORY ======================================== -->
-	<!-- Viirastra Skip -->
-	<POI MapID="1205" xpos="342.781"  ypos="108.648"  zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="190" 			    rotate-z="310"/>
-	<POI MapID="1205" xpos="331.750"  ypos="111.834"  zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="90"  			    rotate-z="-65"/>
-	<POI MapID="1205" xpos="293.118"  ypos="115.052"  zpos="67.348"   GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/didSkip.png" 		   		  rotate-x="90"  			    rotate-z="-65"/>
-	<!-- Arkk Directions -->
-	<POI MapID="1205" xpos="-455.315" ypos="72.456"   zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.c2" 	   							iconFile="Data/Multi/n.png"  		   										    rotate-z="180"/>
-	<POI MapID="1205" xpos="-421.715" ypos="72.477"   zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.c2" 	   							iconFile="Data/Multi/e.png" 		   											rotate-z="90"/>
-	<POI MapID="1205" xpos="-455.382" ypos="72.477"   zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="FOTM.ShO.c2" 	   						 	iconFile="Data/Multi/s.png"/>
-	<POI MapID="1205" xpos="-489.319" ypos="72.477"   zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.c2" 	   					 		iconFile="Data/Multi/w.png" 		   											rotate-z="270"/>
-	
-	
-	<!-- ======================================== SOLID OCEAN ======================================== -->
-	<POI MapID="958"  xpos="770.913"  ypos="586.057"  zpos="823.828"  GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO" 		   							iconFile="Data/Multi/1.png"/>
-	<POI MapID="958"  xpos="760.923"  ypos="586.041"  zpos="791.083"  GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO" 		   							iconFile="Data/Multi/2.png"/>
-	<POI MapID="958"  xpos="737.936"  ypos="586.272"  zpos="805.532"  GUID="nxJBQoVS10iz75vDtFhveQ==" type="FOTM.SoO" 		   							iconFile="Data/Multi/3.png"/>
-	<POI MapID="958"  xpos="752.218"  ypos="586.251"  zpos="815.256"  GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="FOTM.SoO" 		   							iconFile="Data/Multi/4.png"/>
-	<POI MapID="958"  xpos="777.881"  ypos="586.160"  zpos="791.418"  GUID="flcdVoGDNEilezff3lqm9g==" type="FOTM.SoO" 		   							iconFile="Data/Multi/5.png"/>
-	<POI MapID="958"  xpos="768.241"  ypos="586.100"  zpos="808.040"  GUID="vJemMyXPEUuNSZPGfzvu/w==" type="FOTM.SoO" 		   							iconFile="Data/Multi/6.png"/>
-	<POI MapID="958"  xpos="746.085"  ypos="586.202"  zpos="790.579"  GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="FOTM.SoO" 		   							iconFile="Data/Multi/7.png"/>
-	<POI MapID="958"  xpos="727.075"  ypos="586.890"  zpos="794.372"  GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="FOTM.SoO" 		   							iconFile="Data/Multi/8.png"/>
-	<POI MapID="958"  xpos="753.406"  ypos="586.213"  zpos="802.226"  GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="FOTM.SoO" 		   							iconFile="Data/Multi/9.png"/>
-	<POI MapID="958"  xpos="738.195"  ypos="586.285"  zpos="819.331"  GUID="qaJzH5kbLEqopYySdAFJbw==" type="FOTM.SoO" 		   							iconFile="Data/Multi/10.png"/>
-	
-	
-	<!-- ======================================== THAMANOVA REACTOR ======================================== -->
-	<!-- Maze -->
-	<POI MapID="957"  xpos="-2.204"   ypos="37.664"   zpos="-214.180" GUID="RM53JibWak6Mu3tmiFVNhw==" type="FOTM.TR.c1" 	   							iconFile="Data/Multi/1.png"/>
-	<POI MapID="957"  xpos="-52.010"  ypos="37.164"   zpos="-192.614" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="FOTM.TR.c1" 	   							iconFile="Data/Multi/2.png"/>
-	<POI MapID="957"  xpos="-18.967"  ypos="40.647"   zpos="-231.344" GUID="8jv47sgfbkmfME22/3LvqQ==" type="FOTM.TR.c1" 	   							iconFile="Data/Multi/3.png"/>
-	<!-- Portal -->
-	<POI MapID="957"  xpos="133.990"  ypos="20.133"   zpos="116.249"  GUID="lGx15a7kx0WpH83FFFdq3A==" type="FOTM.TR.c2"  fadeFar="1750" fadeNear="1250" iconFile="Data/Fracs/pEnter.png" 	   										    rotate-z="45"/>
-	<POI MapID="957"  xpos="133.990"  ypos="19.889"   zpos="26.760"   GUID="jRFM1oCAF0SUWpEQErqKaA==" type="FOTM.TR.c2"  fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/pExit.png" 		   										rotate-z="180"/>
-	
-	
-	<!-- ======================================== TWILIGHT OASIS ======================================== -->
-	<POI MapID="1267" xpos="126.685"  ypos="11.943"   zpos="76.939"   GUID="Y9iDxpas+UCJvnT78e5Lqg==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png" 					  rotate-x="180" rotate-z="45"/>
-	<POI MapID="1267" xpos="128.429"  ypos="22.525"   zpos="76.136"   GUID="kF1rIo0U+0eMdn220VSTrQ==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png" 					  rotate-x="90"  rotate-y="-45" rotate-z="90"/>
-	<POI MapID="1267" xpos="126.675"  ypos="30.480"   zpos="75.335"   GUID="J3pK25KUMkWq5Wf5vLCBOw==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png" 					  rotate-x="90"  rotate-y="-45"/>
-	<POI MapID="1267" xpos="128.852"  ypos="34.851"   zpos="68.165"   GUID="cPrIEthiB0igyCtqA3f5Sg==" type="FOTM.TO" 									iconFile="Data/Fracs/skip.png" 					  rotate-x="90"  rotate-y="-45" rotate-z="90"/>
-	<POI MapID="1267" xpos="135.409"  ypos="43.761"   zpos="73.991"   GUID="j9TmY/3caUK/E900bC9ORQ==" type="FOTM.TO" 									iconFile="Data/Fracs/didSkip.png" 				  rotate-x="90"  rotate-z="180"/>
-	
-	
-	<!-- ======================================== UNCATEGORIZED ======================================== -->
-	<!-- Leap Version -->
-	<POI MapID="947"  xpos="-824.750" ypos="841.984"  zpos="-729.816" GUID="Q3pB7fmuVkm7erxOABdX+Q==" type="FOTM.UC.c1" 	   							iconFile="Data/Fracs/skip.png" 	  iconSize="0.35" rotate-x="140"  			    rotate-z="235"/>
-	<POI MapID="947"  xpos="-842.013" ypos="857.209"  zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="FOTM.UC.c1" 	   							iconFile="Data/Fracs/didSkip.png" iconSize="0.5"  rotate-x="125" rotate-y="17"  rotate-z="150"/>
-	<!-- JP Version -->
-	<POI MapID="947"  xpos="-773.973" ypos="838.598"  zpos="-766.206" GUID="xmRtsVhexUCyM087px4mzg==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/skip.png" 			   		  rotate-x="65"  rotate-y="-40" rotate-z="70"/>
-	<POI MapID="947"  xpos="-773.709" ypos="839.839"  zpos="-765.221" GUID="3eMN6GYkTUyO9/RE+5q+Tw==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/skip.png" 			   		  rotate-x="95"  rotate-y="-20" rotate-z="45"/>
-	<POI MapID="947"  xpos="-773.842" ypos="841.064"  zpos="-764.274" GUID="sWOsELHGLU+jR0zaLnKCnA==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/skip.png" 			   		  rotate-x="70"  rotate-y="-40" rotate-z="88"/>
-	<POI MapID="947"  xpos="-779.275" ypos="840.528"  zpos="-757.400" GUID="tv45QQEqFUOqZ3ouRQ9bNQ==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/skip.png" 			   		  rotate-x="125" 			    rotate-z="135"/>
-	<POI MapID="947"  xpos="-780.850" ypos="846.768"  zpos="-749.200" GUID="HEow3lpVmE+/7ZGRPcbIdg==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/skip.png" 			   		  rotate-x="122" 		 	    rotate-z="260"/>
-	<POI MapID="947"  xpos="-776.717" ypos="848.189"  zpos="-753.146" GUID="H73jBUtzCUGuLHHMZd654g==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/skip.png" 			   		  rotate-x="125" 			    rotate-z="140"/>
-	<POI MapID="947"  xpos="-772.825" ypos="850.759"  zpos="-753.725" GUID="Q7GuhpvSJUan9baSSU5+/w==" type="FOTM.UC.c2" 	   							iconFile="Data/Fracs/didSkip.png" 		   		  rotate-x="125" rotate-y="-7"  rotate-z="140"/>
-	
-	
-	<!-- ======================================== UNDERGROUND FACILITY ======================================== -->
-	<POI MapID="953"  xpos="692.992"  ypos="23.008"   zpos="391.388"  GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF" 		   							iconFile="Data/Fracs/didSkip.png" iconSize="0.5"/>
-	<Trail trailData="Data/Fracs/facility skip.trl" texture="Data/Fracs/graytrail.png" animSpeed="2" alpha="1" type="FOTM.UF" trailScale="2" fadeNear="750" fadeFar="1000"/>
-	
-	
-	<!-- ======================================== URBAN BATTLEGROUND ======================================== -->
-	<Trail trailData="Data/Fracs/UB Oils.trl" texture="Data/Fracs/redtrail.png" animSpeed="2" alpha="1" type="FOTM.UB"   fadeFar="1500" fadeNear="1000"/>
-	
-	
-	<!-- ======================================== VOLCANIC ======================================== -->
-	<!-- Portal -->
-	<POI MapID="954"  xpos="350.135"  ypos="81.000"   zpos="-716.496" GUID="4bFCZMjeJESnDAfAWNvqSA==" type="FOTM.Vo.c1"  fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/pEnter.png" 	   			  rotate-x="170" rotate-y="-10" rotate-z="225"/>
-	<POI MapID="954"  xpos="232.187"  ypos="52.805"   zpos="-691.025" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" type="FOTM.Vo.c1"  fadeFar="900"  fadeNear="750"  iconFile="Data/Fracs/pExit.png" 		   		  rotate-x="173" rotate-y="-5"  rotate-z="114"/>
-	<!-- Cliff -->
-	<POI MapID="954"  xpos="201.607"  ypos="7.227"    zpos="-737.238" GUID="vJpxrQmGp0Sd6jU7PgTVMA==" type="FOTM.Vo.c2"  fadeFar="1350" fadeNear="1100" 														   									   title="Start Jumping!" title-color="white"/>
-	<POI MapID="954"  xpos="198.889"  ypos="52.540"   zpos="-725.508" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="FOTM.Vo.c2"  fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/skip.png" 			   		  rotate-x="180"/>
-	<POI MapID="954"  xpos="196.401"  ypos="28.001"   zpos="-730.729" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="FOTM.Vo.c2"  fadeFar="1100" fadeNear="1000" iconFile="Data/Fracs/skip.png"			   		  rotate-x="135" 			    rotate-z="-48"/>
-	<POI MapID="954"  xpos="204.046"  ypos="5.654"    zpos="-731.373" GUID="vW3ZXkN/PUiyF6P2m3Jlww==" type="FOTM.Vo.c2"  fadeFar="1100" fadeNear="1000" iconFile="Data/Fracs/skip.png" 			   		  rotate-x="180"/>
-	<POI MapID="954"  xpos="235.295"  ypos="7.000"    zpos="-781.714" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="FOTM.Vo.c2"  fadeFar="2500" fadeNear="2250" iconFile="Data/Fracs/didSkip.png" 		   		  rotate-x="160" 			    rotate-z="20"/>
+    <!-- ======================================== AETHERBLADE ======================================== -->
+    <POI MapID="956"  xpos="-021.480" ypos="7.351"    zpos="96.879"   GUID="TeExJPcqu0qaos1t9NVy5Q==" type="FOTM.AB"                                    iconFile="Data/Multi/stack.png"   iconSize="0.5"  rotate-x="0.01"/>
+    <POI MapID="956"  xpos="-010.685" ypos="10.252"   zpos="111.652"  GUID="aJe17B+snUiRQyHnGDkmXQ==" type="FOTM.AB"                                                                                                                                   title="/gg After"      title-color="white"/>
+    
+    
+    <!-- ======================================== CLIFFSIDE ======================================== -->
+    <!-- Initial Speed Skip -->
+    <POI MapID="952"  xpos="28.818"   ypos="560.948"  zpos="-26.444"  GUID="6g3UyuZKaE+xwQZtjKEOhA==" type="FOTM.CS.c1"  fadeFar="2250" fadeNear="1750" iconFile="Data/Fracs/pEnterS.png"                 rotate-x="160"/>
+    <POI MapID="952"  xpos="32.650"   ypos="591.972"  zpos="-22.834"  GUID="pdXNCnwv3U+BdE3bNOw+mQ==" type="FOTM.CS.c1"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"                   rotate-x="172"                rotate-z="113"/>
+    <!-- Wind Skip -->
+    <POI MapID="952"  xpos="64.284"   ypos="591.430"  zpos="96.785"   GUID="0rMXPgdqGk6zn89nFpCYKw==" type="FOTM.CS.c2"                                 iconFile="Data/Fracs/pEnterB.png" iconSize="0.75" rotate-x="180"                rotate-z="180"/>
+    <POI MapID="952"  xpos="58.289"   ypos="612.994"  zpos="103.089"  GUID="x1KlRA0eoUWd9ZF5ucGrTw==" type="FOTM.CS.c2"                                 iconFile="Data/Multi/stack.png"   iconSize="0.4"  rotate-x="20"                 rotate-z="90"/>
+    <POI MapID="952"  xpos="63.395"   ypos="629.228"  zpos="104.334"  GUID="+7Z2NyX+GUirveUK0Ocbfg==" type="FOTM.CS.c2"                                 iconFile="Data/Multi/stack.png"   iconSize="0.35" rotate-x="0.01"               rotate-z="45"/>
+    <POI MapID="952"  xpos="66.268"   ypos="629.205"  zpos="106.401"  GUID="YmFq1+jrZEOTJzw1E4bRuQ==" type="FOTM.CS.c2"                                 iconFile="Data/Fracs/pExit.png"   iconSize="0.75" rotate-x="180"/>
+    <!-- Chest Speed Skip -->
+    <POI MapID="952"  xpos="55.598"   ypos="666.716"  zpos="-11.571"  GUID="MFNW+q4CmEKPXl4L7cv/ew==" type="FOTM.CS.c3"  fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/pEnter.png"                  rotate-x="180"                rotate-z="90"/>
+    <POI MapID="952"  xpos="63.096"   ypos="689.062"  zpos="-30.095"  GUID="0DMnz4d9BE2Inse4u86rlw==" type="FOTM.CS.c3"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"                                                 rotate-z="175"/>
+    <!-- Boss Skip -->
+    <POI MapID="952"  xpos="83.842"   ypos="686.608"  zpos="-33.996"  GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"                                               rotate-z="90"/>
+    <POI MapID="952"  xpos="92.940"   ypos="710.636"  zpos="-17.700"  GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4"  fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
+    
+    
+    <!-- ======================================== MISTLOCK OBSERVATORY ======================================== -->
+    <POI MapID="872"  xpos="111.697"  ypos="218.000"  zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO"     fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/skip.png"                    rotate-x="135"                rotate-z="-20"/>
+    <POI MapID="872"  xpos="118.867"  ypos="220.026"  zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="FOTM.MO"     fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/skip.png"                    rotate-x="90"  rotate-y="-40" rotate-z="45"/>
+    <POI MapID="872"  xpos="124.155"  ypos="223.412"  zpos="-122.468" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" type="FOTM.MO"     fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png"                    rotate-x="90"  rotate-y="-40" rotate-z="10"/>
+    <POI MapID="872"  xpos="113.774"  ypos="224.847"  zpos="-117.626" GUID="xTB1mTnifk2HelFqfpahpA==" type="FOTM.MO"     fadeFar="750"  fadeNear="550"  iconFile="Data/Fracs/skip.png"                    rotate-x="95"  rotate-y="15"  rotate-z="315"/>
+    <POI MapID="872"  xpos="118.028"  ypos="227.950"  zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="FOTM.MO"     fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/skip.png"                    rotate-x="90"  rotate-y="-47" rotate-z="-20"/>
+    <POI MapID="872"  xpos="119.893"  ypos="233.836"  zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="FOTM.MO"     fadeFar="500"  fadeNear="300"  iconFile="Data/Fracs/skip.png"                    rotate-x="90"/>
+    <POI MapID="872"  xpos="117.047"  ypos="237.964"  zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="FOTM.MO"     fadeFar="550"  fadeNear="350"  iconFile="Data/Fracs/didSkip.png"                 rotate-x="90"                 rotate-z="245"/>
+    
+    
+    <!-- ======================================== NIGHTMARE ======================================== -->
+    <!-- Knights -->
+    <POI MapID="1177" xpos="115.401"  ypos="12.456"   zpos="153.006"  GUID="D3TdNEjLFECd1ntKnkDcaA==" type="FOTM.NM.c1"                                 iconFile="Data/Multi/1.png"                                                     rotate-z="90"/>
+    <POI MapID="1177" xpos="92.618"   ypos="12.069"   zpos="168.462"  GUID="ZeSgHnJTfECytz2/yyLeXw==" type="FOTM.NM.c1"                                 iconFile="Data/Multi/2.png"                                                     rotate-z="205"/>
+    <POI MapID="1177" xpos="90.366"   ypos="11.947"   zpos="139.640"  GUID="Z+mzkaYKOECG+yc90OclmA==" type="FOTM.NM.c1"                                 iconFile="Data/Multi/3.png"                                                     rotate-z="-35"/>
+    <!-- Orbs / North -->
+    <POI MapID="1177" xpos="32.704"   ypos="43.036"   zpos="25.660"   GUID="DijNR9RjrU2qeI58A1CaHQ==" type="FOTM.NM.c2"/>
+    <POI MapID="1177" xpos="28.262"   ypos="43.037"   zpos="40.208"   GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="FOTM.NM.c2"/>
+    <POI MapID="1177" xpos="41.074"   ypos="43.037"   zpos="49.066"   GUID="2I2VcNI2vEezT6b7D8zQew==" type="FOTM.NM.c2"/>
+    <POI MapID="1177" xpos="53.673"   ypos="43.036"   zpos="40.200"   GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c2"/>
+    <POI MapID="1177" xpos="48.134"   ypos="43.036"   zpos="26.115"   GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c2"/>
+    <POI MapID="1177" xpos="41.746"   ypos="44.797"   zpos="64.036"   GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c3"/>
+    
+    
+    <!-- ======================================== SHATTERED OBSERVATORY ======================================== -->
+    <!-- Viirastra Skip -->
+    <POI MapID="1205" xpos="342.781"  ypos="108.648"  zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/skip.png"                    rotate-x="190"                rotate-z="310"/>
+    <POI MapID="1205" xpos="331.750"  ypos="111.834"  zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"                    rotate-x="90"                 rotate-z="-65"/>
+    <POI MapID="1205" xpos="293.118"  ypos="115.052"  zpos="67.348"   GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/didSkip.png"                 rotate-x="90"                 rotate-z="-65"/>
+    <!-- Arkk Directions -->
+    <POI MapID="1205" xpos="-455.315" ypos="72.456"   zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/n.png"                                                     rotate-z="180"/>
+    <POI MapID="1205" xpos="-421.715" ypos="72.477"   zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/e.png"                                                     rotate-z="90"/>
+    <POI MapID="1205" xpos="-455.382" ypos="72.477"   zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/s.png"/>
+    <POI MapID="1205" xpos="-489.319" ypos="72.477"   zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/w.png"                                                     rotate-z="270"/>
+    
+    
+    <!-- ======================================== SOLID OCEAN ======================================== -->
+    <POI MapID="958"  xpos="770.913"  ypos="586.057"  zpos="823.828"  GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO"                                   iconFile="Data/Multi/1.png"                                                     rotate-z="135"/>
+    <POI MapID="958"  xpos="760.923"  ypos="586.041"  zpos="791.083"  GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO"                                   iconFile="Data/Multi/2.png"                                                     rotate-z="345"/>
+    <POI MapID="958"  xpos="737.936"  ypos="586.272"  zpos="805.532"  GUID="nxJBQoVS10iz75vDtFhveQ==" type="FOTM.SoO"                                   iconFile="Data/Multi/3.png"                                                     rotate-z="235"/>
+    <POI MapID="958"  xpos="752.218"  ypos="586.251"  zpos="815.256"  GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="FOTM.SoO"                                   iconFile="Data/Multi/4.png"                                                     rotate-z="125"/>
+    <POI MapID="958"  xpos="777.881"  ypos="586.160"  zpos="791.418"  GUID="flcdVoGDNEilezff3lqm9g==" type="FOTM.SoO"                                   iconFile="Data/Multi/5.png"                                                     rotate-z="45"/>
+    <POI MapID="958"  xpos="768.241"  ypos="586.100"  zpos="808.040"  GUID="vJemMyXPEUuNSZPGfzvu/w==" type="FOTM.SoO"                                   iconFile="Data/Multi/6.png"                                                     rotate-z="210"/>
+    <POI MapID="958"  xpos="746.085"  ypos="586.202"  zpos="790.579"  GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="FOTM.SoO"                                   iconFile="Data/Multi/7.png"                                                     rotate-z="310"/>
+    <POI MapID="958"  xpos="727.075"  ypos="586.890"  zpos="794.372"  GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="FOTM.SoO"                                   iconFile="Data/Multi/8.png"                                                     rotate-z="260"/>
+    <POI MapID="958"  xpos="753.406"  ypos="586.213"  zpos="802.226"  GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="FOTM.SoO"                                   iconFile="Data/Multi/9.png"                                                     rotate-z="105"/>
+    <POI MapID="958"  xpos="738.195"  ypos="586.285"  zpos="819.331"  GUID="qaJzH5kbLEqopYySdAFJbw==" type="FOTM.SoO"                                   iconFile="Data/Multi/10.png"                                                    rotate-z="220"/>
+    
+    
+    <!-- ======================================== THAMANOVA REACTOR ======================================== -->
+    <!-- Maze -->
+    <POI MapID="957"  xpos="-2.204"   ypos="37.664"   zpos="-214.180" GUID="RM53JibWak6Mu3tmiFVNhw==" type="FOTM.TR.c1"                                 iconFile="Data/Multi/1.png"/>
+    <POI MapID="957"  xpos="-52.010"  ypos="37.164"   zpos="-192.614" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="FOTM.TR.c1"                                 iconFile="Data/Multi/2.png"/>
+    <POI MapID="957"  xpos="-18.967"  ypos="40.647"   zpos="-231.344" GUID="8jv47sgfbkmfME22/3LvqQ==" type="FOTM.TR.c1"                                 iconFile="Data/Multi/3.png"/>
+    <!-- Portal -->
+    <POI MapID="957"  xpos="133.990"  ypos="20.133"   zpos="116.249"  GUID="lGx15a7kx0WpH83FFFdq3A==" type="FOTM.TR.c2"  fadeFar="1750" fadeNear="1250" iconFile="Data/Fracs/pEnter.png"                                                rotate-z="45"/>
+    <POI MapID="957"  xpos="133.990"  ypos="19.889"   zpos="26.760"   GUID="jRFM1oCAF0SUWpEQErqKaA==" type="FOTM.TR.c2"  fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/pExit.png"                                                 rotate-z="180"/>
+    
+    
+    <!-- ======================================== TWILIGHT OASIS ======================================== -->
+    <POI MapID="1267" xpos="126.685"  ypos="11.943"   zpos="76.939"   GUID="Y9iDxpas+UCJvnT78e5Lqg==" type="FOTM.TO"                                    iconFile="Data/Fracs/skip.png"                    rotate-x="180"                rotate-z="45"/>
+    <POI MapID="1267" xpos="128.429"  ypos="22.525"   zpos="76.136"   GUID="kF1rIo0U+0eMdn220VSTrQ==" type="FOTM.TO"                                    iconFile="Data/Fracs/skip.png"                    rotate-x="90"  rotate-y="-45" rotate-z="90"/>
+    <POI MapID="1267" xpos="126.675"  ypos="30.480"   zpos="75.335"   GUID="J3pK25KUMkWq5Wf5vLCBOw==" type="FOTM.TO"                                    iconFile="Data/Fracs/skip.png"                    rotate-x="90"  rotate-y="-45"/>
+    <POI MapID="1267" xpos="128.852"  ypos="34.851"   zpos="68.165"   GUID="cPrIEthiB0igyCtqA3f5Sg==" type="FOTM.TO"                                    iconFile="Data/Fracs/skip.png"                    rotate-x="90"  rotate-y="-45" rotate-z="90"/>
+    <POI MapID="1267" xpos="135.409"  ypos="43.761"   zpos="73.991"   GUID="j9TmY/3caUK/E900bC9ORQ==" type="FOTM.TO"                                    iconFile="Data/Fracs/didSkip.png"                 rotate-x="90"                 rotate-z="180"/>
+    
+    
+    <!-- ======================================== UNCATEGORIZED ======================================== -->
+    <!-- Leap Version -->
+    <POI MapID="947"  xpos="-824.750" ypos="841.984"  zpos="-729.816" GUID="Q3pB7fmuVkm7erxOABdX+Q==" type="FOTM.UC.c1"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.35" rotate-x="140"                rotate-z="235"/>
+    <POI MapID="947"  xpos="-842.013" ypos="857.209"  zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="FOTM.UC.c1"                                 iconFile="Data/Fracs/didSkip.png" iconSize="0.5"  rotate-x="125" rotate-y="17"  rotate-z="150"/>
+    <!-- JP Version -->
+    <POI MapID="947"  xpos="-773.973" ypos="838.598"  zpos="-766.206" GUID="xmRtsVhexUCyM087px4mzg==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/skip.png"                    rotate-x="65"  rotate-y="-40" rotate-z="70"/>
+    <POI MapID="947"  xpos="-773.709" ypos="839.839"  zpos="-765.221" GUID="3eMN6GYkTUyO9/RE+5q+Tw==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/skip.png"                    rotate-x="95"  rotate-y="-20" rotate-z="45"/>
+    <POI MapID="947"  xpos="-773.842" ypos="841.064"  zpos="-764.274" GUID="sWOsELHGLU+jR0zaLnKCnA==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/skip.png"                    rotate-x="70"  rotate-y="-40" rotate-z="88"/>
+    <POI MapID="947"  xpos="-779.275" ypos="840.528"  zpos="-757.400" GUID="tv45QQEqFUOqZ3ouRQ9bNQ==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/skip.png"                    rotate-x="125"                rotate-z="135"/>
+    <POI MapID="947"  xpos="-780.850" ypos="846.768"  zpos="-749.200" GUID="HEow3lpVmE+/7ZGRPcbIdg==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/skip.png"                    rotate-x="122"                rotate-z="260"/>
+    <POI MapID="947"  xpos="-776.717" ypos="848.189"  zpos="-753.146" GUID="H73jBUtzCUGuLHHMZd654g==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/skip.png"                    rotate-x="125"                rotate-z="140"/>
+    <POI MapID="947"  xpos="-772.825" ypos="850.759"  zpos="-753.725" GUID="Q7GuhpvSJUan9baSSU5+/w==" type="FOTM.UC.c2"                                 iconFile="Data/Fracs/didSkip.png"                 rotate-x="125" rotate-y="-7"  rotate-z="140"/>
+    
+    
+    <!-- ======================================== UNDERGROUND FACILITY ======================================== -->
+    <POI MapID="953"  xpos="692.992"  ypos="23.008"   zpos="391.388"  GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF"                                    iconFile="Data/Fracs/didSkip.png" iconSize="0.5"/>
+    <Trail trailData="Data/Fracs/facility skip.trl" texture="Data/Fracs/graytrail.png" animSpeed="2" alpha="1" type="FOTM.UF" trailScale="2" fadeNear="750" fadeFar="1000"/>
+    
+    
+    <!-- ======================================== URBAN BATTLEGROUND ======================================== -->
+    <Trail trailData="Data/Fracs/UB Oils.trl" texture="Data/Fracs/redtrail.png" animSpeed="2" alpha="1" type="FOTM.UB"   fadeFar="1500" fadeNear="1000"/>
+    
+    
+    <!-- ======================================== VOLCANIC ======================================== -->
+    <!-- Portal -->
+    <POI MapID="954"  xpos="350.135"  ypos="81.000"   zpos="-716.496" GUID="4bFCZMjeJESnDAfAWNvqSA==" type="FOTM.Vo.c1"  fadeFar="600"  fadeNear="400"  iconFile="Data/Fracs/pEnter.png"                  rotate-x="170" rotate-y="-10" rotate-z="225"/>
+    <POI MapID="954"  xpos="232.187"  ypos="52.805"   zpos="-691.025" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" type="FOTM.Vo.c1"  fadeFar="900"  fadeNear="750"  iconFile="Data/Fracs/pExit.png"                   rotate-x="173" rotate-y="-5"  rotate-z="114"/>
+    <!-- Cliff -->
+    <POI MapID="954"  xpos="201.607"  ypos="7.227"    zpos="-737.238" GUID="vJpxrQmGp0Sd6jU7PgTVMA==" type="FOTM.Vo.c2"  fadeFar="1350" fadeNear="1100"                                                                                                title="Start Jumping!" title-color="white"/>
+    <POI MapID="954"  xpos="198.889"  ypos="52.540"   zpos="-725.508" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="FOTM.Vo.c2"  fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/skip.png"                    rotate-x="180"/>
+    <POI MapID="954"  xpos="196.401"  ypos="28.001"   zpos="-730.729" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="FOTM.Vo.c2"  fadeFar="1100" fadeNear="1000" iconFile="Data/Fracs/skip.png"                    rotate-x="135"                rotate-z="-48"/>
+    <POI MapID="954"  xpos="204.046"  ypos="5.654"    zpos="-731.373" GUID="vW3ZXkN/PUiyF6P2m3Jlww==" type="FOTM.Vo.c2"  fadeFar="1100" fadeNear="1000" iconFile="Data/Fracs/skip.png"                    rotate-x="180"/>
+    <POI MapID="954"  xpos="235.295"  ypos="7.000"    zpos="-781.714" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="FOTM.Vo.c2"  fadeFar="2500" fadeNear="2250" iconFile="Data/Fracs/didSkip.png"                 rotate-x="160"                rotate-z="20"/>
   </POIs>
 </OverlayData>
