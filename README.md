@@ -9,7 +9,6 @@ But what's available works (for the most part)
 
 ### Notes:
 - **1\*** Waiting for improved Blish support for `title` functionality.
-- **2\*** Waiting for improved Blish support for `trail` functionality.
 - **3\*** Waiting for Blish support of `behavior` functionality.
 - **4\*** Waiting for Blish support of `timer` functionality.
 - **5\*** Waiting for improved Blish support for `rotate` functionality.
@@ -48,9 +47,9 @@ But what's available works (for the most part)
   - [x] *Markers* for the JP version of the Skip.
   - [x] *Markers* for the Leap version of the Skip.
 - [ ] **Underground Facility:**
-  - [ ] **2\*** *A Trail* for the 1st Plate Skip.
+  - [ ] *A Trail* for the 1st Plate Skip.
 - [ ] **Urban Battlegrounds:**
-  - [ ] **2\*** *A Trail* showing the Burning Oil boundary.
+  - [x] *A Trail* showing the Burning Oil boundary.
   - [ ] *Markers* for a Speed Skip if the fastest route is not available.
 - [x] **Volcanic:**
   - [x] *Markers* for the beginning Portal (Speed) Skip.
@@ -65,7 +64,7 @@ But what's available works (for the most part)
   - [ ] **8\*** *Markers* to confirm if a player aquired all chests.
 - [ ] **Spirit Woods:**
   - [x] **3\*** *Timers* for the initial Adrenal Mushrooms.
-  - [ ] **2\*** *Trails* showing Spirit Run's Capture Point Triggers **(Need a group to grind SW with)**.
+  - [ ] *Trails* showing Spirit Run's Capture Point Triggers **(Need a group to grind SW with)**.
 - [x] **Gorseval:**
   - [x] *Markers* for two Spirit Spawns inbetween phases.
 - [x] **Sabetha:**
@@ -100,7 +99,7 @@ But what's available works (for the most part)
   - [x] *Markers* for Rifts.
   - [x] *A Marker* for one of many spots for an instant pull.
 - [x] **Twisted Castle:**
-  - [x] **2\*** *A Trail* for the First Button Skip (only can be done with certain skills).
+  - [x] *A Trail* for the First Button Skip (only can be done with certain skills).
   - [x] *Markers* for Buttons (in ideal activation order).
   - [x] *Markers* for Doors.
 - [x] **Xera:**
@@ -135,7 +134,7 @@ But what's available works (for the most part)
 - [x] **Dhuum:**
   - [x] *Markers* for each Reaper.
   - [x] **1\*4\*** *A Timer* (run-over) for Greens, Soul Split, and Dips.
-  - [x] **2\*** *A Trail* easily showing the Death Border when gathering Orbs.
+  - [x] *A Trail* easily showing the Death Border when gathering Orbs.
 - [x] **General:**
   - [x] **3\*** *Markers* for the Raid's Chests.
 ### Mythwright Gambit:
