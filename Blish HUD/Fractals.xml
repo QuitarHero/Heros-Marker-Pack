@@ -20,6 +20,7 @@
       <MarkerCategory name="c1"   DisplayName="Virastra Skip"                                                                       iconSize="0.5"/>
       <MarkerCategory name="c2"   DisplayName="Arkk Directions"       fadeFar="3000" fadeNear="2750"                                                rotate-x="90"/>
     </MarkerCategory>
+    <MarkerCategory   name="SR"   DisplayName="Siren's Reef"          fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"   iconSize="0.75" rotate-x="175"/>
     <MarkerCategory   name="SoO"  DisplayName="Solid Ocean"           fadeFar="4000" fadeNear="3500"                                iconSize="1"    rotate-x="180"/>
     <MarkerCategory   name="TR"   DisplayName="Thaumanova Reactor">
       <MarkerCategory name="c1"   DisplayName="Maze"                  fadeFar="3000" fadeNear="2750"                                iconSize="0.75"/>
@@ -83,6 +84,11 @@
     <POI MapID="1177" xpos="53.673"   ypos="43.036"   zpos="40.200"   GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c2"/>
     <POI MapID="1177" xpos="48.134"   ypos="43.036"   zpos="26.115"   GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c2"/>
     <POI MapID="1177" xpos="41.746"   ypos="44.797"   zpos="64.036"   GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c3"/>
+    
+    
+    <!-- ======================================== SIREN'S REEF ======================================== -->
+    <POI MapID="1309" xpos="-172.733" ypos="0.500"    zpos="-0.7578"    GUID="cf60rtKRVkiZMmbrnKtzGw==" type="FOTM.SR"/>
+    <POI MapID="1309" xpos="-165.113" ypos="1.0000"   zpos="197.517"    GUID="pBzbURiTlESVHg/fVTwXCw==" type="FOTM.SR" rotate-z="180"/>
     
     
     <!-- ======================================== SHATTERED OBSERVATORY ======================================== -->
