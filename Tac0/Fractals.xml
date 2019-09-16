@@ -95,7 +95,7 @@
     <!-- Viirastra Skip -->
     <POI MapID="1205" xpos="342.781"  ypos="108.648" zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/skip.png"/>
     <POI MapID="1205" xpos="331.750"  ypos="111.834" zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"/>
-    <POI MapID="1205" xpos="293.118"  ypos="115.052" zpos="67.348"   GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/didSkip.png"/>
+    <POI MapID="1205" xpos="291.389"  ypos="116.114" zpos="72.273"   GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/didSkip.png"/>
     <!-- Arkk Directions -->
     <POI MapID="1205" xpos="-455.315" ypos="72.456"  zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/n.png"/>
     <POI MapID="1205" xpos="-421.715" ypos="72.477"  zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/e.png"/>
