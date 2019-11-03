@@ -1,0 +1,53 @@
+<!-- ======================================================================================================================== -->
+<!-- ===================================================== TAC0 VERSION ===================================================== -->
+<!-- ======================================================================================================================== -->
+<OverlayData>
+  <MarkerCategory name="Strike">
+    <MarkerCategory   name="B1" DisplayName="Icebrood Construct" iconSize="0.5">
+      <MarkerCategory name="c1" DisplayName="Phase 1" iconFile="Data/Multi/dot1.png"/>
+      <MarkerCategory name="c2" DisplayName="Phase 2" iconFile="Data/Multi/dot2.png"/>
+      <MarkerCategory name="Ch" DisplayName="Chests"  iconFile="Data/Multi/empty.png"/>
+    </MarkerCategory>
+    <MarkerCategory   name="B2" DisplayName="Boneskinner">
+    
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========================================= ICEBROOD CONSTRUCT ========================================================================================================================================================== -->
+    <!-- ========== PUBLIC ========== -->
+    <!-- Phase 1 -->
+    <POI MapID="1331" xpos="-782.414" ypos="158.196" zpos="-238.352" GUID="0Lid7h2qE0G7FxHsJpG4pA==" type="Strike.B1.c1" rotate-x="180" rotate-z="180"/>
+    <POI MapID="1331" xpos="-789.622" ypos="158.196" zpos="-250.661" GUID="Q/d7qNZggEeYmepsn5rEkg==" type="Strike.B1.c1" rotate-x="180" rotate-z="-90"/>
+	<POI MapID="1331" xpos="-778.858" ypos="158.196" zpos="-257.841" GUID="bg2oUxiePEyyzjigq0LwCw==" type="Strike.B1.c1" rotate-x="180"/>
+	<POI MapID="1331" xpos="-770.844" ypos="158.196" zpos="-247.154" GUID="CcmmAT4hzkGySWlLftoraQ==" type="Strike.B1.c1" rotate-x="180" rotate-z="90"/>
+    <!-- Phase 2 -->
+    <POI MapID="1331" xpos="-784.851" ypos="158.196" zpos="-256.424" GUID="ck56f9/+0EeOE5S3uCBUYQ==" type="Strike.B1.c2"/>
+	<POI MapID="1331" xpos="-789.151" ypos="158.196" zpos="-243.869" GUID="eprhYBch2EGvDwd/z/Krjw==" type="Strike.B1.c2"/>
+	<POI MapID="1331" xpos="-776.296" ypos="158.196" zpos="-239.784" GUID="mAPkAQJCfEWL1h8d2QQY7Q==" type="Strike.B1.c2"/>
+	<POI MapID="1331" xpos="-771.402" ypos="158.196" zpos="-251.962" GUID="4p+0FEaR80yS0SVb0LJwmQ==" type="Strike.B1.c2"/>
+    <!-- Chests -->
+    <POI MapID="1332" xpos="-723.042" ypos="160.869" zpos="-336.716" GUID="8YPlfyxGJUCLzCZAb9exTw==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-748.520" ypos="156.549" zpos="-323.334" GUID="yM/75pBMfEukUbAWO2HkKw==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-768.846" ypos="151.517" zpos="-340.430" GUID="mEl4i/KLdU+VbhGZHO3OFQ==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-789.873" ypos="152.857" zpos="-322.413" GUID="YvTr6zAcaUKX4EJHEmiAbg==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-835.268" ypos="152.588" zpos="-303.776" GUID="qpkxtKjPS0WIkv+0bEbUjw==" type="Strike.B1.Ch"/>
+    <!-- ========== SQUAD / INSTANCED ========== -->
+    <!-- Phase 1 -->
+    <POI MapID="1332" xpos="-782.414" ypos="158.196" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="Strike.B1.c1" rotate-x="180" rotate-z="180"/>
+    <POI MapID="1332" xpos="-789.622" ypos="158.196" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="Strike.B1.c1" rotate-x="180" rotate-z="-90"/>
+	<POI MapID="1332" xpos="-778.858" ypos="158.196" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="Strike.B1.c1" rotate-x="180"/>
+	<POI MapID="1332" xpos="-770.844" ypos="158.196" zpos="-247.154" GUID="/Ibwv/GAH0qHrNSNdT8uXQ==" type="Strike.B1.c1" rotate-x="180" rotate-z="90"/>
+    <!-- Phase 2 -->
+    <POI MapID="1332" xpos="-784.851" ypos="158.196" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="Strike.B1.c2"/>
+	<POI MapID="1332" xpos="-789.151" ypos="158.196" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="Strike.B1.c2"/>
+	<POI MapID="1332" xpos="-776.296" ypos="158.196" zpos="-239.784" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="Strike.B1.c2"/>
+	<POI MapID="1332" xpos="-771.402" ypos="158.196" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="Strike.B1.c2"/>
+    <!-- Chests -->
+    <POI MapID="1332" xpos="-723.042" ypos="160.869" zpos="-336.716" GUID="LKyFttOhWUCnpLq0u5wl6A==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-748.520" ypos="156.549" zpos="-323.334" GUID="ojvZnVg4c06XzBjRtaYtLg==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-768.846" ypos="151.517" zpos="-340.430" GUID="JHGeQXO8/ECLoCDfeym9Vg==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-789.873" ypos="152.857" zpos="-322.413" GUID="u3R8FjSPqUiNds1R1LaK4A==" type="Strike.B1.Ch"/>
+	<POI MapID="1332" xpos="-835.268" ypos="152.588" zpos="-303.776" GUID="6bVXxEZttUulYFZAGM0NLw==" type="Strike.B1.Ch"/>
+    <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
+  </POIs>
+</OverlayData>
