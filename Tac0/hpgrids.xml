@@ -379,8 +379,14 @@
     
     
     <!-- =================================== STRIKES =================================== -->
-    <!-- First Boi -->
-    <grid mapid="1" name="idk">
-      <percentage value="0" color="99000000"/>
+    <!-- ICEBROOD CONSTRUCT PUBLIC -->
+    <grid mapid="1331" centerx="-780.747" centery="159.696" centerz="-247.616" radius="50" name="Icebrood Construct">
+      <percentage value="85" color="75000000"/>
+      <percentage value="50" color="99000000"/>
+    </grid>
+    <!-- ICEBROOD CONSTRUCT SQUAD / INSTANCED -->
+    <grid mapid="1332" centerx="-780.747" centery="159.696" centerz="-247.616" radius="50" name="Icebrood Construct">
+      <percentage value="85" color="75000000"/>
+      <percentage value="50" color="99000000"/>
     </grid>
 </hpgrids>
