@@ -135,16 +135,16 @@
     <!-- Deimos, Unnatural Signet -->
     <areatriggeredtimer mapid="1188" enterspherex="-213.739" enterspherey="101.924" enterspherez="78.0748" entersphererad="2" exitspherex="-213.739" exitspherey="101.924" exitspherez="78.0748" exitsphererad="1000" length="660" resetpointx="-121.023" resetpointy="129.52" resetpointz="122.954" startdelay="5">
         <timeevent text="Unnatural Signet" timestamp="0" countdown="5" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="60" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="120" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="180" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="240" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="300" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="360" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="420" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="480" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="540" countdown="48" onscreentime="10"/>
-        <timeevent text="Unnatural Signet" timestamp="600" countdown="48" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="59" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="118" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="177" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="236" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="295" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="354" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="413" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="472" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="531" countdown="47" onscreentime="10"/>
+        <timeevent text="Unnatural Signet" timestamp="590" countdown="47" onscreentime="10"/>
     </areatriggeredtimer>
     <!-- Dhuum, Right Version -->
 	<areatriggeredtimer mapid="1264" enterspherex="377.774" enterspherey="157.86" enterspherez="-6.48558" entersphererad="2.5" exitspherex="377.774" exitspherey="157.86" exitspherez="-6.48558" exitsphererad="102" length="600" resetpointx="208.934" resetpointy="146.636" resetpointz="29.1171" startdelay="0">	
