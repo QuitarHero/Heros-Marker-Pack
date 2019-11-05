@@ -12,6 +12,7 @@
       <MarkerCategory name="c4"   DisplayName="Boss Skip"                                                                              iconSize="0.5"/>
     </MarkerCategory>
     <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"  miniMapVisibility="0"/>
+    <MarkerCategory   name="MB"   DisplayName="Molten Boss"                                          iconFile="Data/Fracs/pEnterb.png" iconSize="0.5"/>
     <MarkerCategory   name="NM"   DisplayName="Nightmare">
       <MarkerCategory name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                   iconSize="0.75"/>
       <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"    iconSize="0.5"  miniMapVisibility="0"/>
@@ -68,6 +69,9 @@
     <POI MapID="872" xpos="118.028" ypos="227.950" zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="FOTM.MO" fadeFar="600" fadeNear="400"/>
     <POI MapID="872" xpos="119.893" ypos="233.836" zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="FOTM.MO" fadeFar="500" fadeNear="300"/>
     <POI MapID="872" xpos="117.047" ypos="237.964" zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="FOTM.MO" fadeFar="550" fadeNear="350" iconFile="Data/Fracs/didSkip.png"/>
+    
+    <!-- ======================================== MOLTEN BOSS ================================================================================================================================================================== -->
+    <POI MapID="959" xpos="-153.155" ypos="195.6ww512" zpos="-168.946" GUID="FJKxwPKYF0yRnSh6+HcL3A==" type="FOTM.MB"/>
     
     <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
     <!-- Knights -->
