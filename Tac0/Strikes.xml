@@ -3,17 +3,25 @@
 <!-- ======================================================================================================================== -->
 <OverlayData>
   <MarkerCategory name="Strike">
-    <MarkerCategory   name="B1" DisplayName="Icebrood Construct"              fadeFar="2500" fadeNear="2250"                                 iconSize="0.5">
-      <MarkerCategory name="c1" DisplayName="Phase 1"                                                        iconFile="Data/Multi/dot1.png"/>
-      <MarkerCategory name="c2" DisplayName="Phase 2"                                                        iconFile="Data/Multi/dot2.png"/>
-      <MarkerCategory name="Ch" DisplayName="Chests"             behavior="2"                                iconFile="Data/Multi/empty.png"/>
+    <MarkerCategory   name="B1" DisplayName="Icebrood Construct" fadeFar="2500" fadeNear="2250"                                     iconSize="0.5">
+      <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/dot1.png"/>
+      <MarkerCategory name="c2" DisplayName="Phase 2"                                           iconFile="Data/Strikes/IC/dot2.png"/>
+      <MarkerCategory name="Ch" DisplayName="Chests"                                            iconFile="Data/Multi/empty.png"/>
     </MarkerCategory>
-    <MarkerCategory   name="B2" DisplayName="Boneskinner">
+    <MarkerCategory   name="B2" DisplayName="Fallen Kodan">
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
+      <MarkerCategory name="c2" DisplayName="Boss Positions"     fadeFar="2500" fadeNear="2000"/>
+      <MarkerCategory name="c3" DisplayName="Center Safe Spots"  fadeFar="300"  fadeNear="250"/>
+    </MarkerCategory>
+    <MarkerCategory   name="B3" DisplayName="Shaman">
+    
+    </MarkerCategory>
+    <MarkerCategory   name="B4" DisplayName="Boneskinner">
     
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
-    <!-- ========================================= ICEBROOD CONSTRUCT ========================================================================================================================================================== -->
+    <!-- ========================================= ICEBROOD CONSTRUCT V1 ======================================================================================================================================================= -->
     <!-- ========== PUBLIC ========== -->
     <!-- Phase 1 -->
     <POI MapID="1331" xpos="-782.414" ypos="158.196" zpos="-238.352" GUID="0Lid7h2qE0G7FxHsJpG4pA==" type="Strike.B1.c1"/>
@@ -54,6 +62,60 @@
     <POI MapID="1332" xpos="-752.411" ypos="158.423" zpos="-348.351" GUID="Dx+BREvY8Uqpl8yXvYwwkw==" type="Strike.B1.Ch"/>
 	<POI MapID="1332" xpos="-792.252" ypos="164.052" zpos="-341.001" GUID="KzZKu9k/PkKVeqlBAYNycw==" type="Strike.B1.Ch"/>
 	<POI MapID="1332" xpos="-811.512" ypos="145.952" zpos="-304.018" GUID="q98kYHQkHUuIj5Zyu5trOw==" type="Strike.B1.Ch"/>
+    <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
+    <!-- ========== PUBLIC ========== -->
+    <!-- Boss Positions -->
+    <POI MapID="1340" xpos="-8.520" ypos="178.538" zpos="-05.408" GUID="sbZVHd8I7U6s6btvN/axwA==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"       iconSize="0.75"/>
+    <POI MapID="1340" xpos="16.201" ypos="178.112" zpos="022.438" GUID="C9Vh8ROaPUeiSkoCCRqnLQ==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"       iconSize="1.25"/>
+    <POI MapID="1340" xpos="43.213" ypos="178.338" zpos="-01.512" GUID="gilBB2HG3k23sGR0yernSg==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"       iconSize="1.25"/>
+    <POI MapID="1340" xpos="17.385" ypos="179.712" zpos="-02.954" GUID="R+Km6mrQREyroDZ0K5OBFg==" type="Strike.B2.c2"/>
+    <!-- Center Safe Spots -->
+    <POI MapID="1340" xpos="12.749" ypos="178.112" zpos="001.208" GUID="x8PSvfEoukGd+KsSrB/trw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrowStart.png" iconSize="0.5"/>
+    <POI MapID="1340" xpos="16.995" ypos="178.112" zpos="002.696" GUID="Qv1zhOxaYEy6TwVXuUcg8A==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+    <POI MapID="1340" xpos="21.158" ypos="178.112" zpos="001.597" GUID="mklHvEWKf0W9UurwLXf32w==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+    <POI MapID="1340" xpos="23.166" ypos="178.112" zpos="-03.172" GUID="i/Ie1AF5SkuRYbNEYwoFaQ==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1340" xpos="21.962" ypos="178.112" zpos="-06.946" GUID="zvPpW8PJ7UmnmwgGE1+yXw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1340" xpos="17.386" ypos="178.112" zpos="-09.065" GUID="MnzjoR/+tkySuqkXPe/lwA==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1340" xpos="12.524" ypos="178.112" zpos="-07.194" GUID="sBEoj7r1rEqpHV0Kzb6sEw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1340" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+    <!-- ========== SQUAD / INSTANCED ========== -->
+    <!-- Boundary -->
+    <Trail trailData="Data/Strikes/FallenBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B2.c1"/>
+    <!-- Boss Positions -->
+    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-05.408" GUID="sbZVHd8I7U6s6btvN/axwA==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"       iconSize="0.75"/>
+    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="022.438" GUID="C9Vh8ROaPUeiSkoCCRqnLQ==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"       iconSize="1.25"/>
+    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-01.512" GUID="gilBB2HG3k23sGR0yernSg==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"       iconSize="1.25"/>
+    <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-02.954" GUID="R+Km6mrQREyroDZ0K5OBFg==" type="Strike.B2.c2"/>
+    <!-- Center Safe Spots -->
+    <POI MapID="1346" xpos="12.749" ypos="178.112" zpos="001.208" GUID="x8PSvfEoukGd+KsSrB/trw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrowStart.png" iconSize="0.5"/>
+    <POI MapID="1346" xpos="16.995" ypos="178.112" zpos="002.696" GUID="Qv1zhOxaYEy6TwVXuUcg8A==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+    <POI MapID="1346" xpos="21.158" ypos="178.112" zpos="001.597" GUID="mklHvEWKf0W9UurwLXf32w==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+    <POI MapID="1346" xpos="23.166" ypos="178.112" zpos="-03.172" GUID="i/Ie1AF5SkuRYbNEYwoFaQ==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1346" xpos="21.962" ypos="178.112" zpos="-06.946" GUID="zvPpW8PJ7UmnmwgGE1+yXw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1346" xpos="17.386" ypos="178.112" zpos="-09.065" GUID="MnzjoR/+tkySuqkXPe/lwA==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1346" xpos="12.524" ypos="178.112" zpos="-07.194" GUID="sBEoj7r1rEqpHV0Kzb6sEw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+	<POI MapID="1346" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
+    <!-- ========================================= ICEBROOD SHAMAN ============================================================================================================================================================= -->
+    <!-- ========== PUBLILC ========== -->
+    
+    
+    
+    
+    <!-- ========== SQUAD / INSTANCED ========== -->
+    
+    
+    
+    
     <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
+    <!-- ========== PUBLIC ========== -->
+    
+    
+    
+    
+    <!-- ========== SQUAD / INSTANCED ========== -->
+    
+    
+    
+    
   </POIs>
 </OverlayData>
