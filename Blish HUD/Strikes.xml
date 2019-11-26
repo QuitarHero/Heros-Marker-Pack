@@ -10,11 +10,12 @@
     </MarkerCategory>
     <MarkerCategory   name="B2" DisplayName="Fallen Kodan">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="150"  fadeNear="125"/>
-      <MarkerCategory name="c2" DisplayName="Boss Positions"     fadeFar="2500" fadeNear="2000"                                                    rotate-x="180"/>
+      <MarkerCategory name="c2" DisplayName="Boss Positions"     fadeFar="4500" fadeNear="4000"                                                    rotate-x="180"/>
       <MarkerCategory name="c3" DisplayName="Center Safe Spots"  fadeFar="300"  fadeNear="250"                                                     rotate-x="180"/>
     </MarkerCategory>
-    <MarkerCategory   name="B3" DisplayName="Shaman">
-    
+    <MarkerCategory   name="B3" DisplayName="Fraenir of Jormag">
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="150" fadeNear="125"/>
+      <MarkerCategory name="c2" DisplayName="IC Phase"           fadeFar="950" fadeNear="800"                                       iconSize="0.5" rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
     
@@ -80,12 +81,12 @@
 	<POI MapID="1340" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-20"/>
     <!-- ========== SQUAD / INSTANCED ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Strikes/FallenBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B2.c1"/>
+    <Trail trailData="Data/Strikes/FK/FallenBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B2.c1"/>
     <!-- Boss Positions -->
-    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-05.408" GUID="sbZVHd8I7U6s6btvN/axwA==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"      iconSize="0.75" rotate-z="275"/>
-    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="022.438" GUID="C9Vh8ROaPUeiSkoCCRqnLQ==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"      iconSize="1.25" rotate-z="177"/>
-    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-01.512" GUID="gilBB2HG3k23sGR0yernSg==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"      iconSize="1.25" rotate-z="87"/>
-    <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-02.954" GUID="R+Km6mrQREyroDZ0K5OBFg==" type="Strike.B2.c2"/>
+    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-05.408" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"      iconSize="0.75" rotate-z="275"/>
+    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="022.438" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"      iconSize="1.25" rotate-z="177"/>
+    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-01.512" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"      iconSize="1.25" rotate-z="87"/>
+    <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-02.954" type="Strike.B2.c2"/>
     <!-- Center Safe Spots -->
     <POI MapID="1346" xpos="12.749" ypos="178.112" zpos="001.208" GUID="x8PSvfEoukGd+KsSrB/trw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrowStart.png" iconSize="0.5"  rotate-z="20"/>
     <POI MapID="1346" xpos="16.995" ypos="178.112" zpos="002.696" GUID="Qv1zhOxaYEy6TwVXuUcg8A==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-100"/>
@@ -95,16 +96,21 @@
 	<POI MapID="1346" xpos="17.386" ypos="178.112" zpos="-09.065" GUID="MnzjoR/+tkySuqkXPe/lwA==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="70"/>
 	<POI MapID="1346" xpos="12.524" ypos="178.112" zpos="-07.194" GUID="sBEoj7r1rEqpHV0Kzb6sEw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="20"/>
 	<POI MapID="1346" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-20"/>
-    <!-- ========================================= ICEBROOD SHAMAN ============================================================================================================================================================= -->
-    <!-- ========== PUBLILC ========== -->
-    
-    
-    
-    
-    <!-- ========== SQUAD / INSTANCED ========== -->
-    
-    
-    
+    <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
+    <!-- ========== PUBLIC ========== -->
+    <POI MapID="1344" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png" rotate-z="65"/>
+	<POI MapID="1344" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="160"/>
+	<POI MapID="1344" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="250"/>
+	<POI MapID="1344" xpos="28.511" ypos="178.325" zpos="-05.307" GUID="SYfcNRUeA0O1c0+jOuUDyQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="340"/>
+    <!-- ========== SQUAD ========== -->
+    <!-- Boundary -->
+    <Trail trailData="Data/Strikes/FoJ/FraenirBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B3.c1"/>
+    <!-- IC Markers -->
+    <!-- <POI MapID="1341" xpos="16.976" ypos="179.825" zpos="-02.554" GUID="Eq0KnvfA/0uKDMwjwFWL5g==" type="Strike.B3.c2"/> -->
+	<POI MapID="1341" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png" rotate-z="65"/>
+    <POI MapID="1341" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="160"/>
+    <POI MapID="1341" xpos="28.511" ypos="178.325" zpos="-05.307" GUID="SYfcNRUeA0O1c0+jOuUDyQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="250"/>
+    <POI MapID="1341" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="340"/>
     
     <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
     <!-- ========== PUBLIC ========== -->
