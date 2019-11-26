@@ -53,6 +53,12 @@
       <percentage value="40" color="99000000"/>
       <percentage value="20" color="99000000"/>
     </grid>
+    <!-- MINOTAUR -->
+    <grid mapid="1290" centerx="16.9738" centery="266.833" centerz="-139.573" radius="25" name="Shadow Minotaur">
+        <percentage value="75" color="50000000"/>
+        <percentage value="50" color="50000000"/>
+        <percentage value="25" color="50000000"/>
+    </grid>
     <!-- THE VOICE -->
     <grid mapid="1290" centerx="16.769" centery="119.814" centerz="311.667" radius="50" name="The Voice">
       <percentage value="90" color="25000000"/>
@@ -388,5 +394,15 @@
     <grid mapid="1332" centerx="-780.747" centery="159.696" centerz="-247.616" radius="50" name="Icebrood Construct">
       <percentage value="85" color="75000000"/>
       <percentage value="50" color="99000000"/>
+    </grid>
+    <!-- FRAENER OF JORMAG | PUBLIC -->
+    <grid mapid="1344" centerx="16.300" centery="179.825" centerz="-1.964" radius="30" name="Fraener of Jormag">
+      <percentage value="75" color="99000000"/>
+      <percentage value="70" color="50000000"/>
+    </grid>
+    <!-- FRAENER OF JORMAG | SQUAD / INSTANCED -->
+    <grid mapid="1341" centerx="16.300" centery="179.825" centerz="-1.964" radius="30" name="Fraener of Jormag">
+      <percentage value="75" color="99000000"/>
+      <percentage value="70" color="50000000"/>
     </grid>
 </hpgrids>
