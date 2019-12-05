@@ -18,7 +18,7 @@
       <MarkerCategory name="c2" DisplayName="IC Phase"           fadeFar="950" fadeNear="800"                                       iconSize="0.5" rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
-    
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="150" fadeNear="125"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -113,15 +113,9 @@
     <POI MapID="1341" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="340"/>
     
     <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
-    <!-- ========== PUBLIC ========== -->
-    
-    
-    
-    
-    <!-- ========== SQUAD / INSTANCED ========== -->
-    
-    
-    
+    <!-- ========== SQUAD ========== -->
+    <!-- Boundary -->
+    <Trail trailData="Data/Strikes/BS/BSBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B4.c1"/>
     
   </POIs>
 </OverlayData>
