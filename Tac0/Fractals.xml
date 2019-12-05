@@ -12,7 +12,7 @@
       <MarkerCategory name="c4"   DisplayName="Boss Skip"                                                                              iconSize="0.5"/>
     </MarkerCategory>
     <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"  miniMapVisibility="0"/>
-    <MarkerCategory   name="MB"   DisplayName="Molten Boss"                                          iconFile="Data/Fracs/pEnterb.png" iconSize="0.5"/>
+    <MarkerCategory   name="MB"   DisplayName="Molten Boss"                                          iconFile="Data/Fracs/pEnterb.png" iconSize="0.5"/>                                 
     <MarkerCategory   name="NM"   DisplayName="Nightmare">
       <MarkerCategory name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                   iconSize="0.75"/>
       <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"    iconSize="0.5"  miniMapVisibility="0"/>
@@ -33,7 +33,10 @@
       <MarkerCategory name="c1"   DisplayName="Harpy JP Skip"         fadeFar="1000" fadeNear="750"                                    iconSize="0.2"/>
       <MarkerCategory name="c2"   DisplayName="Harpy Leap Skip"       fadeFar="1000" fadeNear="750"/>
     </MarkerCategory>
-    <MarkerCategory   name="UF"   DisplayName="Underground Facility"  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/didSkip.png" iconSize="0.5"                        miniMapVisibility="0"/>
+    <MarkerCategory   name="UF"   DisplayName="Underground Facility">
+      <MarkerCategory name="c1"   DisplayName="2nd Button Skip"       fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/didSkip.png" iconSize="0.5"  miniMapVisibility="0"/>
+      <MarkerCategory name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1750" fadeNear="1500"                                                   miniMapVisibility="0"/>
+    </MarkerCategory>
     <MarkerCategory   name="UB"   DisplayName="Urban Battleground"                                                                                     miniMapVisibility="0"/>
     <MarkerCategory   name="Vo"   DisplayName="Volcanic">
       <MarkerCategory name="c1"   DisplayName="Portal"                                                                                 iconSize="0.5"/>
@@ -61,6 +64,32 @@
     <POI MapID="952" xpos="83.842" ypos="686.608" zpos="-33.996" GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"/>
     <POI MapID="952" xpos="92.940" ypos="710.636" zpos="-17.700" GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
     
+    <!-- ======================================== DEEPSTONE ==================================================================================================================================================================== -->
+    <POI MapID="1290" xpos="056.633" ypos="266.835" zpos="-126.853" GUID="arn06xst2UG8G2whnB9DBQ=="/>
+	<POI MapID="1290" xpos="206.282" ypos="266.836" zpos="-085.384" GUID="lwqp4zhT/kya4D9u0lUw9w=="/>
+	<POI MapID="1290" xpos="-47.251" ypos="267.013" zpos="-080.757" GUID="ESbL0Lj3YUS0tVtzjZY2Fg=="/>
+	<POI MapID="1290" xpos="-72.079" ypos="266.833" zpos="-015.831" GUID="q98800Zdn026YFyvEnefGA=="/>
+	<POI MapID="1290" xpos="013.511" ypos="266.832" zpos="-082.192" GUID="oZzGS5sf4UGVG5xIE3sh2g=="/>
+	<POI MapID="1290" xpos="011.988" ypos="266.924" zpos="0097.893" GUID="HlUenrRqFUO68H4eOKWD9g=="/>
+	<POI MapID="1290" xpos="-08.946" ypos="119.701" zpos="0202.344" GUID="yOiHvlsERkSTH8MYDbZQyA=="/>
+	<POI MapID="1290" xpos="019.974" ypos="119.840" zpos="0370.947" GUID="UBxfTvnqNEO4FjG0PZf6XQ=="/>
+	<POI MapID="1290" xpos="020.332" ypos="270.970" zpos="-182.586" GUID="60+plVixY0yo032eoatSFg=="/>
+	<POI MapID="1290" xpos="188.899" ypos="267.131" zpos="-121.517" GUID="Xz6U62gt00ScRiv4HGl7gg=="/>
+	<POI MapID="1290" xpos="-21.467" ypos="266.833" zpos="-115.447" GUID="8buKXvfWmkGrzoIa1TNY2Q=="/>
+	<POI MapID="1290" xpos="083.595" ypos="266.925" zpos="-111.714" GUID="oGDxJgmzlU6l20d8R7eOQw=="/>
+	<POI MapID="1290" xpos="237.983" ypos="266.834" zpos="-126.760" GUID="zyXvsrMztEaXjBo57rLzUQ=="/>
+	<POI MapID="1290" xpos="-08.758" ypos="267.206" zpos="-143.815" GUID="hrz4D2WArkmBzZdrw8yEMQ=="/>
+	<POI MapID="1290" xpos="-64.395" ypos="266.921" zpos="-120.742" GUID="2+E/k90JwEqDHLtQFP6nuA=="/>
+	<POI MapID="1290" xpos="-51.378" ypos="266.808" zpos="0020.741" GUID="zQAy2bA4Qk2PJz21yrMJeQ=="/>
+    <POI MapID="1290" xpos="017.315" ypos="274.935" zpos="-216.434" GUID="2uGTtwGPW0WJovnC5eTMOg=="/>
+    <POI MapID="1290" xpos="238.320" ypos="266.834" zpos="-094.696" GUID="pyzJOqJY1kCL0ZU2sEOFRg=="/>
+	<POI MapID="1290" xpos="-64.376" ypos="267.004" zpos="-034.515" GUID="RhPweAEdtUylE5GTsWj7/Q=="/>
+	<POI MapID="1290" xpos="-96.995" ypos="266.980" zpos="-010.414" GUID="CH5sZ3ZV4UGZr2Qtyo7SRg=="/>
+	<POI MapID="1290" xpos="041.191" ypos="119.900" zpos="0207.981" GUID="mp5nfMFpWEOOu43O+nZ/aQ=="/>
+	<POI MapID="1290" xpos="-10.160" ypos="266.812" zpos="0062.555" GUID="+jgu6jmIMkOsTQ2+qIyfzw=="/>
+	<POI MapID="1290" xpos="032.329" ypos="119.723" zpos="0393.659" GUID="Wm8YF7kHdkqBdOL1ci0pfg=="/>
+    <POI MapID="1290" xpos="082.509" ypos="266.834" zpos="-133.439" GUID="voN4v3gzjEmEKlHNtZjGLQ=="/>
+    
     <!-- ======================================== MISTLOCK OBSERVATORY ========================================================================================================================================================= -->
     <POI MapID="872" xpos="111.697" ypos="218.000" zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO" fadeFar="500" fadeNear="350"/>
     <POI MapID="872" xpos="118.867" ypos="220.026" zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="FOTM.MO" fadeFar="800" fadeNear="550"/>
@@ -69,9 +98,18 @@
     <POI MapID="872" xpos="118.028" ypos="227.950" zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="FOTM.MO" fadeFar="600" fadeNear="400"/>
     <POI MapID="872" xpos="119.893" ypos="233.836" zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="FOTM.MO" fadeFar="500" fadeNear="300"/>
     <POI MapID="872" xpos="117.047" ypos="237.964" zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="FOTM.MO" fadeFar="550" fadeNear="350" iconFile="Data/Fracs/didSkip.png"/>
+    <!-- JP Chest -->
+    <POI MapID="872" xpos="101.955" ypos="243.238" zpos="-118.561" GUID="nwk+YJBoUk2Y/PLNt7L3uQ==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
     
     <!-- ======================================== MOLTEN BOSS ================================================================================================================================================================== -->
     <POI MapID="959" xpos="-153.155" ypos="195.6ww512" zpos="-168.946" GUID="FJKxwPKYF0yRnSh6+HcL3A==" type="FOTM.MB"/>
+    
+    <!-- ======================================== MOLTEN FURNACE =============================================================================================================================================================== -->
+    <POI MapID="955" xpos="133.260" ypos="256.500" zpos="153.009" GUID="l84Yg5y2wUaMRjPNKBa0Fg==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
+	<POI MapID="955" xpos="086.083" ypos="253.200" zpos="113.176" GUID="b3UKPJjwLkaJ0KH1vP6htw==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
+	<POI MapID="955" xpos="048.900" ypos="254.800" zpos="151.825" GUID="zxyEK02Xv0+MBxrOMwUu7Q==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
+	<POI MapID="955" xpos="015.521" ypos="254.578" zpos="107.386" GUID="m1fnmeIg+EeH/eUcVxtcWA==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
+	<POI MapID="955" xpos="-06.011" ypos="253.062" zpos="157.671" GUID="TyjYUquZ5USTMqqUg9IMMg==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
     
     <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
     <!-- Knights -->
@@ -144,8 +182,14 @@
     <POI MapID="947" xpos="-842.013" ypos="857.209" zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="FOTM.UC.c2" iconFile="Data/Fracs/didSkip.png" iconSize="0.5"/>
     
     <!-- ======================================== UNDERGROUND FACILITY ========================================================================================================================================================= -->
-    <POI MapID="953" xpos="692.992" ypos="23.008" zpos="391.388" GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF"/>
-    <Trail trailData="Data/Fracs/facility skip.trl" texture="Data/Fracs/graytrail.png" animSpeed="2" alpha="1" type="FOTM.UF" fadeFar="1000" fadeNear="750" trailScale="2" />
+    <!--2nd Button Skip -->
+    <POI MapID="953" xpos="692.992" ypos="23.008" zpos="391.388" GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF.c1"/>
+    <Trail trailData="Data/Fracs/facility skip.trl" texture="Data/Fracs/graytrail.png" animSpeed="2" alpha="1" type="FOTM.UF.c1" fadeFar="1000" fadeNear="750" trailScale="2"/>
+    <!-- Bucket Boundaries -->
+    <Trail trailData="Data/Fracs/UFBucket1.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket2.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket3.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket4.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
     
     <!-- ======================================== URBAN BATTLEGROUND =========================================================================================================================================================== -->
     <!-- Oil Boundary -->
