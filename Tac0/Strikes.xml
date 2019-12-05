@@ -15,11 +15,11 @@
       <MarkerCategory name="c3" DisplayName="Center Safe Spots"  fadeFar="900"  fadeNear="750"/>
     </MarkerCategory>
     <MarkerCategory   name="B3" DisplayName="Fraenir of Jormag">
-      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700" fadeNear="600"/>
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
       <MarkerCategory name="c2" DisplayName="IC Phase"           fadeFar="1500" fadeNear="1250"                                                                   iconSize="0.5"/>
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
-    
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -118,15 +118,9 @@
     
     
     <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
-    <!-- ========== PUBLIC ========== -->
-    
-    
-    
-    
     <!-- ========== SQUAD ========== -->
-    
-    
-    
+    <!-- Boundary -->
+    <Trail trailData="Data/Strikes/BS/BSBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B4.c1"/>
     
   </POIs>
 </OverlayData>
