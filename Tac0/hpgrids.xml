@@ -212,6 +212,14 @@
       <percentage value="5"  color="99000000"/>
     </grid>
     
+    <!-- ========== UNDERGROUND FACILITY ========== -->
+    <!-- RABSOVICH -->
+    <grid mapid="953" centerx="639.16" centery="60.1219" centerz="121.697" radius="25" name="Champion Rabsovich">
+      <percentage value="75" color="50000000"/>
+      <percentage value="50" color="50000000"/>
+      <percentage value="25" color="50000000"/>
+    </grid>
+    
     <!-- ========== VOLCANIC ========== -->
     <!-- GRAWL SHAMAN -->
     <grid mapid="954" centerx="219.341" centery="54.277" centerz="-707.609" radius="13" name="Champion Grawl Shaman">
