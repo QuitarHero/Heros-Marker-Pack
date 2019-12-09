@@ -2,7 +2,7 @@
 <!-- ===================================================== TACO VERSION ===================================================== -->
 <!-- ======================================================================================================================== -->
 <OverlayData>
-  <MarkerCategory name="Strike" mapVisibility="0" miniMapVisibility="0">
+  <MarkerCategory     name="Strike" mapVisibility="0" miniMapVisibility="0">
     <MarkerCategory   name="S1" DisplayName="Hero's Marker Pack" IsSeparator="1"/>
     <MarkerCategory   name="B1" DisplayName="Icebrood Construct" fadeFar="2500" fadeNear="2250"                                     iconSize="0.5">
       <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/dot1.png"/>
@@ -20,6 +20,7 @@
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
+      <MarkerCategory name="c2" DisplayName="Torches"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -88,7 +89,6 @@
     <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-05.408" GUID="NdDaVbBTkE2jBvGsPVYMnw==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"       iconSize="0.75"/>
     <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="022.438" GUID="nndrxogjIU2c19z42EHgTQ==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"       iconSize="1.25"/>
     <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-01.512" GUID="unCRWrVbI0OSFhgR/U7MVg==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"       iconSize="1.25"/>
-    <!-- <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-02.954" GUID="BEzZwH5D5UOjH8k5LCLznA==" type="Strike.B2.c2"/> -->
     <!-- Center Safe Spots -->
     <POI MapID="1346" xpos="12.749" ypos="178.112" zpos="001.208" GUID="q3otYylzwkSAZmmbEr8pIw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrowStart.png" iconSize="0.5"/>
     <POI MapID="1346" xpos="16.995" ypos="178.112" zpos="002.696" GUID="XPECgHDKYUyrOp/boYBg8Q==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25"/>
@@ -102,6 +102,7 @@
     
     <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
     <!-- ========== PUBLIC ========== -->
+    <!-- Safe Spots -->
     <POI MapID="1344" xpos="11.345" ypos="178.325" zpos="001.620" GUID="7yprG5hf90ycrbiT7LxTaQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png"/>
 	<POI MapID="1344" xpos="23.595" ypos="178.325" zpos="007.252" GUID="0bVYke4z1kilAoo5jENmLw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
 	<POI MapID="1344" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="j7yioV3DA0K8CraJ/deCzQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
@@ -109,8 +110,7 @@
     <!-- ========== SQUAD ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Strikes/FoJ/FraenirBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B3.c1"/>
-    <!-- IC Markers -->
-    <!-- <POI MapID="1341" xpos="16.976" ypos="179.825" zpos="-02.554" GUID="Eq0KnvfA/0uKDMwjwFWL5g==" type="Strike.B3.c2"/> -->
+    <!-- Safe Spots -->
 	<POI MapID="1341" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png"/>
 	<POI MapID="1341" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
 	<POI MapID="1341" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
@@ -118,9 +118,24 @@
     
     
     <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
+    <!-- ========== PUBLIC ========== -->
+    <!-- Torches -->
+    <POI MapID="1351" xpos="045.121" ypos="179.836" zpos="-03.009" GUID="PdZ4oUExpEiaX98pEAtHcw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/1.png"/>
+	<POI MapID="1351" xpos="-13.409" ypos="179.819" zpos="-02.181" GUID="6uKA8T/Tm0eE1gGoZgjX1Q==" type="Strike.B4.c2" iconFile="Data/Raids/W6/2.png"/>
+	<POI MapID="1351" xpos="032.780" ypos="179.712" zpos="-26.875" GUID="v5CW5M66u0SCajqdgZPm3Q==" type="Strike.B4.c2" iconFile="Data/Raids/W6/3.png"/>
+	<POI MapID="1351" xpos="000.291" ypos="179.786" zpos="022.614" GUID="QN2WCWbTB0yv32qSAuFOpw==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/4.png"/>
+	<POI MapID="1351" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="zOV+kI8Cg0yzeOGCBjolUQ==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/5.png"/>
+	<POI MapID="1351" xpos="032.281" ypos="179.845" zpos="021.882" GUID="OQWe5P6vkE+/RE58ktJUBw==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/6.png"/>
     <!-- ========== SQUAD ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Strikes/BS/BSBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B4.c1"/>
+    <!-- Torches -->
+    <POI MapID="1339" xpos="045.121" ypos="179.836" zpos="-03.009" GUID="fJGkuCKCEUSZuadJa7cAvw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/1.png"/>
+	<POI MapID="1339" xpos="-13.409" ypos="179.819" zpos="-02.181" GUID="0zHg0NSWNk+DW9V8koJWHw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/2.png"/>
+	<POI MapID="1339" xpos="032.780" ypos="179.712" zpos="-26.875" GUID="1DI2Cfms2kaoC7O2wNcWFw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/3.png"/>
+	<POI MapID="1339" xpos="000.291" ypos="179.786" zpos="022.614" GUID="g7En932TFEqELhm3OZM6Hg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/4.png"/>
+	<POI MapID="1339" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/5.png"/>
+	<POI MapID="1339" xpos="032.281" ypos="179.845" zpos="021.882" GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/6.png"/>
     
   </POIs>
 </OverlayData>
