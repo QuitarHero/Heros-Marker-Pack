@@ -16,7 +16,7 @@
     </MarkerCategory>
     <MarkerCategory   name="B3" DisplayName="Fraenir of Jormag">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
-      <MarkerCategory name="c2" DisplayName="IC Phase"           fadeFar="1500" fadeNear="1250"                                                                   iconSize="0.5"/>
+      <MarkerCategory name="c2" DisplayName="IC Phase"           fadeFar="1500" fadeNear="1250"                                     iconSize="0.5"/>
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
@@ -103,6 +103,7 @@
     <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
     <!-- ========== PUBLIC ========== -->
     <!-- Safe Spots -->
+    <POI MapID="1344" xpos="16.924" ypos="178.325" zpos="-2.516"  GUID="jpD+iv+LaUS7Nifmg7drqg==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png"/>
     <POI MapID="1344" xpos="11.345" ypos="178.325" zpos="001.620" GUID="7yprG5hf90ycrbiT7LxTaQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png"/>
 	<POI MapID="1344" xpos="23.595" ypos="178.325" zpos="007.252" GUID="0bVYke4z1kilAoo5jENmLw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
 	<POI MapID="1344" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="j7yioV3DA0K8CraJ/deCzQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
@@ -111,6 +112,7 @@
     <!-- Boundary -->
     <Trail trailData="Data/Strikes/FoJ/FraenirBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B3.c1"/>
     <!-- Safe Spots -->
+    <POI MapID="1341" xpos="16.924" ypos="178.325" zpos="-2.516"  GUID="0JlsA3MrVkadrzakJXHcKw==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png"/>
 	<POI MapID="1341" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png"/>
 	<POI MapID="1341" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
 	<POI MapID="1341" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png"/>
