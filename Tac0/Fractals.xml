@@ -23,7 +23,10 @@
       <MarkerCategory name="c2"   DisplayName="Arkk Directions"       fadeFar="3000" fadeNear="2750"/>
     </MarkerCategory>
     <MarkerCategory   name="SR"   DisplayName="Siren's Reef"          fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"      iconSize="0.75"/>
-    <MarkerCategory   name="SoO"  DisplayName="Solid Ocean"           fadeFar="4000" fadeNear="3500"                                   iconSize="1"    miniMapVisibility="0"/>
+    <MarkerCategory   name="SoO"  DisplayName="Solid Ocean"                                                                                            miniMapVisibility="0">
+      <MarkerCategory name="c1"   DisplayName="Path Skip (not implemented rn)"/>
+      <MarkerCategory name="c2"   DisplayName="Jade Colossus Spawns"  fadeFar="4000" fadeNear="3500"                                   iconSize="1"/>
+    </MarkerCategory>
     <MarkerCategory   name="TR"   DisplayName="Thaumanova Reactor">
       <MarkerCategory name="c1"   DisplayName="Maze"                  fadeFar="3000" fadeNear="2750"                                   iconSize="0.75" miniMapVisibility="0"/>
      <MarkerCategory  name="c2"   DisplayName="Subject 6 Portal"                                                                       iconSize="0.75"/>
@@ -65,30 +68,30 @@
     <POI MapID="952" xpos="92.940" ypos="710.636" zpos="-17.700" GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
     
     <!-- ======================================== DEEPSTONE ==================================================================================================================================================================== -->
-    <POI MapID="1290" xpos="056.633" ypos="266.835" zpos="-126.853" GUID="arn06xst2UG8G2whnB9DBQ=="/>
-	<POI MapID="1290" xpos="206.282" ypos="266.836" zpos="-085.384" GUID="lwqp4zhT/kya4D9u0lUw9w=="/>
-	<POI MapID="1290" xpos="-47.251" ypos="267.013" zpos="-080.757" GUID="ESbL0Lj3YUS0tVtzjZY2Fg=="/>
-	<POI MapID="1290" xpos="-72.079" ypos="266.833" zpos="-015.831" GUID="q98800Zdn026YFyvEnefGA=="/>
-	<POI MapID="1290" xpos="013.511" ypos="266.832" zpos="-082.192" GUID="oZzGS5sf4UGVG5xIE3sh2g=="/>
-	<POI MapID="1290" xpos="011.988" ypos="266.924" zpos="0097.893" GUID="HlUenrRqFUO68H4eOKWD9g=="/>
-	<POI MapID="1290" xpos="-08.946" ypos="119.701" zpos="0202.344" GUID="yOiHvlsERkSTH8MYDbZQyA=="/>
-	<POI MapID="1290" xpos="019.974" ypos="119.840" zpos="0370.947" GUID="UBxfTvnqNEO4FjG0PZf6XQ=="/>
-	<POI MapID="1290" xpos="020.332" ypos="270.970" zpos="-182.586" GUID="60+plVixY0yo032eoatSFg=="/>
-	<POI MapID="1290" xpos="188.899" ypos="267.131" zpos="-121.517" GUID="Xz6U62gt00ScRiv4HGl7gg=="/>
-	<POI MapID="1290" xpos="-21.467" ypos="266.833" zpos="-115.447" GUID="8buKXvfWmkGrzoIa1TNY2Q=="/>
-	<POI MapID="1290" xpos="083.595" ypos="266.925" zpos="-111.714" GUID="oGDxJgmzlU6l20d8R7eOQw=="/>
-	<POI MapID="1290" xpos="237.983" ypos="266.834" zpos="-126.760" GUID="zyXvsrMztEaXjBo57rLzUQ=="/>
-	<POI MapID="1290" xpos="-08.758" ypos="267.206" zpos="-143.815" GUID="hrz4D2WArkmBzZdrw8yEMQ=="/>
-	<POI MapID="1290" xpos="-64.395" ypos="266.921" zpos="-120.742" GUID="2+E/k90JwEqDHLtQFP6nuA=="/>
-	<POI MapID="1290" xpos="-51.378" ypos="266.808" zpos="0020.741" GUID="zQAy2bA4Qk2PJz21yrMJeQ=="/>
-    <POI MapID="1290" xpos="017.315" ypos="274.935" zpos="-216.434" GUID="2uGTtwGPW0WJovnC5eTMOg=="/>
-    <POI MapID="1290" xpos="238.320" ypos="266.834" zpos="-094.696" GUID="pyzJOqJY1kCL0ZU2sEOFRg=="/>
-	<POI MapID="1290" xpos="-64.376" ypos="267.004" zpos="-034.515" GUID="RhPweAEdtUylE5GTsWj7/Q=="/>
-	<POI MapID="1290" xpos="-96.995" ypos="266.980" zpos="-010.414" GUID="CH5sZ3ZV4UGZr2Qtyo7SRg=="/>
-	<POI MapID="1290" xpos="041.191" ypos="119.900" zpos="0207.981" GUID="mp5nfMFpWEOOu43O+nZ/aQ=="/>
-	<POI MapID="1290" xpos="-10.160" ypos="266.812" zpos="0062.555" GUID="+jgu6jmIMkOsTQ2+qIyfzw=="/>
-	<POI MapID="1290" xpos="032.329" ypos="119.723" zpos="0393.659" GUID="Wm8YF7kHdkqBdOL1ci0pfg=="/>
-    <POI MapID="1290" xpos="082.509" ypos="266.834" zpos="-133.439" GUID="voN4v3gzjEmEKlHNtZjGLQ=="/>
+    <POI MapID="1290" xpos="056.633" ypos="266.835" zpos="-126.853" GUID="arn06xst2UG8G2whnB9DBQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="206.282" ypos="266.836" zpos="-085.384" GUID="lwqp4zhT/kya4D9u0lUw9w==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-47.251" ypos="267.013" zpos="-080.757" GUID="ESbL0Lj3YUS0tVtzjZY2Fg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-72.079" ypos="266.833" zpos="-015.831" GUID="q98800Zdn026YFyvEnefGA==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="013.511" ypos="266.832" zpos="-082.192" GUID="oZzGS5sf4UGVG5xIE3sh2g==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="011.988" ypos="266.924" zpos="0097.893" GUID="HlUenrRqFUO68H4eOKWD9g==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-08.946" ypos="119.701" zpos="0202.344" GUID="yOiHvlsERkSTH8MYDbZQyA==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="019.974" ypos="119.840" zpos="0370.947" GUID="UBxfTvnqNEO4FjG0PZf6XQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="020.332" ypos="270.970" zpos="-182.586" GUID="60+plVixY0yo032eoatSFg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="188.899" ypos="267.131" zpos="-121.517" GUID="Xz6U62gt00ScRiv4HGl7gg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-21.467" ypos="266.833" zpos="-115.447" GUID="8buKXvfWmkGrzoIa1TNY2Q==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="083.595" ypos="266.925" zpos="-111.714" GUID="oGDxJgmzlU6l20d8R7eOQw==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="237.983" ypos="266.834" zpos="-126.760" GUID="zyXvsrMztEaXjBo57rLzUQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-08.758" ypos="267.206" zpos="-143.815" GUID="hrz4D2WArkmBzZdrw8yEMQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-64.395" ypos="266.921" zpos="-120.742" GUID="2+E/k90JwEqDHLtQFP6nuA==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-51.378" ypos="266.808" zpos="0020.741" GUID="zQAy2bA4Qk2PJz21yrMJeQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+    <POI MapID="1290" xpos="017.315" ypos="274.935" zpos="-216.434" GUID="2uGTtwGPW0WJovnC5eTMOg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+    <POI MapID="1290" xpos="238.320" ypos="266.834" zpos="-094.696" GUID="pyzJOqJY1kCL0ZU2sEOFRg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-64.376" ypos="267.004" zpos="-034.515" GUID="RhPweAEdtUylE5GTsWj7/Q==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-96.995" ypos="266.980" zpos="-010.414" GUID="CH5sZ3ZV4UGZr2Qtyo7SRg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="041.191" ypos="119.900" zpos="0207.981" GUID="mp5nfMFpWEOOu43O+nZ/aQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="-10.160" ypos="266.812" zpos="0062.555" GUID="+jgu6jmIMkOsTQ2+qIyfzw==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+	<POI MapID="1290" xpos="032.329" ypos="119.723" zpos="0393.659" GUID="Wm8YF7kHdkqBdOL1ci0pfg==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
+    <POI MapID="1290" xpos="082.509" ypos="266.834" zpos="-133.439" GUID="voN4v3gzjEmEKlHNtZjGLQ==" iconFile="Data/Multi/empty.png" inGameVisibility="0" miniMapVisibility="0"/>
     
     <!-- ======================================== MISTLOCK OBSERVATORY ========================================================================================================================================================= -->
     <POI MapID="872" xpos="111.697" ypos="218.000" zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO" fadeFar="500" fadeNear="350"/>
@@ -140,16 +143,17 @@
     <POI MapID="1205" xpos="-489.319" ypos="072.477" zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/w.png"/>
     
     <!-- ======================================== SOLID OCEAN ================================================================================================================================================================== -->
-    <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO" iconFile="Data/Multi/1.png"/>
-    <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO" iconFile="Data/Multi/2.png"/>
-    <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="FOTM.SoO" iconFile="Data/Multi/3.png"/>
-    <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="FOTM.SoO" iconFile="Data/Multi/4.png"/>
-    <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="FOTM.SoO" iconFile="Data/Multi/5.png"/>
-    <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="FOTM.SoO" iconFile="Data/Multi/6.png"/>
-    <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="FOTM.SoO" iconFile="Data/Multi/7.png"/>
-    <POI MapID="958" xpos="727.075" ypos="586.890" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="FOTM.SoO" iconFile="Data/Multi/8.png"/>
-    <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="FOTM.SoO" iconFile="Data/Multi/9.png"/>
-    <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="FOTM.SoO" iconFile="Data/Multi/10.png"/>
+    <!-- Jade Colossus Spawns -->
+    <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="FOTM.SoO.c2" iconFile="Data/Multi/1.png"/>
+    <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="FOTM.SoO.c2" iconFile="Data/Multi/2.png"/>
+    <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="FOTM.SoO.c2" iconFile="Data/Multi/3.png"/>
+    <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="FOTM.SoO.c2" iconFile="Data/Multi/4.png"/>
+    <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="FOTM.SoO.c2" iconFile="Data/Multi/5.png"/>
+    <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="FOTM.SoO.c2" iconFile="Data/Multi/6.png"/>
+    <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="FOTM.SoO.c2" iconFile="Data/Multi/7.png"/>
+    <POI MapID="958" xpos="727.075" ypos="586.890" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="FOTM.SoO.c2" iconFile="Data/Multi/8.png"/>
+    <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="FOTM.SoO.c2" iconFile="Data/Multi/9.png"/>
+    <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="FOTM.SoO.c2" iconFile="Data/Multi/10.png"/>
     
     <!-- ======================================== THAUMANOVA REACTOR =========================================================================================================================================================== -->
     <!-- Maze -->
