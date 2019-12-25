@@ -48,16 +48,18 @@
     <!-- SPARK -->
     <grid mapid="1290" centerx="-65.355" centery="266.843"  centerz="4.299"    radius="35" name="Spark">
       <percentage value="80" color="99000000"/>
+      <percentage value="75" color="10000000"/>
       <percentage value="60" color="99000000"/>
       <percentage value="50" color="99000000"/>
       <percentage value="40" color="99000000"/>
+      <percentage value="25" color="10000000"/>
       <percentage value="20" color="99000000"/>
     </grid>
     <!-- MINOTAUR -->
     <grid mapid="1290" centerx="16.9738" centery="266.833" centerz="-139.573" radius="25" name="Shadow Minotaur">
-        <percentage value="75" color="50000000"/>
-        <percentage value="50" color="50000000"/>
-        <percentage value="25" color="50000000"/>
+      <percentage value="75" color="50000000"/>
+      <percentage value="50" color="50000000"/>
+      <percentage value="25" color="50000000"/>
     </grid>
     <!-- THE VOICE -->
     <grid mapid="1290" centerx="16.769" centery="119.814" centerz="311.667" radius="50" name="The Voice">
@@ -148,12 +150,6 @@
     </grid>
     
     <!-- ========== SNOWBLIND ========== -->
-    <!-- ELEMENTAL SOURCE -->
-    <grid mapid="948" centerx="-87.698" centery="17.221" centerz="-121.177" radius="50" name="Elemental Source">
-      <percentage value="75" color="75000000"/>
-      <percentage value="50" color="75000000"/>
-      <percentage value="25" color="75000000"/>
-    </grid>
     <!-- FINAL BOSS -->
     <grid mapid="948" centerx="182.792" centery="22.161" centerz="-60.094" radius="25" name="Legendary Shaman Lonarr Dragons">
       <percentage value="75" color="99000000"/>
