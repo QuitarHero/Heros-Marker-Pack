@@ -99,6 +99,7 @@
 	<POI MapID="1346" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-20"/>
     <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
     <!-- ========== PUBLIC ========== -->
+    <POI MapID="1344" xpos="16.924" ypos="178.325" zpos="-2.516"  GUID="jpD+iv+LaUS7Nifmg7drqg==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png"/>
     <POI MapID="1344" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png" rotate-z="65"/>
 	<POI MapID="1344" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="160"/>
 	<POI MapID="1344" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="250"/>
@@ -107,7 +108,7 @@
     <!-- Boundary -->
     <Trail trailData="Data/Strikes/FoJ/FraenirBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B3.c1"/>
     <!-- IC Markers -->
-    <!-- <POI MapID="1341" xpos="16.976" ypos="179.825" zpos="-02.554" GUID="Eq0KnvfA/0uKDMwjwFWL5g==" type="Strike.B3.c2"/> -->
+    <POI MapID="1341" xpos="16.924" ypos="178.325" zpos="-2.516"  GUID="0JlsA3MrVkadrzakJXHcKw==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png"/>
 	<POI MapID="1341" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png" rotate-z="65"/>
     <POI MapID="1341" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="160"/>
     <POI MapID="1341" xpos="28.511" ypos="178.325" zpos="-05.307" GUID="SYfcNRUeA0O1c0+jOuUDyQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="250"/>
