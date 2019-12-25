@@ -6,16 +6,23 @@
     <MarkerCategory   name="AB"   DisplayName="Aetherblade">
       <MarkerCategory name="c1"   DisplayName="Skip"                  fadeFar="850"  fadeNear="600"/>
     </MarkerCategory>
+    <MarkerCategory   name="AR"   DisplayName="Aquatic Ruins"/>
+    <MarkerCategory   name="CMT"  DisplayName="Captain Mai Trin"/>
+    <MarkerCategory   name="CI"   DisplayName="Chaos Isles"/>
     <MarkerCategory   name="CS"   DisplayName="Cliffside">
       <MarkerCategory name="c1"   DisplayName="Speed Skip"                                                                             iconSize="0.75"/>
       <MarkerCategory name="c2"   DisplayName="Wind Skip"             fadeFar="1250" fadeNear="1000"/>
       <MarkerCategory name="c3"   DisplayName="Chest Speed Skip"                                                                       iconSize="0.75" rotate-x="180"/>
       <MarkerCategory name="c4"   DisplayName="Boss Skip"                                                                              iconSize="0.5"/>
     </MarkerCategory>
-    <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"/>
+    <MarkerCategory   name="DS"   DisplayName="Deepstone">
+      <MarkerCategory name="c1"   DisplayName="Chests (not implemented rn)" iconFile="Data/Multi/empty.png"/>
+    </MarkerCategory>
     <MarkerCategory   name="MB"   DisplayName="Molten Boss">
       <MarkerCategory name="c1"   DisplayName="Tele Skip"                                            iconFile="Data/Fracs/pEnterb.png" iconSize="0.5"/>
     </MarkerCategory>
+    <MarkerCategory   name="MF"   DisplayName="Molten Furnace"/>
+    <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"/>
     <MarkerCategory   name="NM"   DisplayName="Nightmare">
       <MarkerCategory name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                   iconSize=".75"  rotate-x="180"/>
       <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"    iconSize="0.5"  rotate-x="180"/>
@@ -26,7 +33,9 @@
       <MarkerCategory name="c2"   DisplayName="Arkk Directions"       fadeFar="3000" fadeNear="2750"                                                   rotate-x="90"/>
     </MarkerCategory>
     <MarkerCategory   name="SR"   DisplayName="Siren's Reef"          fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"      iconSize="0.75" rotate-x="175"/>
+    <MarkerCategory   name="SB"   DisplayName="Snowblind"/>
     <MarkerCategory   name="SoO"  DisplayName="Solid Ocean"           fadeFar="4000" fadeNear="3500"                                   iconSize="1"    rotate-x="180"/>
+    <MarkerCategory   name="SL"   DisplayName="Swampland"/>
     <MarkerCategory   name="TR"   DisplayName="Thaumanova Reactor">
       <MarkerCategory name="c1"   DisplayName="Maze"                  fadeFar="3000" fadeNear="2750"                                   iconSize="0.75"/>
       <MarkerCategory name="c2"   DisplayName="Subject 6 Portal"                                                                       iconSize="0.75" rotate-x="180"/>
@@ -38,7 +47,7 @@
     </MarkerCategory>
     <MarkerCategory   name="UF"   DisplayName="Underground Facility">
       <MarkerCategory name="c1"   DisplayName="2nd Button Skip"       fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/didSkip.png" iconSize="0.5"/>
-      <MarkerCategory name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1500" fadeNear="1250"/>
+      <MarkerCategory name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1250" fadeNear="1000"/>
     </MarkerCategory>
     <MarkerCategory   name="UB"   DisplayName="Urban Battleground"    fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/skip.png">
       <MarkerCategory name="c1"   DisplayName="Burning Oil Boundary"/>
@@ -171,10 +180,10 @@
     <POI MapID="953" xpos="692.992" ypos="23.008" zpos="391.388" GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF"/>
     <Trail trailData="Data/Fracs/facility skip.trl" texture="Data/Fracs/graytrail.png" animSpeed="2" alpha="1" type="FOTM.UF" trailScale="2" fadeNear="750" fadeFar="1000"/>
     <!-- Bucket Boundaries -->
-    <Trail trailData="Data/Fracs/UFBucket1.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
-    <Trail trailData="Data/Fracs/UFBucket2.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
-    <Trail trailData="Data/Fracs/UFBucket3.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
-    <Trail trailData="Data/Fracs/UFBucket4.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket1.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.4" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket2.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.4" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket3.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.4" type="FOTM.UF.c2"/>
+    <Trail trailData="Data/Fracs/UFBucket4.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.4" type="FOTM.UF.c2"/>
     
     <!-- ======================================== URBAN BATTLEGROUND =========================================================================================================================================================== -->
     <!-- Burning Oil Boundary -->
@@ -209,11 +218,36 @@
     
     
     <!-- ======================================== For Blish's Cross-Marker Compatibility ======================================================================================================================================= -->
+    <!-- ==================== DEEPSTONE'S CHESTS ==================== -->
+    <POI MapID="1290" xpos="056.633" ypos="266.835" zpos="-126.853" GUID="arn06xst2UG8G2whnB9DBQ==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="206.282" ypos="266.836" zpos="-085.384" GUID="lwqp4zhT/kya4D9u0lUw9w==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-47.251" ypos="267.013" zpos="-080.757" GUID="ESbL0Lj3YUS0tVtzjZY2Fg==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-72.079" ypos="266.833" zpos="-015.831" GUID="q98800Zdn026YFyvEnefGA==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="013.511" ypos="266.832" zpos="-082.192" GUID="oZzGS5sf4UGVG5xIE3sh2g==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="011.988" ypos="266.924" zpos="0097.893" GUID="HlUenrRqFUO68H4eOKWD9g==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-08.946" ypos="119.701" zpos="0202.344" GUID="yOiHvlsERkSTH8MYDbZQyA==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="019.974" ypos="119.840" zpos="0370.947" GUID="UBxfTvnqNEO4FjG0PZf6XQ==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="020.332" ypos="270.970" zpos="-182.586" GUID="60+plVixY0yo032eoatSFg==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="188.899" ypos="267.131" zpos="-121.517" GUID="Xz6U62gt00ScRiv4HGl7gg==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-21.467" ypos="266.833" zpos="-115.447" GUID="8buKXvfWmkGrzoIa1TNY2Q==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="083.595" ypos="266.925" zpos="-111.714" GUID="oGDxJgmzlU6l20d8R7eOQw==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="237.983" ypos="266.834" zpos="-126.760" GUID="zyXvsrMztEaXjBo57rLzUQ==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-08.758" ypos="267.206" zpos="-143.815" GUID="hrz4D2WArkmBzZdrw8yEMQ==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-64.395" ypos="266.921" zpos="-120.742" GUID="2+E/k90JwEqDHLtQFP6nuA==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-51.378" ypos="266.808" zpos="0020.741" GUID="zQAy2bA4Qk2PJz21yrMJeQ==" type="FOTM.DS.c1" behavior="2"/>
+    <POI MapID="1290" xpos="017.315" ypos="274.935" zpos="-216.434" GUID="2uGTtwGPW0WJovnC5eTMOg==" type="FOTM.DS.c1" behavior="2"/>
+    <POI MapID="1290" xpos="238.320" ypos="266.834" zpos="-094.696" GUID="pyzJOqJY1kCL0ZU2sEOFRg==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-64.376" ypos="267.004" zpos="-034.515" GUID="RhPweAEdtUylE5GTsWj7/Q==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-96.995" ypos="266.980" zpos="-010.414" GUID="CH5sZ3ZV4UGZr2Qtyo7SRg==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="041.191" ypos="119.900" zpos="0207.981" GUID="mp5nfMFpWEOOu43O+nZ/aQ==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="-10.160" ypos="266.812" zpos="0062.555" GUID="+jgu6jmIMkOsTQ2+qIyfzw==" type="FOTM.DS.c1" behavior="2"/>
+	<POI MapID="1290" xpos="032.329" ypos="119.723" zpos="0393.659" GUID="Wm8YF7kHdkqBdOL1ci0pfg==" type="FOTM.DS.c1" behavior="2"/>
+    <POI MapID="1290" xpos="082.509" ypos="266.834" zpos="-133.439" GUID="voN4v3gzjEmEKlHNtZjGLQ==" type="FOTM.DS.c1" behavior="2"/>
     <!-- ==================== MOLTEN FURNACE'S MITHRIL ORE ==================== -->
-    <POI MapID="955"  xpos="133.260" ypos="256.500" zpos="0153.009" GUID="l84Yg5y2wUaMRjPNKBa0Fg==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
-	<POI MapID="955"  xpos="086.083" ypos="253.200" zpos="0113.176" GUID="b3UKPJjwLkaJ0KH1vP6htw==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
-	<POI MapID="955"  xpos="048.900" ypos="254.800" zpos="0151.825" GUID="zxyEK02Xv0+MBxrOMwUu7Q==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
-	<POI MapID="955"  xpos="015.521" ypos="254.578" zpos="0107.386" GUID="m1fnmeIg+EeH/eUcVxtcWA==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
-	<POI MapID="955"  xpos="-06.011" ypos="253.062" zpos="0157.671" GUID="TyjYUquZ5USTMqqUg9IMMg==" behavior="2" iconFile="Data/Multi/empty.png" miniMapVisibility="0" triggerRange="4"/>
+    <POI MapID="955"  xpos="133.260" ypos="256.500" zpos="0153.009" GUID="l84Yg5y2wUaMRjPNKBa0Fg==" behavior="2" iconFile="Data/Multi/empty.png" triggerRange="4"/>
+	<POI MapID="955"  xpos="086.083" ypos="253.200" zpos="0113.176" GUID="b3UKPJjwLkaJ0KH1vP6htw==" behavior="2" iconFile="Data/Multi/empty.png" triggerRange="4"/>
+	<POI MapID="955"  xpos="048.900" ypos="254.800" zpos="0151.825" GUID="zxyEK02Xv0+MBxrOMwUu7Q==" behavior="2" iconFile="Data/Multi/empty.png" triggerRange="4"/>
+	<POI MapID="955"  xpos="015.521" ypos="254.578" zpos="0107.386" GUID="m1fnmeIg+EeH/eUcVxtcWA==" behavior="2" iconFile="Data/Multi/empty.png" triggerRange="4"/>
+	<POI MapID="955"  xpos="-06.011" ypos="253.062" zpos="0157.671" GUID="TyjYUquZ5USTMqqUg9IMMg==" behavior="2" iconFile="Data/Multi/empty.png" triggerRange="4"/>
   </POIs>
 </OverlayData>
