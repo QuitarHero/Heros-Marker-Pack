@@ -1,21 +1,13 @@
 <!-- ======================================================================================================================= -->
 <!-- ================================================== BLISH HUD VERSION ================================================== -->
 <!-- ======================================================================================================================= -->
-<!-- Sloth's Timer -->
-<!-- <MarkerCategory name="c2" DisplayName="Timer"                                                      iconFile="Data/Raids/starttimer.png"                rotate-x="195"/> -->
-<!-- Matt's Timer -->
-<!-- <MarkerCategory name="c2" DisplayName="Timer"                                                      iconFile="Data/Raids/starttimer.png"                rotate-x="180" rotate-z="95"/> -->
-<!-- Mursaat's Timer -->
-<!-- <MarkerCategory   name="B2" DisplayName="Mursaat Overseer"                     fadeFar="3000" fadeNear="2500" iconFile="Data/Raids/starttimer.png"   iconSize="1"    rotate-x="180" rotate-z="90"/> -->
-<!-- Dhuum's Timer -->
-<!-- <MarkerCategory   name="c2" DisplayName="Timer"                           fadeFar="4000" fadeNear="3500" iconFile="Data/Multi/empty.png"/> -->
 <OverlayData>
   <MarkerCategory name="Raid" DisplayName="Raid">
     <!-- ========== SPIRIT VALE ================================================================================================================================================================================================ -->
     <MarkerCategory     name="W1" DisplayName="Spirit Vale">
       <MarkerCategory   name="D1" DisplayName="Entrance"                   fadeFar="4000" fadeNear="3750">
         <MarkerCategory name="c1" DisplayName="Name"                                                                                                                                    title="Spirit Vale" title-color="white"/>
-        <MarkerCategory name="c2" DisplayName="Bosses Killed"                                                                                              iconSize="0.9" rotate-x="90"/>
+        <MarkerCategory name="c2" DisplayName="Bosses Killed"                      iconFile="plant.png"                                                                       iconSize="0.9" rotate-x="90"/>
       </MarkerCategory>
       <MarkerCategory   name="B1" DisplayName="Vale Guardian"              fadeFar="115"  fadeNear="90"/>
       <MarkerCategory   name="C1" DisplayName="Mushrooms"     behavior="4" fadeFar="3500" fadeNear="3000" hasCountdown="1" iconFile="Data/Multi/empty.png"                                                                      triggerRange="2"/>
@@ -28,7 +20,7 @@
         <MarkerCategory name="c1" DisplayName="Directions"                 fadeFar="2750" fadeNear="2250"                                                                 rotate-x="90"/>
         <MarkerCategory name="c2" DisplayName="Boundary"                   fadeFar="150"  fadeNear="125"/>
       </MarkerCategory>
-      <MarkerCategory   name="Ch" DisplayName="Chests"        behavior="2"                                                 iconFile="Data/Multi/chest.png" iconSize="0.5" rotate-x="90"                                         triggerRange="3"/>
+      <MarkerCategory   name="Ch" DisplayName="Chests"        behavior="2"                                                 iconFile="Data/Multi/empty.png" iconSize="0.5" rotate-x="90"                                         triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== SALVATION PASS ============================================================================================================================================================================================= -->
     <MarkerCategory     name="W2" DisplayName="Salvation Pass"              fadeFar="4000" fadeNear="3750">
@@ -44,7 +36,7 @@
         <MarkerCategory name="c1" DisplayName="Wells"                                                                                           iconSize="0.5" rotate-x="125"/>
         <MarkerCategory name="c3" DisplayName="Boundary"                    fadeFar="150"  fadeNear="125"/>
       </MarkerCategory>
-      <MarkerCategory   name="Ch" DisplayName="Chests"         behavior="2"                                iconFile="Data/Multi/chest.png"      iconSize="0.6"                                                                          triggerRange="3"/>
+      <MarkerCategory   name="Ch" DisplayName="Chests"         behavior="2"                                iconFile="Data/Multi/empty.png"      iconSize="0.6"                                                                          triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== STRONGHOLD OF THE FAITHFUL ================================================================================================================================================================================= -->
     <MarkerCategory       name="W3" DisplayName="Stronghold of the Faithful"              fadeFar="4000" fadeNear="3750">
@@ -64,7 +56,7 @@
           <MarkerCategory name="c3" DisplayName="Button Paths"                                                                                           iconSize="0.5"/>
         </MarkerCategory>
       <MarkerCategory     name="B4" DisplayName="Xera"                                    fadeFar="3000" fadeNear="2500"                                 iconSize="1"    rotate-x="90"/>
-      <MarkerCategory     name="Ch" DisplayName="Chests"                     behavior="2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/chest.png" iconSize="1"    rotate-x="90"                                                         triggerRange="3"/>
+      <MarkerCategory     name="Ch" DisplayName="Chests"                     behavior="2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/empty.png" iconSize="1"    rotate-x="90"                                                         triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== BASTION OF THE PENITENT ==================================================================================================================================================================================== -->
     <MarkerCategory     name="W4" DisplayName="Bastion of the Penitent"              fadeFar="4000" fadeNear="3750">
@@ -75,7 +67,7 @@
       <MarkerCategory   name="B1" DisplayName="Cairn"                                fadeFar="4000" fadeNear="3500"                                        iconSize="0.5"  rotate-x="180"/>
       <MarkerCategory   name="C1" DisplayName="Samarog's Door"          behavior="6" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/W4/TrueSight.png" iconSize="0.35"/>
       <MarkerCategory   name="B3" DisplayName="Samarog"                              fadeFar="125"  fadeNear="100"/>
-      <MarkerCategory   name="Ch" DisplayName="Chests"                  behavior="2"                                iconFile="Data/Multi/chest.png"        iconSize="0.75"                                                                                   triggerRange="3"/>
+      <MarkerCategory   name="Ch" DisplayName="Chests"                  behavior="2"                                iconFile="Data/Multi/empty.png"        iconSize="0.75"                                                                                   triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== HALL OF CHAINS ============================================================================================================================================================================================= -->
     <MarkerCategory       name="W5" DisplayName="Hall of Chains"                  fadeFar="4000" fadeNear="3750">
@@ -83,7 +75,7 @@
         <MarkerCategory   name="c1" DisplayName="Name"                                                                                                                                         title="Hall of Chains" title-color="white"/>
         <MarkerCategory   name="c2" DisplayName="Bosses Killed"                                                                                  iconSize="0.65" rotate-x="90"/>
       </MarkerCategory>
-      <MarkerCategory     name="B1" DisplayName="Soulless Horror"                                                                                iconSize="1.25" rotate-x="180"/>
+      <MarkerCategory     name="B1" DisplayName="Soulless Horror"                                                                                iconSize="1" rotate-x="180"/>
         <MarkerCategory   name="B3" DisplayName="Statues">
           <MarkerCategory name="c1" DisplayName="Broken King"                     fadeFar="3500" fadeNear="3000" iconFile="Data/Multi/dot.png"   iconSize="0.75" rotate-x="180"/>
           <MarkerCategory name="c2" DisplayName="Statue of Darkness"              fadeFar="3000" fadeNear="2800" iconFile="Data/Multi/dot.png"   iconSize="0.5"  rotate-x="180" rotate-z="-15"/>
@@ -92,7 +84,7 @@
         <MarkerCategory   name="c1" DisplayName="Reapers"                         fadeFar="4000" fadeNear="3500"                                                 rotate-x="180"/>
         <MarkerCategory   name="c3" DisplayName="Death AoE"                       fadeFar="2000" fadeNear="1650"/>                  
       </MarkerCategory>
-      <MarkerCategory     name="Ch" DisplayName="Chests"             behavior="2"                                iconFile="Data/Multi/chest.png" iconSize="1"                                                                              triggerRange="3"/>
+      <MarkerCategory     name="Ch" DisplayName="Chests"             behavior="2"                                iconFile="Data/Multi/empty.png" iconSize="1"                                                                              triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== MYTHWRIGHT GAMBIT ========================================================================================================================================================================================== -->
     <MarkerCategory       name="W6" DisplayName="Mythwright Gambit"                                                                                                    fadeFar="4000" fadeNear="3750">
@@ -113,7 +105,7 @@
           <MarkerCategory name="L3" DisplayName="3rd Path"                                                                                                                                            iconFile="Data/Raids/W6/3.png"/>
         </MarkerCategory>
       </MarkerCategory>
-      <MarkerCategory     name="Ch" DisplayName="Chests"              behavior="2"                                                                                     fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/chest.png" iconSize="1"    rotate-x="90"                                                  triggerRange="3"/>
+      <MarkerCategory     name="Ch" DisplayName="Chests"              behavior="2"                                                                                     fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/empty.png" iconSize="1"    rotate-x="90"                                                  triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== THE KEY OF AHDASHIM ======================================================================================================================================================================================== -->
     <MarkerCategory     name="W7" DisplayName="The Key of Ahdashim" fadeFar="4000" fadeNear="3750">
@@ -135,90 +127,51 @@
     
   <POIs>    
     <!-- ======================================== SPIRIT VALE ================================================================================================================================================================== -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="0057.956" ypos="35.691" zpos="-344.268" GUID="yV/4u4j/7EKfV2DZGrqN2A==" type="Raid.W1.D1.c1"/>
-    <!-- Boss Pictures -->
-    <POI MapID="1155" xpos="0058.898" ypos="38.870" zpos="-345.916" GUID="HsTGNEjZdEmPE49+qSfDTQ==" type="Raid.W1.D1.c2"                                iconFile="Data/Raids/W1/B1.png"                                   rotate-z="-39"/>
-    <POI MapID="1155" xpos="0057.451" ypos="38.870" zpos="-344.796" GUID="Fqso4cbgZ0Kvdp0OfxSBpQ==" type="Raid.W1.D1.c2"                                iconFile="Data/Raids/W1/B3.png"                                   rotate-z="-39"/>
-    <POI MapID="1155" xpos="0055.727" ypos="38.870" zpos="-343.578" GUID="G+yHT6OXIEGlc/RUYEK67A==" type="Raid.W1.D1.c2"                                iconFile="Data/Raids/W1/B4.png"                                   rotate-z="-37"/>
-    <!-- ==================== Vale Guardian ==================== -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W1/vgBound.trl" texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="1" type="Raid.W1.B1"/>
     <!-- ==================== Mushrooms ==================== -->
     <!-- Speed -->
     <POI MapID="1062" xpos="-091.070" ypos="60.937" zpos="-506.081" GUID="trI4Ikkxf0uEl0Of2dGZUg==" type="Raid.W1.C1"/>
     <POI MapID="1062" xpos="-151.658" ypos="60.937" zpos="-507.339" GUID="VVruJ+afv0CW7XgO9/unJg==" type="Raid.W1.C1"/>
     <POI MapID="1062" xpos="-121.094" ypos="60.937" zpos="-559.273" GUID="OCw6WOaUKEqltHMKIqH3aA==" type="Raid.W1.C1"/>
     <!-- Adrenal -->
-    <POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" type="Raid.W1.C1"                                                                   resetLength="30.9"/>
-    <POI MapID="1062" xpos="-063.033" ypos="36.012" zpos="-328.275" GUID="otxqOJuKkU2UIroCyDomnA==" type="Raid.W1.C1"                                                                   resetLength="30.9"/>
-    <!-- ==================== Spirit Run ==================== -->
-    <!-- Trigger Line -->
-    <Trail trailData="Data/Raids/W1/SR_TriggerLines.trl" texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B2"/>
+    <POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" type="Raid.W1.C1"                                resetLength="30.9"/>
+    <POI MapID="1062" xpos="-063.033" ypos="36.012" zpos="-328.275" GUID="otxqOJuKkU2UIroCyDomnA==" type="Raid.W1.C1"                                resetLength="30.9"/>
     <!-- ==================== Gorseval ==================== -->
     <!-- Spirits -->
-    <POI MapID="1062" xpos="0022.168" ypos="48.572" zpos="-093.483" GUID="oEXylxHkdkWsf+eMfVVQIw==" type="Raid.W1.B3.c1"                                                                                   rotate-x="180" rotate-z="220"/>
-    <POI MapID="1062" xpos="0062.549" ypos="48.908" zpos="-091.347" GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="Raid.W1.B3.c1"                                                                                                  rotate-z="135"/>
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W1/gorsBound.trl" texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B3.c2"/>
+    <POI MapID="1062" xpos="0022.168" ypos="48.572" zpos="-093.483" GUID="oEXylxHkdkWsf+eMfVVQIw==" type="Raid.W1.B3.c1"                                                rotate-x="180" rotate-z="220"/>
+    <POI MapID="1062" xpos="0062.549" ypos="48.908" zpos="-091.347" GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="Raid.W1.B3.c1"                                                               rotate-z="135"/>
     <!-- ==================== Sabetha ==================== -->
     <!-- Directions -->
-    <POI MapID="1062" xpos="-133.137" ypos="62.740" zpos="0052.152" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" type="Raid.W1.B4"                                   iconFile="Data/Multi/s.png"                                       rotate-z="-5"/>
-    <POI MapID="1062" xpos="-097.847" ypos="62.884" zpos="0080.927" GUID="7AZv3By300CwPslLkQaEnw==" type="Raid.W1.B4"                                   iconFile="Data/Multi/e.png"                                       rotate-z="85"/>
-    <POI MapID="1062" xpos="-126.366" ypos="62.686" zpos="0116.039" GUID="xxtnBLbCIEuoxx5nBpDqSA==" type="Raid.W1.B4"                                   iconFile="Data/Multi/n.png"                                       rotate-z="175"/>
-    <POI MapID="1062" xpos="-161.633" ypos="62.066" zpos="0087.343" GUID="+oNUkf6Qx0KK4u9MhYitew==" type="Raid.W1.B4"                                   iconFile="Data/Multi/w.png"                                       rotate-z="265"/>
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W1/sabBound.trl" texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B4.c2"/>
-    <!-- ==================== Chests ==================== -->
-    <POI MapID="1062" xpos="-126.154" ypos="28.506" zpos="-223.073" GUID="cjZXgMou5USqfnzLndQviA==" type="Raid.W1.Ch"    fadeFar="1500" fadeNear="1250"                                                                   rotate-z="90"/>
-    <POI MapID="1062" xpos="-063.604" ypos="53.378" zpos="-154.726" GUID="GXd06oAwjEmgK3dUui+DCg==" type="Raid.W1.Ch"    fadeFar="1500" fadeNear="1250"                                                                   rotate-z="90"/>
-    <POI MapID="1062" xpos="-085.536" ypos="73.136" zpos="-208.998" GUID="rP/zhuCv/EGs7J27tLVPzQ==" type="Raid.W1.Ch"    fadeFar="1800" fadeNear="1300"/>
-    <POI MapID="1062" xpos="-288.772" ypos="87.124" zpos="0108.459" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" type="Raid.W1.Ch"    fadeFar="1250" fadeNear="1000"                                                                   rotate-z="195"/>
+    <POI MapID="1062" xpos="-133.137" ypos="62.740" zpos="0052.152" GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" type="Raid.W1.B4.c1"    iconFile="Data/Multi/s.png"                                   rotate-z="-5"/>
+    <POI MapID="1062" xpos="-097.847" ypos="62.884" zpos="0080.927" GUID="7AZv3By300CwPslLkQaEnw==" type="Raid.W1.B4.c1"    iconFile="Data/Multi/e.png"                                   rotate-z="85"/>
+    <POI MapID="1062" xpos="-126.366" ypos="62.686" zpos="0116.039" GUID="xxtnBLbCIEuoxx5nBpDqSA==" type="Raid.W1.B4.c1"    iconFile="Data/Multi/n.png"                                   rotate-z="175"/>
+    <POI MapID="1062" xpos="-161.633" ypos="62.066" zpos="0087.343" GUID="+oNUkf6Qx0KK4u9MhYitew==" type="Raid.W1.B4.c1"    iconFile="Data/Multi/w.png"                                   rotate-z="265"/>
     
     
     <!-- ======================================== SALVATION PASS =============================================================================================================================================================== -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="0065.080" ypos="041.311" zpos="-371.115" GUID="dLd7cuM/KUy8jBudSPyr6A==" type="Raid.W2.D2.c1"/>
     <!-- ==================== Slothasor ==================== -->
     <!-- Mushrooms -->
-    <POI MapID="1149" xpos="0208.926" ypos="004.933" zpos="0025.220" GUID="orHk62LZ8EyzraKa0gGXKg==" type="Raid.W2.B1.c1"                                iconFile="Data/Multi/1.png"/>
-    <POI MapID="1149" xpos="0174.536" ypos="002.414" zpos="-010.016" GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="Raid.W2.B1.c1"                                iconFile="Data/Multi/2.png"/>
-    <POI MapID="1149" xpos="0192.923" ypos="000.846" zpos="-035.958" GUID="y/MQHT7wCkagUkPZlpFa6A==" type="Raid.W2.B1.c1"                                iconFile="Data/Multi/3.png"/>
-    <POI MapID="1149" xpos="0224.968" ypos="-00.177" zpos="-013.498" GUID="K4lINKdqcEeKpuQMv9sU1g==" type="Raid.W2.B1.c1"                                iconFile="Data/Multi/4.png"/>
-    <!-- Timer 
-    <POI MapID="1149" xpos="0208.917" ypos="003.630" zpos="0026.396" GUID="B2NAEktjV0mh7E8YQ8TkgQ==" type="Raid.W2.B1.c2"/> -->
+    <POI MapID="1149" xpos="0208.926" ypos="004.933" zpos="0025.220" GUID="orHk62LZ8EyzraKa0gGXKg==" type="Raid.W2.B1.c1" iconFile="Data/Multi/1.png"/>
+    <POI MapID="1149" xpos="0174.536" ypos="002.414" zpos="-010.016" GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="Raid.W2.B1.c1" iconFile="Data/Multi/2.png"/>
+    <POI MapID="1149" xpos="0192.923" ypos="000.846" zpos="-035.958" GUID="y/MQHT7wCkagUkPZlpFa6A==" type="Raid.W2.B1.c1" iconFile="Data/Multi/3.png"/>
+    <POI MapID="1149" xpos="0224.968" ypos="-00.177" zpos="-013.498" GUID="K4lINKdqcEeKpuQMv9sU1g==" type="Raid.W2.B1.c1" iconFile="Data/Multi/4.png"/>
     <!-- ==================== Trio ==================== -->
     <!-- Beehives -->
-    <POI MapID="1149" xpos="-001.953" ypos="-00.132" zpos="-235.489" GUID="eoxxKScsskiX+qOPk1EYdQ==" type="Raid.W2.B2"                                   iconFile="Data/Multi/1.png"      iconSize="1.2" rotate-x="185" rotate-y="-3"  rotate-z="115"/>
-    <POI MapID="1149" xpos="-000.567" ypos="-00.619" zpos="-290.812" GUID="uF937Qyrt0qXElHSMUW5nw==" type="Raid.W2.B2"                                   iconFile="Data/Multi/2.png"      iconSize="1.2" rotate-x="180"                rotate-z="45"/>
-    <POI MapID="1149" xpos="-032.935" ypos="004.176" zpos="-221.024" GUID="yrpc6HFBLUa1dwelKFK/vQ==" type="Raid.W2.B2"                                   iconFile="Data/Multi/3.png"      iconSize="1.2" rotate-x="162" rotate-z="225"/>
+    <POI MapID="1149" xpos="-001.953" ypos="-00.132" zpos="-235.489" GUID="eoxxKScsskiX+qOPk1EYdQ==" type="Raid.W2.B2"    iconFile="Data/Multi/1.png"      iconSize="1.2" rotate-x="185" rotate-y="-3"  rotate-z="115"/>
+    <POI MapID="1149" xpos="-000.567" ypos="-00.619" zpos="-290.812" GUID="uF937Qyrt0qXElHSMUW5nw==" type="Raid.W2.B2"    iconFile="Data/Multi/2.png"      iconSize="1.2" rotate-x="180"                rotate-z="45"/>
+    <POI MapID="1149" xpos="-032.935" ypos="004.176" zpos="-221.024" GUID="yrpc6HFBLUa1dwelKFK/vQ==" type="Raid.W2.B2"    iconFile="Data/Multi/3.png"      iconSize="1.2" rotate-x="162" rotate-z="225"/>
     <!-- Oils -->
-    <POI MapID="1149" xpos="-030.506" ypos="002.374" zpos="-238.025" GUID="/3CTOpcuskeYgQorlQ/0IQ==" type="Raid.W2.B2"                                   iconFile="Data/Multi/stack.png"  iconSize="0.5" rotate-x="183" rotate-y="5"/>
+    <POI MapID="1149" xpos="-030.506" ypos="002.374" zpos="-238.025" GUID="/3CTOpcuskeYgQorlQ/0IQ==" type="Raid.W2.B2"    iconFile="Data/Multi/stack.png"  iconSize="0.5" rotate-x="183" rotate-y="5"/>
     <!-- Beehive Stack -->
-    <POI MapID="1149" xpos="-016.434" ypos="003.023" zpos="-211.941" GUID="m4f94Wsn90GHWJhUjoVrnw==" type="Raid.W2.B2"                                   iconFile="Data/Multi/stack.png"  iconSize="0.5" rotate-x="185" rotate-y="-1"/>
+    <POI MapID="1149" xpos="-016.434" ypos="003.023" zpos="-211.941" GUID="m4f94Wsn90GHWJhUjoVrnw==" type="Raid.W2.B2"    iconFile="Data/Multi/stack.png"  iconSize="0.5" rotate-x="185" rotate-y="-1"/>
     <!-- ==================== Matthias ==================== -->
     <!-- Wells -->
-    <POI MapID="1149" xpos="-175.004" ypos="132.375" zpos="0125.376" GUID="pCa90+bN6k2VQkym8Ova6w==" type="Raid.W2.B3.c1"                                iconFile="Data/Raids/arrow.png"                                               rotate-z="315"/>
-    <POI MapID="1149" xpos="-175.313" ypos="132.375" zpos="0174.125" GUID="C4QcRORmNU+5rMn682ag9g==" type="Raid.W2.B3.c1"                                iconFile="Data/Raids/circle.png"                                              rotate-z="225"/>
-    <POI MapID="1149" xpos="-126.433" ypos="132.375" zpos="0174.413" GUID="bAdGkZB4kkisSFhyPTn1bw==" type="Raid.W2.B3.c1"                                iconFile="Data/Raids/heart.png"                                               rotate-z="135"/>
-    <POI MapID="1149" xpos="-126.271" ypos="132.375" zpos="0125.600" GUID="s6fhrG1hNkmW5cJJHZsbJg==" type="Raid.W2.B3.c1"                                iconFile="Data/Raids/square.png"                                              rotate-z="45"/>
-    <!-- Timer 
-    <POI MapID="1149" xpos="-150.758" ypos="130.023" zpos="0149.853" GUID="if3XON30j0m26dihfDnSEg==" type="Raid.W2.B3.c2"/> -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W2/Matt.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W2.B3.c3"/>
-    <!-- ==================== Chests ==================== -->
-    <POI MapID="1149" xpos="0210.660" ypos="-02.364" zpos="-054.405" GUID="iRCrHJxb20O5LMcM2jLBqQ==" type="Raid.W2.Ch"    fadeFar="600"  fadeNear="400"                                                  rotate-x="180"                rotate-z="205"/>
-    <POI MapID="1149" xpos="0283.288" ypos="075.502" zpos="-365.385" GUID="4gvlQ1IY4kKni2cWKCtTRA==" type="Raid.W2.Ch"    fadeFar="3250" fadeNear="2750"                                                 rotate-x="90"/>
-    <POI MapID="1149" xpos="0003.740" ypos="084.782" zpos="-120.950" GUID="GrIzR9IAjkmMVvwCadAHgw==" type="Raid.W2.Ch"    fadeFar="2500" fadeNear="2000"                                                 rotate-x="120"                rotate-z="200"/>
-    <POI MapID="1149" xpos="-095.842" ypos="106.800" zpos="0061.237" GUID="M9ogYIfe2E2O74+ZDtMKYw==" type="Raid.W2.Ch"    fadeFar="1500" fadeNear="1000"/>
+    <POI MapID="1149" xpos="-175.004" ypos="132.375" zpos="0125.376" GUID="pCa90+bN6k2VQkym8Ova6w==" type="Raid.W2.B3.c1" iconFile="Data/Raids/arrow.png"                                               rotate-z="315"/>
+    <POI MapID="1149" xpos="-175.313" ypos="132.375" zpos="0174.125" GUID="C4QcRORmNU+5rMn682ag9g==" type="Raid.W2.B3.c1" iconFile="Data/Raids/circle.png"                                              rotate-z="225"/>
+    <POI MapID="1149" xpos="-126.433" ypos="132.375" zpos="0174.413" GUID="bAdGkZB4kkisSFhyPTn1bw==" type="Raid.W2.B3.c1" iconFile="Data/Raids/heart.png"                                               rotate-z="135"/>
+    <POI MapID="1149" xpos="-126.271" ypos="132.375" zpos="0125.600" GUID="s6fhrG1hNkmW5cJJHZsbJg==" type="Raid.W2.B3.c1" iconFile="Data/Raids/square.png"                                              rotate-z="45"/>
     
     
     <!-- ======================================== STRONGHOLD OF THE FAITHFUL =================================================================================================================================================== -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="0085.152" ypos="035.733" zpos="-386.154" GUID="pof3RE39Y06jYBEjiWGpVQ==" type="Raid.W3.D3.c1"/>
     <!-- ==================== Keep Construct ==================== -->
     <!-- Green Circles -->
     <POI MapID="1156" xpos="-097.048" ypos="148.556" zpos="0255.802" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="Raid.W3.B2.c1"/>
@@ -232,11 +185,7 @@
     <POI MapID="1156" xpos="-098.227" ypos="148.551" zpos="0218.485" GUID="rk3s849nHUe9v3JTUBN1rA==" type="Raid.W3.B2.c2"/>
     <!-- 1-Orb Pull -->
     <POI MapID="1156" xpos="-107.558" ypos="148.552" zpos="0249.637" GUID="3jkzHcJ96kaEueETxjSFEQ==" type="Raid.W3.B2.c3"/>
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W3/KC.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W3.B2.c4"/>
     <!-- ==================== Twisted Castle ==================== -->
-    <!-- 1st Button Skip -->
-    <Trail trailData="Data/Raids/W3/TwistedCastle.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="2" alpha="1" type="Raid.W3.B3.c1"/>
     <!-- Buttons -->
     <POI MapID="1156" xpos="-027.900" ypos="094.336" zpos="0074.211" GUID="t0VldGp1GESAIL3ssiIKUg==" type="Raid.W3.B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/1.png"/>
     <POI MapID="1156" xpos="-003.053" ypos="164.135" zpos="-057.326" GUID="vSfb/vVRzEGATQAGG49frA==" type="Raid.W3.B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/2.png"/>
@@ -262,51 +211,24 @@
     <POI MapID="1156" xpos="-098.724" ypos="512.354" zpos="-068.167" GUID="qgI+oAkQD0y//JFZYlBNaw==" type="Raid.W3.B4"                                   iconFile="Data/Multi/1.png"                                    rotate-z="240"/>
     <POI MapID="1156" xpos="-064.367" ypos="512.354" zpos="-058.505" GUID="e3TSFGqltESwLLN+jeAnfA==" type="Raid.W3.B4"                                   iconFile="Data/Multi/2.png"                                    rotate-z="150"/>
     <POI MapID="1156" xpos="-055.524" ypos="512.354" zpos="-092.326" GUID="sj40sryhwUiOQ2gCcaI1MQ==" type="Raid.W3.B4"                                   iconFile="Data/Multi/3.png"                                    rotate-z="60"/>
-    <!-- ==================== Chests ==================== -->
-    <POI MapID="1156" xpos="-144.691" ypos="195.506" zpos="-016.263" GUID="5E99G0iZ00SSWpHKs2cVLw==" type="Raid.W3.Ch"/>
-    <POI MapID="1156" xpos="-075.941" ypos="193.239" zpos="0011.751" GUID="IVX/ZwUu8U6W0MnnZjOO1A==" type="Raid.W3.Ch"                                                                                                  rotate-z="280"/>
-    <POI MapID="1156" xpos="-141.051" ypos="199.192" zpos="0116.734" GUID="O+m8BVoxv0ywAiGRZvzu1A==" type="Raid.W3.Ch"                                                                                                  rotate-z="180"/>
     
     
     <!-- ======================================== BASTION OF THE PENITENT ====================================================================================================================================================== -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="0092.381" ypos="041.297" zpos="-415.361" GUID="7diXcTKUiESXHL9w5moU2g==" type="Raid.W4.D4.c1"/>
-    <!-- Boss Pictures -->
-    <POI MapID="1155" xpos="0093.854" ypos="044.247" zpos="-416.605" GUID="oUVAnwa6/E2ky94KbmbcRA==" type="Raid.W4.D4.c2"                                                                                                iconFile="Data/Raids/W4/B1.png"                                    rotate-z="-35"/>
-    <POI MapID="1155" xpos="0092.720" ypos="044.247" zpos="-415.817" GUID="YFp3tCZHQE2ywQ+1rfZp3g==" type="Raid.W4.D4.c2"                                                                                                iconFile="Data/Raids/W4/B2.png"                                    rotate-z="-35"/>
-    <POI MapID="1155" xpos="0091.586" ypos="044.247" zpos="-415.029" GUID="lI5ahhKjRUaVPs2Izr7iRQ==" type="Raid.W4.D4.c2"                                                                                                iconFile="Data/Raids/W4/B3.png"                                    rotate-z="-35"/>
-    <POI MapID="1155" xpos="0090.452" ypos="044.247" zpos="-414.241" GUID="HpwfSzpRG0+I98zojkBqFA==" type="Raid.W4.D4.c2"                                                                                                iconFile="Data/Raids/W4/B4.png"                                    rotate-z="-35"/>
     <!-- ==================== Cairn ==================== -->
     <!-- Agony Spots -->
-    <POI MapID="1188" xpos="0369.295" ypos="032.120" zpos="0052.475" GUID="wedtPfCXTEugS91HgQoMkg==" type="Raid.W4.B1"                                                                                                   iconFile="Data/Multi/dot.png"                                      rotate-z="15"/>
-    <POI MapID="1188" xpos="0359.920" ypos="032.120" zpos="0050.043" GUID="sKrUfpjhCkqx1MObpkeN/w==" type="Raid.W4.B1"    bounce-when="inzone" bounce-duration="0.5" bounce-distance="20"                                iconFile="Data/Multi/dot.png"                                      rotate-z="15"/>
-    <POI MapID="1188" xpos="0361.518" ypos="032.120" zpos="0063.235" GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="Raid.W4.B1"                                                                                                   iconFile="Data/Multi/dot.png"                                      rotate-z="15"/>
+    <POI MapID="1188" xpos="0369.295" ypos="032.120" zpos="0052.475" GUID="wedtPfCXTEugS91HgQoMkg==" type="Raid.W4.B1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
+    <POI MapID="1188" xpos="0359.920" ypos="032.120" zpos="0050.043" GUID="sKrUfpjhCkqx1MObpkeN/w==" type="Raid.W4.B1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
+    <POI MapID="1188" xpos="0361.518" ypos="032.120" zpos="0063.235" GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="Raid.W4.B1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
     <!-- Kiter -->
-    <POI MapID="1188" xpos="0369.301" ypos="032.120" zpos="0034.189" GUID="xXkIzhbDjkC7KmaMBOeoag==" type="Raid.W4.B1"                                                                                                   iconFile="Data/Multi/dot.png"                                      rotate-z="15"/>
-    <!-- Timer 
-    <POI MapID="1188" xpos="0369.760" ypos="032.120" zpos="0060.162" GUID="X61Xv4ZCakilicnR4E+sHA==" type="Raid.W4.B1"                                                                                                   iconFile="Data/Raids/starttimer.png"                               rotate-z="330"/> -->
-    <!-- ==================== Mursaat Overseer ==================== 
-    <POI MapID="1188" xpos="0098.396" ypos="104.587" zpos="0101.323" GUID="FNBVzp3IsEeS8TGJz2iJGA==" type="Raid.W4.B2"/> -->
+    <POI MapID="1188" xpos="0369.301" ypos="032.120" zpos="0034.189" GUID="xXkIzhbDjkC7KmaMBOeoag==" type="Raid.W4.B1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
     <!-- ==================== Samarog's Door ==================== -->
-    <POI MapID="1188" xpos="0101.351" ypos="105.300" zpos="0115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="Raid.W4.C1"                                                                                                                                        rotate-x="155"                rotate-z="50"/>
-    <POI MapID="1188" xpos="0057.325" ypos="097.480" zpos="0053.245" GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="Raid.W4.C1"                                                                                                                                        rotate-x="120"                rotate-z="-25"/>
-    <POI MapID="1188" xpos="0022.747" ypos="111.443" zpos="0103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.W4.C1"                                                                                                                                        rotate-x="120"                rotate-z="235"/>
-    <POI MapID="1188" xpos="-011.344" ypos="120.690" zpos="0087.571" GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.W4.C1"                                                                                                                                        rotate-x="160"                rotate-z="72"/>
-    <!-- ==================== Samarog ==================== -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W4/Samarog.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W4.B3"/>
-    <!-- ==================== Chests ==================== -->
-    <POI MapID="1188" xpos="0255.450" ypos="001.812" zpos="-008.769" GUID="kSb9nf2xkkCgf3ec6shoOg==" type="Raid.W4.Ch"                                                                    fadeFar="2000" fadeNear="1500"                                      rotate-x="90"  rotate-y="20"  rotate-z="15"/>
-    <POI MapID="1188" xpos="0012.754" ypos="104.681" zpos="0157.706" GUID="tFTlK9GZLkmXHutWAiPLGA==" type="Raid.W4.Ch"                                                                    fadeFar="1000" fadeNear="750"                                       rotate-x="90"                 rotate-z="100"/>
-    <POI MapID="1188" xpos="-055.900" ypos="134.096" zpos="0013.589" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" type="Raid.W4.Ch"                                                                    fadeFar="1750" fadeNear="1250"                                      rotate-x="80"                 rotate-z="10"/>
-    <POI MapID="1188" xpos="-265.259" ypos="083.430" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.W4.Ch"                                                                    fadeFar="1500" fadeNear="1000"                                      rotate-x="160"                rotate-z="270"/>
+    <POI MapID="1188" xpos="0101.351" ypos="105.300" zpos="0115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="Raid.W4.C1"                               rotate-x="155" rotate-z="50"/>
+    <POI MapID="1188" xpos="0057.325" ypos="097.480" zpos="0053.245" GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="Raid.W4.C1"                               rotate-x="120" rotate-z="-25"/>
+    <POI MapID="1188" xpos="0022.747" ypos="111.443" zpos="0103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.W4.C1"                               rotate-x="120" rotate-z="235"/>
+    <POI MapID="1188" xpos="-011.344" ypos="120.690" zpos="0087.571" GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.W4.C1"                               rotate-x="160" rotate-z="72"/>
     
     
     <!-- ======================================== HALL OF CHAINS =============================================================================================================================================================== -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="0126.663" ypos="035.703" zpos="-410.112" GUID="/4ROEejsIUmuyf3LqHmjSg==" type="Raid.W5.D5.c1"/>
     <!-- ==================== Soulless Horror ==================== -->
     <POI MapID="1264" xpos="-282.591" ypos="019.162" zpos="0018.416" GUID="O3r698jXbkyiZoxShdmFVA==" type="Raid.W5.B1"    fadeFar="2500" fadeNear="2000" iconFile="Data/Raids/arrow.png"    rotate-z="285"/>
     <POI MapID="1264" xpos="-266.291" ypos="019.162" zpos="0008.779" GUID="nzYD4KMcF0iMwOfaHhGEYg==" type="Raid.W5.B1"    fadeFar="3000" fadeNear="2500" iconFile="Data/Raids/circle.png"/>
@@ -334,27 +256,14 @@
     <POI MapID="1264" xpos="0365.995" ypos="156.372" zpos="0019.329" GUID="YzhiOdvBf0y1GNebTAkfmw==" type="Raid.W5.B4.c1"                                iconFile="Data/Raids/star.png"     rotate-z="270"/>
     <POI MapID="1264" xpos="0379.073" ypos="156.360" zpos="0044.817" GUID="OpI4IpyEqUeS5Zsfd9KPyg==" type="Raid.W5.B4.c1"                                iconFile="Data/Raids/swirl.png"    rotate-z="200"/>
     <POI MapID="1264" xpos="0407.780" ypos="156.364" zpos="0049.950" GUID="Im4Wm3WM5kCKHI1D/ov4FA==" type="Raid.W5.B4.c1"                                iconFile="Data/Raids/triangle.png" rotate-z="165"/>
-    <!-- Timer
-    <POI MapID="1264" xpos="0377.774" ypos="156.360" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.W5.B4.c2"/> -->
-    <!-- Death AoE -->
-    <Trail trailData="Data/Raids/W5/circle_of_death.trl" texture="Data/Raids/W5/Death.png" animSpeed="-2" alpha="1" type="Raid.W5.B4.c3"/>
-    <!-- ==================== Chests ==================== -->
-    <POI MapID="1264" xpos="-339.401" ypos="036.625" zpos="0181.413" GUID="ljo0u+dqp0WFZkoJ8DDLFw==" type="Raid.W5.Ch"     fadeFar="1500" fadeNear="1000"                                                   rotate-x="90"                 rotate-z="180"/>
-    <POI MapID="1264" xpos="0225.671" ypos="021.862" zpos="-052.562" GUID="zXy+4KUY7EOnBCv0jOsSEA==" type="Raid.W5.Ch"     fadeFar="3000" fadeNear="2500"                                                   rotate-x="180"                rotate-z="110"/>
-    <POI MapID="1264" xpos="0470.616" ypos="163.093" zpos="0015.220" GUID="D9EyjAP7VkqisFpFTLzb7Q==" type="Raid.W5.Ch"     fadeFar="1500" fadeNear="1000"                                                   rotate-x="180"                rotate-z="270"/>
     
     
     <!-- ======================================== MYTHWRIGHT GAMBIT ============================================================================================================================================================ -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="0163.782" ypos="035.704" zpos="-389.050" GUID="Jyq62wpej0ixx3e6jvKJqQ==" type="Raid.W6.D6.c1"/>
     <!-- ==================== Conjured Amalgamate ==================== -->
     <!-- Sword Side -->
     <POI MapID="1303" xpos="-096.686" ypos="050.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.W6.B1.c1"    iconFile="Data/Raids/W6/GS.png"     rotate-z="50"/>
     <!-- Shield Side -->
     <POI MapID="1303" xpos="-095.111" ypos="050.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.W6.B1.c1"    iconFile="Data/Raids/W6/Shield.png" rotate-z="140"/>
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W6/CA.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W6.B1.c2"/>
     <!-- ==================== Twin Largos ==================== -->
     <!-- Nikare Side -->
     <POI MapID="1303" xpos="0352.912" ypos="032.759" zpos="0008.824" GUID="EkOZxvmqB0KwE78EyDW5vg==" type="Raid.W6.B2"       iconFile="Data/Raids/W6/B2-1.png"   rotate-z="240" title="Nikare"/>
@@ -365,37 +274,29 @@
     <POI MapID="1303" xpos="-188.487" ypos="119.147" zpos="0257.289" GUID="xzLu/d06k0yKVkd4p3L2lw==" type="Raid.W6.B3.c1"    iconFile="Data/Raids/W6/Retal.png"/>
     <POI MapID="1303" xpos="-230.839" ypos="119.168" zpos="0331.257" GUID="oqgpfgT+2kSn7SBZ/aGaYg==" type="Raid.W6.B3.c1"    iconFile="Data/Raids/W6/Prot.png"/>
     <!-- Lamp Path 1 -->
-    <POI MapID="1303" xpos="-225.263" ypos="000.512" zpos="0364.238" GUID="eGF+lHzvDE+O02xI/GRbdw==" type="Raid.W6.B3.c2.L1"                                                                                                               rotate-z="90"/>
-    <POI MapID="1303" xpos="-189.957" ypos="000.510" zpos="0363.048" GUID="hPRoLFdtk0e0dlu8NvsUew==" type="Raid.W6.B3.c2.L1"                                                                                                               rotate-z="90"/>
+    <POI MapID="1303" xpos="-225.263" ypos="000.512" zpos="0364.238" GUID="eGF+lHzvDE+O02xI/GRbdw==" type="Raid.W6.B3.c2.L1"                                     rotate-z="90"/>
+    <POI MapID="1303" xpos="-189.957" ypos="000.510" zpos="0363.048" GUID="hPRoLFdtk0e0dlu8NvsUew==" type="Raid.W6.B3.c2.L1"                                     rotate-z="90"/>
     <POI MapID="1303" xpos="-163.740" ypos="000.510" zpos="0344.665" GUID="Q9clWPiLUkqviwzndFu8vw==" type="Raid.W6.B3.c2.L1"/>
-    <POI MapID="1303" xpos="-155.314" ypos="000.511" zpos="0331.048" GUID="km5+mDoqUEGOZd8E2Cs84A==" type="Raid.W6.B3.c2.L1"                                                                                                               rotate-z="90"/>
+    <POI MapID="1303" xpos="-155.314" ypos="000.511" zpos="0331.048" GUID="km5+mDoqUEGOZd8E2Cs84A==" type="Raid.W6.B3.c2.L1"                                     rotate-z="90"/>
     <POI MapID="1303" xpos="-132.067" ypos="000.510" zpos="0309.717" GUID="pCU6bumoDUWIwYF02DK58g==" type="Raid.W6.B3.c2.L1"/>
     <POI MapID="1303" xpos="-131.463" ypos="000.513" zpos="0274.439" GUID="H/AciZzZbUuO5vteLpwFmg==" type="Raid.W6.B3.c2.L1"/>
     <!-- Lamp Path 2 -->
     <POI MapID="1303" xpos="-239.403" ypos="000.515" zpos="0344.335" GUID="rreXhNvsNkmrJMmhxG5ngw==" type="Raid.W6.B3.c2.L2"/>
     <POI MapID="1303" xpos="-239.807" ypos="000.515" zpos="0309.902" GUID="Vl1qh65mO0i1maSPBqMHdQ==" type="Raid.W6.B3.c2.L2"/>
-    <POI MapID="1303" xpos="-224.641" ypos="000.513" zpos="0289.454" GUID="HfqqSHqG3UGu+FqWfAq8Rw==" type="Raid.W6.B3.c2.L2"                                                                                                               rotate-z="90"/>
-    <POI MapID="1303" xpos="-189.306" ypos="000.513" zpos="0288.997" GUID="orx7QXAWmEyoygnI2rl0fg==" type="Raid.W6.B3.c2.L2"                                                                                                               rotate-z="90"/>
+    <POI MapID="1303" xpos="-224.641" ypos="000.513" zpos="0289.454" GUID="HfqqSHqG3UGu+FqWfAq8Rw==" type="Raid.W6.B3.c2.L2"                                     rotate-z="90"/>
+    <POI MapID="1303" xpos="-189.306" ypos="000.513" zpos="0288.997" GUID="orx7QXAWmEyoygnI2rl0fg==" type="Raid.W6.B3.c2.L2"                                     rotate-z="90"/>
     <POI MapID="1303" xpos="-170.044" ypos="000.515" zpos="0273.470" GUID="JaFVN+uF1E2qs51/DkCqqA==" type="Raid.W6.B3.c2.L2"/>
-    <POI MapID="1303" xpos="-154.663" ypos="000.515" zpos="0256.305" GUID="zsWT243gaU6wyE1Jlwv1ng==" type="Raid.W6.B3.c2.L2"                                                                                                               rotate-z="90"/>
+    <POI MapID="1303" xpos="-154.663" ypos="000.515" zpos="0256.305" GUID="zsWT243gaU6wyE1Jlwv1ng==" type="Raid.W6.B3.c2.L2"                                     rotate-z="90"/>
     <!-- Lamp Path 3 -->
-    <POI MapID="1303" xpos="-225.488" ypos="000.512" zpos="0352.110" GUID="T7HJCdJqyU2xROwc5MjeJw==" type="Raid.W6.B3.c2.L3"                                                                                                               rotate-z="90"/>
+    <POI MapID="1303" xpos="-225.488" ypos="000.512" zpos="0352.110" GUID="T7HJCdJqyU2xROwc5MjeJw==" type="Raid.W6.B3.c2.L3"                                     rotate-z="90"/>
     <POI MapID="1303" xpos="-211.932" ypos="000.510" zpos="0344.213" GUID="nZwO5P2tl0i+nxAUM747cg==" type="Raid.W6.B3.c2.L3"/>
     <POI MapID="1303" xpos="-212.744" ypos="000.510" zpos="0309.693" GUID="iMGYc9JcwU2Q2AD8b2g23w==" type="Raid.W6.B3.c2.L3"/>
     <POI MapID="1303" xpos="-212.568" ypos="000.513" zpos="0274.590" GUID="QxfJA4WZnEq8xXN3tjLMaA==" type="Raid.W6.B3.c2.L3"/>
-    <POI MapID="1303" xpos="-190.187" ypos="000.512" zpos="0248.778" GUID="Jkcei9uc70qeI/EPrK6n0Q==" type="Raid.W6.B3.c2.L3"                                                                                                               rotate-z="90"/>
-    <POI MapID="1303" xpos="-155.008" ypos="000.515" zpos="0248.878" GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="Raid.W6.B3.c2.L3"                                                                                                               rotate-z="90"/>
-    <!-- ==================== Chests ==================== -->
-    <POI MapID="1303" xpos="-254.967" ypos="148.280" zpos="-481.495" GUID="eVxGWPyLa0eUySUE1YoM3Q==" type="Raid.W6.Ch"                                                                                                                     rotate-z="180"/>
-    <POI MapID="1303" xpos="-032.101" ypos="120.490" zpos="0317.837" GUID="VMf89b+HhUiybPCQz2TuuA==" type="Raid.W6.Ch"                                                                                                                     rotate-z="50"/>
+    <POI MapID="1303" xpos="-190.187" ypos="000.512" zpos="0248.778" GUID="Jkcei9uc70qeI/EPrK6n0Q==" type="Raid.W6.B3.c2.L3"                                     rotate-z="90"/>
+    <POI MapID="1303" xpos="-155.008" ypos="000.515" zpos="0248.878" GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="Raid.W6.B3.c2.L3"                                     rotate-z="90"/>
+    
     
     <!-- ======================================== THE KEY OF AHDASHIM ========================================================================================================================================================== -->
-    <!-- ==================== Entrance ==================== -->
-    <!-- Title -->
-    <POI MapID="1155" xpos="157.541" ypos="41.000" zpos="-413.666" GUID="fBLjxyPwokalk4KZMK2LPA==" type="Raid.W7.D7.c1"/>
-    <!-- ==================== Cardinal Sabir ==================== -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Raids/W7/Sabir.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W7.B1"/>
     <!-- ==================== Cardinal Adina ==================== -->
     <!-- Directions -->
     <POI MapID="1323" xpos="378.580" ypos="07.754" zpos="-007.834" GUID="XjkNdote70a+BUidfQ7/Aw==" type="Raid.W7.B2.c1" iconFile="Data/Multi/n.png" rotate-z="180"/>
@@ -418,5 +319,97 @@
     <POI MapID="1323" xpos="069.551" ypos="15.212" zpos="0260.601" GUID="XCl9c1J/wU2dD7witzAqAA==" type="Raid.W7.B3.c2"/>
     <POI MapID="1323" xpos="059.504" ypos="15.212" zpos="0277.788" GUID="a90szDLj1EO59iM+urCCLA==" type="Raid.W7.B3.c2"/>
     <POI MapID="1323" xpos="023.568" ypos="15.212" zpos="0278.362" GUID="gZJ5YPQBvUaAMPTQWK4iiw==" type="Raid.W7.B3.c2"/>
+    
+    
+    <!-- ======================================== RAID ENTRANCES =============================================================================================================================================================== -->
+    <!-- ==================== Spirit Vale's Entrance ==================== -->
+    <POI MapID="1155" xpos="057.956" ypos="35.691" zpos="-344.268" GUID="yV/4u4j/7EKfV2DZGrqN2A==" type="Raid.W1.D1.c1"/>
+    <POI MapID="1155" xpos="058.898" ypos="38.870" zpos="-345.916" GUID="HsTGNEjZdEmPE49+qSfDTQ==" type="Raid.W1.D1.c2" iconFile="Data/Raids/W1/B1.png" rotate-z="-39"/>
+    <POI MapID="1155" xpos="059.250" ypos="39.420" zpos="-346.216" GUID="cot/DfbnI0iws3UcleD1gA=="                      iconFile="cm pic.png"           iconSize="0.35" rotate-x="90" rotate-z="-39"/>
+    <POI MapID="1155" xpos="057.451" ypos="38.870" zpos="-344.796" GUID="Fqso4cbgZ0Kvdp0OfxSBpQ==" type="Raid.W1.D1.c2" iconFile="Data/Raids/W1/B3.png" rotate-z="-39"/>
+    <POI MapID="1155" xpos="055.727" ypos="38.870" zpos="-343.578" GUID="G+yHT6OXIEGlc/RUYEK67A==" type="Raid.W1.D1.c2" iconFile="Data/Raids/W1/B4.png" rotate-z="-37"/>
+    <!-- ==================== Salvation Pass's Entrance ==================== -->
+    <POI MapID="1155" xpos="065.080" ypos="41.311" zpos="-371.115" GUID="dLd7cuM/KUy8jBudSPyr6A==" type="Raid.W2.D2.c1"/>
+    <!-- ==================== Stronghold of the Faithful's Entrance ==================== -->
+    <POI MapID="1155" xpos="085.152" ypos="35.733" zpos="-386.154" GUID="pof3RE39Y06jYBEjiWGpVQ==" type="Raid.W3.D3.c1"/>
+    <!-- ==================== Bastion of the Penitent's Entrance ==================== -->
+    <POI MapID="1155" xpos="092.381" ypos="41.297" zpos="-415.361" GUID="7diXcTKUiESXHL9w5moU2g==" type="Raid.W4.D4.c1"/>
+    <POI MapID="1155" xpos="093.854" ypos="44.247" zpos="-416.605" GUID="oUVAnwa6/E2ky94KbmbcRA==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B1.png" rotate-z="-35"/>
+    <POI MapID="1155" xpos="092.720" ypos="44.247" zpos="-415.817" GUID="YFp3tCZHQE2ywQ+1rfZp3g==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B2.png" rotate-z="-35"/>
+    <POI MapID="1155" xpos="091.586" ypos="44.247" zpos="-415.029" GUID="lI5ahhKjRUaVPs2Izr7iRQ==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B3.png" rotate-z="-35"/>
+    <POI MapID="1155" xpos="090.452" ypos="44.247" zpos="-414.241" GUID="HpwfSzpRG0+I98zojkBqFA==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B4.png" rotate-z="-35"/>
+    <!-- ==================== Hall of Chain's Entrance ==================== -->
+    <POI MapID="1155" xpos="126.663" ypos="35.703" zpos="-410.112" GUID="/4ROEejsIUmuyf3LqHmjSg==" type="Raid.W5.D5.c1"/>
+    <!-- ==================== Mythwright Gambit's Entrance ==================== -->
+    <POI MapID="1155" xpos="163.782" ypos="35.704" zpos="-389.050" GUID="Jyq62wpej0ixx3e6jvKJqQ==" type="Raid.W6.D6.c1"/>
+    <!-- ==================== The Key of Ahdashim's Entrance ==================== -->
+    <POI MapID="1155" xpos="157.541" ypos="41.000" zpos="-413.666" GUID="fBLjxyPwokalk4KZMK2LPA==" type="Raid.W7.D7.c1"/>
+    
+    
+    <!-- ======================================== TIMERS ======================================================================================================================================================================= -->
+    <!-- ==================== Slothasor's Timer ==================== 
+    <POI MapID="1149" xpos="0208.917" ypos="003.630" zpos="0026.396" GUID="B2NAEktjV0mh7E8YQ8TkgQ==" type="Raid.W2.B1.c2"/> -->
+    <!-- ==================== Matthias' Timer ==================== 
+    <POI MapID="1149" xpos="-150.758" ypos="130.023" zpos="0149.853" GUID="if3XON30j0m26dihfDnSEg==" type="Raid.W2.B3.c2"/> -->
+    <!-- ==================== Cairn's Timer ==================== 
+    <POI MapID="1188" xpos="0369.760" ypos="032.120" zpos="0060.162" GUID="X61Xv4ZCakilicnR4E+sHA==" type="Raid.W4.B1"    iconFile="Data/Raids/starttimer.png" rotate-z="330"/> -->
+    <!-- ==================== Mursaat Overseer's Timer ==================== 
+    <POI MapID="1188" xpos="0098.396" ypos="104.587" zpos="0101.323" GUID="FNBVzp3IsEeS8TGJz2iJGA==" type="Raid.W4.B2"/> -->
+    <!-- ==================== Dhuum's Timer ==================== 
+    <POI MapID="1264" xpos="0377.774" ypos="156.360" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.W5.B4.c2"/> -->
+    
+    
+    <!-- ======================================== CHESTS ======================================================================================================================================================================= -->
+    <!-- ==================== Spirit Vale's Chests ==================== -->
+    <POI MapID="1062" xpos="-126.154" ypos="028.506" zpos="-223.073" GUID="cjZXgMou5USqfnzLndQviA==" type="Raid.W1.Ch"/>
+    <POI MapID="1062" xpos="-063.604" ypos="053.378" zpos="-154.726" GUID="GXd06oAwjEmgK3dUui+DCg==" type="Raid.W1.Ch"/>
+    <POI MapID="1062" xpos="-085.536" ypos="073.136" zpos="-208.998" GUID="rP/zhuCv/EGs7J27tLVPzQ==" type="Raid.W1.Ch"/>
+    <POI MapID="1062" xpos="-288.772" ypos="087.124" zpos="0108.459" GUID="AhDsYRdBB0KYX4qlE4AOVQ==" type="Raid.W1.Ch"/>
+    <!-- ==================== Salvation Pass's Chests ==================== -->
+    <POI MapID="1149" xpos="0210.660" ypos="-02.364" zpos="-054.405" GUID="iRCrHJxb20O5LMcM2jLBqQ==" type="Raid.W2.Ch"/>
+    <POI MapID="1149" xpos="0283.288" ypos="075.502" zpos="-365.385" GUID="4gvlQ1IY4kKni2cWKCtTRA==" type="Raid.W2.Ch"/>
+    <POI MapID="1149" xpos="0003.740" ypos="084.782" zpos="-120.950" GUID="GrIzR9IAjkmMVvwCadAHgw==" type="Raid.W2.Ch"/>
+    <POI MapID="1149" xpos="-095.842" ypos="106.800" zpos="0061.237" GUID="M9ogYIfe2E2O74+ZDtMKYw==" type="Raid.W2.Ch"/>
+    <!-- ==================== Stronghold of the Faithful's Chests ==================== -->
+    <POI MapID="1156" xpos="-144.691" ypos="195.506" zpos="-016.263" GUID="5E99G0iZ00SSWpHKs2cVLw==" type="Raid.W3.Ch"/>
+    <POI MapID="1156" xpos="-075.941" ypos="193.239" zpos="0011.751" GUID="IVX/ZwUu8U6W0MnnZjOO1A==" type="Raid.W3.Ch"/>
+    <POI MapID="1156" xpos="-141.051" ypos="199.192" zpos="0116.734" GUID="O+m8BVoxv0ywAiGRZvzu1A==" type="Raid.W3.Ch"/>
+    <!-- ==================== Bastion of the Penitent's Chests ==================== -->
+    <POI MapID="1188" xpos="0255.450" ypos="001.812" zpos="-008.769" GUID="kSb9nf2xkkCgf3ec6shoOg==" type="Raid.W4.Ch"/>
+    <POI MapID="1188" xpos="0012.754" ypos="104.681" zpos="0157.706" GUID="tFTlK9GZLkmXHutWAiPLGA==" type="Raid.W4.Ch"/>
+    <POI MapID="1188" xpos="-055.900" ypos="134.096" zpos="0013.589" GUID="nMsOvdFBT0u3x5pC/BwR9Q==" type="Raid.W4.Ch"/>
+    <POI MapID="1188" xpos="-265.259" ypos="083.430" zpos="-009.366" GUID="ep/PkTf+Okq5affn73w/lg==" type="Raid.W4.Ch"/>
+    <!-- ==================== Hall of Chain's Chests ==================== -->
+    <POI MapID="1264" xpos="-339.401" ypos="036.625" zpos="0181.413" GUID="ljo0u+dqp0WFZkoJ8DDLFw==" type="Raid.W5.Ch"/>
+    <POI MapID="1264" xpos="0225.671" ypos="021.862" zpos="-052.562" GUID="zXy+4KUY7EOnBCv0jOsSEA==" type="Raid.W5.Ch"/>
+    <POI MapID="1264" xpos="0470.616" ypos="163.093" zpos="0015.220" GUID="D9EyjAP7VkqisFpFTLzb7Q==" type="Raid.W5.Ch"/>
+    <!-- ==================== Mythwright Gambit's Chests ==================== -->
+    <POI MapID="1303" xpos="-254.967" ypos="148.280" zpos="-481.495" GUID="eVxGWPyLa0eUySUE1YoM3Q==" type="Raid.W6.Ch"/>
+    <POI MapID="1303" xpos="-032.101" ypos="120.490" zpos="0317.837" GUID="VMf89b+HhUiybPCQz2TuuA==" type="Raid.W6.Ch"/>
+    
+    
+    <!-- ======================================== TRAILS ======================================================================================================================================================================= -->
+    <!-- ==================== Vale Guardian's Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W1/vgBound.trl"         texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="1"    type="Raid.W1.B1"/>
+    <!-- ==================== Spirit Run's Trigger Lines ==================== -->
+    <Trail trailData="Data/Raids/W1/SR_TriggerLines.trl" texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B2"/>
+    <!-- ==================== Gorseval's Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W1/gorsBound.trl"       texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B3.c2"/>
+    <!-- ==================== Sabetha's Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W1/sabBound.trl"        texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B4.c2"/>
+    <!-- ==================== Matthias' Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W2/Matt.trl"            texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W2.B3.c3"/>
+    <!-- ==================== Keep Construct's Raid Boundary -->
+    <Trail trailData="Data/Raids/W3/KC.trl"              texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W3.B2.c4"/>
+    <!-- ==================== Twisted Castle's 1st Button Skip ==================== -->
+    <Trail trailData="Data/Raids/W3/TwistedCastle.trl"   texture="Data/Raids/W3/whitetrail.png" animSpeed="2" alpha="1"    type="Raid.W3.B3.c1"/>
+    <!-- ==================== Samarog's Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W4/Samarog.trl"         texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W4.B3"/>
+    <!-- ==================== Dhuum's Death AoE ==================== -->
+    <Trail trailData="Data/Raids/W5/circle_of_death.trl" texture="Data/Raids/W5/Death.png"      animSpeed="-2" alpha="1"   type="Raid.W5.B4.c3"/>
+    <!-- ==================== Conjured Amalgamate's Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W6/CA.trl"              texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W6.B1.c2"/>
+    <!-- ==================== Cardinal Sabir's Raid Boundary ==================== -->
+    <Trail trailData="Data/Raids/W7/Sabir.trl"           texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W7.B1"/>
   </POIs>
 </OverlayData>
