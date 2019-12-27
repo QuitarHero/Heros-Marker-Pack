@@ -7,7 +7,6 @@
     <MarkerCategory   name="B1" DisplayName="Icebrood Construct" fadeFar="2500" fadeNear="2250"                                     iconSize="0.5">
       <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/dot1.png"/>
       <MarkerCategory name="c2" DisplayName="Phase 2"                                           iconFile="Data/Strikes/IC/dot2.png"/>
-      <MarkerCategory name="Ch" DisplayName="Chests"                                            iconFile="Data/Multi/empty.png"/>
     </MarkerCategory>
     <MarkerCategory   name="B2" DisplayName="Fallen Kodan">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
@@ -21,6 +20,7 @@
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="700"  fadeNear="600"/>
       <MarkerCategory name="c2" DisplayName="Torches"/>
+      <MarkerCategory name="c3" DisplayName="Grasp Markers"                                     iconFile="Data/Multi/dot.png"       iconSize="0.3"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -36,15 +36,6 @@
 	<POI MapID="1331" xpos="-789.151" ypos="158.196" zpos="-243.869" GUID="eprhYBch2EGvDwd/z/Krjw==" type="Strike.B1.c2"/>
 	<POI MapID="1331" xpos="-776.296" ypos="158.196" zpos="-239.784" GUID="mAPkAQJCfEWL1h8d2QQY7Q==" type="Strike.B1.c2"/>
 	<POI MapID="1331" xpos="-771.402" ypos="158.196" zpos="-251.962" GUID="4p+0FEaR80yS0SVb0LJwmQ==" type="Strike.B1.c2"/>
-    <!-- Chests -->
-    <POI MapID="1331" xpos="-723.042" ypos="160.869" zpos="-336.716" GUID="8YPlfyxGJUCLzCZAb9exTw==" type="Strike.B1.Ch"/>
-	<POI MapID="1331" xpos="-748.520" ypos="156.549" zpos="-323.334" GUID="yM/75pBMfEukUbAWO2HkKw==" type="Strike.B1.Ch"/>
-	<POI MapID="1331" xpos="-768.846" ypos="151.517" zpos="-340.430" GUID="mEl4i/KLdU+VbhGZHO3OFQ==" type="Strike.B1.Ch"/>
-	<POI MapID="1331" xpos="-789.873" ypos="152.857" zpos="-322.413" GUID="YvTr6zAcaUKX4EJHEmiAbg==" type="Strike.B1.Ch"/>
-	<POI MapID="1331" xpos="-835.268" ypos="152.588" zpos="-303.776" GUID="qpkxtKjPS0WIkv+0bEbUjw==" type="Strike.B1.Ch"/>
-    <POI MapID="1331" xpos="-752.411" ypos="158.423" zpos="-348.351" GUID="ckE3TXtaf0Gc0ZhVqzq4oA==" type="Strike.B1.Ch"/>
-	<POI MapID="1331" xpos="-792.252" ypos="164.052" zpos="-341.001" GUID="/IX/+4F49EiB3qaPwq6mKw==" type="Strike.B1.Ch"/>
-	<POI MapID="1331" xpos="-811.512" ypos="145.952" zpos="-304.018" GUID="HqcBI6O/SEGP8jBqMd4Agw==" type="Strike.B1.Ch"/>
     <!-- ========== SQUAD ========== -->
     <!-- Phase 1 -->
     <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="Strike.B1.c1"/>
@@ -56,15 +47,6 @@
     <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="Strike.B1.c2"/>
 	<POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="Strike.B1.c2"/>
     <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="Strike.B1.c2"/>
-    <!-- Chests -->
-    <POI MapID="1332" xpos="-723.042" ypos="160.869" zpos="-336.716" GUID="LKyFttOhWUCnpLq0u5wl6A==" type="Strike.B1.Ch"/>
-	<POI MapID="1332" xpos="-748.520" ypos="156.549" zpos="-323.334" GUID="ojvZnVg4c06XzBjRtaYtLg==" type="Strike.B1.Ch"/>
-	<POI MapID="1332" xpos="-768.846" ypos="151.517" zpos="-340.430" GUID="JHGeQXO8/ECLoCDfeym9Vg==" type="Strike.B1.Ch"/>
-	<POI MapID="1332" xpos="-789.873" ypos="152.857" zpos="-322.413" GUID="u3R8FjSPqUiNds1R1LaK4A==" type="Strike.B1.Ch"/>
-	<POI MapID="1332" xpos="-835.268" ypos="152.588" zpos="-303.776" GUID="6bVXxEZttUulYFZAGM0NLw==" type="Strike.B1.Ch"/>
-    <POI MapID="1332" xpos="-752.411" ypos="158.423" zpos="-348.351" GUID="Dx+BREvY8Uqpl8yXvYwwkw==" type="Strike.B1.Ch"/>
-	<POI MapID="1332" xpos="-792.252" ypos="164.052" zpos="-341.001" GUID="KzZKu9k/PkKVeqlBAYNycw==" type="Strike.B1.Ch"/>
-	<POI MapID="1332" xpos="-811.512" ypos="145.952" zpos="-304.018" GUID="q98kYHQkHUuIj5Zyu5trOw==" type="Strike.B1.Ch"/>
     
     
     <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
@@ -128,6 +110,13 @@
 	<POI MapID="1351" xpos="000.291" ypos="179.786" zpos="022.614" GUID="QN2WCWbTB0yv32qSAuFOpw==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/4.png"/>
 	<POI MapID="1351" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="zOV+kI8Cg0yzeOGCBjolUQ==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/5.png"/>
 	<POI MapID="1351" xpos="032.281" ypos="179.845" zpos="021.882" GUID="OQWe5P6vkE+/RE58ktJUBw==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/6.png"/>
+    <!-- Grasp Markers -->
+    <POI MapID="1351" xpos="20.823"  ypos="178.212" zpos="-2.209"  GUID="eCFjEDJ49E6lxZ8T5vhp+Q==" type="Strike.B4.c3"/>
+	<POI MapID="1351" xpos="12.807"  ypos="178.212" zpos="2.391"   GUID="v/3cHGakkkeC4fiwcvj7Tw==" type="Strike.B4.c3"/>
+	<POI MapID="1351" xpos="18.582"  ypos="178.212" zpos="2.226"   GUID="PsGJixjrK0KrNzHU//InmA==" type="Strike.B4.c3"/>
+	<POI MapID="1351" xpos="10.549"  ypos="178.214" zpos="-2.508"  GUID="7tAEQAFgMEymFVphGe/+uA==" type="Strike.B4.c3"/>
+	<POI MapID="1351" xpos="13.463"  ypos="178.222" zpos="-6.417"  GUID="NfCcr9XtO0ezZUgSxv6UjA==" type="Strike.B4.c3"/>
+    <POI MapID="1351" xpos="18.368"  ypos="178.212" zpos="-5.823"  GUID="7fBfBGXNSUSD03H2M4THow==" type="Strike.B4.c3"/>
     <!-- ========== SQUAD ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Strikes/BS/BSBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B4.c1"/>
@@ -138,6 +127,13 @@
 	<POI MapID="1339" xpos="000.291" ypos="179.786" zpos="022.614" GUID="g7En932TFEqELhm3OZM6Hg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/4.png"/>
 	<POI MapID="1339" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/5.png"/>
 	<POI MapID="1339" xpos="032.281" ypos="179.845" zpos="021.882" GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/6.png"/>
+    <!-- Grasp Markers -->
+    <POI MapID="1339" xpos="20.823"  ypos="178.212" zpos="-2.209"  GUID="IBpfyFeAEUeum/C1wcSq8Q==" type="Strike.B4.c3"/>
+	<POI MapID="1339" xpos="12.807"  ypos="178.212" zpos="2.391"   GUID="iCBPJHcGy0mvneAMvSPjWg==" type="Strike.B4.c3"/>
+	<POI MapID="1339" xpos="18.582"  ypos="178.212" zpos="2.226"   GUID="rAJwtLF71UOMtgL8a5DE2A==" type="Strike.B4.c3"/>
+	<POI MapID="1339" xpos="10.549"  ypos="178.214" zpos="-2.508"  GUID="vTAgxfGzR0KutWy0FJmNsg==" type="Strike.B4.c3"/>
+	<POI MapID="1339" xpos="13.463"  ypos="178.222" zpos="-6.417"  GUID="hqF1hFrAlkOtsMwBaB1Meg==" type="Strike.B4.c3"/>
+    <POI MapID="1339" xpos="18.368"  ypos="178.212" zpos="-5.823"  GUID="VIPRW+wBvkarQ5/7sgBRSA==" type="Strike.B4.c3"/>
     
   </POIs>
 </OverlayData>
