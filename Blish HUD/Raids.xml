@@ -5,10 +5,6 @@
   <MarkerCategory name="Raid" DisplayName="Raid">
     <!-- ========== SPIRIT VALE ================================================================================================================================================================================================ -->
     <MarkerCategory     name="W1" DisplayName="Spirit Vale">
-      <MarkerCategory   name="D1" DisplayName="Entrance"                   fadeFar="4000" fadeNear="3750">
-        <MarkerCategory name="c1" DisplayName="Name"                                                                                                                                    title="Spirit Vale" title-color="white"/>
-        <MarkerCategory name="c2" DisplayName="Bosses Killed"                      iconFile="plant.png"                                                                       iconSize="0.9" rotate-x="90"/>
-      </MarkerCategory>
       <MarkerCategory   name="B1" DisplayName="Vale Guardian"              fadeFar="115"  fadeNear="90"/>
       <MarkerCategory   name="C1" DisplayName="Mushrooms"     behavior="4" fadeFar="3500" fadeNear="3000" hasCountdown="1" iconFile="Data/Multi/empty.png"                                                                      triggerRange="2"/>
       <MarkerCategory   name="B2" DisplayName="Spirit Run"                 fadeFar="1500" fadeNear="1000"/>
@@ -23,11 +19,7 @@
       <MarkerCategory   name="Ch" DisplayName="Chests"        behavior="2"                                                 iconFile="Data/Multi/empty.png" iconSize="0.5" rotate-x="90"                                         triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== SALVATION PASS ============================================================================================================================================================================================= -->
-    <MarkerCategory     name="W2" DisplayName="Salvation Pass"              fadeFar="4000" fadeNear="3750">
-      <MarkerCategory   name="D2" DisplayName="Entrance">
-        <MarkerCategory name="c1" DisplayName="Name"                                                                                                                                        title="Salvation Pass" title-color="white"/>
-        <MarkerCategory name="c2" DisplayName="Bosses Killed"                                                                                   iconSize="0.9" rotate-x="90"/>
-      </MarkerCategory>
+    <MarkerCategory     name="W2" DisplayName="Salvation Pass">
       <MarkerCategory   name="B1" DisplayName="Slothasor"                   fadeFar="3500" fadeNear="3250"                                      iconSize="1">
         <MarkerCategory name="c1" DisplayName="Mushrooms"/>
       </MarkerCategory>
@@ -39,11 +31,7 @@
       <MarkerCategory   name="Ch" DisplayName="Chests"         behavior="2"                                iconFile="Data/Multi/empty.png"      iconSize="0.6"                                                                          triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== STRONGHOLD OF THE FAITHFUL ================================================================================================================================================================================= -->
-    <MarkerCategory       name="W3" DisplayName="Stronghold of the Faithful"              fadeFar="4000" fadeNear="3750">
-      <MarkerCategory     name="D3" DisplayName="Entrance">
-        <MarkerCategory   name="c1" DisplayName="Name"                                                                                                                                  title="Stronghold of the Faithful" title-color="white"/>
-        <MarkerCategory   name="c2" DisplayName="Bosses Killed"                                                                                          iconSize="0.65" rotate-x="90"/>
-      </MarkerCategory>
+    <MarkerCategory       name="W3" DisplayName="Stronghold of the Faithful">
       <MarkerCategory     name="B2" DisplayName="Keep Construct"                          fadeFar="2500" fadeNear="2000"                                 iconSize="0.5"  rotate-x="180">
         <MarkerCategory   name="c1" DisplayName="Green Circles"                                                          iconFile="Data/Multi/stack.png"/>
         <MarkerCategory   name="c2" DisplayName="Rifts"                                                                  iconFile="Data/Multi/dot.png"/>
@@ -59,22 +47,14 @@
       <MarkerCategory     name="Ch" DisplayName="Chests"                     behavior="2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/empty.png" iconSize="1"    rotate-x="90"                                                         triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== BASTION OF THE PENITENT ==================================================================================================================================================================================== -->
-    <MarkerCategory     name="W4" DisplayName="Bastion of the Penitent"              fadeFar="4000" fadeNear="3750">
-      <MarkerCategory   name="D4" DisplayName="Entrance">
-        <MarkerCategory name="c1" DisplayName="Name"                                                                                                                                                    title="Bastion of the Penitent" title-color="white"/>
-        <MarkerCategory name="c2" DisplayName="Bosses Killed"                                                                                              iconSize="0.68" rotate-x="90"/>
-      </MarkerCategory>
+    <MarkerCategory     name="W4" DisplayName="Bastion of the Penitent">
       <MarkerCategory   name="B1" DisplayName="Cairn"                                fadeFar="4000" fadeNear="3500"                                        iconSize="0.5"  rotate-x="180"/>
       <MarkerCategory   name="C1" DisplayName="Samarog's Door"          behavior="6" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/W4/TrueSight.png" iconSize="0.35"/>
       <MarkerCategory   name="B3" DisplayName="Samarog"                              fadeFar="125"  fadeNear="100"/>
       <MarkerCategory   name="Ch" DisplayName="Chests"                  behavior="2"                                iconFile="Data/Multi/empty.png"        iconSize="0.75"                                                                                   triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== HALL OF CHAINS ============================================================================================================================================================================================= -->
-    <MarkerCategory       name="W5" DisplayName="Hall of Chains"                  fadeFar="4000" fadeNear="3750">
-      <MarkerCategory     name="D5" DisplayName="Entrance">
-        <MarkerCategory   name="c1" DisplayName="Name"                                                                                                                                         title="Hall of Chains" title-color="white"/>
-        <MarkerCategory   name="c2" DisplayName="Bosses Killed"                                                                                  iconSize="0.65" rotate-x="90"/>
-      </MarkerCategory>
+    <MarkerCategory       name="W5" DisplayName="Hall of Chains">
       <MarkerCategory     name="B1" DisplayName="Soulless Horror"                                                                                iconSize="1" rotate-x="180"/>
         <MarkerCategory   name="B3" DisplayName="Statues">
           <MarkerCategory name="c1" DisplayName="Broken King"                     fadeFar="3500" fadeNear="3000" iconFile="Data/Multi/dot.png"   iconSize="0.75" rotate-x="180"/>
@@ -87,11 +67,7 @@
       <MarkerCategory     name="Ch" DisplayName="Chests"             behavior="2"                                iconFile="Data/Multi/empty.png" iconSize="1"                                                                              triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== MYTHWRIGHT GAMBIT ========================================================================================================================================================================================== -->
-    <MarkerCategory       name="W6" DisplayName="Mythwright Gambit"                                                                                                    fadeFar="4000" fadeNear="3750">
-      <MarkerCategory     name="D6" DisplayName="Entrance">
-        <MarkerCategory   name="c1" DisplayName="Name"                                                                                                                                                                                                                title="Mythwright Gambit" title-color="white"/>
-        <MarkerCategory   name="c2" DisplayName="Bosses Killed"                                                                                                                                                                       iconSize="0.9"  rotate-x="90"/>
-      </MarkerCategory>
+    <MarkerCategory       name="W6" DisplayName="Mythwright Gambit">
       <MarkerCategory     name="B1" DisplayName="Conjured Amalgamate">
         <MarkerCategory   name="c1" DisplayName="Shield/Sword"                                                                                                         fadeFar="3000" fadeNear="2500"                                 iconSize="0.75" rotate-x="180"/>
         <MarkerCategory   name="c2" DisplayName="Boundary"                                                                                                             fadeFar="125"  fadeNear="100"/>
@@ -108,11 +84,7 @@
       <MarkerCategory     name="Ch" DisplayName="Chests"              behavior="2"                                                                                     fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/empty.png" iconSize="1"    rotate-x="90"                                                  triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== THE KEY OF AHDASHIM ======================================================================================================================================================================================== -->
-    <MarkerCategory     name="W7" DisplayName="The Key of Ahdashim" fadeFar="4000" fadeNear="3750">
-      <MarkerCategory   name="D7" DisplayName="Entrance">
-        <MarkerCategory name="c1" DisplayName="Name"                                                                                                            title="The Key of Ahdashim" title-color="white"/>
-        <MarkerCategory name="c2" DisplayName="Bosses Killed"                                                                    iconSize="0.65" rotate-x="90"/>
-      </MarkerCategory>
+    <MarkerCategory     name="W7" DisplayName="The Key of Ahdashim">
       <MarkerCategory   name="B1" DisplayName="Cardinal Sabir"      fadeFar="125"  fadeNear="100"/>
       <MarkerCategory   name="B2" DisplayName="Cardinal Adina"      fadeFar="3250" fadeNear="2750">
         <MarkerCategory name="c1" DisplayName="Directions"                                                                                       rotate-x="90"/>
@@ -129,9 +101,9 @@
     <!-- ======================================== SPIRIT VALE ================================================================================================================================================================== -->
     <!-- ==================== Mushrooms ==================== -->
     <!-- Speed -->
-    <POI MapID="1062" xpos="-091.070" ypos="60.937" zpos="-506.081" GUID="trI4Ikkxf0uEl0Of2dGZUg==" type="Raid.W1.C1"/>
-    <POI MapID="1062" xpos="-151.658" ypos="60.937" zpos="-507.339" GUID="VVruJ+afv0CW7XgO9/unJg==" type="Raid.W1.C1"/>
-    <POI MapID="1062" xpos="-121.094" ypos="60.937" zpos="-559.273" GUID="OCw6WOaUKEqltHMKIqH3aA==" type="Raid.W1.C1"/>
+    <POI MapID="1062" xpos="-091.070" ypos="60.937" zpos="-506.081" GUID="trI4Ikkxf0uEl0Of2dGZUg==" type="Raid.W1.C1"                                resetLength="20"/>
+    <POI MapID="1062" xpos="-151.658" ypos="60.937" zpos="-507.339" GUID="VVruJ+afv0CW7XgO9/unJg==" type="Raid.W1.C1"                                resetLength="20"/>
+    <POI MapID="1062" xpos="-121.094" ypos="60.937" zpos="-559.273" GUID="OCw6WOaUKEqltHMKIqH3aA==" type="Raid.W1.C1"                                resetLength="20"/>
     <!-- Adrenal -->
     <POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" type="Raid.W1.C1"                                resetLength="30.9"/>
     <POI MapID="1062" xpos="-063.033" ypos="36.012" zpos="-328.275" GUID="otxqOJuKkU2UIroCyDomnA==" type="Raid.W1.C1"                                resetLength="30.9"/>
@@ -319,44 +291,6 @@
     <POI MapID="1323" xpos="069.551" ypos="15.212" zpos="0260.601" GUID="XCl9c1J/wU2dD7witzAqAA==" type="Raid.W7.B3.c2"/>
     <POI MapID="1323" xpos="059.504" ypos="15.212" zpos="0277.788" GUID="a90szDLj1EO59iM+urCCLA==" type="Raid.W7.B3.c2"/>
     <POI MapID="1323" xpos="023.568" ypos="15.212" zpos="0278.362" GUID="gZJ5YPQBvUaAMPTQWK4iiw==" type="Raid.W7.B3.c2"/>
-    
-    
-    <!-- ======================================== RAID ENTRANCES =============================================================================================================================================================== -->
-    <!-- ==================== Spirit Vale's Entrance ==================== -->
-    <POI MapID="1155" xpos="057.956" ypos="35.691" zpos="-344.268" GUID="yV/4u4j/7EKfV2DZGrqN2A==" type="Raid.W1.D1.c1"/>
-    <POI MapID="1155" xpos="058.898" ypos="38.870" zpos="-345.916" GUID="HsTGNEjZdEmPE49+qSfDTQ==" type="Raid.W1.D1.c2" iconFile="Data/Raids/W1/B1.png" rotate-z="-39"/>
-    <POI MapID="1155" xpos="059.250" ypos="39.420" zpos="-346.216" GUID="cot/DfbnI0iws3UcleD1gA=="                      iconFile="cm pic.png"           iconSize="0.35" rotate-x="90" rotate-z="-39"/>
-    <POI MapID="1155" xpos="057.451" ypos="38.870" zpos="-344.796" GUID="Fqso4cbgZ0Kvdp0OfxSBpQ==" type="Raid.W1.D1.c2" iconFile="Data/Raids/W1/B3.png" rotate-z="-39"/>
-    <POI MapID="1155" xpos="055.727" ypos="38.870" zpos="-343.578" GUID="G+yHT6OXIEGlc/RUYEK67A==" type="Raid.W1.D1.c2" iconFile="Data/Raids/W1/B4.png" rotate-z="-37"/>
-    <!-- ==================== Salvation Pass's Entrance ==================== -->
-    <POI MapID="1155" xpos="065.080" ypos="41.311" zpos="-371.115" GUID="dLd7cuM/KUy8jBudSPyr6A==" type="Raid.W2.D2.c1"/>
-    <!-- ==================== Stronghold of the Faithful's Entrance ==================== -->
-    <POI MapID="1155" xpos="085.152" ypos="35.733" zpos="-386.154" GUID="pof3RE39Y06jYBEjiWGpVQ==" type="Raid.W3.D3.c1"/>
-    <!-- ==================== Bastion of the Penitent's Entrance ==================== -->
-    <POI MapID="1155" xpos="092.381" ypos="41.297" zpos="-415.361" GUID="7diXcTKUiESXHL9w5moU2g==" type="Raid.W4.D4.c1"/>
-    <POI MapID="1155" xpos="093.854" ypos="44.247" zpos="-416.605" GUID="oUVAnwa6/E2ky94KbmbcRA==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B1.png" rotate-z="-35"/>
-    <POI MapID="1155" xpos="092.720" ypos="44.247" zpos="-415.817" GUID="YFp3tCZHQE2ywQ+1rfZp3g==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B2.png" rotate-z="-35"/>
-    <POI MapID="1155" xpos="091.586" ypos="44.247" zpos="-415.029" GUID="lI5ahhKjRUaVPs2Izr7iRQ==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B3.png" rotate-z="-35"/>
-    <POI MapID="1155" xpos="090.452" ypos="44.247" zpos="-414.241" GUID="HpwfSzpRG0+I98zojkBqFA==" type="Raid.W4.D4.c2" iconFile="Data/Raids/W4/B4.png" rotate-z="-35"/>
-    <!-- ==================== Hall of Chain's Entrance ==================== -->
-    <POI MapID="1155" xpos="126.663" ypos="35.703" zpos="-410.112" GUID="/4ROEejsIUmuyf3LqHmjSg==" type="Raid.W5.D5.c1"/>
-    <!-- ==================== Mythwright Gambit's Entrance ==================== -->
-    <POI MapID="1155" xpos="163.782" ypos="35.704" zpos="-389.050" GUID="Jyq62wpej0ixx3e6jvKJqQ==" type="Raid.W6.D6.c1"/>
-    <!-- ==================== The Key of Ahdashim's Entrance ==================== -->
-    <POI MapID="1155" xpos="157.541" ypos="41.000" zpos="-413.666" GUID="fBLjxyPwokalk4KZMK2LPA==" type="Raid.W7.D7.c1"/>
-    
-    
-    <!-- ======================================== TIMERS ======================================================================================================================================================================= -->
-    <!-- ==================== Slothasor's Timer ==================== 
-    <POI MapID="1149" xpos="0208.917" ypos="003.630" zpos="0026.396" GUID="B2NAEktjV0mh7E8YQ8TkgQ==" type="Raid.W2.B1.c2"/> -->
-    <!-- ==================== Matthias' Timer ==================== 
-    <POI MapID="1149" xpos="-150.758" ypos="130.023" zpos="0149.853" GUID="if3XON30j0m26dihfDnSEg==" type="Raid.W2.B3.c2"/> -->
-    <!-- ==================== Cairn's Timer ==================== 
-    <POI MapID="1188" xpos="0369.760" ypos="032.120" zpos="0060.162" GUID="X61Xv4ZCakilicnR4E+sHA==" type="Raid.W4.B1"    iconFile="Data/Raids/starttimer.png" rotate-z="330"/> -->
-    <!-- ==================== Mursaat Overseer's Timer ==================== 
-    <POI MapID="1188" xpos="0098.396" ypos="104.587" zpos="0101.323" GUID="FNBVzp3IsEeS8TGJz2iJGA==" type="Raid.W4.B2"/> -->
-    <!-- ==================== Dhuum's Timer ==================== 
-    <POI MapID="1264" xpos="0377.774" ypos="156.360" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.W5.B4.c2"/> -->
     
     
     <!-- ======================================== CHESTS ======================================================================================================================================================================= -->
