@@ -28,7 +28,7 @@
       <MarkerCategory   name="B2" DisplayName="Trio"                        fadeFar="4750" fadeNear="4500"                                      iconSize="1"                         mapDisplaySize="14"/>
       <MarkerCategory   name="B3" DisplayName="Matthias"                    fadeFar="2750" fadeNear="2500">
         <MarkerCategory name="c1" DisplayName="Wells"                                                                                           iconSize="0.5"                       mapDisplaySize="14"/>
-        <MarkerCategory name="c2" DisplayName="Timer"                                                      iconFile="Data/Raids/starttimer.png"/>
+        <MarkerCategory name="c2" DisplayName="Timer"                                                      iconFile="Data/Raids/starttimer.png"                                                                            miniMapVisibility="0"/>
         <MarkerCategory name="c3" DisplayName="Boundary"                    fadeFar="700"  fadeNear="600"                                                                                                                  miniMapVisibility="0"/>
       </MarkerCategory>
       <MarkerCategory   name="Ch" DisplayName="Chests"         behavior="2"                                iconFile="Data/Multi/chest.png"                     inGameVisibility="0"                     mapVisibility="1"                       triggerRange="4"/>
@@ -52,13 +52,12 @@
     <!-- ========== BASTION OF THE PENITENT ==================================================================================================================================================================================== -->
     <MarkerCategory   name="W4" DisplayName="Bastion of the Penitent">
       <MarkerCategory name="B1" DisplayName="Cairn"                                fadeFar="4000" fadeNear="3500" iconFile="Data/Raids/W4/Agony.png"     iconSize="0.5"                                         miniMapVisibility="0"/>
-      <MarkerCategory name="B2" DisplayName="Mursaat Overseer"                     fadeFar="3000" fadeNear="2500" iconFile="Data/Raids/starttimer.png"   iconSize="1"/>
+      <MarkerCategory name="B2" DisplayName="Mursaat Overseer"                     fadeFar="3000" fadeNear="2500" iconFile="Data/Raids/starttimer.png"   iconSize="1"                                           miniMapVisibility="0"/>
       <MarkerCategory name="C1" DisplayName="Samarog's Door"          behavior="6" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/W4/TrueSight.png" iconSize="0.35"/>
       <MarkerCategory name="B3" DisplayName="Samarog"                                                                                                                                                           miniMapVisibility="0">
         <MarkerCategory name="c1" DisplayName="Boundary"                           fadeFar="700"  fadeNear="600"/>
         <MarkerCategory name="c2" DisplayName="Regular Timer (Right)"              fadeFar="1000" fadeNear="750"  iconFile="Data/Raids/starttimer.png"/>
         <MarkerCategory name="c3" DisplayName="CM Timer (Left)"                    fadeFar="1000" fadeNear="750"/>
-        <MarkerCategory name="c4" DisplayName="CM Markers (not implemented)"       iconFile="Data/Multi/empty.png" miniMapVisibility="0" inGameVisibility="0"/>
       </MarkerCategory>
       <MarkerCategory name="Ch" DisplayName="Chests"                  behavior="2"                                iconFile="Data/Multi/chest.png"                        inGameVisibility="0" mapVisibility="1"                       triggerRange="4"/>
     </MarkerCategory>
@@ -208,23 +207,7 @@
     <POI MapID="1188" xpos="0057.325" ypos="097.480" zpos="053.245" GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="Raid.W4.C1"/>
     <POI MapID="1188" xpos="0022.747" ypos="111.443" zpos="103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.W4.C1"/>
     <POI MapID="1188" xpos="-011.344" ypos="120.690" zpos="087.571" GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.W4.C1"/>
-    <!-- ==================== SAMAROG ==================== -->
-    <!-- Timers -->
-    <POI MapID="1188" xpos="-67.008"  ypos="129.511" zpos="72.8355" GUID="nPFvvLujxkmRkmTYfpKxcg==" type="Raid.W4.B3.c2"/>
-    <POI MapID="1188" xpos="-98.9562" ypos="129.515" zpos="88.3235" GUID="E1XM6hZOCEOKXyJNIhJXdw==" type="Raid.W4.B3.c3"/>
-    <!-- CM Markers -->
-    <POI MapID="1188" xpos="-67.6813" ypos="129.511" zpos="82.5723" GUID="0VMYu8lg2EePol/Pc/yvIg==" type="Raid.W4.B3.c4"/>
-    <POI MapID="1188" xpos="-99.9494" ypos="129.509" zpos="67.8801" GUID="ep78Uk+8ZESRhpLwNmQGHA==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-100.233" ypos="129.52"  zpos="47.4451" GUID="sjp51TsOZ0mf36DFb+PQ/A==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-81.8995" ypos="129.52"  zpos="48.5508" GUID="MoXHjk5HYU6ufe3Whs++7g==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-80.8298" ypos="129.525" zpos="68.3268" GUID="okvLF/iWP0yGlG0F8jwacQ==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-80.28"   ypos="129.517" zpos="87.1467" GUID="uF1HGsysnEu5zfNS35kXJA==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-79.7519" ypos="129.592" zpos="106.043" GUID="3wdZRC6whUW2lvIpFN4ZGQ==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-99.0785" ypos="129.52"  zpos="108.049" GUID="6qjRS2R7SEWDBYhDT91dXQ==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-118.421" ypos="129.52"  zpos="108.434" GUID="LcoOy3Lv6kiREWfazfuxRQ==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-119.269" ypos="129.52"  zpos="88.3415" GUID="2XSNwdpNfkGxhoVO/182tQ==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-119.357" ypos="129.52"  zpos="67.8378" GUID="TqLo4HxWekGBFtnzuA4+2g==" type="Raid.W4.B3.c4"/>
-	<POI MapID="1188" xpos="-119.403" ypos="129.511" zpos="46.4479" GUID="MDIa1DAjgUiQ6k5Ql53Upw==" type="Raid.W4.B3.c4"/>
+    
     
     <!-- ======================================== HALL OF CHAINS =============================================================================================================================================================== -->
     <!-- ==================== Soulless Horror ==================== -->
@@ -313,9 +296,6 @@
     <POI MapID="1323" xpos="059.504" ypos="15.212" zpos="277.788" GUID="a90szDLj1EO59iM+urCCLA==" type="Raid.W7.B3.c2"/>
     
     
-    <!-- ======================================== ENTRANCES ==================================================================================================================================================================== -->
-    <!-- ========== Spirit Vale ========== -->
-    <POI MapID="1155" xpos="59.6392" ypos="37.341" zpos="-345.479" GUID="u9vFTqYt+U2i0sUqQURx2Q==" iconFile="Data/Raids/W1/B1cm.png" iconSize="0.5" achievementId="2652"/>
     <!-- ======================================== TIMERS ======================================================================================================================================================================= -->
     <!-- ==================== Slothasor's Timer ==================== -->
     <POI MapID="1149" xpos="0208.917" ypos="003.630" zpos="0026.396" GUID="B2NAEktjV0mh7E8YQ8TkgQ==" type="Raid.W2.B1.c2"/>
@@ -325,6 +305,9 @@
     <POI MapID="1188" xpos="0369.760" ypos="032.120" zpos="0060.162" GUID="X61Xv4ZCakilicnR4E+sHA==" type="Raid.W4.B1"    iconFile="Data/Raids/starttimer.png"/>
     <!-- ==================== Mursaat Overseer's Timer ==================== -->
     <POI MapID="1188" xpos="0098.396" ypos="104.587" zpos="0101.323" GUID="FNBVzp3IsEeS8TGJz2iJGA==" type="Raid.W4.B2"/>
+    <!-- ==================== Samarog's Timers ==================== -->
+    <POI MapID="1188" xpos="-67.008"  ypos="129.511" zpos="72.835"   GUID="nPFvvLujxkmRkmTYfpKxcg==" type="Raid.W4.B3.c2"/>
+    <POI MapID="1188" xpos="-98.9562" ypos="129.515" zpos="88.323"   GUID="E1XM6hZOCEOKXyJNIhJXdw==" type="Raid.W4.B3.c3"/>
     <!-- ==================== Dhuum's Timer ==================== -->
     <POI MapID="1264" xpos="0377.774" ypos="156.360" zpos="-006.485" GUID="EtK0p1Uk0UeKo9XTwOgzEw==" type="Raid.W5.B4.c2"/>
     
