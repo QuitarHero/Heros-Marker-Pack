@@ -32,7 +32,7 @@
     </MarkerCategory>
     <MarkerCategory   name="SR"   DisplayName="Siren's Reef"          fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"      iconSize="0.75" rotate-x="175"/>
     <MarkerCategory   name="SB"   DisplayName="Snowblind"/>
-    <MarkerCategory   name="SoO"  DisplayName="Solid Ocean"/>
+    <MarkerCategory   name="SoO"  DisplayName="Solid Ocean">
       <MarkerCategory name="c1"   DisplayName="Path Skip"/>
       <MarkerCategory name="c2"   DisplayName="Jade Colossus Spawns"  fadeFar="4000" fadeNear="3500"                                   iconSize="1"    rotate-x="180"/>
     </MarkerCategory>
