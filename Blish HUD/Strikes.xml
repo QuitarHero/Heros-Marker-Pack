@@ -3,21 +3,22 @@
 <!-- ======================================================================================================================== -->
 <OverlayData>
   <MarkerCategory name="Strike">
+    <MarkerCategory    name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
     <MarkerCategory   name="B1" DisplayName="Icebrood Construct" fadeFar="2500" fadeNear="2250"                                     iconSize="0.5">
-      <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/dot1.png"                rotate-x="180"/>
+      <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/ice1.png"                rotate-x="180"/>
       <MarkerCategory name="c2" DisplayName="Phase 2"                                           iconFile="Data/Strikes/IC/dot2.png"                rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B2" DisplayName="Fallen Kodan">
-      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="150"  fadeNear="125"/>
-      <MarkerCategory name="c2" DisplayName="Boss Positions"     fadeFar="4500" fadeNear="4000"                                                    rotate-x="180"/>
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="250"  fadeNear="225"/>
+      <MarkerCategory name="c2" DisplayName="Boss Positions"                                                                                       rotate-x="180"/>
       <MarkerCategory name="c3" DisplayName="Center Safe Spots"  fadeFar="300"  fadeNear="250"                                                     rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B3" DisplayName="Fraenir of Jormag">
-      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="150" fadeNear="125"/>
-      <MarkerCategory name="c2" DisplayName="IC Phase"           fadeFar="950" fadeNear="800"                                       iconSize="0.5" rotate-x="180"/>
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="250"  fadeNear="225"/>
+      <MarkerCategory name="c2" DisplayName="IC Phase"                                                                              iconSize="0.5" rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
-      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="150" fadeNear="125"/>
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="250"  fadeNear="225"/>
       <MarkerCategory name="c2" DisplayName="Torches"                                                                               iconSize="1"   rotate-x="90"/>
       <MarkerCategory name="c3" DisplayName="Grasp Markers"                                     iconFile="Data/Multi/dot.png"       iconSize="0.3" rotate-x="180"/>
     </MarkerCategory>
@@ -133,6 +134,8 @@
 	<POI MapID="1339" xpos="10.5493" ypos="178.030" zpos="-2.508"  GUID="vTAgxfGzR0KutWy0FJmNsg==" type="Strike.B4.c3"/>
 	<POI MapID="1339" xpos="13.4639" ypos="178.030" zpos="-6.417"  GUID="hqF1hFrAlkOtsMwBaB1Meg==" type="Strike.B4.c3"/>
     <POI MapID="1339" xpos="18.3686" ypos="178.030" zpos="-5.823"  GUID="VIPRW+wBvkarQ5/7sgBRSA==" type="Strike.B4.c3"/>
+    
+    <POI MapID="1339" xpos="16.642" ypos="178.212" zpos="-2.666" GUID="VIPRW+wBvkarQ5/7sgBRSA==" type="Strike.B4.c3"/>
     
   </POIs>
 </OverlayData>
