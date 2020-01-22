@@ -13,6 +13,9 @@
     </MarkerCategory>
     <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"  miniMapVisibility="0"/>
     <MarkerCategory   name="MB"   DisplayName="Molten Boss"/>                                 
+    <MarkerCategory   name="MF"   DisplayName="Molten Furnace">
+      <MarkerCategory name="c1"   DisplayName="Dredge Spawns"         fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/dot.png"     iconSize="0.35" miniMapVisibility="0"/>
+    </MarkerCategory>
     <MarkerCategory   name="NM"   DisplayName="Nightmare">
       <MarkerCategory name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                   iconSize="0.75"/>
       <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"    iconSize="0.5"  miniMapVisibility="0"/>
@@ -80,6 +83,12 @@
     <POI MapID="959" xpos="-188.716" ypos="207.624" zpos="-156.404" GUID="lPJDsCzYdkexdPsT74HZzQ==" type="FOTM.MB" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnter.png" iconSize="0.75"/>
     <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="MDFq6LNl3ECc8n3xtbEu4A==" type="FOTM.MB" fadeFar="4000" fadeNear="3750" iconFile="Data/Fracs/skip.png"   iconSize="0.5"/>
     <POI MapID="959" xpos="-163.231" ypos="132.354" zpos="-84.6329" GUID="dkt4SGKqwUGiovPes/RJ6A==" type="FOTM.MB" fadeFar="4000" fadeNear="3750" iconFile="Data/Fracs/pExit.png"  iconSize="0.75"/>
+    
+    
+    <!-- ======================================== MOLTEN FURNACE =============================================================================================================================================================== -->
+    <POI MapID="955" xpos="-243.567" ypos="224.896" zpos="23.984" GUID="YERHetKzQ0i7jw8rUB5YlQ==" type="FOTM.MF.c1"/>
+    <POI MapID="955" xpos="-221.376" ypos="224.999" zpos="25.228" GUID="lujW5bDzSk6tFk8wZLJ2eg==" type="FOTM.MF.c1"/>
+    
     
     <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
     <!-- Knights -->
