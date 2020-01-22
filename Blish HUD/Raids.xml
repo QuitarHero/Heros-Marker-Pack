@@ -3,18 +3,19 @@
 <!-- ======================================================================================================================= -->
 <OverlayData>
   <MarkerCategory name="Raid" DisplayName="Raid">
+    <MarkerCategory    name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
     <!-- ========== SPIRIT VALE ================================================================================================================================================================================================ -->
     <MarkerCategory     name="W1" DisplayName="Spirit Vale">
-      <MarkerCategory   name="B1" DisplayName="Vale Guardian"              fadeFar="115"  fadeNear="90"/>
+      <MarkerCategory   name="B1" DisplayName="Vale Guardian"              fadeFar="200"  fadeNear="175"/>
       <MarkerCategory   name="C1" DisplayName="Mushrooms"     behavior="4" fadeFar="3500" fadeNear="3000" hasCountdown="1" iconFile="Data/Multi/empty.png"                                                                      triggerRange="2"/>
       <MarkerCategory   name="B2" DisplayName="Spirit Run"                 fadeFar="1500" fadeNear="1000"/>
       <MarkerCategory   name="B3" DisplayName="Gorseval">
         <MarkerCategory name="c1" DisplayName="Spirits"                    fadeFar="3500" fadeNear="3000"                  iconFile="Data/Multi/dot.png"   iconSize="0.6" rotate-x="180"/>
-        <MarkerCategory name="c2" DisplayName="Boundary"                   fadeFar="125"  fadeNear="100"/>
+        <MarkerCategory name="c2" DisplayName="Boundary"                   fadeFar="175"  fadeNear="150"/>
       </MarkerCategory>
       <MarkerCategory   name="B4" DisplayName="Sabetha">
         <MarkerCategory name="c1" DisplayName="Directions"                 fadeFar="2750" fadeNear="2250"                                                                 rotate-x="90"/>
-        <MarkerCategory name="c2" DisplayName="Boundary"                   fadeFar="150"  fadeNear="125"/>
+        <MarkerCategory name="c2" DisplayName="Boundary"                   fadeFar="175"  fadeNear="150"/>
       </MarkerCategory>
       <MarkerCategory   name="Ch" DisplayName="Chests"        behavior="2"                                                 iconFile="Data/Multi/empty.png" iconSize="0.5" rotate-x="90"                                         triggerRange="3"/>
     </MarkerCategory>
@@ -36,7 +37,7 @@
         <MarkerCategory   name="c1" DisplayName="Green Circles"                                                          iconFile="Data/Multi/stack.png"/>
         <MarkerCategory   name="c2" DisplayName="Rifts"                                                                  iconFile="Data/Multi/dot.png"/>
         <MarkerCategory   name="c3" DisplayName="1-orb Pull"                                                             iconFile="Data/Multi/stack.png"/>
-        <MarkerCategory   name="c4" DisplayName="Boundary"                                fadeFar="150"  fadeNear="125"/>
+        <MarkerCategory   name="c4" DisplayName="Boundary"                                fadeFar="175"  fadeNear="150"/>
       </MarkerCategory>
         <MarkerCategory   name="B3" DisplayName="Twisted Castle">
           <MarkerCategory name="c1" DisplayName="1st Button Skip"                         fadeFar="1750" fadeNear="1250"/>
@@ -50,7 +51,7 @@
     <MarkerCategory     name="W4" DisplayName="Bastion of the Penitent">
       <MarkerCategory   name="B1" DisplayName="Cairn"                                fadeFar="4000" fadeNear="3500"                                        iconSize="0.5"  rotate-x="180"/>
       <MarkerCategory   name="C1" DisplayName="Samarog's Door"          behavior="6" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/W4/TrueSight.png" iconSize="0.35"/>
-      <MarkerCategory   name="B3" DisplayName="Samarog"                              fadeFar="125"  fadeNear="100"/>
+      <MarkerCategory   name="B3" DisplayName="Samarog"                              fadeFar="275"  fadeNear="250"/>
       <MarkerCategory   name="Ch" DisplayName="Chests"                  behavior="2"                                iconFile="Data/Multi/empty.png"        iconSize="0.75"                                                                                   triggerRange="3"/>
     </MarkerCategory>
     <!-- ========== HALL OF CHAINS ============================================================================================================================================================================================= -->
@@ -70,7 +71,7 @@
     <MarkerCategory       name="W6" DisplayName="Mythwright Gambit">
       <MarkerCategory     name="B1" DisplayName="Conjured Amalgamate">
         <MarkerCategory   name="c1" DisplayName="Shield/Sword"                                                                                                         fadeFar="3000" fadeNear="2500"                                 iconSize="0.75" rotate-x="180"/>
-        <MarkerCategory   name="c2" DisplayName="Boundary"                                                                                                             fadeFar="125"  fadeNear="100"/>
+        <MarkerCategory   name="c2" DisplayName="Boundary"                                                                                                             fadeFar="150"  fadeNear="125"/>
       </MarkerCategory>
       <MarkerCategory     name="B2" DisplayName="Twin Largos"                      bounce-duration="120" bounce-distance="43" bounce-height="-31" bounce-when="inzone" fadeFar="2000" fadeNear="1750"                                                 rotate-x="90"                             title-color="yellow"/>
       <MarkerCategory     name="B3" DisplayName="Qadim">
@@ -332,9 +333,9 @@
     <!-- ==================== Sabetha's Raid Boundary ==================== -->
     <Trail trailData="Data/Raids/W1/sabBound.trl"        texture="Data/Raids/W1/greentrail.png" animSpeed="0" alpha="0.75" type="Raid.W1.B4.c2"/>
     <!-- ==================== Matthias' Raid Boundary ==================== -->
-    <Trail trailData="Data/Raids/W2/Matt.trl"            texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W2.B3.c3"/>
+    <Trail trailData="Data/Raids/W2/mattBound.trl"            texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W2.B3.c3"/>
     <!-- ==================== Keep Construct's Raid Boundary -->
-    <Trail trailData="Data/Raids/W3/KC.trl"              texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W3.B2.c4"/>
+    <Trail trailData="Data/Raids/W3/KC.trl"              texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.65" type="Raid.W3.B2.c4"/>
     <!-- ==================== Twisted Castle's 1st Button Skip ==================== -->
     <Trail trailData="Data/Raids/W3/TwistedCastle.trl"   texture="Data/Raids/W3/whitetrail.png" animSpeed="2" alpha="1"    type="Raid.W3.B3.c1"/>
     <!-- ==================== Samarog's Raid Boundary ==================== -->
