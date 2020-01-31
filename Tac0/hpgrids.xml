@@ -410,7 +410,6 @@
       <percentage value="70" color="50000000"/>
     </grid>
     <!-- BONESKINNER PUBLILC -->
-    <!-- BONESKINNER SQUAD / INSTANCED -->
     <grid mapid="1351" centerx="15.468" centery="179.712" centerz="-2.189" radius="40" name="Boneskinner">
       <percentage value="90" color="75000000"/>
       <percentage value="75" color="99000000"/>
@@ -435,5 +434,15 @@
       <percentage value="25" color="99000000"/>
       <percentage value="24" color="9915dd28"/>
       <percentage value="15" color="992e16e5"/>
+    </grid>
+    <!-- WHISPER OF JORMAG PUBLIC -->
+    <grid mapid="1357" centerx="0.137109" centery="54.2949" centerz="39.1277" radius="30" name="Whisper of Jormag">
+      <percentage value="75" color="99000000"/>
+      <percentage value="25" color="99000000"/>
+    </grid>
+    <!-- WHISPER OF JORMAG SQUAD / INSTANCED -->
+    <grid mapid="1359" centerx="0.137109" centery="54.2949" centerz="39.1277" radius="30" name="Whisper of Jormag">
+      <percentage value="75" color="99000000"/>
+      <percentage value="25" color="99000000"/>
     </grid>
 </hpgrids>
