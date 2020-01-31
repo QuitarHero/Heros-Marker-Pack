@@ -22,6 +22,9 @@
       <MarkerCategory name="c2" DisplayName="Torches"/>
       <MarkerCategory name="c3" DisplayName="Grasp Markers"                                     iconFile="Data/Multi/dot.png"       iconSize="0.3"/>
     </MarkerCategory>
+     <MarkerCategory  name="B5" DisplayName="Whisper of Jormag">
+      <MarkerCategory name="c1" DisplayName="Directions"         fadeFar="2500" fadeNear="2250"                                     iconSize="1"/>
+    </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========================================= ICEBROOD CONSTRUCT V1 ======================================================================================================================================================= -->
@@ -134,6 +137,12 @@
 	<POI MapID="1339" xpos="10.549"  ypos="178.214" zpos="-2.508"  GUID="vTAgxfGzR0KutWy0FJmNsg==" type="Strike.B4.c3"/>
 	<POI MapID="1339" xpos="13.463"  ypos="178.222" zpos="-6.417"  GUID="hqF1hFrAlkOtsMwBaB1Meg==" type="Strike.B4.c3"/>
     <POI MapID="1339" xpos="18.368"  ypos="178.212" zpos="-5.823"  GUID="VIPRW+wBvkarQ5/7sgBRSA==" type="Strike.B4.c3"/>
+    
+    <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
+    <POI MapID="1359" xpos="002.320" ypos="54.296" zpos="66.525" GUID="mUuPysgaDUKNgxz3vs3POQ==" type="Strike.B5.c1" iconFile="Data/Multi/n.png"/>
+    <POI MapID="1359" xpos="001.285" ypos="54.296" zpos="11.692" GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="Strike.B5.c1" iconFile="Data/Multi/s.png"/>
+	<POI MapID="1359" xpos="027.831" ypos="54.296" zpos="39.954" GUID="jM1djHOvL0qKeJEqoscURQ==" type="Strike.B5.c1" iconFile="Data/Multi/e.png"/>
+    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777" GUID="W95eoXEAJkWp5ExvtG7IYg==" type="Strike.B5.c1" iconFile="Data/Multi/w.png"/>
     
   </POIs>
 </OverlayData>
