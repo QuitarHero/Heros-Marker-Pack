@@ -2,63 +2,68 @@
 <!-- ================================================== BLISH HUD VERSION ================================================== -->
 <!-- ======================================================================================================================= -->
 <OverlayData>
-  <MarkerCategory     name="FOTM" DisplayName="Fractals of the Mists">
-    <MarkerCategory    name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
-    <MarkerCategory   name="AB"   DisplayName="Aetherblade">
-      <MarkerCategory name="c1"   DisplayName="Skip"                  fadeFar="850"  fadeNear="600"/>
+  <MarkerCategory       name="FOTM" DisplayName="Fractals of the Mists">
+    <MarkerCategory     name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
+    <MarkerCategory     name="AB"   DisplayName="Aetherblade">
+      <MarkerCategory   name="c1"   DisplayName="Skip"                  fadeFar="850"  fadeNear="600"/>
     </MarkerCategory>
-    <MarkerCategory   name="AR"   DisplayName="Aquatic Ruins"/>
-    <MarkerCategory   name="CMT"  DisplayName="Captain Mai Trin"/>
-    <MarkerCategory   name="CI"   DisplayName="Chaos Isles"/>
-    <MarkerCategory   name="CS"   DisplayName="Cliffside">
-      <MarkerCategory name="c1"   DisplayName="Speed Skip"                                                                             iconSize="0.75"/>
-      <MarkerCategory name="c2"   DisplayName="Wind Skip"             fadeFar="1250" fadeNear="1000"/>
-      <MarkerCategory name="c3"   DisplayName="Chest Speed Skip"                                                                       iconSize="0.75" rotate-x="180"/>
-      <MarkerCategory name="c4"   DisplayName="Boss Skip"                                                                              iconSize="0.5"/>
+    <MarkerCategory     name="AR"   DisplayName="Aquatic Ruins"/>
+    <MarkerCategory     name="CMT"  DisplayName="Captain Mai Trin"/>
+    <MarkerCategory     name="CI"   DisplayName="Chaos Isles"/>
+    <MarkerCategory     name="CS"   DisplayName="Cliffside">
+      <MarkerCategory   name="c1"   DisplayName="Speed Skip"                                                                             iconSize="0.75"/>
+      <MarkerCategory   name="c2"   DisplayName="Wind Skip"             fadeFar="1250" fadeNear="1000"/>
+      <MarkerCategory   name="c3"   DisplayName="Chest Speed Skip"                                                                       iconSize="0.75" rotate-x="180"/>
+      <MarkerCategory   name="c4"   DisplayName="Boss Skip"                                                                              iconSize="0.5"/>
     </MarkerCategory>
-    <MarkerCategory   name="DS"   DisplayName="Deepstone"/>
-    <MarkerCategory   name="MB"   DisplayName="Molten Boss">
-      <MarkerCategory name="c1"   DisplayName="Tele Skip"/>
+    <MarkerCategory     name="DS"   DisplayName="Deepstone"/>
+    <MarkerCategory     name="MB"   DisplayName="Molten Boss">
+      <MarkerCategory   name="c1"   DisplayName="Tele Skip"/>
     </MarkerCategory>
-    <MarkerCategory   name="MF"   DisplayName="Molten Furnace">
-      <MarkerCategory name="c2"   DisplayName="Dredge Spawns"         fadeFar="1500" fadeNear="1000" iconFile="Data/Multi/dot.png"     iconSize="0.35" rotate-x="180"/>
+    <MarkerCategory     name="MF"   DisplayName="Molten Furnace">
+      <MarkerCategory   name="c2"   DisplayName="Dredge Spawns"         fadeFar="1500" fadeNear="1000" iconFile="Data/Multi/dot.png"     iconSize="0.35" rotate-x="180"/>
     </MarkerCategory>
-    <MarkerCategory   name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"/>
-    <MarkerCategory   name="NM"   DisplayName="Nightmare">
-      <MarkerCategory name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                   iconSize=".75"  rotate-x="180"/>
-      <MarkerCategory name="c2"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"    iconSize="0.5"  rotate-x="180"/>
-      <MarkerCategory name="c3"   DisplayName="North"                 fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png"       iconSize="1"    rotate-x="90"  rotate-z="180"/>
+    <MarkerCategory     name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip.png"    iconSize="0.2"/>
+    <MarkerCategory     name="NM"   DisplayName="Nightmare">
+      <MarkerCategory   name="c1"   DisplayName="Knight Spawns"         fadeFar="3500" fadeNear="3000"                                   iconSize="0.75" rotate-x="180"/>
+      <MarkerCategory   name="c2"   DisplayName="Siax Directions"       fadeFar="2250" fadeNear="2000"                                   iconSize="1"    rotate-x="90"/>
+      <MarkerCategory   name="c3"   DisplayName="Ensolyss' Orbs"        fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"    iconSize="0.5"  rotate-x="180"/>
+      <MarkerCategory   name="c4"   DisplayName="North"                 fadeFar="2500" fadeNear="2000" iconFile="Data/Multi/n.png"       iconSize="1"    rotate-x="90"  rotate-z="180"/>
     </MarkerCategory>
-    <MarkerCategory   name="ShO"  DisplayName="Shattered Observatory">
-      <MarkerCategory name="c1"   DisplayName="Virastra Skip"                                        iconFile="Data/Fracs/skip.png"    iconSize="0.5"/>
-      <MarkerCategory name="c2"   DisplayName="Arkk Directions"       fadeFar="3000" fadeNear="2750"                                                   rotate-x="90"/>
+    <MarkerCategory     name="ShO"  DisplayName="Shattered Observatory">
+      <MarkerCategory   name="c1"   DisplayName="Virastra Skip"                                        iconFile="Data/Fracs/skip.png"    iconSize="0.5"/>
+      <MarkerCategory   name="c2"   DisplayName="Arkk Directions"       fadeFar="3000" fadeNear="2750"                                                   rotate-x="90"/>
     </MarkerCategory>
-    <MarkerCategory   name="SR"   DisplayName="Siren's Reef"          fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"      iconSize="0.75" rotate-x="175"/>
-    <MarkerCategory   name="SB"   DisplayName="Snowblind"/>
-    <MarkerCategory   name="SoO"  DisplayName="Solid Ocean">
-      <MarkerCategory name="c1"   DisplayName="Path Skip"/>
-      <MarkerCategory name="c2"   DisplayName="Jade Colossus Spawns"  fadeFar="4000" fadeNear="3500"                                   iconSize="1"    rotate-x="180"/>
+    <MarkerCategory     name="SR"   DisplayName="Siren's Reef"          fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"      iconSize="0.75" rotate-x="175"/>
+    <MarkerCategory     name="SB"   DisplayName="Snowblind"/>
+    <MarkerCategory     name="SoO"  DisplayName="Solid Ocean">
+      <MarkerCategory   name="c1"   DisplayName="Path Skip"/>
+      <MarkerCategory   name="c2"   DisplayName="Jade Colossus Spawns"  fadeFar="4000" fadeNear="3500"                                   iconSize="1"    rotate-x="180"/>
     </MarkerCategory>
-    <MarkerCategory   name="SL"   DisplayName="Swampland"/>
-    <MarkerCategory   name="TR"   DisplayName="Thaumanova Reactor">
-      <MarkerCategory name="c1"   DisplayName="Maze"                  fadeFar="3000" fadeNear="2750"                                   iconSize="0.75"/>
-      <MarkerCategory name="c2"   DisplayName="Subject 6 Portal"                                                                       iconSize="0.75" rotate-x="180"/>
+    <MarkerCategory     name="SL"   DisplayName="Swampland"/>
+    <MarkerCategory     name="TR"   DisplayName="Thaumanova Reactor">
+      <MarkerCategory   name="c1"   DisplayName="Maze"                  fadeFar="3000" fadeNear="2750"                                   iconSize="0.75"/>
+      <MarkerCategory   name="c2"   DisplayName="Subject 6 Portal"                                                                       iconSize="0.75" rotate-x="180"/>
     </MarkerCategory>
-    <MarkerCategory   name="TO"   DisplayName="Twilight Oasis"        fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"    iconSize="0.5"/>
-    <MarkerCategory   name="UC"   DisplayName="Uncategorized"                                        iconFile="Data/Fracs/skip.png">
-      <MarkerCategory name="c1"   DisplayName="Harpy JP Skip"         fadeFar="1000" fadeNear="750"                                    iconSize="0.2"/>
-      <MarkerCategory name="c2"   DisplayName="Harpy Leap Skip"       fadeFar="1000" fadeNear="750"/>
+    <MarkerCategory     name="TO"   DisplayName="Twilight Oasis"        fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip.png"    iconSize="0.5"/>
+    <MarkerCategory     name="UC"   DisplayName="Uncategorized"                                        iconFile="Data/Fracs/skip.png">
+      <MarkerCategory   name="c1"   DisplayName="Harpy JP Skip"         fadeFar="1000" fadeNear="750"                                    iconSize="0.2"/>
+      <MarkerCategory   name="c2"   DisplayName="Harpy Leap Skip"       fadeFar="1000" fadeNear="750"/>
     </MarkerCategory>
-    <MarkerCategory   name="UF"   DisplayName="Underground Facility">
-      <MarkerCategory name="c1"   DisplayName="2nd Button Skip"       fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/didSkip.png" iconSize="0.5"/>
-      <MarkerCategory name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1250" fadeNear="1000"/>
+    <MarkerCategory     name="UF"   DisplayName="Underground Facility">
+      <MarkerCategory   name="c1"   DisplayName="2nd Button Skip"       fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/didSkip.png" iconSize="0.5"/>
+      <MarkerCategory   name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1250" fadeNear="1000"/>
     </MarkerCategory>
-    <MarkerCategory   name="UB"   DisplayName="Urban Battleground">
-      <MarkerCategory name="c1"   DisplayName="Burning Oil Boundary"/>
+    <MarkerCategory     name="UB"   DisplayName="Urban Battleground">
+      <MarkerCategory   name="c1"   DisplayName="Burning Oil Boundary"/>
+      <MarkerCategory   name="c2"   DisplayName="Barricade Skip">
+        <MarkerCategory name="sc1"  DisplayName="Variant 1"/>
+        <MarkerCategory name="sc2"  DisplayName="Variant 2"/>
+      </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory   name="Vo"   DisplayName="Volcanic">
-      <MarkerCategory name="c1"   DisplayName="Portal"                                                                                 iconSize="0.5"/>
-      <MarkerCategory name="c2"   DisplayName="Cliff Fall"                                           iconFile="Data/Fracs/skip.png"/>
+    <MarkerCategory     name="Vo"   DisplayName="Volcanic">
+      <MarkerCategory   name="c1"   DisplayName="Portal"                                                                                 iconSize="0.5"/>
+      <MarkerCategory   name="c2"   DisplayName="Cliff Fall"                                           iconFile="Data/Fracs/skip.png"/>
     </MarkerCategory>
   </MarkerCategory>
     
@@ -108,17 +113,22 @@
     
     <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
     <!-- Knights -->
-    <POI MapID="1177" xpos="115.401" ypos="12.456" zpos="153.006" GUID="D3TdNEjLFECd1ntKnkDcaA==" type="FOTM.NM.c1" iconFile="Data/Multi/1.png" rotate-z="90"/>
-    <POI MapID="1177" xpos="092.618" ypos="12.069" zpos="168.462" GUID="ZeSgHnJTfECytz2/yyLeXw==" type="FOTM.NM.c1" iconFile="Data/Multi/2.png" rotate-z="205"/>
-    <POI MapID="1177" xpos="090.366" ypos="11.947" zpos="139.640" GUID="Z+mzkaYKOECG+yc90OclmA==" type="FOTM.NM.c1" iconFile="Data/Multi/3.png" rotate-z="-35"/>
+    <POI MapID="1177" xpos="115.401" ypos="12.456" zpos="0153.006" GUID="D3TdNEjLFECd1ntKnkDcaA==" type="FOTM.NM.c1" iconFile="Data/Multi/1.png" rotate-z="90"/>
+    <POI MapID="1177" xpos="092.618" ypos="12.069" zpos="0168.462" GUID="ZeSgHnJTfECytz2/yyLeXw==" type="FOTM.NM.c1" iconFile="Data/Multi/2.png" rotate-z="205"/>
+    <POI MapID="1177" xpos="090.366" ypos="11.947" zpos="0139.640" GUID="Z+mzkaYKOECG+yc90OclmA==" type="FOTM.NM.c1" iconFile="Data/Multi/3.png" rotate-z="-35"/>
+    <!-- Siax Directions -->
+    <POI MapID="1177" xpos="039.624" ypos="44.601" zpos="-046.315" GUID="BanG0e6C0EepzwjZ8642gg==" type="FOTM.NM.c2" iconFile="Data/Multi/n.png" rotate-z="180"/>
+	<POI MapID="1177" xpos="043.504" ypos="44.928" zpos="-104.055" GUID="/4jQnjR4qU+d3yZktZDSiw==" type="FOTM.NM.c2" iconFile="Data/Multi/s.png"/>
+    <POI MapID="1177" xpos="069.627" ypos="45.521" zpos="-078.580" GUID="qZ6fDKqyB0OuHst7FRxcLQ==" type="FOTM.NM.c2" iconFile="Data/Multi/e.png" rotate-z="90"/>
+	<POI MapID="1177" xpos="016.671" ypos="46.068" zpos="-073.919" GUID="5kWIV2NVv025b11lLjBPYw==" type="FOTM.NM.c2" iconFile="Data/Multi/w.png" rotate-z="-90"/>
     <!-- Orbs -->
-    <POI MapID="1177" xpos="032.704" ypos="43.036" zpos="025.660" GUID="DijNR9RjrU2qeI58A1CaHQ==" type="FOTM.NM.c2"/>
-    <POI MapID="1177" xpos="028.262" ypos="43.037" zpos="040.208" GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="FOTM.NM.c2"/>
-    <POI MapID="1177" xpos="041.074" ypos="43.037" zpos="049.066" GUID="2I2VcNI2vEezT6b7D8zQew==" type="FOTM.NM.c2"/>
-    <POI MapID="1177" xpos="053.673" ypos="43.036" zpos="040.200" GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c2"/>
-    <POI MapID="1177" xpos="048.134" ypos="43.036" zpos="026.115" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c2"/>
+    <POI MapID="1177" xpos="032.704" ypos="43.036" zpos="0025.660" GUID="DijNR9RjrU2qeI58A1CaHQ==" type="FOTM.NM.c3"/>
+    <POI MapID="1177" xpos="028.262" ypos="43.037" zpos="0040.208" GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="FOTM.NM.c3"/>
+    <POI MapID="1177" xpos="041.074" ypos="43.037" zpos="0049.066" GUID="2I2VcNI2vEezT6b7D8zQew==" type="FOTM.NM.c3"/>
+    <POI MapID="1177" xpos="053.673" ypos="43.036" zpos="0040.200" GUID="hWKe8oFIf0WLkb3oEmos0A==" type="FOTM.NM.c3"/>
+    <POI MapID="1177" xpos="048.134" ypos="43.036" zpos="0026.115" GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="FOTM.NM.c3"/>
     <!-- North -->
-    <POI MapID="1177" xpos="041.746" ypos="44.797" zpos="064.036" GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c3"/>
+    <POI MapID="1177" xpos="041.746" ypos="44.797" zpos="0064.036" GUID="P0VtrunYg0O7c+g/POoDVw==" type="FOTM.NM.c4"/>
     
     
     <!-- ======================================== SIREN'S REEF ================================================================================================================================================================= -->
@@ -207,6 +217,22 @@
     <!-- ======================================== URBAN BATTLEGROUND =========================================================================================================================================================== -->
     <!-- Burning Oil Boundary -->
     <Trail trailData="Data/Fracs/UB Oils.trl" texture="Data/Fracs/redtrail.png" animSpeed="2" alpha="1" type="FOTM.UB.c1" fadeFar="1500" fadeNear="1000"/>
+    <!-- Both Skips -->
+	<POI MapID="950" xpos="286.715" ypos="07.000" zpos="686.865" GUID="OrbSrzXOGUaNGaOsglaHpg==" type="FOTM.UB.c2"     fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/skip1.png"  iconSize="0.45" rotate-x="270" rotate-y="180" rotate-z="225"/>
+	<POI MapID="950" xpos="275.598" ypos="10.871" zpos="675.902" GUID="VLKxx9gDQUi2ERBZ3gRWPA==" type="FOTM.UB.c2"     fadeFar="900"  fadeNear="700"  iconFile="Data/Fracs/skip2.png"  iconSize="0.25" rotate-x="80"  rotate-y="45"  rotate-z="-60"/>
+	<POI MapID="950" xpos="278.345" ypos="12.860" zpos="681.080" GUID="aQ1ysElmCU6TV50ceMvFHw==" type="FOTM.UB.c2"     fadeFar="700"  fadeNear="500"  iconFile="Data/Fracs/skip2.png"  iconSize="0.25" rotate-x="80"  rotate-y="44"  rotate-z="140"/>
+    <POI MapID="950" xpos="281.602" ypos="17.163" zpos="688.230" GUID="L8DR9sxmQUazZ2OyCFw21A==" type="FOTM.UB.c2"     fadeFar="550"  fadeNear="400"  iconFile="Data/Fracs/skip1.png"  iconSize="0.5"  rotate-x="90"                 rotate-z="150"/>
+	<POI MapID="950" xpos="267.448" ypos="18.302" zpos="692.747" GUID="4O1JFOyP9kOPZfytnlCW/Q==" type="FOTM.UB.c2"     fadeFar="850"  fadeNear="600"  iconFile="Data/Fracs/skip1.png"  iconSize="0.65" rotate-x="140"                rotate-z="-60"/>
+    <!-- Variant 1 -->
+	<POI MapID="950" xpos="257.040" ypos="23.330" zpos="698.135" GUID="Lo8bMzFf7kyYlJZnlplKwg==" type="FOTM.UB.c2.sc1" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1.png"  iconSize="0.5"  rotate-x="38"  rotate-y="-5"  rotate-z="-55"/>
+	<POI MapID="950" xpos="217.298" ypos="11.038" zpos="714.105" GUID="EVBQFGDvNkS+yA+OiGXt0Q==" type="FOTM.UB.c2.sc1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skip1y.png" iconSize="1"    rotate-x="90"                 rotate-z="225"/>
+    <!-- Variant 2 -->
+    <POI MapID="950" xpos="237.442" ypos="23.888" zpos="681.340" GUID="vKd0JOhlekunhUzAgX5P5g==" type="FOTM.UB.c2.sc2" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skip1.png"  iconSize="0.75" rotate-x="50"  rotate-y="-5"  rotate-z="125"/>
+	<POI MapID="950" xpos="228.480" ypos="28.920" zpos="674.606" GUID="rUIXK+erEEmihvVPMRPPLg==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip2.png"  iconSize="0.25" rotate-x="90"  rotate-y="15"  rotate-z="-70"/>
+	<POI MapID="950" xpos="228.487" ypos="36.245" zpos="671.329" GUID="n0Ej/pc4nEiJD+VbtO/Ziw==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1.png"  iconSize="0.35" rotate-x="90"  rotate-y="-5"  rotate-z="110"/>
+	<POI MapID="950" xpos="218.925" ypos="43.084" zpos="697.627" GUID="EXR3ER5x9k6W+grCzi4xsA==" type="FOTM.UB.c2.sc2" fadeFar="1250" fadeNear="1150" iconFile="Data/Fracs/skip2.png"  iconSize="1"    rotate-x="40"  rotate-y="38"  rotate-z="-75"/>
+	<POI MapID="950" xpos="212.832" ypos="38.177" zpos="721.905" GUID="j6Y1Mo5OkkmJYjwVDSxjgA==" type="FOTM.UB.c2.sc2" fadeFar="1600" fadeNear="1350" iconFile="Data/Fracs/skip1.png"  iconSize="0.75" rotate-x="30"  rotate-y="-5"  rotate-z="10"/>
+	<POI MapID="950" xpos="205.592" ypos="29.042" zpos="737.396" GUID="VY6A4zJsRUuEDsnnTRByEQ==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1y.png" iconSize="1"    rotate-x="0.1"                rotate-z="35"/>
     
     
     <!-- ======================================== VOLCANIC ===================================================================================================================================================================== -->
