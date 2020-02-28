@@ -72,7 +72,7 @@
     <POI MapID="952" xpos="66.268" ypos="629.205" zpos="106.401" GUID="YmFq1+jrZEOTJzw1E4bRuQ==" type="FOTM.CS.c2"                                iconFile="Data/Fracs/pExit.png"   iconSize="0.75"/>
     <!-- Chest Speed Skip -->
     <POI MapID="952" xpos="55.598" ypos="666.716" zpos="-11.571" GUID="MFNW+q4CmEKPXl4L7cv/ew==" type="FOTM.CS.c3" fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/pEnter.png"/>
-    <POI MapID="952" xpos="63.096" ypos="690.362" zpos="-30.095" GUID="0DMnz4d9BE2Inse4u86rlw==" type="FOTM.CS.c3" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"/>
+    <POI MapID="952" xpos="63.096" ypos="688.862" zpos="-30.095" GUID="0DMnz4d9BE2Inse4u86rlw==" type="FOTM.CS.c3" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pExit.png"/>
     <!-- Boss Skip -->
     <POI MapID="952" xpos="83.842" ypos="686.608" zpos="-33.996" GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"/>
     <POI MapID="952" xpos="92.940" ypos="710.636" zpos="-17.700" GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
@@ -95,6 +95,8 @@
     <!-- ======================================== MOLTEN FURNACE =============================================================================================================================================================== -->
     <POI MapID="955" xpos="-243.567" ypos="224.896" zpos="23.984" GUID="YERHetKzQ0i7jw8rUB5YlQ==" type="FOTM.MF.c1"/>
     <POI MapID="955" xpos="-221.376" ypos="224.999" zpos="25.228" GUID="lujW5bDzSk6tFk8wZLJ2eg==" type="FOTM.MF.c1"/>
+    <POI MapID="955" xpos="-219.214" ypos="224.999" zpos="14.470" GUID="zAG5FaZwYkGG7K942gxquw==" type="FOTM.MF.c1"/>
+	<POI MapID="955" xpos="-217.489" ypos="224.999" zpos="35.622" GUID="RbNyp3P65km1XIhTfqdP3Q==" type="FOTM.MF.c1"/>
     
     
     <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
@@ -123,7 +125,7 @@
     <!-- Viirastra Skip -->
     <POI MapID="1205" xpos="0342.781" ypos="108.648" zpos="0096.860" GUID="fbTuKujAs0iRKamV7PwQyA==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="500"/>
     <POI MapID="1205" xpos="0331.750" ypos="111.834" zpos="0090.772" GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="FOTM.ShO.c1" fadeFar="1000" fadeNear="750"/>
-    <POI MapID="1205" xpos="0291.389" ypos="116.114" zpos="0072.273" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/skip1y.png"/>
+    <POI MapID="1205" xpos="0291.389" ypos="119.614" zpos="0072.273" GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="FOTM.ShO.c1" fadeFar="3000" fadeNear="2000" iconFile="Data/Fracs/skip1y.png"/>
     <!-- Arkk Directions -->
     <POI MapID="1205" xpos="-455.315" ypos="072.456" zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/n.png"/>
     <POI MapID="1205" xpos="-421.715" ypos="072.477" zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="FOTM.ShO.c2"                                iconFile="Data/Multi/e.png"/>
@@ -198,8 +200,8 @@
     <Trail trailData="Data/Fracs/UB Oils.trl" texture="Data/Fracs/redtrail.png" animSpeed="2" alpha="1" type="FOTM.UB"  fadeFar="1500" fadeNear="1000"/>
     <!-- Both Skips -->
 	<POI MapID="950" xpos="286.715" ypos="07.000" zpos="686.865" GUID="OrbSrzXOGUaNGaOsglaHpg==" type="FOTM.UB.c2"     fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/skip1.png"  iconSize="0.45"/>
-	<POI MapID="950" xpos="275.598" ypos="10.871" zpos="675.902" GUID="VLKxx9gDQUi2ERBZ3gRWPA==" type="FOTM.UB.c2"     fadeFar="900"  fadeNear="700"  iconFile="Data/Fracs/skip2.png"  iconSize="0.25"/>
-	<POI MapID="950" xpos="278.345" ypos="12.860" zpos="681.080" GUID="aQ1ysElmCU6TV50ceMvFHw==" type="FOTM.UB.c2"     fadeFar="700"  fadeNear="500"  iconFile="Data/Fracs/skip2.png"  iconSize="0.25"/>
+	<POI MapID="950" xpos="275.598" ypos="10.871" zpos="675.902" GUID="VLKxx9gDQUi2ERBZ3gRWPA==" type="FOTM.UB.c2"     fadeFar="900"  fadeNear="700"  iconFile="Data/Fracs/skip1.png"  iconSize="0.25"/>
+	<POI MapID="950" xpos="278.345" ypos="12.860" zpos="681.080" GUID="aQ1ysElmCU6TV50ceMvFHw==" type="FOTM.UB.c2"     fadeFar="700"  fadeNear="500"  iconFile="Data/Fracs/skip1.png"  iconSize="0.25"/>
     <POI MapID="950" xpos="281.602" ypos="17.163" zpos="688.230" GUID="L8DR9sxmQUazZ2OyCFw21A==" type="FOTM.UB.c2"     fadeFar="550"  fadeNear="400"  iconFile="Data/Fracs/skip1.png"  iconSize="0.5"/>
 	<POI MapID="950" xpos="267.448" ypos="18.302" zpos="692.747" GUID="4O1JFOyP9kOPZfytnlCW/Q==" type="FOTM.UB.c2"     fadeFar="850"  fadeNear="600"  iconFile="Data/Fracs/skip1.png"  iconSize="0.65"/>
     <!-- Variant 1 -->
@@ -207,9 +209,9 @@
 	<POI MapID="950" xpos="217.298" ypos="11.038" zpos="714.105" GUID="EVBQFGDvNkS+yA+OiGXt0Q==" type="FOTM.UB.c2.sc1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skip1y.png" iconSize="1"/>
     <!-- Variant 2 -->
     <POI MapID="950" xpos="237.442" ypos="23.888" zpos="681.340" GUID="vKd0JOhlekunhUzAgX5P5g==" type="FOTM.UB.c2.sc2" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skip1.png"  iconSize="0.75"/>
-	<POI MapID="950" xpos="228.480" ypos="28.920" zpos="674.606" GUID="rUIXK+erEEmihvVPMRPPLg==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip2.png"  iconSize="0.25"/>
+	<POI MapID="950" xpos="228.480" ypos="28.920" zpos="674.606" GUID="rUIXK+erEEmihvVPMRPPLg==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1.png"  iconSize="0.25"/>
 	<POI MapID="950" xpos="228.487" ypos="36.245" zpos="671.329" GUID="n0Ej/pc4nEiJD+VbtO/Ziw==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1.png"  iconSize="0.35"/>
-	<POI MapID="950" xpos="218.925" ypos="43.084" zpos="697.627" GUID="EXR3ER5x9k6W+grCzi4xsA==" type="FOTM.UB.c2.sc2" fadeFar="1250" fadeNear="1150" iconFile="Data/Fracs/skip2.png"  iconSize="1"/>
+	<POI MapID="950" xpos="218.925" ypos="43.084" zpos="697.627" GUID="EXR3ER5x9k6W+grCzi4xsA==" type="FOTM.UB.c2.sc2" fadeFar="1250" fadeNear="1150" iconFile="Data/Fracs/skip1.png"  iconSize="1"/>
 	<POI MapID="950" xpos="212.832" ypos="38.177" zpos="721.905" GUID="j6Y1Mo5OkkmJYjwVDSxjgA==" type="FOTM.UB.c2.sc2" fadeFar="1600" fadeNear="1350" iconFile="Data/Fracs/skip1.png"  iconSize="0.75"/>
 	<POI MapID="950" xpos="205.592" ypos="29.042" zpos="737.396" GUID="VY6A4zJsRUuEDsnnTRByEQ==" type="FOTM.UB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1y.png" iconSize="1"/>
     
