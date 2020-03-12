@@ -8,7 +8,10 @@
     <MarkerCategory     name="W1" DisplayName="Spirit Vale">
       <MarkerCategory   name="B1" DisplayName="Vale Guardian"              fadeFar="700"  fadeNear="600"                                                                                          miniMapVisibility="0"/>
       <MarkerCategory   name="C1" DisplayName="Mushrooms"     behavior="4" fadeFar="3500" fadeNear="3000" hasCountdown="1" iconFile="Data/Multi/empty.png"                                        miniMapVisibility="0" triggerRange="2"/>
-      <MarkerCategory   name="B2" DisplayName="Spirit Run"                 fadeFar="1500" fadeNear="1000"                                                                                         miniMapVisibility="0"/>
+      <MarkerCategory   name="B2" DisplayName="Spirit Run"                                                                                                                                        miniMapVisibility="0">
+        <MarkerCategory name="c1" DisplayName="Skip"/>
+        <MarkerCategory name="c2" DisplayName="Trigger Lines"              fadeFar="1500" fadeNear="1000"/>
+      </MarkerCategory>
       <MarkerCategory   name="B3" DisplayName="Gorseval">
         <MarkerCategory name="c1" DisplayName="Spirits"                    fadeFar="3500" fadeNear="3000"/>
         <MarkerCategory name="c2" DisplayName="Boundary"                   fadeFar="700"  fadeNear="600"                                                                                          miniMapVisibility="0"/>
@@ -110,12 +113,29 @@
     <!-- ======================================== SPIRIT VALE ================================================================================================================================================================== -->
     <!-- ==================== Mushrooms ==================== -->
     <!-- Speed -->
-    <POI MapID="1062" xpos="-091.070" ypos="60.937" zpos="-506.081" GUID="trI4Ikkxf0uEl0Of2dGZUg==" type="Raid.W1.C1"                                resetLength="20"/>
-    <POI MapID="1062" xpos="-151.658" ypos="60.937" zpos="-507.339" GUID="VVruJ+afv0CW7XgO9/unJg==" type="Raid.W1.C1"                                resetLength="20"/>
-    <POI MapID="1062" xpos="-121.094" ypos="60.937" zpos="-559.273" GUID="OCw6WOaUKEqltHMKIqH3aA==" type="Raid.W1.C1"                                resetLength="20"/>
+    <POI MapID="1062" xpos="-091.070" ypos="60.937" zpos="-506.081" GUID="trI4Ikkxf0uEl0Of2dGZUg==" type="Raid.W1.C1" resetLength="20"/>
+    <POI MapID="1062" xpos="-151.658" ypos="60.937" zpos="-507.339" GUID="VVruJ+afv0CW7XgO9/unJg==" type="Raid.W1.C1" resetLength="20"/>
+    <POI MapID="1062" xpos="-121.094" ypos="60.937" zpos="-559.273" GUID="OCw6WOaUKEqltHMKIqH3aA==" type="Raid.W1.C1" resetLength="20"/>
     <!-- Adrenal -->
-    <POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" type="Raid.W1.C1"                                resetLength="30.9"/>
-    <POI MapID="1062" xpos="-063.033" ypos="36.012" zpos="-328.275" GUID="otxqOJuKkU2UIroCyDomnA==" type="Raid.W1.C1"                                resetLength="30.9"/>
+    <POI MapID="1062" xpos="-109.085" ypos="42.403" zpos="-355.932" GUID="CVvJijVfQ0q3Eq91Jp4EUQ==" type="Raid.W1.C1" resetLength="30.9"/>
+    <POI MapID="1062" xpos="-063.033" ypos="36.012" zpos="-328.275" GUID="otxqOJuKkU2UIroCyDomnA==" type="Raid.W1.C1" resetLength="30.9"/>
+    <!-- ==================== Spirit Woods Skip ==================== -->
+    <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="HHgLEkJk9EGjZJ88sefs3Q==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1100" iconFile="Data/Raids/raid1.png"  iconSize="0.25"/>
+	<POI MapID="1062" xpos="-126.476" ypos="68.076" zpos="-408.575" GUID="3+rbwMnEPkWgnf1Z178l2g==" type="Raid.W1.B2.c1" fadeFar="1400" fadeNear="1250" iconFile="Data/Raids/raid1.png"  iconSize="0.4"/>
+	<POI MapID="1062" xpos="-098.713" ypos="67.701" zpos="-403.031" GUID="dfGPEGhY8E+rf6y9d8uMfQ==" type="Raid.W1.B2.c1" fadeFar="2500" fadeNear="2250" iconFile="Data/Raids/raid1.png"  iconSize="0.5"/>
+	<POI MapID="1062" xpos="-072.768" ypos="77.832" zpos="-435.116" GUID="6KOdRRwW/0yzRIweCmHXFw==" type="Raid.W1.B2.c1" fadeFar="2650" fadeNear="2500" iconFile="Data/Raids/raid2.png"  iconSize="0.35"/>
+    <POI MapID="1062" xpos="-102.409" ypos="92.306" zpos="-447.787" GUID="csYKUmvMIUq/iaw4EMtoIA==" type="Raid.W1.B2.c1" fadeFar="2250" fadeNear="2000" iconFile="Data/Raids/raid1.png"  iconSize="0.4"/>
+	<POI MapID="1062" xpos="-123.918" ypos="85.785" zpos="-428.059" GUID="V7guHrTR302v1sxsDwXVuw==" type="Raid.W1.B2.c1" fadeFar="2150" fadeNear="2000" iconFile="Data/Raids/raid1.png"  iconSize="0.25"/>
+	<POI MapID="1062" xpos="-124.429" ypos="88.818" zpos="-422.896" GUID="nQLT2p05MU6Wj0C8Muos6Q==" type="Raid.W1.B2.c1" fadeFar="2250" fadeNear="2100" iconFile="Data/Raids/raid1.png"  iconSize="0.25"/>
+	<POI MapID="1062" xpos="-119.832" ypos="86.679" zpos="-392.791" GUID="Ei0Vbpo9k0edW46b/V3CZA==" type="Raid.W1.B2.c1" fadeFar="2000" fadeNear="1750" iconFile="Data/Raids/raid1.png"  iconSize="0.5"/>
+	<POI MapID="1062" xpos="-118.088" ypos="77.829" zpos="-367.392" GUID="/w8x9WdxxEGXYjlYMDqNmw==" type="Raid.W1.B2.c1" fadeFar="2250" fadeNear="2000" iconFile="Data/Raids/raid1.png"  iconSize="0.5"/>
+	<POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="cbamHZaR5EaZGbQhX1jlZg==" type="Raid.W1.B2.c1" fadeFar="2250" fadeNear="2000" iconFile="Data/Raids/raid1.png"  iconSize="0.5"/>
+	<POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="aU1U2VKT50OkOn2qWFivEA==" type="Raid.W1.B2.c1" fadeFar="2000" fadeNear="1750" iconFile="Data/Raids/raid1.png"  iconSize="0.5"/>
+	<POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="PxDJXui+V0Cav5RLP951AA==" type="Raid.W1.B2.c1" fadeFar="1950" fadeNear="1800" iconFile="Data/Raids/raid1.png"  iconSize="0.4"/>
+    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="Raid.W1.B2.c1" fadeFar="1400" fadeNear="1250" iconFile="Data/Fracs/pExit.png"  iconSize="0.5"/>
+    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="Raid.W1.B2.c1" fadeFar="2500" fadeNear="2250" iconFile="Data/Fracs/pEnter.png" iconSize="0.5"/>
+	<POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="Raid.W1.B2.c1" fadeFar="1000" fadeNear="850"  iconFile="Data/Fracs/pEnter.png" iconSize="0.5"/>
+    <POI MapID="1062" xpos="-223.454" ypos="63.808" zpos="-238.694" GUID="T85IWFQJVkacSr8bses52w==" type="Raid.W1.B2.c1" fadeFar="1000" fadeNear="850"  iconFile="Data/Fracs/pEnter.png" iconSize="0.5"/>
     <!-- ==================== Gorseval ==================== -->
     <!-- Spirits -->
     <POI MapID="1062" xpos="0022.168" ypos="48.572" zpos="-093.483" GUID="oEXylxHkdkWsf+eMfVVQIw==" type="Raid.W1.B3.c1" iconFile="Data/Multi/1.png"/>
@@ -243,8 +263,8 @@
     <POI MapID="1303" xpos="-096.686" ypos="050.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.W6.B1.c1"    iconFile="Data/Raids/W6/GS.png"/>
     <POI MapID="1303" xpos="-095.111" ypos="050.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.W6.B1.c1"    iconFile="Data/Raids/W6/Shield.png"/>
     <!-- ==================== Twin Largos ==================== -->
-    <POI MapID="1303" xpos="0352.912" ypos="032.759" zpos="0008.824" GUID="EkOZxvmqB0KwE78EyDW5vg==" type="Raid.W6.B2"       iconFile="Data/Raids/W6/B2-1.png"/>
-    <POI MapID="1303" xpos="0380.974" ypos="032.762" zpos="0008.720" GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="Raid.W6.B2"       iconFile="Data/Raids/W6/B2-2.png"/>
+    <POI MapID="1303" xpos="0352.912" ypos="015.759" zpos="0008.824" GUID="EkOZxvmqB0KwE78EyDW5vg==" type="Raid.W6.B2"       iconFile="Data/Raids/W6/B2-1.png"/>
+    <POI MapID="1303" xpos="0380.863" ypos="015.759" zpos="0009.084" GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="Raid.W6.B2"       iconFile="Data/Raids/W6/B2-2.png"/>
     <!-- ==================== Qadim ==================== -->
     <!-- Boon Pyres -->
     <POI MapID="1303" xpos="-188.487" ypos="119.147" zpos="0257.289" GUID="xzLu/d06k0yKVkd4p3L2lw==" type="Raid.W6.B3.c1"    iconFile="Data/Raids/W6/Retal.png"/>
