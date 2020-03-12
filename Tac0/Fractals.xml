@@ -11,6 +11,11 @@
       <MarkerCategory   name="c3"   DisplayName="Chest Speed Skip"                                                                      iconSize="0.75"/>
       <MarkerCategory   name="c4"   DisplayName="Boss Skip"                                                                             iconSize="0.5"/>
     </MarkerCategory>
+    <MarkerCategory     name="DS"   DisplayName="Deepstone">
+      <MarkerCategory   name="c1"   DisplayName="Maze Skip"                                                                                             miniMapVisibility="0">
+        <MarkerCategory name="sc1"  DisplayName="Simple Variant"        fadeFar="2500" fadeNear="2250"/>
+      </MarkerCategory>
+    </MarkerCategory>
     <MarkerCategory     name="MO"   DisplayName="Mistlock Observatory"                                 iconFile="Data/Fracs/skip1.png"  iconSize="0.2"  miniMapVisibility="0"/>
     <MarkerCategory     name="MB"   DisplayName="Molten Boss"/>                                 
     <MarkerCategory     name="MF"   DisplayName="Molten Furnace">
@@ -40,9 +45,9 @@
       <MarkerCategory   name="c1"   DisplayName="Harpy JP Skip"         fadeFar="1000" fadeNear="750"                                   iconSize="0.2"/>
       <MarkerCategory   name="c2"   DisplayName="Harpy Leap Skip"       fadeFar="1000" fadeNear="750"/>
     </MarkerCategory>
-    <MarkerCategory     name="UF"   DisplayName="Underground Facility">
-      <MarkerCategory   name="c1"   DisplayName="2nd Button Skip"       fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1y.png" iconSize="0.5"  miniMapVisibility="0"/>
-      <MarkerCategory   name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1750" fadeNear="1500"                                                  miniMapVisibility="0"/>
+    <MarkerCategory     name="UF"   DisplayName="Underground Facility"                                                                                  miniMapVisibility="0">
+      <MarkerCategory   name="c1"   DisplayName="Button Skip"           fadeFar="1750" fadeNear="1500"/>
+      <MarkerCategory   name="c2"   DisplayName="Bucket Boundaries"     fadeFar="1750" fadeNear="1500"/>
     </MarkerCategory>
     <MarkerCategory     name="UB"   DisplayName="Urban Battleground"                                                                                    miniMapVisibility="0">
       <MarkerCategory   name="c1"   DisplayName="Burning Oil Boundary"/>
@@ -77,6 +82,12 @@
     <POI MapID="952" xpos="83.842" ypos="686.608" zpos="-33.996" GUID="bY15ybLJ0EegXffsyufENg==" type="FOTM.CS.c4" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnterB.png"/>
     <POI MapID="952" xpos="92.940" ypos="710.636" zpos="-17.700" GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="FOTM.CS.c4" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit.png"/>
     
+    <!-- ======================================== DEEPSTONE ==================================================================================================================================================================== -->
+    <!-- Maze Skip (simple variant) -->
+    <POI MapID="1290" xpos="-12.060" ypos="265.315" zpos="-17.391" GUID="c6JTVlptjE+QuBT5QWnmFQ==" type="FOTM.DS.c1.sc1" iconFile="Data/Fracs/skip2.png" iconSize="0.35"/>
+    <POI MapID="1290" xpos="-18.817" ypos="265.438" zpos="0.403"   GUID="55eGrEk2nEe/LrvmsIk4VQ==" type="FOTM.DS.c1.sc1" iconFile="Data/Fracs/skip2.png" iconSize="0.35"/>
+    <POI MapID="1290" xpos="-19.028" ypos="265.189" zpos="47.767"  GUID="v+uzWCgEaUiBP4141gpNjg==" type="FOTM.DS.c1.sc1" iconFile="Data/Fracs/skip2.png" iconSize="0.35"/>
+    
     <!-- ======================================== MISTLOCK OBSERVATORY ========================================================================================================================================================= -->
     <POI MapID="872" xpos="111.697" ypos="218.000" zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="FOTM.MO" fadeFar="500" fadeNear="350"/>
     <POI MapID="872" xpos="118.867" ypos="220.026" zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="FOTM.MO" fadeFar="800" fadeNear="550"/>
@@ -88,6 +99,7 @@
     
     <!-- ======================================== MOLTEN BOSS ================================================================================================================================================================== -->
     <POI MapID="959" xpos="-188.716" ypos="207.624" zpos="-156.404" GUID="lPJDsCzYdkexdPsT74HZzQ==" type="FOTM.MB" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnter.png" iconSize="0.75"/>
+    <POI MapID="959" xpos="-127.989" ypos="193.087" zpos="-118.172" GUID="fvhp2XAZfUe+8iwf1V/Ssw==" type="FOTM.MB" fadeFar="2750" fadeNear="2500" iconFile="Data/Fracs/target.png" iconSize="0.5"/>
     <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="MDFq6LNl3ECc8n3xtbEu4A==" type="FOTM.MB" fadeFar="4000" fadeNear="3750" iconFile="Data/Fracs/skip1.png"  iconSize="0.5"/>
     <POI MapID="959" xpos="-163.231" ypos="132.354" zpos="-84.6329" GUID="dkt4SGKqwUGiovPes/RJ6A==" type="FOTM.MB" fadeFar="4000" fadeNear="3750" iconFile="Data/Fracs/pExit.png"  iconSize="0.75"/>
     
@@ -186,9 +198,12 @@
     <POI MapID="947" xpos="-842.013" ypos="857.209" zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="FOTM.UC.c2" iconFile="Data/Fracs/skip1y.png" iconSize="0.5"/>
     
     <!-- ======================================== UNDERGROUND FACILITY ========================================================================================================================================================= -->
-    <!--2nd Button Skip -->
-    <POI MapID="953" xpos="692.992" ypos="23.008" zpos="391.388" GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF.c1"/>
-    <Trail trailData="Data/Fracs/facility skip.trl" texture="Data/Fracs/graytrail.png" animSpeed="2" alpha="1" type="FOTM.UF.c1" fadeFar="1000" fadeNear="750" trailScale="2"/>
+    <!-- Button Skip -->
+    <POI MapID="953" xpos="745.242" ypos="13.696" zpos="407.787" GUID="GU1zPvYA202GISCSUQ54pQ==" type="FOTM.UF.c1" iconFile="Data/Fracs/pEnter.png" iconSize="0.5"/>
+    <POI MapID="953" xpos="692.992" ypos="22.258" zpos="391.388" GUID="LXe2Q6cMIkqgoVz1mU0okw==" type="FOTM.UF.c1" iconFile="Data/Fracs/skip2.png"  iconSize="0.5"/>
+    <POI MapID="953" xpos="647.661" ypos="37.599" zpos="392.171" GUID="4Q+KEb98UUayDJuEoY+/Zg==" type="FOTM.UF.c1" iconFile="Data/Fracs/target.png" iconSize="0.5"/>
+    <POI MapID="953" xpos="662.762" ypos="37.951" zpos="363.906" GUID="cP74l7g0nUSDQgCOynSR2Q==" type="FOTM.UF.c1" iconFile="Data/Fracs/skip1.png"  iconSize="0.5"/>
+	<POI MapID="953" xpos="637.775" ypos="17.620" zpos="368.426" GUID="KV5YkgF+oEu9L7FsfwtF+Q==" type="FOTM.UF.c1" iconFile="Data/Fracs/pExit.png"  iconSize="0.65"/>
     <!-- Bucket Boundaries -->
     <Trail trailData="Data/Fracs/UFBucket1.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
     <Trail trailData="Data/Fracs/UFBucket2.trl" texture="Data/Fracs/redtrail.png" animSpeed="0" alpha="0.25" type="FOTM.UF.c2"/>
