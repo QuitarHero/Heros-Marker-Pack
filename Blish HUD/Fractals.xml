@@ -24,6 +24,11 @@
     <MarkerCategory     name="MO"   DisplayName="Mistlock Observatory"                                                                   iconSize="0.2"/>
     <MarkerCategory     name="MB"   DisplayName="Molten Boss">
       <MarkerCategory   name="c1"   DisplayName="Tele Skip"/>
+      <MarkerCategory   name="c2"   DisplayName="Teamwork Skip">
+        <MarkerCategory name="sc1"  DisplayName="Initial Port"/>
+        <MarkerCategory name="sc2"  DisplayName="Main Skip"/>
+        <MarkerCategory name="sc3"  DisplayName="Door Skip"/>
+      </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="MF"   DisplayName="Molten Furnace">
       <MarkerCategory   name="c2"   DisplayName="Dredge Spawns"         fadeFar="1500" fadeNear="1000" iconFile="Data/Multi/dot.png"     iconSize="0.35" rotate-x="180"/>
@@ -113,10 +118,33 @@
     
     
     <!-- ======================================== MOLTEN BOSS ================================================================================================================================================================== -->
-    <POI MapID="959" xpos="-188.716" ypos="207.524" zpos="-156.404" GUID="lPJDsCzYdkexdPsT74HZzQ==" type="FOTM.MB" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnter.png" iconSize="0.75" rotate-x="180" rotate-z="90"/>
-    <POI MapID="959" xpos="-127.989" ypos="193.087" zpos="-118.172" GUID="fvhp2XAZfUe+8iwf1V/Ssw==" type="FOTM.MB" fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/target.png" iconSize="0.5"/>
-    <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="MDFq6LNl3ECc8n3xtbEu4A==" type="FOTM.MB" fadeFar="3650" fadeNear="3500" iconFile="Data/Fracs/skip1.png"  iconSize="0.5"/>
-    <POI MapID="959" xpos="-163.231" ypos="132.304" zpos="-84.6329" GUID="dkt4SGKqwUGiovPes/RJ6A==" type="FOTM.MB" fadeFar="3500" fadeNear="3350" iconFile="Data/Fracs/pExit.png"  iconSize="0.75" rotate-x="180" rotate-z="-70"/>
+    <!-- Skip One (simple) -->
+    <POI MapID="959" xpos="-188.716" ypos="207.524" zpos="-156.404" GUID="lPJDsCzYdkexdPsT74HZzQ==" type="FOTM.MB"        fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/pEnter.png"     iconSize="0.75" rotate-x="180"                rotate-z="90"/>
+    <POI MapID="959" xpos="-127.989" ypos="193.087" zpos="-118.172" GUID="fvhp2XAZfUe+8iwf1V/Ssw==" type="FOTM.MB.c1"     fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/target1.png"    iconSize="0.5"/>
+    <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="MDFq6LNl3ECc8n3xtbEu4A==" type="FOTM.MB.c1"     fadeFar="3650" fadeNear="3500" iconFile="Data/Fracs/skip1.png"      iconSize="0.5"/>
+    <POI MapID="959" xpos="-163.231" ypos="132.304" zpos="-84.6329" GUID="dkt4SGKqwUGiovPes/RJ6A==" type="FOTM.MB.c1"     fadeFar="3500" fadeNear="3350" iconFile="Data/Fracs/pExit1.png"     iconSize="0.75" rotate-x="180"                rotate-z="-70"/>
+    <!-- Skip Two (complex) -->
+    <!-- 1 -->
+    <POI MapID="959" xpos="-186.886" ypos="210.619" zpos="-161.371" GUID="u/WHjtkV7kuj0dCGM0u3lQ==" type="FOTM.MB.c2.sc1" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/target2.png"    iconSize="0.5"/>
+    <POI MapID="959" xpos="-154.118" ypos="195.000" zpos="-168.451" GUID="adM1Qs4PHkq3zN95nIjhJQ==" type="FOTM.MB.c2.sc1" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/skip1.png"      iconSize="0.5"  rotate-x="185" rotate-y="10"  rotate-z="180"/>
+	<POI MapID="959" xpos="-145.353" ypos="144.696" zpos="-160.574" GUID="aNNfiX3Xb0aeZq6WTdL2Xg==" type="FOTM.MB.c2.sc1" fadeFar="850"  fadeNear="700"  iconFile="Data/Fracs/pExit2.png"     iconSize="0.75" rotate-x="185" rotate-y="-10" rotate-z="120"/>
+    <!-- 2 -->
+    <POI MapID="959" xpos="-124.932" ypos="145.475" zpos="-138.514" GUID="Qv15DVUFKEqO6PNqRW8BUg==" type="FOTM.MB.c2.sc2" fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/pEnter2.png"    iconSize="0.75" rotate-x="175" rotate-y="5"   rotate-z="160"/>
+    <POI MapID="959" xpos="-112.245" ypos="147.993" zpos="-138.832" GUID="GEkfOcwWWkSkilFDmi9uug==" type="FOTM.MB.c2.sc2" fadeFar="850"  fadeNear="700"  iconFile="Data/Fracs/skip1.png"      iconSize="0.5"  rotate-x="115"                rotate-z="5"/>
+	<POI MapID="959" xpos="-76.032"  ypos="168.060" zpos="-92.5485" GUID="NDPSG0xjZkuHAMKd4BRTVQ==" type="FOTM.MB.c2.sc2" fadeFar="1000" fadeNear="800"  iconFile="Unfinished/Choya.png"      iconSize="0.4"  rotate-x="85"                 rotate-z="180"/>
+	<POI MapID="959" xpos="-43.341"  ypos="149.537" zpos="-94.3299" GUID="SUHAceX1BEaU9Lax8AGOQQ==" type="FOTM.MB.c2.sc2" fadeFar="1535" fadeNear="1475" iconFile="Data/Fracs/skip1.png"      iconSize="0.65" rotate-x="65"                 rotate-z="270"/>
+	<POI MapID="959" xpos="29.263"   ypos="136.363" zpos="-104.789" GUID="Q8Fzc4eVjEONGTmHMNjkiQ==" type="FOTM.MB.c2.sc2" fadeFar="900"  fadeNear="750"  iconFile="Data/Strikes/FK/arrow.png" iconSize="0.25" bounce-distance="22" bounce-duration="0.5" bounce-height="1" bounce-when="inzone"/>
+	<POI MapID="959" xpos="33.134"   ypos="117.598" zpos="-105.354" GUID="4QUzax2mb06ofhA94XwdUQ==" type="FOTM.MB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/skip1.png"      iconSize="0.5"  rotate-x="85"                 rotate-z="90"/>
+	<POI MapID="959" xpos="34.874"   ypos="104.568" zpos="-130.719" GUID="XVrRaWDKOkObZjHrVPXnUg==" type="FOTM.MB.c2.sc2" fadeFar="1000" fadeNear="750"  iconFile="Data/Strikes/FK/arrow.png" iconSize="0.35" bounce-distance="22" bounce-duration="0.5" bounce-height="2" bounce-when="inzone"/>
+	<POI MapID="959" xpos="42.685"   ypos="151.566" zpos="-8.75303" GUID="6SDOs3T83kmg9dafuKMovw==" type="FOTM.MB.c2.sc2" fadeFar="450"  fadeNear="300"  iconFile="Data/Strikes/FK/arrow.png"                 rotate-x="180"                rotate-z="90"/>
+	<POI MapID="959" xpos="-8.476"   ypos="140.109" zpos="-90.2074" GUID="iFHS1FJlSEyRUWGwobeM1A==" type="FOTM.MB.c2.sc2" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pExit2.png"     iconSize="1"    rotate-x="215"                rotate-z="-90"/>
+    <Trail trailData="Unfinished/MB kill line.trl" alpha="1" animSpeed="1"                          type="FOTM.MB.c2"     fadeFar="1500" fadeNear="1250" texture="Data/Fracs/redtrail.png"/>
+    <!-- 3 -->
+    <POI MapID="959" xpos="-1.657"   ypos="161.376" zpos="-10.2837" GUID="BNwa062R+EC6IJrRYUVzEg==" type="FOTM.MB.c2.sc3" fadeFar="650"  fadeNear="500"  iconFile="Data/Fracs/skip1.png"      iconSize="0.75" rotate-x="90"                 rotate-z="90"/>
+	<POI MapID="959" xpos="18.8398"  ypos="167.967" zpos="-32.4496" GUID="mlN5kadZh02QwIXjpqhAuA==" type="FOTM.MB.c2.sc3" fadeFar="1200" fadeNear="1000" iconFile="Unfinished/Choya.png"      iconSize="0.65" rotate-x="85"/>
+	<POI MapID="959" xpos="44.2257"  ypos="162.309" zpos="-36.0883" GUID="xTTNQ1cRvkaQUMheUcBgFQ==" type="FOTM.MB.c2.sc3" fadeFar="1100" fadeNear="900"  iconFile="Data/Fracs/pEnter2.png"    iconSize="0.5"  rotate-x="180" />
+	<POI MapID="959" xpos="25.7283"  ypos="156.061" zpos="-27.9474" GUID="hBQEdUMyQk+EIY4IECwCbw==" type="FOTM.MB.c2.sc3" fadeFar="1000" fadeNear="850"  iconFile="Data/Fracs/pExit2.png"     iconSize="0.65" rotate-x="180"                rotate-z="90"/>
+    
     
     
     <!-- ======================================== MOLTEN FURNACE =============================================================================================================================================================== -->
