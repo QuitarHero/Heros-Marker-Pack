@@ -5,7 +5,7 @@
   <MarkerCategory name="Strike">
     <MarkerCategory    name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
     <MarkerCategory   name="B1" DisplayName="Icebrood Construct" fadeFar="2500" fadeNear="2250"                                     iconSize="0.5">
-      <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/ice1.png"                rotate-x="180"/>
+      <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/dot1.png"                rotate-x="180"/>
       <MarkerCategory name="c2" DisplayName="Phase 2"                                           iconFile="Data/Strikes/IC/dot2.png"                rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B2" DisplayName="Fallen Kodan">
