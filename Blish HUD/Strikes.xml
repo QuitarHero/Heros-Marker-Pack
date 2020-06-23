@@ -2,8 +2,8 @@
 <!-- =================================================== BLISH HUD VERSION ================================================== -->
 <!-- ======================================================================================================================== -->
 <OverlayData>
-  <MarkerCategory name="Strike">
-    <MarkerCategory    name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
+  <MarkerCategory     name="Strike">
+    <MarkerCategory   name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
     <MarkerCategory   name="B1" DisplayName="Icebrood Construct" fadeFar="2500" fadeNear="2250"                                     iconSize="0.5">
       <MarkerCategory name="c1" DisplayName="Phase 1"                                           iconFile="Data/Strikes/IC/dot1.png"                rotate-x="180"/>
       <MarkerCategory name="c2" DisplayName="Phase 2"                                           iconFile="Data/Strikes/IC/dot2.png"                rotate-x="180"/>
@@ -11,7 +11,6 @@
     <MarkerCategory   name="B2" DisplayName="Fallen Kodan">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="250"  fadeNear="225"/>
       <MarkerCategory name="c2" DisplayName="Boss Positions"                                                                                       rotate-x="180"/>
-      <MarkerCategory name="c3" DisplayName="Center Safe Spots"  fadeFar="300"  fadeNear="250"                                                     rotate-x="180"/>
     </MarkerCategory>
     <MarkerCategory   name="B3" DisplayName="Fraenir of Jormag">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="250"  fadeNear="225"/>
@@ -19,27 +18,20 @@
     </MarkerCategory>
     <MarkerCategory   name="B4" DisplayName="Boneskinner">
       <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="250"  fadeNear="225"/>
-      <MarkerCategory name="c2" DisplayName="Torches"                                                                               iconSize="1"   rotate-x="90"/>
-      <MarkerCategory name="c3" DisplayName="Grasp Markers"                                     iconFile="Data/Multi/dot.png"       iconSize="0.3" rotate-x="180"/>
+      <MarkerCategory name="c2" DisplayName="Grasp Markers"                                     iconFile="Data/Multi/dot.png"       iconSize="0.3" rotate-x="180"/>
+      <MarkerCategory name="c3" DisplayName="Torches"                                                                               iconSize="1"   rotate-x="90"/>
     </MarkerCategory>
     <MarkerCategory   name="B5" DisplayName="Whisper of Jormag">
       <MarkerCategory name="c1" DisplayName="Directions"         fadeFar="2500" fadeNear="2250"                                     iconSize="1" rotate-x="90"/>
     </MarkerCategory>
+    <MarkerCategory   name="B6" DisplayName="Cold War">
+      <MarkerCategory name="c1" DisplayName="Boundary"           fadeFar="350" fadeNear="325"/>
+      <MarkerCategory name="c2" DisplayName="Boss Spawn"                                        iconFile="Data/Multi/dot.png"       iconSize="0.5" rotate-x="180"/>
+      <MarkerCategory name="c3" DisplayName="Champ Spawn"                                       iconFile="Data/Multi/dot.png"       iconSize="0.5" rotate-x="180"/>
+    </MarkerCategory>
   </MarkerCategory>
   <POIs>
-    <!-- ========================================= ICEBROOD CONSTRUCT V1 ======================================================================================================================================================= -->
-    <!-- ========== PUBLIC ========== -->
-    <!-- Phase 1 -->
-    <POI MapID="1331" xpos="-782.414" ypos="158.196" zpos="-238.352" GUID="0Lid7h2qE0G7FxHsJpG4pA==" type="Strike.B1.c1" rotate-z="30"/>
-    <POI MapID="1331" xpos="-789.622" ypos="158.196" zpos="-250.661" GUID="Q/d7qNZggEeYmepsn5rEkg==" type="Strike.B1.c1" rotate-z="130"/>
-	<POI MapID="1331" xpos="-778.858" ypos="158.196" zpos="-257.841" GUID="bg2oUxiePEyyzjigq0LwCw==" type="Strike.B1.c1" rotate-z="215"/>
-	<POI MapID="1331" xpos="-770.844" ypos="158.196" zpos="-247.154" GUID="CcmmAT4hzkGySWlLftoraQ==" type="Strike.B1.c1" rotate-z="-50"/>
-    <!-- Phase 2 -->
-    <POI MapID="1331" xpos="-784.851" ypos="158.196" zpos="-256.424" GUID="ck56f9/+0EeOE5S3uCBUYQ==" type="Strike.B1.c2" rotate-z="40"/>
-	<POI MapID="1331" xpos="-789.151" ypos="158.196" zpos="-243.869" GUID="eprhYBch2EGvDwd/z/Krjw==" type="Strike.B1.c2" rotate-z="135"/>
-	<POI MapID="1331" xpos="-776.296" ypos="158.196" zpos="-239.784" GUID="mAPkAQJCfEWL1h8d2QQY7Q==" type="Strike.B1.c2" rotate-z="215"/>
-	<POI MapID="1331" xpos="-771.402" ypos="158.196" zpos="-251.962" GUID="4p+0FEaR80yS0SVb0LJwmQ==" type="Strike.B1.c2" rotate-z="-50"/>
-    <!-- ========== SQUAD / INSTANCED ========== -->
+    <!-- ========================================= ICEBROOD CONSTRUCT  ========================================================================================================================================================= -->
     <!-- Phase 1 -->
     <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="Strike.B1.c1" rotate-z="30"/>
     <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="Strike.B1.c1" rotate-z="130"/>
@@ -53,98 +45,58 @@
     
     
     <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
-    <!-- ========== PUBLIC ========== -->
-    <!-- Boss Positions -->
-    <POI MapID="1340" xpos="-8.520" ypos="178.538" zpos="-05.408" GUID="sbZVHd8I7U6s6btvN/axwA==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"      iconSize="0.75" rotate-z="275"/>
-    <POI MapID="1340" xpos="16.201" ypos="178.112" zpos="022.438" GUID="C9Vh8ROaPUeiSkoCCRqnLQ==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"      iconSize="1.25" rotate-z="177"/>
-    <POI MapID="1340" xpos="43.213" ypos="178.338" zpos="-01.512" GUID="gilBB2HG3k23sGR0yernSg==" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"      iconSize="1.25" rotate-z="87"/>
-    <POI MapID="1340" xpos="17.385" ypos="179.712" zpos="-02.954" GUID="R+Km6mrQREyroDZ0K5OBFg==" type="Strike.B2.c2"/>
-    <!-- Center Safe Spots -->
-    <POI MapID="1340" xpos="12.749" ypos="178.112" zpos="001.208" GUID="x8PSvfEoukGd+KsSrB/trw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrowStart.png" iconSize="0.5"  rotate-z="20"/>
-    <POI MapID="1340" xpos="16.995" ypos="178.112" zpos="002.696" GUID="Qv1zhOxaYEy6TwVXuUcg8A==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-100"/>
-    <POI MapID="1340" xpos="21.158" ypos="178.112" zpos="001.597" GUID="mklHvEWKf0W9UurwLXf32w==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="210"/>
-    <POI MapID="1340" xpos="23.166" ypos="178.112" zpos="-03.172" GUID="i/Ie1AF5SkuRYbNEYwoFaQ==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="165"/>
-	<POI MapID="1340" xpos="21.962" ypos="178.112" zpos="-06.946" GUID="zvPpW8PJ7UmnmwgGE1+yXw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="115"/>
-	<POI MapID="1340" xpos="17.386" ypos="178.112" zpos="-09.065" GUID="MnzjoR/+tkySuqkXPe/lwA==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="70"/>
-	<POI MapID="1340" xpos="12.524" ypos="178.112" zpos="-07.194" GUID="sBEoj7r1rEqpHV0Kzb6sEw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="20"/>
-	<POI MapID="1340" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-20"/>
-    <!-- ========== SQUAD / INSTANCED ========== -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Strikes/FK/FallenBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B2.c1"/>
     <!-- Boss Positions -->
     <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-05.408" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos1.png"      iconSize="0.75" rotate-z="275"/>
     <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="022.438" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos2.png"      iconSize="1.25" rotate-z="177"/>
     <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-01.512" type="Strike.B2.c2" iconFile="Data/Strikes/FK/pos3.png"      iconSize="1.25" rotate-z="87"/>
     <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-02.954" type="Strike.B2.c2"/>
-    <!-- Center Safe Spots -->
-    <POI MapID="1346" xpos="12.749" ypos="178.112" zpos="001.208" GUID="x8PSvfEoukGd+KsSrB/trw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrowStart.png" iconSize="0.5"  rotate-z="20"/>
-    <POI MapID="1346" xpos="16.995" ypos="178.112" zpos="002.696" GUID="Qv1zhOxaYEy6TwVXuUcg8A==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-100"/>
-    <POI MapID="1346" xpos="21.158" ypos="178.112" zpos="001.597" GUID="mklHvEWKf0W9UurwLXf32w==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="210"/>
-    <POI MapID="1346" xpos="23.166" ypos="178.112" zpos="-03.172" GUID="i/Ie1AF5SkuRYbNEYwoFaQ==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="165"/>
-	<POI MapID="1346" xpos="21.962" ypos="178.112" zpos="-06.946" GUID="zvPpW8PJ7UmnmwgGE1+yXw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="115"/>
-	<POI MapID="1346" xpos="17.386" ypos="178.112" zpos="-09.065" GUID="MnzjoR/+tkySuqkXPe/lwA==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="70"/>
-	<POI MapID="1346" xpos="12.524" ypos="178.112" zpos="-07.194" GUID="sBEoj7r1rEqpHV0Kzb6sEw==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="20"/>
-	<POI MapID="1346" xpos="11.012" ypos="178.112" zpos="-02.860" GUID="7/6n10gxXki7KieneTi+tg==" type="Strike.B2.c3" iconFile="Data/Strikes/FK/arrow.png"      iconSize="0.25" rotate-z="-20"/>
     
     
     <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
-    <!-- ========== PUBLIC ========== -->
-    <POI MapID="1344" xpos="16.924" ypos="178.325" zpos="-2.516"  GUID="jpD+iv+LaUS7Nifmg7drqg==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png"/>
-    <POI MapID="1344" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png" rotate-z="65"/>
-	<POI MapID="1344" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="160"/>
-	<POI MapID="1344" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="250"/>
-	<POI MapID="1344" xpos="28.511" ypos="178.325" zpos="-05.307" GUID="SYfcNRUeA0O1c0+jOuUDyQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="340"/>
-    <!-- ========== SQUAD ========== -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Strikes/FoJ/FraenirBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B3.c1"/>
     <!-- IC Markers -->
-    <POI MapID="1341" xpos="16.924" ypos="178.325" zpos="-2.516"  GUID="0JlsA3MrVkadrzakJXHcKw==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png"/>
-	<POI MapID="1341" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot1.png" rotate-z="65"/>
-    <POI MapID="1341" xpos="16.957" ypos="178.325" zpos="-10.932" GUID="oZMX9BZoH0yAmURf2iqHEw==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="160"/>
-    <POI MapID="1341" xpos="28.511" ypos="178.325" zpos="-05.307" GUID="SYfcNRUeA0O1c0+jOuUDyQ==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="250"/>
-    <POI MapID="1341" xpos="23.595" ypos="178.325" zpos="007.252" GUID="3v4Bo7T2x0aP9wUctNVZrA==" type="Strike.B3.c2" iconFile="Data/Strikes/IC/dot2.png" rotate-z="340"/>
+    <POI MapID="1341" xpos="16.215" ypos="178.325" zpos="-2.602"  GUID="0JlsA3MrVkadrzakJXHcKw==" type="Strike.B3" iconFile="Data/Multi/dot.png" rotate-x="180" iconSize="0.5"/>
+	<POI MapID="1341" xpos="11.345" ypos="178.325" zpos="001.620" GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Strike.B3.c2" iconFile="Data/Multi/dot.png" rotate-x="180"/>
     
     
     <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
-    <!-- Torches -->
-    <POI MapID="1351" xpos="045.121" ypos="179.836" zpos="-03.009" GUID="KYYQ49sbBkydBFt3lEnnTA==" type="Strike.B4.c2" iconFile="Data/Raids/W6/1.png"   rotate-z="90"/>
-	<POI MapID="1351" xpos="-13.409" ypos="179.819" zpos="-02.181" GUID="IPTHUhNZK0+8bIdEKqGGbg==" type="Strike.B4.c2" iconFile="Data/Raids/W6/2.png"   rotate-z="270"/>
-	<POI MapID="1351" xpos="032.780" ypos="179.712" zpos="-26.875" GUID="n9HveTV7OUmGQcSluIMXzw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/3.png"   rotate-z="35"/>
-	<POI MapID="1351" xpos="000.291" ypos="179.786" zpos="022.614" GUID="BQzKnR5OY0m0GWiuvj1klg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/4.png" rotate-z="220"/>
-	<POI MapID="1351" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="xKNnNu0gCEqrku+9Nexj4g==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/5.png" rotate-z="-25"/>
-	<POI MapID="1351" xpos="032.281" ypos="179.845" zpos="021.882" GUID="Ln4uUG0OxEelmNP5rkljfA==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/6.png" rotate-z="145"/>
     <!-- AoE Markers -->
-    <POI MapID="1351" xpos="20.8233" ypos="178.030" zpos="-2.209"  GUID="eCFjEDJ49E6lxZ8T5vhp+Q==" type="Strike.B4.c3"/>
-	<POI MapID="1351" xpos="12.8077" ypos="178.030" zpos="2.391"   GUID="v/3cHGakkkeC4fiwcvj7Tw==" type="Strike.B4.c3"/>
-	<POI MapID="1351" xpos="18.5828" ypos="178.030" zpos="2.226"   GUID="PsGJixjrK0KrNzHU//InmA==" type="Strike.B4.c3"/>
-	<POI MapID="1351" xpos="10.5493" ypos="178.030" zpos="-2.508"  GUID="7tAEQAFgMEymFVphGe/+uA==" type="Strike.B4.c3"/>
-	<POI MapID="1351" xpos="13.4639" ypos="178.030" zpos="-6.417"  GUID="NfCcr9XtO0ezZUgSxv6UjA==" type="Strike.B4.c3"/>
-    <POI MapID="1351" xpos="18.3686" ypos="178.030" zpos="-5.823"  GUID="7fBfBGXNSUSD03H2M4THow==" type="Strike.B4.c3"/>
-    <!-- ========== SQUAD ========== -->
-    <!-- Boundary -->
-    <Trail trailData="Data/Strikes/BS/BSBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B4.c1"/>
+    <POI MapID="1339" xpos="20.022"  ypos="178.030" zpos="-4.748"  GUID="Idi5hOAaRECaPJ4JeFb5gg==" type="Strike.B4.c2"/>
+	<POI MapID="1339" xpos="11.045"  ypos="178.030" zpos="0.588"   GUID="h/RYodQ0ZkS2ju0/7yINVA==" type="Strike.B4.c2"/>
+	<POI MapID="1339" xpos="17.946"  ypos="178.030" zpos="2.206"   GUID="zpvxhayXRUa3YsngRKA/9g==" type="Strike.B4.c2"/>
+	<POI MapID="1339" xpos="12.698"  ypos="178.030" zpos="-7.071"  GUID="hVXc6Dr+BUa/nJWmnrZJLw==" type="Strike.B4.c2"/>
     <!-- Torches -->
-    <POI MapID="1339" xpos="045.121" ypos="179.836" zpos="-03.009" GUID="fJGkuCKCEUSZuadJa7cAvw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/1.png"   rotate-z="90"/>
-	<POI MapID="1339" xpos="-13.409" ypos="179.819" zpos="-02.181" GUID="0zHg0NSWNk+DW9V8koJWHw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/2.png"   rotate-z="270"/>
-	<POI MapID="1339" xpos="032.780" ypos="179.712" zpos="-26.875" GUID="1DI2Cfms2kaoC7O2wNcWFw==" type="Strike.B4.c2" iconFile="Data/Raids/W6/3.png"   rotate-z="35"/>
-	<POI MapID="1339" xpos="000.291" ypos="179.786" zpos="022.614" GUID="g7En932TFEqELhm3OZM6Hg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/4.png" rotate-z="220"/>
-	<POI MapID="1339" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/5.png" rotate-z="-25"/>
-	<POI MapID="1339" xpos="032.281" ypos="179.845" zpos="021.882" GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="Strike.B4.c2" iconFile="Data/Strikes/BS/6.png" rotate-z="145"/>
-    <!-- AoE Markers -->
-    <POI MapID="1339" xpos="20.8233" ypos="178.030" zpos="-2.209"  GUID="IBpfyFeAEUeum/C1wcSq8Q==" type="Strike.B4.c3"/>
-	<POI MapID="1339" xpos="12.8077" ypos="178.030" zpos="2.391"   GUID="iCBPJHcGy0mvneAMvSPjWg==" type="Strike.B4.c3"/>
-	<POI MapID="1339" xpos="18.5828" ypos="178.030" zpos="2.226"   GUID="rAJwtLF71UOMtgL8a5DE2A==" type="Strike.B4.c3"/>
-	<POI MapID="1339" xpos="10.5493" ypos="178.030" zpos="-2.508"  GUID="vTAgxfGzR0KutWy0FJmNsg==" type="Strike.B4.c3"/>
-	<POI MapID="1339" xpos="13.4639" ypos="178.030" zpos="-6.417"  GUID="hqF1hFrAlkOtsMwBaB1Meg==" type="Strike.B4.c3"/>
-    <POI MapID="1339" xpos="18.3686" ypos="178.030" zpos="-5.823"  GUID="VIPRW+wBvkarQ5/7sgBRSA==" type="Strike.B4.c3"/>
+    <POI MapID="1339" xpos="045.121" ypos="179.836" zpos="-03.009" GUID="fJGkuCKCEUSZuadJa7cAvw==" type="Strike.B4.c3" iconFile="Data/Raids/W6/1.png"   rotate-z="90"/>
+	<POI MapID="1339" xpos="-13.409" ypos="179.819" zpos="-02.181" GUID="0zHg0NSWNk+DW9V8koJWHw==" type="Strike.B4.c3" iconFile="Data/Raids/W6/2.png"   rotate-z="270"/>
+	<POI MapID="1339" xpos="032.780" ypos="179.712" zpos="-26.875" GUID="1DI2Cfms2kaoC7O2wNcWFw==" type="Strike.B4.c3" iconFile="Data/Raids/W6/3.png"   rotate-z="35"/>
+	<POI MapID="1339" xpos="000.291" ypos="179.786" zpos="022.614" GUID="g7En932TFEqELhm3OZM6Hg==" type="Strike.B4.c3" iconFile="Data/Strikes/BS/4.png" rotate-z="220"/>
+	<POI MapID="1339" xpos="003.416" ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="Strike.B4.c3" iconFile="Data/Strikes/BS/5.png" rotate-z="-25"/>
+	<POI MapID="1339" xpos="032.281" ypos="179.845" zpos="021.882" GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="Strike.B4.c3" iconFile="Data/Strikes/BS/6.png" rotate-z="145"/>
     
-    <POI MapID="1339" xpos="16.642" ypos="178.212" zpos="-2.666" GUID="VIPRW+wBvkarQ5/7sgBRSA==" type="Strike.B4.c3"/>
     
     <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
+    <!-- Directions -->
     <POI MapID="1359" xpos="002.320" ypos="54.296" zpos="66.525" GUID="mUuPysgaDUKNgxz3vs3POQ==" type="Strike.B5.c1" iconFile="Data/Multi/n.png" rotate-z="170"/>
     <POI MapID="1359" xpos="001.285" ypos="54.296" zpos="11.692" GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="Strike.B5.c1" iconFile="Data/Multi/s.png"/>
 	<POI MapID="1359" xpos="027.831" ypos="54.296" zpos="39.954" GUID="jM1djHOvL0qKeJEqoscURQ==" type="Strike.B5.c1" iconFile="Data/Multi/e.png" rotate-z="90"/>
     <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777" GUID="W95eoXEAJkWp5ExvtG7IYg==" type="Strike.B5.c1" iconFile="Data/Multi/w.png" rotate-z="-90"/>
+    
+    
+    <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
+    <!-- Boss Spawn -->
+    <POI MapID="1374" xpos="34.799" ypos="17.272" zpos="-89.322" GUID="NqkE/x12RkugIEwXPWDWig==" type="Strike.B6.c2"/>
+    <!-- Champ Spawn -->
+    <POI MapID="1374" xpos="29.084" ypos="18.002" zpos="-51.671" GUID="vRwF8BloGkmF4RZY0fBsbA==" type="Strike.B6.c3"/>
+    
+    
+    <!-- ======================================== TRAILS ======================================================================================================================================================================= -->
+    <!-- ==================== Fallen Kodan's Strike Boundary ==================== -->
+    <Trail trailData="Data/Strikes/FK/FallenBound.trl"   texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B2.c1"/>
+    <!-- ==================== Fraenir of Jormag's Strike Boundary ==================== -->
+    <Trail trailData="Data/Strikes/FoJ/FraenirBound.trl" texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B3.c1"/>
+    <!-- ==================== Boneskinner's Strike Boundary ==================== -->
+    <Trail trailData="Data/Strikes/BS/BSBound.trl"       texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B4.c1"/>
+    <!-- ==================== Cold War's Strike Boundary ==================== -->
+    <Trail trailData="Data/Strikes/CW/Boundary.trl"      texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Strike.B6.c1"/>
     
   </POIs>
 </OverlayData>
