@@ -2,91 +2,155 @@
 <!-- ===================================================== BLISH VERSION ==================================================== -->
 <!-- ======================================================================================================================== -->
 <OverlayData>
-  <MarkerCategory       name="FOTM" DisplayName="Fractals of the Mists">
-    <MarkerCategory     name="AB"   DisplayName="Aetherblade">
-      <MarkerCategory   name="Slay" DisplayName="Slaying">
-        <MarkerCategory name="Sl1"  DisplayName="Start"                 fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/Slaying/ScarletImpact.png"                    rotate-x="105"                rotate-z="30"/>
-        <MarkerCategory name="Sl2"  DisplayName="Last Room"             fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/InquestMadSct.png"                    rotate-x="90"  rotate-y="45"  rotate-z="175"/>
+  <MarkerCategory         name="FOTM" DisplayName="Fractals of the Mists">
+    <MarkerCategory       name="AB"   DisplayName="Aetherblade">
+      <MarkerCategory     name="Slay" DisplayName="Slaying">
+        <MarkerCategory   name="Sl1"  DisplayName="Start"                     fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/Slaying/ScarletImpact.png"                                    rotate-x="105"                rotate-z="30">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Impact"                                                                                                    IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Last Room"                 fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/InquestMadSct.png"                                    rotate-x="90"  rotate-y="45"  rotate-z="175">
+          <MarkerCategory name="Desc" DisplayName="Inquest | Force | Mad Sct"                                                                                                   IsSeparator="1"/>
+        </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="AR"   DisplayName="Aquatic Ruins">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                   rotate-x="110"                rotate-z="-46"/>
-    </MarkerCategory>
-    <MarkerCategory     name="CMT"  DisplayName="Captain Mai Trin">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="950"  fadeNear="700"  iconFile="Data/Fracs/Slaying/ScarletImpact.png"                    rotate-x="90"                 rotate-z="90"/>
-    </MarkerCategory>
-    <MarkerCategory     name="CI"   DisplayName="Chaos Isles">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="950"  fadeNear="700"  iconFile="Data/Fracs/Slaying/NormalImpact.png"                     rotate-x="120" rotate-y="-4"  rotate-z="71"/>
-    </MarkerCategory>
-    <MarkerCategory     name="CS"   DisplayName="Cliffside">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/OutlawJustice.png"    iconSize="1.5"  rotate-x="130"                rotate-z="190"/>
-    </MarkerCategory>
-    <MarkerCategory     name="DS"   DisplayName="Deepstone">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="900"  fadeNear="650"  iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1"    rotate-x="90"                 rotate-z="90"/>
-    </MarkerCategory>
-    <MarkerCategory     name="MB"   DisplayName="Molten Boss">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/ScarletImpact.png"    iconSize="1.25" rotate-x="90"                 rotate-z="46"/>
-    </MarkerCategory>
-    <MarkerCategory     name="MF"   DisplayName="Molten Furnace">
-      <MarkerCategory   name="Slay" DisplayName="Slaying">
-        <MarkerCategory name="Sl1"  DisplayName="Start"                 fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ScarletImpact.png"    iconSize="1.5"  rotate-x="110"                rotate-z="20"/>
-        <MarkerCategory name="Sl2"  DisplayName="Weapons Testing"       fadeFar="1400" fadeNear="1250" iconFile="Data/Fracs/Slaying/DredgeDredge.png"     iconSize="1.25" rotate-x="100"                rotate-z="180"/>
+    <MarkerCategory       name="AR"   DisplayName="Aquatic Ruins">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                                   rotate-x="110"                rotate-z="-46">
+        <MarkerCategory   name="Desc" DisplayName="Scarlet | Force | Serpent"                                                                                                   IsSeparator="1"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="NM"   DisplayName="Nightmare">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"                                                                                                 iconSize="1.25">
-        <MarkerCategory name="Sl1"  DisplayName="MAMA"                  fadeFar="1300" fadeNear="1050" iconFile="Data/Fracs/Slaying/ScarletImpact.png"                    rotate-x="90"                 rotate-z="25"/>
-        <MarkerCategory name="Sl2"  DisplayName="Capture Points"        fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                   rotate-x="90"  rotate-y="-8"  rotate-z="25"/>
-        <MarkerCategory name="Sl3"  DisplayName="Siax"                  fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                   rotate-x="80"                 rotate-z="260"/>
-        <MarkerCategory name="Sl4"  DisplayName="Ensolyss"              fadeFar="900"  fadeNear="650"  iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                   rotate-x="95"                 rotate-z="90"/>
+    <MarkerCategory       name="CMT"  DisplayName="Captain Mai Trin">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="950"  fadeNear="700"  iconFile="Data/Fracs/Slaying/ScarletImpact.png"                                    rotate-x="90"                 rotate-z="90">
+        <MarkerCategory   name="Desc" DisplayName="Scarlet | Force | Impact"                                                                                                    IsSeparator="1"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="ShO"  DisplayName="Shattered Observatory">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"                                                                                                 iconSize="1.25">
-        <MarkerCategory name="Sl1"  DisplayName="Skorvald"              fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/NormalImpact.png"                     rotate-x="165" rotate-y="15"  rotate-z="290"/>
-        <MarkerCategory name="Sl2"  DisplayName="Artsariiv"             fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/NormalImpact.png"                     rotate-x="115"                rotate-z="290"/>
-        <MarkerCategory name="Sl3"  DisplayName="Arkk"                  fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ScarletImpact.png"                    rotate-x="115"                rotate-z="180"/>
+    <MarkerCategory       name="CI"   DisplayName="Chaos Isles">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="950"  fadeNear="700"  iconFile="Data/Fracs/Slaying/NormalImpact.png"                                     rotate-x="120" rotate-y="-4"  rotate-z="71">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="SR"   DisplayName="Siren's Reef">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"  rotate-x="180"                rotate-z="190"/>
-    </MarkerCategory>
-    <MarkerCategory     name="SB"   DisplayName="Snowblind">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/SvanirWrathNight.png" iconSize="1"    rotate-x="90"                 rotate-z="-80"/>
-    </MarkerCategory>
-    <MarkerCategory     name="SoO"  DisplayName="Solid Ocean">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1400" fadeNear="1150" iconFile="Data/Fracs/Slaying/EleEleNight.png"      iconSize="1.25" rotate-x="90"  rotate-y="4"   rotate-z="80"/>
-    </MarkerCategory>
-    <MarkerCategory     name="SL"   DisplayName="Swampland">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/ImpactNight.png"      iconSize="2"    rotate-x="90"                 rotate-z="-45"/>
-    </MarkerCategory>
-    <MarkerCategory     name="TR"   DisplayName="Thaumanova Reactor">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"  rotate-x="90"                 rotate-z="180"/>
-    </MarkerCategory>
-    <MarkerCategory     name="TO"   DisplayName="Twilight Oasis">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/ImpactNight.png"      iconSize="2"    rotate-x="90"                 rotate-z="-89"/>
-    </MarkerCategory>
-    <MarkerCategory     name="UC"   DisplayName="Uncategorized">
-      <MarkerCategory   name="Slay" DisplayName="Slaying">
-        <MarkerCategory name="Sl1"  DisplayName="Start"                 fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"  rotate-x="88"  rotate-z="140"/>
-        <MarkerCategory name="Sl2"  DisplayName="Old Tom"               fadeFar="800"  fadeNear="650"  iconFile="Data/Fracs/Slaying/InquestMadSct.png"    iconSize="2"    rotate-x="60"  rotate-y="-4"  rotate-z="140"/>
-        <MarkerCategory name="Sl3"  DisplayName="Raving Asura"          fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/InquestMadSct.png"    iconSize="1.5"  rotate-x="125" rotate-y="-5"  rotate-z="200"/>
+    <MarkerCategory       name="CS"   DisplayName="Cliffside">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/OutlawJustice.png"    iconSize="1.5"                  rotate-x="130"                rotate-z="190">
+        <MarkerCategory   name="Desc" DisplayName="Outlaw | Force | Justice"                                                                                                    IsSeparator="1"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="UF"   DisplayName="Underground Facility">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"                                                                                                 iconSize="2"    rotate-x="90">
-        <MarkerCategory name="Sl1"  DisplayName="Start"                 fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/DreDreNight.png"                                                    rotate-z="-91"/>
-        <MarkerCategory name="Sl2"  DisplayName="Dredge Boss"           fadeFar="1100" fadeNear="850"  iconFile="Data/Fracs/Slaying/DreDreNight.png"                                     rotate-y="-18" rotate-z="55"/>
-        <MarkerCategory name="Sl3"  DisplayName="Elemental Boss"        fadeFar="1150" fadeNear="900"  iconFile="Data/Fracs/Slaying/EleEleNight.png"                                     rotate-y="-18" rotate-z="55"/>
+    <MarkerCategory       name="DS"   DisplayName="Deepstone">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="900"  fadeNear="650"  iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1"                    rotate-x="90"                 rotate-z="90">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="UB"   DisplayName="Urban Battlegrounds">
-      <MarkerCategory   name="Slay" DisplayName="Slaying"               fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"  rotate-x="90"                 rotate-z="170"/>
+    <MarkerCategory       name="MB"   DisplayName="Molten Boss">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/ScarletImpact.png"    iconSize="1.25"                 rotate-x="90"                 rotate-z="46">
+        <MarkerCategory   name="Desc" DisplayName="Scarlet | Force | Impact"                                                                                                    IsSeparator="1"/>
+      </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="VO"   DisplayName="Volcanic">
-      <MarkerCategory   name="Slay" DisplayName="Slaying">
-        <MarkerCategory name="Sl1"  DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/GrawlGrawlNight.png"  iconSize="1.25" rotate-x="90"                 rotate-z="210"/>
-        <MarkerCategory name="Sl2"  DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/EleEleNight.png"      iconSize="1.5"  rotate-x="197"                rotate-z="87"/>
+    <MarkerCategory       name="MF"   DisplayName="Molten Furnace">
+      <MarkerCategory     name="Slay" DisplayName="Slaying">
+        <MarkerCategory   name="Sl1"  DisplayName="Start"                     fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ScarletImpact.png"    iconSize="1.5"                  rotate-x="110"                rotate-z="20">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Impact"                                                                                                    IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Weapons Testing"           fadeFar="1400" fadeNear="1250" iconFile="Data/Fracs/Slaying/DredgeDredge.png"     iconSize="1.25"                 rotate-x="100"                rotate-z="180">
+          <MarkerCategory name="Desc" DisplayName="Dredge | Force | Sorrow"                                                                                                     IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="NM"   DisplayName="Nightmare">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                                                                                                     iconSize="1.25">
+        <MarkerCategory   name="Sl1"  DisplayName="MAMA"                      fadeFar="1300" fadeNear="1050" iconFile="Data/Fracs/Slaying/ScarletImpact.png"                                    rotate-x="90"                 rotate-z="25">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Impact"                                                                                                    IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Capture Points"            fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                                   rotate-x="90"  rotate-y="-8"  rotate-z="25">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Serpent"                                                                                                   IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl3"  DisplayName="Siax"                      fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                                   rotate-x="80"                 rotate-z="260">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Serpent"                                                                                                   IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl4"  DisplayName="Ensolyss"                  fadeFar="900"  fadeNear="650"  iconFile="Data/Fracs/Slaying/ScarletSerpent.png"                                   rotate-x="95"                 rotate-z="90">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Serpent"                                                                                                   IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="ShO"  DisplayName="Shattered Observatory">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                                                                                                     iconSize="1.25">
+        <MarkerCategory   name="Sl1"  DisplayName="Skorvald"                  fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/NormalImpact.png"                                     rotate-x="165" rotate-y="15"  rotate-z="290">
+          <MarkerCategory name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Artsariiv"                 fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/NormalImpact.png"                                     rotate-x="115"                rotate-z="290">
+          <MarkerCategory name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl3"  DisplayName="Arkk"                      fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ScarletImpact.png"                                    rotate-x="115"                rotate-z="180">
+          <MarkerCategory name="Desc" DisplayName="Scarlet | Force | Impact"                                                                                                    IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="SR"   DisplayName="Siren's Reef">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"                  rotate-x="180"                rotate-z="190">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="SB"   DisplayName="Snowblind">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/SvanirWrathNight.png" iconSize="1"                    rotate-x="90"                 rotate-z="-80">
+        <MarkerCategory   name="Desc" DisplayName="Svanir | Night | Wrath"                                                                                                      IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="SoO"  DisplayName="Solid Ocean">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1400" fadeNear="1150" iconFile="Data/Fracs/Slaying/EleEleNight.png"      iconSize="1.25"                 rotate-x="90"  rotate-y="4"   rotate-z="80">
+        <MarkerCategory   name="Desc" DisplayName="Ele | Night | Ele"                                                                                                           IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="SL"   DisplayName="Swampland">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/ImpactNight.png"      iconSize="2"                    rotate-x="90"                 rotate-z="-45">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Night | Impact"                                                                                                        IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="TR"   DisplayName="Thaumanova Reactor">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"                  rotate-x="90"                 rotate-z="180">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Force, Impact"                                                                                                         IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="TO"   DisplayName="Twilight Oasis">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/ImpactNight.png"      iconSize="2"                    rotate-x="90"                 rotate-z="-89">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Force | Night"                                                                                                         IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="UC"   DisplayName="Uncategorized">
+      <MarkerCategory     name="Slay" DisplayName="Slaying">
+        <MarkerCategory   name="Sl1"  DisplayName="Start"                     fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"                  rotate-x="88"                 rotate-z="140">
+          <MarkerCategory name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Old Tom"                   fadeFar="800"  fadeNear="650"  iconFile="Data/Fracs/Slaying/InquestMadSct.png"    iconSize="2"                    rotate-x="60"  rotate-y="-4"  rotate-z="140">
+          <MarkerCategory name="Desc" DisplayName="Inquest | Force | Mad Sct"                                                                                                   IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl3"  DisplayName="Raving Asura"              fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/InquestMadSct.png"    iconSize="1.5"                  rotate-x="125" rotate-y="-5"  rotate-z="200">
+          <MarkerCategory name="Desc" DisplayName="Inquest | Force | Mad Sct"                                                                                                   IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="UF"   DisplayName="Underground Facility">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                                                                                                     iconSize="2"                    rotate-x="90">
+        <MarkerCategory   name="Sl1"  DisplayName="Start"                     fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/DreDreNight.png"                                                                    rotate-z="-91">
+          <MarkerCategory name="Desc" DisplayName="Dredge | Night | Sorrow"                                                                                                     IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Dredge Boss"               fadeFar="1100" fadeNear="850"  iconFile="Data/Fracs/Slaying/DreDreNight.png"                                                     rotate-y="-18" rotate-z="55">
+          <MarkerCategory name="Desc" DisplayName="Dredge | Night | Sorrow"                                                                                                     IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl3"  DisplayName="Elemental Boss"            fadeFar="1150" fadeNear="900"  iconFile="Data/Fracs/Slaying/EleEleNight.png"                                                     rotate-y="-18" rotate-z="55">
+          <MarkerCategory name="Desc" DisplayName="Ele | Night | Ele"                                                                                                           IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="UB"   DisplayName="Urban Battlegrounds">
+      <MarkerCategory     name="Slay" DisplayName="Slaying"                   fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/NormalImpact.png"     iconSize="1.5"                  rotate-x="90"                 rotate-z="170">
+        <MarkerCategory   name="Desc" DisplayName="N/A | Force | Impact"                                                                                                        IsSeparator="1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory       name="VO"   DisplayName="Volcanic">
+      <MarkerCategory     name="Slay" DisplayName="Slaying">
+        <MarkerCategory   name="Sl1"  DisplayName="Start + Grawl Shaman"      fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/GrawlGrawlNight.png"  iconSize="1.25"                 rotate-x="90"                 rotate-z="210">
+          <MarkerCategory name="Desc" DisplayName="Grawl | Night | Grawl"                                                                                                       IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory   name="Sl2"  DisplayName="Imbued Shaman"             fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/EleEleNight.png"      iconSize="1.5"                  rotate-x="197"                rotate-z="87">
+          <MarkerCategory name="Desc" DisplayName="Ele | Night | Ele"                                                                                                           IsSeparator="1"/>
+        </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
