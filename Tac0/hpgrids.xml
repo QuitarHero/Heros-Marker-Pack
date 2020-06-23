@@ -389,38 +389,15 @@
     
     
     <!-- =================================== STRIKES =================================== -->
-    <!-- ICEBROOD CONSTRUCT PUBLIC -->
-    <grid mapid="1331" centerx="-780.747" centery="159.696" centerz="-247.616" radius="50" name="Icebrood Construct">
-      <percentage value="85" color="75000000"/>
-      <percentage value="50" color="99000000"/>
-    </grid>
     <!-- ICEBROOD CONSTRUCT SQUAD / INSTANCED -->
     <grid mapid="1332" centerx="-780.747" centery="159.696" centerz="-247.616" radius="50" name="Icebrood Construct">
       <percentage value="85" color="75000000"/>
       <percentage value="50" color="99000000"/>
     </grid>
-    <!-- FRAENER OF JORMAG | PUBLIC -->
-    <grid mapid="1344" centerx="16.300" centery="179.825" centerz="-1.964" radius="30" name="Fraener of Jormag">
-      <percentage value="75" color="99000000"/>
-      <percentage value="70" color="50000000"/>
-    </grid>
     <!-- FRAENER OF JORMAG | SQUAD / INSTANCED -->
     <grid mapid="1341" centerx="16.300" centery="179.825" centerz="-1.964" radius="30" name="Fraener of Jormag">
       <percentage value="75" color="99000000"/>
       <percentage value="70" color="50000000"/>
-    </grid>
-    <!-- BONESKINNER PUBLILC -->
-    <grid mapid="1351" centerx="15.468" centery="179.712" centerz="-2.189" radius="40" name="Boneskinner">
-      <percentage value="90" color="75000000"/>
-      <percentage value="75" color="99000000"/>
-      <percentage value="74" color="99ffc600"/>
-      <percentage value="60" color="999719e6"/>
-      <percentage value="50" color="99000000"/>
-      <percentage value="49" color="9919e6c2"/>
-      <percentage value="40" color="99fcff00"/>
-      <percentage value="25" color="99000000"/>
-      <percentage value="24" color="9915dd28"/>
-      <percentage value="15" color="992e16e5"/>
     </grid>
     <!-- BONESKINNER SQUAD / INSTANCED -->
     <grid mapid="1339" centerx="15.468" centery="179.712" centerz="-2.189" radius="40" name="Boneskinner">
@@ -434,11 +411,6 @@
       <percentage value="25" color="99000000"/>
       <percentage value="24" color="9915dd28"/>
       <percentage value="15" color="992e16e5"/>
-    </grid>
-    <!-- WHISPER OF JORMAG PUBLIC -->
-    <grid mapid="1357" centerx="0.137109" centery="54.2949" centerz="39.1277" radius="30" name="Whisper of Jormag">
-      <percentage value="75" color="99000000"/>
-      <percentage value="25" color="99000000"/>
     </grid>
     <!-- WHISPER OF JORMAG SQUAD / INSTANCED -->
     <grid mapid="1359" centerx="0.137109" centery="54.2949" centerz="39.1277" radius="30" name="Whisper of Jormag">
