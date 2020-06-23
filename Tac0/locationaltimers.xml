@@ -127,7 +127,7 @@
 	<areatriggeredtimer mapid="1188" length="360" startdelay="2"
     enterspherex="98.396" enterspherey="106.187" enterspherez="101.323" entersphererad="1" 
     exitspherex="98.396"  exitspherey="106.187"  exitspherez="101.323"  exitsphererad="69">
-		<timeevent text="Start"  timestamp="0"   countdown="0"  onscreentime="0"/>
+		<timeevent text="Start"  timestamp="-2"   countdown="0"  onscreentime="2"/>
 		<timeevent text="Dispel" timestamp="10"  countdown="10" onscreentime="0"/>
 		<timeevent text="Dispel" timestamp="35"  countdown="25" onscreentime="0"/>
 		<timeevent text="Dispel" timestamp="60"  countdown="25" onscreentime="0"/>
@@ -363,7 +363,7 @@
         <timeevent text="Inevitable Betrayal" timestamp="625" countdown="10" onscreentime="5"/>
         <timeevent text="Inevitable Betrayal" timestamp="649" countdown="10" onscreentime="5"/>
     </areatriggeredtimer>
-    <!-- Deimos, Unnatural Signet -->
+    <!-- Deimos, Unnatural Signet
     <areatriggeredtimer mapid="1188" length="660" startdelay="5"
     enterspherex="-213.739" enterspherey="101.924" enterspherez="78.0748" entersphererad="2" 
     exitspherex="-213.739"  exitspherey="101.924"  exitspherez="78.0748"  exitsphererad="1000"
@@ -379,7 +379,7 @@
         <timeevent text="Unnatural Signet" timestamp="472" countdown="47" onscreentime="10"/>
         <timeevent text="Unnatural Signet" timestamp="531" countdown="47" onscreentime="10"/>
         <timeevent text="Unnatural Signet" timestamp="590" countdown="47" onscreentime="10"/>
-    </areatriggeredtimer>
+    </areatriggeredtimer> -->
     <!-- Dhuum, Right Version -->
 	<areatriggeredtimer mapid="1264" length="600" startdelay="0"
     enterspherex="377.774" enterspherey="157.86" enterspherez="-6.48558" entersphererad="2.5" 
