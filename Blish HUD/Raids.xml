@@ -304,9 +304,9 @@
     <!-- ======================================== MYTHWRIGHT GAMBIT ============================================================================================================================================================ -->
     <!-- ==================== Conjured Amalgamate ==================== -->
     <!-- Sword Side -->
-    <POI MapID="1303" xpos="-096.686" ypos="050.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.W6.B1.c1"    iconFile="Data/Raids/W6/GS.png"     rotate-z="50"/>
+    <POI MapID="1303" xpos="-096.686" ypos="050.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.W6.B1.c2"    iconFile="Data/Raids/W6/GS.png"     rotate-z="50"/>
     <!-- Shield Side -->
-    <POI MapID="1303" xpos="-095.111" ypos="050.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.W6.B1.c1"    iconFile="Data/Raids/W6/Shield.png" rotate-z="140"/>
+    <POI MapID="1303" xpos="-095.111" ypos="050.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.W6.B1.c2"    iconFile="Data/Raids/W6/Shield.png" rotate-z="140"/>
     <!-- ==================== Twin Largos ==================== -->
     <!-- Nikare Side -->
     <POI MapID="1303" xpos="0352.912" ypos="032.759" zpos="0008.824" GUID="EkOZxvmqB0KwE78EyDW5vg==" type="Raid.W6.B2"       iconFile="Data/Raids/W6/B2-1.png"   rotate-z="240" title="Nikare"/>
