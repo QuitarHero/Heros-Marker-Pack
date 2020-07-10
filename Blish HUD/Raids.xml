@@ -42,7 +42,7 @@
         <MarkerCategory   name="c4" DisplayName="1-orb Pull"                                                iconFile="Data/Multi/stack.png"/>
       </MarkerCategory>
         <MarkerCategory   name="B3" DisplayName="Twisted Castle">
-          <MarkerCategory name="c1" DisplayName="1st Button Skip"            fadeFar="1750" fadeNear="1250"/>
+          <MarkerCategory name="c1" DisplayName="1st Button Skip"/>
           <MarkerCategory name="c2" DisplayName="Buttons"                                                                                   iconSize="0.75"/>
           <MarkerCategory name="c3" DisplayName="Button Paths"                                                                              iconSize="0.5"/>
         </MarkerCategory>
@@ -124,10 +124,10 @@
 	<POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="cbamHZaR5EaZGbQhX1jlZg==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/raid1.png"  iconSize="0.5"  profession="mesmer" />
 	<POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="aU1U2VKT50OkOn2qWFivEA==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Raids/raid1.png"  iconSize="0.5"  profession="mesmer" rotate-x="135"                rotate-z="270"/>
 	<POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="PxDJXui+V0Cav5RLP951AA==" type="Raid.W1.B2.c1" fadeFar="1200" fadeNear="1050" iconFile="Data/Raids/raid1.png"  iconSize="0.4"  profession="mesmer" rotate-x="90"                 rotate-z="250"/>
-    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Fracs/pExit.png"  iconSize="0.5"  profession="mesmer" rotate-x="175" rotate-y="0"   rotate-z="260"/>
-    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pEnter.png" iconSize="0.5"  profession="mesmer" rotate-x="190" rotate-y="-10" rotate-z="50"/>
-	<POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/pEnter.png" iconSize="0.5"  profession="mesmer" rotate-x="180"                rotate-z="-70"/>
-    <POI MapID="1062" xpos="-223.454" ypos="63.808" zpos="-238.694" GUID="T85IWFQJVkacSr8bses52w==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/pEnter.png" iconSize="0.5"  profession="mesmer" rotate-x="160"                rotate-z="190"/>
+    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Fracs/Mes pExit.png"  iconSize="0.5"  profession="mesmer" rotate-x="175" rotate-y="0"   rotate-z="260"/>
+    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Mes pEnter.png" iconSize="0.5"  profession="mesmer" rotate-x="190" rotate-y="-10" rotate-z="50"/>
+	<POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/Mes pEnter.png" iconSize="0.5"  profession="mesmer" rotate-x="180"                rotate-z="-70"/>
+    <POI MapID="1062" xpos="-223.454" ypos="63.808" zpos="-238.694" GUID="T85IWFQJVkacSr8bses52w==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/Mes pEnter.png" iconSize="0.5"  profession="mesmer" rotate-x="160"                rotate-z="190"/>
     <!-- Thief -->
     <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="HHgLEkJk9EGjZJ88sefs3Q==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Raids/raid1.png"  iconSize="0.25" profession="thief"  rotate-x="90"                 rotate-z="-45"/>
 	<POI MapID="1062" xpos="-126.476" ypos="68.076" zpos="-408.575" GUID="3+rbwMnEPkWgnf1Z178l2g==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Raids/raid1.png"  iconSize="0.4"  profession="thief"  rotate-x="45"                 rotate-z="75"/>
@@ -141,10 +141,10 @@
 	<POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="cbamHZaR5EaZGbQhX1jlZg==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/raid1.png"  iconSize="0.5"  profession="thief"/>
 	<POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="aU1U2VKT50OkOn2qWFivEA==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Raids/raid1.png"  iconSize="0.5"  profession="thief"  rotate-x="135"                rotate-z="270"/>
 	<POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="PxDJXui+V0Cav5RLP951AA==" type="Raid.W1.B2.c1" fadeFar="1200" fadeNear="1050" iconFile="Data/Raids/raid1.png"  iconSize="0.4"  profession="thief"  rotate-x="90"                 rotate-z="250"/>
-    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Fracs/pExit.png"  iconSize="0.5"  profession="thief"  rotate-x="175" rotate-y="0"   rotate-z="260"/>
-    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/pEnter.png" iconSize="0.5"  profession="thief"  rotate-x="190" rotate-y="-10" rotate-z="50"/>
-	<POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/pEnter.png" iconSize="0.5"  profession="thief"  rotate-x="180"                rotate-z="-70"/>
-    <POI MapID="1062" xpos="-223.454" ypos="63.808" zpos="-238.694" GUID="T85IWFQJVkacSr8bses52w==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/pEnter.png" iconSize="0.5"  profession="thief"  rotate-x="160"                rotate-z="190"/>
+    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Fracs/Thf pExit.png"  iconSize="0.5"  profession="thief"  rotate-x="175" rotate-y="0"   rotate-z="260"/>
+    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Thf pEnter.png" iconSize="0.5"  profession="thief"  rotate-x="190" rotate-y="-10" rotate-z="50"/>
+	<POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/Thf pEnter.png" iconSize="0.5"  profession="thief"  rotate-x="180"                rotate-z="-70"/>
+    <POI MapID="1062" xpos="-223.454" ypos="63.808" zpos="-238.694" GUID="T85IWFQJVkacSr8bses52w==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Fracs/Thf pEnter.png" iconSize="0.5"  profession="thief"  rotate-x="160"                rotate-z="190"/>
     <!-- ==================== Gorseval ==================== -->
     <!-- Spirits -->
     <POI MapID="1062" xpos="0022.168" ypos="48.572" zpos="-093.483" GUID="oEXylxHkdkWsf+eMfVVQIw==" type="Raid.W1.B3.c2"                                                                                 rotate-x="180"                rotate-z="220"/>
@@ -202,6 +202,56 @@
     <!-- 1-Orb Pull -->
     <POI MapID="1156" xpos="-107.558" ypos="148.552" zpos="0249.637" GUID="3jkzHcJ96kaEueETxjSFEQ==" type="Raid.W3.B2.c4"/>
     <!-- ==================== Twisted Castle ==================== -->
+    <!-- First Button Skip -->
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipDD1.png"  iconSize="0.5"  specialization="7"        rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/ThfDodge.png" iconSize="0.35" specialization="7"/>
+	<POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipDD1.png"  iconSize="0.5"  specialization="7"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipGrd1.png" iconSize="0.5"  profession="guardian"     rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/GrdGS3.png"   iconSize="0.35" profession="guardian"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipGrd1.png" iconSize="0.5"  profession="guardian"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipMir1.png" iconSize="0.5"  specialization="59"       rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/MirSw1.png"   iconSize="0.35" specialization="59"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipMir1.png" iconSize="0.5"  specialization="59"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipEng1.png" iconSize="0.5"  profession="engineer"     rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/EngRB.png"    iconSize="0.35" profession="engineer"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipEng1.png" iconSize="0.5"  profession="engineer"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipDR1.png"  iconSize="0.5"  specialization="5"        rotate-x="170" rotate-y="-5" rotate-z="15"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/DRstf3.png"   iconSize="0.35" specialization="5"/>
+    <POI MapID="1156" xpos="-26.707" ypos="110.33"  zpos="81.131" GUID="ju+YODnfYEWEfQKNi6gQ2g==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipDR1.png"  iconSize="0.4"  specialization="5"/>
+    <POI MapID="1156" xpos="-58.310" ypos="120.705" zpos="96.308" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRgr2.png" iconSize="0.5"  specialization="8"        rotate-x="177"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrGS3.png"   iconSize="0.35" specialization="8"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrSw2.png"   iconSize="0.35" specialization="8"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRgr1.png" iconSize="0.5"  specialization="8"/>
+    <POI MapID="1156" xpos="-58.310" ypos="120.705" zpos="96.308" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRgr2.png" iconSize="0.5"  specialization="25"       rotate-x="177"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrGS3.png"   iconSize="0.35" specialization="25"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrSw2.png"   iconSize="0.35" specialization="25"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRgr1.png" iconSize="0.5"  specialization="25"/>
+    <POI MapID="1156" xpos="-58.310" ypos="120.705" zpos="96.308" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRgr2.png" iconSize="0.5"  specialization="30"       rotate-x="177"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrGS3.png"   iconSize="0.35" specialization="30"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrSw2.png"   iconSize="0.35" specialization="30"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRgr1.png" iconSize="0.5"  specialization="30"/>
+    <POI MapID="1156" xpos="-58.310" ypos="120.705" zpos="96.308" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRgr2.png" iconSize="0.5"  specialization="32"       rotate-x="177"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrGS3.png"   iconSize="0.35" specialization="32"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrSw2.png"   iconSize="0.35" specialization="32"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRgr1.png" iconSize="0.5"  specialization="32"/>
+    <POI MapID="1156" xpos="-58.310" ypos="120.705" zpos="96.308" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRgr2.png" iconSize="0.5"  specialization="33"       rotate-x="177"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrGS3.png"   iconSize="0.35" specialization="33"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrSw2.png"   iconSize="0.35" specialization="33"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRgr1.png" iconSize="0.5"  specialization="33"/>
+    <POI MapID="1156" xpos="-58.310" ypos="120.705" zpos="96.308" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRgr2.png" iconSize="0.5"  specialization="55"       rotate-x="177"/>
+    <POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrGS3.png"   iconSize="0.35" specialization="55"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/RgrSw2.png"   iconSize="0.35" specialization="55"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRgr1.png" iconSize="0.5"  specialization="55"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipEle1.png" iconSize="0.5"  profession="elementalist" rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/EleFGS.png"   iconSize="0.35" profession="elementalist"/>
+    <POI MapID="1156" xpos="-51.400" ypos="121.266" zpos="95.653" GUID="L2dZzAWf8k6i8jE/gGaLBw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/EleRTL.png"   iconSize="0.35" profession="elementalist"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipEle1.png" iconSize="0.5"  profession="elementalist"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipWar1.png" iconSize="0.5"  profession="warrior"      rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/WarSw2.png"   iconSize="0.35" profession="warrior"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipWar1.png" iconSize="0.5"  profession="warrior"/>
+    <POI MapID="1156" xpos="-54.329" ypos="119.956" zpos="92.315" GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/skipRea1.png" iconSize="0.5"  specialization="34"       rotate-x="170" rotate-y="-5" rotate-z="15"/>
+	<POI MapID="1156" xpos="-50.632" ypos="121.216" zpos="96.712" GUID="8xlZoS29h0+CEJi7lwiqfA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Multi/ReaShr2.png"  iconSize="0.35" specialization="34"/>
+    <POI MapID="1156" xpos="-37.327" ypos="94.002"  zpos="76.853" GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/skipRea1.png" iconSize="0.5"  specialization="34"/>
     <!-- Buttons -->
     <POI MapID="1156" xpos="-027.900" ypos="094.336" zpos="0074.211" GUID="t0VldGp1GESAIL3ssiIKUg==" type="Raid.W3.B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/1.png"/>
     <POI MapID="1156" xpos="-003.053" ypos="164.135" zpos="-057.326" GUID="vSfb/vVRzEGATQAGG49frA==" type="Raid.W3.B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/2.png"/>
@@ -219,8 +269,8 @@
     <POI MapID="1156" xpos="-076.041" ypos="125.175" zpos="0080.571" GUID="VXhnAFvZxkWv7CF1byctvg==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/4.png"      rotate-x="87"  rotate-y="-5"  rotate-z="315"/>
     <POI MapID="1156" xpos="-082.510" ypos="122.730" zpos="0086.835" GUID="SIC6u0kTNECzz5I0KbaDdQ==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/5.png"      rotate-x="87"  rotate-y="-5"  rotate-z="315"/>    
     <POI MapID="1156" xpos="-102.345" ypos="191.917" zpos="-039.300" GUID="+fg+a9wzF0SLDlSLI4gf2w==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/Multi/5.png"      rotate-x="90"  rotate-y="-3"  rotate-z="180"/>
-    <POI MapID="1156" xpos="-094.239" ypos="189.900" zpos="-052.558" GUID="3XEqUsZs0UOCPneTyymtfQ==" type="Raid.W3.B3.c3" fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/pEnter.png" rotate-x="180" rotate-y="-5"  rotate-z="180"/>
-    <POI MapID="1156" xpos="-106.872" ypos="136.531" zpos="-027.209" GUID="HrP/GT7ubU6EeLbHeB2mhw==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/Fracs/pExit.png"  rotate-x="180"                rotate-z="180"/>
+    <POI MapID="1156" xpos="-094.239" ypos="189.900" zpos="-052.558" GUID="3XEqUsZs0UOCPneTyymtfQ==" type="Raid.W3.B3.c3" fadeFar="1500" fadeNear="1000" iconFile="Data/Fracs/Mes pEnter.png" rotate-x="180" rotate-y="-5"  rotate-z="180"/>
+    <POI MapID="1156" xpos="-106.872" ypos="136.531" zpos="-027.209" GUID="HrP/GT7ubU6EeLbHeB2mhw==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/Fracs/Mes pExit.png"  rotate-x="180"                rotate-z="180"/>
     <POI MapID="1156" xpos="-175.856" ypos="201.627" zpos="0029.196" GUID="EBJqJD8YJ06CFgykCTGJzg==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/Multi/5.png"      rotate-x="90"/>
     <POI MapID="1156" xpos="-177.504" ypos="201.730" zpos="-010.890" GUID="DbSwUSuAK0au7TUjxxkpMw==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/Multi/4.png"      rotate-x="90"/>
     <!-- ==================== Xera ==================== -->
@@ -378,8 +428,6 @@
     <Trail trailData="Data/Raids/W2/mattBound.trl"       texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.75" type="Raid.W2.B3.c1"/>
     <!-- ==================== Keep Construct's Raid Boundary -->
     <Trail trailData="Data/Raids/W3/KC.trl"              texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="0.65" type="Raid.W3.B2.c1"/>
-    <!-- ==================== Twisted Castle's 1st Button Skip ==================== -->
-    <Trail trailData="Data/Raids/W3/TwistedCastle.trl"   texture="Data/Raids/W3/whitetrail.png" animSpeed="2" alpha="1"    type="Raid.W3.B3.c1"/>
     <!-- ==================== Samarog's Raid Boundary ==================== -->
     <Trail trailData="Data/Raids/W4/Samarog.trl"         texture="Data/Raids/W3/whitetrail.png" animSpeed="0" alpha="1"    type="Raid.W4.B3.c1"/>
     <!-- ==================== Dhuum's Death AoE ==================== -->
