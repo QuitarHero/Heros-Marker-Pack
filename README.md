@@ -2,11 +2,8 @@
 
 This Marker Pack is developed by QuitarHero.
 
-The purpose of this pack is to enhance my Guild Wars 2 gameplay with markers, trails, and timers for strategies and skips I and my groups perform. This is not a marker pack for every strategy and skip known, but rather to assist in basic and more advanced strategies for Fractals and Raids. Once you know all the strategies and skips this pack provides, it shouldn't be required afterwards.
+This pack is aimed at individuals that want their instanced content to be a lot cooler and more interesting, providing guides to various skips and useful information throughout Raids, Fractals, and Strikes. This pack won't teach you from scratch everything you may want to know, but instead works together with players that have class/build knowledge to fully understand what's provided.
 
-THIS IS A REWORK WIP!
-But what's available works (for the most part).
-
-For additional information, refer to the [Wiki](https://github.com/QuitarHero/Heros-Marker-Pack/wiki)
+For a full list of features, hop on over to the [Wiki](https://github.com/QuitarHero/Heros-Marker-Pack/wiki).
 
 **Support Discord:** https://discord.gg/rCEuzGz
