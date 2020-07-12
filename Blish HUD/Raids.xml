@@ -187,47 +187,47 @@
     <!-- ======================================== SALVATION PASS =============================================================================================================================================================== -->
     <!-- ==================== Slothasor ==================== -->
     <!-- Inner Strat -->
-	<POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy1.png"/>
-	<POI MapID="1149" xpos="200.222" ypos="1.171"  zpos="7.165"   GUID="k/CHScOMYUqna+ME7g1MWg==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy2.png"/>
-	<POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy3.png"/>
-	<POI MapID="1149" xpos="187.797" ypos="1.011"  zpos="-8.577"  GUID="5UXWjtv7HUSzdCZx65oJZg==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="177.11"  ypos="0.950"  zpos="-27.753" GUID="rc5GxyFapkqc2RNvjr7GIw==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="189.093" ypos="0.453"  zpos="-19.121" GUID="TXuMLsXjF0+wTPLVrl0oxg==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="190.299" ypos="0.531"  zpos="-33.916" GUID="aAAfEJ7M3UyavxOkr819zg==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="200.454" ypos="-0.225" zpos="-20.464" GUID="J8Ty+id62UOzalBjrOea4g==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/Mushy1.png"/>
-	<POI MapID="1149" xpos="212.753" ypos="-0.555" zpos="-23.973" GUID="O0e1On57pUuM5SkKS/DD3g==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="212.396" ypos="-0.060" zpos="-12.361" GUID="YCo5H6nZNUKoWAupSKN+jQ==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="224.416" ypos="0.250"  zpos="-1.644"  GUID="OC1WtjSvT0y0Un+mLheozw==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="211.215" ypos="0.943"  zpos="1.317"   GUID="MhZVvDjLKUq6+1QaJWt/Bw==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="219.478" ypos="1.887"  zpos="11.120"  GUID="GdWze6aGsk6slHS2dlyxbA==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/Mushy3.png"/>
+	<POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/W2/Mushy1.png"/>
+	<POI MapID="1149" xpos="200.222" ypos="1.171"  zpos="7.165"   GUID="k/CHScOMYUqna+ME7g1MWg==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/W2/Mushy2.png"/>
+	<POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/W2/Mushy3.png"/>
+	<POI MapID="1149" xpos="187.797" ypos="1.011"  zpos="-8.577"  GUID="5UXWjtv7HUSzdCZx65oJZg==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/W2/Mushy4.png"/>
+    <POI MapID="1149" xpos="177.11"  ypos="0.950"  zpos="-27.753" GUID="rc5GxyFapkqc2RNvjr7GIw==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="189.093" ypos="0.453"  zpos="-19.121" GUID="TXuMLsXjF0+wTPLVrl0oxg==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="190.299" ypos="0.531"  zpos="-33.916" GUID="aAAfEJ7M3UyavxOkr819zg==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/W2/Mushy3.png"/>
+    <POI MapID="1149" xpos="200.454" ypos="-0.225" zpos="-20.464" GUID="J8Ty+id62UOzalBjrOea4g==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/W2/Mushy1.png"/>
+	<POI MapID="1149" xpos="212.753" ypos="-0.555" zpos="-23.973" GUID="O0e1On57pUuM5SkKS/DD3g==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="212.396" ypos="-0.060" zpos="-12.361" GUID="YCo5H6nZNUKoWAupSKN+jQ==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/W2/Mushy3.png"/>
+    <POI MapID="1149" xpos="224.416" ypos="0.250"  zpos="-1.644"  GUID="OC1WtjSvT0y0Un+mLheozw==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="211.215" ypos="0.943"  zpos="1.317"   GUID="MhZVvDjLKUq6+1QaJWt/Bw==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="219.478" ypos="1.887"  zpos="11.120"  GUID="GdWze6aGsk6slHS2dlyxbA==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/W2/Mushy3.png"/>
     <!-- Outer Strat -->
-    <POI MapID="1149" xpos="201.349" ypos="4.022"  zpos="24.131"  GUID="dI3hpyxRSUaCdOPJq8xXeg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="194.629" ypos="3.337"  zpos="16.667"  GUID="VFMrsDiYE0aQ1dWLbVV9mg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="190.466" ypos="1.295"  zpos="5.311"   GUID="9FMk34IELk6bWa370lFf2A==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="181.369" ypos="1.841"  zpos="-2.562"  GUID="9jBx96v5fUWyks2pFbxOjg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="175.659" ypos="1.552"  zpos="-12.696" GUID="R3Zro6If1kmmSaH9bFLnWQ==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="177.11"  ypos="0.950"  zpos="-27.753" GUID="rc5GxyFapkqc2RNvjr7GIw==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="190.299" ypos="0.531"  zpos="-33.916" GUID="aAAfEJ7M3UyavxOkr819zg==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="224.242" ypos="-0.697" zpos="-16.022" GUID="qNo0sOC5ykCSIsuG2hjhcw==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy1.png"/>
-	<POI MapID="1149" xpos="221.84"  ypos="-0.675" zpos="-26.657" GUID="sYyY/qyfDU6BH2HqsRB11w==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy2.png"/>
-	<POI MapID="1149" xpos="213.227" ypos="-0.674" zpos="-31.066" GUID="yuX4+QtbakiCHKodwyEi3w==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy3.png"/>
-	<POI MapID="1149" xpos="203.922" ypos="-0.429" zpos="-33.969" GUID="WV5CcvePyUqzXFfPegyhLw==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="224.416" ypos="0.250"  zpos="-1.644"  GUID="OC1WtjSvT0y0Un+mLheozw==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/Mushy1.png"/>
-	<POI MapID="1149" xpos="219.478" ypos="1.887"  zpos="11.120"  GUID="GdWze6aGsk6slHS2dlyxbA==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/Mushy3.png"/>
+    <POI MapID="1149" xpos="201.349" ypos="4.022"  zpos="24.131"  GUID="dI3hpyxRSUaCdOPJq8xXeg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="194.629" ypos="3.337"  zpos="16.667"  GUID="VFMrsDiYE0aQ1dWLbVV9mg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="190.466" ypos="1.295"  zpos="5.311"   GUID="9FMk34IELk6bWa370lFf2A==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/W2/Mushy3.png"/>
+    <POI MapID="1149" xpos="181.369" ypos="1.841"  zpos="-2.562"  GUID="9jBx96v5fUWyks2pFbxOjg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/W2/Mushy4.png"/>
+    <POI MapID="1149" xpos="175.659" ypos="1.552"  zpos="-12.696" GUID="R3Zro6If1kmmSaH9bFLnWQ==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="177.11"  ypos="0.950"  zpos="-27.753" GUID="rc5GxyFapkqc2RNvjr7GIw==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="190.299" ypos="0.531"  zpos="-33.916" GUID="aAAfEJ7M3UyavxOkr819zg==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/W2/Mushy3.png"/>
+    <POI MapID="1149" xpos="224.242" ypos="-0.697" zpos="-16.022" GUID="qNo0sOC5ykCSIsuG2hjhcw==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/W2/Mushy1.png"/>
+	<POI MapID="1149" xpos="221.84"  ypos="-0.675" zpos="-26.657" GUID="sYyY/qyfDU6BH2HqsRB11w==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/W2/Mushy2.png"/>
+	<POI MapID="1149" xpos="213.227" ypos="-0.674" zpos="-31.066" GUID="yuX4+QtbakiCHKodwyEi3w==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/W2/Mushy3.png"/>
+	<POI MapID="1149" xpos="203.922" ypos="-0.429" zpos="-33.969" GUID="WV5CcvePyUqzXFfPegyhLw==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/W2/Mushy4.png"/>
+    <POI MapID="1149" xpos="224.416" ypos="0.250"  zpos="-1.644"  GUID="OC1WtjSvT0y0Un+mLheozw==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/W2/Mushy1.png"/>
+	<POI MapID="1149" xpos="219.478" ypos="1.887"  zpos="11.120"  GUID="GdWze6aGsk6slHS2dlyxbA==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/W2/Mushy3.png"/>
     <!-- Center Strat -->
-    <POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy1.png"/>
-	<POI MapID="1149" xpos="200.222" ypos="1.171"  zpos="7.165"   GUID="k/CHScOMYUqna+ME7g1MWg==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy2.png"/>
-	<POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="187.797" ypos="1.011"  zpos="-8.577"  GUID="5UXWjtv7HUSzdCZx65oJZg==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="189.093" ypos="0.453"  zpos="-19.121" GUID="TXuMLsXjF0+wTPLVrl0oxg==" type="Raid.W2.B1.c1.sc4.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="200.454" ypos="-0.225" zpos="-20.464" GUID="J8Ty+id62UOzalBjrOea4g==" type="Raid.W2.B1.c1.sc4.m3" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc4.m4" iconFile="Data/Raids/Mushy1.png"/>
+    <POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/W2/Mushy1.png"/>
+	<POI MapID="1149" xpos="200.222" ypos="1.171"  zpos="7.165"   GUID="k/CHScOMYUqna+ME7g1MWg==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/W2/Mushy2.png"/>
+	<POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/W2/Mushy3.png"/>
+    <POI MapID="1149" xpos="187.797" ypos="1.011"  zpos="-8.577"  GUID="5UXWjtv7HUSzdCZx65oJZg==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/W2/Mushy4.png"/>
+    <POI MapID="1149" xpos="189.093" ypos="0.453"  zpos="-19.121" GUID="TXuMLsXjF0+wTPLVrl0oxg==" type="Raid.W2.B1.c1.sc4.m2" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="200.454" ypos="-0.225" zpos="-20.464" GUID="J8Ty+id62UOzalBjrOea4g==" type="Raid.W2.B1.c1.sc4.m3" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc4.m4" iconFile="Data/Raids/W2/Mushy1.png"/>
     <!-- Minimal Eating Strat -->
-    <POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc5.m1" iconFile="Data/Raids/Mushy1.png"/>
-	<POI MapID="1149" xpos="200.222" ypos="1.171"  zpos="7.165"   GUID="k/CHScOMYUqna+ME7g1MWg==" type="Raid.W2.B1.c1.sc5.m1" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="211.215" ypos="0.943"  zpos="1.317"   GUID="MhZVvDjLKUq6+1QaJWt/Bw==" type="Raid.W2.B1.c1.sc5.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc5.m3" iconFile="Data/Raids/Mushy1.png"/>
+    <POI MapID="1149" xpos="207.705" ypos="2.167"  zpos="14.863"  GUID="seEMWaoq1UWV88d66+zS6A==" type="Raid.W2.B1.c1.sc5.m1" iconFile="Data/Raids/W2/Mushy1.png"/>
+	<POI MapID="1149" xpos="200.222" ypos="1.171"  zpos="7.165"   GUID="k/CHScOMYUqna+ME7g1MWg==" type="Raid.W2.B1.c1.sc5.m1" iconFile="Data/Raids/W2/Mushy2.png"/>
+    <POI MapID="1149" xpos="211.215" ypos="0.943"  zpos="1.317"   GUID="MhZVvDjLKUq6+1QaJWt/Bw==" type="Raid.W2.B1.c1.sc5.m2" iconFile="Data/Raids/W2/Mushy1.png"/>
+    <POI MapID="1149" xpos="199.235" ypos="0.445"  zpos="-6.139"  GUID="fRpmVnvurkC2SNqVPaonQA==" type="Raid.W2.B1.c1.sc5.m3" iconFile="Data/Raids/W2/Mushy1.png"/>
     <!-- Mushrooms -->
     <POI MapID="1149" xpos="208.926" ypos="4.933"  zpos="025.220" GUID="orHk62LZ8EyzraKa0gGXKg==" type="Raid.W2.B1.c1.sc1"    iconFile="Data/Multi/1.png"/>
     <POI MapID="1149" xpos="174.536" ypos="2.414"  zpos="-10.016" GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="Raid.W2.B1.c1.sc1"    iconFile="Data/Multi/2.png"/>
