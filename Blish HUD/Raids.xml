@@ -2,7 +2,7 @@
 <!-- ================================================== BLISH HUD VERSION ================================================== -->
 <!-- ======================================================================================================================= -->
 <OverlayData>
-  <MarkerCategory name="Raid" DisplayName="Raid">
+  <MarkerCategory      name="Raid" DisplayName="Raids">
     <MarkerCategory    name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
     <!-- ========== SPIRIT VALE ================================================================================================================================================================================================ -->
     <MarkerCategory     name="W1" DisplayName="Spirit Vale">
@@ -32,21 +32,21 @@
             <MarkerCategory name="m4"  DisplayName="Mushroom 4"                  defaultToggle="0"/>
           </MarkerCategory>
           <MarkerCategory   name="sc3" DisplayName="Outer"          behavior="4" defaultToggle="0"                                                                     iconSize="0.4" resetLength="59" triggerRange="5">
-            <MarkerCategory name="m1"  DisplayName="Mushroom 1"/>
-            <MarkerCategory name="m2"  DisplayName="Mushroom 2"/>
-            <MarkerCategory name="m3"  DisplayName="Mushroom 3"/>
-            <MarkerCategory name="m4"  DisplayName="Mushroom 4"/>
+            <MarkerCategory name="m1"  DisplayName="Mushroom 1"                  defaultToggle="1"/>
+            <MarkerCategory name="m2"  DisplayName="Mushroom 2"                  defaultToggle="0"/>
+            <MarkerCategory name="m3"  DisplayName="Mushroom 3"                  defaultToggle="0"/>
+            <MarkerCategory name="m4"  DisplayName="Mushroom 4"                  defaultToggle="0"/>
           </MarkerCategory>
           <MarkerCategory   name="sc4" DisplayName="Center"         behavior="4" defaultToggle="0"                                                                     iconSize="0.4" resetLength="59" triggerRange="5">
-            <MarkerCategory name="m1"  DisplayName="Mushroom 1"/>
-            <MarkerCategory name="m2"  DisplayName="Mushroom 2"/>
-            <MarkerCategory name="m3"  DisplayName="Mushroom 3"/>
-            <MarkerCategory name="m4"  DisplayName="Mushroom 4"/>
+            <MarkerCategory name="m1"  DisplayName="Mushroom 1"                  defaultToggle="1"/>
+            <MarkerCategory name="m2"  DisplayName="Mushroom 2"                  defaultToggle="0"/>
+            <MarkerCategory name="m3"  DisplayName="Mushroom 3"                  defaultToggle="0"/>
+            <MarkerCategory name="m4"  DisplayName="Mushroom 4"                  defaultToggle="0"/>
           </MarkerCategory>
           <MarkerCategory   name="sc5" DisplayName="Minimal Eating" behavior="4" defaultToggle="0"                                                                     iconSize="0.4" resetLength="59" triggerRange="5">
-            <MarkerCategory name="m1"  DisplayName="Mushroom 1"/>
-            <MarkerCategory name="m2"  DisplayName="Mushroom 2"/>
-            <MarkerCategory name="m3"  DisplayName="Mushroom 3"/>
+            <MarkerCategory name="m1"  DisplayName="Mushroom 1"                  defaultToggle="1"/>
+            <MarkerCategory name="m2"  DisplayName="Mushroom 2"                  defaultToggle="0"/>
+            <MarkerCategory name="m3"  DisplayName="Mushroom 3"                  defaultToggle="0"/>
           </MarkerCategory>          
         </MarkerCategory>
         <MarkerCategory     name="c2"  DisplayName="Timer"          fadeFar="1250" fadeNear="1000"                                iconFile="Data/Raids/starttimer.png" iconSize="1"/>
@@ -76,7 +76,10 @@
     <!-- ========== BASTION OF THE PENITENT ==================================================================================================================================================================================== -->
     <MarkerCategory     name="W4" DisplayName="Bastion of the Penitent">
       <MarkerCategory   name="B1" DisplayName="Cairn"                   fadeFar="4000" fadeNear="3500">
-        <MarkerCategory name="c1" DisplayName="Agony"                                                                                         iconSize="0.5"  rotate-x="180"/>
+        <MarkerCategory name="c1" DisplayName="Agony Spots" iconSize="0.5"  rotate-x="180" iconFile="Data/Multi/dot.png"                rotate-z="15">
+          <MarkerCategory name="sc1" DisplayName="Kite"/>
+          <MarkerCategory name="sc2" DisplayName="No-Kite" defaultToggle="0"/>
+        </MarkerCategory>
         <MarkerCategory name="c2" DisplayName="Timer"                                                  iconFile="Data/Raids/starttimer.png"   iconSize="1"/>
       </MarkerCategory>
       <MarkerCategory   name="B2" DisplayName="Mursaat Overseer"        fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/starttimer.png"   iconSize="1"/>
@@ -109,7 +112,7 @@
         <MarkerCategory   name="c1" DisplayName="Boundary"                                                                                                fadeFar="150"  fadeNear="125"/>
         <MarkerCategory   name="c2" DisplayName="Shield/Sword"                                                                                            fadeFar="3000" fadeNear="2500"                                iconSize="0.75" rotate-x="180"/>
       </MarkerCategory>
-      <MarkerCategory     name="B2" DisplayName="Twin Largos"         bounce-duration="120" bounce-distance="43" bounce-height="-31" bounce-when="inzone" fadeFar="2000" fadeNear="1750"                                                rotate-x="90"  title-color="yellow"/>
+      <MarkerCategory     name="B2" DisplayName="Twin Largos"         bounce-duration="115" bounce-distance="43" bounce-height="-31" bounce-when="inzone" fadeFar="2000" fadeNear="1750"                                                rotate-x="90"  title-color="yellow"/>
       <MarkerCategory     name="B3" DisplayName="Qadim">
         <MarkerCategory   name="c1" DisplayName="Boon Pyres"                                                                                              fadeFar="5000" fadeNear="4500"                                iconSize="0.75"/>
         <MarkerCategory   name="c2" DisplayName="Lamp"                                                                                                    fadeFar="3000" fadeNear="2000"                                                rotate-x="180">
@@ -348,12 +351,14 @@
     
     <!-- ======================================== BASTION OF THE PENITENT ====================================================================================================================================================== -->
     <!-- ==================== Cairn ==================== -->
-    <!-- Agony Spots -->
-    <POI MapID="1188" xpos="0369.295" ypos="032.120" zpos="0052.475" GUID="wedtPfCXTEugS91HgQoMkg==" type="Raid.W4.B1.c1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
-    <POI MapID="1188" xpos="0359.920" ypos="032.120" zpos="0050.043" GUID="sKrUfpjhCkqx1MObpkeN/w==" type="Raid.W4.B1.c1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
-    <POI MapID="1188" xpos="0361.518" ypos="032.120" zpos="0063.235" GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="Raid.W4.B1.c1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
-    <!-- Kiter -->
-    <POI MapID="1188" xpos="0369.301" ypos="032.120" zpos="0034.189" GUID="xXkIzhbDjkC7KmaMBOeoag==" type="Raid.W4.B1.c1" iconFile="Data/Multi/dot.png"                rotate-z="15"/>
+    <POI MapID="1188" xpos="369.295" ypos="32.120" zpos="52.475" GUID="wedtPfCXTEugS91HgQoMkg==" type="Raid.W4.B1.c1.sc1"/>
+    <POI MapID="1188" xpos="359.920" ypos="32.120" zpos="50.043" GUID="sKrUfpjhCkqx1MObpkeN/w==" type="Raid.W4.B1.c1.sc1"/>
+    <POI MapID="1188" xpos="361.518" ypos="32.120" zpos="63.235" GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="Raid.W4.B1.c1.sc1"/>
+    <POI MapID="1188" xpos="369.301" ypos="32.120" zpos="34.189" GUID="xXkIzhbDjkC7KmaMBOeoag==" type="Raid.W4.B1.c1.sc1"/>
+    <POI MapID="1188" xpos="359.106" ypos="32.120" zpos="50.503" GUID="AYCnJxIgn0+DxviFHb7TBg==" type="Raid.W4.B1.c1.sc2"/>
+	<POI MapID="1188" xpos="368.492" ypos="32.120" zpos="47.646" GUID="edOmOFblmECujARKFnbbig==" type="Raid.W4.B1.c1.sc2"/>
+	<POI MapID="1188" xpos="362.802" ypos="32.120" zpos="46.023" GUID="wka32siebUi9HZLbkKCgcA==" type="Raid.W4.B1.c1.sc2"/>
+	<POI MapID="1188" xpos="369.976" ypos="32.120" zpos="53.264" GUID="a6gCOX4GC0CJfo9UZBapGQ==" type="Raid.W4.B1.c1.sc2"/>
     <!-- Timer -->
     <POI MapID="1188" xpos="0369.760" ypos="032.120" zpos="0060.162" GUID="X61Xv4ZCakilicnR4E+sHA==" type="Raid.W4.B1.c2"/>
     <!-- ==================== Mursaat Overseer ==================== -->

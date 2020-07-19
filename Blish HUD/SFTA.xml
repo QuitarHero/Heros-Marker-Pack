@@ -1,5 +1,5 @@
 <OverlayData>
-    <MarkerCategory       name="raid" DisplayName="Raid">
+    <MarkerCategory       name="raid" DisplayName="Raids">
       <MarkerCategory     name="sfta" DisplayName="SFTA">
         <MarkerCategory   name="ele"  DisplayName="Elementalist" fadeFar="1500" fadeNear="1250">
           <MarkerCategory name="c1"   DisplayName="Tempest"                                     specialization="48"/>
