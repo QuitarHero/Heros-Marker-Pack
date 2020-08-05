@@ -466,4 +466,25 @@
 		<timeevent text="Golem Spawn"  timestamp="565" countdown="10" onscreentime="0"/>
 		<timeevent text="(1) STAR" 	   timestamp="575" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer> -->
+    <!-- Ascalonian Catacombs' P3 Graveling Spawns -->
+    <areatriggeredtimer mapid="36" length="251" startdelay="0" 
+    enterspherex="354.216" enterspherey="18.242" enterspherez="-25.303" entersphererad="1.5"
+    exitspherex="354.216" exitspherey="18.242" exitspherez="-25.303" exitsphererad="80">
+        <timeevent text="Start"                    timestamp="0"   countdown="0"  onscreentime="1"/>
+        <timeevent text="(1/15) Graveling Tunnel"  timestamp="12"  countdown="11" onscreentime="0"/>
+        <timeevent text="(2/15) Graveling Tunnel"  timestamp="24"  countdown="12" onscreentime="0"/>
+        <timeevent text="(3/15) Graveling Tunnel"  timestamp="42"  countdown="18" onscreentime="0"/>
+        <timeevent text="(4/15) Graveling Tunnel"  timestamp="54"  countdown="12" onscreentime="0"/>
+        <timeevent text="(5/15) Graveling Tunnel"  timestamp="72"  countdown="18" onscreentime="0"/>
+        <timeevent text="(6/15) Graveling Tunnel"  timestamp="88"  countdown="18" onscreentime="0"/>
+        <timeevent text="(7/15) Graveling Tunnel"  timestamp="106" countdown="18" onscreentime="0"/>
+        <timeevent text="(8/15) Graveling Tunnel"  timestamp="124" countdown="18" onscreentime="0"/>
+        <timeevent text="(9/15) Graveling Tunnel"  timestamp="143" countdown="17" onscreentime="0"/>
+        <timeevent text="(10/15) Graveling Tunnel" timestamp="161" countdown="18" onscreentime="0"/>
+        <timeevent text="(11/15) Graveling Tunnel" timestamp="179" countdown="18" onscreentime="0"/>
+        <timeevent text="(12/15) Graveling Tunnel" timestamp="197" countdown="18" onscreentime="0"/>
+        <timeevent text="(13/15) Graveling Tunnel" timestamp="215" countdown="18" onscreentime="0"/>
+        <timeevent text="(14/15) Graveling Tunnel" timestamp="233" countdown="18" onscreentime="0"/>
+        <timeevent text="(15/15) Graveling Tunnel" timestamp="251" countdown="18" onscreentime="2"/>
+    </areatriggeredtimer>
 </timers>
