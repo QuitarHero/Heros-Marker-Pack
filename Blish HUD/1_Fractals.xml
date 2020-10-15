@@ -452,7 +452,7 @@
         <MarkerCategory   name="sc3"  DisplayName="Barrier #3 Skip"/>
       </MarkerCategory>
       <MarkerCategory     name="c4"   DisplayName="FotM Skip"/>
-      <MarkerCategory     name="c5"   DisplayName="Dialouge Door Skip"/>
+      <MarkerCategory     name="c5"   DisplayName="Dialogue Door Skip"/>
       <MarkerCategory     name="sy"   DisplayName="Slaying">
         <MarkerCategory   name="s1"   DisplayName="Normal"                fadeFar="750" fadeNear="500" iconFile="Data/Fracs/Slaying/SP1.png" iconSize="1.75" rotate-x="105" rotate-z="192">
           <MarkerCategory name="d1"   DisplayName="N/A | Force | Impact"  IsSeparator="1"/>
