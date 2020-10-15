@@ -1,0 +1,185 @@
+<OverlayData>
+<!-- ==================== ASCALONIAN CATACOMBS ========================================================================================================================================================================= -->    
+  <MarkerCategory           name="Dung" DisplayName="Dungeons"              fadeCenter="false">
+    <MarkerCategory         name="Ti"   DisplayName="Hero's Marker Pack"    IsSeparator="1"/>
+    <MarkerCategory         name="D1"   DisplayName="Ascalonian Catacombs">
+      <MarkerCategory       name="sy"   DisplayName="Slaying">
+        <MarkerCategory     name="s1"   DisplayName="Spider"                fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC1.png"    iconSize="1.75" rotate-x="90" rotate-z="-90">
+          <MarkerCategory   name="d1"   DisplayName="N/A | Force | Night"   IsSeparator="1"/>
+        </MarkerCategory>
+        <MarkerCategory     name="s2"   DisplayName="Kholer"                fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC2.png"    iconSize="1.75" rotate-x="90" rotate-z="42">
+          <MarkerCategory   name="d2"   DisplayName="Ghost | Ghost | Night" IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory       name="p1"   DisplayName="Path 1 (Hodgins)">
+        <MarkerCategory     name="c1"   DisplayName="Scepter #1 Port"       fadeFar="700"  fadeNear="550"                                              iconSize="0.25" rotate-x="90" rotate-z="140"/>
+        <MarkerCategory     name="c2"   DisplayName="Pre-Scepter #2 Port"   fadeFar="2000" fadeNear="1750"                                             iconSize="0.5"  rotate-x="90" rotate-z="-32"/>
+        <MarkerCategory     name="c3"   DisplayName="Boss Portal"                                                                                      iconSize="0.5"                rotate-z="270"/>
+        <MarkerCategory     name="sy"   DisplayName="Slaying"               fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp1.png"   iconSize="1.75" rotate-x="90" rotate-z="90">
+          <MarkerCategory   name="d1"   DisplayName="N/A | Force | Night"   IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory       name="p2"   DisplayName="Path 2 (Detha)">
+        <MarkerCategory     name="sy"   DisplayName="Slaying">
+          <MarkerCategory   name="s1"   DisplayName="Temple"                fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp2-1.png" iconSize="1.75" rotate-x="105" rotate-z="20">
+            <MarkerCategory name="d1"   DisplayName="N/A | Force | Night"   IsSeparator="1"/>
+          </MarkerCategory>
+          <MarkerCategory   name="s2"   DisplayName="HoC Ghosts"            fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-2.png" iconSize="1.75" rotate-x="95">
+            <MarkerCategory name="d2"   DisplayName="Ghost | Ghost | Night" IsSeparator="1"/>
+          </MarkerCategory>
+          <MarkerCategory   name="s3"   DisplayName="Boss"                  fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-3.png" iconSize="1.75" rotate-x="94">
+            <MarkerCategory name="d3"   DisplayName="N/A | Force | Night"   IsSeparator="1"/>
+          </MarkerCategory>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory       name="p3"   DisplayName="Path 3 (Tzark)">
+        <MarkerCategory     name="c1"   DisplayName="Graveling Timer"       fadeFar="1500" fadeNear="1250" iconFile="Data/General/timer.png"           iconSize="0.75"/>
+        <MarkerCategory     name="sy"   DisplayName="Slaying"               fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp3.png"   iconSize="1.75" rotate-x="90" rotate-z="85">
+          <MarkerCategory   name="d1"   DisplayName="N/A | Force | Night"   IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory> 
+  <POIs>
+    <!-- Slaying -->
+    <POI MapID="36" xpos="-87.000"  ypos="23.317" zpos="-194.269" GUID="uNbkCOXvx06zsjvESeCZqQ==" type="Dung.D1.sy.s1"/>
+    <POI MapID="36" xpos="71.384"   ypos="40.432" zpos="-66.783"  GUID="bCe0jH2aXEeR6Upru6co/A==" type="Dung.D1.sy.s2"/>
+    <!-- ========== Path 1 (Hodgins) ========== -->
+    <!-- Slaying -->
+    <POI MapID="36" xpos="105.404"  ypos="27.130" zpos="-127.556" GUID="1oRF3eqBPE6IXtaU532GpA==" type="Dung.D1.P1.sy"/>
+    <!-- Scepter #1 Port -->
+    <POI MapID="36" xpos="96.475"   ypos="23.472" zpos="-259.425" GUID="HHrOglQlT0qCQoFMX/yFBA==" type="Dung.D1.P1.c1"                                   iconFile="Data/Dungeons/AC-Ele.png"                 profession="elementalist"/>
+    <POI MapID="36" xpos="96.475"   ypos="23.472" zpos="-259.425" GUID="2dXdW4IyGke0nfP63BEY2g==" type="Dung.D1.P1.c1"                                   iconFile="Data/Dungeons/AC-Grd.png"                 profession="guardian"/>
+    <POI MapID="36" xpos="96.475"   ypos="23.472" zpos="-259.425" GUID="bztZRhB/s0a7RiMTKv8HJQ==" type="Dung.D1.P1.c1"                                   iconFile="Data/Dungeons/AC-Mes.png"                 profession="mesmer"/>
+    <POI MapID="36" xpos="96.475"   ypos="23.472" zpos="-259.425" GUID="BgoGxQDy3kOg+IEmua8xww==" type="Dung.D1.P1.c1"                                   iconFile="Data/Dungeons/AC-Nec.png"                 profession="necromancer"/>
+    <POI MapID="36" xpos="96.475"   ypos="23.472" zpos="-259.425" GUID="jaR2wNkL6ECBMS9eGSasSQ==" type="Dung.D1.P1.c1"                                   iconFile="Data/Dungeons/AC-Thf.png"                 profession="thief"/>
+    <!-- Port to Scepter #2 -->
+    <POI MapID="36" xpos="-26.214"  ypos="52.066" zpos="19.029"   GUID="VIfTw9DdC0WpWtTSnjiyKA==" type="Dung.D1.P1.c2"                                   iconFile="Data/Dungeons/AC-Ele.png"                 profession="elementalist"/>
+    <POI MapID="36" xpos="-26.214"  ypos="52.066" zpos="19.029"   GUID="HvMSPgVPREm+FBch4OpZsg==" type="Dung.D1.P1.c2"                                   iconFile="Data/Dungeons/AC-Grd.png"                 profession="guardian"/>
+    <POI MapID="36" xpos="-26.214"  ypos="52.066" zpos="19.029"   GUID="Hr6Q7ksCK0qZmhKn1YQ1lA==" type="Dung.D1.P1.c2"                                   iconFile="Data/Dungeons/AC-Mes.png"                 profession="mesmer"/>
+    <POI MapID="36" xpos="-26.214"  ypos="52.066" zpos="19.029"   GUID="Q35VmMpZAUCzm3GuqtEewg==" type="Dung.D1.P1.c2"                                   iconFile="Data/Dungeons/AC-Nec.png"                 profession="necromancer"/>
+    <POI MapID="36" xpos="-26.214"  ypos="52.066" zpos="19.029"   GUID="u0PfgeZDnk6cMK9GTwipjg==" type="Dung.D1.P1.c2"                                   iconFile="Data/Dungeons/AC-Thf.png"                 profession="thief"/>
+    <!-- Kill These Gravelings! -->
+    <POI MapID="36" xpos="-74.751"  ypos="66.165" zpos="153.227"  GUID="oau2wDcA40eneinC9Xhz1g==" type="Dung.D1.P1"       fadeFar="3500" fadeNear="3250" iconFile="Data/Dungeons/AC-Kill.png" iconSize="0.5"/>
+    <!-- Speed Portal -->
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="ecULqN8rTEuxLXsGOXdLGA==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="elementalist" rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="Vm59EdmmXk2rWqtjXulcDA==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="elementalist" rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="GravnjKZAUOKu1Qx3WtyLw==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="engineer"     rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="0nPOUqLK80uuvPcD0FefxA==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="engineer"     rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="P7MgdC5EFEKmfEpnZxQ1kA==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="guardian"     rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="kYxq+kFKi0aLx+jf+LBJJQ==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="guardian"     rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="EwYeRUNNpUS60u7WssdycQ==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/MesP-2.png"                  profession="mesmer"       rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="bfc0BM7YHkqEjKHzWcG9Kw==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/MesP-1.png"                  profession="mesmer"       rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="KZq3z8NMOUmsbvd/2atkUg==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="necromancer"  rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="KgMLvwuWp06O0vspUFR02g==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="necromancer"  rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="qIKGp186DEm/mr9QpZN9/Q==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="ranger"       rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="WM6PIhiFGkCiAJ5us1iktQ==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="ranger"       rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="f2iXLRpZF0COrtpWpgmt1w==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="revenant"     rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="5fUI+55j5ka/jjEUZ619WA==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="revenant"     rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="vFNWU8r4ek6uszjOZcxXcA==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/ThfP-2.png"                  profession="thief"        rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="76M3XK5oJEyZgo2UNzcQuQ==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/ThfP-1.png"                  profession="thief"        rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="8oxXCbBDU0WjhNID4lTYSg==" type="Dung.D1.P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="warrior"      rotate-x="180"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="BLvtzrQ1N0uWShjZX63yLA==" type="Dung.D1.P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="warrior"      rotate-x="190"/>
+    <!-- =============== Path 2 (Detha) =============== -->
+    <!-- Slaying -->
+    <POI MapID="36" xpos="307.860"  ypos="-0.680" zpos="-194.035" GUID="i9FIbRSMVk+ENWjAs2NgJA==" type="Dung.D1.P2.sy.s1"/>
+    <POI MapID="36" xpos="109.266"  ypos="66.675" zpos="101.672"  GUID="vidKC90uW0O1K1fDIS4YxA==" type="Dung.D1.P2.sy.s2"/>
+    <POI MapID="36" xpos="89.419"   ypos="66.674" zpos="101.520"  GUID="gLAp5K1U4Em21uRoSE//qQ==" type="Dung.D1.P2.sy.s3"/>
+    <!-- =============== Path 3 (Tzark) =============== -->
+    <!-- Timer -->
+    <POI MapID="36" xpos="354.216"  ypos="18.242" zpos="-25.303"  GUID="ZGMEZbbWcUmnEiPDluk2Cw==" type="Dung.D1.P3.c1"/>
+    <!-- Slaying -->
+    <POI MapID="36" xpos="245.756"  ypos="25.062" zpos="-58.410"  GUID="TbewNAVHKEyH9UE6kY649Q==" type="Dung.D1.P3.sy"/>
+  </POIs>
+  
+  
+<!-- ==================== CAUDECUS'S MANOR ============================================================================================================================================================================= -->
+  <MarkerCategory         name="Dung" DisplayName="Dungeons">
+    <MarkerCategory       name="D2"   DisplayName="Caudecus's Manor (WIP)"         defaultToggle="0">
+      <MarkerCategory     name="slay" DisplayName="Slaying">
+        <MarkerCategory   name="Desc" DisplayName="Outlaw | Force | Justice" IsSeparator="1"/>
+      </MarkerCategory>
+      <MarkerCategory     name="p1"   DisplayName="Path 1 (Asura)">
+        <MarkerCategory   name="c1"   DisplayName="Bomb Guy">
+          <MarkerCategory name="sc1"  DisplayName="Cutscene Trigger"/>
+          <MarkerCategory name="sc2"  DisplayName="Port Up"/>
+        </MarkerCategory>
+        <MarkerCategory   name="c2"   DisplayName="Victoria Stack Spot"/>
+        <MarkerCategory   name="c3"   DisplayName="Bandit Aggro Line"/>
+        <MarkerCategory   name="c4"   DisplayName="Frost Cutscene Trigger"/>
+      </MarkerCategory>
+      <MarkerCategory     name="p2"   DisplayName="Path 2 (Seraph)">
+        <MarkerCategory   name="c1"   DisplayName="Marcus Stack Spot"/>
+        <MarkerCategory   name="c2"   DisplayName="Satchel Port Spots"/>
+        <MarkerCategory   name="c3"   DisplayName="Barrel Spot"/>
+        <MarkerCategory   name="c4"   DisplayName="Turmaine Spot"/>
+      </MarkerCategory>
+      <MarkerCategory     name="p3"   DisplayName="Path 3 (Butler)">
+        <MarkerCategory   name="c1"   DisplayName="Post-Dude Aggro Line"/>
+        <MarkerCategory   name="c2"   DisplayName="Tunnel (Rocket) Lines" fadeFar="450" fadeNear="300"/>
+        <MarkerCategory   name="c3"   DisplayName="Bandit Aggro Line"/>
+        <MarkerCategory   name="slay" DisplayName="Slaying">
+          <MarkerCategory name="Desc" DisplayName="Centuar | Force | Centaur" IsSeparator="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- <POI MapID="76" xpos="53.2951" ypos="29.0486" zpos="268.959" GUID="i3o3d/8qTkyPfuo9d+4zRA=="/> -->
+    <!-- <POI MapID="76" xpos="235.161" ypos="39.4883" zpos="266.624" GUID="VlthHmdsoE+9IVtaqaJ4tg=="/> -->
+    <!-- <POI MapID="76" xpos="107.394" ypos="42.1946" zpos="106.05" GUID="b2AoereA8kaykNtxPF0dCw=="/> -->
+    <!-- <POI MapID="76" xpos="147.407" ypos="40.0756" zpos="66.1915" GUID="YhvN5Qfzrk2BPpor0TwZ1A=="/> -->
+    <!-- <POI MapID="76" xpos="155.698" ypos="40.1169" zpos="98.4967" GUID="V3Llk+vfMkSycdSggdFA8A=="/> -->
+    <!-- <POI MapID="76" xpos="263.368" ypos="31.6731" zpos="78.1758" GUID="BnJ2nD4E+EeW1NFRCQfvSA=="/> -->
+    <!-- <POI MapID="76" xpos="-10.9205" ypos="30.3794" zpos="104.365" GUID="d7OlGRZQqUizXAmwsvP8qw=="/> -->
+    <!-- =============== Path 1 (Asura) =============== -->
+    <!-- Bomb Guy Cutscene Trigger -->
+    
+    <!-- Bomb Guy Port Up -->
+    
+    <!-- Victoria Stack Spot -->
+    
+    <!-- Bandit Aggro Line (Post-Victoria) -->
+    
+    <!-- Frost Cutscene Trigger -->
+    
+    <!-- =============== Path 2 (Seraph) =============== -->
+    <!-- Marcus Stack Spot -->
+    
+    <!-- Satchel Port Spots -->
+    
+    
+    <!-- Put Barrel Here -->
+    
+    <!-- Turmaine Spot -->
+    
+    <!-- =============== Path 3 (Butler) =============== -->
+    <!-- Post-Dude Aggro Line -->
+    
+    <!-- Tunnel Lines -->
+    <!-- <Trail trailData="Data/Dungeons/D2/P3/Tunnel Lines.trl"        texture="Data/Dungeons/aggroline.png" animSpeed="0" alpha="1" type="Dung.D2.P3.c2"/> -->
+    <!-- Bandit Aggro Line (Post Mine Tunnel) -->
+  </POIs>
+  
+  
+  <MarkerCategory   name="Dung" DisplayName="Dungeons">
+    <MarkerCategory name="D3"   DisplayName="Twilight Arbor">
+      
+    </MarkerCategory>
+    <MarkerCategory name="D4"   DisplayName="Sorrow's Embrace">
+      
+    </MarkerCategory>
+    <MarkerCategory name="D5"   DisplayName="Citadel of Flame">
+      
+    </MarkerCategory>
+    <MarkerCategory name="D6"   DisplayName="Honor of the Waves">
+      
+    </MarkerCategory>
+    <MarkerCategory name="D7"   DisplayName="Crucible of Eternity">
+      
+    </MarkerCategory>
+    <MarkerCategory name="D8"   DisplayName="The Ruined City of Arah">
+      
+    </MarkerCategory>
+  </MarkerCategory>
+</OverlayData>
