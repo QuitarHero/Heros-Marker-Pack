@@ -466,6 +466,34 @@
 		<timeevent text="Golem Spawn"  timestamp="565" countdown="10" onscreentime="0"/>
 		<timeevent text="(1) STAR" 	   timestamp="575" countdown="30" onscreentime="0"/>
 	</areatriggeredtimer> -->
+    <!-- Nikare's Second Platform -->
+    <areatriggeredtimer mapid="1303" length="130" startdelay="0"
+    enterspherex="294.97" enterspherey="33.5572" enterspherez="40.0426" entersphererad="20"
+    exitspherex="294.97" exitspherey="33.5572" exitspherez="40.0426" exitsphererad="68">
+        <timeevent text="CC"               timestamp="20" countdown="20" onscreentime="0"/>
+        <timeevent text="CC (if unphased)" timestamp="80" countdown="30" onscreentime="0"/>
+    </areatriggeredtimer>
+    <!-- Nikare's Last Platform -->
+    <areatriggeredtimer mapid="1303" length="130" startdelay="0"
+    enterspherex="294.982" enterspherey="33.5572" enterspherez="125.771" entersphererad="20"
+    exitspherex="294.982" exitspherey="33.5572" exitspherez="125.771" exitsphererad="68">
+        <timeevent text="CC"            timestamp="20" countdown="20" onscreentime="0"/>
+        <timeevent text="CC (if alive)" timestamp="80" countdown="30" onscreentime="0"/>
+    </areatriggeredtimer>
+    <!-- Kenut's Second Platform -->
+    <areatriggeredtimer mapid="1303" length="130" startdelay="0"
+    enterspherex="440.07" enterspherey="33.5572" enterspherez="40.2575" entersphererad="20"
+    exitspherex="440.07" exitspherey="33.5572" exitspherez="40.2575" exitsphererad="68">
+        <timeevent text="CC"               timestamp="20" countdown="20" onscreentime="0"/>
+        <timeevent text="CC (if unphased)" timestamp="80" countdown="30" onscreentime="0"/>
+    </areatriggeredtimer>
+    <!-- Kenut's Last Platform -->
+    <areatriggeredtimer mapid="1303" length="130" startdelay="0"
+    enterspherex="440.169" enterspherey="33.5572" enterspherez="126.071" entersphererad="20"
+    exitspherex="440.169" exitspherey="33.5572" exitspherez="126.071" exitsphererad="68">
+        <timeevent text="CC"            timestamp="20" countdown="20" onscreentime="0"/>
+        <timeevent text="CC (if alive)" timestamp="80" countdown="30" onscreentime="0"/>
+    </areatriggeredtimer>
     <!-- Ascalonian Catacombs' P3 Graveling Spawns -->
     <areatriggeredtimer mapid="36" length="251" startdelay="0" 
     enterspherex="354.216" enterspherey="18.242" enterspherez="-25.303" entersphererad="1.5"
