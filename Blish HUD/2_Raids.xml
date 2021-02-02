@@ -334,7 +334,7 @@
     <POI MapID="1188" xpos="22.747"  ypos="111.443" zpos="103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.W4.B3.c2"                                         rotate-x="120" rotate-z="235"/>
     <POI MapID="1188" xpos="-11.344" ypos="120.690" zpos="87.571"  GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.W4.B3.c2"                                         rotate-x="160" rotate-z="72"/>
     <!-- Timer -->
-    <POI MapED="1188" xpos="-67.681" ypos="128.011" zpos="82.572"  GUID="eNRKyD30dkSvjHRg8qQYcw==" type="Raid.W4.B3.c3"/>
+    <POI MapID="1188" xpos="-67.681" ypos="128.011" zpos="82.572"  GUID="eNRKyD30dkSvjHRg8qQYcw==" type="Raid.W4.B3.c3"/>
   </POIs>
   
   
