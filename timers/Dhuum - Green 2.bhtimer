@@ -1,0 +1,167 @@
+{
+  "id": "raid.dhuum.green2",
+  "name": "Dhuum\nGreen #2",
+  "category": "Dhuum",
+  "description": "Displays the following:\n• All green timings for Green #2 (with trails).\n• How long to collect orbs.\n• Where the next green is.",
+  "map": 1264,
+  "reset": {
+    "position": [399.0, 17.9, 158.1],
+    "radius": 60,
+    "requireOutOfCombat": false,
+    "requireDeparture": true
+    },
+    "phases": [
+      {
+        "name": "Green #2",
+        "start": {
+          "position": [399.0, 17.9, 158.1],
+          "radius": 60,
+          "requireCombat": true
+        },
+        "alerts": [
+          {
+            "alert": "Green #2",
+            "alertDuration": 4,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [0]
+          },
+          {
+            "warning": "Your green is soon",
+            "warningDuration": 20,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [60, 150, 240, 330, 420, 510]
+          },
+          {
+            "warning": "Time left",
+            "warningDuration": 15,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [80, 170, 260, 350, 440, 530]
+          },
+          {
+            "alert": "Go to CIRCLE",
+            "alertDuration": 5,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [60]
+          },
+          {
+            "alert": "Go to STAR",
+            "alertDuration": 5,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [150]
+          },
+          {
+            "alert": "Go to ARROW",
+            "alertDuration": 5,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [240]
+          },
+          {
+            "alert": "Go to SQUARE",
+            "alertDuration": 5,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [330]
+          },
+          {
+            "alert": "Go to TRIANGLE",
+            "alertDuration": 5,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [420]
+          },
+          {
+            "alert": "Go to HEART",
+            "alertDuration": 5,
+            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "timestamps": [510]
+          }
+        ],
+        "directions": [
+          {
+            "name": "Circle",
+            "destination": [427.9, 2.0, 157.9],
+            "timestamps": [60],
+            "duration": 5,
+            "texture": "data/ArrowTest2.png",
+            "animSpeed": 0
+          },
+          {
+            "name": "Star",
+            "destination": [366.0, 19.4, 157.9],
+            "timestamps": [150],
+            "duration": 5,
+            "texture": "data/ArrowTest2.png",
+            "animSpeed": 0
+          },
+          {
+            "name": "Arrow",
+            "destination": [429.2, 30.9, 157.9],
+            "timestamps": [240],
+            "duration": 5,
+            "texture": "data/ArrowTest2.png",
+            "animSpeed": 0
+          },
+          {
+            "name": "Square",
+            "destination": [377.7, -6.6, 157.9],
+            "timestamps": [330],
+            "duration": 5,
+            "texture": "data/ArrowTest2.png",
+            "animSpeed": 0
+          },
+          {
+            "name": "Triangle",
+            "destination": [407.8, 50.0, 157.9],
+            "timestamps": [420],
+            "duration": 5,
+            "texture": "data/ArrowTest2.png",
+            "animSpeed": 0
+          },
+          {
+            "name": "Heart",
+            "destination": [404.9, -14.8, 157.9],
+            "timestamps": [510],
+            "duration": 5,
+            "texture": "data/ArrowTest2.png",
+            "animSpeed": 0
+          }
+        ],
+        "markers": [
+          {
+            "position": [427.9, 2.0, 159.4],
+            "timestamps": [0],
+            "duration": 65,
+            "texture": "data/2.png"
+          },
+          {
+            "position": [366.0, 19.4, 159.4],
+            "timestamps": [80],
+            "duration": 75,
+            "texture": "data/2.png"
+          },
+          {
+            "position": [429.2, 30.9, 159.4],
+            "timestamps": [170],
+            "duration": 75,
+            "texture": "data/2.png"
+          },
+          {
+            "position": [377.7, -6.6, 159.4],
+            "timestamps": [260],
+            "duration": 75,
+            "texture": "data/2.png"
+          },
+          {
+            "position": [407.8, 50.0, 159.4],
+            "timestamps": [350],
+            "duration": 75,
+            "texture": "data/2.png"
+          },
+          {
+            "position": [404.9, -14.8, 159.4],
+            "timestamps": [440],
+            "duration": 75,
+            "texture": "data/2.png"
+          },
+        ]
+      }
+    ]
+}

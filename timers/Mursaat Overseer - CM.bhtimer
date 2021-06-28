@@ -1,0 +1,48 @@
+{
+  "id": "raid.mursaatOverseer.CM",
+  "name": "Mursaat Overseer CM",
+  "category": "Mursaat Overseer",
+  "description": "Displays the following:\n• When blue squares appear.\n• How long you have to move.",
+  "map": 1188,
+  "reset": {
+    "position": [67.1, 101.2, 106.2],
+    "radius": 46,
+    "requireOutOfCombat": true,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "CM",
+      "start": {
+        "position": [67.1, 101.2, 106.2],
+        "radius": 46,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "MO CM",
+          "alertDuration": 3,
+          "timestamps": [0]
+        },
+        {
+          "warning": "Blues soon",
+          "warningDuration": 10,
+          "alert": "",
+          "timestamps": [25, 55, 85, 115, 145, 175, 205, 235, 265, 295, 325, 355]
+        },
+        {
+          "warning": "Move",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360]
+        },
+        {
+          "warning": "",
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "timestamps": [360]
+        }
+      ]
+    }
+  ]
+}

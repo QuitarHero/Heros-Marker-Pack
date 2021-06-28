@@ -1,0 +1,175 @@
+{
+  "id": "raid.samarog.CM",
+  "name": "Samarog CM",
+  "category": "Samarog",
+  "description": "Displays the following:\n• When the next spear spawns.\n• When 'Spear Return' happens.\n• When Inevitable Betrayal happens.",
+  "map": 1188,
+  "reset": {
+    "position": [-99.6, 78.0, 129.5],
+    "radius": 55,
+    "requireOutOfCombat": true,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "CM",
+      "start": {
+        "position": [-99.6, 78.0, 129.5],
+        "radius": 55,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Samarog CM",
+          "alertDuration": 3,
+          "timestamps": [0]
+        },
+        {
+          "warning": "Spear Spawn (1/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [6, 71, 136, 201, 266, 331, 396, 461, 526, 591]
+        },
+        {
+          "warning": "Spear Spawn (2/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [11, 76, 141, 206, 271, 336, 401, 466, 531, 596]
+        },
+        {
+          "warning": "Spear Spawn (3/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [16, 81, 146, 211, 276, 341, 406, 471, 536, 601]
+        },
+        {
+          "warning": "Spear Spawn (4/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [21, 86, 151, 216, 281, 346, 411, 476, 541, 606]
+        },
+        {
+          "warning": "Spear Spawn (5/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [26, 91, 156, 221, 286, 351, 416, 481, 546, 611]
+        },
+        {
+          "warning": "Spear Spawn (6/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [31, 96, 161, 226, 291, 356, 421, 486, 551, 616]
+        },
+        {
+          "warning": "Spear Spawn (7/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [36, 101, 166, 231, 296, 361, 426, 491, 556, 621]
+        },
+        {
+          "warning": "Spear Spawn (8/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [41, 106, 171, 236, 301, 366, 431, 496, 561, 626]
+        },
+        {
+          "warning": "Spear Spawn (9/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [46, 111, 176, 241, 306, 371, 436, 501, 566, 631]
+        },
+        {
+          "warning": "Spear Spawn (10/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [51, 116, 181, 246, 311, 376, 441, 506, 571, 636]
+        },
+        {
+          "warning": "Spear Spawn (11/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [56, 121, 186, 251, 316, 381, 446, 511, 576, 641]
+        },
+        {
+          "warning": "Spear Spawn (12/12)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [61, 126, 191, 256, 321, 386, 451, 516, 581, 646]
+        },
+        {
+          "warning": "Spear Return (1/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [66]
+        },
+        {
+          "warning": "Spear Return (2/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [131]
+        },
+        {
+          "warning": "Spear Return (3/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [196]
+        },
+        {
+          "warning": "Spear Return (4/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [261]
+        },
+        {
+          "warning": "Spear Return (5/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [326]
+        },
+        {
+          "warning": "Spear Return (6/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [391]
+        },
+        {
+          "warning": "Spear Return (7/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [456]
+        },
+        {
+          "warning": "Spear Return (8/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [521]
+        },
+        {
+          "warning": "Spear Return (9/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [586]
+        },
+        {
+          "warning": "Spear Return (10/10)",
+          "warningDuration": 5,
+          "alert": "",
+          "timestamps": [651]
+        },
+        {
+          "warning": "Inevitable Betrayal soon",
+          "warningDuration": 10,
+          "alert": "Move",
+          "alertDuration": 4,
+          "timestamps": [1, 25, 49, 73, 97, 121, 145, 169, 193, 217, 241, 265, 289, 313, 337, 361, 385, 409, 433, 457, 481, 505, 529, 553, 577, 601, 625, 649]
+        },
+        {
+          "warning": "",
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "timestamps": [660]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "raid.slothasor",
+  "name": "Slothasor\nMushrooms & Slub Spawns",
+  "category": "Slothasor",
+  "description": "Displays the following:\n• When mushrooms spawn.\n• When slublings spawn.",
+  "map": 1149,
+  "reset": {
+    "position": [199.9, -11.3, 0.6],
+    "radius": 60,
+    "requireOutOfCombat": true,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Slothasor",
+      "start": {
+        "position": [199.9, -11.3, 0.6],
+        "radius": 60,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Mushrooms & Slubs",
+          "alertDuration": 4,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [0]
+        },
+        {
+          "warning": "Mushroom #2 soon",
+          "warningDuration": 20,
+          "alert": "Mush #2 spawned",
+          "alertDuration": 5,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [50]
+        },
+        {
+          "warning": "Mushroom #3 soon",
+          "warningDuration": 20,
+          "alert": "Mush #3 spawned",
+          "alertDuration": 5,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [100]
+        },
+        {
+          "warning": "Mushroom #4 soon",
+          "warningDuration": 20,
+          "alert": "Mush #4 spawned",
+          "alertDuration": 5,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [150]
+        },
+        {
+          "warning": "Mushroom #1 soon",
+          "warningDuration": 20,
+          "alert": "Mush #1 soon",
+          "alertDuration": 5,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [200]
+        },
+        {
+          "warning": "Slubs spawn soon",
+          "warningDuration": 15,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [30, 60, 90, 120, 150, 180, 200, 220, 240, 260, 280, 300, 315, 330, 345, 360, 375, 390, 405, 420]
+        },
+        {
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "fillColor": [0.7, 0.0, 0.0, 0.9],
+          "timestamps": [420]
+        }
+      ]
+    }
+  ]
+}

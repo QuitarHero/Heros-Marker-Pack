@@ -1,0 +1,88 @@
+{
+  "id": "raid.sabetha.cannon.twoFour.all",
+  "name": "Sabetha the Saboteur\nCannon 2/4",
+  "category": "Sabetha",
+  "description": "Displays where to go for each cannon (with trails).",
+  "map": 1062,
+  "reset": {
+    "position": [-130, 85, 62],
+    "radius": 70,
+    "requireOutOfCombat": true,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Cannon 2/4",
+      "start": {
+        "position": [-130, 85, 62],
+        "radius": 35,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Cannon 2/4 (all)",
+          "alertDuration": 4,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [1]
+        },
+        {
+          "warning": "West Cannon soon",
+          "warningDuration": 20,
+          "alert": "Go West",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [62, 302, 542]
+        },
+        {
+          "warning": "North Cannon soon",
+          "warningDuration": 20,
+          "alert": "Go North",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [182, 422]
+        },
+        {
+          "warning": "East Cannon soon",
+          "warningDuration": 20,
+          "alert": "Go East",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [122, 242, 362, 482]
+        },
+        {
+          "warning": "",
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [540]
+        }
+      ],
+      "directions": [
+        {
+          "name": "West Cannon",
+          "destination": [-155.7, 86.8, 62.2],
+          "timestamps": [62, 302, 542],
+          "duration": 7,
+          "texture": "data/ArrowTest2.png",
+          "animSpeed": 0
+        },
+        {
+          "name": "North Cannon",
+          "destination": [-127.1, 109.6, 62.8],
+          "timestamps": [182, 422],
+          "duration": 7,
+          "texture": "data/ArrowTest2.png",
+          "animSpeed": 0
+        },
+        {
+          "name": "East Cannon",
+          "destination": [-104.0, 81.4, 62.9],
+          "timestamps": [122, 242, 362, 482],
+          "duration": 7,
+          "texture": "data/ArrowTest2.png",
+          "animSpeed": 0
+        }
+      ]
+    }
+  ]
+}

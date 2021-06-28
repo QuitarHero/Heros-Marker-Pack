@@ -1,0 +1,43 @@
+{
+  "id": "raid.mursaatOverseer.dispel",
+  "name": "Mursaat Overseer\nDispel",
+  "category": "Mursaat Overseer",
+  "description": "Displays when Dispel needs to be used.",
+  "map": 1188,
+  "reset": {
+    "position": [67.1, 101.2, 106.2],
+    "radius": 46,
+    "requireOutOfCombat": true,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Dispel",
+      "start": {
+        "position": [67.1, 101.2, 106.2],
+        "radius": 46,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Dispel Timer",
+          "alertDuration": 3,
+          "timestamps": [0]
+        },
+        {
+          "warning": "Shield soon",
+          "warningDuration": 10,
+          "alert": "Dispel now",
+          "alertDuration": 4,
+          "timestamps": [10, 35, 60, 85, 110, 135, 160, 185, 210, 235, 260, 285, 310, 335, 360]
+        },
+        {
+          "warning": "",
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "timestamps": [360]
+        }
+      ]
+    }
+  ]
+}

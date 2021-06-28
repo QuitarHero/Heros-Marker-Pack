@@ -1,0 +1,77 @@
+{
+    "id": "raid.cairn",
+    "name": "Cairn the Indomitable\nAll Agony Timings",
+    "category": "Cairn",
+    "description": "Displays when Agony is applied to players.",
+    "map": 1188,
+    "reset": {
+        "position": [ 365, 51, 34 ],
+        "radius": 50,
+        "requireOutOfCombat": false,
+        "requireDeparture": true
+    },
+    "phases": [
+        {
+            "name": "All Agony Timings",
+            "start": {
+                "position": [ 365, 51, 34 ],
+                "radius": 35,
+                "requireCombat": true
+            },
+            "alerts": [
+                {
+                    "alert": "All Agony Timings",
+                    "alertDuration": 4,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [0]
+                },
+                {
+                    "warning": "Agony #1",
+                    "warningDuration": 20,
+                    "alert": "Agony #1 Off Group!",
+                    "alertDuration": 3,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [22]
+                },
+                {
+                    "warning": "Agony #1",
+                    "warningDuration": 20,
+                    "alert": "Agony #1 Off Group!",
+                    "alertDuration": 3,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [102, 182, 262, 342, 422]
+                },
+                {
+                    "warning": "Agony #2",
+                    "warningDuration": 20,
+                    "alert": "Agony #2 Off Group!",
+                    "alertDuration": 3,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [42, 122, 202, 282, 362, 442]
+                },
+                {
+                    "warning": "Agony #3",
+                    "warningDuration": 20,
+                    "alert": "Agony #3 Off Group!",
+                    "alertDuration": 3,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [62, 142, 222, 302, 382, 462]
+                },
+                {
+                    "warning": "Agony #4",
+                    "warningDuration": 20,
+                    "alert": "Agony #4 Off Group!",
+                    "alertDuration": 3,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [82, 162, 242, 322, 402, 482]
+                },
+                {
+                    "alert": "Enrage",
+                    "alertDuration": 5,
+                    "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+                    "timestamps": [480]
+                }
+            ]
+        }
+    ]
+}

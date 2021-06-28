@@ -1,0 +1,71 @@
+{
+  "id": "raid.sabetha.all",
+  "name": "Sabetha the Saboteur\nAll Cannons",
+  "category": "Sabetha",
+  "description": "Displays all cannon timings and where to throw.",
+  "map": 1062,
+  "reset": {
+    "position": [-130, 85, 62],
+    "radius": 70,
+    "requireOutOfCombat": true,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "All Cannon",
+      "start": {
+        "position": [-130, 85, 62],
+        "radius": 35,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "All Cannons",
+          "alertDuration": 4,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [1]
+        },
+        {
+          "warning": "South Cannon soon",
+          "warningDuration": 20,
+          "alert": "Throw South",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [35, 155, 275, 395, 515]
+        },
+        {
+          "warning": "West Cannon soon",
+          "warningDuration": 20,
+          "alert": "Throw West",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [65, 215, 305, 455]
+        },
+        {
+          "warning": "North Cannon soon",
+          "warningDuration": 20,
+          "alert": "Throw North",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [95, 185, 335, 425]
+        },
+        {
+          "warning": "East Cannon soon",
+          "warningDuration": 20,
+          "alert": "Throw East",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [125, 245, 365, 485]
+        },
+        {
+          "warning": "",
+          "warningDuration": 1,
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "fillColor": [ 0.8, 0.3, 0.0, 0.9 ],
+          "timestamps": [540]
+        }
+      ]
+    }
+  ]
+}

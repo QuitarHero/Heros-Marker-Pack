@@ -1,0 +1,43 @@
+{
+  "id": "raid.samarog.spears",
+  "name": "Samarog\nSpear Spawns",
+  "category": "Samarog",
+  "description": "Displays when spears spawn.",
+  "map": 1188,
+  "reset": {
+    "position": [-99.6, 78.0, 129.5],
+    "radius": 55,
+    "requireOutOfCombat": true,
+    "requireDeparture": false
+  },
+  "phases": [
+    {
+      "name": "Spear Spawns",
+      "start": {
+        "position": [-99.6, 78.0, 129.5],
+        "radius": 55,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Spear Spawns",
+          "alertDuration": 3,
+          "timestamps": [0]
+        },
+        {
+          "warning": "Spears soon",
+          "warningDuration": 5,
+          "alert": "Spears spawned",
+          "alertDuration": 3,
+          "timestamps": [22, 42, 62, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 282, 302, 322, 342, 362, 382, 402, 422, 442, 462, 482, 502, 522, 542, 562, 582, 602, 622, 642, 662]
+        },
+        {
+          "warning": "",
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "timestamps": [660]
+        }
+      ]
+    }
+  ]
+}
