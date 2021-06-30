@@ -63,7 +63,7 @@
           "alert": "Sacrifice!",
           "alertDuration": 5,
           "fillColor": [ 0.7, 0.0, 0.0, 0.9 ],
-          "timestamps": [15, 60, 105, 150]
+          "timestamps": [20, 65, 110, 155]
         },
         {
           "warning": "",
