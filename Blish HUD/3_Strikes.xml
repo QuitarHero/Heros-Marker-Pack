@@ -5,7 +5,7 @@
 <!-- ========================================= ICEBROOD CONSTRUCT  ========================================================================================================================================================= -->
   <MarkerCategory     name="Str" DisplayName="Strikes"            fadeCenter="false">
     <MarkerCategory   name="Ti"  DisplayName="Hero's Marker Pack" IsSeparator="1"/>
-    <MarkerCategory   name="B1"  DisplayName="Icebrood Construct" color="27c1e8" fadeFar="2500" fadeNear="2250"                                  iconSize="0.5" rotate-x="180">
+    <MarkerCategory   name="B1"  DisplayName="Icebrood Construct" color="27c1e8" fadeFar="2500" fadeNear="2250"                                  iconSize="1" rotate-x="180">
       <MarkerCategory name="c1"  DisplayName="Phase 1"                                                          iconFile="Data/General/dot1.png"/>
       <MarkerCategory name="c2"  DisplayName="Phase 2"                                                          iconFile="Data/General/dot2.png"/>
     </MarkerCategory>
@@ -27,7 +27,7 @@
 <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
   <MarkerCategory     name="Str" DisplayName="Strikes">
     <MarkerCategory   name="B2"  DisplayName="Fallen Kodan">
-      <MarkerCategory name="c1"  DisplayName="Boundary"       fadeFar="250"  fadeNear="225"/>
+      <MarkerCategory name="c1"  DisplayName="Boundary"       fadeFar="500"  fadeNear="625"/>
       <MarkerCategory name="c2"  DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750" rotate-x="180"/>
     </MarkerCategory>
   </MarkerCategory>
@@ -35,9 +35,9 @@
     <!-- ========== Boundary ========== -->
     <Trail trailData="Data/Boundary/StrB2-Bound.trl" animSpeed="0" alpha="0.75"                  type="Str.B2.c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Boss Positions ========== -->
-    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-5.408" GUID="L3sEHR2sAkKFOhct1KhGyg==" type="Str.B2.c2" iconFile="Data/Strikes/pos1.png"    iconSize="0.75" rotate-z="275"/>
-    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438" GUID="WGt9DHoBdECZoamIeyJXkw==" type="Str.B2.c2" iconFile="Data/Strikes/pos2.png"    iconSize="1.25" rotate-z="177"/>
-    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512" GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="Str.B2.c2" iconFile="Data/Strikes/pos3.png"    iconSize="1.25" rotate-z="87"/>
+    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-5.408" GUID="L3sEHR2sAkKFOhct1KhGyg==" type="Str.B2.c2" iconFile="Data/Strikes/pos1.png"    iconSize="2.5" rotate-z="275"/>
+    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438" GUID="WGt9DHoBdECZoamIeyJXkw==" type="Str.B2.c2" iconFile="Data/Strikes/pos2.png"    iconSize="2.5" rotate-z="177"/>
+    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512" GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="Str.B2.c2" iconFile="Data/Strikes/pos3.png"    iconSize="2.5" rotate-z="87"/>
     <!-- <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-2.954" GUID="wMt8FVJg3UC4d/qNx4PJlA==" type="Str.B2.c2"/> -->
   </POIs>
   
@@ -45,15 +45,15 @@
 <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory     name="Str" DisplayName="Strikes">
     <MarkerCategory   name="B3"  DisplayName="Fraenir of Jormag">
-      <MarkerCategory name="c1"  DisplayName="Boundary"                                     fadeFar="250"  fadeNear="225"/>
-      <MarkerCategory name="c2"  DisplayName="Stack Spots"       alpha="0.6" color="17d0ff" fadeFar="4000" fadeNear="3750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180"/>
+      <MarkerCategory name="c1"  DisplayName="Boundary"                                     fadeFar="500"  fadeNear="625"/>
+      <MarkerCategory name="c2"  DisplayName="Stack Spots"       alpha="0.6" color="17d0ff" fadeFar="4000" fadeNear="3750" iconFile="Data/General/dot.png" iconSize="1" rotate-x="180"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
     <Trail trailData="Data/Boundary/StrB3-Bound.trl" animSpeed="0" alpha="0.75"                  type="Str.B3.c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== IC Markers ========== -->
-    <POI MapID="1341" xpos="16.215" ypos="178.325" zpos="-2.602" GUID="0JlsA3MrVkadrzakJXHcKw==" type="Str.B3.c2" iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="180"/>
+    <POI MapID="1341" xpos="16.215" ypos="178.325" zpos="-2.602" GUID="0JlsA3MrVkadrzakJXHcKw==" type="Str.B3.c2" iconFile="Data/General/dot.png"     iconSize="1" rotate-x="180"/>
     <POI MapID="1341" xpos="11.345" ypos="178.325" zpos="1.620"  GUID="B8UNMpf3y0aMfaaj07+PJg==" type="Str.B3.c2"/>
   </POIs>
   
@@ -61,8 +61,8 @@
 <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
   <MarkerCategory     name="Str" DisplayName="Strikes">
     <MarkerCategory   name="B4"  DisplayName="Boneskinner">
-      <MarkerCategory name="c1"  DisplayName="Boundary"                                     fadeFar="250"  fadeNear="225"/>
-      <MarkerCategory name="c3"  DisplayName="Torches"     color="66A144" defaultToggle="0" fadeFar="4000" fadeNear="3750" iconSize="1" rotate-x="90"/>
+      <MarkerCategory name="c1"  DisplayName="Boundary"                                     fadeFar="500"  fadeNear="625"/>
+      <MarkerCategory name="c3"  DisplayName="Torches"     color="66A144" defaultToggle="0" fadeFar="4000" fadeNear="3750" iconSize="2" rotate-x="90"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -81,7 +81,7 @@
 <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory     name="Str" DisplayName="Strikes">
     <MarkerCategory   name="B5"  DisplayName="Whisper of Jormag">
-      <MarkerCategory name="c1"  DisplayName="Directions"        color="1fc4ed" fadeFar="2500" fadeNear="2250" iconSize="1" rotate-x="90"/>
+      <MarkerCategory name="c1"  DisplayName="Directions"        color="1fc4ed" fadeFar="2500" fadeNear="2250" iconSize="2" rotate-x="90"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -96,9 +96,9 @@
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
   <MarkerCategory     name="Str" DisplayName="Strikes">
     <MarkerCategory   name="B6"  DisplayName="Cold War">
-      <MarkerCategory name="c1"  DisplayName="Boundary"                               fadeFar="350"  fadeNear="325"/>
-      <MarkerCategory name="c2"  DisplayName="Boss Spawn"  alpha="0.6" color="00eeff" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180"/>
-      <MarkerCategory name="c3"  DisplayName="Champ Spawn" alpha="0.6" color="00eeff" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180"/>
+      <MarkerCategory name="c1"  DisplayName="Boundary"                               fadeFar="600"  fadeNear="725"/>
+      <MarkerCategory name="c2"  DisplayName="Boss Spawn"  alpha="0.6" color="00eeff" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="1.25" rotate-x="180"/>
+      <MarkerCategory name="c3"  DisplayName="Champ Spawn" alpha="0.6" color="00eeff" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="1.25" rotate-x="180"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
