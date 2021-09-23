@@ -20,7 +20,7 @@
   </MarkerCategory>
   <POIs>
     <!-- ========== VG's Boundary ========== -->
-    <Trail trailData="Data/Boundary/W1B1-Bound.trl" animSpeed="0" alpha="1"                         type="HMP_W1.B1"                                   texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W1B1-Bound.trl" animSpeed="0" alpha="1"                         type="HMP.W1_B1"                                   texture="Data/Boundary/RedLine.png"/>
     <!-- ========== SW Skip ========== -->
     <!-- Mesmer -->
     <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="HHgLEkJk9EGjZJ88sefs3Q==" type="HMP.W1_B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="90"                 rotate-z="-45"/>
