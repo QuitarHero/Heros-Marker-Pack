@@ -3,565 +3,379 @@
 <!-- ======================================================================================================================= -->
 <OverlayData>
 <!-- ======================================== SPIRIT VALE ================================================================================================================================================================== -->
-  <MarkerCategory       name="Raid" DisplayName="Raids"              fadeCenter="false">
-    <MarkerCategory     name="Ti"   DisplayName="Hero's Marker Pack" IsSeparator="1"/>
-    <MarkerCategory     name="W1"   DisplayName="Spirit Vale">
-      <MarkerCategory   name="B1"   DisplayName="Vale Guardian"                     fadeFar="200"  fadeNear="175"/>
-      <MarkerCategory   name="B2"   DisplayName="Spirit Run">
-        <MarkerCategory name="c1"   DisplayName="Skip"/>
-        <MarkerCategory name="c2"   DisplayName="Trigger Lines"                     fadeFar="1500" fadeNear="1000"/>
-      </MarkerCategory>
-      <MarkerCategory   name="B3"   DisplayName="Gorseval">
-        <MarkerCategory name="c1"   DisplayName="Boundary"                          fadeFar="175"  fadeNear="150"/>
-        <MarkerCategory name="c2"   DisplayName="Spirits"            color="a6c4a1" fadeFar="3500" fadeNear="3000" iconFile="Data/General/dot.png" iconSize="0.6" rotate-x="180"/>
-      </MarkerCategory>
-      <MarkerCategory   name="B4"   DisplayName="Sabetha">
-        <MarkerCategory name="c1"   DisplayName="Boundary"                          fadeFar="200"  fadeNear="175"/>
-        <MarkerCategory name="c2"   DisplayName="Directions"         color="c4b997" fadeFar="2750" fadeNear="2250"                                                rotate-x="90"/>
-      </MarkerCategory>
+  <MarkerCategory     name="HMP"   DisplayName="Hero's Pack">
+    <MarkerCategory   name="W1_B1" DisplayName="Vale Guardian"                fadeFar="500"  fadeNear="375"  mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="W1_B2" DisplayName="Spirit Run"                                                  mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="c1"    DisplayName="Skip"/>
+      <MarkerCategory name="c2"    DisplayName="Trigger Lines"                fadeFar="1500" fadeNear="1000"/>
+    </MarkerCategory>
+    <MarkerCategory   name="W1_B3" DisplayName="Gorseval"                                                    mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="c1"    DisplayName="Boundary"                     fadeFar="500"  fadeNear="375"/>
+      <MarkerCategory name="c2"    DisplayName="Spirits"       color="a6c4a1" fadeFar="3500" fadeNear="3000" iconFile="Data/General/dot.png" iconSize="0.6" rotate-x="180"/>
+    </MarkerCategory>
+    <MarkerCategory   name="W1_B4" DisplayName="Sabetha">
+      <MarkerCategory name="c1"    DisplayName="Boundary"                     fadeFar="500"  fadeNear="375"  mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory name="c2"    DisplayName="Directions"    color="c4b997" fadeFar="2750" fadeNear="2250"                                                rotate-x="90"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== VG's Boundary ========== -->
-    <Trail trailData="Data/Boundary/W1B1-Bound.trl" animSpeed="0" alpha="1"                         type="Raid.W1.B1"                                   texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W1B1-Bound.trl" animSpeed="0" alpha="1"                         type="HMP_W1.B1"                                   texture="Data/Boundary/RedLine.png"/>
     <!-- ========== SW Skip ========== -->
     <!-- Mesmer -->
-    <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="HHgLEkJk9EGjZJ88sefs3Q==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="90"                 rotate-z="-45"/>
-    <POI MapID="1062" xpos="-126.476" ypos="68.026" zpos="-408.575" GUID="3+rbwMnEPkWgnf1Z178l2g==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.4"  specialization="59" rotate-x="45"                 rotate-z="83"/>
-    <POI MapID="1062" xpos="-098.713" ypos="67.651" zpos="-403.031" GUID="dfGPEGhY8E+rf6y9d8uMfQ==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/MirSw1-1.png"  iconSize="0.55" specialization="59" rotate-x="135" rotate-y="15"  rotate-z="100"/>
-    <POI MapID="1062" xpos="-072.768" ypos="77.832" zpos="-435.116" GUID="6KOdRRwW/0yzRIweCmHXFw==" type="Raid.W1.B2.c1" fadeFar="1900" fadeNear="1750" iconFile="Data/Class/Normal/MirJump-2.png" iconSize="0.35" specialization="59" rotate-x="90"  rotate-y="35"  rotate-z="55"/>
-    <POI MapID="1062" xpos="-102.409" ypos="92.306" zpos="-447.787" GUID="csYKUmvMIUq/iaw4EMtoIA==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.4"  specialization="59" rotate-x="85"                 rotate-z="-50"/>
-    <POI MapID="1062" xpos="-123.918" ypos="85.785" zpos="-428.059" GUID="V7guHrTR302v1sxsDwXVuw==" type="Raid.W1.B2.c1" fadeFar="1400" fadeNear="1250" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="110"                rotate-z="140"/>
-    <POI MapID="1062" xpos="-124.429" ypos="88.818" zpos="-422.896" GUID="nQLT2p05MU6Wj0C8Muos6Q==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1350" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="125"                rotate-z="270"/>
-    <POI MapID="1062" xpos="-119.832" ypos="86.679" zpos="-392.791" GUID="Ei0Vbpo9k0edW46b/V3CZA==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.5"  specialization="59" />
-    <POI MapID="1062" xpos="-118.088" ypos="77.829" zpos="-367.392" GUID="/w8x9WdxxEGXYjlYMDqNmw==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Mir-1.png"     iconSize="0.5"  specialization="59" />
-    <POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="cbamHZaR5EaZGbQhX1jlZg==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Mir-1.png"     iconSize="0.5"  specialization="59" />
-    <POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="aU1U2VKT50OkOn2qWFivEA==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/Mir-1.png"     iconSize="0.5"  specialization="59" rotate-x="135"                rotate-z="270"/>
-    <POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="PxDJXui+V0Cav5RLP951AA==" type="Raid.W1.B2.c1" fadeFar="1200" fadeNear="1050" iconFile="Data/Class/Normal/MirSw1-1.png"  iconSize="0.4"  specialization="59" rotate-x="90"                 rotate-z="250"/>
-    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/General/MesP-2.png"         iconSize="0.5"  specialization="59" rotate-x="175"                rotate-z="260"/>
-    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/General/MesP-1.png"         iconSize="0.5"  specialization="59" rotate-x="190" rotate-y="-10" rotate-z="50"/>
-    <POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/General/MesP-1.png"         iconSize="0.5"  specialization="59" rotate-x="180"                rotate-z="-70"/>
+    <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="HHgLEkJk9EGjZJ88sefs3Q==" type="HMP.W1_B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="90"                 rotate-z="-45"/>
+    <POI MapID="1062" xpos="-126.476" ypos="68.026" zpos="-408.575" GUID="3+rbwMnEPkWgnf1Z178l2g==" type="HMP.W1_B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.4"  specialization="59" rotate-x="45"                 rotate-z="83"/>
+    <POI MapID="1062" xpos="-098.713" ypos="67.651" zpos="-403.031" GUID="dfGPEGhY8E+rf6y9d8uMfQ==" type="HMP.W1_B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/MirSw1-1.png"  iconSize="0.55" specialization="59" rotate-x="135" rotate-y="15"  rotate-z="100"/>
+    <POI MapID="1062" xpos="-072.768" ypos="77.832" zpos="-435.116" GUID="6KOdRRwW/0yzRIweCmHXFw==" type="HMP.W1_B2.c1" fadeFar="1900" fadeNear="1750" iconFile="Data/Class/Normal/MirJump-2.png" iconSize="0.35" specialization="59" rotate-x="90"  rotate-y="35"  rotate-z="55"/>
+    <POI MapID="1062" xpos="-102.409" ypos="92.306" zpos="-447.787" GUID="csYKUmvMIUq/iaw4EMtoIA==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.4"  specialization="59" rotate-x="85"                 rotate-z="-50"/>
+    <POI MapID="1062" xpos="-123.918" ypos="85.785" zpos="-428.059" GUID="V7guHrTR302v1sxsDwXVuw==" type="HMP.W1_B2.c1" fadeFar="1400" fadeNear="1250" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="110"                rotate-z="140"/>
+    <POI MapID="1062" xpos="-124.429" ypos="88.818" zpos="-422.896" GUID="nQLT2p05MU6Wj0C8Muos6Q==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1350" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" specialization="59" rotate-x="125"                rotate-z="270"/>
+    <POI MapID="1062" xpos="-119.832" ypos="86.679" zpos="-392.791" GUID="Ei0Vbpo9k0edW46b/V3CZA==" type="HMP.W1_B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.5"  specialization="59" />
+    <POI MapID="1062" xpos="-118.088" ypos="77.829" zpos="-367.392" GUID="/w8x9WdxxEGXYjlYMDqNmw==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Mir-1.png"     iconSize="0.5"  specialization="59" />
+    <POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="cbamHZaR5EaZGbQhX1jlZg==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Mir-1.png"     iconSize="0.5"  specialization="59" />
+    <POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="aU1U2VKT50OkOn2qWFivEA==" type="HMP.W1_B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/Mir-1.png"     iconSize="0.5"  specialization="59" rotate-x="135"                rotate-z="270"/>
+    <POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="PxDJXui+V0Cav5RLP951AA==" type="HMP.W1_B2.c1" fadeFar="1200" fadeNear="1050" iconFile="Data/Class/Normal/MirSw1-1.png"  iconSize="0.4"  specialization="59" rotate-x="90"                 rotate-z="250"/>
+    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="PMxMkPr1b06ESA0JhxhyTw==" type="HMP.W1_B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/General/MesP-2.png"         iconSize="0.5"  specialization="59" rotate-x="175"                rotate-z="260"/>
+    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="DKyVQvAJZ0iQkgyp+ISFKQ==" type="HMP.W1_B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/General/MesP-1.png"         iconSize="0.5"  specialization="59" rotate-x="190" rotate-y="-10" rotate-z="50"/>
+    <POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="va7mQJkH5k2lNMnN80WoAg==" type="HMP.W1_B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/General/MesP-1.png"         iconSize="0.5"  specialization="59" rotate-x="180"                rotate-z="-70"/>
     <!-- Thief -->
-    <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="lMujjMb/xUm6hR/I6IFA1A==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.25" specialization="7"  rotate-x="90"                 rotate-z="-45"/>
-    <POI MapID="1062" xpos="-126.476" ypos="68.026" zpos="-408.575" GUID="Z4H2cWHtKkKeYsKJsrIk5w==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.4"  specialization="7"  rotate-x="45"                 rotate-z="83"/>
-    <POI MapID="1062" xpos="-098.713" ypos="67.651" zpos="-403.031" GUID="FuJw3QjaBE6+pLKTYkVGlw==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/DDSt5-1.png"   iconSize="0.55" specialization="7"  rotate-x="135" rotate-y="15"  rotate-z="110"/>
-    <POI MapID="1062" xpos="-072.768" ypos="77.832" zpos="-435.116" GUID="GDtalUKj00mhLRpB5bCRcA==" type="Raid.W1.B2.c1" fadeFar="1900" fadeNear="1750" iconFile="Data/Class/Normal/DDJump-2.png"  iconSize="0.35" specialization="7"  rotate-x="90"  rotate-y="35"  rotate-z="55"/>
-    <POI MapID="1062" xpos="-102.409" ypos="92.306" zpos="-447.787" GUID="DC7JNNsHkEyBj0m8MIayXA==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.4"  specialization="7"  rotate-x="85"                 rotate-z="-50"/>
-    <POI MapID="1062" xpos="-123.918" ypos="85.785" zpos="-428.059" GUID="mvQOUqFIykK0Ls6sfkUMiw==" type="Raid.W1.B2.c1" fadeFar="1400" fadeNear="1250" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.25" specialization="7"  rotate-x="110"                rotate-z="140"/>
-    <POI MapID="1062" xpos="-124.429" ypos="88.818" zpos="-422.896" GUID="CO3RCtHCOkW89o5+rcC2rA==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1350" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.25" specialization="7"  rotate-x="125"                rotate-z="270"/>
-    <POI MapID="1062" xpos="-119.832" ypos="86.679" zpos="-392.791" GUID="VLjNbgOWnE20wN7xO0g9TQ==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.5"  specialization="7"/>
-    <POI MapID="1062" xpos="-118.088" ypos="77.829" zpos="-367.392" GUID="zTlzaPD4YUylRgBonubiJA==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DD-1.png"      iconSize="0.5"  specialization="7"/>
-    <POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="1QMRZ7wpbkakNrs41bxZcA==" type="Raid.W1.B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DD-1.png"      iconSize="0.5"  specialization="7"/>
-    <POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="TtA1NM7r4kG5oqhU2O0WlQ==" type="Raid.W1.B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/DD-1.png"      iconSize="0.5"  specialization="7"  rotate-x="135"                rotate-z="270"/>
-    <POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="6ZnTCoOtU0qxAZXBF7KcxA==" type="Raid.W1.B2.c1" fadeFar="1200" fadeNear="1050" iconFile="Data/Class/Normal/DDSt5-1.png"   iconSize="0.4"  specialization="7"  rotate-x="90"                 rotate-z="250"/>
-    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="9MaenBOMwkK2SS5Cb/uUwg==" type="Raid.W1.B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/General/ThfP-2.png"         iconSize="0.5"  specialization="7"  rotate-x="175"                rotate-z="260"/>
-    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="W+Jz4L9az0uoa7F9Zgj2Ww==" type="Raid.W1.B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/General/ThfP-1.png"         iconSize="0.5"  specialization="7"  rotate-x="190" rotate-y="-10" rotate-z="50"/>
-    <POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="2nXhVDxSXUaeq8slB7gAgA==" type="Raid.W1.B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/General/ThfP-1.png"         iconSize="0.5"  specialization="7"  rotate-x="180"                rotate-z="-70"/>
+    <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="lMujjMb/xUm6hR/I6IFA1A==" type="HMP.W1_B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.25" specialization="7"  rotate-x="90"                 rotate-z="-45"/>
+    <POI MapID="1062" xpos="-126.476" ypos="68.026" zpos="-408.575" GUID="Z4H2cWHtKkKeYsKJsrIk5w==" type="HMP.W1_B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.4"  specialization="7"  rotate-x="45"                 rotate-z="83"/>
+    <POI MapID="1062" xpos="-098.713" ypos="67.651" zpos="-403.031" GUID="FuJw3QjaBE6+pLKTYkVGlw==" type="HMP.W1_B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/DDSt5-1.png"   iconSize="0.55" specialization="7"  rotate-x="135" rotate-y="15"  rotate-z="110"/>
+    <POI MapID="1062" xpos="-072.768" ypos="77.832" zpos="-435.116" GUID="GDtalUKj00mhLRpB5bCRcA==" type="HMP.W1_B2.c1" fadeFar="1900" fadeNear="1750" iconFile="Data/Class/Normal/DDJump-2.png"  iconSize="0.35" specialization="7"  rotate-x="90"  rotate-y="35"  rotate-z="55"/>
+    <POI MapID="1062" xpos="-102.409" ypos="92.306" zpos="-447.787" GUID="DC7JNNsHkEyBj0m8MIayXA==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.4"  specialization="7"  rotate-x="85"                 rotate-z="-50"/>
+    <POI MapID="1062" xpos="-123.918" ypos="85.785" zpos="-428.059" GUID="mvQOUqFIykK0Ls6sfkUMiw==" type="HMP.W1_B2.c1" fadeFar="1400" fadeNear="1250" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.25" specialization="7"  rotate-x="110"                rotate-z="140"/>
+    <POI MapID="1062" xpos="-124.429" ypos="88.818" zpos="-422.896" GUID="CO3RCtHCOkW89o5+rcC2rA==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1350" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.25" specialization="7"  rotate-x="125"                rotate-z="270"/>
+    <POI MapID="1062" xpos="-119.832" ypos="86.679" zpos="-392.791" GUID="VLjNbgOWnE20wN7xO0g9TQ==" type="HMP.W1_B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/DDJump-1.png"  iconSize="0.5"  specialization="7"/>
+    <POI MapID="1062" xpos="-118.088" ypos="77.829" zpos="-367.392" GUID="zTlzaPD4YUylRgBonubiJA==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DD-1.png"      iconSize="0.5"  specialization="7"/>
+    <POI MapID="1062" xpos="-131.938" ypos="69.587" zpos="-344.961" GUID="1QMRZ7wpbkakNrs41bxZcA==" type="HMP.W1_B2.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DD-1.png"      iconSize="0.5"  specialization="7"/>
+    <POI MapID="1062" xpos="-149.802" ypos="63.236" zpos="-339.373" GUID="TtA1NM7r4kG5oqhU2O0WlQ==" type="HMP.W1_B2.c1" fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/DD-1.png"      iconSize="0.5"  specialization="7"  rotate-x="135"                rotate-z="270"/>
+    <POI MapID="1062" xpos="-144.494" ypos="63.565" zpos="-298.878" GUID="6ZnTCoOtU0qxAZXBF7KcxA==" type="HMP.W1_B2.c1" fadeFar="1200" fadeNear="1050" iconFile="Data/Class/Normal/DDSt5-1.png"   iconSize="0.4"  specialization="7"  rotate-x="90"                 rotate-z="250"/>
+    <POI MapID="1062" xpos="-126.290" ypos="39.724" zpos="-302.780" GUID="9MaenBOMwkK2SS5Cb/uUwg==" type="HMP.W1_B2.c1" fadeFar="650"  fadeNear="500"  iconFile="Data/General/ThfP-2.png"         iconSize="0.5"  specialization="7"  rotate-x="175"                rotate-z="260"/>
+    <POI MapID="1062" xpos="-129.484" ypos="58.183" zpos="-266.982" GUID="W+Jz4L9az0uoa7F9Zgj2Ww==" type="HMP.W1_B2.c1" fadeFar="1750" fadeNear="1500" iconFile="Data/General/ThfP-1.png"         iconSize="0.5"  specialization="7"  rotate-x="190" rotate-y="-10" rotate-z="50"/>
+    <POI MapID="1062" xpos="-204.820" ypos="54.392" zpos="-316.286" GUID="2nXhVDxSXUaeq8slB7gAgA==" type="HMP.W1_B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/General/ThfP-1.png"         iconSize="0.5"  specialization="7"  rotate-x="180"                rotate-z="-70"/>
     <!-- ========== SR's Trigger Lines ========== -->
-    <Trail trailData="Data/Raids/SR-TriggerLines.trl" animSpeed="0" alpha="0.75"                    type="Raid.W1.B2.c2"                                texture="Data/General/redtrail.png"                      profession="mesmer"/>
-    <Trail trailData="Data/Raids/SR-TriggerLines.trl" animSpeed="0" alpha="0.75"                    type="Raid.W1.B2.c2"                                texture="Data/General/redtrail.png"                      profession="thief"/>
+    <Trail trailData="Data/Raids/SR-TriggerLines.trl" animSpeed="0" alpha="0.75"                    type="HMP.W1_B2.c2"                                texture="Data/General/redtrail.png"                      profession="mesmer"/>
+    <Trail trailData="Data/Raids/SR-TriggerLines.trl" animSpeed="0" alpha="0.75"                    type="HMP.W1_B2.c2"                                texture="Data/General/redtrail.png"                      profession="thief"/>
     <!-- ========== Gorseval ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W1B2-Bound.trl" animSpeed="0" alpha="0.75"                      type="Raid.W1.B3.c1"                                texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W1B2-Bound.trl" animSpeed="0" alpha="0.75"                      type="HMP.W1_B3.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Spirits -->
-    <POI MapID="1062" xpos="22.168"   ypos="48.572" zpos="-93.483"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="Raid.W1.B3.c2"                                                                                                               rotate-x="180"                rotate-z="220"/>
-    <POI MapID="1062" xpos="62.549"   ypos="48.908" zpos="-91.347"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="Raid.W1.B3.c2"                                                                                                                                             rotate-z="135"/>
-    <POI MapID="1062" xpos="62.083"   ypos="48.868" zpos="-132.221" GUID="VVK/FtYXK0COctneNDDPqg==" type="Raid.W1.B3.c2"                                                                                                               rotate-x="180"/>
-    <POI MapID="1062" xpos="21.915"   ypos="48.618" zpos="-134.613" GUID="0grnFvQGQ0W1GJSM2wXfbA==" type="Raid.W1.B3.c2"                                                                                                               rotate-x="180"/>
+    <POI MapID="1062" xpos="22.168"   ypos="48.572" zpos="-93.483"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="HMP.W1_B3.c2"                                                                                                               rotate-x="180"                rotate-z="220"/>
+    <POI MapID="1062" xpos="62.549"   ypos="48.908" zpos="-91.347"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="HMP.W1_B3.c2"                                                                                                                                             rotate-z="135"/>
+    <POI MapID="1062" xpos="62.083"   ypos="48.868" zpos="-132.221" GUID="VVK/FtYXK0COctneNDDPqg==" type="HMP.W1_B3.c2"                                                                                                               rotate-x="180"/>
+    <POI MapID="1062" xpos="21.915"   ypos="48.618" zpos="-134.613" GUID="0grnFvQGQ0W1GJSM2wXfbA==" type="HMP.W1_B3.c2"                                                                                                               rotate-x="180"/>
     <!-- ========== Sabetha ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W1B3-Bound.trl" animSpeed="0" alpha="0.75"                      type="Raid.W1.B4.c1"                                texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W1B3-Bound.trl" animSpeed="0" alpha="0.75"                      type="HMP.W1_B4.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Directions -->
-    <POI MapID="1062" xpos="-133.137" ypos="62.740" zpos="52.152"   GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" type="Raid.W1.B4.c2"                                iconFile="Data/General/s.png"                                                                                rotate-z="-5"/>
-    <POI MapID="1062" xpos="-97.847"  ypos="62.884" zpos="80.927"   GUID="7AZv3By300CwPslLkQaEnw==" type="Raid.W1.B4.c2"                                iconFile="Data/General/e.png"                                                                                rotate-z="85"/>
-    <POI MapID="1062" xpos="-126.366" ypos="62.686" zpos="116.039"  GUID="xxtnBLbCIEuoxx5nBpDqSA==" type="Raid.W1.B4.c2"                                iconFile="Data/General/n.png"                                                                                rotate-z="175"/>
-    <POI MapID="1062" xpos="-161.633" ypos="62.066" zpos="87.343"   GUID="+oNUkf6Qx0KK4u9MhYitew==" type="Raid.W1.B4.c2"                                iconFile="Data/General/w.png"                                                                                rotate-z="265"/>
+    <POI MapID="1062" xpos="-133.137" ypos="62.740" zpos="52.152"   GUID="T08Wbp3oZ0KZ9KzU1Gnfqw==" type="HMP.W1_B4.c2"                                iconFile="Data/General/s.png"                                                                                rotate-z="-5"/>
+    <POI MapID="1062" xpos="-97.847"  ypos="62.884" zpos="80.927"   GUID="7AZv3By300CwPslLkQaEnw==" type="HMP.W1_B4.c2"                                iconFile="Data/General/e.png"                                                                                rotate-z="85"/>
+    <POI MapID="1062" xpos="-126.366" ypos="62.686" zpos="116.039"  GUID="xxtnBLbCIEuoxx5nBpDqSA==" type="HMP.W1_B4.c2"                                iconFile="Data/General/n.png"                                                                                rotate-z="175"/>
+    <POI MapID="1062" xpos="-161.633" ypos="62.066" zpos="87.343"   GUID="+oNUkf6Qx0KK4u9MhYitew==" type="HMP.W1_B4.c2"                                iconFile="Data/General/w.png"                                                                                rotate-z="265"/>
   </POIs>
   
   
 <!-- ======================================== SALVATION PASS =============================================================================================================================================================== -->
-  <MarkerCategory           name="Raid" DisplayName="Raids">
-    <MarkerCategory         name="W2"   DisplayName="Salvation Pass">
-      <MarkerCategory       name="B1"   DisplayName="Slothasor"                                     fadeFar="3500" fadeNear="3250"                                   iconSize="1">
-        <MarkerCategory     name="c1"   DisplayName="Mushrooms">
-          <MarkerCategory   name="sc1"  DisplayName="Numbers"        color="31cc4a"/>
-          <MarkerCategory   name="sc2"  DisplayName="Inner"          behavior="4" defaultToggle="1"                                                                  iconSize="0.4" resetLength="59"                triggerRange="5">
-            <MarkerCategory name="m1"   DisplayName="Mushroom 1"                  defaultToggle="1"/>
-            <MarkerCategory name="m2"   DisplayName="Mushroom 2"                  defaultToggle="0"/>
-            <MarkerCategory name="m3"   DisplayName="Mushroom 3"                  defaultToggle="0"/>
-            <MarkerCategory name="m4"   DisplayName="Mushroom 4"                  defaultToggle="0"/>
-          </MarkerCategory>
-          <MarkerCategory   name="sc3"  DisplayName="Outer"          behavior="4" defaultToggle="0"                                                                  iconSize="0.4" resetLength="59"                triggerRange="5">
-            <MarkerCategory name="m1"   DisplayName="Mushroom 1"                  defaultToggle="1"/>
-            <MarkerCategory name="m2"   DisplayName="Mushroom 2"                  defaultToggle="0"/>
-            <MarkerCategory name="m3"   DisplayName="Mushroom 3"                  defaultToggle="0"/>
-            <MarkerCategory name="m4"   DisplayName="Mushroom 4"                  defaultToggle="0"/>
-          </MarkerCategory>
-          <MarkerCategory   name="sc4"  DisplayName="Center"         behavior="4" defaultToggle="0"                                                                  iconSize="0.4" resetLength="59"                triggerRange="5">
-            <MarkerCategory name="m1"   DisplayName="Mushroom 1"                  defaultToggle="1"/>
-            <MarkerCategory name="m2"   DisplayName="Mushroom 2"                  defaultToggle="0"/>
-            <MarkerCategory name="m3"   DisplayName="Mushroom 3"                  defaultToggle="0"/>
-            <MarkerCategory name="m4"   DisplayName="Mushroom 4"                  defaultToggle="0"/>
-          </MarkerCategory>
-          <MarkerCategory   name="sc5"  DisplayName="Minimal Eating" behavior="4" defaultToggle="0"                                                                  iconSize="0.4" resetLength="59"                triggerRange="5">
-            <MarkerCategory name="m1"   DisplayName="Mushroom 1"                  defaultToggle="1"/>
-            <MarkerCategory name="m2"   DisplayName="Mushroom 2"                  defaultToggle="0"/>
-            <MarkerCategory name="m3"   DisplayName="Mushroom 3"                  defaultToggle="0"/>
-          </MarkerCategory>          
-        </MarkerCategory>
-      </MarkerCategory>
-      <MarkerCategory       name="B2"   DisplayName="Trio"                                          fadeFar="4750" fadeNear="4500"/>
-      <MarkerCategory       name="B3"   DisplayName="Matthias"                                      fadeFar="2750" fadeNear="2500">
-        <MarkerCategory     name="c1"   DisplayName="Boundary"                                      fadeFar="150"  fadeNear="125"/>
-        <MarkerCategory     name="c2"   DisplayName="Wells"                                                                                                          iconSize="0.5"                  rotate-x="125"/>
-      </MarkerCategory>
+  <MarkerCategory     name="HMP"   DisplayName="Hero's Pack">
+    <MarkerCategory   name="W2_B1" DisplayName="Slothasor"   fadeFar="3500" fadeNear="3250" mapVisibility="0" minimapVisibility="0" iconSize="1">
+      <MarkerCategory name="c1"    DisplayName="Numbers"     color="31cc4a"/>        
+    </MarkerCategory>
+    <MarkerCategory   name="W2_B2" DisplayName="Trio"        fadeFar="4750" fadeNear="4500" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="W2_B3" DisplayName="Matthias"    fadeFar="2750" fadeNear="2500" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="c1"    DisplayName="Boundary"    fadeFar="500"  fadeNear="375"/>
+      <MarkerCategory name="c2"    DisplayName="Wells"                                                                              iconSize="0.5" rotate-x="125"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slothasor ========== -->
     <!-- Mushroom Numbers -->
-    <POI MapID="1149" xpos="208.926"  ypos="4.933"  zpos="25.220"   GUID="orHk62LZ8EyzraKa0gGXKg==" type="Raid.W2.B1.c1.sc1"    iconFile="Data/General/1.png"/>
-    <POI MapID="1149" xpos="174.536"  ypos="2.414"  zpos="-10.016"  GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="Raid.W2.B1.c1.sc1"    iconFile="Data/General/2.png"/>
-    <POI MapID="1149" xpos="192.923"  ypos="0.846"  zpos="-35.958"  GUID="y/MQHT7wCkagUkPZlpFa6A==" type="Raid.W2.B1.c1.sc1"    iconFile="Data/General/3.png"/>
-    <POI MapID="1149" xpos="224.968"  ypos="-0.177" zpos="-13.498"  GUID="K4lINKdqcEeKpuQMv9sU1g==" type="Raid.W2.B1.c1.sc1"    iconFile="Data/General/4.png"/>
-    <!-- Inner Strat -->
-    <POI MapID="1149" xpos="207.705"  ypos="2.167"  zpos="14.863"   GUID="VSr7cNnz90CtE9yc0N0MEQ==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="200.222"  ypos="1.171"  zpos="7.165"    GUID="P5Fo9fxtLEGhaPAq2yk3xA==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="199.235"  ypos="0.445"  zpos="-6.139"   GUID="DgOT1T/Fj0+hvh4ntZUjIA==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="187.797"  ypos="1.011"  zpos="-8.577"   GUID="8xijJCElYUSf28prk8UTmg==" type="Raid.W2.B1.c1.sc2.m1" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="177.11"   ypos="0.950"  zpos="-27.753"  GUID="KTYhnVkb40KYdBKCzzIsEA==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="189.093"  ypos="0.453"  zpos="-19.121"  GUID="ZweG42PbiUuk+tgDAGxfsQ==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="190.299"  ypos="0.531"  zpos="-33.916"  GUID="eVmBj3JgJEO/aSXv/kPqyg==" type="Raid.W2.B1.c1.sc2.m2" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="200.454"  ypos="-0.225" zpos="-20.464"  GUID="MnVFsJD/CkywT+LS/yqaIQ==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="212.753"  ypos="-0.555" zpos="-23.973"  GUID="D1gkyzsCKUC9eTmorMIGUA==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="212.396"  ypos="-0.060" zpos="-12.361"  GUID="Pnk9mQ0i3k2PtP5B3/1grw==" type="Raid.W2.B1.c1.sc2.m3" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="224.416"  ypos="0.250"  zpos="-1.644"   GUID="/GjTtgRYAUqJwEZ1+brtYQ==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="211.215"  ypos="0.943"  zpos="1.317"    GUID="OQiU472ChkOKDX1Kv99NAw==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="219.478"  ypos="1.887"  zpos="11.120"   GUID="0H5qVuOn6Ee0SVn0tX99Yg==" type="Raid.W2.B1.c1.sc2.m4" iconFile="Data/Raids/Mushy3.png"/>
-    <!-- Outer Strat -->
-    <POI MapID="1149" xpos="201.349"  ypos="4.022"  zpos="24.131"   GUID="8NzVWc05ME28bONHTqqtkg==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="194.629"  ypos="3.337"  zpos="16.667"   GUID="Imqw+X+bxUy4VERyi5M/ww==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="190.466"  ypos="1.295"  zpos="5.311"    GUID="ipOATJVVgUOQJOcBGtCwgQ==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="181.369"  ypos="1.841"  zpos="-2.562"   GUID="eF92Wx65uUO3xRzYS+r4Xw==" type="Raid.W2.B1.c1.sc3.m1" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="175.659"  ypos="1.552"  zpos="-12.696"  GUID="erK9BX0LQEWLf/yVouHnrw==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="177.11"   ypos="0.950"  zpos="-27.753"  GUID="VpKMAFxLGkSgRbUcp7b+fA==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="190.299"  ypos="0.531"  zpos="-33.916"  GUID="8vP4BAeDeUSHZTPn3PQdCA==" type="Raid.W2.B1.c1.sc3.m2" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="224.242"  ypos="-0.697" zpos="-16.022"  GUID="+b1xoFXazE2yBtLO2b/2QQ==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="221.84"   ypos="-0.675" zpos="-26.657"  GUID="pzfHrb9Bsk+iTn3N+0qDCA==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="213.227"  ypos="-0.674" zpos="-31.066"  GUID="2A7sqG2fn0mt16v892niXg==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="203.922"  ypos="-0.429" zpos="-33.969"  GUID="hk3snTwuzkKvMdeTmKC1Nw==" type="Raid.W2.B1.c1.sc3.m3" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="224.416"  ypos="0.250"  zpos="-1.644"   GUID="oU9mzz7tz0iMoybdvceHyA==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="219.478"  ypos="1.887"  zpos="11.120"   GUID="HPCQEQJwbkObyzlAf4oMvA==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="207.705"  ypos="2.167"  zpos="14.863"   GUID="Rkh5ULe/oUe7baYjfWuz0w==" type="Raid.W2.B1.c1.sc3.m4" iconFile="Data/Raids/Mushy3.png"/>
-    <!-- Center Strat -->
-    <POI MapID="1149" xpos="207.705"  ypos="2.167"  zpos="14.863"   GUID="emKcFJeCM02wTJLiXjZjsg==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="200.222"  ypos="1.171"  zpos="7.165"    GUID="EIu0nLucX0O80l1gFdG9Gg==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="199.235"  ypos="0.445"  zpos="-6.139"   GUID="5AaGdEePu02NP25RC+8s7g==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy3.png"/>
-    <POI MapID="1149" xpos="187.797"  ypos="1.011"  zpos="-8.577"   GUID="jxRFcfUCf0uNCiL5Bvq7Fw==" type="Raid.W2.B1.c1.sc4.m1" iconFile="Data/Raids/Mushy4.png"/>
-    <POI MapID="1149" xpos="189.093"  ypos="0.453"  zpos="-19.121"  GUID="TXuMLsXjF0+wTPLVrl0oxg==" type="Raid.W2.B1.c1.sc4.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="200.454"  ypos="-0.225" zpos="-20.464"  GUID="MJdc9j22hE6c/rExa0SiMA==" type="Raid.W2.B1.c1.sc4.m3" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="199.235"  ypos="0.445"  zpos="-6.139"   GUID="0wbUf4vGf0+ylL27ULhdpw==" type="Raid.W2.B1.c1.sc4.m4" iconFile="Data/Raids/Mushy1.png"/>
-    <!-- Minimal Eating Strat -->
-    <POI MapID="1149" xpos="207.705"  ypos="2.167"  zpos="14.863"   GUID="d/Jvf620fEaKO8NrH29EuQ==" type="Raid.W2.B1.c1.sc5.m1" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="200.222"  ypos="1.171"  zpos="7.165"    GUID="Me/WfeiAukS3PRlcd6zgBg==" type="Raid.W2.B1.c1.sc5.m1" iconFile="Data/Raids/Mushy2.png"/>
-    <POI MapID="1149" xpos="211.215"  ypos="0.943"  zpos="1.317"    GUID="xdRvR545Aku0F/s8m7fxJQ==" type="Raid.W2.B1.c1.sc5.m2" iconFile="Data/Raids/Mushy1.png"/>
-    <POI MapID="1149" xpos="199.235"  ypos="0.445"  zpos="-6.139"   GUID="XfoxDPhR60ODplqNmD3LNw==" type="Raid.W2.B1.c1.sc5.m3" iconFile="Data/Raids/Mushy1.png"/>
+    <POI MapID="1149" xpos="208.926"  ypos="4.933"  zpos="25.220"   GUID="orHk62LZ8EyzraKa0gGXKg==" type="HMP.W2_B1.c1"                             iconFile="Data/General/1.png"/>
+    <POI MapID="1149" xpos="174.536"  ypos="2.414"  zpos="-10.016"  GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="HMP.W2_B1.c1"                             iconFile="Data/General/2.png"/>
+    <POI MapID="1149" xpos="192.923"  ypos="0.846"  zpos="-35.958"  GUID="y/MQHT7wCkagUkPZlpFa6A==" type="HMP.W2_B1.c1"                             iconFile="Data/General/3.png"/>
+    <POI MapID="1149" xpos="224.968"  ypos="-0.177" zpos="-13.498"  GUID="K4lINKdqcEeKpuQMv9sU1g==" type="HMP.W2_B1.c1"                             iconFile="Data/General/4.png"/>
     <!-- ========== Trio ========== -->
     <!-- Beehives -->
-    <POI MapID="1149" xpos="-1.953"   ypos="-0.132" zpos="-235.489" GUID="eoxxKScsskiX+qOPk1EYdQ==" type="Raid.W2.B2"                                       iconFile="Data/General/1.png"       iconSize="1.2" rotate-x="185" rotate-y="-3" rotate-z="115"/>
-    <POI MapID="1149" xpos="-0.567"   ypos="-0.619" zpos="-290.812" GUID="uF937Qyrt0qXElHSMUW5nw==" type="Raid.W2.B2"                                       iconFile="Data/General/2.png"       iconSize="1.2" rotate-x="180"               rotate-z="45"/>
-    <POI MapID="1149" xpos="-32.935"  ypos="4.176"  zpos="-221.024" GUID="yrpc6HFBLUa1dwelKFK/vQ==" type="Raid.W2.B2"                                       iconFile="Data/General/3.png"       iconSize="1.2" rotate-x="162"               rotate-z="225"/>
+    <POI MapID="1149" xpos="-1.953"   ypos="-0.132" zpos="-235.489" GUID="eoxxKScsskiX+qOPk1EYdQ==" type="HMP.W2_B2"                                iconFile="Data/General/1.png"       iconSize="1.2" rotate-x="185" rotate-y="-3" rotate-z="115"/>
+    <POI MapID="1149" xpos="-0.567"   ypos="-0.619" zpos="-290.812" GUID="uF937Qyrt0qXElHSMUW5nw==" type="HMP.W2_B2"                                iconFile="Data/General/2.png"       iconSize="1.2" rotate-x="180"               rotate-z="45"/>
+    <POI MapID="1149" xpos="-32.935"  ypos="4.176"  zpos="-221.024" GUID="yrpc6HFBLUa1dwelKFK/vQ==" type="HMP.W2_B2"                                iconFile="Data/General/3.png"       iconSize="1.2" rotate-x="162"               rotate-z="225"/>
     <!-- Oils -->
-    <POI MapID="1149" xpos="-30.506"  ypos="2.374"  zpos="-238.025" GUID="/3CTOpcuskeYgQorlQ/0IQ==" type="Raid.W2.B2"           alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="183" rotate-y="5"/>
+    <POI MapID="1149" xpos="-30.506"  ypos="2.374"  zpos="-238.025" GUID="/3CTOpcuskeYgQorlQ/0IQ==" type="HMP.W2_B2"    alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="183" rotate-y="5"/>
     <!-- Beehive Stack -->
-    <POI MapID="1149" xpos="-16.434"  ypos="3.023"  zpos="-211.941" GUID="m4f94Wsn90GHWJhUjoVrnw==" type="Raid.W2.B2"           alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="185" rotate-y="-1"/>
+    <POI MapID="1149" xpos="-16.434"  ypos="3.023"  zpos="-211.941" GUID="m4f94Wsn90GHWJhUjoVrnw==" type="HMP.W2_B2"    alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="185" rotate-y="-1"/>
     <!-- ========== Matthias ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W2B3-Bound.trl" animSpeed="0" alpha="0.75"                      type="Raid.W2.B3.c1"                                    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W2B3-Bound.trl" animSpeed="0" alpha="0.75"                      type="HMP.W2_B3.c1"                             texture="Data/Boundary/RedLine.png"/>
     <!-- Wells -->
-    <POI MapID="1149" xpos="-175.004" ypos="132.375" zpos="125.376" GUID="pCa90+bN6k2VQkym8Ova6w==" type="Raid.W2.B3.c2"                                    iconFile="Data/General/arrow.png"                                               rotate-z="315"/>
-    <POI MapID="1149" xpos="-175.313" ypos="132.375" zpos="174.125" GUID="C4QcRORmNU+5rMn682ag9g==" type="Raid.W2.B3.c2"                                    iconFile="Data/General/circle.png"                                              rotate-z="225"/>
-    <POI MapID="1149" xpos="-126.433" ypos="132.375" zpos="174.413" GUID="bAdGkZB4kkisSFhyPTn1bw==" type="Raid.W2.B3.c2"                                    iconFile="Data/General/heart.png"                                               rotate-z="135"/>
-    <POI MapID="1149" xpos="-126.271" ypos="132.375" zpos="125.600" GUID="s6fhrG1hNkmW5cJJHZsbJg==" type="Raid.W2.B3.c2"                                    iconFile="Data/General/square.png"                                              rotate-z="45"/>
+    <POI MapID="1149" xpos="-175.004" ypos="132.375" zpos="125.376" GUID="pCa90+bN6k2VQkym8Ova6w==" type="HMP.W2_B3.c2"                             iconFile="Data/General/arrow.png"                                               rotate-z="315"/>
+    <POI MapID="1149" xpos="-175.313" ypos="132.375" zpos="174.125" GUID="C4QcRORmNU+5rMn682ag9g==" type="HMP.W2_B3.c2"                             iconFile="Data/General/circle.png"                                              rotate-z="225"/>
+    <POI MapID="1149" xpos="-126.433" ypos="132.375" zpos="174.413" GUID="bAdGkZB4kkisSFhyPTn1bw==" type="HMP.W2_B3.c2"                             iconFile="Data/General/heart.png"                                               rotate-z="135"/>
+    <POI MapID="1149" xpos="-126.271" ypos="132.375" zpos="125.600" GUID="s6fhrG1hNkmW5cJJHZsbJg==" type="HMP.W2_B3.c2"                             iconFile="Data/General/square.png"                                              rotate-z="45"/>
   </POIs>
   
   
 <!-- ======================================== STRONGHOLD OF THE FAITHFUL =================================================================================================================================================== -->
-  <MarkerCategory         name="Raid" DisplayName="Raids">
-    <MarkerCategory       name="W3"   DisplayName="Stronghold of the Faithful">
-      <MarkerCategory     name="B2"   DisplayName="Keep Construct"                                                                                          iconFile="Data/General/dot.png" iconSize="0.5"  rotate-x="180">
-        <MarkerCategory   name="c1"   DisplayName="Boundary"                                                                 fadeFar="175"  fadeNear="150"/>
-        <MarkerCategory   name="c2"   DisplayName="Green Circles"              alpha="0.65" color="30cf5a"                   fadeFar="2500" fadeNear="2000"/>
-        <MarkerCategory   name="c3"   DisplayName="Rifts"                                   color="E44949" defaultToggle="0" fadeFar="2500" fadeNear="2000"/>
-        <MarkerCategory   name="c4"   DisplayName="1-orb Pull"                              color="a44de8"                   fadeFar="2500" fadeNear="2000"/>
-      </MarkerCategory>
-        <MarkerCategory   name="B3"   DisplayName="Twisted Castle">
-          <MarkerCategory name="c1"   DisplayName="1st Button Skip"/>
-          <MarkerCategory name="c2"   DisplayName="Buttons"                                 color="d600d6"                                                                                  iconSize="0.75"/>
-          <MarkerCategory name="c3"   DisplayName="Button Paths"                            color="d600d6"                                                                                  iconSize="0.5"/>
-        </MarkerCategory>
-      <MarkerCategory     name="B4"   DisplayName="Xera"                                    color="cfc9a9"                   fadeFar="3000" fadeNear="2500"                                 iconSize="1"    rotate-x="90"/>
+  <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
+    <MarkerCategory     name="W3_B2" DisplayName="Keep Construct"                              iconFile="Data/General/dot.png" iconSize="0.5"  rotate-x="180" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="500"  fadeNear="375"/>
+      <MarkerCategory   name="c2"    DisplayName="Green Circles"   alpha="0.65" color="30cf5a" fadeFar="2500" fadeNear="2000"/>
+      <MarkerCategory   name="c3"    DisplayName="Rifts"                        color="E44949" fadeFar="2500" fadeNear="2000"/>
+      <MarkerCategory   name="c4"    DisplayName="1-orb Pull"                   color="a44de8" fadeFar="2500" fadeNear="2000"/>
     </MarkerCategory>
+      <MarkerCategory   name="W3_B3" DisplayName="Twisted Castle">
+        <MarkerCategory name="c1"    DisplayName="1st Button Skip"                                                                                            mapVisibility="0" minimapVisibility="0"/>
+        <MarkerCategory name="c2"    DisplayName="Buttons"                      color="d600d6"                                 iconSize="0.75"/>
+        <MarkerCategory name="c3"    DisplayName="Button Paths"                 color="d600d6"                                 iconSize="0.5"                 mapVisibility="0" minimapVisibility="0"/>
+      </MarkerCategory>
+    <MarkerCategory     name="W3_B4" DisplayName="Xera"                         color="cfc9a9" fadeFar="3000" fadeNear="2500"  iconSize="1"    rotate-x="90"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Keep Construct ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W3B2-Bound.trl" animSpeed="0" alpha="0.85"                      type="Raid.W3.B2.c1"                                texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W3B2-Bound.trl" animSpeed="0" alpha="0.85"                      type="HMP.W3_B2.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Green Circles -->
-    <POI MapID="1156" xpos="-97.048"  ypos="148.556" zpos="255.802" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="Raid.W3.B2.c2"/>
-    <POI MapID="1156" xpos="-80.653"  ypos="148.556" zpos="229.251" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" type="Raid.W3.B2.c2"/>
-    <POI MapID="1156" xpos="-113.822" ypos="148.556" zpos="229.125" GUID="fg81J0pga0SNm4K8SUYn7Q==" type="Raid.W3.B2.c2"/>
+    <POI MapID="1156" xpos="-97.048"  ypos="148.556" zpos="255.802" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-80.653"  ypos="148.556" zpos="229.251" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-113.822" ypos="148.556" zpos="229.125" GUID="fg81J0pga0SNm4K8SUYn7Q==" type="HMP.W3_B2.c2"/>
     <!-- Rifts -->
-    <POI MapID="1156" xpos="-109.351" ypos="148.551" zpos="251.744" GUID="4MohG8eTBU2qAk2/Ochs5w==" type="Raid.W3.B2.c3"/>
-    <POI MapID="1156" xpos="-115.455" ypos="148.551" zpos="229.086" GUID="Fn3ecIHlnE6OHuCgXAKqrg==" type="Raid.W3.B2.c3"/>
-    <POI MapID="1156" xpos="-85.363"  ypos="148.551" zpos="252.208" GUID="q1c3bnDY6E2y+VDUJPcDBw==" type="Raid.W3.B2.c3"/>
-    <POI MapID="1156" xpos="-80.025"  ypos="148.551" zpos="229.034" GUID="BHmRO53uKk+MazF3TBR3xw==" type="Raid.W3.B2.c3"/>
-    <POI MapID="1156" xpos="-98.227"  ypos="148.551" zpos="218.485" GUID="rk3s849nHUe9v3JTUBN1rA==" type="Raid.W3.B2.c3"/>
+    <POI MapID="1156" xpos="-109.351" ypos="148.551" zpos="251.744" GUID="4MohG8eTBU2qAk2/Ochs5w==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-115.455" ypos="148.551" zpos="229.086" GUID="Fn3ecIHlnE6OHuCgXAKqrg==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-85.363"  ypos="148.551" zpos="252.208" GUID="q1c3bnDY6E2y+VDUJPcDBw==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-80.025"  ypos="148.551" zpos="229.034" GUID="BHmRO53uKk+MazF3TBR3xw==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-98.227"  ypos="148.551" zpos="218.485" GUID="rk3s849nHUe9v3JTUBN1rA==" type="HMP.W3_B2.c3"/>
     <!-- 1-Orb Pull -->
-    <POI MapID="1156" xpos="-107.558" ypos="148.552" zpos="249.637" GUID="3jkzHcJ96kaEueETxjSFEQ==" type="Raid.W3.B2.c4"/>
+    <POI MapID="1156" xpos="-107.558" ypos="148.552" zpos="249.637" GUID="3jkzHcJ96kaEueETxjSFEQ==" type="HMP.W3_B2.c4"/>
     <!-- ========== Twisted Castle ========== -->
     <!-- ===== First Button Skip ===== -->
     <!-- Elementalist -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/EleFGS3-2.png" iconSize="0.5"  profession="elementalist" rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Ele-1y.png"    iconSize="0.5"  profession="elementalist"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="eqVbCz9KWkSH8sqrlyHtTw==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/EleFGS3-2.png" iconSize="0.5"  profession="elementalist" rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="T9yS7b74PUqCenRTNuQnxA==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Ele-1y.png"    iconSize="0.5"  profession="elementalist"/>
     <!-- Engineer -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="YXzZFmwfjUeFCysmQHMQgQ==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/EngRB-2.png"   iconSize="0.5"  profession="engineer"     rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="+3j8EPyPMUG1KuiJFaYKBQ==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Eng-1y.png"    iconSize="0.5"  profession="engineer"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="YXzZFmwfjUeFCysmQHMQgQ==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/EngRB-2.png"   iconSize="0.5"  profession="engineer"     rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="+3j8EPyPMUG1KuiJFaYKBQ==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Eng-1y.png"    iconSize="0.5"  profession="engineer"/>
     <!-- Guardian -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="AhmmG5t5MUSnZQMY3c3pjg==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/GrdGS3-2.png"  iconSize="0.5"  profession="guardian"     rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="eVrg7wVKD06T/DJ6JWOA2Q==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Grd-1y.png"    iconSize="0.5"  profession="guardian"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="AhmmG5t5MUSnZQMY3c3pjg==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/GrdGS3-2.png"  iconSize="0.5"  profession="guardian"     rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="eVrg7wVKD06T/DJ6JWOA2Q==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Grd-1y.png"    iconSize="0.5"  profession="guardian"/>
     <!-- Mesmer - Mirage -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="WKnCPJUkSEOl6BlaPIvnNg==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/MirSw1-2.png"  iconSize="0.5"  specialization="59"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="vWuQ6Vws/EKCxR9PASW3fQ==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Mir-1y.png"    iconSize="0.5"  specialization="59"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="WKnCPJUkSEOl6BlaPIvnNg==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/MirSw1-2.png"  iconSize="0.5"  specialization="59"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="vWuQ6Vws/EKCxR9PASW3fQ==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Mir-1y.png"    iconSize="0.5"  specialization="59"/>
     <!-- Necromancer - Reaper -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="kOQj9Reb+Uq6CP+w6njuLg==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/ReaSh2-2.png"  iconSize="0.5"  specialization="34"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="P8esWOWdhUqGcGSG+VW+Gw==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rea-1y.png"    iconSize="0.5"  specialization="34"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="kOQj9Reb+Uq6CP+w6njuLg==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/ReaSh2-2.png"  iconSize="0.5"  specialization="34"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="P8esWOWdhUqGcGSG+VW+Gw==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rea-1y.png"    iconSize="0.5"  specialization="34"/>
     <!-- Ranger -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="j0Z+0s33wEu4lrA5HfjwTg==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="8"        rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="TUJOW69vPEu/H+bSuRzRIg==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="8"/>
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="MUvFuEbBv0eJ5T4ErjtcPA==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="25"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="80KnNGqinEKRDxxet2icSg==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="25"/>
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="iVLjCfD9D0+nZvnHZqkofg==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="30"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="fGldwDbdBEWa4kyBlftXoA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="30"/>
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="awEPHbycuUSsTklrdjGdlg==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="32"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="jdGtXRUSHEKGddg4fyKe7w==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="32"/>
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="ErSClbNsqUe1G494UaEJPw==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="33"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="ah6h0D2gBUG7nky09WYWQA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="33"/>
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="sPoFMdP+EUOnKy1iEpdj7A==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="55"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="FoNx6ELjOUWz5VxC/mrF4g==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="55"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="j0Z+0s33wEu4lrA5HfjwTg==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="8"        rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="TUJOW69vPEu/H+bSuRzRIg==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="8"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="MUvFuEbBv0eJ5T4ErjtcPA==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="25"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="80KnNGqinEKRDxxet2icSg==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="25"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="iVLjCfD9D0+nZvnHZqkofg==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="30"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="fGldwDbdBEWa4kyBlftXoA==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="30"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="awEPHbycuUSsTklrdjGdlg==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="32"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="jdGtXRUSHEKGddg4fyKe7w==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="32"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="ErSClbNsqUe1G494UaEJPw==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="33"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="ah6h0D2gBUG7nky09WYWQA==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="33"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="sPoFMdP+EUOnKy1iEpdj7A==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/RgrSw2-2.png"  iconSize="0.5"  specialization="55"       rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="FoNx6ELjOUWz5VxC/mrF4g==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/Rgr-1y.png"    iconSize="0.5"  specialization="55"/>
     <!-- Ranger - Druid -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="etVGRGedw0CFzF0VGR4gTQ==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DRSt3-2.png"   iconSize="0.5"  specialization="5"        rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-26.707"  ypos="110.33"  zpos="81.131"  GUID="+4M1/nyQ7ECkacMqKVSu0w==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/DR-1y.png"     iconSize="0.4"  specialization="5"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="etVGRGedw0CFzF0VGR4gTQ==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DRSt3-2.png"   iconSize="0.5"  specialization="5"        rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-26.707"  ypos="110.33"  zpos="81.131"  GUID="+4M1/nyQ7ECkacMqKVSu0w==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/DR-1y.png"     iconSize="0.4"  specialization="5"/>
     <!-- Thief - Daredevil -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="dkDU9UzK9EOotHADqfWHkQ==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DDdj-2.png"    iconSize="0.5"  specialization="7"        rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="T9yS7b74PUqCenRTNuQnxA==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/DD-1y.png"     iconSize="0.5"  specialization="7"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="dkDU9UzK9EOotHADqfWHkQ==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/DDdj-2.png"    iconSize="0.5"  specialization="7"        rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="T9yS7b74PUqCenRTNuQnxA==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/DD-1y.png"     iconSize="0.5"  specialization="7"/>
     <!-- Warrior -->
-    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="Lj1A21ERjkWfC1PVLv++FQ==" type="Raid.W3.B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/WarSw2-2.png"  iconSize="0.5"  profession="warrior"      rotate-x="170" rotate-y="5"  rotate-z="60"/>
-    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="rY9FQOfSHkaW3JRGY1KV2w==" type="Raid.W3.B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/War-1y.png"    iconSize="0.5"  profession="warrior"/>
+    <POI MapID="1156" xpos="-54.329"  ypos="119.956" zpos="92.315"  GUID="Lj1A21ERjkWfC1PVLv++FQ==" type="HMP.W3_B3.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/WarSw2-2.png"  iconSize="0.5"  profession="warrior"      rotate-x="170" rotate-y="5"  rotate-z="60"/>
+    <POI MapID="1156" xpos="-37.327"  ypos="94.002"  zpos="76.853"  GUID="rY9FQOfSHkaW3JRGY1KV2w==" type="HMP.W3_B3.c1" fadeFar="1850" fadeNear="1600" iconFile="Data/Class/Normal/War-1y.png"    iconSize="0.5"  profession="warrior"/>
     <!-- ===== Buttons ===== -->
-    <POI MapID="1156" xpos="-27.900"  ypos="94.336"  zpos="74.211"  GUID="t0VldGp1GESAIL3ssiIKUg==" type="Raid.W3.B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/General/1.png"/>
-    <POI MapID="1156" xpos="-03.053"  ypos="164.135" zpos="-57.326" GUID="vSfb/vVRzEGATQAGG49frA==" type="Raid.W3.B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/General/2.png"/>
-    <POI MapID="1156" xpos="-156.468" ypos="136.599" zpos="-65.795" GUID="H3eTIC2UEkyl5pf+mSYL5Q==" type="Raid.W3.B3.c2" fadeFar="3000" fadeNear="2500" iconFile="Data/General/3.png"/>
-    <POI MapID="1156" xpos="-84.908"  ypos="137.374" zpos="-20.908" GUID="qYG1gAP260eMQotj3cMaPA==" type="Raid.W3.B3.c2" fadeFar="2500" fadeNear="2000" iconFile="Data/General/4.png"/>
-    <POI MapID="1156" xpos="-25.004"  ypos="190.441" zpos="31.264"  GUID="cYXiWIsxtkqw7oQgwQQCRw==" type="Raid.W3.B3.c2" fadeFar="3250" fadeNear="2750" iconFile="Data/General/5.png"/>
+    <POI MapID="1156" xpos="-27.900"  ypos="94.336"  zpos="74.211"  GUID="t0VldGp1GESAIL3ssiIKUg==" type="HMP.W3_B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/General/1.png"/>
+    <POI MapID="1156" xpos="-03.053"  ypos="164.135" zpos="-57.326" GUID="vSfb/vVRzEGATQAGG49frA==" type="HMP.W3_B3.c2" fadeFar="2000" fadeNear="1500" iconFile="Data/General/2.png"/>
+    <POI MapID="1156" xpos="-156.468" ypos="136.599" zpos="-65.795" GUID="H3eTIC2UEkyl5pf+mSYL5Q==" type="HMP.W3_B3.c2" fadeFar="3000" fadeNear="2500" iconFile="Data/General/3.png"/>
+    <POI MapID="1156" xpos="-84.908"  ypos="137.374" zpos="-20.908" GUID="qYG1gAP260eMQotj3cMaPA==" type="HMP.W3_B3.c2" fadeFar="2500" fadeNear="2000" iconFile="Data/General/4.png"/>
+    <POI MapID="1156" xpos="-25.004"  ypos="190.441" zpos="31.264"  GUID="cYXiWIsxtkqw7oQgwQQCRw==" type="HMP.W3_B3.c2" fadeFar="3250" fadeNear="2750" iconFile="Data/General/5.png"/>
     <!-- ===== Path ===== -->
-    <POI MapID="1156" xpos="-110.690" ypos="141.022" zpos="143.800" GUID="4K4zw9CiaEmk6tDCRzHzUg==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/1.png"                                                        rotate-x="90"                 rotate-z="314"/>
-    <POI MapID="1156" xpos="-68.403"  ypos="141.022" zpos="164.239" GUID="peUKcGILAUaKrNd1wWSnjA==" type="Raid.W3.B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/2.png"                                                        rotate-x="90"                 rotate-z="129"/>
-    <POI MapID="1156" xpos="-68.403"  ypos="143.022" zpos="164.239" GUID="sX0So1xIw06sOVe/DTGGPQ==" type="Raid.W3.B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/3.png"                                                        rotate-x="90"                 rotate-z="129"/>
-    <POI MapID="1156" xpos="-64.517"  ypos="141.022" zpos="159.358" GUID="PCWU9nxTwkOrQXCRIA6a+w==" type="Raid.W3.B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/4.png"                                                        rotate-x="90"                 rotate-z="129"/>
-    <POI MapID="1156" xpos="-64.517"  ypos="143.022" zpos="159.358" GUID="I1s/Y8CRmUCvy+vrXxUAfQ==" type="Raid.W3.B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/5.png"                                                        rotate-x="90"                 rotate-z="129"/>
-    <POI MapID="1156" xpos="-48.535"  ypos="122.146" zpos="107.354" GUID="fPFRYsy8x02t0LiUwndEhA==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/2.png"                                                        rotate-x="90"  rotate-y="3"   rotate-z="135"/>
-    <POI MapID="1156" xpos="-76.041"  ypos="123.175" zpos="80.371"  GUID="NQzwvsTD10OrfjeJtHDH0g==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/3.png"                                                        rotate-x="87"  rotate-y="-5"  rotate-z="315"/>
-    <POI MapID="1156" xpos="-76.041"  ypos="125.175" zpos="80.571"  GUID="VXhnAFvZxkWv7CF1byctvg==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/4.png"                                                        rotate-x="87"  rotate-y="-5"  rotate-z="315"/>
-    <POI MapID="1156" xpos="-82.510"  ypos="122.730" zpos="86.835"  GUID="SIC6u0kTNECzz5I0KbaDdQ==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/5.png"                                                        rotate-x="87"  rotate-y="-5"  rotate-z="315"/>    
-    <POI MapID="1156" xpos="-96.561"  ypos="192.244" zpos="-39.265" GUID="+fg+a9wzF0SLDlSLI4gf2w==" type="Raid.W3.B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/5.png"                                                        rotate-x="90"  rotate-y="-3"  rotate-z="180"/>
-    <POI MapID="1156" xpos="-94.239"  ypos="189.900" zpos="-52.558" GUID="3XEqUsZs0UOCPneTyymtfQ==" type="Raid.W3.B3.c3" fadeFar="1500" fadeNear="1000" iconFile="Data/General/MesP-1.png"                         profession="mesmer"       rotate-x="180" rotate-y="-5"  rotate-z="180"/>
-    <POI MapID="1156" xpos="-106.872" ypos="136.531" zpos="-27.209" GUID="HrP/GT7ubU6EeLbHeB2mhw==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/General/MesP-2.png"                         profession="mesmer"       rotate-x="180"                rotate-z="180"/>
-    <POI MapID="1156" xpos="-175.856" ypos="201.627" zpos="29.196"  GUID="EBJqJD8YJ06CFgykCTGJzg==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/General/5.png"                                                        rotate-x="90"/>
-    <POI MapID="1156" xpos="-177.504" ypos="201.730" zpos="-10.890" GUID="DbSwUSuAK0au7TUjxxkpMw==" type="Raid.W3.B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/General/4.png"                                                        rotate-x="90"/>
+    <POI MapID="1156" xpos="-110.690" ypos="141.022" zpos="143.800" GUID="4K4zw9CiaEmk6tDCRzHzUg==" type="HMP.W3_B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/1.png"                                                        rotate-x="90"                 rotate-z="314"/>
+    <POI MapID="1156" xpos="-68.403"  ypos="141.022" zpos="164.239" GUID="peUKcGILAUaKrNd1wWSnjA==" type="HMP.W3_B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/2.png"                                                        rotate-x="90"                 rotate-z="129"/>
+    <POI MapID="1156" xpos="-68.403"  ypos="143.022" zpos="164.239" GUID="sX0So1xIw06sOVe/DTGGPQ==" type="HMP.W3_B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/3.png"                                                        rotate-x="90"                 rotate-z="129"/>
+    <POI MapID="1156" xpos="-64.517"  ypos="141.022" zpos="159.358" GUID="PCWU9nxTwkOrQXCRIA6a+w==" type="HMP.W3_B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/4.png"                                                        rotate-x="90"                 rotate-z="129"/>
+    <POI MapID="1156" xpos="-64.517"  ypos="143.022" zpos="159.358" GUID="I1s/Y8CRmUCvy+vrXxUAfQ==" type="HMP.W3_B3.c3" fadeFar="2250" fadeNear="1750" iconFile="Data/General/5.png"                                                        rotate-x="90"                 rotate-z="129"/>
+    <POI MapID="1156" xpos="-48.535"  ypos="122.146" zpos="107.354" GUID="fPFRYsy8x02t0LiUwndEhA==" type="HMP.W3_B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/2.png"                                                        rotate-x="90"  rotate-y="3"   rotate-z="135"/>
+    <POI MapID="1156" xpos="-76.041"  ypos="123.175" zpos="80.371"  GUID="NQzwvsTD10OrfjeJtHDH0g==" type="HMP.W3_B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/3.png"                                                        rotate-x="87"  rotate-y="-5"  rotate-z="315"/>
+    <POI MapID="1156" xpos="-76.041"  ypos="125.175" zpos="80.571"  GUID="VXhnAFvZxkWv7CF1byctvg==" type="HMP.W3_B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/4.png"                                                        rotate-x="87"  rotate-y="-5"  rotate-z="315"/>
+    <POI MapID="1156" xpos="-82.510"  ypos="122.730" zpos="86.835"  GUID="SIC6u0kTNECzz5I0KbaDdQ==" type="HMP.W3_B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/5.png"                                                        rotate-x="87"  rotate-y="-5"  rotate-z="315"/>    
+    <POI MapID="1156" xpos="-96.561"  ypos="192.244" zpos="-39.265" GUID="+fg+a9wzF0SLDlSLI4gf2w==" type="HMP.W3_B3.c3" fadeFar="2000" fadeNear="1500" iconFile="Data/General/5.png"                                                        rotate-x="90"  rotate-y="-3"  rotate-z="180"/>
+    <POI MapID="1156" xpos="-94.239"  ypos="189.900" zpos="-52.558" GUID="3XEqUsZs0UOCPneTyymtfQ==" type="HMP.W3_B3.c3" fadeFar="1500" fadeNear="1000" iconFile="Data/General/MesP-1.png"                         profession="mesmer"       rotate-x="180" rotate-y="-5"  rotate-z="180"/>
+    <POI MapID="1156" xpos="-106.872" ypos="136.531" zpos="-27.209" GUID="HrP/GT7ubU6EeLbHeB2mhw==" type="HMP.W3_B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/General/MesP-2.png"                         profession="mesmer"       rotate-x="180"                rotate-z="180"/>
+    <POI MapID="1156" xpos="-175.856" ypos="201.627" zpos="29.196"  GUID="EBJqJD8YJ06CFgykCTGJzg==" type="HMP.W3_B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/General/5.png"                                                        rotate-x="90"/>
+    <POI MapID="1156" xpos="-177.504" ypos="201.730" zpos="-10.890" GUID="DbSwUSuAK0au7TUjxxkpMw==" type="HMP.W3_B3.c3" fadeFar="3000" fadeNear="2500" iconFile="Data/General/4.png"                                                        rotate-x="90"/>
     <!-- ========== Xera ========== -->
     <!-- Tank Markers -->
-    <POI MapID="1156" xpos="-98.724"  ypos="512.354" zpos="-68.167" GUID="qgI+oAkQD0y//JFZYlBNaw==" type="Raid.W3.B4"                                   iconFile="Data/General/1.png"                                                                                      rotate-z="240"/>
-    <POI MapID="1156" xpos="-64.367"  ypos="512.354" zpos="-58.505" GUID="e3TSFGqltESwLLN+jeAnfA==" type="Raid.W3.B4"                                   iconFile="Data/General/2.png"                                                                                      rotate-z="150"/>
-    <POI MapID="1156" xpos="-55.524"  ypos="512.354" zpos="-92.326" GUID="sj40sryhwUiOQ2gCcaI1MQ==" type="Raid.W3.B4"                                   iconFile="Data/General/3.png"                                                                                      rotate-z="60"/>
+    <POI MapID="1156" xpos="-98.724"  ypos="512.354" zpos="-68.167" GUID="qgI+oAkQD0y//JFZYlBNaw==" type="HMP.W3_B4"                                   iconFile="Data/General/1.png"                                                                                      rotate-z="240"/>
+    <POI MapID="1156" xpos="-64.367"  ypos="512.354" zpos="-58.505" GUID="e3TSFGqltESwLLN+jeAnfA==" type="HMP.W3_B4"                                   iconFile="Data/General/2.png"                                                                                      rotate-z="150"/>
+    <POI MapID="1156" xpos="-55.524"  ypos="512.354" zpos="-92.326" GUID="sj40sryhwUiOQ2gCcaI1MQ==" type="HMP.W3_B4"                                   iconFile="Data/General/3.png"                                                                                      rotate-z="60"/>
   </POIs>
   
   
 <!-- ======================================== BASTION OF THE PENITENT ====================================================================================================================================================== -->
-  <MarkerCategory         name="Raid" DisplayName="Raids">
-    <MarkerCategory       name="W4"   DisplayName="Bastion of the Penitent">
-      <MarkerCategory     name="B1"   DisplayName="Cairn"                                                                 fadeFar="4000" fadeNear="3500">
-        <MarkerCategory   name="c1"   DisplayName="Agony Spots"             alpha="0.75" color="cc3535"                                                  iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="180" rotate-z="15">
-          <MarkerCategory name="sc1"  DisplayName="Kite"/>
-          <MarkerCategory name="sc2"  DisplayName="No-Kite"                                             defaultToggle="0"/>
-        </MarkerCategory>
+  <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
+    <MarkerCategory     name="W4_B1" DisplayName="Cairn"                                   fadeFar="4000" fadeNear="3500"                                                     mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Agony Spots" alpha="0.75" color="cc3535"                                iconFile="Data/General/dot.png"     iconSize="0.5"  rotate-x="180" rotate-z="15">
+        <MarkerCategory name="sc1"   DisplayName="Kite"/>
+        <MarkerCategory name="sc2"   DisplayName="No-Kite"/>
       </MarkerCategory>
-      <MarkerCategory     name="B3"   DisplayName="Samarog">
-        <MarkerCategory   name="c1"   DisplayName="Boundary"                                                              fadeFar="275"  fadeNear="250"/>
-        <MarkerCategory   name="c2"   DisplayName="Door"                                                                  fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/TrueSight.png" iconSize="0.35"/>
-      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory     name="W4_B3" DisplayName="Samarog">
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                fadeFar="500"  fadeNear="375"                                                      mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory   name="c2"    DisplayName="Door"        cull="CounterClockwise"     fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/TrueSight.png" iconSize="0.25"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ==================== Cairn ==================== -->
     <!-- Agony Markers -->
-    <POI MapID="1188" xpos="369.295" ypos="32.120"  zpos="52.475"  GUID="wedtPfCXTEugS91HgQoMkg==" type="Raid.W4.B1.c1.sc1"/>
-    <POI MapID="1188" xpos="359.920" ypos="32.120"  zpos="50.043"  GUID="sKrUfpjhCkqx1MObpkeN/w==" type="Raid.W4.B1.c1.sc1"/>
-    <POI MapID="1188" xpos="361.518" ypos="32.120"  zpos="63.235"  GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="Raid.W4.B1.c1.sc1"/>
-    <POI MapID="1188" xpos="369.301" ypos="32.120"  zpos="34.189"  GUID="xXkIzhbDjkC7KmaMBOeoag==" type="Raid.W4.B1.c1.sc1"/>
-    <POI MapID="1188" xpos="359.106" ypos="32.120"  zpos="50.503"  GUID="AYCnJxIgn0+DxviFHb7TBg==" type="Raid.W4.B1.c1.sc2"/>
-    <POI MapID="1188" xpos="368.492" ypos="32.120"  zpos="47.646"  GUID="edOmOFblmECujARKFnbbig==" type="Raid.W4.B1.c1.sc2"/>
-    <POI MapID="1188" xpos="362.802" ypos="32.120"  zpos="46.023"  GUID="wka32siebUi9HZLbkKCgcA==" type="Raid.W4.B1.c1.sc2"/>
-    <POI MapID="1188" xpos="369.976" ypos="32.120"  zpos="53.264"  GUID="a6gCOX4GC0CJfo9UZBapGQ==" type="Raid.W4.B1.c1.sc2"/>
+    <POI MapID="1188" xpos="369.295" ypos="32.120"  zpos="52.475"  GUID="wedtPfCXTEugS91HgQoMkg==" type="HMP.W4_B1.c1.sc1"/>
+    <POI MapID="1188" xpos="359.920" ypos="32.120"  zpos="50.043"  GUID="sKrUfpjhCkqx1MObpkeN/w==" type="HMP.W4_B1.c1.sc1"/>
+    <POI MapID="1188" xpos="361.518" ypos="32.120"  zpos="63.235"  GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="HMP.W4_B1.c1.sc1"/>
+    <POI MapID="1188" xpos="369.301" ypos="32.120"  zpos="34.189"  GUID="xXkIzhbDjkC7KmaMBOeoag==" type="HMP.W4_B1.c1.sc1"/>
+    <POI MapID="1188" xpos="359.106" ypos="32.120"  zpos="50.503"  GUID="AYCnJxIgn0+DxviFHb7TBg==" type="HMP.W4_B1.c1.sc2"/>
+    <POI MapID="1188" xpos="368.492" ypos="32.120"  zpos="47.646"  GUID="edOmOFblmECujARKFnbbig==" type="HMP.W4_B1.c1.sc2"/>
+    <POI MapID="1188" xpos="362.802" ypos="32.120"  zpos="46.023"  GUID="wka32siebUi9HZLbkKCgcA==" type="HMP.W4_B1.c1.sc2"/>
+    <POI MapID="1188" xpos="369.976" ypos="32.120"  zpos="53.264"  GUID="a6gCOX4GC0CJfo9UZBapGQ==" type="HMP.W4_B1.c1.sc2"/>
     <!-- ==================== Samarog ==================== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W4B3-Bound.trl" animSpeed="0" alpha="1"                        type="Raid.W4.B3.c1"     texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W4B3-Bound.trl" animSpeed="0" alpha="1"                        type="HMP.W4_B3.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- Door -->
-    <POI MapID="1188" xpos="101.351" ypos="105.300" zpos="115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="Raid.W4.B3.c2"                                         rotate-x="155" rotate-z="50"/>
-    <POI MapID="1188" xpos="57.325"  ypos="97.480"  zpos="53.245"  GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="Raid.W4.B3.c2"                                         rotate-x="120" rotate-z="-25"/>
-    <POI MapID="1188" xpos="22.747"  ypos="111.443" zpos="103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="Raid.W4.B3.c2"                                         rotate-x="120" rotate-z="235"/>
-    <POI MapID="1188" xpos="-11.344" ypos="120.690" zpos="87.571"  GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="Raid.W4.B3.c2"                                         rotate-x="160" rotate-z="72"/>
+    <POI MapID="1188" xpos="101.351" ypos="105.300" zpos="115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="HMP.W4_B3.c2"                                         rotate-x="155" rotate-z="50"/>
+    <POI MapID="1188" xpos="57.325"  ypos="97.480"  zpos="53.245"  GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="HMP.W4_B3.c2"                                         rotate-x="120" rotate-z="-25"/>
+    <POI MapID="1188" xpos="22.747"  ypos="111.443" zpos="103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="HMP.W4_B3.c2"                                         rotate-x="120" rotate-z="235"/>
+    <POI MapID="1188" xpos="-11.344" ypos="120.690" zpos="87.571"  GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="HMP.W4_B3.c2"                                         rotate-x="160" rotate-z="72"/>
   </POIs>
   
   
 <!-- ======================================== HALL OF CHAINS =============================================================================================================================================================== -->
-  <MarkerCategory         name="Raid" DisplayName="Raids">
-    <MarkerCategory       name="W5"   DisplayName="Hall of Chains">
-      <MarkerCategory     name="B1"   DisplayName="Soulless Horror"                 color="aabf9f"                                     fadeFar="4000" fadeNear="3750"                                   iconSize="1"    rotate-x="90"/>
-        <MarkerCategory   name="B3"   DisplayName="Statues">
-          <MarkerCategory name="c1"   DisplayName="Broken King"        alpha="0.5"                 defaultToggle="0" fadeCenter="true" fadeFar="3500" fadeNear="3000" iconFile="Data/General/dot.png"   iconSize="0.75" rotate-x="180"/>
-          <MarkerCategory name="c2"   DisplayName="Statue of Darkness" alpha="0.75" color="dbc339"                                     fadeFar="3000" fadeNear="2800" iconFile="Data/General/dot.png"   iconSize="0.5"  rotate-x="180" rotate-z="-15"/>
-        </MarkerCategory>
-      <MarkerCategory     name="B4"   DisplayName="Dhuum">
-        <MarkerCategory   name="c1"   DisplayName="Death AoE"                                                                          fadeFar="2000" fadeNear="1650"/>
+  <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
+    <MarkerCategory     name="W5_B1" DisplayName="Soulless Horror"                 color="aabf9f" fadeFar="4000" fadeNear="3750" iconSize="1"                    rotate-x="90"                 mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory   name="W5_B3" DisplayName="Statues"                                                                       iconFile="Data/General/dot.png"                               mapVisibility="0" minimapVisibility="0">
+        <MarkerCategory name="c1"    DisplayName="Broken King"        alpha="0.5"                 fadeFar="3500" fadeNear="3000" iconSize="0.75"                 rotate-x="180"/>
+        <MarkerCategory name="c2"    DisplayName="Statue of Darkness" alpha="0.75" color="dbc339" fadeFar="3000" fadeNear="2800" iconSize="0.5"                  rotate-x="180" rotate-z="-15"/>
       </MarkerCategory>
+    <MarkerCategory     name="W5_B4" DisplayName="Dhuum"                                                                                                                                       mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Death AoE"                                      fadeFar="2000" fadeNear="1650"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Soulless Horror ========== -->
-    <POI MapID="1264" xpos="-268.952" ypos="20.681"  zpos="-15.802" GUID="KkCg/91R+U2uVX0lZM7IdQ==" type="Raid.W5.B1"       iconFile="Data/General/s.png"/>
-    <POI MapID="1264" xpos="-269.824" ypos="20.683"  zpos="59.729"  GUID="2nPxFpzFKkyaEAeMg2fe1A==" type="Raid.W5.B1"       iconFile="Data/General/n.png"    rotate-z="180"/>
-    <POI MapID="1264" xpos="-231.84"  ypos="20.682"  zpos="22.065"  GUID="04Fgp4HwD0Gaz7EMzx4kkQ==" type="Raid.W5.B1"       iconFile="Data/General/e.png"    rotate-z="90"/>
-    <POI MapID="1264" xpos="-307.302" ypos="20.683"  zpos="21.762"  GUID="OaTwG+Q68EuVapv8voRtJw==" type="Raid.W5.B1"       iconFile="Data/General/w.png"    rotate-z="-90"/>
+    <POI MapID="1264" xpos="-268.952" ypos="20.681"  zpos="-15.802" GUID="KkCg/91R+U2uVX0lZM7IdQ==" type="HMP.W5_B1"    iconFile="Data/General/s.png"/>
+    <POI MapID="1264" xpos="-269.824" ypos="20.683"  zpos="59.729"  GUID="2nPxFpzFKkyaEAeMg2fe1A==" type="HMP.W5_B1"    iconFile="Data/General/n.png"    rotate-z="180"/>
+    <POI MapID="1264" xpos="-231.84"  ypos="20.682"  zpos="22.065"  GUID="04Fgp4HwD0Gaz7EMzx4kkQ==" type="HMP.W5_B1"    iconFile="Data/General/e.png"    rotate-z="90"/>
+    <POI MapID="1264" xpos="-307.302" ypos="20.683"  zpos="21.762"  GUID="OaTwG+Q68EuVapv8voRtJw==" type="HMP.W5_B1"    iconFile="Data/General/w.png"    rotate-z="-90"/>
     <!-- ========== Broken King ========== -->
-    <POI MapID="1264" xpos="119.032"  ypos="110.522" zpos="227.378" GUID="grZaI9v0MU+2ftEMaR5ZAA==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="103.172"  ypos="109.405" zpos="221.664" GUID="V0pqQq3PXU2g511ppq7GzQ==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="096.177"  ypos="109.165" zpos="206.310" GUID="x/R2NZ1eWU6rfKFDG+6kyw==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="102.190"  ypos="109.777" zpos="190.563" GUID="b0Su2JArSEKwYNLwP2FN2A==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="117.302"  ypos="110.909" zpos="183.694" GUID="wuFmB4ZMN026H5MrpXuwFw==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="133.497"  ypos="110.478" zpos="189.629" GUID="Z8HUuYDJ7U6AL++dfJdSKg==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="140.330"  ypos="110.215" zpos="206.008" GUID="Y5a565leIESsmYtpeMdbHw==" type="Raid.W5.B3.c1"/>
-    <POI MapID="1264" xpos="134.913"  ypos="110.467" zpos="220.439" GUID="z43HtXN4FU6EOx7ATCHK0w==" type="Raid.W5.B3.c1"/>
+    <POI MapID="1264" xpos="119.032"  ypos="110.522" zpos="227.378" GUID="grZaI9v0MU+2ftEMaR5ZAA==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="103.172"  ypos="109.405" zpos="221.664" GUID="V0pqQq3PXU2g511ppq7GzQ==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="096.177"  ypos="109.165" zpos="206.310" GUID="x/R2NZ1eWU6rfKFDG+6kyw==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="102.190"  ypos="109.777" zpos="190.563" GUID="b0Su2JArSEKwYNLwP2FN2A==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="117.302"  ypos="110.909" zpos="183.694" GUID="wuFmB4ZMN026H5MrpXuwFw==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="133.497"  ypos="110.478" zpos="189.629" GUID="Z8HUuYDJ7U6AL++dfJdSKg==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="140.330"  ypos="110.215" zpos="206.008" GUID="Y5a565leIESsmYtpeMdbHw==" type="HMP.W5_B3.c1"/>
+    <POI MapID="1264" xpos="134.913"  ypos="110.467" zpos="220.439" GUID="z43HtXN4FU6EOx7ATCHK0w==" type="HMP.W5_B3.c1"/>
     <!-- ========== Statue of Darkness ========== -->
-    <POI MapID="1264" xpos="344.015"  ypos="97.308"  zpos="28.709"  GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="Raid.W5.B3.c2"/>
-    <POI MapID="1264" xpos="364.569"  ypos="97.308"  zpos="24.818"  GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="Raid.W5.B3.c2"/>
-    <POI MapID="1264" xpos="384.978"  ypos="97.308"  zpos="20.738"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="Raid.W5.B3.c2"/>
+    <POI MapID="1264" xpos="344.015"  ypos="97.308"  zpos="28.709"  GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="HMP.W5_B3.c2"/>
+    <POI MapID="1264" xpos="364.569"  ypos="97.308"  zpos="24.818"  GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="HMP.W5_B3.c2"/>
+    <POI MapID="1264" xpos="384.978"  ypos="97.308"  zpos="20.738"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="HMP.W5_B3.c2"/>
     <!-- ========== Dhuum  ========== -->
     <!-- Death AoE -->
-    <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="-2" alpha="1"                            type="Raid.W5.B4.c1"    texture="Data/General/Death.png"/>
+    <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="-2" alpha="1"                            type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
   </POIs>
   
   
 <!-- ======================================== MYTHWRIGHT GAMBIT ============================================================================================================================================================ -->
-  <MarkerCategory         name="Raid" DisplayName="Raids">
-    <MarkerCategory       name="W6"   DisplayName="Mythwright Gambit">
-      <MarkerCategory     name="B1"   DisplayName="Conjured Amalgamate">
-        <MarkerCategory   name="c1"   DisplayName="Boundary"                                        fadeFar="150"  fadeNear="125"/>
-        <MarkerCategory   name="c2"   DisplayName="Shield/Sword"                                    fadeFar="3000" fadeNear="2500"                               iconSize="0.75" rotate-x="180"/>
-      </MarkerCategory>
-      <MarkerCategory     name="B2"   DisplayName="Twin Largos"                                     fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  title-color="yellow" bounce-duration="115" bounce-distance="43" bounce-height="-31" bounce-when="inzone"/>
-      <MarkerCategory     name="B3"   DisplayName="Qadim">
-        <MarkerCategory   name="c1"   DisplayName="Lamp"                                            fadeFar="3000" fadeNear="2000"                                               rotate-x="180">
-          <MarkerCategory name="L1"   DisplayName="1st Path"            alpha="0.75" color="e0ca4c"                                iconFile="Data/General/1.png"/>
-          <MarkerCategory name="L2"   DisplayName="2nd Path"            alpha="0.75" color="b36237"                                iconFile="Data/General/2.png"/>
-          <MarkerCategory name="L3"   DisplayName="3rd Path"            alpha="0.75" color="ab2d11"                                iconFile="Data/General/3.png"/>
-        </MarkerCategory>
+  <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
+    <MarkerCategory     name="W6_B1" DisplayName="Conjured Amalgamate" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"/>
+      <MarkerCategory   name="c2"    DisplayName="Shield/Sword"                       fadeFar="3000" fadeNear="2500"                               iconSize="0.75" rotate-x="180"/>
+    </MarkerCategory>
+    <MarkerCategory     name="W6_B2" DisplayName="Twin Largos"                        fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  autoTrigger="1" triggerRange="43" bounce-duration="115" bounce-height="-31"/>
+    <MarkerCategory     name="W6_B3" DisplayName="Qadim">
+      <MarkerCategory   name="c1"    DisplayName="Lamp"                alpha="0.75"   fadeFar="3000" fadeNear="2000"                                               rotate-x="180">
+        <MarkerCategory name="L1"    DisplayName="1st Path"            color="e0ca4c"                                iconFile="Data/General/1.png"/>
+        <MarkerCategory name="L2"    DisplayName="2nd Path"            color="b36237"                                iconFile="Data/General/2.png"/>
+        <MarkerCategory name="L3"    DisplayName="3rd Path"            color="ab2d11"                                iconFile="Data/General/3.png"/>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Conjured Amalgamate ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W6B1-Bound.trl" animSpeed="0" alpha="1"                          type="Raid.W6.B1.c1"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W6B1-Bound.trl" animSpeed="0" alpha="1"                          type="HMP.W6_B1.c1"    texture="Data/Boundary/RedLine.png"/>
     <!-- Sword Side -->
-    <POI MapID="1303" xpos="-96.686"  ypos="50.914"  zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="Raid.W6.B1.c2"    iconFile="Data/Raids/GS.png"       rotate-z="50"/>
+    <POI MapID="1303" xpos="-96.686"  ypos="50.914"  zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="HMP.W6_B1.c2"    iconFile="Data/Raids/GS.png"       rotate-z="50"/>
     <!-- Shield Side -->
-    <POI MapID="1303" xpos="-95.111"  ypos="50.914"  zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="Raid.W6.B1.c2"    iconFile="Data/Raids/Shield.png"   rotate-z="140"/>
+    <POI MapID="1303" xpos="-95.111"  ypos="50.914"  zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="HMP.W6_B1.c2"    iconFile="Data/Raids/Shield.png"   rotate-z="140"/>
     <!-- ========== Twin Largos ========== -->
     <!-- Nikare Side -->
-    <POI MapID="1303" xpos="352.912"  ypos="32.759"  zpos="8.824"    GUID="EkOZxvmqB0KwE78EyDW5vg==" type="Raid.W6.B2"       iconFile="Data/Raids/W6B2-1.png"   rotate-z="240" title="Nikare"/>
+    <POI MapID="1303" xpos="352.912"  ypos="32.759"  zpos="8.824"    GUID="EkOZxvmqB0KwE78EyDW5vg==" type="HMP.W6_B2"       iconFile="Data/Raids/W6B2-1.png"   rotate-z="240" tip-name="Nikare"/>
     <!-- Kenut Side -->
-    <POI MapID="1303" xpos="380.974"  ypos="32.762"  zpos="8.720"    GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="Raid.W6.B2"       iconFile="Data/Raids/W6B2-2.png"   rotate-z="120" title="Kenut"/>
+    <POI MapID="1303" xpos="380.974"  ypos="32.762"  zpos="8.720"    GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="HMP.W6_B2"       iconFile="Data/Raids/W6B2-2.png"   rotate-z="120" tip-name="Kenut"/>
     <!-- ========== Qadim ========== -->
     <!-- Lamp Path 1 -->
-    <POI MapID="1303" xpos="-225.263" ypos="0.512"   zpos="364.238"  GUID="eGF+lHzvDE+O02xI/GRbdw==" type="Raid.W6.B3.c1.L1"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-189.957" ypos="0.510"   zpos="363.048"  GUID="hPRoLFdtk0e0dlu8NvsUew==" type="Raid.W6.B3.c1.L1"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-163.740" ypos="0.510"   zpos="344.665"  GUID="Q9clWPiLUkqviwzndFu8vw==" type="Raid.W6.B3.c1.L1"/>
-    <POI MapID="1303" xpos="-155.314" ypos="0.511"   zpos="331.048"  GUID="km5+mDoqUEGOZd8E2Cs84A==" type="Raid.W6.B3.c1.L1"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-132.067" ypos="0.510"   zpos="309.717"  GUID="pCU6bumoDUWIwYF02DK58g==" type="Raid.W6.B3.c1.L1"/>
-    <POI MapID="1303" xpos="-131.463" ypos="0.513"   zpos="274.439"  GUID="H/AciZzZbUuO5vteLpwFmg==" type="Raid.W6.B3.c1.L1"/>
+    <POI MapID="1303" xpos="-225.263" ypos="0.512"   zpos="364.238"  GUID="eGF+lHzvDE+O02xI/GRbdw==" type="HMP.W6_B3.c1.L1" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-189.957" ypos="0.510"   zpos="363.048"  GUID="hPRoLFdtk0e0dlu8NvsUew==" type="HMP.W6_B3.c1.L1" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-163.740" ypos="0.510"   zpos="344.665"  GUID="Q9clWPiLUkqviwzndFu8vw==" type="HMP.W6_B3.c1.L1" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-155.314" ypos="0.511"   zpos="331.048"  GUID="km5+mDoqUEGOZd8E2Cs84A==" type="HMP.W6_B3.c1.L1" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-132.067" ypos="0.510"   zpos="309.717"  GUID="pCU6bumoDUWIwYF02DK58g==" type="HMP.W6_B3.c1.L1" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-131.463" ypos="0.513"   zpos="274.439"  GUID="H/AciZzZbUuO5vteLpwFmg==" type="HMP.W6_B3.c1.L1"/>
     <!-- Lamp Path 2 -->
-    <POI MapID="1303" xpos="-239.403" ypos="0.515"   zpos="344.335"  GUID="rreXhNvsNkmrJMmhxG5ngw==" type="Raid.W6.B3.c1.L2"/>
-    <POI MapID="1303" xpos="-239.807" ypos="0.515"   zpos="309.902"  GUID="Vl1qh65mO0i1maSPBqMHdQ==" type="Raid.W6.B3.c1.L2"/>
-    <POI MapID="1303" xpos="-224.641" ypos="0.513"   zpos="289.454"  GUID="HfqqSHqG3UGu+FqWfAq8Rw==" type="Raid.W6.B3.c1.L2"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-189.306" ypos="0.513"   zpos="288.997"  GUID="orx7QXAWmEyoygnI2rl0fg==" type="Raid.W6.B3.c1.L2"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-170.044" ypos="0.515"   zpos="273.470"  GUID="JaFVN+uF1E2qs51/DkCqqA==" type="Raid.W6.B3.c1.L2"/>
-    <POI MapID="1303" xpos="-154.663" ypos="0.515"   zpos="256.305"  GUID="zsWT243gaU6wyE1Jlwv1ng==" type="Raid.W6.B3.c1.L2"                                    rotate-z="90"/>
+    <POI MapID="1303" xpos="-239.403" ypos="0.515"   zpos="344.335"  GUID="rreXhNvsNkmrJMmhxG5ngw==" type="HMP.W6_B3.c1.L2" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-239.807" ypos="0.515"   zpos="309.902"  GUID="Vl1qh65mO0i1maSPBqMHdQ==" type="HMP.W6_B3.c1.L2" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-224.641" ypos="0.513"   zpos="289.454"  GUID="HfqqSHqG3UGu+FqWfAq8Rw==" type="HMP.W6_B3.c1.L2" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-189.306" ypos="0.513"   zpos="288.997"  GUID="orx7QXAWmEyoygnI2rl0fg==" type="HMP.W6_B3.c1.L2" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-170.044" ypos="0.515"   zpos="273.470"  GUID="JaFVN+uF1E2qs51/DkCqqA==" type="HMP.W6_B3.c1.L2" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-154.663" ypos="0.515"   zpos="256.305"  GUID="zsWT243gaU6wyE1Jlwv1ng==" type="HMP.W6_B3.c1.L2"                                         rotate-z="90"/>
     <!-- Lamp Path 3 -->
-    <POI MapID="1303" xpos="-225.488" ypos="0.512"   zpos="352.110"  GUID="T7HJCdJqyU2xROwc5MjeJw==" type="Raid.W6.B3.c1.L3"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-211.932" ypos="0.510"   zpos="344.213"  GUID="nZwO5P2tl0i+nxAUM747cg==" type="Raid.W6.B3.c1.L3"/>
-    <POI MapID="1303" xpos="-212.744" ypos="0.510"   zpos="309.693"  GUID="iMGYc9JcwU2Q2AD8b2g23w==" type="Raid.W6.B3.c1.L3"/>
-    <POI MapID="1303" xpos="-212.568" ypos="0.513"   zpos="274.590"  GUID="QxfJA4WZnEq8xXN3tjLMaA==" type="Raid.W6.B3.c1.L3"/>
-    <POI MapID="1303" xpos="-190.187" ypos="0.512"   zpos="248.778"  GUID="Jkcei9uc70qeI/EPrK6n0Q==" type="Raid.W6.B3.c1.L3"                                    rotate-z="90"/>
-    <POI MapID="1303" xpos="-155.008" ypos="0.515"   zpos="248.878"  GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="Raid.W6.B3.c1.L3"                                    rotate-z="90"/>
+    <POI MapID="1303" xpos="-225.488" ypos="0.512"   zpos="352.110"  GUID="T7HJCdJqyU2xROwc5MjeJw==" type="HMP.W6_B3.c1.L3" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-211.932" ypos="0.510"   zpos="344.213"  GUID="nZwO5P2tl0i+nxAUM747cg==" type="HMP.W6_B3.c1.L3" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-212.744" ypos="0.510"   zpos="309.693"  GUID="iMGYc9JcwU2Q2AD8b2g23w==" type="HMP.W6_B3.c1.L3" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-212.568" ypos="0.513"   zpos="274.590"  GUID="QxfJA4WZnEq8xXN3tjLMaA==" type="HMP.W6_B3.c1.L3" mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-190.187" ypos="0.512"   zpos="248.778"  GUID="Jkcei9uc70qeI/EPrK6n0Q==" type="HMP.W6_B3.c1.L3" mapVisibility="0" minimapVisibility="0" rotate-z="90"/>
+    <POI MapID="1303" xpos="-155.008" ypos="0.515"   zpos="248.878"  GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="HMP.W6_B3.c1.L3"                                         rotate-z="90"/>
   </POIs>
   
   
 <!-- ======================================== THE KEY OF AHDASHIM ========================================================================================================================================================== -->
-  <MarkerCategory         name="Raid" DisplayName="Raids">
-    <MarkerCategory       name="W7"   DisplayName="The Key of Ahdashim">
-      <MarkerCategory     name="B1"   DisplayName="Cardinal Adina"                                 fadeFar="3250" fadeNear="2750">
-        <MarkerCategory   name="c1"   DisplayName="Directions"                      color="c2ab84"                                                                                rotate-x="90"/>
-        <MarkerCategory   name="c2"   DisplayName="Pillar Locations"    alpha="0.6" color="d1cd80"                               iconFile="Data/General/dot.png"  iconSize="0.5"  rotate-x="180"/>
+    <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
+      <MarkerCategory     name="W7_B1" DisplayName="Cardinal Adina"                                 fadeFar="3250" fadeNear="2750"                                                 mapVisibility="0" minimapVisibility="0">
+        <MarkerCategory   name="c1"    DisplayName="Directions"                      color="c2ab84"                                                                                                                        rotate-x="90"/>
+        <MarkerCategory   name="c2"    DisplayName="Pillar Locations"    alpha="0.6" color="d1cd80"                               iconFile="Data/General/dot.png"  iconSize="0.5"                                          rotate-x="180"/>
       </MarkerCategory>
-      <MarkerCategory     name="B2"   DisplayName="Cardinal Sabir"                                 fadeFar="125"  fadeNear="100"/>
-      <MarkerCategory     name="B3"   DisplayName="Qadim the Peerless"                             fadeFar="5500" fadeNear="5000">
-        <MarkerCategory   name="c1"   DisplayName="Fire Placements"                 color="d49937"                                                                iconSize="0.75" rotate-x="180">
-          <MarkerCategory name="sc1"  DisplayName="80%"                                                                          iconFile="Data/General/dot1.png"/>
-          <MarkerCategory name="sc2"  Displayname="60%"                                                                          iconFile="Data/General/dot2.png"/>
+      <MarkerCategory     name="W7_B2" DisplayName="Cardinal Sabir"                                 fadeFar="500"  fadeNear="375"                                                  mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory     name="W7_B3" DisplayName="Qadim the Peerless"                             fadeFar="5500" fadeNear="5000">
+        <MarkerCategory   name="c1"    DisplayName="Fire Placements"                 color="d49937"                                                                iconSize="0.75" mapVisibility="0" minimapVisibility="0" rotate-x="180">
+          <MarkerCategory name="sc1"   DisplayName="80%"                                                                          iconFile="Data/General/dot1.png"/>
+          <MarkerCategory name="sc2"   Displayname="60%"                                                                          iconFile="Data/General/dot2.png"/>
         </MarkerCategory>
-        <MarkerCategory   name="c2"   DisplayName="Pylons"                          color="e8bbb3"                                                                iconSize="1"/>
+        <MarkerCategory   name="c2"    DisplayName="Pylons"                          color="e8bbb3"                                                                iconSize="1"/>
       </MarkerCategory>
     </MarkerCategory>
-  </MarkerCategory>
   <POIs>
     <!-- ========== Cardinal Adina ========== -->
     <!-- Directions -->
-    <POI MapID="1323" xpos="378.580" ypos="7.754"  zpos="-7.834"  GUID="XjkNdote70a+BUidfQ7/Aw==" type="Raid.W7.B1.c1" iconFile="Data/General/n.png"            rotate-z="180"/>
-    <POI MapID="1323" xpos="378.767" ypos="7.752"  zpos="-66.733" GUID="QvNEXKwrd0OBwpasrWvG5Q==" type="Raid.W7.B1.c1" iconFile="Data/General/s.png"/>
+    <POI MapID="1323" xpos="378.580" ypos="7.754"  zpos="-7.834"  GUID="XjkNdote70a+BUidfQ7/Aw==" type="HMP.W7_B1.c1" iconFile="Data/General/n.png" rotate-z="180"/>
+    <POI MapID="1323" xpos="378.767" ypos="7.752"  zpos="-66.733" GUID="QvNEXKwrd0OBwpasrWvG5Q==" type="HMP.W7_B1.c1" iconFile="Data/General/s.png"/>
     <!-- Pillars -->
-    <POI MapID="1323" xpos="378.634" ypos="6.157"  zpos="-26.001" GUID="+qDcWauW20a8Q8KpfSXdDA==" type="Raid.W7.B1.c2"/>
-    <POI MapID="1323" xpos="378.592" ypos="6.153"  zpos="-48.800" GUID="/ZrMwfAtSkWhLenh/nA5Uw==" type="Raid.W7.B1.c2"/>
-    <POI MapID="1323" xpos="383.636" ypos="6.152"  zpos="-51.680" GUID="mgeK+szOhk6vLhrhm1oSrQ==" type="Raid.W7.B1.c2"/>
-    <POI MapID="1323" xpos="388.349" ypos="6.153"  zpos="-37.340" GUID="9g1K9lXLoU2hT0VMVx/Stg==" type="Raid.W7.B1.c2"/>
-    <POI MapID="1323" xpos="368.997" ypos="6.152"  zpos="-37.385" GUID="WtRHIgyaFkWPCSaiRUzoHw==" type="Raid.W7.B1.c2"/>
+    <POI MapID="1323" xpos="378.634" ypos="6.157"  zpos="-26.001" GUID="+qDcWauW20a8Q8KpfSXdDA==" type="HMP.W7_B1.c2"/>
+    <POI MapID="1323" xpos="378.592" ypos="6.153"  zpos="-48.800" GUID="/ZrMwfAtSkWhLenh/nA5Uw==" type="HMP.W7_B1.c2"/>
+    <POI MapID="1323" xpos="383.636" ypos="6.152"  zpos="-51.680" GUID="mgeK+szOhk6vLhrhm1oSrQ==" type="HMP.W7_B1.c2"/>
+    <POI MapID="1323" xpos="388.349" ypos="6.153"  zpos="-37.340" GUID="9g1K9lXLoU2hT0VMVx/Stg==" type="HMP.W7_B1.c2"/>
+    <POI MapID="1323" xpos="368.997" ypos="6.152"  zpos="-37.385" GUID="WtRHIgyaFkWPCSaiRUzoHw==" type="HMP.W7_B1.c2"/>
     <!-- ========== Cardinal Sabir ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W7B2-Bound.trl" animSpeed="0" alpha="0.75"                    type="Raid.W7.B2"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W7B2-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.W7_B2"    texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Qadim the Peerless ========== -->
     <!-- Fire Placements -->
-    <POI MapID="1323" xpos="13.225"  ypos="15.212" zpos="261.338" GUID="X5Uu+2XzIkeW25s5IobysA==" type="Raid.W7.B3.c1.sc1" rotate-z="-100"/>
-    <POI MapID="1323" xpos="16.881"  ypos="15.212" zpos="226.55"  GUID="PGbKD5BpREik05IB22gsgw==" type="Raid.W7.B3.c1.sc1" rotate-z="-40"/>
-    <POI MapID="1323" xpos="59.504"  ypos="15.212" zpos="277.788" GUID="a90szDLj1EO59iM+urCCLA==" type="Raid.W7.B3.c1.sc1" rotate-z="140"/>
-    <POI MapID="1323" xpos="51.537"  ypos="15.212" zpos="229.197" GUID="s0/sh5qLQEqE9Zv5yrNieA==" type="Raid.W7.B3.c1.sc2" rotate-z="20"/>
-    <POI MapID="1323" xpos="79.296"  ypos="15.212" zpos="249.042" GUID="PJmEwxaoGUa3qva9RN6Sfw==" type="Raid.W7.B3.c1.sc2" rotate-z="80"/>
+    <POI MapID="1323" xpos="13.225"  ypos="15.212" zpos="261.338" GUID="X5Uu+2XzIkeW25s5IobysA==" type="HMP.W7_B3.c1.sc1" rotate-z="-100"/>
+    <POI MapID="1323" xpos="16.881"  ypos="15.212" zpos="226.55"  GUID="PGbKD5BpREik05IB22gsgw==" type="HMP.W7_B3.c1.sc1" rotate-z="-40"/>
+    <POI MapID="1323" xpos="59.504"  ypos="15.212" zpos="277.788" GUID="a90szDLj1EO59iM+urCCLA==" type="HMP.W7_B3.c1.sc1" rotate-z="140"/>
+    <POI MapID="1323" xpos="51.537"  ypos="15.212" zpos="229.197" GUID="s0/sh5qLQEqE9Zv5yrNieA==" type="HMP.W7_B3.c1.sc2" rotate-z="20"/>
+    <POI MapID="1323" xpos="79.296"  ypos="15.212" zpos="249.042" GUID="PJmEwxaoGUa3qva9RN6Sfw==" type="HMP.W7_B3.c1.sc2" rotate-z="80"/>
     <!-- Pylons -->
-    <POI MapID="1323" xpos="41.543"  ypos="16.813" zpos="294.356" GUID="0OXp2ufTbU6/fEo+UcwOMA==" type="Raid.W7.B3.c2" iconFile="Data/General/1.png"/>
-    <POI MapID="1323" xpos="8.317"   ypos="16.812" zpos="236.796" GUID="UPNrnI78QEKYECwurS+1KQ==" type="Raid.W7.B3.c2" iconFile="Data/General/2.png"/>
-    <POI MapID="1323" xpos="74.861"  ypos="16.813" zpos="236.700" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" type="Raid.W7.B3.c2" iconFile="Data/General/3.png"/>
-  </POIs>
-  
-<!-- ======================================== SPECIAL FORCES TRAINING AREA ================================================================================================================================================= -->
-  <MarkerCategory       name="Raid" DisplayName="Raids">
-    <MarkerCategory     name="sfta" DisplayName="Special Forces Training Area" defaultToggle="0">
-      <MarkerCategory   name="ele"  DisplayName="Elementalist" fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c1"   DisplayName="Tempest"                                     specialization="48"/>
-        <MarkerCategory name="c2"   DisplayName="Weaver"                                      specialization="56"/>
-      </MarkerCategory>
-      <MarkerCategory   name="eng"  DisplayName="Engineer"     fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c2"   DisplayName="Holosmith"                                   specialization="57"/>
-      </MarkerCategory>
-      <MarkerCategory   name="grd"  DisplayName="Guardian"     fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c0"   DisplayName="Base"/>
-        <MarkerCategory name="c1"   DisplayName="Dragonhunter"                                specialization="27"/>
-        <MarkerCategory name="c2"   DisplayName="Firebrand"                                   specialization="62"/>
-      </MarkerCategory>
-      <MarkerCategory   name="mes"  DisplayName="Mesmer"       fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c1"   DisplayName="Chronomancer"                                specialization="40"/>
-        <MarkerCategory name="c2"   DisplayName="Mirage"                                      specialization="59"/>
-      </MarkerCategory>
-      <MarkerCategory   name="nec"  DisplayName="Necromancer"  fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c1"   DisplayName="Reaper"                                      specialization="34"/>
-        <MarkerCategory name="c2"   DisplayName="Scourge"                                     specialization="60"/>
-      </MarkerCategory>
-      <MarkerCategory   name="rgr"  DisplayName="Ranger"       fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c2"   DisplayName="Soulbeast"                                   specialization="55"/>
-      </MarkerCategory>
-      <MarkerCategory   name="rev"  DisplayName="Revenant"     fadeFar="1500" fadeNear="1250">
-        <MarkerCategory name="c2"   DisplayName="Renegade"                                    specialization="63"/>
-      </MarkerCategory>
-      <MarkerCategory   name="thf"  DisplayName="Thief">
-        <MarkerCategory name="c0"   DisplayName="Thief Steals" fadeFar="700"  fadeNear="500"  profession="thief"/>
-        <MarkerCategory name="c1"   DisplayName="Daredevil"    fadeFar="1500" fadeNear="1250" specialization="7"/>
-        <MarkerCategory name="c2"   DisplayName="Deadeye"      fadeFar="1500" fadeNear="1250" specialization="58"/>
-      </MarkerCategory>
-      <MarkerCategory   name="war"  DisplayName="Warrior">
-        <MarkerCategory name="c1"   DisplayName="Berserker"                                   specialization="18"/>
-        <MarkerCategory name="c2"   DisplayName="Spellbreaker" fadeFar="1500" fadeNear="1250" specialization="61"/>
-      </MarkerCategory>
-    </MarkerCategory>
-  </MarkerCategory>
-  <POIs>
-    <!-- ========== Elementalist ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="D3/TYZ8OikGUg1NOzO7KdA==" type="Raid.sfta.ele.c1"                                iconFile="Data/Raids/SFTA/cardTemp.png"            iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="bMDl30VWSUWMmSKjUIOTUw==" type="Raid.sfta.ele.c1"                                iconFile="Data/Raids/SFTA/pTemp.png"               iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="oE279pY/YkuYlJyj9Whl2g==" type="Raid.sfta.ele.c1"                                iconFile="Data/Raids/SFTA/cTemp.png"               iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="hOQCSDWBSkubugwYLwAczA==" type="Raid.sfta.ele.c2"                                iconFile="Data/Raids/SFTA/cardWvr.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="k2uQp1IEeE+K6uq0+9SBMQ==" type="Raid.sfta.ele.c2"                                iconFile="Data/Raids/SFTA/pWvr.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="K6sqLNaJ9EuKJd4Fm41bTg==" type="Raid.sfta.ele.c2"                                iconFile="Data/Raids/SFTA/cWvr.png"                iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <!-- ========== Engineer ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="vXpsizk3iESGJz94XgLphg==" type="Raid.sfta.eng.c2"                                iconFile="Data/Raids/SFTA/cardHolo.png"            iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="comGWGRGM02lcw1F0xZIAQ==" type="Raid.sfta.eng.c2"                                iconFile="Data/Raids/SFTA/pHolo.png"               iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="q4HGMsybYUmVf0ecwDqrsw==" type="Raid.sfta.eng.c2"                                iconFile="Data/Raids/SFTA/cHolo.png"               iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <!-- ========== Guardian ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="u1fvgic4wka58JKBAl1PsQ==" type="Raid.sfta.grd.c0"                                iconFile="Data/Raids/SFTA/cardGrd.png"             iconSize="1.76" specialization="16" rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="9LihLeoqh0u1MgtxX1oY2A==" type="Raid.sfta.grd.c0"                                iconFile="Data/Raids/SFTA/cardGrd.png"             iconSize="1.76" specialization="42" rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="9VvEeTH7Z0K/WUrhZnSVcw==" type="Raid.sfta.grd.c0"                                iconFile="Data/Raids/SFTA/cardGrd.png"             iconSize="1.76" specialization="46" rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="QgqqCSHTA0CdNn1WXBkmnA==" type="Raid.sfta.grd.c0"                                iconFile="Data/Raids/SFTA/pGrd.png"                iconSize="1.25" specialization="16" rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="SKVL/hAtoUuzD88dMuYX9w==" type="Raid.sfta.grd.c0"                                iconFile="Data/Raids/SFTA/pGrd.png"                iconSize="1.25" specialization="42" rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="0U04kyU/zEG97Ew9FQLVZQ==" type="Raid.sfta.grd.c0"                                iconFile="Data/Raids/SFTA/pGrd.png"                iconSize="1.25" specialization="46" rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="Vj0I+40aJEiqGJIQqp2VZg==" type="Raid.sfta.grd.c1"                                iconFile="Data/Raids/SFTA/cardDH.png"              iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="jHDoWEWvrk6l/SKP2npcww==" type="Raid.sfta.grd.c1"                                iconFile="Data/Raids/SFTA/pDH (Radiance).png"      iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="QWNzBlLHDEux5OJwmuovQA==" type="Raid.sfta.grd.c1"                                iconFile="Data/Raids/SFTA/pDH (Virtues).png"       iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="kIpQT38nZkiakbss+ZAZvA==" type="Raid.sfta.grd.c2"                                iconFile="Data/Raids/SFTA/cardFB.png"              iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="eSQmLAwjMEi+QQmbjf3tBQ==" type="Raid.sfta.grd.c2"                                iconFile="Data/Raids/SFTA/cFB.png"                 iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <!-- ========== Mesmer ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="sE0Qyg58VkC8oW69dmV6lA==" type="Raid.sfta.mes.c1"                                iconFile="Data/Raids/SFTA/cardChr.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="Uvy5h9tX/EGywDnECbyYhw==" type="Raid.sfta.mes.c1"                                iconFile="Data/Raids/SFTA/pChr.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="pEbmpEuGJUWyhE3/3bkwRw==" type="Raid.sfta.mes.c1"                                iconFile="Data/Raids/SFTA/cChr.png"                iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="Xj6Er+dp6ESctUjyy1u+vg==" type="Raid.sfta.mes.c2"                                iconFile="Data/Raids/SFTA/cardMir.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="C/grXtf3pki3aPo6RLU8Tg==" type="Raid.sfta.mes.c2"                                iconFile="Data/Raids/SFTA/cMir.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <!-- ========== Necromancer ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="v7IG+sg8dUar+JG0LNThOg==" type="Raid.sfta.nec.c1"                                iconFile="Data/Raids/SFTA/cardRea.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="Zt1KmvCmaU60SM/LhISV+Q==" type="Raid.sfta.nec.c1"                                iconFile="Data/Raids/SFTA/pRea.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="HDfEg/ZY10Sb0xkrPQAlQg==" type="Raid.sfta.nec.c2"                                iconFile="Data/Raids/SFTA/cardScg.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="Qk60gfOF2E2fLZCmwkTIfQ==" type="Raid.sfta.nec.c2"                                iconFile="Data/Raids/SFTA/cScg.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <!-- ========== Ranger ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="dwBSfCkk0UyiW/bx0Rw6Ww==" type="Raid.sfta.rgr.c2"                                iconFile="Data/Raids/SFTA/cardSLB.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="oTnmatiWyE+THVn4QJ0ERg==" type="Raid.sfta.rgr.c2"                                iconFile="Data/Raids/SFTA/pSLB.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="0QcmPnVSQEWkT6u4hY3ZkA==" type="Raid.sfta.rgr.c2"                                iconFile="Data/Raids/SFTA/cSLB.png"                iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <!-- ========== Revenant ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="h8p/iTFoc0KsApmzxw/Q9A==" type="Raid.sfta.rev.c2"                                iconFile="Data/Raids/SFTA/cardRen.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="rcRSK68JHkeFOWgVyJSMsw==" type="Raid.sfta.rev.c2"                                iconFile="Data/Raids/SFTA/cRen (Devastation).png"  iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="jDujAACoG0CODg2/ejc5pA==" type="Raid.sfta.rev.c2"                                iconFile="Data/Raids/SFTA/cRen (Invocation).png"   iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <!-- ========== Thief ========== -->
-    <!-- Steal Markers -->
-    <POI MapID="1154" xpos="510.876" ypos="4.802" zpos="-292.968" GUID="vCC7q+QonU6TSJ/iyd/UFg==" type="Raid.sfta.thf.c0"                                iconFile="Data/Raids/SFTA/Detonate Plasma.png"     iconSize="0.18"/>
-    <POI MapID="1154" xpos="506.922" ypos="5.725" zpos="-291.656" GUID="wtoqN4a0W025SJkpRI5rIw==" type="Raid.sfta.thf.c0"                                iconFile="Data/Raids/SFTA/Soul Stone Venom.png"    iconSize="0.2"/>
-    <POI MapID="1154" xpos="502.081" ypos="6.006" zpos="-291.382" GUID="nYfbbZGeB0WEgBVvAPX1BA==" type="Raid.sfta.thf.c0"                                iconFile="Data/Raids/SFTA/Throw Magnetic Bomb.png" iconSize="0.2"/>
-    <POI MapID="1154" xpos="497.616" ypos="6.316" zpos="-293.021" GUID="UB5yoBjQY0qYsKu8Gv4NBw==" type="Raid.sfta.thf.c0"                                iconFile="Data/Raids/SFTA/Unstable Artifact.png"   iconSize="0.2"/>
-    <!-- Builds -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="5sRgcFunP0G7cGpmm4ZX8g==" type="Raid.sfta.thf.c1"                                iconFile="Data/Raids/SFTA/cardDD.png"              iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="OD6H+AykQEqSxh0c8u53DA==" type="Raid.sfta.thf.c1"                                iconFile="Data/Raids/SFTA/pDD.png"                 iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="wWec1OZwPUWRYVTaSuj38g==" type="Raid.sfta.thf.c2"                                iconFile="Data/Raids/SFTA/cardDE.png"              iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="w2dEznCVPUqVys3IYBENKA==" type="Raid.sfta.thf.c2"                                iconFile="Data/Raids/SFTA/pDE.png"                 iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <!-- ========== Warrior ========== -->
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="BbNWax975U+XAm/f0dJhDw==" type="Raid.sfta.war.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/SFTA/cardBers.png"            iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="XYJhPZRq80qJqxHLCUKlRw==" type="Raid.sfta.war.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/SFTA/pBers (Banner).png"      iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
-    <POI MapID="1154" xpos="550.783" ypos="3.578" zpos="-296.500" GUID="dxIx3bQ0FEOP4ZYcEePigw==" type="Raid.sfta.war.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/SFTA/pBers (DPS).png"         iconSize="1.5"                      rotate-x="90"  rotate-z="160"/>
-    <POI MapID="1154" xpos="547.280" ypos="2.300" zpos="-295.982" GUID="gE4UL523VU2RoYWBNX5v5g==" type="Raid.sfta.war.c1" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/SFTA/pBers (Tactics).png"     iconSize="1.15"                     rotate-x="90"  rotate-z="185"/>
-    <POI MapID="1154" xpos="535.488" ypos="3.300" zpos="-293.924" GUID="ZZmDWUwwnEy533C2PBBBrg==" type="Raid.sfta.war.c1" fadeFar="1000" fadeNear="800"  iconFile="Data/Raids/SFTA/cBers (DPS!Banner).png"  iconSize="0.9"                      rotate-x="90"  rotate-z="135"/>
-    <POI MapID="1154" xpos="542.797" ypos="3.374" zpos="-299.440" GUID="qpaJsIheG0uTlI3ufMtPHA==" type="Raid.sfta.war.c2"                                iconFile="Data/Raids/SFTA/cardSPB.png"             iconSize="1.76"                     rotate-x="120" rotate-z="180"/>
-    <POI MapID="1154" xpos="554.173" ypos="3.600" zpos="-298.592" GUID="ira8smybs0euf/t6j5bXFg==" type="Raid.sfta.war.c2"                                iconFile="Data/Raids/SFTA/pSPB.png"                iconSize="1.25"                     rotate-x="90"  rotate-z="143"/>
+    <POI MapID="1323" xpos="41.543"  ypos="16.813" zpos="294.356" GUID="0OXp2ufTbU6/fEo+UcwOMA==" type="HMP.W7_B3.c2" iconFile="Data/General/1.png"/>
+    <POI MapID="1323" xpos="8.317"   ypos="16.812" zpos="236.796" GUID="UPNrnI78QEKYECwurS+1KQ==" type="HMP.W7_B3.c2" iconFile="Data/General/2.png"/>
+    <POI MapID="1323" xpos="74.861"  ypos="16.813" zpos="236.700" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" type="HMP.W7_B3.c2" iconFile="Data/General/3.png"/>
   </POIs>
 </OverlayData>
