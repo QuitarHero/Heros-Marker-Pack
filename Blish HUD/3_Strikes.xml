@@ -1,8 +1,8 @@
 <OverlayData>
 <!-- ========================================= ICEBROOD CONSTRUCT  ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1" color="27c1e8" fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot1.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2" color="27c1e8" fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot2.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1"     color="27c1e8" fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot1.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2"     color="27c1e8" fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot2.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Phase 1 ========== -->
@@ -19,22 +19,22 @@
   
 <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png" mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750" rotate-x="180"                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png"                mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750"                                     rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
     <Trail trailData="Data/Boundary/StrB2-Bound.trl" animSpeed="0" alpha="0.75"                  type="HMP.StrB2_c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Boss Positions ========== -->
-    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-5.408" GUID="L3sEHR2sAkKFOhct1KhGyg==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos1.png" iconSize="0.75" rotate-z="275"/>
-    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438" GUID="WGt9DHoBdECZoamIeyJXkw==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos2.png" iconSize="1.25" rotate-z="177"/>
-    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512" GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos3.png" iconSize="1.25" rotate-z="87"/>
+    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-5.408" GUID="L3sEHR2sAkKFOhct1KhGyg==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos1.png"    iconSize="0.75" rotate-z="275"/>
+    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438" GUID="WGt9DHoBdECZoamIeyJXkw==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos2.png"    iconSize="1.25" rotate-z="177"/>
+    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512" GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos3.png"    iconSize="1.25" rotate-z="87"/>
     <!-- <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-2.954" GUID="wMt8FVJg3UC4d/qNx4PJlA==" type="StrB2.c2"/> -->
   </POIs>
 
 <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="500"  fadeNear="375" texture="Data/Boundary/RedLine.png"                                                               mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png"                           mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="StrB3_c2" DisplayName="Stack Spots" alpha="0.6" color="17d0ff" fadeFar="4000" fadeNear="3750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
@@ -54,12 +54,12 @@
     <!-- ========== Boundary ========== -->
     <Trail trailData="Data/Boundary/StrB4-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.StrB4_c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Torches ========== -->
-    <POI MapID="1339" xpos="45.121"  ypos="179.836" zpos="-3.009"  GUID="fJGkuCKCEUSZuadJa7cAvw==" type="HMP.StrB4_c2" iconFile="Data/General/1.png" rotate-z="90"/>
-    <POI MapID="1339" xpos="-13.409" ypos="179.819" zpos="-2.181"  GUID="0zHg0NSWNk+DW9V8koJWHw==" type="HMP.StrB4_c2" iconFile="Data/General/2.png" rotate-z="270"/>
-    <POI MapID="1339" xpos="32.780"  ypos="179.712" zpos="-26.875" GUID="1DI2Cfms2kaoC7O2wNcWFw==" type="HMP.StrB4_c2" iconFile="Data/General/3.png" rotate-z="35"/>
-    <POI MapID="1339" xpos="0.291"   ypos="179.786" zpos="22.614"  GUID="g7En932TFEqELhm3OZM6Hg==" type="HMP.StrB4_c2" iconFile="Data/General/4.png" rotate-z="220"/>
-    <POI MapID="1339" xpos="3.416"   ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="HMP.StrB4_c2" iconFile="Data/General/5.png" rotate-z="-25"/>
-    <POI MapID="1339" xpos="32.281"  ypos="179.845" zpos="21.882"  GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="HMP.StrB4_c2" iconFile="Data/General/6.png" rotate-z="145"/>
+    <POI MapID="1339" xpos="45.121"  ypos="179.836" zpos="-3.009"  GUID="fJGkuCKCEUSZuadJa7cAvw==" type="HMP.StrB4_c2" iconFile="Data/General/1.png" rotate-z="90"  tip-name="1/2 are destroyed&#xA;first with low DPS"/>
+    <POI MapID="1339" xpos="-13.409" ypos="179.819" zpos="-2.181"  GUID="0zHg0NSWNk+DW9V8koJWHw==" type="HMP.StrB4_c2" iconFile="Data/General/2.png" rotate-z="270" tip-name="1/2 are destroyed&#xA;first with low DPS"/>
+    <POI MapID="1339" xpos="32.780"  ypos="179.712" zpos="-26.875" GUID="1DI2Cfms2kaoC7O2wNcWFw==" type="HMP.StrB4_c2" iconFile="Data/General/3.png" rotate-z="35"  tip-name="3/4 are destroyed&#xA;second with low DPS"/>
+    <POI MapID="1339" xpos="0.291"   ypos="179.786" zpos="22.614"  GUID="g7En932TFEqELhm3OZM6Hg==" type="HMP.StrB4_c2" iconFile="Data/General/4.png" rotate-z="220" tip-name="3/4 are destroyed&#xA;second with low DPS"/>
+    <POI MapID="1339" xpos="3.416"   ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="HMP.StrB4_c2" iconFile="Data/General/5.png" rotate-z="-25" tip-name="5/6 are destroyed&#xA;third with low DPS"/>
+    <POI MapID="1339" xpos="32.281"  ypos="179.845" zpos="21.882"  GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="HMP.StrB4_c2" iconFile="Data/General/6.png" rotate-z="145" tip-name="5/6 are destroyed&#xA;third with low DPS"/>
   </POIs>
   
 <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
@@ -68,10 +68,10 @@
   </MarkerCategory>
   <POIs>
     <!-- ========== Directions ========== -->
-    <POI MapID="1359" xpos="2.320"   ypos="54.296" zpos="66.525" GUID="mUuPysgaDUKNgxz3vs3POQ==" type="HMP.StrB5_c1" iconFile="Data/General/n.png" rotate-z="170"/>
-    <POI MapID="1359" xpos="1.285"   ypos="54.296" zpos="11.692" GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="HMP.StrB5_c1" iconFile="Data/General/s.png"/>
-    <POI MapID="1359" xpos="27.831"  ypos="54.296" zpos="39.954" GUID="jM1djHOvL0qKeJEqoscURQ==" type="HMP.StrB5_c1" iconFile="Data/General/e.png" rotate-z="90"/>
-    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777" GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1" iconFile="Data/General/w.png" rotate-z="-90"/>
+    <POI MapID="1359" xpos="2.320"   ypos="54.296" zpos="66.525" GUID="mUuPysgaDUKNgxz3vs3POQ==" type="HMP.StrB5_c1" iconFile="Data/General/n.png" rotate-z="170" tip-name="North"/>
+    <POI MapID="1359" xpos="1.285"   ypos="54.296" zpos="11.692" GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="HMP.StrB5_c1" iconFile="Data/General/s.png"                tip-name="South"/>
+    <POI MapID="1359" xpos="27.831"  ypos="54.296" zpos="39.954" GUID="jM1djHOvL0qKeJEqoscURQ==" type="HMP.StrB5_c1" iconFile="Data/General/e.png" rotate-z="90"  tip-name="East"/>
+    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777" GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1" iconFile="Data/General/w.png" rotate-z="-90" tip-name="West"/>
   </POIs>
   
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
