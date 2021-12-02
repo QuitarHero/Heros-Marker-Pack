@@ -1,27 +1,27 @@
 <OverlayData>
 <!-- ==================== ASCALONIAN CATACOMBS ========================================================================================================================================================================= -->    
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
-    <MarkerCategory     name="D1_P0" DisplayName="Pre-Events"                                                                                                                                   mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory     name="D1_P0" DisplayName="Pre-Events"                                                                                                                       mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="sy"    DisplayName="Slaying">
-        <MarkerCategory name="s1"    DisplayName="Spider"              fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC1.png"    iconSize="1.75" rotate-x="90"  rotate-z="-90" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
-        <MarkerCategory name="s2"    DisplayName="Kholer"              fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC2.png"    iconSize="1.75" rotate-x="90"  rotate-z="42"  tip-description="Potion: Ghost&#xA;Sigils: Ghost, Night"/>
+        <MarkerCategory name="s1"    DisplayName="Spider"              fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC1.png"    iconSize="1.75" rotate="90,0,-90" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+        <MarkerCategory name="s2"    DisplayName="Kholer"              fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC2.png"    iconSize="1.75" rotate="90,0,42"  tip-description="Potion: Ghost&#xA;Sigils: Ghost, Night"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="D1_P1" DisplayName="Path #1 (Hodgins)"                                                                                                                            mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Scepter #1 Port"     fadeFar="700"  fadeNear="550"                                              iconSize="0.25" rotate-x="90"  rotate-z="140"/>
-      <MarkerCategory   name="c2"    DisplayName="Pre-Scepter #2 Port" fadeFar="2000" fadeNear="1750"                                             iconSize="0.5"  rotate-x="90"  rotate-z="-32"/>
-      <MarkerCategory   name="c3"    DisplayName="Boss Portal"                                                                                    iconSize="0.5"                 rotate-z="270"/>
-      <MarkerCategory   name="sy"    DisplayName="Slaying"             fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp1.png"   iconSize="1.75" rotate-x="90"  rotate-z="90"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+    <MarkerCategory     name="D1_P1" DisplayName="Path #1 (Hodgins)"                                                                                                                mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Scepter #1 Port"     fadeFar="700"  fadeNear="550"                                              iconSize="0.25" rotate="90,0,140"/>
+      <MarkerCategory   name="c2"    DisplayName="Pre-Scepter #2 Port" fadeFar="2000" fadeNear="1750"                                             iconSize="0.5"  rotate="90,0,-32"/>
+      <MarkerCategory   name="c3"    DisplayName="Boss Portal"                                                                                    iconSize="0.5"  rotate-z="270"/>
+      <MarkerCategory   name="sy"    DisplayName="Slaying"             fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp1.png"   iconSize="1.75" rotate="90,0,90"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
     </MarkerCategory>
-    <MarkerCategory     name="D1_P2" DisplayName="Path #2 (Detha)"                                                                                                                              mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory     name="D1_P2" DisplayName="Path #2 (Detha)"                                                                                                                  mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="sy"    DisplayName="Slaying">
-        <MarkerCategory name="s1"    DisplayName="Temple"              fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp2-1.png" iconSize="1.75" rotate-x="105" rotate-z="20"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
-        <MarkerCategory name="s2"    DisplayName="HoC Ghosts"          fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-2.png" iconSize="1.75" rotate-x="95"                 tip-description="Potion: Ghost&#xA;Sigils: Ghost, Night"/>
-        <MarkerCategory name="s3"    DisplayName="Boss"                fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-3.png" iconSize="1.75" rotate-x="94"                 tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+        <MarkerCategory name="s1"    DisplayName="Temple"              fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp2-1.png" iconSize="1.75" rotate="105,0,20" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+        <MarkerCategory name="s2"    DisplayName="HoC Ghosts"          fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-2.png" iconSize="1.75" rotate="95,0,0"   tip-description="Potion: Ghost&#xA;Sigils: Ghost, Night"/>
+        <MarkerCategory name="s3"    DisplayName="Boss"                fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-3.png" iconSize="1.75" rotate="94,0,0"   tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="D1_P3" DisplayName="Path #3 (Tzark)"                                                                                                                              mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="sy"    DisplayName="Slaying"             fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp3.png"   iconSize="1.75" rotate-x="90"  rotate-z="85"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+    <MarkerCategory     name="D1_P3" DisplayName="Path #3 (Tzark)"                                                                                                                  mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="sy"    DisplayName="Slaying"             fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp3.png"   iconSize="1.75" rotate="90,0,85"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -46,24 +46,12 @@
     <!-- Kill These Gravelings! -->
     <POI MapID="36" xpos="-74.751"  ypos="66.165" zpos="153.227"  GUID="oau2wDcA40eneinC9Xhz1g==" type="HMP.D1_P1"       fadeFar="3500" fadeNear="3250" iconFile="Data/Dungeons/AC-Kill.png" iconSize="0.5"/>
     <!-- Speed Portal -->
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="ecULqN8rTEuxLXsGOXdLGA==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="elementalist" rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="Vm59EdmmXk2rWqtjXulcDA==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="elementalist" rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="GravnjKZAUOKu1Qx3WtyLw==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="engineer"     rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="0nPOUqLK80uuvPcD0FefxA==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="engineer"     rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="P7MgdC5EFEKmfEpnZxQ1kA==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="guardian"     rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="kYxq+kFKi0aLx+jf+LBJJQ==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="guardian"     rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="EwYeRUNNpUS60u7WssdycQ==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/MesP-2.png"                  profession="mesmer"       rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="bfc0BM7YHkqEjKHzWcG9Kw==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/MesP-1.png"                  profession="mesmer"       rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="KZq3z8NMOUmsbvd/2atkUg==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="necromancer"  rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="KgMLvwuWp06O0vspUFR02g==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="necromancer"  rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="qIKGp186DEm/mr9QpZN9/Q==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="ranger"       rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="WM6PIhiFGkCiAJ5us1iktQ==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="ranger"       rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="f2iXLRpZF0COrtpWpgmt1w==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="revenant"     rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="5fUI+55j5ka/jjEUZ619WA==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="revenant"     rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="vFNWU8r4ek6uszjOZcxXcA==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/ThfP-2.png"                  profession="thief"        rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="76M3XK5oJEyZgo2UNzcQuQ==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/ThfP-1.png"                  profession="thief"        rotate-x="190"/>
-    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="8oxXCbBDU0WjhNID4lTYSg==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"                  profession="warrior"      rotate-x="180"/>
-    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="BLvtzrQ1N0uWShjZX63yLA==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"                  profession="warrior"      rotate-x="190"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="ecULqN8rTEuxLXsGOXdLGA==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/WMPD-2.png"   rotate-x="180" profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="Vm59EdmmXk2rWqtjXulcDA==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-1.png"   rotate-x="190" profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="EwYeRUNNpUS60u7WssdycQ==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/MesP-2.png"   rotate-x="180" profession="mesmer"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="bfc0BM7YHkqEjKHzWcG9Kw==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/MesP-1.png"   rotate-x="190" profession="mesmer"/>
+    <POI MapID="36" xpos="-114.316" ypos="53.269" zpos="88.055"   GUID="vFNWU8r4ek6uszjOZcxXcA==" type="HMP.D1_P1.c3"    fadeFar="2600" fadeNear="2350" iconFile="Data/General/ThfP-2.png"   rotate-x="180" profession="thief"/>
+    <POI MapID="36" xpos="-172.722" ypos="26.420" zpos="130.502"  GUID="76M3XK5oJEyZgo2UNzcQuQ==" type="HMP.D1_P1.c3"    fadeFar="1500" fadeNear="1250" iconFile="Data/General/ThfP-1.png"   rotate-x="190" profession="thief"/>
     <!-- =============== Path 2 (Detha) =============== -->
     <!-- Slaying -->
     <POI MapID="36" xpos="307.860"  ypos="-0.680" zpos="-194.035" GUID="i9FIbRSMVk+ENWjAs2NgJA==" type="HMP.D1_P2.sy.s1"/>
