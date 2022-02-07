@@ -233,7 +233,7 @@
   
 <!-- ======================================== SHATTERED OBSERVATORY ======================================================================================================================================================== -->
   <MarkerCategory     name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_ShO_c0" DisplayName="Skorvald Launches"                                                                     iconFile="Data/General/Arrow-2.png"    iconSize="0.35"                     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_ShO_c0" DisplayName="Skorvald Launches" cull="CounterClockwise"                                                                    iconFile="Data/General/Arrow-2.png"    iconSize="0.35"                     mapVisibility="0" minimapVisibility="0" tip-description="Be Careful!"/>
     <MarkerCategory   name="F_ShO_c1" DisplayName="Virastra Skip"                                                                                                                iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_ShO_c2" DisplayName="Arkk Directions" color="c4ac54" cull="CounterClockwise" fadeFar="3000" fadeNear="2750"                                                        rotate-x="90"/>
     <MarkerCategory   name="F_ShO_sy" DisplayName="Slaying"                        cull="CounterClockwise"                                                                                                           mapVisibility="0" minimapVisibility="0">
@@ -252,6 +252,7 @@
     <POI MapID="1205" xpos="-463.614" ypos="86.8204" zpos="492.318"  GUID="2diKqwUfmEWVTW7wFimCWA==" type="HMP.F_ShO_c0" rotate="180,0,60"  fadeFar="1350" fadeNear="1100"/>
     <POI MapID="1205" xpos="-458.293" ypos="86.861"  zpos="499.323"  GUID="c57n3YMEqkKxX8fKx9x3tA==" type="HMP.F_ShO_c0" rotate="180,0,60"  fadeFar="1350" fadeNear="1100"/>
     <POI MapID="1205" xpos="-529.305" ypos="90.1263" zpos="487.876"  GUID="mavKd4/ix020J6cnrkUT8A==" type="HMP.F_ShO_c0" rotate="180,0,220" fadeFar="1250" fadeNear="1000"/>
+    <POI MapID="1205" xpos="-535.123" ypos="90.0154" zpos="477.761"  GUID="g/UtW9etl0mkEfKTlcpplQ==" type="HMP.F_ShO_c0" rotate="180,0,220" fadeFar="1250" fadeNear="1000"/>
     <!-- ========== Viirastra Skip ========== -->
     <POI MapID="1205" xpos="342.781"  ypos="108.648" zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="HMP.F_ShO_c1"    cull="CounterClockwise" fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/Jump-1.png"  rotate="190,0,310"/>
     <POI MapID="1205" xpos="331.750"  ypos="111.834" zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="HMP.F_ShO_c1"                            fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Jump-1.png"  rotate="90,0,-65"/>
