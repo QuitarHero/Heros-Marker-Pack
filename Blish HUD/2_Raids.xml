@@ -380,7 +380,7 @@
     <MarkerCategory     name="W4_B4" DisplayName="Deimos">
       <MarkerCategory   name="c1"    Displayname="Boundary" fadeFar="500" fadeNear="375" mapVisibility="0" minimapVisibility="0">
         <MarkerCategory name="sc1"   DisplayName="Waiting Area"/>
-        <MarkerCategory name="sc2"   DisplayName="Entire Arena"/>
+        <MarkerCategory name="sc2"   DisplayName="Entire Arena" defaultToggle="0"/>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
