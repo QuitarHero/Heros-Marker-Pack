@@ -2,16 +2,6 @@
 <!-- ============================================== QUITARHERO'S RAID MARKERS ============================================== -->
 <!-- ======================================================================================================================= -->
 <OverlayData>
-<!-- ======================================== TROUBLESHOOTING PEOPLE THAT DON'T KNOW THE NEW MARKER MENU LAYOUT ============================================================================================================ -->
-  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="Troubleshooting" DisplayName="HOVER OVER ME IF YOU SEE ME" tip-description="This marker pack is designed to only show categories from a single map at a time.&#xA;Please disable 'Show Categories From All Maps' in the Pathing Module Settings."/>
-  </MarkerCategory>
-  
-  <POIs>
-    <POI MapID="0" xpos="0" ypos="0" zpos="0" GUID="TROUBLESHOOTINGHEROSMARKERPACK==" type="HMP.Troubleshooting" iconFile="Data/General/empty.png"/>
-  </POIs>
-
-
 <!-- ======================================== LION'S ARCH AERODOME ========================================================================================================================================================= -->
 <MarkerCategory     name="HMP"          DisplayName="Hero's Pack">
   <MarkerCategory   name="titles"       DisplayName="Wing Labels"      tip-name="">
