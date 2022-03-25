@@ -75,11 +75,11 @@
   </POIs>
   
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
-    <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-      <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="500"  fadeNear="375"                                                                mapVisibility="0" minimapVisibility="0"/>
-      <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75"                   fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180"/>
-      <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
-    </MarkerCategory>
+  <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
+    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="750"  fadeNear="600"                                                                mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75" color="27b0ae"    fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" mapDisplaySize="15"/>
+    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
+  </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
     <Trail trailData="Data/Boundary/StrB6-Bound.trl" animSpeed="0" alpha="0.75"                  type="HMP.StrB6_c1" texture="Data/Boundary/RedLine.png"/>
@@ -88,4 +88,136 @@
     <!-- ========== Champ Spawn ========== -->
     <POI MapID="1374" xpos="29.084" ypos="18.002" zpos="-51.671" GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3"/>
   </POIs>
+  
+<!-- ========================================= AETHERBLADE HIDEOUT (Captain Mai Trin & Echo of Scarlet) ==================================================================================================================================================================== -->
+  <MarkerCategory       name="HMP"       DisplayName="Hero's Pack">
+    <MarkerCategory     name="StrB7_Reg" DisplayName="Regular"            minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory   name="c1"        DisplayName="Scarlet Phantasms"  alpha="0.6"                  iconFile="Data/General/dot.png"                 rotate-x="180">
+        <MarkerCategory name="sc1"       DisplayName="DPS Phantasm"                    color="#ff0000"                                 iconSize="0.5"/>
+        <MarkerCategory name="sc2"       DisplayName="CC Phantasm"                     color="#00ffee"                                 iconSize="0.5"/>
+        <MarkerCategory name="sc3"       DisplayName="Orb/Line Phantasms"              color="#faac05"                                 iconSize="0.35"/>
+      </MarkerCategory>
+      <MarkerCategory   name="c2"        DisplayName="Laser Safe Spots"   alpha="0.75" color="077100"  iconFile="dot.png"              iconSize="0.5"  rotate-x="180"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========== Scarlet Phantasms ========== -->
+    <POI MapID="1432" xpos="84.631"  ypos="44.2443" zpos="51.3861" GUID="zYFrx79Ur0OA6LImIUsTCg==" type="HMP.StrB7_Reg.c1.sc1"/>
+    <POI MapID="1432" xpos="55.4988" ypos="44.2872" zpos="31.4985" GUID="ERwQDqVqokqIM1GGtNcD7A==" type="HMP.StrB7_Reg.c1.sc2"/>
+    <POI MapID="1432" xpos="53.3281" ypos="44.2353" zpos="44.5262" GUID="QJbhytlAbkqPWc6JHnRlTQ==" type="HMP.StrB7_Reg.c1.sc3"/>
+    <POI MapID="1432" xpos="60.2214" ypos="44.2349" zpos="55.4814" GUID="QJt5rZpnPUiBQRo+1PD9YQ==" type="HMP.StrB7_Reg.c1.sc3"/>
+    <POI MapID="1432" xpos="74.8237" ypos="44.2351" zpos="58.4958" GUID="G4opkBoCnk6Oce+ahyP7WA==" type="HMP.StrB7_Reg.c1.sc3"/>
+    <POI MapID="1432" xpos="88.4206" ypos="44.2406" zpos="37.9927" GUID="aEclFv8m9kKsaa9EqGqocw==" type="HMP.StrB7_Reg.c1.sc3"/>
+    <POI MapID="1432" xpos="81.0917" ypos="44.235"  zpos="26.3581" GUID="9w5APoW27UG6r6X7kYZNLw==" type="HMP.StrB7_Reg.c1.sc3"/>
+	<POI MapID="1432" xpos="66.5966" ypos="44.2358" zpos="24.0236" GUID="+arALAPPaECtTQ7GVonRGA==" type="HMP.StrB7_Reg.c1.sc3"/>
+    <!-- ========== Laser Circles ========== -->
+    <POI MapID="1432" xpos="64.7508" ypos="44.1849" zpos="48.9971" GUID="fh9ufHnAzE2zSCwgtZmhsw==" type="HMP.StrB7_Reg.c2"/>
+	<POI MapID="1432" xpos="65.9116" ypos="44.1852" zpos="32.3752" GUID="rc2EL2uyW0OuLTCWrlfIkg==" type="HMP.StrB7_Reg.c2"/>
+	<POI MapID="1432" xpos="79.7098" ypos="44.1847" zpos="42.1438" GUID="IsZMZaz9S0aUnUT6Vp5Wvw==" type="HMP.StrB7_Reg.c2"/>
+  </POIs>
+  
+<!-- ========================================= XUNLAI JADE JUNKYARD (Ankka) ==================================================================================================================================================================== -->
+  <MarkerCategory       name="HMP"       DisplayName="Hero's Pack">
+    <MarkerCategory     name="StrB8_Reg" DisplayName="Regular"             minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory   name="c1"        DisplayName="Boundary"                                                               fadeFar="500"  fadeNear="350"/>
+      <MarkerCategory   name="c2"        DisplayName="Boss Spawns"         alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180">
+        <MarkerCategory name="sc1"       DisplayName="Dump Site 3"/>
+        <MarkerCategory name="sc2"       Displayname="Dump Site 2"/>
+        <MarkerCategory name="sc3"       DisplayName="Dump Site 1"/>
+      </MarkerCategory>
+      <MarkerCategory   name="c3"        DisplayName="Reanimated Sprites"  alpha="0.8"                cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" tip-name="CC Enemies" minimapVisibility="1" mapVisibility="1" mapDisplaySize="10">
+        <MarkerCategory name="sc1"       DisplayName="Dump Site 2"/>
+        <MarkerCategory name="sc2"       DisplayName="Dump Site 1"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========== Boundary ========== -->
+    <Trail trailData="Data/Strikes/B8-Bound.trl" texture="Data/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.StrB8_Reg.c1"/>
+    <!-- ========== Boss Spawns ========== -->
+    <POI MapID="1450" xpos="-100.023" ypos="90.1249" zpos="1.7934"   GUID="4dee/PKOr0qpbNfD8vBPzQ==" type="HMP.StrB8_Reg.c2.sc1"/>
+    <POI MapID="1450" xpos="53.6405"  ypos="116.172" zpos="32.8368"  GUID="rH+Ia+Quv0aSKsowmPhytw==" type="HMP.StrB8_Reg.c2.sc2"/>
+	<POI MapID="1450" xpos="-53.5146" ypos="156.726" zpos="127.478"  GUID="brxqPcWh50WBlLUSG0gN/Q==" type="HMP.StrB8_Reg.c2.sc3"/>
+    <!-- ========== CC Enemies ========== -->
+    <POI MapID="1450" xpos="18.8619"  ypos="117.643" zpos="40.5827"  GUID="s8AYx3nJzUmh5hdumf+p0A==" type="HMP.StrB8_Reg.c3.sc1" rotate-x="193"/>
+	<POI MapID="1450" xpos="88.5065"  ypos="118.695" zpos="37.5212"  GUID="mMsuM7S+dEOPWTnOvbAOiA==" type="HMP.StrB8_Reg.c3.sc1"/>
+    <POI MapID="1450" xpos="66.6103"  ypos="119.851" zpos="-4.53404" GUID="QAPCQaaCPE2ZfB/aQ/tltg==" type="HMP.StrB8_Reg.c3.sc1" rotate-x="160"/>
+	<POI MapID="1450" xpos="-78.2299" ypos="157.493" zpos="136.249"  GUID="5VfUzSzSqUmn5Gcph1S7yg==" type="HMP.StrB8_Reg.c3.sc2"/>
+	<POI MapID="1450" xpos="-45.0459" ypos="157.411" zpos="107.717"  GUID="GknPNGrkgU6X048W7KnjHw==" type="HMP.StrB8_Reg.c3.sc2"/>
+    <POI MapID="1450" xpos="-42.1723" ypos="157.431" zpos="150.984"  GUID="GqzUtrHza0yV0LLfWUVbLw==" type="HMP.StrB8_Reg.c3.sc2" alpha="1"/>
+  </POIs>
+  
+<!-- ========================================= KAINENG OVERLOOK (Minister Li and his Crew) ==================================================================================================================================================================== -->
+  <MarkerCategory         name="HMP"       DisplayName="Hero's Pack">
+    <MarkerCategory       name="StrB9_Reg" DisplayName="Regular"             mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory     name="c1"        DisplayName="DS-Rush Rotations" cull="CounterClockwise" fadeFar="1750" fadeNear="1500"                                 iconSize="0.75" rotate-x="90">
+        <MarkerCategory   name="sc1"       DisplayName="Phase 2"             defaultToggle="0"/>
+        <MarkerCategory   name="sc2"       DisplayName="Phase 3"             defaultToggle="0"/>
+        <MarkerCategory   name="sc3"       DisplayName="Both Phases"/>
+      </MarkerCategory>
+      <MarkerCategory     name="c3"        DisplayName="Trio Boss Spawns"      alpha="0.5"             fadeFar="2100" fadeNear="1850" iconFile="Data/General/dot.png" iconSize="0.5"  rotate-x="180">
+        <MarkerCategory   name="sc1"       DisplayName="Enforcer"/>
+        <MarkerCategory   name="sc2"       DisplayName="Ritualist">
+          <MarkerCategory name="asc1"      DisplayName="Initial"/>
+          <MarkerCategory name="asc2"      DisplayName="Post-Attack"/>
+        </MarkerCategory>
+        <MarkerCategory   name="sc3"       DisplayName="Mindblade"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========== Move-Slash Rotations ========== -->
+    <!-- Phase 2 -->
+    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/2.png"                     rotate-z="-90"/>
+    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/3.png"                     rotate-z="180"/>
+	<POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/4.png"                     rotate-z="90"/>
+    <!-- Phase 3 -->
+    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/4.png"                     rotate-z="-90"/>
+    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/3.png"                     rotate-z="180"/>
+	<POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/2.png"                     rotate-z="90"/>
+    <!-- Both Phases -->
+    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/2and4.png" iconSize="0.85" rotate-z="-90"/>
+    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/3.png"                     rotate-z="180"/>
+	<POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/4and2.png" iconSize="0.85" rotate-z="90"/>
+    <!-- ========== P1 Boss Spawns ========== -->
+	<POI MapID="1451" xpos="-546.174" ypos="264.636" zpos="-354.702" GUID="liO4lUHH/kC69AI0iEyUmg==" type="HMP.StrB9_Reg.c3.sc1"/>
+    <POI MapID="1451" xpos="-537.677" ypos="264.64"  zpos="-365.893" GUID="094qXhfOpE661sZh3h9sKA==" type="HMP.StrB9_Reg.c3.sc2.asc1"/>
+    <POI MapID="1451" xpos="-553.285" ypos="264.633" zpos="-377.447" GUID="uutOGT3O50KLhkVN850zgQ==" type="HMP.StrB9_Reg.c3.sc2.asc2"/>
+    <POI MapID="1451" xpos="-529.452" ypos="264.636" zpos="-377.137" GUID="glYtUH8K9UOpoWHsit+f+g==" type="HMP.StrB9_Reg.c3.sc3"/>
+  </POIs>
+  
+<!-- ========================================= HARVEST TEMPLE (Dragonvoid) ==================================================================================================================================================================== -->
+  <MarkerCategory         name="HMP"        DisplayName="Hero's Pack">
+    <MarkerCategory       name="StrB10_Reg" DisplayName="Regular"                   minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory     name="c1"         DisplayName="Heart of Dragon Locations" color="6699ff" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180">
+        <MarkerCategory   name="sc1"        DisplayName="First"                                                                                                  tip-description="Jormag, Mordremoth, Soo-Won&#xA;Order: 1/1/1"/>
+        <MarkerCategory   name="sc2"        DisplayName="Second"                                                                                                 tip-description="Primordus, The Void&#xA;Order: 2/0/2"/>
+        <MarkerCategory   name="sc3"        DisplayName="Third"                                                                                                  tip-description="Kralkatorrik, Zhaitan&#xA;Order: 3/2/0"/>
+      </MarkerCategory>
+      <MarkerCategory     name="c2"         DisplayName="Champ Spawns"                             iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180">
+        <MarkerCategory   name="sc1"        DisplayName="Time Bender"/>
+        <MarkerCategory   name="sc2"        DisplayName="Saltspray Dragon"/>
+        <MarkerCategory   name="sc3"        DisplayName="Obliterator"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========== Heart of Dragon Locations ========== -->
+    <POI MapID="1437" xpos="32.0534"  ypos="390.184" zpos="-534.904" GUID="tVcFPa9FP0q2aIeg9sL3qg==" type="HMP.StrB10_Reg.c1.sc1"/>
+    <POI MapID="1437" xpos="31.4619"  ypos="390.184" zpos="-507.323" GUID="GeURWwXM40Wav2IvaOo+aA==" type="HMP.StrB10_Reg.c1.sc2"/>
+    <POI MapID="1437" xpos="3.96553"  ypos="390.184" zpos="-507.351" GUID="P685JxlQ1ES6VlN7u6rhOQ==" type="HMP.StrB10_Reg.c1.sc3"/>
+    
+    <!-- ========== Champion Spawn Points ========== -->
+    <POI MapID="1437" xpos="-2.36431" ypos="390.184" zpos="-510.249" GUID="Jq6ElbSZhEarIgwIn6zTdQ==" type="HMP.StrB10_Reg.c2.sc1"/>
+	<POI MapID="1437" xpos="26.1614"  ypos="390.184" zpos="-529.31"  GUID="A+mRLlRed0SI4DrpogP3Yw==" type="HMP.StrB10_Reg.c2.sc2"/>
+	<POI MapID="1437" xpos="1.74731"  ypos="390.184" zpos="-539.363" GUID="jMDSoZ4H10ipeLHpYnMcMA==" type="HMP.StrB10_Reg.c2.sc3"/>
+  </POIs>
+  
 </OverlayData>
