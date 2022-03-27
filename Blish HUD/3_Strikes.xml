@@ -97,7 +97,7 @@
         <MarkerCategory name="sc2"       DisplayName="CC Phantasm"                     color="#00ffee"                                 iconSize="0.5"/>
         <MarkerCategory name="sc3"       DisplayName="Orb/Line Phantasms"              color="#faac05"                                 iconSize="0.35"/>
       </MarkerCategory>
-      <MarkerCategory   name="c2"        DisplayName="Laser Safe Spots"   alpha="0.75" color="077100"  iconFile="dot.png"              iconSize="0.5"  rotate-x="180"/>
+      <MarkerCategory   name="c2"        DisplayName="Laser Safe Spots"   alpha="0.75" color="077100"  iconFile="Data/General/dot.png"              iconSize="0.5"  rotate-x="180"/>
     </MarkerCategory>
   </MarkerCategory>
   
