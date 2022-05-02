@@ -190,12 +190,12 @@
         <MarkerCategory   name="sc2"       DisplayName="Phase 3"           defaultToggle="0"/>
         <MarkerCategory   name="sc3"       DisplayName="Both Phases"/>
       </MarkerCategory>
-      <MarkerCategory     name="c2"        DisplayName="Enforcer Path"     alpha="0.75">
+      <MarkerCategory     name="c2"        DisplayName="Enforcer Path"     alpha="0.75" defaultToggle="0">
         <MarkerCategory   name="sc1"       DisplayName="Straight Path">
           <MarkerCategory name="asc1"      DisplayName="Path"                                                                     iconFile="Data/Boundary/BigRedLine.png"/>
           <MarkerCategory name="asc2"      DisplayName="Numbers"                                                                                                  iconSize="0.75"/>
         </MarkerCategory>
-        <MarkerCategory   name="sc2"       DisplayName="Diagonal Path">
+        <MarkerCategory   name="sc2"       DisplayName="Diagonal Path"                  defaultToggle="0">
           <MarkerCategory name="asc1"      DisplayName="Path"                                                                     iconFile="Data/Boundary/BigRedLine.png"/>
           <MarkerCategory name="asc2"      DisplayName="Numbers"                                                                                                  iconSize="0.75"/>
         </MarkerCategory>
