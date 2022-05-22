@@ -153,7 +153,7 @@
 <!-- ======================================== SALVATION PASS =============================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W2_B1" DisplayName="Slothasor"      fadeFar="3500" fadeNear="3250" iconSize="1"                                     mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Numbers"        color="31cc4a"/>        
+      <MarkerCategory   name="c1"    DisplayName="Numbers"/>        
       <MarkerCategory   name="c2"    DisplayName="Shroom Paths"   behavior="4" defaultToggle="0" iconSize="0.4" resetLength="59" triggerRange="5" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="sc2"   DisplayName="Inner Strat">
         <MarkerCategory name="m1"    DisplayName="Mushroom 1"/>
@@ -363,7 +363,11 @@
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="W4_B3" DisplayName="Samarog">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"                                   fadeFar="500"  fadeNear="375"                                                                        mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                   fadeFar="500"  fadeNear="375"                                                                        mapVisibility="0" minimapVisibility="0">
+        <MarkerCategory name="sc1"   DisplayName="Entrance"/>
+        <MarkerCategory name="sc2"   DisplayName="North"              defaultToggle="0"/>
+        <MarkerCategory name="sc3"   DisplayName="South"              defaultToggle="0"/>
+      </MarkerCategory>
       <MarkerCategory   name="c2"    DisplayName="Door"               cull="CounterClockwise" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/TrueSight.png" iconSize="0.25"                   mapDisplaySize="12"/>
       <MarkerCategory   name="c3"    DisplayName="CM Spear Locations" defaultToggle="0"       fadeFar="2500" fadeNear="2250"/>
     </MarkerCategory>
@@ -387,7 +391,9 @@
     <POI MapID="1188" xpos="369.976"  ypos="32.120"  zpos="53.264"  GUID="a6gCOX4GC0CJfo9UZBapGQ==" type="HMP.W4_B1.c1.sc2"/>
     <!-- ==================== Samarog ==================== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W4B3-Bound.trl" animSpeed="0" alpha="1"                        type="HMP.W4_B3.c1"  texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W4B3-BoundE.trl" animSpeed="0" alpha="1"                        type="HMP.W4_B3.c1.sc1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W4B3-BoundN.trl" animSpeed="0" alpha="1"                        type="HMP.W4_B3.c1.sc2" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W4B3-BoundS.trl" animSpeed="0" alpha="1"                        type="HMP.W4_B3.c1.sc3" texture="Data/Boundary/RedLine.png"/>
     <!-- Door -->
     <POI MapID="1188" xpos="101.351"  ypos="105.300" zpos="115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="HMP.W4_B3.c2"                                     rotate="155,0,50"  tip-name="Rubble for Door Key"/>
     <POI MapID="1188" xpos="57.325"   ypos="97.480"  zpos="53.245"  GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="HMP.W4_B3.c2"                                     rotate="120,0,-25" tip-name="Rubble for Door Key"/>
