@@ -1,8 +1,9 @@
 <OverlayData>
 <!-- ========================================= ICEBROOD CONSTRUCT  ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1"     color="27c1e8" fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot1.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2"     color="27c1e8" fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot2.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1"     color="27c1e8"          fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot1.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2"     color="27c1e8"          fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot2.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950"  fadeNear="800"  iconFile="Data/Strikes/Slaying/IC.png" iconSize="2"   rotate="95,0,32" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Phase 1 ========== -->
@@ -15,27 +16,32 @@
     <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c2" rotate-z="135"/>
     <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c2" rotate-z="215"/>
     <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c2" rotate-z="-50"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1332" xpos="-796.919" ypos="160.790" zpos="-282.519" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3"/>
   </POIs>
   
 <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png"                mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750"                                     rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png"                                     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750"                                                       rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c3" DisplayName="Slaying"        fadeFar="800"  fadeNear="650"  iconFile="Data/Strikes/Slaying/KB.png" iconSize="1.5" rotate="96,0,155" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Data/Boundary/StrB2-Bound.trl" animSpeed="0" alpha="0.75"                  type="HMP.StrB2_c1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/StrB2-Bound.trl"              animSpeed="0" alpha="0.75"      type="HMP.StrB2_c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Boss Positions ========== -->
-    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-5.408" GUID="L3sEHR2sAkKFOhct1KhGyg==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos1.png"    iconSize="0.75" rotate-z="275"/>
-    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438" GUID="WGt9DHoBdECZoamIeyJXkw==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos2.png"    iconSize="1.25" rotate-z="177"/>
-    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512" GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos3.png"    iconSize="1.25" rotate-z="87"/>
-    <!-- <POI MapID="1346" xpos="17.385" ypos="179.712" zpos="-2.954" GUID="wMt8FVJg3UC4d/qNx4PJlA==" type="StrB2.c2"/> -->
+    <POI MapID="1346" xpos="-8.520" ypos="178.538" zpos="-5.408"  GUID="L3sEHR2sAkKFOhct1KhGyg==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos1.png"    iconSize="0.75" rotate-z="275"/>
+    <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438"  GUID="WGt9DHoBdECZoamIeyJXkw==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos2.png"    iconSize="1.25" rotate-z="177"/>
+    <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512"  GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos3.png"    iconSize="1.25" rotate-z="87"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1346" xpos="65.859" ypos="179.483" zpos="-26.838" GUID="HMP=STR=B2=C3"            type="HMP.StrB2_c3"/>
   </POIs>
 
 <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png"                               mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB3_c2" DisplayName="Stack Spots" alpha="0.6" color="34f1fa" fadeFar="4000" fadeNear="3750" iconFile="Data/General/dot.png"     iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="500"  fadeNear="375"  texture="Data/Boundary/RedLine.png"                                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB3_c2" DisplayName="Stack Spots" alpha="0.6" color="34f1fa" fadeFar="4000" fadeNear="3750" iconFile="Data/General/dot.png"         iconSize="0.5"  rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB3_c3" DisplayName="Slaying"     cull="CounterClockwise"    fadeFar="1000" fadeNear="850"  iconFile="Data/Strikes/Slaying/FoJ.png" iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -43,12 +49,15 @@
     <!-- ========== IC Markers ========== -->
     <POI MapID="1341" xpos="16.215" ypos="178.325" zpos="-2.602" GUID="0JlsA3MrVkadrzakJXHcKw==" type="HMP.StrB3_c2"/>
     <POI MapID="1341" xpos="11.345" ypos="178.325" zpos="1.620"  GUID="B8UNMpf3y0aMfaaj07+PJg==" type="HMP.StrB3_c2"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1341" xpos="71.854" ypos="180.871" zpos="-31.525" GUID="HMP=STR=B3=C3"           type="HMP.StrB3_c3"/>
   </POIs>
 
 <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"                             mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB4_c2" DisplayName="Torches"  color="66A144" cull="CounterClockwise" fadeFar="4000" fadeNear="3750" iconSize="1" rotate-x="90"/>
+    <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"                                                                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB4_c2" DisplayName="Torches"  color="66A144" cull="CounterClockwise" fadeFar="4000" fadeNear="3750"                                        iconSize="1" rotate-x="90"/>
+    <MarkerCategory name="StrB4_c3" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1200" fadeNear="1050" iconFile="Data/Strikes/Slaying/BS.png" iconSize="2" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -60,33 +69,41 @@
     <POI MapID="1339" xpos="0.291"   ypos="179.786" zpos="22.614"  GUID="g7En932TFEqELhm3OZM6Hg==" type="HMP.StrB4_c2" iconFile="Data/General/4.png" rotate-z="220" tip-name="3/4 are destroyed&#xA;second with low DPS"/>
     <POI MapID="1339" xpos="3.416"   ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="HMP.StrB4_c2" iconFile="Data/General/5.png" rotate-z="-25" tip-name="5/6 are destroyed&#xA;third with low DPS"/>
     <POI MapID="1339" xpos="32.281"  ypos="179.845" zpos="21.882"  GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="HMP.StrB4_c2" iconFile="Data/General/6.png" rotate-z="145" tip-name="5/6 are destroyed&#xA;third with low DPS"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1339" xpos="71.854" ypos="180.903" zpos="-31.525" GUID="HMP=STR=B4=C3"            type="HMP.StrB4_c3"/>
   </POIs>
   
 <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB5_c1" DisplayName="Directions" color="1fc4ed" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="1" rotate-x="90"/>
+    <MarkerCategory name="StrB5_c2" DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="1250" fadeNear="1100"  iconFile="Data/Strikes/Slaying/WoJ.png" iconSize="1.5" rotate="140,0,85" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Directions ========== -->
-    <POI MapID="1359" xpos="2.320"   ypos="54.296" zpos="66.525" GUID="mUuPysgaDUKNgxz3vs3POQ==" type="HMP.StrB5_c1" iconFile="Data/General/n.png" rotate-z="170" tip-name="North"/>
-    <POI MapID="1359" xpos="1.285"   ypos="54.296" zpos="11.692" GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="HMP.StrB5_c1" iconFile="Data/General/s.png"                tip-name="South"/>
-    <POI MapID="1359" xpos="27.831"  ypos="54.296" zpos="39.954" GUID="jM1djHOvL0qKeJEqoscURQ==" type="HMP.StrB5_c1" iconFile="Data/General/e.png" rotate-z="90"  tip-name="East"/>
-    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777" GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1" iconFile="Data/General/w.png" rotate-z="-90" tip-name="West"/>
+    <POI MapID="1359" xpos="2.320"   ypos="54.296" zpos="66.525"  GUID="mUuPysgaDUKNgxz3vs3POQ==" type="HMP.StrB5_c1" iconFile="Data/General/n.png" rotate-z="170" tip-name="North"/>
+    <POI MapID="1359" xpos="1.285"   ypos="54.296" zpos="11.692"  GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="HMP.StrB5_c1" iconFile="Data/General/s.png"                tip-name="South"/>
+    <POI MapID="1359" xpos="27.831"  ypos="54.296" zpos="39.954"  GUID="jM1djHOvL0qKeJEqoscURQ==" type="HMP.StrB5_c1" iconFile="Data/General/e.png" rotate-z="90"  tip-name="East"/>
+    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777"  GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1" iconFile="Data/General/w.png" rotate-z="-90" tip-name="West"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1359" xpos="10.667"  ypos="68.310" zpos="-42.808" GUID="HMP=STR=B5=C2"            type="HMP.StrB5_c2"/>
   </POIs>
   
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="750"  fadeNear="600"                                                                mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75" color="27b0ae"    fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" mapDisplaySize="15"/>
-    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
-  </MarkerCategory>
+    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="750"  fadeNear="600"                                                                           mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75" color="27b0ae"    fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
+    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconFile="Data/Strikes/Slaying/CW.png" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0"/>
+ </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Data/Boundary/StrB6-Bound.trl" animSpeed="0" alpha="0.75"                  type="HMP.StrB6_c1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/StrB6-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.StrB6_c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Boss Spawn ========== -->
-    <POI MapID="1374" xpos="34.799" ypos="17.272" zpos="-89.322" GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2"/>
+    <POI MapID="1374" xpos="34.799"  ypos="17.272" zpos="-89.322"  GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2"/>
     <!-- ========== Champ Spawn ========== -->
-    <POI MapID="1374" xpos="29.084" ypos="18.002" zpos="-51.671" GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3"/>
+    <POI MapID="1374" xpos="29.084"  ypos="18.002" zpos="-51.671"  GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1374" xpos="128.446" ypos="20.980" zpos="-142.672" GUID="HMP=STR=B6=C4"            type="HMP.StrB6_c4"/>
   </POIs>
   
 <!-- ========================================= AETHERBLADE HIDEOUT (Captain Mai Trin & Echo of Scarlet) ==================================================================================================================================================================== -->
