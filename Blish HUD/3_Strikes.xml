@@ -295,39 +295,70 @@
   
 <!-- ========================================= HARVEST TEMPLE (Dragonvoid) ==================================================================================================================================================================== -->
   <MarkerCategory         name="HMP"        DisplayName="Hero's Pack">
-    <MarkerCategory       name="StrB10_Reg" DisplayName="Regular"                   minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory     name="c1"         DisplayName="Heart of Dragon Locations" color="38bfc2" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180">
-        <MarkerCategory   name="sc1"        DisplayName="First"                                                                                                  tip-description="Jormag, Mordremoth, Soo-Won&#xA;Order: 1/1/1"/>
-        <MarkerCategory   name="sc2"        DisplayName="Second"                                                                                                 tip-description="Primordus, The Void&#xA;Order: 2/0/2"/>
-        <MarkerCategory   name="sc3"        DisplayName="Third"                                                                                                  tip-description="Kralkatorrik, Zhaitan&#xA;Order: 3/2/0"/>
+      <MarkerCategory     name="StrB10_c1"  DisplayName="Heart of Dragon Locations" color="38bfc2"                                         iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1"        DisplayName="First"                                                                                                                                                     tip-description="Jormag, Mordremoth, Soo-Won&#xA;Order: 1/1/1"/>
+        <MarkerCategory   name="sc2"        DisplayName="Second"                                                                                                                                                    tip-description="Primordus, The Void&#xA;Order: 2/0/2"/>
+        <MarkerCategory   name="sc3"        DisplayName="Third"                                                                                                                                                     tip-description="Kralkatorrik, Zhaitan&#xA;Order: 3/2/0"/>
       </MarkerCategory>
-      <MarkerCategory     name="c2"         DisplayName="Champ Spawns"                             iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180">
+      <MarkerCategory     name="StrB10_c2"  DisplayName="Champion Spawns"                                                                  iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     minimapVisibility="0" mapVisibility="0">
         <MarkerCategory   name="sc1"        DisplayName="Time Bender"/>
         <MarkerCategory   name="sc2"        DisplayName="Saltspray Dragon"/>
         <MarkerCategory   name="sc3"        DisplayName="Obliterator"/>
       </MarkerCategory>
-      <MarkerCategory     name="c3"         DisplayName="South"            cull="CounterClockwise" iconFile="Data/General/s.png"   iconSize="1" rotate="90,0,0"/>
-      <MarkerCategory     name="c6"         DisplayName="Slaying"          cull="CounterClockwise" iconFile="Data/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180"/>
-    </MarkerCategory>
+      <MarkerCategory     name="StrB10_c3"  DisplayName="South"                     cull="CounterClockwise"                                iconFile="Data/General/s.png"          iconSize="1"   rotate="90,0,0"    minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="StrB10_c4"  DisplayName="Dragonvoid Boundary"                                                                                                                                       minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1"        DisplayName="Hitbox"                    defaultToggle="0"       fadeFar="8000" fadeNear="7950"/>
+        <MarkerCategory   name="sc2"        DisplayName="Max Melee"                                         fadeFar="400"  fadeNear="375"/>
+        <MarkerCategory   name="sc3"        DisplayName="Max Edge"                                          fadeFar="400"  fadeNear="375"/>
+      </MarkerCategory>
+      <MarkerCategory     name="StrB10_c5"  DisplayName="Flank Lines"               alpha="0.65"            fadeFar="800"  fadeNear="775"  iconFile="Data/Strikes/StrB10-flank.png"              rotate="180,0,135" minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1"        DisplayName="Hitbox"                    defaultToggle="0"/>
+        <MarkerCategory   name="sc2"        DisplayName="Max Melee"/>
+      </MarkerCategory>
+      <MarkerCategory     name="StrB10_c6"  DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="500"  fadeNear="400"  iconFile="Data/Strikes/Slaying/HT.png" iconSize="2"   rotate="90,0,180"  minimapVisibility="0" mapVisibility="0"/>
   </MarkerCategory>
   
   <POIs>
     <!-- ========== Heart of Dragon Locations ========== -->
-    <POI MapID="1437" xpos="32.0534"  ypos="390.184" zpos="-534.904" GUID="tVcFPa9FP0q2aIeg9sL3qg==" type="HMP.StrB10_Reg.c1.sc1"/>
-    <POI MapID="1437" xpos="31.4619"  ypos="390.184" zpos="-507.323" GUID="GeURWwXM40Wav2IvaOo+aA==" type="HMP.StrB10_Reg.c1.sc2"/>
-    <POI MapID="1437" xpos="3.96553"  ypos="390.184" zpos="-507.351" GUID="P685JxlQ1ES6VlN7u6rhOQ==" type="HMP.StrB10_Reg.c1.sc3"/>
+    <POI MapID="1437" xpos="32.0534"  ypos="390.184" zpos="-534.904" GUID="tVcFPa9FP0q2aIeg9sL3qg==" type="HMP.StrB10_c1.sc1"/>
+    <POI MapID="1437" xpos="31.4619"  ypos="390.184" zpos="-507.323" GUID="GeURWwXM40Wav2IvaOo+aA==" type="HMP.StrB10_c1.sc2"/>
+    <POI MapID="1437" xpos="3.96553"  ypos="390.184" zpos="-507.351" GUID="P685JxlQ1ES6VlN7u6rhOQ==" type="HMP.StrB10_c1.sc3"/>
     
     <!-- ========== Champion Spawn Points ========== -->
-    <POI MapID="1437" xpos="-2.36431" ypos="390.184" zpos="-510.249" GUID="Jq6ElbSZhEarIgwIn6zTdQ==" type="HMP.StrB10_Reg.c2.sc1"/>
-    <POI MapID="1437" xpos="26.1614"  ypos="390.184" zpos="-529.31"  GUID="A+mRLlRed0SI4DrpogP3Yw==" type="HMP.StrB10_Reg.c2.sc2"/>
-    <POI MapID="1437" xpos="1.74731"  ypos="390.184" zpos="-539.363" GUID="jMDSoZ4H10ipeLHpYnMcMA==" type="HMP.StrB10_Reg.c2.sc3"/>
+    <POI MapID="1437" xpos="-2.36431" ypos="390.184" zpos="-510.249" GUID="Jq6ElbSZhEarIgwIn6zTdQ==" type="HMP.StrB10_c2.sc1"/>
+    <POI MapID="1437" xpos="26.1614"  ypos="390.184" zpos="-529.31"  GUID="A+mRLlRed0SI4DrpogP3Yw==" type="HMP.StrB10_c2.sc2"/>
+    <POI MapID="1437" xpos="1.74731"  ypos="390.184" zpos="-539.363" GUID="jMDSoZ4H10ipeLHpYnMcMA==" type="HMP.StrB10_c2.sc3"/>
     
     <!-- ========== South (Boss) ========== -->
-    <POI MapID="1437" xpos="15.2133"  ypos="391.192" zpos="-555.102" GUID="ktU0HCOZek6MAtwAKmCD4Q==" type="HMP.StrB10_Reg.c3"/>
+    <POI MapID="1437" xpos="15.2133"  ypos="391.192" zpos="-555.102" GUID="ktU0HCOZek6MAtwAKmCD4Q==" type="HMP.StrB10_c3"/>
+    
+    <!-- ========== BOSS BOUNDARIES ========== -->
+    <Trail trailData="Data/Strikes/B10-hitbox.trl"                   animSpeed="0" alpha="0.85"      type="HMP.StrB10_c4.sc1" texture="Data/Boundary/RedLine3.png"/>
+    <Trail trailData="Data/Strikes/B10-atkRange_max.trl"             animSpeed="0" alpha="0.75"      type="HMP.StrB10_c4.sc2" texture="Data/Boundary/RedLine2.png"/>
+    <Trail trailData="Data/Strikes/B10-edgeRange.trl"                animSpeed="0" alpha="0.75"      type="HMP.StrB10_c4.sc3" texture="Data/Boundary/RedLine2.png"/>
+    
+    <!-- ========== FLANK LINES ========== -->
+    <!-- Hitbox -->
+    <POI MapID="1437" xpos="16.676"  ypos="390.173" zpos="-553.713"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="db1818" iconSize="1.7"/>
+    <POI MapID="1437" xpos="19.1155" ypos="390.173" zpos="-551.2735" GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="db1818" iconSize="1.75"/>
+    <POI MapID="1437" xpos="21.555"  ypos="390.173" zpos="-548.834"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="db1818" iconSize="1.7"/>
+    <POI MapID="1437" xpos="16.584"  ypos="390.173" zpos="-553.692"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="33bf21" iconSize="1.75"/>
+    <POI MapID="1437" xpos="19.059"  ypos="390.173" zpos="-551.218"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="33bf21" iconSize="1.75"/>
+    <POI MapID="1437" xpos="21.4985" ypos="390.173" zpos="-548.7785" GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="33bf21" iconSize="1.7"/>
+    <!-- Max Melee -->
+    <POI MapID="1437" xpos="16.493"  ypos="390.173" zpos="-553.888"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.45"/>
+    <POI MapID="1437" xpos="18.579"  ypos="390.173" zpos="-551.802"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.5"/>
+    <POI MapID="1437" xpos="20.700"  ypos="390.173" zpos="-549.681"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.5"/>
+    <POI MapID="1437" xpos="22.821"  ypos="390.173" zpos="-547.560"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.5"/>
+    <POI MapID="1437" xpos="24.907"  ypos="390.173" zpos="-545.474"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.45"/>
+    <POI MapID="1437" xpos="16.408"  ypos="390.173" zpos="-553.872"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="18.529"  ypos="390.173" zpos="-551.751"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="20.650"  ypos="390.173" zpos="-549.630"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="22.771"  ypos="390.173" zpos="-547.509"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="24.857"  ypos="390.173" zpos="-545.423"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.45"/>
     
     <!-- ========== Slaying ========== -->
-    <POI MapID="1437" xpos="15.352"   ypos="391.220" zpos="-481.393" GUID="HMP=STRB10=C6"            type="HMP.StrB10_Reg.c6" fadeFar="500" fadeNear="400"/>
-    
+    <POI MapID="1437" xpos="15.352"   ypos="391.220" zpos="-481.393" GUID="HMP=STRB10=C6"            type="HMP.StrB10_c6"/>
     
   </POIs>
   
