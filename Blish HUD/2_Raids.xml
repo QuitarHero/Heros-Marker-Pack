@@ -125,15 +125,15 @@
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W1B2-Bound.trl"   animSpeed="0" alpha="0.75"                    type="HMP.W1_B3.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Spirits (in-game) -->
-    <POI MapID="1062" xpos="22.168"   ypos="48.572" zpos="-93.483"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="HMP.W1_B3.c2.sc1.s1"                                                                                    rotate-z="220"/>
-    <POI MapID="1062" xpos="62.549"   ypos="48.908" zpos="-91.347"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="HMP.W1_B3.c2.sc1.s2"                                                                                    rotate-z="135"/>
-    <POI MapID="1062" xpos="62.083"   ypos="48.868" zpos="-132.221" GUID="VVK/FtYXK0COctneNDDPqg==" type="HMP.W1_B3.c2.sc1.s3"/>
-    <POI MapID="1062" xpos="21.915"   ypos="48.618" zpos="-134.613" GUID="0grnFvQGQ0W1GJSM2wXfbA==" type="HMP.W1_B3.c2.sc1.s4"/>
+    <POI MapID="1062" xpos="21.407"   ypos="48.572" zpos="-92.894"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="HMP.W1_B3.c2.sc1.s1"                                                                                    rotate-z="220"/>
+    <POI MapID="1062" xpos="64.096"   ypos="48.908" zpos="-93.094"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="HMP.W1_B3.c2.sc1.s2"                                                                                    rotate-z="135"/>
+    <POI MapID="1062" xpos="62.752"   ypos="48.868" zpos="-131.938" GUID="VVK/FtYXK0COctneNDDPqg==" type="HMP.W1_B3.c2.sc1.s3"/>
+    <POI MapID="1062" xpos="22.018"   ypos="48.618" zpos="-134.791" GUID="0grnFvQGQ0W1GJSM2wXfbA==" type="HMP.W1_B3.c2.sc1.s4"/>
     <!-- Spirits (minimap) -->
-    <POI MapID="1062" xpos="22.168"   ypos="48.572" zpos="-93.483"  GUID="laPRzd4fDEm62S+dF+oDig==" type="HMP.W1_B3.c2.sc2.s1"/>
-    <POI MapID="1062" xpos="62.549"   ypos="48.908" zpos="-91.347"  GUID="riG7FumyWEqUyf6Xvji4lg==" type="HMP.W1_B3.c2.sc2.s2"/>
-    <POI MapID="1062" xpos="62.083"   ypos="48.868" zpos="-132.221" GUID="kw0IjOs/m0GJDrp8nFXATA==" type="HMP.W1_B3.c2.sc2.s3"/>
-    <POI MapID="1062" xpos="21.915"   ypos="48.618" zpos="-134.613" GUID="GgmtF9j4hkWW/ws/T2La4w==" type="HMP.W1_B3.c2.sc2.s4"/>
+    <POI MapID="1062" xpos="21.407"   ypos="48.572" zpos="-92.894"  GUID="laPRzd4fDEm62S+dF+oDig==" type="HMP.W1_B3.c2.sc2.s1"/>
+    <POI MapID="1062" xpos="64.096"   ypos="48.908" zpos="-93.094"  GUID="riG7FumyWEqUyf6Xvji4lg==" type="HMP.W1_B3.c2.sc2.s2"/>
+    <POI MapID="1062" xpos="62.752"   ypos="48.868" zpos="-131.938" GUID="kw0IjOs/m0GJDrp8nFXATA==" type="HMP.W1_B3.c2.sc2.s3"/>
+    <POI MapID="1062" xpos="22.018"   ypos="48.618" zpos="-134.791" GUID="GgmtF9j4hkWW/ws/T2La4w==" type="HMP.W1_B3.c2.sc2.s4"/>
     <!-- ========== Sabetha ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W1B3-Bound.trl"   animSpeed="0" alpha="0.75"                    type="HMP.W1_B4.c1"                                texture="Data/Boundary/RedLine.png"/>
@@ -147,6 +147,11 @@
     <POI MapID="1062" xpos="-89.847"  ypos="62.884" zpos="82.927"   GUID="f6MqlZMqbk2wBTmty3lt1g==" type="HMP.W1_B4.c2"                                iconFile="Data/General/e.png"                              tip-name="East"  inGameVisibility="0"/>
     <POI MapID="1062" xpos="-127.366" ypos="62.686" zpos="126.039"  GUID="A9Fo/Z7wLE+m1uR5pxlHcw==" type="HMP.W1_B4.c2"                                iconFile="Data/General/n.png"                              tip-name="North" inGameVisibility="0"/>
     <POI MapID="1062" xpos="-171.633" ypos="62.066" zpos="88.843"   GUID="X2SbGwYOdUqy5ZTY69jvGA==" type="HMP.W1_B4.c2"                                iconFile="Data/General/w.png"                              tip-name="West"  inGameVisibility="0"/>
+  
+    <POI MapID="1062" xpos="-223.1239" ypos="78" zpos="176.5455" GUID="asdflkajsdfuyre"/>
+    <POI MapID="1062" xpos="-36.64787" ypos="78" zpos="-9.413649" GUID="asdffffflkajsdfuyre"/>
+  
+  
   </POIs>
   
   
@@ -189,10 +194,10 @@
   <POIs>
     <!-- ========== Slothasor ========== -->
     <!-- Mushroom Numbers -->
-    <POI MapID="1149" xpos="208.926"  ypos="4.933"  zpos="25.220"   GUID="orHk62LZ8EyzraKa0gGXKg==" type="HMP.W2_B1.c1"                             iconFile="Data/General/1.png"/>
-    <POI MapID="1149" xpos="174.536"  ypos="2.414"  zpos="-10.016"  GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="HMP.W2_B1.c1"                             iconFile="Data/General/2.png"/>
-    <POI MapID="1149" xpos="192.923"  ypos="0.846"  zpos="-35.958"  GUID="y/MQHT7wCkagUkPZlpFa6A==" type="HMP.W2_B1.c1"                             iconFile="Data/General/3.png"/>
-    <POI MapID="1149" xpos="224.968"  ypos="-0.177" zpos="-13.498"  GUID="K4lINKdqcEeKpuQMv9sU1g==" type="HMP.W2_B1.c1"                             iconFile="Data/General/4.png"/>
+    <POI MapID="1149" xpos="208.928"  ypos="4.933"  zpos="25.562"   GUID="orHk62LZ8EyzraKa0gGXKg==" type="HMP.W2_B1.c1"                             iconFile="Data/General/1.png"/>
+    <POI MapID="1149" xpos="174.839"  ypos="2.414"  zpos="-9.068"   GUID="FYA1LPmOl0SeX4qUTWMoyw==" type="HMP.W2_B1.c1"                             iconFile="Data/General/2.png"/>
+    <POI MapID="1149" xpos="192.947"  ypos="0.846"  zpos="-35.956"  GUID="y/MQHT7wCkagUkPZlpFa6A==" type="HMP.W2_B1.c1"                             iconFile="Data/General/3.png"/>
+    <POI MapID="1149" xpos="224.945"  ypos="-0.177" zpos="-13.404"  GUID="K4lINKdqcEeKpuQMv9sU1g==" type="HMP.W2_B1.c1"                             iconFile="Data/General/4.png"/>
     <!-- ===== Eating Paths ===== -->
     <!-- Inner Strat -->
     <POI MapID="1149" xpos="207.705"  ypos="2.167"  zpos="14.863"   GUID="VSr7cNnz90CtE9yc0N0MEQ==" type="HMP.W2_B1.c2.sc2.m1"                      iconFile="Data/Raids/Mushy1.png"/>
@@ -277,15 +282,15 @@
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W3B2-Bound.trl" animSpeed="0" alpha="0.85"                      type="HMP.W3_B2.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Green Circles -->
-    <POI MapID="1156" xpos="-97.048"  ypos="148.556" zpos="255.802" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="HMP.W3_B2.c2"/>
-    <POI MapID="1156" xpos="-80.653"  ypos="148.556" zpos="229.251" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" type="HMP.W3_B2.c2"/>
-    <POI MapID="1156" xpos="-113.822" ypos="148.556" zpos="229.125" GUID="fg81J0pga0SNm4K8SUYn7Q==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-97.019"  ypos="148.556" zpos="255.827" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-81.049"  ypos="148.556" zpos="228.662" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-114.034" ypos="148.556" zpos="229.050" GUID="fg81J0pga0SNm4K8SUYn7Q==" type="HMP.W3_B2.c2"/>
     <!-- Rifts -->
-    <POI MapID="1156" xpos="-109.351" ypos="148.551" zpos="251.744" GUID="4MohG8eTBU2qAk2/Ochs5w==" type="HMP.W3_B2.c3"/>
-    <POI MapID="1156" xpos="-115.455" ypos="148.551" zpos="229.086" GUID="Fn3ecIHlnE6OHuCgXAKqrg==" type="HMP.W3_B2.c3"/>
-    <POI MapID="1156" xpos="-85.363"  ypos="148.551" zpos="252.208" GUID="q1c3bnDY6E2y+VDUJPcDBw==" type="HMP.W3_B2.c3"/>
-    <POI MapID="1156" xpos="-80.025"  ypos="148.551" zpos="229.034" GUID="BHmRO53uKk+MazF3TBR3xw==" type="HMP.W3_B2.c3"/>
-    <POI MapID="1156" xpos="-98.227"  ypos="148.551" zpos="218.485" GUID="rk3s849nHUe9v3JTUBN1rA==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-109.084" ypos="148.551" zpos="251.514" GUID="4MohG8eTBU2qAk2/Ochs5w==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-115.513" ypos="148.551" zpos="229.142" GUID="Fn3ecIHlnE6OHuCgXAKqrg==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-85.908"  ypos="148.551" zpos="252.198" GUID="q1c3bnDY6E2y+VDUJPcDBw==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-80.100"  ypos="148.551" zpos="228.898" GUID="BHmRO53uKk+MazF3TBR3xw==" type="HMP.W3_B2.c3"/>
+    <POI MapID="1156" xpos="-97.631"  ypos="148.551" zpos="218.591" GUID="rk3s849nHUe9v3JTUBN1rA==" type="HMP.W3_B2.c3"/>
     <!-- 1-Orb Pull -->
     <POI MapID="1156" xpos="-107.558" ypos="148.552" zpos="249.637" GUID="3jkzHcJ96kaEueETxjSFEQ==" type="HMP.W3_B2.c4"/>
     <!-- ========== Twisted Castle ========== -->
@@ -400,18 +405,18 @@
     <POI MapID="1188" xpos="22.747"   ypos="111.443" zpos="103.244" GUID="RvtVRF00I02rBTNZVVAE/Q==" type="HMP.W4_B3.c2"                                     rotate="120,0,235" tip-name="Rubble for Door Key"/>
     <POI MapID="1188" xpos="-11.344"  ypos="120.690" zpos="87.571"  GUID="Fr/eTEAoO06UgxlWr6JrWg==" type="HMP.W4_B3.c2"                                     rotate="160,0,72"  tip-name="Rubble for Door Key"/>
     <!-- Samarog CM Spear Locations -->
-    <POI MapID="1188" xpos="-99.9579" ypos="129.52"  zpos="88.3492" GUID="NEWg2vQGWUG7skAjSe5GvA==" type="HMP.W4_B3.c3"     iconFile="Data/General/1.png"/>
-    <POI MapID="1188" xpos="-100.077" ypos="129.518" zpos="68.0541" GUID="ilj0uOsStkmYsgtbIgbgYg==" type="HMP.W4_B3.c3"     iconFile="Data/General/2.png"/>
-    <POI MapID="1188" xpos="-100.291" ypos="129.52"  zpos="47.5306" GUID="CSklVOEw5kekiGO1xmJaeg==" type="HMP.W4_B3.c3"     iconFile="Data/General/3.png"/>
-    <POI MapID="1188" xpos="-81.6473" ypos="129.511" zpos="48.7055" GUID="Q1S7DuSx6EyOBpNOLP6oMQ==" type="HMP.W4_B3.c3"     iconFile="Data/General/4.png"/>
-    <POI MapID="1188" xpos="-80.8687" ypos="129.516" zpos="68.2828" GUID="1GNk+gsbA0uQxbeaYgzIWQ==" type="HMP.W4_B3.c3"     iconFile="Data/General/5.png"/>
-    <POI MapID="1188" xpos="-80.1187" ypos="129.518" zpos="87.1555" GUID="Dgv1vCGXmE6srFUTwMVd/Q==" type="HMP.W4_B3.c3"     iconFile="Data/General/6.png"/>
-    <POI MapID="1188" xpos="-79.5845" ypos="129.581" zpos="106.197" GUID="bhZFHDKdpUynTOn8qfB6zg==" type="HMP.W4_B3.c3"     iconFile="Data/General/7.png"/>
-    <POI MapID="1188" xpos="-99.0345" ypos="129.511" zpos="108.038" GUID="GkbfNEIcPkK+UvXrsT+6oA==" type="HMP.W4_B3.c3"     iconFile="Data/General/8.png"/>
-    <POI MapID="1188" xpos="-118.275" ypos="129.52"  zpos="108.482" GUID="9IU3xrZtV0+z0B+cIvIj9g==" type="HMP.W4_B3.c3"     iconFile="Data/General/9.png"/>
-    <POI MapID="1188" xpos="-119.001" ypos="129.513" zpos="88.5207" GUID="eVUOgid5DE2St21aLoECqw==" type="HMP.W4_B3.c3"     iconFile="Data/General/10.png"/>
-    <POI MapID="1188" xpos="-119.412" ypos="129.511" zpos="67.7453" GUID="5Ueh5mr+RUmLHFHQNGvsgQ==" type="HMP.W4_B3.c3"     iconFile="Data/General/11.png"/>
-    <POI MapID="1188" xpos="-119.615" ypos="129.511" zpos="46.3155" GUID="m/pCaSxM3kmNyzGNTAt+Jw==" type="HMP.W4_B3.c3"     iconFile="Data/General/12.png"/>
+    <POI MapID="1188" xpos="-99.931"  ypos="129.52"  zpos="88.315"  GUID="NEWg2vQGWUG7skAjSe5GvA==" type="HMP.W4_B3.c3"     iconFile="Data/General/1.png"/>
+    <POI MapID="1188" xpos="-99.976"  ypos="129.518" zpos="68.007"  GUID="ilj0uOsStkmYsgtbIgbgYg==" type="HMP.W4_B3.c3"     iconFile="Data/General/2.png"/>
+    <POI MapID="1188" xpos="-100.196" ypos="129.52"  zpos="47.460"  GUID="CSklVOEw5kekiGO1xmJaeg==" type="HMP.W4_B3.c3"     iconFile="Data/General/3.png"/>
+    <POI MapID="1188" xpos="-81.676"  ypos="129.511" zpos="48.579"  GUID="Q1S7DuSx6EyOBpNOLP6oMQ==" type="HMP.W4_B3.c3"     iconFile="Data/General/4.png"/>
+    <POI MapID="1188" xpos="-80.877"  ypos="129.516" zpos="68.245"  GUID="1GNk+gsbA0uQxbeaYgzIWQ==" type="HMP.W4_B3.c3"     iconFile="Data/General/5.png"/>
+    <POI MapID="1188" xpos="-80.166"  ypos="129.518" zpos="87.246"  GUID="Dgv1vCGXmE6srFUTwMVd/Q==" type="HMP.W4_B3.c3"     iconFile="Data/General/6.png"/>
+    <POI MapID="1188" xpos="-79.700"  ypos="129.581" zpos="106.193" GUID="bhZFHDKdpUynTOn8qfB6zg==" type="HMP.W4_B3.c3"     iconFile="Data/General/7.png"/>
+    <POI MapID="1188" xpos="-99.090"  ypos="129.511" zpos="108.156" GUID="GkbfNEIcPkK+UvXrsT+6oA==" type="HMP.W4_B3.c3"     iconFile="Data/General/8.png"/>
+    <POI MapID="1188" xpos="-118.389" ypos="129.52"  zpos="108.527" GUID="9IU3xrZtV0+z0B+cIvIj9g==" type="HMP.W4_B3.c3"     iconFile="Data/General/9.png"/>
+    <POI MapID="1188" xpos="-119.207" ypos="129.513" zpos="88.457"  GUID="eVUOgid5DE2St21aLoECqw==" type="HMP.W4_B3.c3"     iconFile="Data/General/10.png"/>
+    <POI MapID="1188" xpos="-119.292" ypos="129.511" zpos="67.837"  GUID="5Ueh5mr+RUmLHFHQNGvsgQ==" type="HMP.W4_B3.c3"     iconFile="Data/General/11.png"/>
+    <POI MapID="1188" xpos="-119.480" ypos="129.511" zpos="46.465"  GUID="m/pCaSxM3kmNyzGNTAt+Jw==" type="HMP.W4_B3.c3"     iconFile="Data/General/12.png"/>
     <!-- ==================== Deimos ==================== -->
     <Trail trailData="Data/Boundary/W4B4-Bound1.trl" alpha="1" animSpeed="0"                        type="HMP.W4_B4.c1.sc1" texture="Data/Boundary/RedLine.png"/>
     <Trail trailData="Data/Boundary/W4B4-Bound2.trl" alpha="1" animSpeed="0"                        type="HMP.W4_B4.c1.sc2" texture="Data/Boundary/RedLine.png"/>
@@ -445,9 +450,10 @@
     <POI MapID="1264" xpos="140.330"  ypos="110.215" zpos="206.008" GUID="Y5a565leIESsmYtpeMdbHw==" type="HMP.W5_B3.c1"/>
     <POI MapID="1264" xpos="134.913"  ypos="110.467" zpos="220.439" GUID="z43HtXN4FU6EOx7ATCHK0w==" type="HMP.W5_B3.c1"/>
     <!-- ========== Statue of Darkness ========== -->
-    <POI MapID="1264" xpos="344.015"  ypos="97.308"  zpos="28.709"  GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="HMP.W5_B3.c2"/>
-    <POI MapID="1264" xpos="364.569"  ypos="97.308"  zpos="24.818"  GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="HMP.W5_B3.c2"/>
-    <POI MapID="1264" xpos="384.978"  ypos="97.308"  zpos="20.738"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="HMP.W5_B3.c2"/>
+    <POI MapID="1264" xpos="344.051"  ypos="97.308"  zpos="28.717"  GUID="d9Wqmji74kWQJgU1iMVDNQ==" type="HMP.W5_B3.c2"/>
+    <POI MapID="1264" xpos="364.521"  ypos="97.308"  zpos="24.811"  GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="HMP.W5_B3.c2"/>
+    <POI MapID="1264" xpos="384.933"  ypos="97.308"  zpos="20.685"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="HMP.W5_B3.c2"/>
+
     <!-- ========== Dhuum  ========== -->
     <!-- Death AoE -->
     <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="-2" alpha="1"                            type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
@@ -563,8 +569,8 @@
     <POI MapID="1323" xpos="51.537"  ypos="15.212" zpos="229.197" GUID="s0/sh5qLQEqE9Zv5yrNieA==" type="HMP.W7_B3.c1.sc2"                                     rotate-z="20"/>
     <POI MapID="1323" xpos="79.296"  ypos="15.212" zpos="249.042" GUID="PJmEwxaoGUa3qva9RN6Sfw==" type="HMP.W7_B3.c1.sc2"                                     rotate-z="80"/>
     <!-- Pylons -->
-    <POI MapID="1323" xpos="41.543"  ypos="16.813" zpos="294.356" GUID="0OXp2ufTbU6/fEo+UcwOMA==" type="HMP.W7_B3.c2"     iconFile="Data/General/1.png"       tip-name="1st Destroyed Pylon"/>
-    <POI MapID="1323" xpos="8.317"   ypos="16.812" zpos="236.796" GUID="UPNrnI78QEKYECwurS+1KQ==" type="HMP.W7_B3.c2"     iconFile="Data/General/2.png"       tip-name="2nd Destroyed Pylon"/>
-    <POI MapID="1323" xpos="74.861"  ypos="16.813" zpos="236.700" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" type="HMP.W7_B3.c2"     iconFile="Data/General/3.png"       tip-name="3rd Destroyed Pylon"/>
+    <POI MapID="1323" xpos="41.461"  ypos="16.813" zpos="294.346" GUID="0OXp2ufTbU6/fEo+UcwOMA==" type="HMP.W7_B3.c2"     iconFile="Data/General/1.png"       tip-name="1st Destroyed Pylon"/>
+    <POI MapID="1323" xpos="8.192"   ypos="16.812" zpos="236.775" GUID="UPNrnI78QEKYECwurS+1KQ==" type="HMP.W7_B3.c2"     iconFile="Data/General/2.png"       tip-name="2nd Destroyed Pylon"/>
+    <POI MapID="1323" xpos="74.715"  ypos="16.813" zpos="236.775" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" type="HMP.W7_B3.c2"     iconFile="Data/General/3.png"       tip-name="3rd Destroyed Pylon"/>
   </POIs>
 </OverlayData>
