@@ -2,7 +2,7 @@
 <!-- ==================== ASCALONIAN CATACOMBS ========================================================================================================================================================================= -->    
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="D1_P0" DisplayName="Pre-Events"                                                                                                                       mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="sy"    DisplayName="Slaying">
+      <MarkerCategory   name="sy"    DisplayName="Slaying"             cull="CounterClockwise">
         <MarkerCategory name="s1"    DisplayName="Spider"              fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC1.png"    iconSize="1.75" rotate="90,0,-90" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
         <MarkerCategory name="s2"    DisplayName="Kholer"              fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/AC2.png"    iconSize="1.75" rotate="90,0,42"  tip-description="Potion: Ghost&#xA;Sigils: Ghost, Night"/>
       </MarkerCategory>
@@ -11,17 +11,17 @@
       <MarkerCategory   name="c1"    DisplayName="Scepter #1 Port"     fadeFar="700"  fadeNear="550"                                              iconSize="0.25" rotate="90,0,140"/>
       <MarkerCategory   name="c2"    DisplayName="Pre-Scepter #2 Port" fadeFar="2000" fadeNear="1750"                                             iconSize="0.5"  rotate="90,0,-32"/>
       <MarkerCategory   name="c3"    DisplayName="Boss Portal"                                                                                    iconSize="0.5"  rotate-z="270"/>
-      <MarkerCategory   name="sy"    DisplayName="Slaying"             fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp1.png"   iconSize="1.75" rotate="90,0,90"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+      <MarkerCategory   name="sy"    DisplayName="Slaying"             cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp1.png"   iconSize="1.75" rotate="90,0,90"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
     </MarkerCategory>
     <MarkerCategory     name="D1_P2" DisplayName="Path #2 (Detha)"                                                                                                                  mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="sy"    DisplayName="Slaying">
+      <MarkerCategory   name="sy"    DisplayName="Slaying"             cull="CounterClockwise">
         <MarkerCategory name="s1"    DisplayName="Temple"              fadeFar="1250" fadeNear="1000" iconFile="Data/Dungeons/Slaying/ACp2-1.png" iconSize="1.75" rotate="105,0,20" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
         <MarkerCategory name="s2"    DisplayName="HoC Ghosts"          fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-2.png" iconSize="1.75" rotate="95,0,0"   tip-description="Potion: Ghost&#xA;Sigils: Ghost, Night"/>
         <MarkerCategory name="s3"    DisplayName="Boss"                fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp2-3.png" iconSize="1.75" rotate="94,0,0"   tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="D1_P3" DisplayName="Path #3 (Tzark)"                                                                                                                  mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="sy"    DisplayName="Slaying"             fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp3.png"   iconSize="1.75" rotate="90,0,85"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+      <MarkerCategory   name="sy"    DisplayName="Slaying"             cull="CounterClockwise" fadeFar="1500" fadeNear="1250" iconFile="Data/Dungeons/Slaying/ACp3.png"   iconSize="1.75" rotate="90,0,85"  tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
