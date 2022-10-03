@@ -30,7 +30,7 @@
     <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="dtxmT3BQSUikRexkeAgEGQ==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/NecFW-1.png"    profession="necromancer"  rotate="0.01,0,-75"/>
     <POI MapID="956" xpos="-24.640" ypos="4.372"  zpos="99.736"  GUID="wwaSyv2TYEO7t6GcI9MV9A==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/RevSw5-1.png"   profession="revenant"     rotate="110,0,240"/>
     <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="g08iEbRKekuJNe9pig7LSA==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/ThfSB5-1.png"   profession="thief"        rotate="0.01,0,-75"/>
-    <POI MapID="956" xpos="-10.685" ypos="10.252" zpos="111.652" GUID="aJe17B+snUiRQyHnGDkmXQ==" type="HMP.F_AB_c1"    iconFile="Data/General/empty.png"           info="/gg after activating all panels."   infoRange="12"/>
+    <POI MapID="956" xpos="-10.685" ypos="15.252" zpos="111.652" GUID="aJe17B+snUiRQyHnGDkmXQ==" type="HMP.F_AB_c1"    iconFile="Data/General/empty.png"           info="/gg after activating all panels."   infoRange="12"/>
     <!-- ========== Slaying ========== -->
     <POI MapID="956" xpos="38.017"  ypos="0.144"  zpos="93.257"  GUID="6PjwWpGQ7Em8IdABHEn5/Q==" type="HMP.F_AB_sy.s1"/>
     <POI MapID="956" xpos="-75.048" ypos="1.403"  zpos="125.524" GUID="gxxy3BxSL0CWKMCNAPMQgw==" type="HMP.F_AB_sy.s2"/>
