@@ -311,72 +311,681 @@
   </POIs>
   
 <!-- ========================================= HARVEST TEMPLE (Dragonvoid) ==================================================================================================================================================================== -->
-  <MarkerCategory         name="HMP"        DisplayName="Hero's Pack">
-      <MarkerCategory     name="StrB10_c1"  DisplayName="Heart Locations"     color="38bfc2"                                         iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     minimapVisibility="0" mapVisibility="0">
-        <MarkerCategory   name="sc1"        DisplayName="First"                                                                                                                                               tip-description="Jormag, Mordremoth, Soo-Won&#xA;Order: 1/1/1"/>
-        <MarkerCategory   name="sc2"        DisplayName="Second"                                                                                                                                              tip-description="Primordus, The Void&#xA;Order: 2/0/2"/>
-        <MarkerCategory   name="sc3"        DisplayName="Third"                                                                                                                                               tip-description="Kralkatorrik, Zhaitan&#xA;Order: 3/2/0"/>
+  <MarkerCategory       name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory     name="strikeB10_c1" DisplayName="General" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="sc1"  DisplayName="Max Melee">
+        <MarkerCategory name="asc1" DisplayName="Boundary"/>
+        <MarkerCategory name="asc2" DisplayName="Flank Lines" alpha="0.65"            fadeFar="800" fadeNear="775" iconFile="Data/Strikes/StrB10-flank.png"            rotate="180,0,135"/>
       </MarkerCategory>
-      <MarkerCategory     name="StrB10_c2"  DisplayName="Champion Spawns"                                                            iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     minimapVisibility="0" mapVisibility="0">
-        <MarkerCategory   name="sc1"        DisplayName="Time Bender"/>
-        <MarkerCategory   name="sc2"        DisplayName="Saltspray Dragon"/>
-        <MarkerCategory   name="sc3"        DisplayName="Obliterator"/>
+      <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
+      <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                              iconFile="Data/General/s.png"          iconSize="1" rotate="90,0,0"/>
+      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="500" fadeNear="400" iconFile="Data/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180"/>
+    </MarkerCategory>
+    <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks" rotate-x="180" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
+      <MarkerCategory   name="prim2"  DisplayName="Primordus's Lava Slam"           color="de8912" defaultToggle="0" iconSize="15.25" tip-description="This circle is just slightly&#xA;larger than the one in-game."/>
+      <MarkerCategory   name="kralk1" DisplayName="Kralkatorrik's Branded Beams"                   defaultToggle="0">
+        <MarkerCategory name="sb1"    DisplayName="Side Beam Indicators"            color="de8912"                   iconSize="37.75"/>
+        <MarkerCategory name="sb2"    DisplayName="Side Beam AoE's"                 alpha="1"      defaultToggle="0" iconSize="9.15"/>
+        <MarkerCategory name="cb1"    DisplayName="Center Beam Indicator"           color="de8912" defaultToggle="0" iconSize="37.75"/>
+        <MarkerCategory name="cb2"    DisplayName="Center Beam AoE's"               alpha="1"      defaultToggle="0" iconSize="9.15"/>
       </MarkerCategory>
-      <MarkerCategory     name="StrB10_c3"  DisplayName="South"               cull="CounterClockwise"                                iconFile="Data/General/s.png"          iconSize="1"   rotate="90,0,0"    minimapVisibility="0" mapVisibility="0"/>
-      <MarkerCategory     name="StrB10_c4"  DisplayName="Dragonvoid Boundary"                                                                                                                                 minimapVisibility="0" mapVisibility="0">
-        <MarkerCategory   name="sc1"        DisplayName="Hitbox"              defaultToggle="0"       fadeFar="8000" fadeNear="7950"/>
-        <MarkerCategory   name="sc2"        DisplayName="Max Melee"                                   fadeFar="400"  fadeNear="375"/>
-        <MarkerCategory   name="sc3"        DisplayName="Max Edge"                                    fadeFar="400"  fadeNear="375"/>
+      <MarkerCategory   name="mordy1" DisplayName="Mordremoth's Poison Scream"      color="de8912" defaultToggle="0" iconSize="5"/>
+      <MarkerCategory   name="zhai1"  Displayname="Zhaitan's Putrid Deluge"         color="cf4121" defaultToggle="0" iconSize="5.04">
+        <MarkerCategory name="sc1"    DisplayName="First set"/>
+        <MarkerCategory name="sc2"    DisplayName="Other sets"                                     defaultToggle="0"/>
       </MarkerCategory>
-      <MarkerCategory     name="StrB10_c5"  DisplayName="Flank Lines"         alpha="0.65"            fadeFar="800"  fadeNear="775"  iconFile="Data/Strikes/StrB10-flank.png"              rotate="180,0,135" minimapVisibility="0" mapVisibility="0">
-        <MarkerCategory   name="sc1"        DisplayName="Hitbox"              defaultToggle="0"/>
-        <MarkerCategory   name="sc2"        DisplayName="Max Melee"/>
+      <MarkerCategory   name="swon1"  DisplayName="Soo-Won's Tsunami Wave"          color="deab12" defaultToggle="0">
+        <MarkerCategory name="sc1"    DisplayName="Wave Spawn"                                                       iconSize="6.05"/>
+        <MarkerCategory name="sc2"    DisplayName="Magic Hail"                                                       iconSize="5.05"/>
       </MarkerCategory>
-      <MarkerCategory     name="StrB10_c6"  DisplayName="Slaying"             cull="CounterClockwise" fadeFar="500"  fadeNear="400"  iconFile="Data/Strikes/Slaying/HT.png" iconSize="2"   rotate="90,0,180"  minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory   name="swon2"  DisplayName="Soo-Won's Claw Slap"             color="deab12" defaultToggle="0">
+        <MarkerCategory name="sc1"    DisplayName="Displayed AoE"                                                    iconSize="24.2"  rotate-z="171.1"/>
+        <MarkerCategory name="sc2"    DisplayName="Actual AoE"                                                       iconSize="27.15" rotate-z="171.1"/>
+        <MarkerCategory name="sc3"    DisplayName="Magic Hail"                                                       iconSize="5.05"/>
+      </MarkerCategory>
+      <MarkerCategory   name="swon3"  DisplayName="Soo-Won's Tail Slam"             color="deab12" defaultToggle="0">
+        <MarkerCategory name="sc1"    DisplayName="Tail Slam"                                                        iconSize="37.75"/>
+        <MarkerCategory name="sc2"    DisplayName="Magic Hail"                                                       iconSize="5.05"/>
+      </MarkerCategory>
+      <MarkerCategory   name="swon4"  DisplayName="Soo-Won's Void Beam"             color="deab12" defaultToggle="0" iconSize="5.075"/>
+    </MarkerCategory>
+    <MarkerCategory     name="strikeB10_c3" DisplayName="Purification Phases" defaultToggle="0" rotate-x="180" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="pur1" DisplayName="Purification 1">
+        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Data/General/dot1.png" iconSize="0.5" tip-description="Challenge Mode only"/>
+        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6"/>
+      </MarkerCategory>
+      <MarkerCategory   name="pur2" DisplayName="Purification 2"                 defaultToggle="0">
+        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Data/General/dot2.png" iconSize="0.5" tip-description="Challenge Mode only"/>
+        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6"/>
+      </MarkerCategory>
+      <MarkerCategory   name="pur3" DisplayName="Purification 3"                 defaultToggle="0">
+        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Data/General/dot3.png" iconSize="0.5" tip-description="Challenge Mode only"/>
+        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6"/>
+      </MarkerCategory>
+    </MarkerCategory>
+    <MarkerCategory   name="strikeB10_c4" DisplayName="Enemy Spawns" rotate-x="180" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="sc1" DisplayName="Brandbombers"     color="b200ff" defaultToggle="0"                                 iconSize="3.1"/>
+      <MarkerCategory name="sc2" DisplayName="Timecaster"                                        iconFile="Data/General/dot.png" iconSize="0.5"/>
+      <MarkerCategory name="sc3" DisplayName="Giants"           color="7eb51f" defaultToggle="0"                                 iconSize="3.1"/>
+      <MarkerCategory name="sc4" DisplayName="Saltspray Dragon"                                  iconFile="Data/General/dot.png" iconSize="0.5"/>
+      <MarkerCategory name="sc5" DisplayName="Obliterator"                     defaultToggle="0" iconFile="Data/General/dot.png" iconSize="0.5"/>
+      <MarkerCategory name="sc6" DisplayName="Goliath"                         defaultToggle="0" iconFile="Data/General/dot.png" iconSize="0.5" tip-description="Challenge Mode only"/>
+    </MarkerCategory>
+    <MarkerCategory       name="strikeB10_c5" DisplayName="&quot;Share the Void&quot; Locations" iconSize="4.35" rotate-x="180" mapVisibility="0" minimapVisibility="0" tip-description="Challenge Mode only">
+      <MarkerCategory     name="jormy" DisplayName="Jormag">
+        <MarkerCategory   name="g1"    DisplayName="First set"    color="04d1cf"/>
+        <MarkerCategory   name="g2"    DisplayName="Second set"   defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="04d1cf"/>
+          <MarkerCategory name="sc2"   DisplayName="Safe zone"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory     name="primy" DisplayName="Primordus"    defaultToggle="0">
+        <MarkerCategory   name="g1"    DisplayName="First set"    color="f75e05"/>
+        <MarkerCategory   name="g2"    DisplayName="Second set"   defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="f75e05"/>
+          <MarkerCategory name="sc2"   DisplayName="Safe zone"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory     name="zhaiy" DisplayName="Zhaitan"      defaultToggle="0">
+        <MarkerCategory   name="g1"    DisplayName="First set"    color="2cdf0d"/>
+        <MarkerCategory   name="g2"    DisplayName="Second set"   defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="2cdf0d"/>
+          <MarkerCategory name="sc2"   DisplayName="Safe zone"/>
+        </MarkerCategory>
+        <MarkerCategory   name="g3"    DisplayName="Third set"    defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="2cdf0d"/>
+          <MarkerCategory name="sc2"   DisplayName="Safe zone"/>
+        </MarkerCategory>
+        <MarkerCategory   name="g4"    DisplayName="Fourth set"   defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="2cdf0d"/>
+          <MarkerCategory name="sc2"   DisplayName="Safe zone"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory     name="swon"  DisplayName="Soo-Won"      defaultToggle="0">
+        <MarkerCategory   name="g1"    DisplayName="First set">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="2cdf0d"/>
+          <MarkerCategory name="sc2"   DisplayName="P1 Safe zone"/>
+          <MarkerCategory name="sc3"   DisplayName="P2 Safe zone"/>
+        </MarkerCategory>
+        <MarkerCategory   name="g2"    DisplayName="Second set"   defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="2cdf0d"/>
+          <MarkerCategory name="sc2"   DisplayName="P1 Safe zone"/>
+          <MarkerCategory name="sc3"   DisplayName="P2 Safe zone"/>
+        </MarkerCategory>
+        <MarkerCategory   name="g3"    DisplayName="Third set"    defaultToggle="0">
+          <MarkerCategory name="sc1"   DisplayName="Circles"      color="2cdf0d"/>
+          <MarkerCategory name="sc2"   DisplayName="P1 Safe zone"/>
+          <MarkerCategory name="sc3"   DisplayName="P2 Safe zone"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
   </MarkerCategory>
   
   <POIs>
-    <!-- ========== Heart of Dragon Locations ========== -->
-    <POI MapID="1437" xpos="32.0534"  ypos="390.184" zpos="-534.904" GUID="tVcFPa9FP0q2aIeg9sL3qg==" type="HMP.StrB10_c1.sc1"/>
-    <POI MapID="1437" xpos="31.4619"  ypos="390.184" zpos="-507.323" GUID="GeURWwXM40Wav2IvaOo+aA==" type="HMP.StrB10_c1.sc2"/>
-    <POI MapID="1437" xpos="3.96553"  ypos="390.184" zpos="-507.351" GUID="P685JxlQ1ES6VlN7u6rhOQ==" type="HMP.StrB10_c1.sc3"/>
+    <!-- ==================== GENERAL ==================== -->
+    <!-- Max Melee and it's Flanking Lines -->
+    <Trail trailData="Data/Strikes/B10-atkRange_max.trl"           animSpeed="0" alpha="0.75"      type="HMP.strikeB10_c1.sc1.asc1" texture="Data/Boundary/RedLine2.png"/>
+    <POI MapID="1437" xpos="16.493" ypos="390.173" zpos="-553.888" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.45"/>
+    <POI MapID="1437" xpos="18.579" ypos="390.173" zpos="-551.802" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.5"/>
+    <POI MapID="1437" xpos="20.700" ypos="390.173" zpos="-549.681" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.5"/>
+    <POI MapID="1437" xpos="22.821" ypos="390.173" zpos="-547.560" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.5"/>
+    <POI MapID="1437" xpos="24.907" ypos="390.173" zpos="-545.474" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.45"/>
+    <POI MapID="1437" xpos="16.408" ypos="390.173" zpos="-553.872" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="18.529" ypos="390.173" zpos="-551.751" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="20.650" ypos="390.173" zpos="-549.630" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="22.771" ypos="390.173" zpos="-547.509" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
+    <POI MapID="1437" xpos="24.857" ypos="390.173" zpos="-545.423" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.45"/>
+    <!-- Max Edge -->
+    <Trail trailData="Data/Strikes/B10-edgeRange.trl"              animSpeed="0" alpha="0.75"      type="HMP.strikeB10_c1.sc2"      texture="Data/Boundary/RedLine2.png"/>
+    <!-- South -->
+    <POI MapID="1437" xpos="15.213" ypos="391.192" zpos="-555.102" GUID="HMP=STRIKEB10=C1=SC3"     type="HMP.strikeB10_c1.sc3"/>
+    <!-- Slaying -->
+    <POI MapID="1437" xpos="15.352" ypos="391.220" zpos="-481.393" GUID="HMP=STRIKEB10=C1=SC4"     type="HMP.strikeB10_c1.sc4"/>
     
-    <!-- ========== Champion Spawn Points ========== -->
-    <POI MapID="1437" xpos="-2.374" ypos="390.184" zpos="-510.256" GUID="Jq6ElbSZhEarIgwIn6zTdQ==" type="HMP.StrB10_c2.sc1"/>
-    <POI MapID="1437" xpos="26.262" ypos="390.184" zpos="-529.25"  GUID="A+mRLlRed0SI4DrpogP3Yw==" type="HMP.StrB10_c2.sc2"/>
-    <POI MapID="1437" xpos="2.794"  ypos="390.184" zpos="-538.395" GUID="jMDSoZ4H10ipeLHpYnMcMA==" type="HMP.StrB10_c2.sc3"/>
+    <!-- ==================== DRAGONVOID ATACKS ==================== -->
+    <!-- Primordus's Jaws of Destruction -->
+    <POI MapID="1437" xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="HMP=STRIKEB10=C2=PRIM1"      type="HMP.strikeB10_c2.prim1"      iconFile="Data/Shapes/D2-JoD-Orb9.png"/>
+    <POI MapID="1437" xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="HMP=STRIKEB10=C2=PRIM1"      type="HMP.strikeB10_c2.prim1"      iconFile="Data/Shapes/D2-JoD-Fill.png"    alpha="0.15"/>
+    <!-- Primordus's Lava Slam -->
+    <POI MapID="1437" xpos="14.375"  ypos="390.113" zpos="-543.570" GUID="HMP=STRIKEB10=C2=PRIM2"      type="HMP.strikeB10_c2.prim2"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="14.375"  ypos="390.113" zpos="-543.570" GUID="HMP=STRIKEB10=C2=PRIM2"      type="HMP.strikeB10_c2.prim2"      iconFile="Data/Shapes/CircleFill.png"     alpha="0.15"/>
+    <!-- Kralkatorrik's Side Beam Indicators-->
+    <POI MapID="1437" xpos="1.6525"  ypos="390.113" zpos="-518.258" GUID="HMP=STRIKEB10=C2=KRALK1=SB1" type="HMP.strikeB10_c2.kralk1.sb1" iconFile="Data/Shapes/D3-Fill1.png"       alpha="0.2" rotate-z="90"/>
+    <POI MapID="1437" xpos="1.6525"  ypos="390.113" zpos="-518.258" GUID="HMP=STRIKEB10=C2=KRALK1=SB1" type="HMP.strikeB10_c2.kralk1.sb1" iconFile="Data/Shapes/D3-Border1.png"     alpha="1"   rotate-z="90"/>
+    <POI MapID="1437" xpos="29.084"  ypos="390.113" zpos="-517.958" GUID="HMP=STRIKEB10=C2=KRALK1=SB1" type="HMP.strikeB10_c2.kralk1.sb1" iconFile="Data/Shapes/D3-Fill1.png"       alpha="0.2" rotate-z="270"/>
+    <POI MapID="1437" xpos="29.084"  ypos="390.113" zpos="-517.958" GUID="HMP=STRIKEB10=C2=KRALK1=SB1" type="HMP.strikeB10_c2.kralk1.sb1" iconFile="Data/Shapes/D3-Border1.png"     alpha="1"   rotate-z="270"/>
+    <!-- Kralkatorrik's Side Beam AoE's -->
+    <POI MapID="1437" xpos="29.117"  ypos="390.113" zpos="-549.844" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.107"  ypos="390.113" zpos="-540.954" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.098"  ypos="390.113" zpos="-532.064" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.089"  ypos="390.113" zpos="-523.174" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.080"  ypos="390.113" zpos="-514.284" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.071"  ypos="390.113" zpos="-505.394" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.061"  ypos="390.113" zpos="-496.504" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="29.052"  ypos="390.113" zpos="-487.614" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.685"   ypos="390.113" zpos="-549.873" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.675"   ypos="390.113" zpos="-540.983" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.666"   ypos="390.113" zpos="-532.093" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.657"   ypos="390.113" zpos="-523.203" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.648"   ypos="390.113" zpos="-514.313" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.639"   ypos="390.113" zpos="-505.423" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.629"   ypos="390.113" zpos="-496.533" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="1.620"   ypos="390.113" zpos="-487.643" GUID="HMP=STRIKEB10=C2=KRALK1=SB2" type="HMP.strikeB10_c2.kralk1.sb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <!-- Kralkatorrik's Center Beam Indicator -->
+    <POI MapID="1437" xpos="15.266"  ypos="390.113" zpos="-518.252" GUID="HMP=STRIKEB10=C2=KRALK1=CB1" type="HMP.strikeB10_c2.kralk1.cb1" iconFile="Data/Shapes/D3-Fill2.png"   alpha="0.2" rotate-z="90"/>
+    <POI MapID="1437" xpos="15.266"  ypos="390.113" zpos="-518.252" GUID="HMP=STRIKEB10=C2=KRALK1=CB1" type="HMP.strikeB10_c2.kralk1.cb1" iconFile="Data/Shapes/D3-Border2.png" alpha="1"   rotate-z="90"/>
+    <!-- Kralkatorrik's Center Beam AoE's -->
+    <POI MapID="1437" xpos="15.401"  ypos="390.113" zpos="-549.859" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.391"  ypos="390.113" zpos="-540.969" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.382"  ypos="390.113" zpos="-532.079" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.373"  ypos="390.113" zpos="-523.189" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.364"  ypos="390.113" zpos="-514.298" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.355"  ypos="390.113" zpos="-505.408" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.345"  ypos="390.113" zpos="-496.518" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <POI MapID="1437" xpos="15.336"  ypos="390.113" zpos="-487.628" GUID="HMP=STRIKEB10=C2=KRALK1=CB2" type="HMP.strikeB10_c2.kralk1.cb2" iconFile="Data/Shapes/BeamFill.png"/>
+    <!-- Mordremoth's Poison Scream -->
+    <POI MapID="1437" xpos="15.368"  ypos="390.113" zpos="-518.108" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="24.972"  ypos="390.113" zpos="-527.632" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="29.542"  ypos="390.113" zpos="-517.993" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="34.113"  ypos="390.113" zpos="-508.354" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="24.474"  ypos="390.113" zpos="-503.783" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="14.834"  ypos="390.113" zpos="-499.213" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="10.264"  ypos="390.113" zpos="-508.852" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="5.693"   ypos="390.113" zpos="-518.491" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="1.122"   ypos="390.113" zpos="-528.130" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="10.762"  ypos="390.113" zpos="-532.701" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="20.401"  ypos="390.113" zpos="-537.272" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="30.040"  ypos="390.113" zpos="-541.842" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="34.611"  ypos="390.113" zpos="-532.203" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="39.182"  ypos="390.113" zpos="-522.564" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="43.752"  ypos="390.113" zpos="-512.924" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="48.323"  ypos="390.113" zpos="-503.285" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="38.684"  ypos="390.113" zpos="-498.715" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="29.044"  ypos="390.113" zpos="-494.144" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="19.405"  ypos="390.113" zpos="-489.573" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="9.766"   ypos="390.113" zpos="-485.003" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="5.195"   ypos="390.113" zpos="-494.642" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="0.624"   ypos="390.113" zpos="-504.281" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-3.946"  ypos="390.113" zpos="-513.921" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-8.517"  ypos="390.113" zpos="-523.560" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-13.088" ypos="390.113" zpos="-533.199" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-3.448"  ypos="390.113" zpos="-537.770" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="6.191"   ypos="390.113" zpos="-542.340" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.830"  ypos="390.113" zpos="-546.911" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="25.470"  ypos="390.113" zpos="-551.482" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="44.250"  ypos="390.113" zpos="-536.774" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="48.821"  ypos="390.113" zpos="-527.134" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-4.444"  ypos="390.113" zpos="-490.071" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-9.015"  ypos="390.113" zpos="-499.711" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-13.586" ypos="390.113" zpos="-509.350" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.368"  ypos="390.113" zpos="-518.108" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="24.972"  ypos="390.113" zpos="-527.632" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="29.542"  ypos="390.113" zpos="-517.993" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="34.113"  ypos="390.113" zpos="-508.354" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="24.474"  ypos="390.113" zpos="-503.783" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="14.834"  ypos="390.113" zpos="-499.213" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="10.264"  ypos="390.113" zpos="-508.852" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="5.693"   ypos="390.113" zpos="-518.491" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="1.122"   ypos="390.113" zpos="-528.130" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="10.762"  ypos="390.113" zpos="-532.701" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="20.401"  ypos="390.113" zpos="-537.272" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="30.040"  ypos="390.113" zpos="-541.842" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="34.611"  ypos="390.113" zpos="-532.203" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="39.182"  ypos="390.113" zpos="-522.564" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="43.752"  ypos="390.113" zpos="-512.924" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="48.323"  ypos="390.113" zpos="-503.285" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="38.684"  ypos="390.113" zpos="-498.715" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="29.044"  ypos="390.113" zpos="-494.144" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="19.405"  ypos="390.113" zpos="-489.573" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="9.766"   ypos="390.113" zpos="-485.003" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="5.195"   ypos="390.113" zpos="-494.642" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="0.624"   ypos="390.113" zpos="-504.281" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-3.946"  ypos="390.113" zpos="-513.921" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-8.517"  ypos="390.113" zpos="-523.560" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-13.088" ypos="390.113" zpos="-533.199" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-3.448"  ypos="390.113" zpos="-537.770" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="6.191"   ypos="390.113" zpos="-542.340" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="15.830"  ypos="390.113" zpos="-546.911" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="25.470"  ypos="390.113" zpos="-551.482" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="44.250"  ypos="390.113" zpos="-536.774" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="48.821"  ypos="390.113" zpos="-527.134" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-4.444"  ypos="390.113" zpos="-490.071" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-9.015"  ypos="390.113" zpos="-499.711" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-13.586" ypos="390.113" zpos="-509.350" GUID="HMP=STRIKEB10=C2=MORD1"      type="HMP.strikeB10_c2.mordy1"     iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <!-- Zhaitan's Putrid Deluge #1 -->
+    <POI MapID="1437" xpos="-3.826"  ypos="390.173" zpos="-541.729" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-1.228"  ypos="390.173" zpos="-529.251" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="1.370"   ypos="390.173" zpos="-516.773" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="3.968"   ypos="390.173" zpos="-504.294" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="6.566"   ypos="390.173" zpos="-491.816" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="8.782"   ypos="390.173" zpos="-542.814" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="11.380"  ypos="390.173" zpos="-530.336" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="13.978"  ypos="390.173" zpos="-517.858" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="16.576"  ypos="390.173" zpos="-505.380" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="19.175"  ypos="390.173" zpos="-492.901" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="21.390"  ypos="390.173" zpos="-543.900" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="23.989"  ypos="390.173" zpos="-531.421" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="26.587"  ypos="390.173" zpos="-518.943" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="29.185"  ypos="390.173" zpos="-506.465" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="31.783"  ypos="390.173" zpos="-493.986" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="33.999"  ypos="390.173" zpos="-544.985" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="36.597"  ypos="390.173" zpos="-532.506" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="39.195"  ypos="390.173" zpos="-520.028" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="41.793"  ypos="390.173" zpos="-507.550" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="51.804"  ypos="390.173" zpos="-521.113" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-3.826"  ypos="390.173" zpos="-541.729" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-1.228"  ypos="390.173" zpos="-529.251" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="1.370"   ypos="390.173" zpos="-516.773" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="3.968"   ypos="390.173" zpos="-504.294" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="6.566"   ypos="390.173" zpos="-491.816" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="8.782"   ypos="390.173" zpos="-542.814" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="11.380"  ypos="390.173" zpos="-530.336" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="13.978"  ypos="390.173" zpos="-517.858" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="16.576"  ypos="390.173" zpos="-505.380" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="19.175"  ypos="390.173" zpos="-492.901" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="21.390"  ypos="390.173" zpos="-543.900" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="23.989"  ypos="390.173" zpos="-531.421" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="26.587"  ypos="390.173" zpos="-518.943" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="29.185"  ypos="390.173" zpos="-506.465" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="31.783"  ypos="390.173" zpos="-493.986" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="33.999"  ypos="390.173" zpos="-544.985" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="36.597"  ypos="390.173" zpos="-532.506" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="39.195"  ypos="390.173" zpos="-520.028" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="41.793"  ypos="390.173" zpos="-507.550" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="51.804"  ypos="390.173" zpos="-521.113" GUID="HMP=STRIKEB10=C2=ZHAIY=SC1"  type="HMP.strikeB10_c2.zhai1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <!-- Zhaitan's Putrid Deluge #2/3/4 -->
+    <POI MapID="1437" xpos="-11.516" ypos="390.173" zpos="-527.595" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-8.919"  ypos="390.173" zpos="-515.116" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-6.321"  ypos="390.173" zpos="-502.638" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-3.724"  ypos="390.173" zpos="-490.159" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-1.504"  ypos="390.173" zpos="-541.157" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="1.093"   ypos="390.173" zpos="-528.679" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="3.690"   ypos="390.173" zpos="-516.200" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="6.287"   ypos="390.173" zpos="-503.722" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="8.884"   ypos="390.173" zpos="-491.243" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="11.103"  ypos="390.173" zpos="-542.240" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="13.701"  ypos="390.173" zpos="-529.763" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="16.299"  ypos="390.173" zpos="-517.284" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="18.896"  ypos="390.173" zpos="-504.806" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="21.493"  ypos="390.173" zpos="-492.327" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="23.713"  ypos="390.173" zpos="-543.326" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="26.310"  ypos="390.173" zpos="-530.847" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="28.907"  ypos="390.173" zpos="-518.368" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="31.504"  ypos="390.173" zpos="-505.890" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="34.102"  ypos="390.173" zpos="-493.412" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="36.321"  ypos="390.173" zpos="-544.410" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="38.919"  ypos="390.173" zpos="-531.931" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="41.516"  ypos="390.173" zpos="-519.453" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="44.113"  ypos="390.173" zpos="-506.974" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-11.516" ypos="390.173" zpos="-527.595" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-8.919"  ypos="390.173" zpos="-515.116" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-6.321"  ypos="390.173" zpos="-502.638" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-3.724"  ypos="390.173" zpos="-490.159" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="-1.504"  ypos="390.173" zpos="-541.157" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="1.093"   ypos="390.173" zpos="-528.679" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="3.690"   ypos="390.173" zpos="-516.200" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="6.287"   ypos="390.173" zpos="-503.722" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="8.884"   ypos="390.173" zpos="-491.243" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="11.103"  ypos="390.173" zpos="-542.240" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="13.701"  ypos="390.173" zpos="-529.763" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="16.299"  ypos="390.173" zpos="-517.284" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="18.896"  ypos="390.173" zpos="-504.806" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="21.493"  ypos="390.173" zpos="-492.327" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="23.713"  ypos="390.173" zpos="-543.326" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="26.310"  ypos="390.173" zpos="-530.847" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="28.907"  ypos="390.173" zpos="-518.368" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="31.504"  ypos="390.173" zpos="-505.890" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="34.102"  ypos="390.173" zpos="-493.412" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="36.321"  ypos="390.173" zpos="-544.410" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="38.919"  ypos="390.173" zpos="-531.931" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="41.516"  ypos="390.173" zpos="-519.453" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI MapID="1437" xpos="44.113"  ypos="390.173" zpos="-506.974" GUID="HMP=STRIKEB10=C2=ZHAIY=SC2"  type="HMP.strikeB10_c2.zhai1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <!-- Soo-Won's Tsunami Wave - Spawn -->
+    <POI MapID="1437" xpos="24.794"  ypos="390.113" zpos="-537.284" GUID="HMP=STRIKEB10=C2=SWON1=SC1"  type="HMP.strikeB10_c2.swon1.sc1"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="24.794"  ypos="390.113" zpos="-537.284" GUID="HMP=STRIKEB10=C2=SWON1=SC1"  type="HMP.strikeB10_c2.swon1.sc1"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <!-- Soo-Won's Tsunami Wave - Magic Hail Locations -->
+    <POI MapID="1437" xpos="48.513"  ypos="390.113" zpos="-528.198" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="40.792"  ypos="390.113" zpos="-517.556" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="28.784"  ypos="390.113" zpos="-512.199" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.707"  ypos="390.113" zpos="-513.565" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="5.065"   ypos="390.113" zpos="-521.286" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="48.513"  ypos="390.113" zpos="-528.198" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="40.792"  ypos="390.113" zpos="-517.556" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="28.784"  ypos="390.113" zpos="-512.199" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="15.707"  ypos="390.113" zpos="-513.565" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="5.065"   ypos="390.113" zpos="-521.286" GUID="HMP=STRIKEB10=C2=SWON1=SC2"  type="HMP.strikeB10_c2.swon1.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <!-- Soo-Won's Claw Slap - Displayed Cone Attack -->
+    <POI MapID="1437" xpos="26.546"  ypos="390.113" zpos="-554.902" GUID="HMP=STRIKEB10=C2=SWON2=SC1"  type="HMP.strikeB10_c2.swon2.sc1"  iconFile="Data/Shapes/145-Orb10.png"/>
+    <POI MapID="1437" xpos="26.546"  ypos="390.113" zpos="-554.902" GUID="HMP=STRIKEB10=C2=SWON2=SC1"  type="HMP.strikeB10_c2.swon2.sc1"  iconFile="Data/Shapes/145-Fill.png"  alpha="0.2"/>
+    <!-- Soo-Won's Claw Slap - Actual Cone Attack -->
+    <POI MapID="1437" xpos="26.546"  ypos="390.113" zpos="-554.902" GUID="HMP=STRIKEB10=C2=SWON2=SC2"  type="HMP.strikeB10_c2.swon2.sc2"  iconFile="Data/Shapes/145-Orb10.png"/>
+    <POI MapID="1437" xpos="26.546"  ypos="390.113" zpos="-554.902" GUID="HMP=STRIKEB10=C2=SWON2=SC2"  type="HMP.strikeB10_c2.swon2.sc2"  iconFile="Data/Shapes/145-Fill.png"  alpha="0.15"/>
+    <!-- Soo-Won's Claw Slap - Magic Hail Locations -->
+    <POI MapID="1437" xpos="-4.604"  ypos="390.113" zpos="-533.859" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="19.398"  ypos="390.113" zpos="-517.995" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="38.809"  ypos="390.113" zpos="-519.366" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="29.194"  ypos="390.113" zpos="-517.403" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-8.989"  ypos="390.113" zpos="-542.638" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="47.588"  ypos="390.113" zpos="-523.751" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="10.090"  ypos="390.113" zpos="-521.103" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="1.903"   ypos="390.113" zpos="-526.514" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="4.587"   ypos="390.123" zpos="-509.800" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="42.910"  ypos="390.123" zpos="-507.482" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-6.338"  ypos="390.123" zpos="-517.020" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="30.080"  ypos="390.123" zpos="-504.863" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-15.022" ypos="390.123" zpos="-526.822" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="17.009"  ypos="390.123" zpos="-505.653" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-14.052" ypos="390.123" zpos="-508.134" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="30.909"  ypos="390.123" zpos="-493.125" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-0.564"  ypos="390.123" zpos="-499.220" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="14.771"  ypos="390.123" zpos="-494.101" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-5.715"  ypos="390.123" zpos="-488.641" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="12.534"  ypos="390.123" zpos="-482.549" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-4.604"  ypos="390.113" zpos="-533.859" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="19.398"  ypos="390.113" zpos="-517.995" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="38.809"  ypos="390.113" zpos="-519.366" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="29.194"  ypos="390.113" zpos="-517.403" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-8.989"  ypos="390.113" zpos="-542.638" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="47.588"  ypos="390.113" zpos="-523.751" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="10.090"  ypos="390.113" zpos="-521.103" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="1.903"   ypos="390.113" zpos="-526.514" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="4.587"   ypos="390.123" zpos="-509.800" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="42.910"  ypos="390.123" zpos="-507.482" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-6.338"  ypos="390.123" zpos="-517.020" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="30.080"  ypos="390.123" zpos="-504.863" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-15.022" ypos="390.123" zpos="-526.822" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="17.009"  ypos="390.123" zpos="-505.653" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-14.052" ypos="390.123" zpos="-508.134" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="30.909"  ypos="390.123" zpos="-493.125" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-0.564"  ypos="390.123" zpos="-499.220" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="14.771"  ypos="390.123" zpos="-494.101" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-5.715"  ypos="390.123" zpos="-488.641" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="12.534"  ypos="390.123" zpos="-482.549" GUID="HMP=STRIKEB10=C2=SWON2=SC3"  type="HMP.strikeB10_c2.swon2.sc3"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <!-- Soo-Won's Tail Slam - Center -->
+    <POI MapID="1437" xpos="15.266"  ypos="390.123" zpos="-517.452" GUID="HMP=STRIKEB10=C2=SWON3=SC1"  type="HMP.strikeB10_c2.swon3.sc1"  iconFile="Data/Shapes/D6-Fill.png"   alpha="0.1"/>
+    <POI MapID="1437" xpos="15.266"  ypos="390.123" zpos="-517.452" GUID="HMP=STRIKEB10=C2=SWON3=SC1"  type="HMP.strikeB10_c2.swon3.sc1"  iconFile="Data/Shapes/D6-Border.png"/>
+    <!-- Soo-Won's Tail Slam - Magic Hail Locations -->
+    <POI MapID="1437" xpos="11.726"  ypos="390.123" zpos="-542.536" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="38.340"  ypos="390.123" zpos="-528.999" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="33.689"  ypos="390.123" zpos="-499.504" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="4.201"   ypos="390.123" zpos="-494.812" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-9.374"  ypos="390.123" zpos="-521.408" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="11.726"  ypos="390.123" zpos="-542.536" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="38.340"  ypos="390.123" zpos="-528.999" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="33.689"  ypos="390.123" zpos="-499.504" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="4.201"   ypos="390.123" zpos="-494.812" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI MapID="1437" xpos="-9.374"  ypos="390.123" zpos="-521.408" GUID="HMP=STRIKEB10=C2=SWON3=SC2"  type="HMP.strikeB10_c2.swon3.sc2"  iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <!-- Soo-Won's Void Beam -->
+    <POI MapID="1437" xpos="-2.371"  ypos="390.123" zpos="-509.677" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="-1.590"  ypos="390.123" zpos="-500.822" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="-0.809"  ypos="390.123" zpos="-491.966" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="1.732"   ypos="390.123" zpos="-510.040" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="7.021"   ypos="390.123" zpos="-544.551" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="2.668"   ypos="390.123" zpos="-501.199" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="3.604"   ypos="390.123" zpos="-492.358" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="19.317"  ypos="390.123" zpos="-535.687" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="4.539"   ypos="390.123" zpos="-483.518" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="5.836"   ypos="390.123" zpos="-510.403" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="6.926"   ypos="390.123" zpos="-501.580" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="8.016"   ypos="390.123" zpos="-492.757" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="9.105"   ypos="390.123" zpos="-483.934" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="9.939"   ypos="390.123" zpos="-510.767" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="11.182"  ypos="390.123" zpos="-501.965" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="17.519"  ypos="390.123" zpos="-546.512" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="10.351"  ypos="390.123" zpos="-524.284" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="12.426"  ypos="390.123" zpos="-493.162" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="13.669"  ypos="390.123" zpos="-484.359" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="14.042"  ypos="390.123" zpos="-511.133" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="15.437"  ypos="390.123" zpos="-502.353" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="16.833"  ypos="390.123" zpos="-493.573" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="18.229"  ypos="390.123" zpos="-484.793" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="18.145"  ypos="390.123" zpos="-511.499" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="29.319"  ypos="390.123" zpos="-537.524" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="19.695"  ypos="390.123" zpos="-502.745" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="20.671"  ypos="390.123" zpos="-525.454" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="21.245"  ypos="390.123" zpos="-493.991" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="22.185"  ypos="390.123" zpos="-515.417" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="22.796"  ypos="390.123" zpos="-485.237" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="22.247"  ypos="390.123" zpos="-511.866" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="23.948"  ypos="390.123" zpos="-503.140" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="25.648"  ypos="390.123" zpos="-494.414" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="27.709"  ypos="390.123" zpos="-547.885" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="27.349"  ypos="390.123" zpos="-485.688" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="26.350"  ypos="390.123" zpos="-512.234" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="28.204"  ypos="390.123" zpos="-503.539" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="30.057"  ypos="390.123" zpos="-494.845" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="31.911"  ypos="390.123" zpos="-486.150" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="30.452"  ypos="390.123" zpos="-512.603" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="32.227"  ypos="390.123" zpos="-517.281" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="32.457"  ypos="390.123" zpos="-503.942" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="30.659"  ypos="390.123" zpos="-527.390" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="34.462"  ypos="390.123" zpos="-495.281" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="39.169"  ypos="390.123" zpos="-539.172" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="34.554"  ypos="390.123" zpos="-512.973" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="36.709"  ypos="390.123" zpos="-504.348" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="38.865"  ypos="390.123" zpos="-495.723" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="42.506"  ypos="390.123" zpos="-518.797" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="40.977"  ypos="390.123" zpos="-528.950" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="-2.371"  ypos="390.123" zpos="-509.677" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="-1.590"  ypos="390.123" zpos="-500.822" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="-0.809"  ypos="390.123" zpos="-491.966" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="1.732"   ypos="390.123" zpos="-510.040" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="7.021"   ypos="390.123" zpos="-544.551" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="2.668"   ypos="390.123" zpos="-501.199" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="3.604"   ypos="390.123" zpos="-492.358" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="19.317"  ypos="390.123" zpos="-535.687" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="4.539"   ypos="390.123" zpos="-483.518" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="5.836"   ypos="390.123" zpos="-510.403" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="6.926"   ypos="390.123" zpos="-501.580" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="8.016"   ypos="390.123" zpos="-492.757" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="9.105"   ypos="390.123" zpos="-483.934" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="9.939"   ypos="390.123" zpos="-510.767" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="11.182"  ypos="390.123" zpos="-501.965" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="17.519"  ypos="390.123" zpos="-546.512" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="10.351"  ypos="390.123" zpos="-524.284" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="12.426"  ypos="390.123" zpos="-493.162" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="13.669"  ypos="390.123" zpos="-484.359" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="14.042"  ypos="390.123" zpos="-511.133" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="15.437"  ypos="390.123" zpos="-502.353" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="16.833"  ypos="390.123" zpos="-493.573" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="18.229"  ypos="390.123" zpos="-484.793" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="18.145"  ypos="390.123" zpos="-511.499" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="29.319"  ypos="390.123" zpos="-537.524" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="19.695"  ypos="390.123" zpos="-502.745" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="20.671"  ypos="390.123" zpos="-525.454" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="21.245"  ypos="390.123" zpos="-493.991" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="22.185"  ypos="390.123" zpos="-515.417" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="22.796"  ypos="390.123" zpos="-485.237" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="22.247"  ypos="390.123" zpos="-511.866" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="23.948"  ypos="390.123" zpos="-503.140" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="25.648"  ypos="390.123" zpos="-494.414" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="27.709"  ypos="390.123" zpos="-547.885" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="27.349"  ypos="390.123" zpos="-485.688" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="26.350"  ypos="390.123" zpos="-512.234" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="28.204"  ypos="390.123" zpos="-503.539" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="30.057"  ypos="390.123" zpos="-494.845" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="31.911"  ypos="390.123" zpos="-486.150" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="30.452"  ypos="390.123" zpos="-512.603" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="32.227"  ypos="390.123" zpos="-517.281" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="32.457"  ypos="390.123" zpos="-503.942" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="30.659"  ypos="390.123" zpos="-527.390" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="34.462"  ypos="390.123" zpos="-495.281" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="39.169"  ypos="390.123" zpos="-539.172" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="34.554"  ypos="390.123" zpos="-512.973" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="36.709"  ypos="390.123" zpos="-504.348" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="38.865"  ypos="390.123" zpos="-495.723" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="42.506"  ypos="390.123" zpos="-518.797" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
+    <POI MapID="1437" xpos="40.977"  ypos="390.123" zpos="-528.950" GUID="HMP=STRIKEB10=C2=SWON4"      type="HMP.strikeB10_c2.swon4"      iconFile="Data/Shapes/CircleFill.png" alpha="0.2"/>
     
-    <!-- ========== South (Boss) ========== -->
-    <POI MapID="1437" xpos="15.2133"  ypos="391.192" zpos="-555.102" GUID="ktU0HCOZek6MAtwAKmCD4Q==" type="HMP.StrB10_c3"/>
+    <!-- ==================== PURIFICATION PHASES ==================== -->
+    <!-- ===== Purification 1 ===== -->
+    <!-- Void Melters -->
+    <POI MapID="1437" xpos="45.360"  ypos="390.123" zpos="-526.548" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="70"/>
+    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="60"/>
+    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="47"/>
+    <POI MapID="1437" xpos="33.703"  ypos="390.123" zpos="-541.998" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="35"/>
+    <POI MapID="1437" xpos="27.088"  ypos="390.123" zpos="-544.823" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="24"/>
+    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="225"/>
+    <!-- Prismatic Rifts -->
+    <POI MapID="1437" xpos="32.053"  ypos="390.184" zpos="-534.904" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="32.053"  ypos="390.184" zpos="-534.904" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="31.641"  ypos="390.184" zpos="-507.323" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="31.641"  ypos="390.184" zpos="-507.323" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="3.935"   ypos="390.184" zpos="-507.351" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="3.935"   ypos="390.184" zpos="-507.351" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
+    <!-- ===== Purification 2 ===== -->
+    <!-- Void Melters -->
+    <POI MapID="1437" xpos="35.978"  ypos="390.123" zpos="-497.165" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="135"/>
+    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="60"/>
+    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="47"/>
+    <POI MapID="1437" xpos="29.387"  ypos="390.113" zpos="-545.006" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="25"/>
+    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="225"/>
+    <POI MapID="1437" xpos="14.565"  ypos="390.113" zpos="-545.880" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1"/>
+    <!-- Prismatic Rifts -->
+    <POI MapID="1437" xpos="38.891"  ypos="390.184" zpos="-533.203" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="38.891"  ypos="390.184" zpos="-533.203" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="-7.392"  ypos="390.184" zpos="-505.578" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="-7.392"  ypos="390.184" zpos="-505.578" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
+    <!-- ===== Purification 3 ===== -->
+    <!-- Void Melters -->
+    <POI MapID="1437" xpos="-6.819"  ypos="390.113" zpos="-539.644" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="-48"/>
+    <POI MapID="1437" xpos="33.786"  ypos="390.113" zpos="-542.057" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="37"/>
+    <POI MapID="1437" xpos="15.593"  ypos="390.113" zpos="-487.299" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="177"/>
+    <POI MapID="1437" xpos="37.112"  ypos="390.113" zpos="-496.711" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="135"/>
+    <POI MapID="1437" xpos="39.946"  ypos="390.113" zpos="-535.022" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="55"/>
+    <POI MapID="1437" xpos="-16.051" ypos="390.113" zpos="-517.198" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="-93"/>
+    <!-- Prismatic Rifts -->
+    <POI MapID="1437" xpos="33.675"  ypos="390.184" zpos="-536.803" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="33.675"  ypos="390.184" zpos="-536.803" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="32.999"  ypos="390.184" zpos="-499.133" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc2"              iconFile="Data/Shapes/Orb5.png"/>
+    <POI MapID="1437" xpos="32.999"  ypos="390.184" zpos="-499.133" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc2" alpha="0.25" iconFile="Data/Shapes/CircleFill.png"/>
     
-    <!-- ========== BOSS BOUNDARIES ========== -->
-    <Trail trailData="Data/Strikes/B10-hitbox.trl"                   animSpeed="0" alpha="0.85"      type="HMP.StrB10_c4.sc1" texture="Data/Boundary/RedLine3.png"/>
-    <Trail trailData="Data/Strikes/B10-atkRange_max.trl"             animSpeed="0" alpha="0.75"      type="HMP.StrB10_c4.sc2" texture="Data/Boundary/RedLine2.png"/>
-    <Trail trailData="Data/Strikes/B10-edgeRange.trl"                animSpeed="0" alpha="0.75"      type="HMP.StrB10_c4.sc3" texture="Data/Boundary/RedLine2.png"/>
+    <!-- ==================== ENEMY SPAWNS ==================== -->
+    <!-- ===== Kralkatorrik's Brandbombers ===== -->
+    <POI MapID="1437" xpos="-8.452"  ypos="390.113" zpos="-542.243" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-8.452"  ypos="390.113" zpos="-542.243" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="-18.701" ypos="390.113" zpos="-517.788" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-18.701" ypos="390.113" zpos="-517.788" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="-9.698"  ypos="390.113" zpos="-493.157" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-9.698"  ypos="390.113" zpos="-493.157" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="38.550"  ypos="390.113" zpos="-541.432" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="38.550"  ypos="390.113" zpos="-541.432" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="39.601"  ypos="390.113" zpos="-492.984" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="39.601"  ypos="390.113" zpos="-492.984" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="49.464"  ypos="390.113" zpos="-517.607" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="49.464"  ypos="390.113" zpos="-517.607" GUID="HMP=STRIKEB10=C4=SC1" type="HMP.strikeB10_c4.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <!-- ===== Timecaster ===== -->
+    <POI MapID="1437" xpos="-2.374"  ypos="390.184" zpos="-510.256" GUID="HMP=STRIKEB10=C4=SC2" type="HMP.strikeB10_c4.sc2"/>
+    <!-- ===== Giants ===== -->
+    <POI MapID="1437" xpos="-5.453"  ypos="390.113" zpos="-526.002" GUID="HMP=STRIKEB10=C4=SC3" type="HMP.strikeB10_c4.sc3" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-5.453"  ypos="390.113" zpos="-526.002" GUID="HMP=STRIKEB10=C4=SC3" type="HMP.strikeB10_c4.sc3" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="14.855"  ypos="390.113" zpos="-506.634" GUID="HMP=STRIKEB10=C4=SC3" type="HMP.strikeB10_c4.sc3" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="14.855"  ypos="390.113" zpos="-506.634" GUID="HMP=STRIKEB10=C4=SC3" type="HMP.strikeB10_c4.sc3" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI MapID="1437" xpos="38.829"  ypos="390.113" zpos="-528.011" GUID="HMP=STRIKEB10=C4=SC3" type="HMP.strikeB10_c4.sc3" iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="38.829"  ypos="390.113" zpos="-528.011" GUID="HMP=STRIKEB10=C4=SC3" type="HMP.strikeB10_c4.sc3" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <!-- ===== Saltspray Dragon ===== -->
+    <POI MapID="1437" xpos="26.262"  ypos="390.184" zpos="-529.25"  GUID="HMP=STRIKEB10=C4=SC4" type="HMP.strikeB10_c4.sc4"/>
+    <!-- ===== Obliterator ===== -->
+    <POI MapID="1437" xpos="2.794"   ypos="390.184" zpos="-538.395" GUID="HMP=STRIKEB10=C4=SC5" type="HMP.strikeB10_c4.sc5"/>
+    <!-- ===== Goliath ===== -->
+    <POI MapID="1437" xpos="28.637"  ypos="390.184" zpos="-537.810" GUID="HMP=STRIKEB10=C4=SC6" type="HMP.strikeB10_c4.sc6"/>
     
-    <!-- ========== FLANK LINES ========== -->
-    <!-- Hitbox -->
-    <POI MapID="1437" xpos="16.676"  ypos="390.173" zpos="-553.713"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="db1818" iconSize="1.7"/>
-    <POI MapID="1437" xpos="19.1155" ypos="390.173" zpos="-551.2735" GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="db1818" iconSize="1.75"/>
-    <POI MapID="1437" xpos="21.555"  ypos="390.173" zpos="-548.834"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="db1818" iconSize="1.7"/>
-    <POI MapID="1437" xpos="16.584"  ypos="390.173" zpos="-553.692"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="33bf21" iconSize="1.75"/>
-    <POI MapID="1437" xpos="19.059"  ypos="390.173" zpos="-551.218"  GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="33bf21" iconSize="1.75"/>
-    <POI MapID="1437" xpos="21.4985" ypos="390.173" zpos="-548.7785" GUID="HMP=STRB10=C5=SC1"        type="HMP.StrB10_c5.sc1" color="33bf21" iconSize="1.7"/>
-    <!-- Max Melee -->
-    <POI MapID="1437" xpos="16.493"  ypos="390.173" zpos="-553.888"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.45"/>
-    <POI MapID="1437" xpos="18.579"  ypos="390.173" zpos="-551.802"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.5"/>
-    <POI MapID="1437" xpos="20.700"  ypos="390.173" zpos="-549.681"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.5"/>
-    <POI MapID="1437" xpos="22.821"  ypos="390.173" zpos="-547.560"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.5"/>
-    <POI MapID="1437" xpos="24.907"  ypos="390.173" zpos="-545.474"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="db1818" iconSize="1.45"/>
-    <POI MapID="1437" xpos="16.408"  ypos="390.173" zpos="-553.872"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
-    <POI MapID="1437" xpos="18.529"  ypos="390.173" zpos="-551.751"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
-    <POI MapID="1437" xpos="20.650"  ypos="390.173" zpos="-549.630"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
-    <POI MapID="1437" xpos="22.771"  ypos="390.173" zpos="-547.509"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.5"/>
-    <POI MapID="1437" xpos="24.857"  ypos="390.173" zpos="-545.423"  GUID="HMP=STRB10=C5=SC2"        type="HMP.StrB10_c5.sc2" color="33bf21" iconSize="1.45"/>
-    
-    <!-- ========== Slaying ========== -->
-    <POI MapID="1437" xpos="15.352"   ypos="391.220" zpos="-481.393" GUID="HMP=STRB10=C6"            type="HMP.StrB10_c6"/>
-    
+    <!-- ==================== SHARE THE VOID ==================== -->
+    <!-- ===== Jormag ===== -->
+    <!-- Set 1 -->
+    <POI MapID="1437" xpos="20.447"  ypos="390.113" zpos="-535.888"  GUID="HMP=STRIKEB10=C5=JORMY=G1" type="HMP.strikeB10_c5.jormy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="33.147"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G1" type="HMP.strikeB10_c5.jormy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-2.412"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G1" type="HMP.strikeB10_c5.jormy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="20.447"  ypos="390.113" zpos="-535.888"  GUID="HMP=STRIKEB10=C5=JORMY=G1" type="HMP.strikeB10_c5.jormy.g1"     alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="33.147"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G1" type="HMP.strikeB10_c5.jormy.g1"     alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="-2.412"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G1" type="HMP.strikeB10_c5.jormy.g1"     alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <!-- Set 2 -->
+    <POI MapID="1437" xpos="20.915"  ypos="390.113" zpos="-537.524"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="35.560"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-4.825"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="20.915"  ypos="390.113" zpos="-537.524"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc1" alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="35.560"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc1" alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="-4.825"  ypos="390.113" zpos="-518.108"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc1" alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=JORMY=G2" type="HMP.strikeB10_c5.jormy.g2.sc2" alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="19.2845"/>
+    <!-- ===== Primordus ===== -->
+    <!-- Set 1 -->
+    <POI MapID="1437" xpos="-2.412"  ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=PRIMY=G1" type="HMP.strikeB10_c5.primy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="20.447"  ypos="390.113" zpos="-497.788"  GUID="HMP=STRIKEB10=C5=PRIMY=G1" type="HMP.strikeB10_c5.primy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="33.147"  ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=PRIMY=G1" type="HMP.strikeB10_c5.primy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-2.412"  ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=PRIMY=G1" type="HMP.strikeB10_c5.primy.g1"     alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="20.447"  ypos="390.113" zpos="-497.788"  GUID="HMP=STRIKEB10=C5=PRIMY=G1" type="HMP.strikeB10_c5.primy.g1"     alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="33.147"  ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=PRIMY=G1" type="HMP.strikeB10_c5.primy.g1"     alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <!-- Set 2 -->
+    <POI MapID="1437" xpos="-9.729"  ypos="390.113" zpos="-507.352"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="21.990"  ypos="390.113" zpos="-491.618"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="40.465"  ypos="390.113" zpos="-507.352"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-9.729"  ypos="390.113" zpos="-507.352"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc1" alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="21.990"  ypos="390.113" zpos="-491.618"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc1" alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="40.465"  ypos="390.113" zpos="-507.352"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc1" alpha="0.25" color="2cdf0d" iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=PRIMY=G2" type="HMP.strikeB10_c5.primy.g2.sc2" alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="26.331"/>
+    <!-- ===== Zhaitan ===== -->
+    <!-- Set 1 -->
+    <POI MapID="1437" xpos="5.207"   ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=ZHAIY=G1" type="HMP.strikeB10_c5.zhaiy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="25.527"  ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=ZHAIY=G1" type="HMP.strikeB10_c5.zhaiy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-533.348"  GUID="HMP=STRIKEB10=C5=ZHAIY=G1" type="HMP.strikeB10_c5.zhaiy.g1"                                 iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="5.207"   ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=ZHAIY=G1" type="HMP.strikeB10_c5.zhaiy.g1"     alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="25.527"  ypos="390.113" zpos="-510.488"  GUID="HMP=STRIKEB10=C5=ZHAIY=G1" type="HMP.strikeB10_c5.zhaiy.g1"     alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-533.348"  GUID="HMP=STRIKEB10=C5=ZHAIY=G1" type="HMP.strikeB10_c5.zhaiy.g1"     alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <!-- Set 2 -->
+    <POI MapID="1437" xpos="3.581"   ypos="390.184" zpos="-509.167"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="27.254"  ypos="390.113" zpos="-509.193"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-533.348"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="3.581"   ypos="390.184" zpos="-509.167"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="27.254"  ypos="390.113" zpos="-509.193"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-533.348"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=ZHAIY=G2" type="HMP.strikeB10_c5.zhaiy.g2.sc2" alpha="0.75"                iconFile="Data/Shapes/25-Poly3-R.png" iconSize="14.881"/>
+    <!-- Set 3 -->
+    <POI MapID="1437" xpos="-4.342"  ypos="390.113" zpos="-503.325"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="35.078"  ypos="390.113" zpos="-503.325"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-542.746"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-4.342"  ypos="390.113" zpos="-503.325"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="35.078"  ypos="390.113" zpos="-503.325"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-542.746"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=ZHAIY=G3" type="HMP.strikeB10_c5.zhaiy.g3.sc2" alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="23.6885"/>
+    <!-- Set 4 -->
+    <POI MapID="1437" xpos="39.751"  ypos="390.113" zpos="-499.820"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="-9.016"  ypos="390.113" zpos="-499.820"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-548.588"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc1"                             iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="39.751"  ypos="390.113" zpos="-499.820"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="-9.016"  ypos="390.113" zpos="-499.820"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.367"  ypos="390.113" zpos="-548.588"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc1" alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=ZHAIY=G4" type="HMP.strikeB10_c5.zhaiy.g4.sc2" alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="33.377"/>
+    <!-- ===== Soo-Won ===== -->
+    <!-- Set 1 -->
+    <POI MapID="1437" xpos="28.067"  ypos="390.113" zpos="-513.028"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="22.987"  ypos="390.113" zpos="-523.188"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="17.907"  ypos="390.113" zpos="-540.968"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="28.067"  ypos="390.113" zpos="-513.028"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="22.987"  ypos="390.113" zpos="-523.188"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="17.907"  ypos="390.113" zpos="-540.968"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc2"  alpha="0.75"                iconFile="Data/Shapes/25-Poly3-R.png" iconSize="6.954"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G1"  type="HMP.strikeB10_c5.swon.g1.sc3"  alpha="0.75"                iconFile="Data/Shapes/25-Poly3-R.png" iconSize="5.1925"/>
+    <!-- Set 2 -->
+    <POI MapID="1437" xpos="17.907"  ypos="390.123" zpos="-540.968"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="32.909"  ypos="390.123" zpos="-529.802"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="34.941"  ypos="390.123" zpos="-510.278"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="17.907"  ypos="390.123" zpos="-540.968"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="32.909"  ypos="390.123" zpos="-529.802"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="34.941"  ypos="390.123" zpos="-510.278"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc2"  alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="20.1655"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G2"  type="HMP.strikeB10_c5.swon.g2.sc3"  alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="18.404"/>
+    <!-- Set 3 -->
+    <POI MapID="1437" xpos="18.734"  ypos="390.123" zpos="-548.402"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="43.668"  ypos="390.123" zpos="-506.789"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="40.729"  ypos="390.123" zpos="-535.016"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc1"                              iconFile="Data/Shapes/Orb1.png"/>
+    <POI MapID="1437" xpos="18.734"  ypos="390.123" zpos="-548.402"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="43.668"  ypos="390.123" zpos="-506.789"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="40.729"  ypos="390.123" zpos="-535.016"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc1"  alpha="0.25"                iconFile="Data/Shapes/CircleFill.png"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc2"  alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="33.377"/>
+    <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc3"  alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="32.496"/>
   </POIs>
+  
+<!-- ========================================= OLD LION'S ARCH ==================================================================================================================================================================== -->
   
 </OverlayData>
