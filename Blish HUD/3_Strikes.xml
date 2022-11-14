@@ -210,103 +210,101 @@
   </POIs>
   
 <!-- ========================================= KAINENG OVERLOOK (Minister Li and his Crew) ==================================================================================================================================================================== -->
-  <MarkerCategory         name="HMP"       DisplayName="Hero's Pack">
-    <MarkerCategory       name="StrB9_Reg" DisplayName="Regular"                                                                                                                                       minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory     name="c1"        DisplayName="DS-Rush Rotations" cull="CounterClockwise" fadeFar="1750" fadeNear="1500"                                 iconSize="0.75" rotate-x="90">
-        <MarkerCategory   name="sc1"       DisplayName="Phase 2"           defaultToggle="0"/>
-        <MarkerCategory   name="sc2"       DisplayName="Phase 3"           defaultToggle="0"/>
-        <MarkerCategory   name="sc3"       DisplayName="Both Phases"/>
+  <MarkerCategory         name="HMP" DisplayName="Hero's Pack">
+      <MarkerCategory     name="strB9_c1" DisplayName="DS-Rush Rotations" cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconSize="0.75" rotate-x="90" minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1" DisplayName="Phase 2"     defaultToggle="0"/>
+        <MarkerCategory   name="sc2" DisplayName="Phase 3"     defaultToggle="0"/>
+        <MarkerCategory   name="sc3" DisplayName="Both Phases"/>
       </MarkerCategory>
-      <MarkerCategory     name="c2"        DisplayName="Enforcer Path"     alpha="0.75" defaultToggle="0">
-        <MarkerCategory   name="sc1"       DisplayName="Straight Path">
-          <MarkerCategory name="asc1"      DisplayName="Path"                                                                     iconFile="Data/Boundary/BigRedLine.png"/>
-          <MarkerCategory name="asc2"      DisplayName="Numbers"                                                                                                  iconSize="0.75"/>
+      <MarkerCategory     name="strB9_c2" DisplayName="Enforcer Path" alpha="0.75" defaultToggle="0" minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1"  DisplayName="Straight Path">
+          <MarkerCategory name="asc1" DisplayName="Path"                            iconFile="Data/Boundary/BigRedLine.png"/>
+          <MarkerCategory name="asc2" DisplayName="Numbers"                                                                 iconSize="0.75"/>
         </MarkerCategory>
-        <MarkerCategory   name="sc2"       DisplayName="Diagonal Path"                  defaultToggle="0">
-          <MarkerCategory name="asc1"      DisplayName="Path"                                                                     iconFile="Data/Boundary/BigRedLine.png"/>
-          <MarkerCategory name="asc2"      DisplayName="Numbers"                                                                                                  iconSize="0.75"/>
+        <MarkerCategory   name="sc2"  DisplayName="Diagonal Path" defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Path"                            iconFile="Data/Boundary/BigRedLine.png"/>
+          <MarkerCategory name="asc2" DisplayName="Numbers"                                                                 iconSize="0.75"/>
         </MarkerCategory>
       </MarkerCategory>
-      <MarkerCategory     name="c3"        DisplayName="Trio Boss Spawns"  alpha="0.5"             fadeFar="2100" fadeNear="1850" iconFile="Data/General/dot.png" iconSize="0.5"  rotate-x="180">
-        <MarkerCategory   name="sc1"       DisplayName="Enforcer"/>
-        <MarkerCategory   name="sc2"       DisplayName="Ritualist">
-          <MarkerCategory name="asc1"      DisplayName="Initial"/>
-          <MarkerCategory name="asc2"      DisplayName="Post-Attack"/>
+      <MarkerCategory     name="strB9_c3" DisplayName="Trio Boss Spawns" alpha="0.5" fadeFar="2100" fadeNear="1850" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1"  DisplayName="Enforcer"/>
+        <MarkerCategory   name="sc2"  DisplayName="Ritualist">
+          <MarkerCategory name="asc1" DisplayName="Initial"/>
+          <MarkerCategory name="asc2" DisplayName="Post-Attack"/>
         </MarkerCategory>
-        <MarkerCategory   name="sc3"       DisplayName="Mindblade"/>
+        <MarkerCategory   name="sc3"  DisplayName="Mindblade"/>
       </MarkerCategory>
-      <MarkerCategory     name="c4"        DisplayName="Directions">
-        <MarkerCategory   name="sc1"       DisplayName="In-Game"          alpha="0.85" cull="CounterClockwise" fadeFar="2500" fadeNear="2250"          iconSize="0.6" inGameVisibility="1" minimapVisibility="0" mapVisibility="0"/>
-        <MarkerCategory   name="sc2"       DisplayName="Minimap and Map"  mapDisplaySize="30"                                                                         inGameVisibility="0" minimapVisibility="1" mapVisibility="1"/>
+      <MarkerCategory     name="strB9_c4" DisplayName="Directions">
+        <MarkerCategory   name="sc1" DisplayName="In-Game"         alpha="0.85" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="0.6"                     inGameVisibility="1" minimapVisibility="0" mapVisibility="0"/>
+        <MarkerCategory   name="sc2" DisplayName="Minimap and Map"                                                                                    mapDisplaySize="30" inGameVisibility="0" minimapVisibility="1" mapVisibility="1"/>
       </MarkerCategory>
-      <MarkerCategory     name="c5"        DisplayName="Slaying"                       cull="CounterClockwise" fadeFar="1500" fadeNear="1350"          iconSize="2.4" rotate="90,0,-53"/>
-    </MarkerCategory>
+      <MarkerCategory     name="strB9_c5" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53" minimapVisibility="0" mapVisibility="0"/>
   </MarkerCategory>
   
   <POIs>
     <!-- ========== Move-Slash Rotations ========== -->
     <!-- Phase 2 -->
-    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/1.png"/>
-    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/2.png"                     rotate-z="-90"/>
-    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/3.png"                     rotate-z="180"/>
-    <POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.StrB9_Reg.c1.sc1" iconFile="Data/General/4.png"                     rotate-z="90"/>
+    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.strB9_c1.sc1" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.strB9_c1.sc1" iconFile="Data/General/2.png"                     rotate-z="-90"/>
+    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.strB9_c1.sc1" iconFile="Data/General/3.png"                     rotate-z="180"/>
+    <POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.strB9_c1.sc1" iconFile="Data/General/4.png"                     rotate-z="90"/>
     <!-- Phase 3 -->
-    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/1.png"/>
-    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/4.png"                     rotate-z="-90"/>
-    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/3.png"                     rotate-z="180"/>
-    <POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.StrB9_Reg.c1.sc2" iconFile="Data/General/2.png"                     rotate-z="90"/>
+    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.strB9_c1.sc2" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.strB9_c1.sc2" iconFile="Data/General/4.png"                     rotate-z="-90"/>
+    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.strB9_c1.sc2" iconFile="Data/General/3.png"                     rotate-z="180"/>
+    <POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.strB9_c1.sc2" iconFile="Data/General/2.png"                     rotate-z="90"/>
     <!-- Both Phases -->
-    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/1.png"/>
-    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/2and4.png" iconSize="0.85" rotate-z="-90"/>
-    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/3.png"                     rotate-z="180"/>
-    <POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.StrB9_Reg.c1.sc3" iconFile="Data/General/4and2.png" iconSize="0.85" rotate-z="90"/>
+    <POI MapID="1451" xpos="-590.339" ypos="275.874" zpos="-421.189" GUID="+ABVLX9VDkSSZ2GsXtGmFA==" type="HMP.strB9_c1.sc3" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-605.752" ypos="275.874" zpos="-400.647" GUID="YaxOEXCrWUW7ZdJ8Fwypzg==" type="HMP.strB9_c1.sc3" iconFile="Data/General/2and4.png" iconSize="0.85" rotate-z="-90"/>
+    <POI MapID="1451" xpos="-585.477" ypos="275.864" zpos="-385.282" GUID="GXrQW8P0PkilYSwyvk3EPw==" type="HMP.strB9_c1.sc3" iconFile="Data/General/3.png"                     rotate-z="180"/>
+    <POI MapID="1451" xpos="-569.888" ypos="275.874" zpos="-405.802" GUID="qnu+6TAPt0u0tPyf48IomA==" type="HMP.strB9_c1.sc3" iconFile="Data/General/4and2.png" iconSize="0.85" rotate-z="90"/>
     
     <!-- ========== Enforcer Path ========== -->
     <!-- First, Straight Path -->
-    <POI MapID="1451" xpos="-545.892" ypos="264.636" zpos="-362.225" GUID="Yc1qhH5y7Eu77iF23tcbtQ==" type="HMP.StrB9_Reg.c2.sc1.asc1" iconSize="9.5"  rotate="180,0,2"/>
-    <POI MapID="1451" xpos="-553.913" ypos="264.633" zpos="-360.42"  GUID="Vx9rAaXwW0SzFYpGdXDOtA==" type="HMP.StrB9_Reg.c2.sc1.asc1" iconSize="11.5" rotate="180,0,126.5"/>
-    <POI MapID="1451" xpos="-554.651" ypos="264.636" zpos="-368.638" GUID="znov2bElpUyKCdwDCRuZVA==" type="HMP.StrB9_Reg.c2.sc1.asc1" iconSize="9.5"  rotate="180,0,71"/>
-    <POI MapID="1451" xpos="-545.292" ypos="264.636" zpos="-381.225" GUID="Yc1qhH5y7Eu77iF23tcbtQ==" type="HMP.StrB9_Reg.c2.sc1.asc1" iconSize="9.5"  rotate="180,0,2"/>
-    <POI MapID="1451" xpos="-537.213" ypos="264.633" zpos="-382.92"  GUID="Vx9rAaXwW0SzFYpGdXDOtA==" type="HMP.StrB9_Reg.c2.sc1.asc1" iconSize="11.5" rotate="180,0,126.5"/>
-    <POI MapID="1451" xpos="-536.601" ypos="264.636" zpos="-374.758" GUID="znov2bElpUyKCdwDCRuZVA==" type="HMP.StrB9_Reg.c2.sc1.asc1" iconSize="9.5"  rotate="180,0,71.5"/>
-    <POI MapID="1451" xpos="-546.119" ypos="265.686" zpos="-354.630" GUID="EXwwHZNCQEuUBchHw/Y2sQ==" type="HMP.StrB9_Reg.c2.sc1.asc2" iconFile="Data/General/1.png"/>
-    <POI MapID="1451" xpos="-561.681" ypos="265.686" zpos="-366.175" GUID="wTW07q2XRkmEPT9YKweI9Q==" type="HMP.StrB9_Reg.c2.sc1.asc2" iconFile="Data/General/2.png"/>
-    <POI MapID="1451" xpos="-545.674" ypos="265.652" zpos="-371.735" GUID="IZNRiK9wlkOLuHVayxsmQQ==" type="HMP.StrB9_Reg.c2.sc1.asc2" iconFile="Data/General/3.png"/>
-    <POI MapID="1451" xpos="-545.027" ypos="265.686" zpos="-388.654" GUID="aqPnXjB0y0mj2AZkYiMbow==" type="HMP.StrB9_Reg.c2.sc1.asc2" iconFile="Data/General/4.png"/>
-    <POI MapID="1451" xpos="-529.449" ypos="265.686" zpos="-377.115" GUID="ilfrBirQYEWRaKluI1Ntqw==" type="HMP.StrB9_Reg.c2.sc1.asc2" iconFile="Data/General/5.png"/>
+    <POI MapID="1451" xpos="-545.892" ypos="264.636" zpos="-362.225" GUID="Yc1qhH5y7Eu77iF23tcbtQ==" type="HMP.strB9_c2.sc1.asc1" iconSize="9.5"  rotate="180,0,2"/>
+    <POI MapID="1451" xpos="-553.913" ypos="264.633" zpos="-360.42"  GUID="Vx9rAaXwW0SzFYpGdXDOtA==" type="HMP.strB9_c2.sc1.asc1" iconSize="11.5" rotate="180,0,126.5"/>
+    <POI MapID="1451" xpos="-554.651" ypos="264.636" zpos="-368.638" GUID="znov2bElpUyKCdwDCRuZVA==" type="HMP.strB9_c2.sc1.asc1" iconSize="9.5"  rotate="180,0,71"/>
+    <POI MapID="1451" xpos="-545.292" ypos="264.636" zpos="-381.225" GUID="Yc1qhH5y7Eu77iF23tcbtQ==" type="HMP.strB9_c2.sc1.asc1" iconSize="9.5"  rotate="180,0,2"/>
+    <POI MapID="1451" xpos="-537.213" ypos="264.633" zpos="-382.92"  GUID="Vx9rAaXwW0SzFYpGdXDOtA==" type="HMP.strB9_c2.sc1.asc1" iconSize="11.5" rotate="180,0,126.5"/>
+    <POI MapID="1451" xpos="-536.601" ypos="264.636" zpos="-374.758" GUID="znov2bElpUyKCdwDCRuZVA==" type="HMP.strB9_c2.sc1.asc1" iconSize="9.5"  rotate="180,0,71.5"/>
+    <POI MapID="1451" xpos="-546.119" ypos="265.686" zpos="-354.630" GUID="EXwwHZNCQEuUBchHw/Y2sQ==" type="HMP.strB9_c2.sc1.asc2" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-561.681" ypos="265.686" zpos="-366.175" GUID="wTW07q2XRkmEPT9YKweI9Q==" type="HMP.strB9_c2.sc1.asc2" iconFile="Data/General/2.png"/>
+    <POI MapID="1451" xpos="-545.674" ypos="265.652" zpos="-371.735" GUID="IZNRiK9wlkOLuHVayxsmQQ==" type="HMP.strB9_c2.sc1.asc2" iconFile="Data/General/3.png"/>
+    <POI MapID="1451" xpos="-545.027" ypos="265.686" zpos="-388.654" GUID="aqPnXjB0y0mj2AZkYiMbow==" type="HMP.strB9_c2.sc1.asc2" iconFile="Data/General/4.png"/>
+    <POI MapID="1451" xpos="-529.449" ypos="265.686" zpos="-377.115" GUID="ilfrBirQYEWRaKluI1Ntqw==" type="HMP.strB9_c2.sc1.asc2" iconFile="Data/General/5.png"/>
     <!-- Second, Diagonal Path -->
-    <POI MapID="1451" xpos="-552.009" ypos="264.683" zpos="-376.417" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.StrB9_Reg.c2.sc2.asc1" iconSize="8"    rotate="180,0,126.5"/>
-    <POI MapID="1451" xpos="-547.212" ypos="264.686" zpos="-381.501" GUID="ueiCtPXLHECZWhiVkSSaEQ==" type="HMP.StrB9_Reg.c2.sc2.asc1" iconSize="11.5" rotate="180,0,82"/>
-    <POI MapID="1451" xpos="-540.859" ypos="264.683" zpos="-378.117" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.StrB9_Reg.c2.sc2.asc1" iconSize="8"    rotate="180,0,36"/>
-    <POI MapID="1451" xpos="-539.159" ypos="264.683" zpos="-366.917" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.StrB9_Reg.c2.sc2.asc1" iconSize="8"    rotate="180,0,126.5"/>
-    <POI MapID="1451" xpos="-543.712" ypos="264.686" zpos="-361.501" GUID="ueiCtPXLHECZWhiVkSSaEQ==" type="HMP.StrB9_Reg.c2.sc2.asc1" iconSize="11.5" rotate="180,0,82"/>
-    <POI MapID="1451" xpos="-550.259" ypos="264.683" zpos="-365.167" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.StrB9_Reg.c2.sc2.asc1" iconSize="8"    rotate="180,0,36"/>
-    <POI MapID="1451" xpos="-556.782" ypos="265.684" zpos="-380.033" GUID="j2pEsyDNkUaAqNTM8lbhEQ==" type="HMP.StrB9_Reg.c2.sc2.asc2" iconFile="Data/General/1.png"/>
-    <POI MapID="1451" xpos="-537.153" ypos="265.694" zpos="-382.885" GUID="pWxs8+OT40aty5YoQJQM+A==" type="HMP.StrB9_Reg.c2.sc2.asc2" iconFile="Data/General/2.png"/>
-    <POI MapID="1451" xpos="-545.674" ypos="265.690" zpos="-371.735" GUID="fgvzDyxSj0unPtO6JVUCQA==" type="HMP.StrB9_Reg.c2.sc2.asc2" iconFile="Data/General/3.png"/>
-    <POI MapID="1451" xpos="-534.227" ypos="265.69"  zpos="-363.244" GUID="YLmSZAyy/USdWtRPK5esjA==" type="HMP.StrB9_Reg.c2.sc2.asc2" iconFile="Data/General/4.png"/>
-    <POI MapID="1451" xpos="-553.919" ypos="265.693" zpos="-360.279" GUID="bfCU4wmHnkqMcH3ZZZzH+Q==" type="HMP.StrB9_Reg.c2.sc2.asc2" iconFile="Data/General/5.png"/>
+    <POI MapID="1451" xpos="-552.009" ypos="264.683" zpos="-376.417" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.strB9_c2.sc2.asc1" iconSize="8"    rotate="180,0,126.5"/>
+    <POI MapID="1451" xpos="-547.212" ypos="264.686" zpos="-381.501" GUID="ueiCtPXLHECZWhiVkSSaEQ==" type="HMP.strB9_c2.sc2.asc1" iconSize="11.5" rotate="180,0,82"/>
+    <POI MapID="1451" xpos="-540.859" ypos="264.683" zpos="-378.117" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.strB9_c2.sc2.asc1" iconSize="8"    rotate="180,0,36"/>
+    <POI MapID="1451" xpos="-539.159" ypos="264.683" zpos="-366.917" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.strB9_c2.sc2.asc1" iconSize="8"    rotate="180,0,126.5"/>
+    <POI MapID="1451" xpos="-543.712" ypos="264.686" zpos="-361.501" GUID="ueiCtPXLHECZWhiVkSSaEQ==" type="HMP.strB9_c2.sc2.asc1" iconSize="11.5" rotate="180,0,82"/>
+    <POI MapID="1451" xpos="-550.259" ypos="264.683" zpos="-365.167" GUID="JrH+G5p8okiU5AD/rdZshg==" type="HMP.strB9_c2.sc2.asc1" iconSize="8"    rotate="180,0,36"/>
+    <POI MapID="1451" xpos="-556.782" ypos="265.684" zpos="-380.033" GUID="j2pEsyDNkUaAqNTM8lbhEQ==" type="HMP.strB9_c2.sc2.asc2" iconFile="Data/General/1.png"/>
+    <POI MapID="1451" xpos="-537.153" ypos="265.694" zpos="-382.885" GUID="pWxs8+OT40aty5YoQJQM+A==" type="HMP.strB9_c2.sc2.asc2" iconFile="Data/General/2.png"/>
+    <POI MapID="1451" xpos="-545.674" ypos="265.690" zpos="-371.735" GUID="fgvzDyxSj0unPtO6JVUCQA==" type="HMP.strB9_c2.sc2.asc2" iconFile="Data/General/3.png"/>
+    <POI MapID="1451" xpos="-534.227" ypos="265.69"  zpos="-363.244" GUID="YLmSZAyy/USdWtRPK5esjA==" type="HMP.strB9_c2.sc2.asc2" iconFile="Data/General/4.png"/>
+    <POI MapID="1451" xpos="-553.919" ypos="265.693" zpos="-360.279" GUID="bfCU4wmHnkqMcH3ZZZzH+Q==" type="HMP.strB9_c2.sc2.asc2" iconFile="Data/General/5.png"/>
     
     <!-- ========== P1 Boss Spawns ========== -->
-    <POI MapID="1451" xpos="-546.192" ypos="264.636" zpos="-354.638" GUID="liO4lUHH/kC69AI0iEyUmg==" type="HMP.StrB9_Reg.c3.sc1"/>
-    <POI MapID="1451" xpos="-537.943" ypos="264.64"  zpos="-366.032" GUID="094qXhfOpE661sZh3h9sKA==" type="HMP.StrB9_Reg.c3.sc2.asc1"/>
-    <POI MapID="1451" xpos="-553.424" ypos="264.633" zpos="-377.577" GUID="uutOGT3O50KLhkVN850zgQ==" type="HMP.StrB9_Reg.c3.sc2.asc2"/>
-    <POI MapID="1451" xpos="-529.494" ypos="264.636" zpos="-377.155" GUID="glYtUH8K9UOpoWHsit+f+g==" type="HMP.StrB9_Reg.c3.sc3"/>
+    <POI MapID="1451" xpos="-546.192" ypos="264.636" zpos="-354.638" GUID="liO4lUHH/kC69AI0iEyUmg==" type="HMP.strB9_c3.sc1"/>
+    <POI MapID="1451" xpos="-537.943" ypos="264.64"  zpos="-366.032" GUID="094qXhfOpE661sZh3h9sKA==" type="HMP.strB9_c3.sc2.asc1"/>
+    <POI MapID="1451" xpos="-553.424" ypos="264.633" zpos="-377.577" GUID="uutOGT3O50KLhkVN850zgQ==" type="HMP.strB9_c3.sc2.asc2"/>
+    <POI MapID="1451" xpos="-529.494" ypos="264.636" zpos="-377.155" GUID="glYtUH8K9UOpoWHsit+f+g==" type="HMP.strB9_c3.sc3"/>
     
     <!-- ========== P2 Directions ========== -->
     <!-- In-Game Only -->
-    <POI MapID="1451" xpos="-544.31"  ypos="265.187" zpos="-343.249" GUID="TEZzoRTnik+QdUV4v8gtQQ==" type="HMP.StrB9_Reg.c4.sc1" iconFile="Data/General/n.png" rotate="90,0,180"/>
-    <POI MapID="1451" xpos="-546.748" ypos="265.186" zpos="-400.256" GUID="Os28afmk7Em3//A8qyvA2w==" type="HMP.StrB9_Reg.c4.sc1" iconFile="Data/General/s.png" rotate="90,0,0"/>
-    <POI MapID="1451" xpos="-518.242" ypos="265.186" zpos="-378.819" GUID="UaKwz7Xu5UKDA6xffwE++Q==" type="HMP.StrB9_Reg.c4.sc1" iconFile="Data/General/e.png" rotate="90,0,90"/>
-    <POI MapID="1451" xpos="-573.084" ypos="265.186" zpos="-364.495" GUID="FygagMGKo0SBiKx0eGX+Ag==" type="HMP.StrB9_Reg.c4.sc1" iconFile="Data/General/w.png" rotate="90,0,270"/>
+    <POI MapID="1451" xpos="-544.31"  ypos="265.187" zpos="-343.249" GUID="TEZzoRTnik+QdUV4v8gtQQ==" type="HMP.strB9_c4.sc1" iconFile="Data/General/n.png" rotate="90,0,180"/>
+    <POI MapID="1451" xpos="-546.748" ypos="265.186" zpos="-400.256" GUID="Os28afmk7Em3//A8qyvA2w==" type="HMP.strB9_c4.sc1" iconFile="Data/General/s.png" rotate="90,0,0"/>
+    <POI MapID="1451" xpos="-518.242" ypos="265.186" zpos="-378.819" GUID="UaKwz7Xu5UKDA6xffwE++Q==" type="HMP.strB9_c4.sc1" iconFile="Data/General/e.png" rotate="90,0,90"/>
+    <POI MapID="1451" xpos="-573.084" ypos="265.186" zpos="-364.495" GUID="FygagMGKo0SBiKx0eGX+Ag==" type="HMP.strB9_c4.sc1" iconFile="Data/General/w.png" rotate="90,0,270"/>
     <!-- Minimap and Map Only -->
-    <POI MapID="1451" xpos="-544.31"  ypos="265.187" zpos="-327.249" GUID="TEZzoRTnik+QdUV4v8gtQQ==" type="HMP.StrB9_Reg.c4.sc2" iconFile="Data/General/n.png" tip-name="North"/>
-    <POI MapID="1451" xpos="-546.748" ypos="265.186" zpos="-410.256" GUID="Os28afmk7Em3//A8qyvA2w==" type="HMP.StrB9_Reg.c4.sc2" iconFile="Data/General/s.png" tip-name="South"/>
-    <POI MapID="1451" xpos="-505.242" ypos="265.186" zpos="-377.819" GUID="UaKwz7Xu5UKDA6xffwE++Q==" type="HMP.StrB9_Reg.c4.sc2" iconFile="Data/General/e.png" tip-name="East"/>
-    <POI MapID="1451" xpos="-586.084" ypos="265.186" zpos="-361.495" GUID="FygagMGKo0SBiKx0eGX+Ag==" type="HMP.StrB9_Reg.c4.sc2" iconFile="Data/General/w.png" tip-name="West"/> 
+    <POI MapID="1451" xpos="-544.31"  ypos="265.187" zpos="-327.249" GUID="TEZzoRTnik+QdUV4v8gtQQ==" type="HMP.strB9_c4.sc2" iconFile="Data/General/n.png" tip-name="North"/>
+    <POI MapID="1451" xpos="-546.748" ypos="265.186" zpos="-410.256" GUID="Os28afmk7Em3//A8qyvA2w==" type="HMP.strB9_c4.sc2" iconFile="Data/General/s.png" tip-name="South"/>
+    <POI MapID="1451" xpos="-505.242" ypos="265.186" zpos="-377.819" GUID="UaKwz7Xu5UKDA6xffwE++Q==" type="HMP.strB9_c4.sc2" iconFile="Data/General/e.png" tip-name="East"/>
+    <POI MapID="1451" xpos="-586.084" ypos="265.186" zpos="-361.495" GUID="FygagMGKo0SBiKx0eGX+Ag==" type="HMP.strB9_c4.sc2" iconFile="Data/General/w.png" tip-name="West"/> 
     
     <!-- ========== Slaying ========== -->
-    <POI MapID="1451" xpos="-533.695" ypos="264.935" zpos="-355.955" GUID="HMP=STRB9=C5"             type="HMP.StrB9_Reg.c5"     iconFile="Data/Strikes/Slaying/KO.png"/>
+    <POI MapID="1451" xpos="-534.295" ypos="262.935" zpos="-356.355" GUID="HMP=STRB9=C5"             type="HMP.strB9_c5"     iconFile="Data/Strikes/Slaying/KO.png"/>
     
   </POIs>
   
