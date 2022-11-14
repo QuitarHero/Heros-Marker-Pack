@@ -173,40 +173,37 @@
   </POIs>
   
 <!-- ========================================= XUNLAI JADE JUNKYARD (Ankka) ==================================================================================================================================================================== -->
-  <MarkerCategory       name="HMP"       DisplayName="Hero's Pack">
-    <MarkerCategory     name="StrB8_Reg" DisplayName="Regular"             minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory   name="c1"        DisplayName="Boundary"                                                               fadeFar="500"  fadeNear="350"/>
-      <MarkerCategory   name="c2"        DisplayName="Boss Spawns"         alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180">
-        <MarkerCategory name="sc1"       DisplayName="Dump Site 3"/>
-        <MarkerCategory name="sc2"       Displayname="Dump Site 2"/>
-        <MarkerCategory name="sc3"       DisplayName="Dump Site 1"/>
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+      <MarkerCategory name="strB8_c1" DisplayName="Boundary" fadeFar="500" fadeNear="350" minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory   name="strB8_c2" DisplayName="Boss Spawns" alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory name="sc1" DisplayName="Dump Site 3"/>
+        <MarkerCategory name="sc2" Displayname="Dump Site 2"/>
+        <MarkerCategory name="sc3" DisplayName="Dump Site 1"/>
       </MarkerCategory>
-      <MarkerCategory   name="c3"        DisplayName="Reanimated Spites"  alpha="0.8"                cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" tip-name="CC Enemies" minimapVisibility="1" mapVisibility="1" mapDisplaySize="10">
-        <MarkerCategory name="sc1"       DisplayName="Dump Site 2"/>
-        <MarkerCategory name="sc2"       DisplayName="Dump Site 1"/>
+      <MarkerCategory   name="strB8_c3" DisplayName="Reanimated Spites" alpha="0.8" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" tip-name="CC Enemies" minimapVisibility="1" mapVisibility="1" mapDisplaySize="10">
+        <MarkerCategory name="sc1" DisplayName="Dump Site 2"/>
+        <MarkerCategory name="sc2" DisplayName="Dump Site 1"/>
       </MarkerCategory>
-      <MarkerCategory   name="c4"        DisplayName="Slaying"                                        cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                 iconSize="2" rotate="90,0,225"/>
-    </MarkerCategory>
+      <MarkerCategory name="strB8_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="2" rotate="90,0,225" minimapVisibility="0" mapVisibility="0"/>
   </MarkerCategory>
   
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Data/Boundary/StrB8-Bound.trl"                 alpha="1" animSpeed="0"         type="HMP.StrB8_Reg.c1"     texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/StrB8-Bound.trl"                 alpha="1" animSpeed="0"        type="HMP.strB8_c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Boss Spawns ========== -->
-    <POI MapID="1450" xpos="-100.121" ypos="90.1249" zpos="1.696"   GUID="4dee/PKOr0qpbNfD8vBPzQ==" type="HMP.StrB8_Reg.c2.sc1"/>
-    <POI MapID="1450" xpos="53.688"   ypos="116.172" zpos="32.763"  GUID="rH+Ia+Quv0aSKsowmPhytw==" type="HMP.StrB8_Reg.c2.sc2"/>
-    <POI MapID="1450" xpos="-53.279"  ypos="156.726" zpos="127.418" GUID="brxqPcWh50WBlLUSG0gN/Q==" type="HMP.StrB8_Reg.c2.sc3"/>
+    <POI MapID="1450" xpos="-100.121" ypos="90.1249" zpos="1.696"   GUID="4dee/PKOr0qpbNfD8vBPzQ==" type="HMP.strB8_c2.sc1"/>
+    <POI MapID="1450" xpos="53.688"   ypos="116.172" zpos="32.763"  GUID="rH+Ia+Quv0aSKsowmPhytw==" type="HMP.strB8_c2.sc2"/>
+    <POI MapID="1450" xpos="-53.279"  ypos="156.726" zpos="127.418" GUID="brxqPcWh50WBlLUSG0gN/Q==" type="HMP.strB8_c2.sc3"/>
     <!-- ========== CC Enemies ========== -->
-    <POI MapID="1450" xpos="18.985"  ypos="117.643" zpos="40.703"   GUID="s8AYx3nJzUmh5hdumf+p0A==" type="HMP.StrB8_Reg.c3.sc1" rotate-x="193"/>
-    <POI MapID="1450" xpos="88.307"  ypos="118.695" zpos="37.673"   GUID="mMsuM7S+dEOPWTnOvbAOiA==" type="HMP.StrB8_Reg.c3.sc1"/>
-    <POI MapID="1450" xpos="66.610"  ypos="119.851" zpos="-4.534"   GUID="QAPCQaaCPE2ZfB/aQ/tltg==" type="HMP.StrB8_Reg.c3.sc1" rotate-x="160"/>
-    <POI MapID="1450" xpos="-78.353" ypos="157.493" zpos="136.421"  GUID="5VfUzSzSqUmn5Gcph1S7yg==" type="HMP.StrB8_Reg.c3.sc2"/>
-    <POI MapID="1450" xpos="-44.588" ypos="157.411" zpos="108.224"  GUID="GknPNGrkgU6X048W7KnjHw==" type="HMP.StrB8_Reg.c3.sc2"/>
-    <POI MapID="1450" xpos="-41.937" ypos="157.431" zpos="151.549"  GUID="GqzUtrHza0yV0LLfWUVbLw==" type="HMP.StrB8_Reg.c3.sc2" alpha="1"/>
+    <POI MapID="1450" xpos="18.985"   ypos="117.643" zpos="40.703"  GUID="s8AYx3nJzUmh5hdumf+p0A==" type="HMP.strB8_c3.sc1" rotate-x="193"/>
+    <POI MapID="1450" xpos="88.307"   ypos="118.695" zpos="37.673"  GUID="mMsuM7S+dEOPWTnOvbAOiA==" type="HMP.strB8_c3.sc1"/>
+    <POI MapID="1450" xpos="66.610"   ypos="119.851" zpos="-4.534"  GUID="QAPCQaaCPE2ZfB/aQ/tltg==" type="HMP.strB8_c3.sc1" rotate-x="160"/>
+    <POI MapID="1450" xpos="-78.353"  ypos="157.493" zpos="136.421" GUID="5VfUzSzSqUmn5Gcph1S7yg==" type="HMP.strB8_c3.sc2"/>
+    <POI MapID="1450" xpos="-44.588"  ypos="157.411" zpos="108.224" GUID="GknPNGrkgU6X048W7KnjHw==" type="HMP.strB8_c3.sc2"/>
+    <POI MapID="1450" xpos="-41.937"  ypos="157.431" zpos="151.549" GUID="GqzUtrHza0yV0LLfWUVbLw==" type="HMP.strB8_c3.sc2" alpha="1"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="HMP=STRB8=c4"             type="HMP.StrB8_Reg.c4"     iconFile="Data/Strikes/Slaying/XJJ-D.png" schedule="0 35 0/2 * * *" schedule-duration="65"/>
-    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="HMP=STRB8=c4"             type="HMP.StrB8_Reg.c4"     iconFile="Data/Strikes/Slaying/XJJ-N.png" schedule="0 40 1/2 * * *" schedule-duration="55"/>
-    
+    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="HMP=STRB8=c4"             type="HMP.strB8_c4"     iconFile="Data/Strikes/Slaying/XJJ-D.png" schedule="0 35 0/2 * * *" schedule-duration="65"/>
+    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="HMP=STRB8=c4"             type="HMP.strB8_c4"     iconFile="Data/Strikes/Slaying/XJJ-N.png" schedule="0 40 1/2 * * *" schedule-duration="55"/>
   </POIs>
   
 <!-- ========================================= KAINENG OVERLOOK (Minister Li and his Crew) ==================================================================================================================================================================== -->
@@ -305,7 +302,6 @@
     
     <!-- ========== Slaying ========== -->
     <POI MapID="1451" xpos="-534.295" ypos="262.935" zpos="-356.355" GUID="HMP=STRB9=C5"             type="HMP.strB9_c5"     iconFile="Data/Strikes/Slaying/KO.png"/>
-    
   </POIs>
   
 <!-- ========================================= HARVEST TEMPLE (Dragonvoid) ==================================================================================================================================================================== -->
