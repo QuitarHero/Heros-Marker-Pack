@@ -235,7 +235,7 @@
         <MarkerCategory   name="sc1" DisplayName="In-Game"         alpha="0.85" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="0.6"                     inGameVisibility="1" minimapVisibility="0" mapVisibility="0"/>
         <MarkerCategory   name="sc2" DisplayName="Minimap and Map"                                                                                    mapDisplaySize="30" inGameVisibility="0" minimapVisibility="1" mapVisibility="1"/>
       </MarkerCategory>
-      <MarkerCategory     name="strB9_c5" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53" minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="strB9_c5" DisplayName="Slaying" alpha="0.6" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53" minimapVisibility="0" mapVisibility="0"/>
   </MarkerCategory>
   
   <POIs>
@@ -980,6 +980,27 @@
     <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc3"  alpha="0.75"                iconFile="Data/Shapes/25-Poly7-R.png" iconSize="32.496"/>
   </POIs>
   
-<!-- ========================================= OLD LION'S ARCH ==================================================================================================================================================================== -->
+<!-- ========================================= OLD LION'S COURT ==================================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"        DisplayName="Hero's Pack">
+    <MarkerCategory   name="StrB11_c1"  DisplayName="Breakbar Order"                                                                                   iconSize="0.6"  rotate-x="180">
+      <MarkerCategory name="sc1"        DisplayName="First"                                                           iconFile="Data/General/dot1.png"                 rotate-z="225"/>
+      <MarkerCategory name="sc2"        DisplayName="Second"                                                          iconFile="Data/General/dot2.png"                 rotate-z="180"/>
+      <MarkerCategory name="sc3"        DisplayName="Third"                                                           iconFile="Data/General/dot3.png"                 rotate-z="270"/>
+    </MarkerCategory>
+    <MarkerCategory   name="StrB11_c2"  DisplayName="Boundary"       defaultToggle="0" fadeFar="450"  fadeNear="400"/>
+    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"  cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                  iconSize="1.75" rotate="85,-1.5,123"/>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- Breakbar Order -->
+    <POI MapID="1485" xpos="-12.462" ypos="19.89716" zpos="128.859" GUID="HMP=STRB11=C1=SC1" type="HMP.StrB11_c1.sc1"/>
+    <POI MapID="1485" xpos="1.905"   ypos="19.89716" zpos="134.811" GUID="HMP=STRB11=C1=SC2" type="HMP.StrB11_c1.sc2"/>
+    <POI MapID="1485" xpos="-18.414" ypos="19.89716" zpos="114.491" GUID="HMP=STRB11=C1=SC3" type="HMP.StrB11_c1.sc3"/>
+    <!-- Boundary -->
+    <Trail trailData="Data/Boundary/StrB11-Bound.trl" texture="Data/Boundary/RedLine.png" animSpeed="0" alpha="0.75" type="HMP.StrB11_c2"/>
+    <!-- Slaying -->
+    <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="HMP=STRB11=C9" type="HMP.StrB11_c9" iconFile="Data/Strikes/Slaying/OLC-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
+    <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="HMP=STRB11=C9" type="HMP.StrB11_c9" iconFile="Data/Strikes/Slaying/OLC-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+  </POIs>
   
 </OverlayData>
