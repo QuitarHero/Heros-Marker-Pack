@@ -366,7 +366,7 @@
       <MarkerCategory name="sc5" DisplayName="Obliterator"                     defaultToggle="0" iconFile="Data/General/dot.png" iconSize="0.5"/>
       <MarkerCategory name="sc6" DisplayName="Goliath"                         defaultToggle="0" iconFile="Data/General/dot.png" iconSize="0.5" tip-description="Challenge Mode only"/>
     </MarkerCategory>
-    <MarkerCategory       name="strikeB10_c5" DisplayName="&quot;Share the Void&quot; Locations" iconSize="4.35" rotate-x="180" mapVisibility="0" minimapVisibility="0" tip-description="Challenge Mode only">
+    <MarkerCategory       name="strikeB10_c5" DisplayName="&quot;Share the Void&quot; Locations" defaultToggle="0" iconSize="4.35" rotate-x="180" mapVisibility="0" minimapVisibility="0" tip-description="Challenge Mode only">
       <MarkerCategory     name="jormy" DisplayName="Jormag">
         <MarkerCategory   name="g1"    DisplayName="First set"    color="04d1cf"/>
         <MarkerCategory   name="g2"    DisplayName="Second set"   defaultToggle="0">
@@ -982,13 +982,13 @@
   
 <!-- ========================================= OLD LION'S COURT ==================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"        DisplayName="Hero's Pack">
-    <MarkerCategory   name="StrB11_c1"  DisplayName="Breakbar Order"                                                                                   iconSize="0.6"  rotate-x="180">
+    <MarkerCategory   name="StrB11_c1"  DisplayName="Breakbar Order"                                                                                   iconSize="0.6"  rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="sc1"        DisplayName="First"                                                           iconFile="Data/General/dot1.png"                 rotate-z="225"/>
       <MarkerCategory name="sc2"        DisplayName="Second"                                                          iconFile="Data/General/dot2.png"                 rotate-z="180"/>
       <MarkerCategory name="sc3"        DisplayName="Third"                                                           iconFile="Data/General/dot3.png"                 rotate-z="270"/>
     </MarkerCategory>
-    <MarkerCategory   name="StrB11_c2"  DisplayName="Boundary"       defaultToggle="0" fadeFar="450"  fadeNear="400"/>
-    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"  cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                  iconSize="1.75" rotate="85,-1.5,123"/>
+    <MarkerCategory   name="StrB11_c2"  DisplayName="Boundary"       defaultToggle="0" fadeFar="450"  fadeNear="400"                                                                  mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"  cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                  iconSize="1.75" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   
   <POIs>
