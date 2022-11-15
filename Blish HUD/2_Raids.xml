@@ -147,11 +147,6 @@
     <POI MapID="1062" xpos="-89.847"  ypos="62.884" zpos="82.927"   GUID="f6MqlZMqbk2wBTmty3lt1g==" type="HMP.W1_B4.c2"                                iconFile="Data/General/e.png"                              tip-name="East"  inGameVisibility="0"/>
     <POI MapID="1062" xpos="-127.366" ypos="62.686" zpos="126.039"  GUID="A9Fo/Z7wLE+m1uR5pxlHcw==" type="HMP.W1_B4.c2"                                iconFile="Data/General/n.png"                              tip-name="North" inGameVisibility="0"/>
     <POI MapID="1062" xpos="-171.633" ypos="62.066" zpos="88.843"   GUID="X2SbGwYOdUqy5ZTY69jvGA==" type="HMP.W1_B4.c2"                                iconFile="Data/General/w.png"                              tip-name="West"  inGameVisibility="0"/>
-  
-    <POI MapID="1062" xpos="-223.1239" ypos="78" zpos="176.5455" GUID="asdflkajsdfuyre"/>
-    <POI MapID="1062" xpos="-36.64787" ypos="78" zpos="-9.413649" GUID="asdffffflkajsdfuyre"/>
-  
-  
   </POIs>
   
   
