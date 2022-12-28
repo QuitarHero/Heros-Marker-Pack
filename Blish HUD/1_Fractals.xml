@@ -461,7 +461,7 @@
   </POIs>
   
   
-<!-- ======================================== SWMAPLAND ==================================================================================================================================================================== -->
+<!-- ======================================== SWAMPLAND ==================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory   name="F_SL_c1" DisplayName="Swampland Traps"                                fadeFar="1100" fadeNear="850"                                        iconSize="0.25" heightOffset="1" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="t1"      DisplayName="Top Left (Skelk)"                                                              iconFile="Data/Fracs/Trip.png"/>
@@ -472,8 +472,9 @@
       <MarkerCategory name="t6"      DisplayName="Middle Right (Champ)"                                                          iconFile="Data/Fracs/Bear.png"/>
       <MarkerCategory name="t7"      DisplayName="Entrance"/>
       <MarkerCategory name="t8"      DisplayName="Bottom Right (Spiders)"/>
+      <MarkerCategory name="t9"      DisplayName="Passage"/>
     </MarkerCategory>
-    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/SL1.png" iconSize="2" rotate="90,0,-45"   mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Night, Force"/>
+    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"  iconFile="Data/Fracs/Slaying/SL1.png" iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Night, Force"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Top Left (Skelk) ========== -->
@@ -556,8 +557,11 @@
     <POI MapID="949" xpos="99.714"  ypos="0.829"  zpos="51.369"  GUID="Ip5h50dUn0muBtykbjLxbg==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
     <POI MapID="949" xpos="99.973"  ypos="0.205"  zpos="70.297"  GUID="sQfni3IndEC0uHUVtERSig==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
     <POI MapID="949" xpos="112.719" ypos="0.467"  zpos="60.348"  GUID="/XUtdOUSdkqlJs2LUSw1RQ==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <!-- ========== PASSAGE ========== -->
+    <POI MapID="949" xpos="21.242"  ypos="-0.539" zpos="-7.270"  GUID="+d8B11gpVEejpe72TteYcQ==" type="HMP.F_SL_c1.t9" iconFile="Data/Fracs/Trip.png" alpha="0.65"/>
+    <POI MapID="949" xpos="17.885"  ypos="-0.471" zpos="-6.799"  GUID="x2nyPbvwqEibZMDhf9GjWA==" type="HMP.F_SL_c1.t9" iconFile="Data/Fracs/Trip.png" alpha="0.65"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="949" xpos="49.734"  ypos="2.047"  zpos="43.279"  GUID="GIeR4Zt130+F2mKfqpOGkg==" type="HMP.F_SL_sy"/>
+    <POI MapID="949" xpos="68.74529" ypos="0.946115" zpos="119.3885"  GUID="GIeR4Zt130+F2mKfqpOGkg==" type="HMP.F_SL_sy"/>
   </POIs>
   
   
