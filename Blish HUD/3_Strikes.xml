@@ -22,7 +22,7 @@
   
 <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="700"  fadeNear="575"  texture="Data/Boundary/RedLine.png"    trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="trailCombatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="700"  fadeNear="575"  texture="Data/Boundary/RedLine.png"    trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
     <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750"                                                       rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="StrB2_c3" DisplayName="Slaying"        fadeFar="800"  fadeNear="650"  iconFile="Data/Strikes/Slaying/KB.png" iconSize="1.5" rotate="96,0,155" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
@@ -39,7 +39,7 @@
 
 <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="800"  fadeNear="675"  texture="Data/Boundary/RedLine.png"     trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="trailCombatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="800"  fadeNear="675"  texture="Data/Boundary/RedLine.png"     trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
     <MarkerCategory name="StrB3_c2" DisplayName="Stack Spots" alpha="0.6" color="34f1fa" fadeFar="4000" fadeNear="3750" iconFile="Data/General/dot.png"         iconSize="0.5"  rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="StrB3_c3" DisplayName="Slaying"     cull="CounterClockwise"    fadeFar="1000" fadeNear="850"  iconFile="Data/Strikes/Slaying/FoJ.png" iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
@@ -55,7 +55,7 @@
 
 <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"                                         trailScale="1.5"              mapVisibility="0" minimapVisibility="0" script-filter="trailCombatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"                                         trailScale="1.5"              mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
     <MarkerCategory name="StrB4_c2" DisplayName="Torches"  color="66A144" cull="CounterClockwise" fadeFar="4000" fadeNear="3750"                                        iconSize="1" rotate-x="90"/>
     <MarkerCategory name="StrB4_c3" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1200" fadeNear="1050" iconFile="Data/Strikes/Slaying/BS.png" iconSize="2" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
@@ -90,7 +90,7 @@
   
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="800"  fadeNear="700"                                         trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="trailCombatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="800"  fadeNear="700"                                         trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
     <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75" color="27b0ae"    fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
     <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconFile="Data/Strikes/Slaying/CW.png" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0"/>
@@ -128,8 +128,8 @@
       <MarkerCategory   name="sc1"       DisplayName="Hitbox"                                                  fadeFar="200" fadeNear="150"/>
       <MarkerCategory   name="sc2"       DisplayName="Max Range"                                               fadeFar="3000" fadeNear="2500"/>
     </MarkerCategory>
-    <MarkerCategory     name="StrB7_c4"  DisplayName="Boundary"                        defaultToggle="0"       fadeFar="600" fadeNear="450"                                 trailScale="1.5"                   minimapVisibility="0" mapVisibility="0" script-filter="trailCombatFade"  tip-description="Only relevant after a wipe&#xA;Disappears on Combat Start"/>
-    <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950" fadeNear="800"                                 iconSize="1.75" rotate="90,0,225"                                          script-filter="markerCombatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory     name="StrB7_c4"  DisplayName="Boundary"                        defaultToggle="0"       fadeFar="600" fadeNear="450"                                 trailScale="1.5"                   minimapVisibility="0" mapVisibility="0" script-filter="combatFade"  tip-description="Only relevant after a wipe&#xA;Disappears on Combat Start"/>
+    <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950" fadeNear="800"                                 iconSize="1.75" rotate="90,0,225"                                          script-filter="combatFade" tip-description="Disappears on Combat Start"/>
     
   </MarkerCategory>
   
@@ -174,7 +174,7 @@
   
 <!-- ========================================= XUNLAI JADE JUNKYARD (Ankka) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-      <MarkerCategory name="strB8_c1" DisplayName="Boundary" fadeFar="1150" fadeNear="100" trailScale="1.5" minimapVisibility="0" mapVisibility="0" script-filter="trailCombatFade" tip-description="Disappears on Combat Start"/>
+      <MarkerCategory name="strB8_c1" DisplayName="Boundary" fadeFar="1150" fadeNear="100" trailScale="1.5" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
       <MarkerCategory   name="strB8_c2" DisplayName="Boss Spawns" alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0">
         <MarkerCategory name="sc1" DisplayName="Dump Site 3"/>
         <MarkerCategory name="sc2" Displayname="Dump Site 2"/>
@@ -235,7 +235,7 @@
         <MarkerCategory   name="sc1" DisplayName="In-Game"         alpha="0.85" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="0.6"                     inGameVisibility="1" minimapVisibility="0" mapVisibility="0"/>
         <MarkerCategory   name="sc2" DisplayName="Minimap and Map"                                                                                    mapDisplaySize="30" inGameVisibility="0" minimapVisibility="1" mapVisibility="1"/>
       </MarkerCategory>
-      <MarkerCategory     name="strB9_c5" DisplayName="Slaying" alpha="0.6" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53" minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="strB9_c5" DisplayName="Slaying" alpha="0.6" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
   </MarkerCategory>
   
   <POIs>
@@ -310,11 +310,11 @@
     <MarkerCategory     name="strikeB10_c1" DisplayName="General" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="sc1"  DisplayName="Max Melee">
         <MarkerCategory name="asc1" DisplayName="Boundary"/>
-        <MarkerCategory name="asc2" DisplayName="Flank Lines" alpha="0.65"            fadeFar="800" fadeNear="775" iconFile="Data/Strikes/StrB10-flank.png"            rotate="180,0,135"/>
+        <MarkerCategory name="asc2" DisplayName="Flank Lines" alpha="0.65"            fadeFar="800" fadeNear="775"   iconFile="Data/Strikes/StrB10-flank.png"            rotate="180,0,135"/>
       </MarkerCategory>
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
-      <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                              iconFile="Data/General/s.png"          iconSize="1" rotate="90,0,0"/>
-      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="500" fadeNear="400" iconFile="Data/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180"/>
+      <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Data/General/s.png"          iconSize="1" rotate="90,0,0"/>
+      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Data/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks" rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
@@ -988,9 +988,9 @@
       <MarkerCategory name="sc2"        DisplayName="Second"                                        iconFile="Data/General/dot2.png"                                   rotate-z="180"/>
       <MarkerCategory name="sc3"        DisplayName="Third"                                         iconFile="Data/General/dot3.png"                                   rotate-z="270"/>
     </MarkerCategory>
-    <MarkerCategory   name="StrB11_c2"  DisplayName="Boundary"                                      fadeFar="750"  fadeNear="600"                      trailScale="1.5"                     mapVisibility="0" minimapVisibility="0" script-filter="trailCombatFade"  tip-description="Only relevant after a wipe&#xA;Disappears on Combat Start"/>
-    <MarkerCategory   name="StrB11_c3"  DisplayName="(CM) Puzzle Solutions" cull="CounterClockwise" fadeFar="1625" fadeNear="1475" heightOffset="21.5" iconSize="0.64" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="markerCombatFade" tip-description="Disappears on Combat Start"/>
-    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"               cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                     iconSize="1.75" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="markerCombatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory   name="StrB11_c2"  DisplayName="Boundary"                                      fadeFar="750"  fadeNear="600"                      trailScale="1.5"                     mapVisibility="0" minimapVisibility="0" script-filter="combatFade"  tip-description="Only relevant after a wipe&#xA;Disappears on Combat Start"/>
+    <MarkerCategory   name="StrB11_c3"  DisplayName="(CM) Puzzle Solutions" cull="CounterClockwise" fadeFar="1625" fadeNear="1475" heightOffset="21.5" iconSize="0.64" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"               cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                     iconSize="1.75" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
   </MarkerCategory>
   
   <POIs>
