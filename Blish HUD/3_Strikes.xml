@@ -28,7 +28,7 @@
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Data/Boundary/StrB2-Bound.trl"              animSpeed="0" alpha="0.75"      type="HMP.StrB2_c1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/StrB2-Bound.trl" animSpeed="0" alpha="0.75" type="HMP.StrB2_c1"/>
     <!-- ========== Boss Positions ========== -->
     <POI MapID="1346" xpos="-8.690" ypos="178.538" zpos="-5.287"  GUID="L3sEHR2sAkKFOhct1KhGyg==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos1.png"    iconSize="0.75" rotate-z="275"/>
     <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438"  GUID="WGt9DHoBdECZoamIeyJXkw==" type="HMP.StrB2_c2" iconFile="Data/Strikes/pos2.png"    iconSize="1.25" rotate-z="177"/>

@@ -530,8 +530,9 @@
           <MarkerCategory name="sc2"   DisplayName="Minimap/Map"                    color="FFFFFF"                                                                                               mapDisplaySize="25" inGameVisibility="0"/>
         </MarkerCategory>
         <MarkerCategory   name="c2"    DisplayName="Pillar Locations"   alpha="0.6" color="d1cd80"                               iconFile="Data/General/dot.png"  iconSize="0.5"  rotate-x="180" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+        <MarkerCategory   name="c3"    DisplayName="Boundary"                                      fadeFar="350"  fadeNear="275"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
       </MarkerCategory>
-      <MarkerCategory     name="W7_B2" DisplayName="Cardinal Sabir"                                fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+      <MarkerCategory     name="W7_B2" DisplayName="Cardinal Sabir"                                fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0"/>
       <MarkerCategory     name="W7_B3" DisplayName="Qadim the Peerless"                            fadeFar="5500" fadeNear="5000">
         <MarkerCategory   name="c1"    DisplayName="Fire Placements"                color="d49937"                                                                iconSize="0.75" rotate-x="180" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start">
           <MarkerCategory name="sc1"   DisplayName="80% Fires"                                                                   iconFile="Data/General/dot1.png"/>
@@ -557,6 +558,8 @@
     <POI MapID="1323" xpos="383.564" ypos="6.153"  zpos="-50.107" GUID="mgeK+szOhk6vLhrhm1oSrQ==" type="HMP.W7_B1.c2"/>
     <POI MapID="1323" xpos="388.349" ypos="6.153"  zpos="-37.340" GUID="9g1K9lXLoU2hT0VMVx/Stg==" type="HMP.W7_B1.c2"/>
     <POI MapID="1323" xpos="368.997" ypos="6.152"  zpos="-37.385" GUID="WtRHIgyaFkWPCSaiRUzoHw==" type="HMP.W7_B1.c2"/>
+    <!-- Boundary -->
+    <Trail trailData="Data/Boundary/W7B1-Bound.trl" animSpeed="0" alpha="0.9"                     type="HMP.W7_B1.c3"     texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Cardinal Sabir ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W7B2-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.W7_B2"        texture="Data/Boundary/RedLine.png"/>
