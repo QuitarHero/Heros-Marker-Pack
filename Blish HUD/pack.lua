@@ -1,5 +1,5 @@
 HSP = {}
-HSP = {}
+HMP = {}
 
 currentMap = Mumble.CurrentMap.Id
 

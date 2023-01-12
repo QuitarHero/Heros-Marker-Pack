@@ -62,8 +62,6 @@
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
-    <!-- Empty marker to show script category toggle -->
-    <POI MapID="1155" xpos="130.636" ypos="34.1874" zpos="-373.429" GUID="JsWHDi19WEyJCxMIutO/vA==" type="HSP.laaFadeToggle" iconFile="Data/General/Empty.png"/>
     <!-- ==================== LION's ARCH AERODOME ================================================================================================================================================================ -->
     <!-- Weekly Category Reset -->
     <POI MapID="1155" xpos="130.636" ypos="34.1874" zpos="-373.429" GUID="Hmp=WCM=A=RESET=1"  type="HMP.raidT.c3.sc1"   autoTrigger="1" behavior="101" iconFile="Data/General/Empty.png" triggerRange="10000" show="HMP.raidT.c3.sc1.no"  hide="HMP.raidT.c3.sc1.yes"/>
