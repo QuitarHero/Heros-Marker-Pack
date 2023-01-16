@@ -1,0 +1,271 @@
+<OverlayData>
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="strikeT" DisplayName="Strike Tracking" triggerRange="0" minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="c1"    DisplayName="Daily Schedule">
+        <MarkerCategory name="sc1" DisplayName="Today">
+          <MarkerCategory name="no" DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="Tomorrow" tip-name="At Reset"/>
+      </MarkerCategory>
+      <MarkerCategory name="c8"    DisplayName="Weekly Clears">
+        <MarkerCategory   name="sc1" DisplayName="Aetherblade Hideout">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="Xunlai Jade Junkyard">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="Kaineng Overlook">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc4" DisplayName="Harvest Temple">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc5" DisplayName="Old Lion's Court">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="c9" DisplayName="Weekly CM's">
+        <MarkerCategory   name="sc1" DisplayName="CM: Aetherblade Hideout">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="CM: Xunlai Jade Junkyard">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="CM: Kaineng Overlook">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc4" DisplayName="CM: Harvest Temple">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc5" DisplayName="CM: Old Lion's Court">
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+
+  <POIs>
+  <!-- ====================================================================== DAILY STRIKES / SCRIPT MARKERS / TITLES ====================================================================== -->
+  <!-- Titles -->
+  <POI MapID="1428" xpos="-815.772" ypos="17.700"  zpos="409.145"  GUID="r4PNILi5GkGaY6vsPUbBeg==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/daily-title.png"    iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.497" ypos="17.700"  zpos="410.860"  GUID="s4N9z1PQQUu+BqXsONAm8g==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/reset-title.png"    iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <!-- Today's Daily -->
+  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="SBNx62U+Wk+R/HzTuahvRg==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/empty.png"      iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="qYsyfNVwuUGMG/zcKMEkPg==" type="HMP.strikeT.c1.sc1.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="St08I1dXk0uOpOmNAsPDwg==" type="HMP.strikeT.c1.sc1.yes"                fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/empty.png"      iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="vO6PxN4zfU2WsWXrz3BGuw==" type="HMP.strikeT.c1.sc1.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.772" ypos="16.450"  zpos="409.145"  GUID="WAiviQ9nnE+Qi1+vLXem4Q==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Data/General/empty.png"      iconSize="0.6"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.772" ypos="15.350"  zpos="409.145"  GUID="3GUG2QUyskm9MXz366R18g==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Data/General/empty.png"      iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <!-- Tomorrow's Daily -->
+  <POI MapID="1428" xpos="-817.497" ypos="2.450"   zpos="410.860"  GUID="sV2IORDNeEWW4HXb3PY5bw==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/empty.png"      iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.497" ypos="2.450"   zpos="410.860"  GUID="Jg/58iiYuEOh+8kIiDGz8A==" type="HMP.strikeT.c1.sc2"     color="2f4e8f" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.497" ypos="16.450"  zpos="410.860"  GUID="MJ79TNqau0G8rrfFvnW+jg==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Data/General/empty.png"      iconSize="0.6"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.497" ypos="15.350"  zpos="410.860"  GUID="UA8kgqnmaUqvV7jdeKmdmQ==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Data/General/empty.png"      iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <!-- Aetherblade Hideout -->
+  <POI MapID="1432" xpos="51.594"   ypos="32.498"  zpos="60.535"   GUID="1PmCxJRILU+yl+W1q/3CZQ==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="15.5" iconFile="Schedule/B7c.png"            iconSize="0.65"                                           inGameVisibility="0"/>
+  <POI MapID="1432" xpos="51.594"   ypos="39.198"  zpos="60.535"   GUID="izkIPFHs1EaLjdryA6UkUw==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.8"                                            inGameVisibility="0"/>
+  <POI MapID="1432" xpos="51.594"   ypos="46.498"  zpos="60.535"   GUID="26StaSazpU62MjG6E36Bjg==" type="HMP.strikeT.c1.sc1.no"  color="41ab44"                                                    iconFile="Data/General/dot-border.png" iconSize="0.9"                                            inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
+  <!-- Xunlai Jade Junkyard -->
+  <POI MapID="1450" xpos="-56.893"  ypos="144.945" zpos="155.171"  GUID="B/nAAmq6e0CjnhklDGKULQ==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="2750" fadeNear="2550" heightOffset="15.5" iconFile="Schedule/B8c.png"            iconSize="0.7"                                            inGameVisibility="0"/>
+  <POI MapID="1450" xpos="-56.893"  ypos="151.645" zpos="155.171"  GUID="dfZCy6Ijv0m9/RXxKOhjSQ==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="2750" fadeNear="2550" heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.93"                                           inGameVisibility="0"/>
+  <POI MapID="1450" xpos="-56.893"  ypos="158.945" zpos="155.171"  GUID="+F/P0X7h9EaJ3muNBmUqSw==" type="HMP.strikeT.c1.sc1.no"  color="41ab44" fadeFar="2750" fadeNear="2550"                     iconFile="Data/General/dot-border.png" iconSize="1"                                              inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
+  <!-- Kaineng Overlook -->
+  <POI MapID="1451" xpos="-583.141" ypos="259.960" zpos="-388.195" GUID="LcaQS9gJzE2ZglZoJCmaBQ==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="15.5" iconFile="Schedule/B9c.png"            iconSize="0.7"  rotate="90,0,127" cull="CounterClockwise" inGameVisibility="0"/>
+  <POI MapID="1451" xpos="-583.141" ypos="266.680" zpos="-388.195" GUID="vGrXHfva6kqJVh4/gOskFw==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.93" rotate="90,0,127" cull="CounterClockwise" inGameVisibility="0"/>
+  <POI MapID="1451" xpos="-583.141" ypos="273.960" zpos="-388.195" GUID="Z8yMRvRmAUWR27fDfVTCGg==" type="HMP.strikeT.c1.sc1.no"  color="41ab44"                                                    iconFile="Data/General/dot-border.png" iconSize="1"    rotate="90,0,127" cull="CounterClockwise" inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
+  <!-- Harvest Temple -->
+  <POI MapID="1437" xpos="0.799"    ypos="377.401" zpos="-484.290" GUID="snQTyBzM80K4qQOuqn3vHw==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="1550" fadeNear="1400" heightOffset="15.5" iconFile="Schedule/B10c.png"           iconSize="0.85" rotate="90,0,203" cull="CounterClockwise" inGameVisibility="0"/>
+  <POI MapID="1437" xpos="0.799"    ypos="384.101" zpos="-484.290" GUID="F8aXXCKYPE6LtBGZChX0Mg==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="1500" fadeNear="1350" heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="1.17" rotate="90,0,203" cull="CounterClockwise" inGameVisibility="0"/>
+  <POI MapID="1437" xpos="0.799"    ypos="391.401" zpos="-484.290" GUID="mGZjMOjlkUS8OZNn8qvScQ==" type="HMP.strikeT.c1.sc1.no"  color="41ab44" fadeFar="1500" fadeNear="1350"                     iconFile="Data/General/dot-border.png" iconSize="1.25" rotate="90,0,203" cull="CounterClockwise" inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
+  <!-- Old Lion's Court -->
+  <POI MapID="1485" xpos="-47.133"  ypos="7.205"   zpos="123.835"  GUID="ot6D59Lht0qfEVWWHjgz0w==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="15.5" iconFile="Schedule/B11c.png"           iconSize="0.7"                                            inGameVisibility="0"/>
+  <POI MapID="1485" xpos="-47.133"  ypos="13.905"  zpos="123.835"  GUID="3KDgFNk7WUCTwj8XSc8e/g==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.93"                                           inGameVisibility="0"/>
+  <POI MapID="1485" xpos="-47.133"  ypos="21.205"  zpos="123.835"  GUID="t7PJnF8FO0GNxmIK5BO09Q==" type="HMP.strikeT.c1.sc1.no"  color="41ab44"                                                    iconFile="Data/General/dot-border.png" iconSize="1"                                              inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
+  <!-- Daily Reset Markers -->
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"   zpos="521.253"  GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735"  zpos="41.076"   GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007"  GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401" GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497"  zpos="113.785"  GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
+  
+  
+  <!-- ====================================================================== WEEKLY CLEARS AND CM's ====================================================================== -->
+  <!-- ==================== Arborstone ==================== -->
+  <!-- Weekly Reset -->
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="7tSke9LjQE2O5PjFD7onkQ==" type="HMP.strikeT.c8" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c8.sc1.no" hide="HMP.strikeT.c8.sc1.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="/23/zggc9E+uZlNEIyxn4g==" type="HMP.strikeT.c8" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c8.sc2.no" hide="HMP.strikeT.c8.sc2.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="muYyTjv7fUuXrBi6Rn44wQ==" type="HMP.strikeT.c8" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c8.sc3.no" hide="HMP.strikeT.c8.sc3.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="dx4dTE3BMEatUwMcb5s6eA==" type="HMP.strikeT.c8" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c8.sc4.no" hide="HMP.strikeT.c8.sc4.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="HTgLq39ThECMJ/7dukgNAg==" type="HMP.strikeT.c8" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c8.sc5.no" hide="HMP.strikeT.c8.sc5.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="rnqlK+JMA0adZIomKCipRQ==" type="HMP.strikeT.c9" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c9.sc1.no" hide="HMP.strikeT.c9.sc1.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="YKdmxtMB2E2ploKYa6rEYA==" type="HMP.strikeT.c9" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c9.sc2.no" hide="HMP.strikeT.c9.sc2.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="lLW7+9kxiEelhhRe0a0o1g==" type="HMP.strikeT.c9" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c9.sc3.no" hide="HMP.strikeT.c9.sc3.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="Rt2jepRviUymLknMvMRDng==" type="HMP.strikeT.c9" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c9.sc4.no" hide="HMP.strikeT.c9.sc4.yes"/>
+  <POI MapID="1428" xpos="-817.465" ypos="2.119"  zpos="521.253" GUID="Yt86Gx2ookqc9aSt/ZCcQw==" type="HMP.strikeT.c9" autoTrigger="1" behavior="101" iconFile="Data/General/empty.png" triggerRange="10000" show="HMP.strikeT.c9.sc5.no" hide="HMP.strikeT.c9.sc5.yes"/>
+   <!-- Markers that serve absolutely no purpose but exist for the sole purpose of showing the 'Incomplete' categories with Blish's 'Smart Categories' feature -->
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="dQVjfoDMPUeO7zooId/kQw==" type="HMP.strikeT.c8.sc1.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="5coaoRasvEmY/S+cZ4zMIQ==" type="HMP.strikeT.c8.sc2.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="1POxdAvV40OHs8hPL7qL8g==" type="HMP.strikeT.c8.sc3.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="2SkcNVwSaUKpnynH0iUdAA==" type="HMP.strikeT.c8.sc4.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="4XtkRaMLA0m0qPhEq0Vgpw==" type="HMP.strikeT.c8.sc5.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="Vv0ADQXYkkSVNApbJ/qO8A==" type="HMP.strikeT.c9.sc1.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="M9IYII40NUGZ5avZYcXWwA==" type="HMP.strikeT.c9.sc2.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="ILfQlCe6s0GeRz3gLcvf/Q==" type="HMP.strikeT.c9.sc3.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="UKw9sFFj00Oh0KYufo/hCw==" type="HMP.strikeT.c9.sc4.no"                         iconFile="Data/General/Empty.png"/>
+  <POI MapID="1428" xpos="-817.465" ypos="-2.119" zpos="521.253" GUID="+/KTKbVVUkO7aPe+Mp36bw==" type="HMP.strikeT.c9.sc5.no"                         iconFile="Data/General/Empty.png"/>
+  <!-- Weekly Clear Title -->
+  <POI MapID="1428" xpos="-816.637" ypos="14.500" zpos="409.997" GUID="fP+Ru6kS8E+xlLqR810Tjg==" type="HMP.strikeT" fadeFar="2500" fadeNear="2350" iconFile="Schedule/title2.png" iconSize="2" rotate="90,0,-45" cull="CounterClockwise" script-filter="removeEoDWeeklyTitle"/>
+
+
+  <!-- ==================== Aetherblade Hideout ==================== -->
+  <!-- Weekly Reset -->
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="7tSke9LjQE2O5PjFD7onkQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc1.no" hide="HMP.strikeT.c8.sc1.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="/23/zggc9E+uZlNEIyxn4g==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc2.no" hide="HMP.strikeT.c8.sc2.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="muYyTjv7fUuXrBi6Rn44wQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc3.no" hide="HMP.strikeT.c8.sc3.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="dx4dTE3BMEatUwMcb5s6eA==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc4.no" hide="HMP.strikeT.c8.sc4.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="HTgLq39ThECMJ/7dukgNAg==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc5.no" hide="HMP.strikeT.c8.sc5.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="rnqlK+JMA0adZIomKCipRQ==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc1.no" hide="HMP.strikeT.c9.sc1.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="YKdmxtMB2E2ploKYa6rEYA==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc2.no" hide="HMP.strikeT.c9.sc2.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="lLW7+9kxiEelhhRe0a0o1g==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc3.no" hide="HMP.strikeT.c9.sc3.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="Rt2jepRviUymLknMvMRDng==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc4.no" hide="HMP.strikeT.c9.sc4.yes"/>
+  <POI MapID="1428" xpos="70.179"   ypos="45.735" zpos="41.076"  GUID="Yt86Gx2ookqc9aSt/ZCcQw==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc5.no" hide="HMP.strikeT.c9.sc5.yes"/>
+  <!-- Arborstone -->
+  <POI MapID="1428" xpos="-815.307" ypos="-0.850" zpos="408.672" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Schedule/B7g.png"            iconSize="0.7"  rotate="90,0,-45"  cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.307" ypos="-0.850" zpos="408.672" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45"  cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.307" ypos="6.150"  zpos="408.672" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.yes"                fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Schedule/B7c.png"            iconSize="0.7"  rotate="90,0,-45"  cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.307" ypos="6.150"  zpos="408.672" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45"  cull="CounterClockwise"/>
+  <!-- Normal Clear Tracking -->
+  <POI MapID="1432" xpos="51.594"   ypos="32.498" zpos="60.535"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.no"                                                heightOffset="15.5" iconFile="Schedule/B7c.png"            iconSize="0.65"/>
+  <POI MapID="1432" xpos="51.594"   ypos="39.198" zpos="60.535"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.no"                                                heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.8"/>
+  <POI MapID="1432" xpos="51.594"   ypos="46.498" zpos="60.535"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc1.no"  color="41ab44"                                                    iconFile="Data/General/dot-border.png" iconSize="0.9"  triggerRange="3"     show="HMP.strikeT.c8.sc1.yes" hide="HMP.strikeT.c8.sc1.no"/>
+  <!-- CM Tracking -->
+  <POI MapID="1428" xpos="-815.547" ypos="12.890" zpos="408.912" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc1.yes"                fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/CmTag.png"          iconSize="0.45" rotate="90,30,-45" cull="CounterClockwise"/>
+  <POI MapID="1432" xpos="57.183"   ypos="32.483" zpos="63.416"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc1.no"                                                heightOffset="15.5" iconFile="Schedule/B7c.png"            iconSize="0.65"/>
+  <POI MapID="1432" xpos="57.183"   ypos="39.183" zpos="63.416"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc1.no"                                                heightOffset="8.5"  iconFile="Schedule/CmText.png"         iconSize="0.8"/>
+  <POI MapID="1432" xpos="57.183"   ypos="46.483" zpos="63.416"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc1.no"  color="bf8f15"                                                    iconFile="Data/General/dot-border.png" iconSize="0.9"  triggerRange="3"     show="HMP.strikeT.c9.sc1.yes" hide="HMP.strikeT.c9.sc1.no"/>
+
+
+  <!-- ==================== Xunlai Jade Junkyard ==================== -->
+  <!-- Weekly Reset -->
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="7tSke9LjQE2O5PjFD7onkQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc1.no" hide="HMP.strikeT.c8.sc1.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="/23/zggc9E+uZlNEIyxn4g==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc2.no" hide="HMP.strikeT.c8.sc2.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="muYyTjv7fUuXrBi6Rn44wQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc3.no" hide="HMP.strikeT.c8.sc3.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="dx4dTE3BMEatUwMcb5s6eA==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc4.no" hide="HMP.strikeT.c8.sc4.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="HTgLq39ThECMJ/7dukgNAg==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc5.no" hide="HMP.strikeT.c8.sc5.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="rnqlK+JMA0adZIomKCipRQ==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc1.no" hide="HMP.strikeT.c9.sc1.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="YKdmxtMB2E2ploKYa6rEYA==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc2.no" hide="HMP.strikeT.c9.sc2.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="lLW7+9kxiEelhhRe0a0o1g==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc3.no" hide="HMP.strikeT.c9.sc3.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="Rt2jepRviUymLknMvMRDng==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc4.no" hide="HMP.strikeT.c9.sc4.yes"/>
+  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007" GUID="Yt86Gx2ookqc9aSt/ZCcQw==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc5.no" hide="HMP.strikeT.c9.sc5.yes"/>
+  <!-- Arborstone -->
+  <POI MapID="1428" xpos="-816.637" ypos="-0.850"  zpos="409.997" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Schedule/B8g.png"            iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-816.637" ypos="-0.850"  zpos="409.997" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-816.637" ypos="6.150"   zpos="409.997" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.yes"                fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Schedule/B8c.png"            iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-816.637" ypos="6.150"   zpos="409.997" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <!-- Normal Clear Tracking -->
+  <POI MapID="1450" xpos="-56.893"  ypos="144.945" zpos="155.171" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.no"                 fadeFar="2750" fadeNear="2550" heightOffset="15.5" iconFile="Schedule/B8c.png"            iconSize="0.7"/>
+  <POI MapID="1450" xpos="-56.893"  ypos="151.645" zpos="155.171" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.no"                 fadeFar="2750" fadeNear="2550" heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.93"/>
+  <POI MapID="1450" xpos="-56.893"  ypos="158.945" zpos="155.171" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc2.no"  color="41ab44" fadeFar="2750" fadeNear="2550"                     iconFile="Data/General/dot-border.png" iconSize="1"  triggerRange="4"     show="HMP.strikeT.c8.sc2.yes" hide="HMP.strikeT.c8.sc2.no"/>
+  <!-- CM Tracking -->
+  <POI MapID="1428" xpos="-816.877" ypos="12.890"  zpos="410.247" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc2.yes"                fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/CmTag.png"          iconSize="0.45" rotate="90,30,-45" cull="CounterClockwise"/>
+  <POI MapID="1450" xpos="-66.108"  ypos="145.557" zpos="155.208" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc2.no"                 fadeFar="2750" fadeNear="2550" heightOffset="15.5" iconFile="Schedule/B8c.png"            iconSize="0.7"/>
+  <POI MapID="1450" xpos="-66.108"  ypos="152.257" zpos="155.208" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc2.no"                 fadeFar="2750" fadeNear="2550" heightOffset="8.5"  iconFile="Schedule/CmText.png"         iconSize="0.93"/>
+  <POI MapID="1450" xpos="-66.108"  ypos="159.557" zpos="155.208" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc2.no"  color="bf8f15" fadeFar="2750" fadeNear="2550"                     iconFile="Data/General/dot-border.png" iconSize="1"  triggerRange="4"     show="HMP.strikeT.c9.sc2.yes" hide="HMP.strikeT.c9.sc2.no"/>
+
+
+  <!-- ==================== Kaineng Overlook ==================== -->
+  <!-- Weekly Reset -->
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="7tSke9LjQE2O5PjFD7onkQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c8.sc1.no" hide="HMP.strikeT.c8.sc1.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="/23/zggc9E+uZlNEIyxn4g==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c8.sc2.no" hide="HMP.strikeT.c8.sc2.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="muYyTjv7fUuXrBi6Rn44wQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c8.sc3.no" hide="HMP.strikeT.c8.sc3.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="dx4dTE3BMEatUwMcb5s6eA==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c8.sc4.no" hide="HMP.strikeT.c8.sc4.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="HTgLq39ThECMJ/7dukgNAg==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c8.sc5.no" hide="HMP.strikeT.c8.sc5.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="rnqlK+JMA0adZIomKCipRQ==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c9.sc1.no" hide="HMP.strikeT.c9.sc1.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="YKdmxtMB2E2ploKYa6rEYA==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c9.sc2.no" hide="HMP.strikeT.c9.sc2.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="lLW7+9kxiEelhhRe0a0o1g==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c9.sc3.no" hide="HMP.strikeT.c9.sc3.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="Rt2jepRviUymLknMvMRDng==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c9.sc4.no" hide="HMP.strikeT.c9.sc4.yes"/>
+  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="Yt86Gx2ookqc9aSt/ZCcQw==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                triggerRange="10000" show="HMP.strikeT.c9.sc5.no" hide="HMP.strikeT.c9.sc5.yes"/>
+  <!-- Arborstone -->
+  <POI MapID="1428" xpos="-817.957" ypos="-0.850"  zpos="411.322"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Schedule/B9g.png"            iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.957" ypos="-0.850"  zpos="411.322"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.957" ypos="6.150"   zpos="411.322"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.yes"                fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Schedule/B9c.png"            iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.957" ypos="6.150"   zpos="411.322"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <!-- Normal Clear Tracking -->
+  <POI MapID="1451" xpos="-583.141" ypos="259.960" zpos="-388.195" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.no"                                                heightOffset="15.5" iconFile="Schedule/B9c.png"            iconSize="0.7"  rotate="90,0,127" cull="CounterClockwise"/>
+  <POI MapID="1451" xpos="-583.141" ypos="266.680" zpos="-388.195" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.no"                                                heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.93" rotate="90,0,127" cull="CounterClockwise"/>
+  <POI MapID="1451" xpos="-583.141" ypos="273.960" zpos="-388.195" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc3.no"  color="41ab44"                                                    iconFile="Data/General/dot-border.png" iconSize="1"    rotate="90,0,127" cull="CounterClockwise" triggerRange="3"     show="HMP.strikeT.c8.sc3.yes" hide="HMP.strikeT.c8.sc3.no"/>
+  <!-- CM Tracking -->
+  <POI MapID="1428" xpos="-818.187" ypos="12.890"  zpos="411.572"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc3.yes"                fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/CmTag.png"          iconSize="0.45" rotate="90,30,-45" cull="CounterClockwise"/>
+  <POI MapID="1451" xpos="-572.205" ypos="259.960" zpos="-402.909" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc3.no"                                                heightOffset="15.5" iconFile="Schedule/B9c.png"            iconSize="0.7"  rotate="90,0,127" cull="CounterClockwise"/>
+  <POI MapID="1451" xpos="-572.205" ypos="266.680" zpos="-402.909" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc3.no"                                                heightOffset="8.5"  iconFile="Schedule/CmText.png"         iconSize="0.93" rotate="90,0,127" cull="CounterClockwise"/>
+  <POI MapID="1451" xpos="-572.205" ypos="273.960" zpos="-402.909" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc3.no"  color="bf8f15"                                                    iconFile="Data/General/dot-border.png" iconSize="1"    rotate="90,0,127" cull="CounterClockwise" triggerRange="3"     show="HMP.strikeT.c9.sc3.yes" hide="HMP.strikeT.c9.sc3.no"/>
+
+
+  <!-- ==================== Harvest Temple ==================== -->
+  <!-- Weekly Reset -->
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="7tSke9LjQE2O5PjFD7onkQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c8.sc1.no" hide="HMP.strikeT.c8.sc1.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="/23/zggc9E+uZlNEIyxn4g==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c8.sc2.no" hide="HMP.strikeT.c8.sc2.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="muYyTjv7fUuXrBi6Rn44wQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c8.sc3.no" hide="HMP.strikeT.c8.sc3.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="dx4dTE3BMEatUwMcb5s6eA==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c8.sc4.no" hide="HMP.strikeT.c8.sc4.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="HTgLq39ThECMJ/7dukgNAg==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c8.sc5.no" hide="HMP.strikeT.c8.sc5.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="rnqlK+JMA0adZIomKCipRQ==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c9.sc1.no" hide="HMP.strikeT.c9.sc1.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="YKdmxtMB2E2ploKYa6rEYA==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c9.sc2.no" hide="HMP.strikeT.c9.sc2.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="lLW7+9kxiEelhhRe0a0o1g==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c9.sc3.no" hide="HMP.strikeT.c9.sc3.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="Rt2jepRviUymLknMvMRDng==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c9.sc4.no" hide="HMP.strikeT.c9.sc4.yes"/>
+  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401"  GUID="Yt86Gx2ookqc9aSt/ZCcQw==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                                                                 triggerRange="10000" show="HMP.strikeT.c9.sc5.no" hide="HMP.strikeT.c9.sc5.yes"/>
+  <!-- Arborstone -->
+  <POI MapID="1428" xpos="-815.972" ypos="-2.450"  zpos="409.345"   GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Schedule/B10g.png"           iconSize="0.7"  rotate="90,0,-45"  cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.972" ypos="-2.450"  zpos="409.345"   GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45"  cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.972" ypos="4.550"   zpos="409.345"   GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.yes"                fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Schedule/B10c.png"           iconSize="0.7"  rotate="90,0,-45"  cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-815.972" ypos="4.550"   zpos="409.345"   GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45"  cull="CounterClockwise"/>
+  <!-- Normal Clear Tracking -->
+  <POI MapID="1437" xpos="0.799"    ypos="377.401" zpos="-484.290"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.no"                 fadeFar="1550" fadeNear="1400" heightOffset="15.5" iconFile="Schedule/B10c.png"           iconSize="0.85" rotate="90,0,203"  cull="CounterClockwise"/>
+  <POI MapID="1437" xpos="0.799"    ypos="384.101" zpos="-484.290"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.no"                 fadeFar="1500" fadeNear="1350" heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="1.17" rotate="90,0,203"  cull="CounterClockwise"/>
+  <POI MapID="1437" xpos="0.799"    ypos="391.401" zpos="-484.290"  GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc4.no"  color="41ab44" fadeFar="1500" fadeNear="1350"                     iconFile="Data/General/dot-border.png" iconSize="1.25" rotate="90,0,203"  cull="CounterClockwise"  triggerRange="4"     show="HMP.strikeT.c8.sc4.yes" hide="HMP.strikeT.c8.sc4.no"/>
+  <!-- CM Tracking -->
+  <POI MapID="1428" xpos="-816.202" ypos="11.300"  zpos="409.595"   GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc4.yes"                fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/CmTag.png"          iconSize="0.45" rotate="90,30,-45" cull="CounterClockwise"/>
+  <POI MapID="1437" xpos="30.039"   ypos="377.401" zpos="-484.224"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc4.no"                 fadeFar="1550" fadeNear="1400" heightOffset="15.5" iconFile="Schedule/B10c.png"           iconSize="0.85" rotate="90,0,156"  cull="CounterClockwise"/>
+  <POI MapID="1437" xpos="30.049"   ypos="384.101" zpos="-484.234"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc4.no"                 fadeFar="1500" fadeNear="1350" heightOffset="8.5"  iconFile="Schedule/CmText.png"         iconSize="1.17" rotate="90,0,156"  cull="CounterClockwise"/>
+  <POI MapID="1437" xpos="30.039"   ypos="391.401" zpos="-484.224"  GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc4.no"  color="bf8f15" fadeFar="1500" fadeNear="1350"                     iconFile="Data/General/dot-border.png" iconSize="1.25" rotate="90,0,156"  cull="CounterClockwise"  triggerRange="4"     show="HMP.strikeT.c9.sc4.yes" hide="HMP.strikeT.c9.sc4.no"/>
+
+
+  <!-- ==================== Old Lion's Court ==================== -->
+  <!-- Weekly Reset -->
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="7tSke9LjQE2O5PjFD7onkQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc1.no" hide="HMP.strikeT.c8.sc1.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="/23/zggc9E+uZlNEIyxn4g==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc2.no" hide="HMP.strikeT.c8.sc2.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="muYyTjv7fUuXrBi6Rn44wQ==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc3.no" hide="HMP.strikeT.c8.sc3.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="dx4dTE3BMEatUwMcb5s6eA==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc4.no" hide="HMP.strikeT.c8.sc4.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="HTgLq39ThECMJ/7dukgNAg==" type="HMP.strikeT.c8"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c8.sc5.no" hide="HMP.strikeT.c8.sc5.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="rnqlK+JMA0adZIomKCipRQ==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc1.no" hide="HMP.strikeT.c9.sc1.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="YKdmxtMB2E2ploKYa6rEYA==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc2.no" hide="HMP.strikeT.c9.sc2.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="lLW7+9kxiEelhhRe0a0o1g==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc3.no" hide="HMP.strikeT.c9.sc3.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="Rt2jepRviUymLknMvMRDng==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc4.no" hide="HMP.strikeT.c9.sc4.yes"/>
+  <POI MapID="1485" xpos="3.345"    ypos="21.497" zpos="113.785" GUID="Yt86Gx2ookqc9aSt/ZCcQw==" type="HMP.strikeT.c9"         autoTrigger="1" behavior="101"                                    iconFile="Data/General/empty.png"                      triggerRange="10000" show="HMP.strikeT.c9.sc5.no" hide="HMP.strikeT.c9.sc5.yes"/>
+  <!-- Arborstone -->
+  <POI MapID="1428" xpos="-817.297" ypos="-2.450" zpos="410.660" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Schedule/B11g.png"           iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.297" ypos="-2.450" zpos="410.660" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.297" ypos="4.550"  zpos="410.660" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.yes"                fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Schedule/B11c.png"           iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
+  <POI MapID="1428" xpos="-817.297" ypos="4.550"  zpos="410.660" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
+  <!-- Normal Clear Tracking -->
+  <POI MapID="1485" xpos="-47.133"  ypos="7.205"  zpos="123.835" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.no"                                                heightOffset="15.5" iconFile="Schedule/B11c.png"           iconSize="0.7"/>
+  <POI MapID="1485" xpos="-47.133"  ypos="13.905" zpos="123.835" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.no"                                                heightOffset="8.5"  iconFile="Schedule/Cleared.png"        iconSize="0.93"/>
+  <POI MapID="1485" xpos="-47.133"  ypos="21.205" zpos="123.835" GUID="oHfjDSDnj0maUP5JVipJuQ==" type="HMP.strikeT.c8.sc5.no"  color="41ab44"                                                    iconFile="Data/General/dot-border.png" iconSize="1"    triggerRange="4"     show="HMP.strikeT.c8.sc5.yes" hide="HMP.strikeT.c8.sc5.no"/>
+  <!-- CM Tracking -->
+  <POI MapID="1428" xpos="-817.527" ypos="11.300" zpos="410.920" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc5.yes"                fadeFar="2500" fadeNear="2350"                     iconFile="Schedule/CmTag.png"          iconSize="0.45" rotate="90,30,-45" cull="CounterClockwise"/>
+  <POI MapID="1485" xpos="-56.313"  ypos="7.236"  zpos="131.125" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc5.no"                                                heightOffset="15.5" iconFile="Schedule/B11c.png"           iconSize="0.7"/>
+  <POI MapID="1485" xpos="-56.313"  ypos="13.936" zpos="131.125" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc5.no"                                                heightOffset="8.5"  iconFile="Schedule/CmText.png"         iconSize="0.93"/>
+  <POI MapID="1485" xpos="-56.313"  ypos="21.236" zpos="131.125" GUID="1UQdtXC2J0i2zWpZb245OA==" type="HMP.strikeT.c9.sc5.no"  color="bf8f15"                                                    iconFile="Data/General/dot-border.png" iconSize="1"    triggerRange="3"     show="HMP.strikeT.c9.sc5.yes" hide="HMP.strikeT.c9.sc5.no"/>
+  </POIs>
+</OverlayData>

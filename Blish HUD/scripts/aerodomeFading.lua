@@ -273,7 +273,7 @@ HMP.LAA_W7 = {
 }
 
 function laaFade_W1(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W1) do
       v.InGameVisibility = false
     end
@@ -285,7 +285,7 @@ function laaFade_W1(marker, focused)
 end
 
 function laaFade_W2(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W2) do
       v.InGameVisibility = false
     end
@@ -297,7 +297,7 @@ function laaFade_W2(marker, focused)
 end
 
 function laaFade_W3(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W3) do
       v.InGameVisibility = false
     end
@@ -309,7 +309,7 @@ function laaFade_W3(marker, focused)
 end
 
 function laaFade_W4(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W4) do
       v.InGameVisibility = false
     end
@@ -321,7 +321,7 @@ function laaFade_W4(marker, focused)
 end
 
 function laaFade_W5(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W5) do
       v.InGameVisibility = false
     end
@@ -333,7 +333,7 @@ function laaFade_W5(marker, focused)
 end
 
 function laaFade_W6(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W6) do
       v.InGameVisibility = false
     end
@@ -345,7 +345,7 @@ function laaFade_W6(marker, focused)
 end
 
 function laaFade_W7(marker, focused)
-  if(focused) then
+  if(focused and World:CategoryByType("HMP.raidT.c99.sc2"):IsVisible()) then
     for _,v in ipairs(HMP.LAA_W7) do
       v.InGameVisibility = false
     end

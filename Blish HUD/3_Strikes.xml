@@ -174,7 +174,7 @@
   
 <!-- ========================================= XUNLAI JADE JUNKYARD (Ankka) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-      <MarkerCategory name="strB8_c1" DisplayName="Boundary" fadeFar="1150" fadeNear="100" trailScale="1.5" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+      <MarkerCategory name="strB8_c1" DisplayName="Boundary" cull="CounterClockwise" fadeFar="1150" fadeNear="100" trailScale="1.5" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
       <MarkerCategory   name="strB8_c2" DisplayName="Boss Spawns" alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Data/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0">
         <MarkerCategory name="sc1" DisplayName="Dump Site 3"/>
         <MarkerCategory name="sc2" Displayname="Dump Site 2"/>
