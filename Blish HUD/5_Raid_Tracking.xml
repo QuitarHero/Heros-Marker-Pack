@@ -4,63 +4,67 @@
       <MarkerCategory     name="c1"    DisplayName="Instances"                             cull="CounterClockwise" fadeFar="3500" fadeNear="3000"                                     tip-description="This toggles the blue&#xA;borders around encounters.">
         <MarkerCategory   name="sc1"   DisplayName="Full Cleared"                                                                                                                     tip-description="This toggles Full Clear&#xA;instance tracking."/>
       </MarkerCategory>
-      <MarkerCategory     name="c2"    DisplayName="Chests"              behavior="101"    cull="CounterClockwise" fadeFar="3500" fadeNear="3000" iconSize="0.15" mapDisplaySize="20" tip-description="This toggles the entire&#xA;chest tracking feature."     triggerRange="0"/>
-      <MarkerCategory     name="c3"    DisplayName="Weekly CM"                                                                                                                        tip-description="This toggles the Weekly CM tracking feature&#xA;All in-raid markers disappear on combat start" triggerRange="0">
+      <MarkerCategory     name="c2"    DisplayName="Chests"              behavior="101"    cull="CounterClockwise" fadeFar="3500" fadeNear="3000" iconSize="0.15" mapDisplaySize="20" tip-description="This toggles the entire&#xA;chest tracking feature." triggerRange="0"/>
+      <MarkerCategory     name="c3"    DisplayName="Weekly CM"                                                                                             script-filter="combatFade" tip-description="This toggles the Weekly CM tracking feature&#xA;If lua scripts are enabled, all in-raid markers&#xA;disappear on combat start." triggerRange="0">
         <MarkerCategory   name="sc1"   DisplayName="Keep Construct">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc2"   DisplayName="Cairn">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc3"   DisplayName="Mursaat Overseer">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc4"   DisplayName="Samarog">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc5"   DisplayName="Deimos">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc6"   DisplayName="Soulless Horror">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc7"   DisplayName="Dhuum">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc8"   DisplayName="Conjured Amalgamate">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc9"   DisplayName="Twin Largos">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc10"  DisplayName="Qadim">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc11"  DisplayName="Cardinal Adina">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc12"  DisplayName="Cardinal Sabir">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
         <MarkerCategory   name="sc13"  DisplayName="Qadim the Peerless">
-          <MarkerCategory name="no"    DisplayName="Incomplate"          script-filter="combatFade"/>
+          <MarkerCategory name="no"    DisplayName="Incomplate"/>
           <MarkerCategory name="yes"   DisplayName="Complete"            defaultToggle="0"/>
         </MarkerCategory>
       </MarkerCategory>
-      <MarkerCategory     name="c99"   DisplayName="Scripts">
-        <MarkerCategory   name="sc1"   DisplayName="W6 Sorting and Appraisal"/>
+      <MarkerCategory     name="c99"   DisplayName="Scripts"             tip-description="Only works if Lua Scripts are enabled">
+        <MarkerCategory   name="sc1"   DisplayName="W6 Sorting and Appraisal">
+          <MarkerCategory name="asc1"  DisplayName="Aerodome Text"/>
+          <MarkerCategory name="asc2"  DisplayName="SaA Lobby"/>
+          <MarkerCategory name="asc3"  DisplayName="Small Portal Text"/>
+        </MarkerCategory>
         <MarkerCategory   name="sc2"   DisplayName="Entrance Auto-Fading"/>
       </MarkerCategory>
     </MarkerCategory>
@@ -68,6 +72,10 @@
   <POIs>
     <!-- Empty marker to show script category toggle -->
     <POI MapID="1155" xpos="130.636" ypos="34.1874" zpos="-373.429" GUID="JsWHDi19WEyJCxMIutO/vA==" type="HMP.raidT.c99.sc2" iconFile="Data/General/Empty.png"/>
+    
+    <POI MapID="1155" xpos="130.636" ypos="34.1874" zpos="-373.429" GUID="bH+awo9/ykOadJsInBSQ4A==" type="HMP.raidT.c3" iconFile="Data/General/Empty.png" script-once="manageTrackingCategories"/>
+    <POI MapID="1188" xpos="130.636" ypos="34.1874" zpos="-373.429" GUID="0JBdzdzM6k+Lu1aqRfQTVA==" type="HMP.raidT.c3" iconFile="Data/General/Empty.png" script-once="manageTrackingCategories"/>
+    
     <!-- ==================== LION's ARCH AERODOME ================================================================================================================================================================ -->
     <!-- Weekly Category Reset -->
     <POI MapID="1155" xpos="130.636" ypos="34.1874" zpos="-373.429" GUID="Hmp=WCM=A=RESET=1"  type="HMP.raidT.c3.sc1"   autoTrigger="1" behavior="101" iconFile="Data/General/Empty.png" triggerRange="10000" show="HMP.raidT.c3.sc1.no"  hide="HMP.raidT.c3.sc1.yes"/>
@@ -438,19 +446,19 @@
     <POI MapID="1155" xpos="164.92"   ypos="28.0653" zpos="-387.958" GUID="JIQmoQXMC0uzD2XeQvso1w==" type="HMP.raidT"             color="41ab44"  fadeFar="3500" fadeNear="3000" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,60" cull="CounterClockwise" raid="conjured_amalgamate"/>
     <POI MapID="1155" xpos="164.92"   ypos="21.0653" zpos="-387.958" GUID="jpe2gXAj3Eam6dQwpxBOfw==" type="HMP.raidT.c1"          color="2f4e8f"                                 heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,60"/>
     <!-- ========== Sorting and Appraisal ========== -->
-    <POI MapID="1155" xpos="164.334"  ypos="22.531"  zpos="-389.406" GUID="DpbZ61s3rECdYVslcrYx4Q==" type="HMP.raidT.c99.sc1"                     fadeFar="3500" fadeNear="3000" heightOffset="15.5" iconFile="Data/General/Empty.png"      iconSize="1.4"  rotate="90,0,60" cull="CounterClockwise"/>
+    <POI MapID="1155" xpos="164.334"  ypos="22.531"  zpos="-389.406" GUID="DpbZ61s3rECdYVslcrYx4Q==" type="HMP.raidT.c99.sc1.asc1"                fadeFar="3500" fadeNear="3000" heightOffset="15.5" iconFile="Data/General/Empty.png"      iconSize="1.4"  rotate="90,0,60" cull="CounterClockwise"/>
     <!-- Megapet Markers -->
-    <POI MapID="1303" xpos="167.543"  ypos="100.056" zpos="-330.509" GUID="HKnlvaGii0qeDwWPQvqLgQ==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="6"    rotate="90,0,79"   cull="CounterClockwise" script-filter="heightFade"/>
-    <POI MapID="1303" xpos="168.935"  ypos="91.8010" zpos="-324.379" GUID="YmzZVOWjBkewMs9gN58S7Q==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,79"  cull="CounterClockwise" script-filter="heightFade"/>
-    <POI MapID="1303" xpos="166.585"  ypos="91.8010" zpos="-336.879" GUID="CNdxwIXkMk6OPNty6hgMyA==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,259" cull="Clockwise"        script-filter="heightFade"/>
-    <POI MapID="1303" xpos="222.784"  ypos="183.623" zpos="-230.346" GUID="9B6j0wFla0yd8xecg3o0rQ==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="4"    rotate="90,0,148"  cull="CounterClockwise"/>
-    <POI MapID="1303" xpos="219.672"  ypos="180.372" zpos="-228.325" GUID="3ldQ/QN9Nke/CSqSFy7Llg==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,145" cull="CounterClockwise"/>
+    <POI MapID="1303" xpos="167.543"  ypos="100.056" zpos="-330.509" GUID="HKnlvaGii0qeDwWPQvqLgQ==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="6"    rotate="90,0,79"   cull="CounterClockwise" script-filter="heightFade"/>
+    <POI MapID="1303" xpos="168.935"  ypos="91.8010" zpos="-324.379" GUID="YmzZVOWjBkewMs9gN58S7Q==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,79"  cull="CounterClockwise" script-filter="heightFade"/>
+    <POI MapID="1303" xpos="166.585"  ypos="91.8010" zpos="-336.879" GUID="CNdxwIXkMk6OPNty6hgMyA==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,259" cull="Clockwise"        script-filter="heightFade"/>
+    <POI MapID="1303" xpos="222.784"  ypos="183.623" zpos="-230.346" GUID="9B6j0wFla0yd8xecg3o0rQ==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="4"    rotate="90,0,148"  cull="CounterClockwise"/>
+    <POI MapID="1303" xpos="219.672"  ypos="180.372" zpos="-228.325" GUID="3ldQ/QN9Nke/CSqSFy7Llg==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,145" cull="CounterClockwise"/>
     <!-- Ectoplasm Markers -->
-    <POI MapID="1303" xpos="146.295"  ypos="100.056" zpos="-298.863" GUID="kj8/tdwUJEm4i4i3tIdw9Q==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="6"    rotate="90,0,169"  cull="CounterClockwise" script-filter="heightFade"/>
-    <POI MapID="1303" xpos="140.043"  ypos="91.8010" zpos="-297.473" GUID="va7kuZUX6USeuCZlMMctEg==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,169" cull="CounterClockwise" script-filter="heightFade"/>
-    <POI MapID="1303" xpos="152.543"  ypos="91.8010" zpos="-299.973" GUID="iKlfIu6Zy0CqfQbl9m86Ew==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,349" cull="Clockwise"        script-filter="heightFade"/>
-    <POI MapID="1303" xpos="48.1805"  ypos="93.7564" zpos="-233.081" GUID="QS4CkmE8+0aefDX6VV7DbQ==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="3.65" rotate="90,0,245"  cull="CounterClockwise"/>
-    <POI MapID="1303" xpos="49.5805"  ypos="90.7064" zpos="-229.881" GUID="P74oTRMlAEuJ+wHzd2JGEQ==" type="HMP.raidT.c99.sc1"     color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,68"  cull="Clockwise"/>
+    <POI MapID="1303" xpos="146.295"  ypos="100.056" zpos="-298.863" GUID="kj8/tdwUJEm4i4i3tIdw9Q==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="6"    rotate="90,0,169"  cull="CounterClockwise" script-filter="heightFade"/>
+    <POI MapID="1303" xpos="140.043"  ypos="91.8010" zpos="-297.473" GUID="va7kuZUX6USeuCZlMMctEg==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,169" cull="CounterClockwise" script-filter="heightFade"/>
+    <POI MapID="1303" xpos="152.543"  ypos="91.8010" zpos="-299.973" GUID="iKlfIu6Zy0CqfQbl9m86Ew==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,349" cull="Clockwise"        script-filter="heightFade"/>
+    <POI MapID="1303" xpos="48.1805"  ypos="93.7564" zpos="-233.081" GUID="QS4CkmE8+0aefDX6VV7DbQ==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="3.65" rotate="90,0,245"  cull="CounterClockwise"/>
+    <POI MapID="1303" xpos="49.5805"  ypos="90.7064" zpos="-229.881" GUID="P74oTRMlAEuJ+wHzd2JGEQ==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,68"  cull="Clockwise"/>
     <!-- ========== Twin Largos ========== -->
     <POI MapID="1155" xpos="164.92"   ypos="12.7653" zpos="-387.958" GUID="28oldJi7Fk246z/LNjiPXA==" type="HMP.raidT"                             fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/Raids/Track/W6B2g.png"  iconSize="0.5"  rotate="90,0,60" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="164.92"   ypos="12.7653" zpos="-387.958" GUID="+Uq+dggHO06VYy7sKulm+Q==" type="HMP.raidT"             color="141414"  fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,60" cull="CounterClockwise"/>

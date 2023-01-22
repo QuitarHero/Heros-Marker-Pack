@@ -15,9 +15,9 @@
     <!-- Text Titles (in-world only) -->
     <POI MapID="1155" xpos="57.4783" ypos="37.6873" zpos="-344.755" GUID="xxDqXTXM+kmC7TdIrADQdQ==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w1-title.png" rotate-z="-38"/>
     <POI MapID="1155" xpos="64.6076" ypos="43.3377" zpos="-371.238" GUID="mdhEf+Xf30mxlZOSkqxRSA==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w2-title.png" rotate-z="-68"/>
-    <POI MapID="1155" xpos="84.979"  ypos="37.7538" zpos="-386.14"  GUID="jpbhO3Be10CGHJrcSC44qA==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w3-title.png" rotate-z="-65"/>
-    <POI MapID="1155" xpos="92.1329" ypos="43.3105" zpos="-415.56"  GUID="FSd7f7j000SJzB8pIRE2aA==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w4-title.png" rotate-z="-35"/>
-    <POI MapID="1155" xpos="126.696" ypos="37.7038" zpos="-410.424" GUID="HUhMw0PB0EqN13Z1yFTLyQ==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w5-title.png" rotate-z="4"/>
+    <POI MapID="1155" xpos="84.979"  ypos="37.7338" zpos="-386.14"  GUID="jpbhO3Be10CGHJrcSC44qA==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w3-title.png" rotate-z="-65"/>
+    <POI MapID="1155" xpos="92.1329" ypos="43.3405" zpos="-415.56"  GUID="FSd7f7j000SJzB8pIRE2aA==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w4-title.png" rotate-z="-35"/>
+    <POI MapID="1155" xpos="126.696" ypos="37.7538" zpos="-410.424" GUID="HUhMw0PB0EqN13Z1yFTLyQ==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w5-title.png" rotate-z="4"/>
     <POI MapID="1155" xpos="164.334" ypos="36.931"  zpos="-389.406" GUID="5PS5QzCDa0y4mHdlwsb9dw==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w6-title.png" rotate-z="57"/>
     <POI MapID="1155" xpos="157.603" ypos="43.0003" zpos="-413.826" GUID="j6ZEEP0JUUKCYUYkDM363Q==" type="HMP.titles.textTitle"    iconFile="Data/Raids/w7-title.png" rotate-z="44"/>
     <!-- Numerical Titles (in-world only) -->
@@ -49,14 +49,16 @@
 
 <!-- ======================================== SPIRIT VALE ================================================================================================================================================================== -->
   <MarkerCategory         name="HMP"   DisplayName="Hero's Pack">
-    <MarkerCategory       name="W1_B1" DisplayName="Vale Guardian"                      fadeFar="550"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory       name="W1_B1" DisplayName="Vale Guardian">
+      <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="550"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    </MarkerCategory>
     <MarkerCategory       name="W1_B2" DisplayName="Spirit Run">
       <MarkerCategory     name="c1"    DisplayName="Skip"                                                                                                                             minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c2"    DisplayName="Trigger Lines"                      fadeFar="1500" fadeNear="1000"                                                                minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c3"    DisplayName="Pressure Plates"     color="e5ff00" defaultToggle="0"              iconFile="Data/General/dot.png"                                mapDisplaySize="15" inGameVisibility="0"/>
     </MarkerCategory>
     <MarkerCategory       name="W1_B3" DisplayName="Gorseval"                                                                                                                                               mapVisibility="0">
-      <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0"                   script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+      <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0"                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory     name="c2"    DisplayName="Spirits">
         <MarkerCategory   name="sc1"   DisplayName="Locations (in-game)" color="a6c4a1" fadeFar="3500" fadeNear="3000" iconFile="Data/General/dot.png" iconSize="0.75" rotate-x="180" minimapVisibility="0" mapVisibility="0">
           <MarkerCategory name="s1"    DisplayName="NW Spirit"/>
@@ -79,7 +81,7 @@
   </MarkerCategory>
   <POIs>
     <!-- ========== VG's Boundary ========== -->
-    <Trail trailData="Data/Boundary/W1B1-Bound.trl" animSpeed="0" alpha="1"                         type="HMP.W1_B1"    trailScale="1"                 texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W1B1-Bound.trl" animSpeed="0" alpha="0.75"                      type="HMP.W1_B1.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- ========== SW Skip ========== -->
     <!-- Mesmer -->
     <POI MapID="1062" xpos="-127.456" ypos="67.100" zpos="-420.086" GUID="HHgLEkJk9EGjZJ88sefs3Q==" type="HMP.W1_B2.c1" fadeFar="500"  fadeNear="350"  iconFile="Data/Class/Normal/MirJump-1.png" iconSize="0.25" rotate="90,0,-45"   specialization="59"/>
@@ -180,9 +182,9 @@
       </MarkerCategory>          
     </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="W2_B2" DisplayName="Trio"           fadeFar="4750" fadeNear="4500"                                                  mapVisibility="0" minimapVisibility="0" tip-description="Bee/Oil markers disappear on Combat Start"/>
+    <MarkerCategory     name="W2_B2" DisplayName="Trio"           fadeFar="4750" fadeNear="4500"                                                  mapVisibility="0" minimapVisibility="0" tip-description="If lua scripts are enabled,&#xA;Bee/Oil markers disappear on Combat Start"/>
     <MarkerCategory     name="W2_B3" DisplayName="Matthias"       fadeFar="2750" fadeNear="2500"                                                  mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"       fadeFar="475"  fadeNear="350"  trailScale="1.5"                                 script-filter="combatFade"              tip-description="Disappears on Combat Start"/>
+      <MarkerCategory   name="c1"    DisplayName="Boundary"       fadeFar="475"  fadeNear="350"  trailScale="1.5"                                 script-filter="combatFade"              tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c2"    DisplayName="Wells"                                         iconSize="0.5" rotate-x="125"/>
     </MarkerCategory>
   </MarkerCategory>
@@ -242,9 +244,9 @@
     <POI MapID="1149" xpos="-0.567"   ypos="-0.619" zpos="-290.812" GUID="uF937Qyrt0qXElHSMUW5nw==" type="HMP.W2_B2"                                iconFile="Data/General/2.png"       iconSize="1.2" rotate="180,0,45"/>
     <POI MapID="1149" xpos="-32.935"  ypos="4.176"  zpos="-221.024" GUID="yrpc6HFBLUa1dwelKFK/vQ==" type="HMP.W2_B2"                                iconFile="Data/General/3.png"       iconSize="1.2" rotate="162,0,225"/>
     <!-- Oils -->
-    <POI MapID="1149" xpos="-30.506"  ypos="2.374"  zpos="-238.025" GUID="/3CTOpcuskeYgQorlQ/0IQ==" type="HMP.W2_B2"    alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate="183,5,0" script-filter="combatFade"/>
+    <POI MapID="1149" xpos="-30.506"  ypos="2.374"  zpos="-238.025" GUID="/3CTOpcuskeYgQorlQ/0IQ==" type="HMP.W2_B2"    alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate="183,5,0"   script-filter="combatFade"/>
     <!-- Beehive Stack -->
-    <POI MapID="1149" xpos="-16.434"  ypos="3.023"  zpos="-211.941" GUID="m4f94Wsn90GHWJhUjoVrnw==" type="HMP.W2_B2"    alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate="185,-1,0" script-filter="combatFade"/>
+    <POI MapID="1149" xpos="-16.434"  ypos="3.023"  zpos="-211.941" GUID="m4f94Wsn90GHWJhUjoVrnw==" type="HMP.W2_B2"    alpha="0.75" color="c2bd23" iconFile="Data/General/dot.png"     iconSize="0.5" rotate="185,-1,0"  script-filter="combatFade"/>
     <!-- ========== Matthias ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W2B3-Bound.trl" animSpeed="0" alpha="0.75"                      type="HMP.W2_B3.c1"                             texture="Data/Boundary/RedLine.png"/>
@@ -258,19 +260,21 @@
   
 <!-- ======================================== STRONGHOLD OF THE FAITHFUL =================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
-    <MarkerCategory     name="W3_B2" DisplayName="Keep Construct"                                                iconFile="Data/General/dot.png" iconSize="0.5"  rotate-x="180" mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"                                                      fadeFar="500"  fadeNear="375"   trailScale="1.5" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
-      <MarkerCategory   name="c2"    DisplayName="Green Circles"   alpha="0.65" color="30cf5a"                   fadeFar="2500" fadeNear="2000"                   script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+    <MarkerCategory     name="W3_B2" DisplayName="Keep Construct"                                                iconFile="Data/General/dot.png" iconSize="0.5"   rotate-x="180" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                                      fadeFar="500"  fadeNear="375"   trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory   name="c2"    DisplayName="Green Circles"   alpha="0.65" color="30cf5a"                   fadeFar="2500" fadeNear="2000"                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c3"    DisplayName="Rifts"                        color="E44949" defaultToggle="0" fadeFar="2500" fadeNear="2000"/>
       <MarkerCategory   name="c4"    DisplayName="1-orb Pull"                   color="a44de8" defaultToggle="0" fadeFar="2500" fadeNear="2000"/>
     </MarkerCategory>
       <MarkerCategory   name="W3_B3" DisplayName="Twisted Castle">
-        <MarkerCategory name="c1"    DisplayName="1st Button Skip"                                                                                                              mapVisibility="0" minimapVisibility="0"/>
-        <MarkerCategory name="c2"    DisplayName="U-Turn Button Skip"                                                                                                           mapVisibility="0" minimapVisibility="0"/>
-        <MarkerCategory name="c3"    DisplayName="Buttons"                      color="d600d6"                                                   iconSize="0.75"                mapDisplaySize="33"/>
-        <MarkerCategory name="c4"    DisplayName="Button Paths"                 color="d600d6"                                                   iconSize="0.5"                 mapVisibility="0" minimapVisibility="0"/>
+        <MarkerCategory name="c1"    DisplayName="1st Button Skip"                                                                                                               mapVisibility="0" minimapVisibility="0"/>
+        <MarkerCategory name="c2"    DisplayName="U-Turn Button Skip"                                                                                                            mapVisibility="0" minimapVisibility="0"/>
+        <MarkerCategory name="c3"    DisplayName="Buttons"                      color="d600d6"                                                   iconSize="0.75"                 mapDisplaySize="33"/>
+        <MarkerCategory name="c4"    DisplayName="Button Paths"                 color="d600d6"                                                   iconSize="0.5"                  mapVisibility="0" minimapVisibility="0"/>
       </MarkerCategory>
-    <MarkerCategory     name="W3_B4" DisplayName="Xera"                                                          fadeFar="3000" fadeNear="2500"  iconSize="1"    rotate-x="90"  mapDisplaySize="20"/>
+    <MarkerCategory     name="W3_B4" DisplayName="Xera">
+      <MarkerCategory   name="c1"    DisplayName="Tanking Locations"                                             fadeFar="3000" fadeNear="2500"  iconSize="1"     rotate-x="90"  mapDisplaySize="20"/>
+    </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Keep Construct ========== -->
@@ -338,38 +342,38 @@
     <POI MapID="1156" xpos="-76.041"  ypos="125.175" zpos="80.571"  GUID="VXhnAFvZxkWv7CF1byctvg==" type="HMP.W3_B3.c4" fadeFar="2000" fadeNear="1500" iconFile="Data/General/4.png"                              rotate="87,-5,315"/>
     <POI MapID="1156" xpos="-82.510"  ypos="122.730" zpos="86.835"  GUID="SIC6u0kTNECzz5I0KbaDdQ==" type="HMP.W3_B3.c4" fadeFar="2000" fadeNear="1500" iconFile="Data/General/5.png"                              rotate="87,-5,315"/>    
     <POI MapID="1156" xpos="-96.561"  ypos="192.244" zpos="-39.265" GUID="+fg+a9wzF0SLDlSLI4gf2w==" type="HMP.W3_B3.c4" fadeFar="2000" fadeNear="1500" iconFile="Data/General/5.png"                              rotate="90,-3,180"/>
-    <POI MapID="1156" xpos="-94.239"  ypos="189.900" zpos="-52.558" GUID="3XEqUsZs0UOCPneTyymtfQ==" type="HMP.W3_B3.c4" fadeFar="1500" fadeNear="1000" iconFile="Data/General/MesP-1.png" color=""                        rotate="180,-5,180"  profession="mesmer"/>
-    <POI MapID="1156" xpos="-106.872" ypos="136.531" zpos="-27.209" GUID="HrP/GT7ubU6EeLbHeB2mhw==" type="HMP.W3_B3.c4" fadeFar="3000" fadeNear="2500" iconFile="Data/General/MesP-2.png" color=""                rotate="180,0,180"   profession="mesmer"/>
+    <POI MapID="1156" xpos="-94.239"  ypos="189.900" zpos="-52.558" GUID="3XEqUsZs0UOCPneTyymtfQ==" type="HMP.W3_B3.c4" fadeFar="1500" fadeNear="1000" iconFile="Data/General/MesP-1.png"                         rotate="180,-5,180"  profession="mesmer"/>
+    <POI MapID="1156" xpos="-106.872" ypos="136.531" zpos="-27.209" GUID="HrP/GT7ubU6EeLbHeB2mhw==" type="HMP.W3_B3.c4" fadeFar="3000" fadeNear="2500" iconFile="Data/General/MesP-2.png"                         rotate="180,0,180"   profession="mesmer"/>
     <POI MapID="1156" xpos="-175.856" ypos="201.627" zpos="29.196"  GUID="EBJqJD8YJ06CFgykCTGJzg==" type="HMP.W3_B3.c4" fadeFar="3000" fadeNear="2500" iconFile="Data/General/5.png"                              rotate="90,0,0"/>
     <POI MapID="1156" xpos="-177.504" ypos="201.730" zpos="-10.890" GUID="DbSwUSuAK0au7TUjxxkpMw==" type="HMP.W3_B3.c4" fadeFar="3000" fadeNear="2500" iconFile="Data/General/4.png"                              rotate="90,0,0"/>
     <!-- ========== Xera ========== -->
     <!-- Tank Markers (in-game) -->
-    <POI MapID="1156" xpos="-101.757" ypos="512.356" zpos="-80.51"  GUID="qgI+oAkQD0y//JFZYlBNaw==" type="HMP.W3_B4"    color="cfc9a9"                 iconFile="Data/General/1.png"                              rotate-z="240"       minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1156" xpos="-64.367"  ypos="512.354" zpos="-58.505" GUID="e3TSFGqltESwLLN+jeAnfA==" type="HMP.W3_B4"    color="cfc9a9"                 iconFile="Data/General/2.png"                              rotate-z="150"       minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1156" xpos="-55.524"  ypos="512.354" zpos="-92.326" GUID="sj40sryhwUiOQ2gCcaI1MQ==" type="HMP.W3_B4"    color="cfc9a9"                 iconFile="Data/General/3.png"                              rotate-z="60"        minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1156" xpos="-101.757" ypos="512.356" zpos="-80.51"  GUID="qgI+oAkQD0y//JFZYlBNaw==" type="HMP.W3_B4.c1" color="cfc9a9"                 iconFile="Data/General/1.png"                              rotate-z="240"       minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1156" xpos="-64.367"  ypos="512.354" zpos="-58.505" GUID="e3TSFGqltESwLLN+jeAnfA==" type="HMP.W3_B4.c1" color="cfc9a9"                 iconFile="Data/General/2.png"                              rotate-z="150"       minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1156" xpos="-55.524"  ypos="512.354" zpos="-92.326" GUID="sj40sryhwUiOQ2gCcaI1MQ==" type="HMP.W3_B4.c1" color="cfc9a9"                 iconFile="Data/General/3.png"                              rotate-z="60"        minimapVisibility="0" mapVisibility="0"/>
     <!-- Tank Markers (map/minimap) -->
-    <POI MapID="1156" xpos="-101.757" ypos="512.356" zpos="-80.51"  GUID="nePGWjqorE+3LYWj3Yjp2w==" type="HMP.W3_B4"    color="e368e3"                 iconFile="Data/General/1.png"                              rotate-z="240"       inGameVisibility="0" tip-name="First P2 Tank Spot"/>
-    <POI MapID="1156" xpos="-64.367"  ypos="512.354" zpos="-58.505" GUID="8GBIy280XU6GBfJDdImdgA==" type="HMP.W3_B4"    color="e368e3"                 iconFile="Data/General/2.png"                              rotate-z="150"       inGameVisibility="0" tip-name="Second P1 Tank Spot&#xA;Second P2 Tank Spot"/>
-    <POI MapID="1156" xpos="-55.524"  ypos="512.354" zpos="-92.326" GUID="ncleJTvNMUOSDvASc+6abA==" type="HMP.W3_B4"    color="e368e3"                 iconFile="Data/General/3.png"                              rotate-z="60"        inGameVisibility="0" tip-name="First P1 Tank Spot&#xA;Third P2 Tank Spot"/>
+    <POI MapID="1156" xpos="-101.757" ypos="512.356" zpos="-80.51"  GUID="nePGWjqorE+3LYWj3Yjp2w==" type="HMP.W3_B4.c1" color="e368e3"                 iconFile="Data/General/1.png"                              rotate-z="240"       inGameVisibility="0" tip-name="First P2 Tank Spot"/>
+    <POI MapID="1156" xpos="-64.367"  ypos="512.354" zpos="-58.505" GUID="8GBIy280XU6GBfJDdImdgA==" type="HMP.W3_B4.c1" color="e368e3"                 iconFile="Data/General/2.png"                              rotate-z="150"       inGameVisibility="0" tip-name="Second P1 Tank Spot&#xA;Second P2 Tank Spot"/>
+    <POI MapID="1156" xpos="-55.524"  ypos="512.354" zpos="-92.326" GUID="ncleJTvNMUOSDvASc+6abA==" type="HMP.W3_B4.c1" color="e368e3"                 iconFile="Data/General/3.png"                              rotate-z="60"        inGameVisibility="0" tip-name="First P1 Tank Spot&#xA;Third P2 Tank Spot"/>
   </POIs>
   
   
 <!-- ======================================== BASTION OF THE PENITENT ====================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W4_B1" DisplayName="Cairn"                                      fadeFar="4000" fadeNear="3500"                                                                       mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Agony Spots"        alpha="0.75"                                           iconFile="Data/General/dot.png"     iconSize="0.5"  rotate="180,0,15"                                         script-filter="combatFade" tip-description="Disappears on Combat Start">
+      <MarkerCategory   name="c1"    DisplayName="Agony Spots"        alpha="0.75"                                           iconFile="Data/General/dot.png"     iconSize="0.5"  rotate="180,0,15"                                         script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
         <MarkerCategory name="sc1"   DisplayName="Kite"/>
         <MarkerCategory name="sc2"   DisplayName="No-Kite"            defaultToggle="0"/>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="W4_B3" DisplayName="Samarog">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"                                   fadeFar="600"  fadeNear="525"                                      trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start">
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                   fadeFar="600"  fadeNear="525"                                      trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
       </MarkerCategory>
       <MarkerCategory   name="c2"    DisplayName="Door"               cull="CounterClockwise" fadeFar="1500" fadeNear="1250" iconFile="Data/Raids/TrueSight.png" iconSize="0.25"                   mapDisplaySize="12"/>
       <MarkerCategory   name="c3"    DisplayName="CM Spear Locations" defaultToggle="0"       fadeFar="2500" fadeNear="2250"/>
     </MarkerCategory>
     <MarkerCategory     name="W4_B4" DisplayName="Deimos">
-      <MarkerCategory   name="c1"    Displayname="Boundary"                                   fadeFar="500"  fadeNear="375"                                      trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start">
+      <MarkerCategory   name="c1"    Displayname="Boundary"                                   fadeFar="500"  fadeNear="375"                                      trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
@@ -412,10 +416,12 @@
   
 <!-- ======================================== HALL OF CHAINS =============================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
-    <MarkerCategory     name="W5_B1" DisplayName="Soulless Horror"                 color="aabf9f"    fadeFar="4000" fadeNear="3750"                                 iconSize="1"    rotate-x="90"      mapVisibility="0" minimapVisibility="0" cull="CounterClockwise"/>
+    <MarkerCategory     name="W5_B1" DisplayName="Soulless Horror">
+      <MarkerCategory   name="c1"    DisplayName="Directions"                      color="aabf9f"    fadeFar="4000" fadeNear="3750"                                 iconSize="1"    rotate-x="90"      mapVisibility="0" minimapVisibility="0" cull="CounterClockwise"/>
+    </MarkerCategory>
       <MarkerCategory   name="W5_B3" DisplayName="Statues"                                                                          iconFile="Data/General/dot.png"                                    mapVisibility="0" minimapVisibility="0">
-        <MarkerCategory name="c1"    DisplayName="Broken King"        alpha="0.9"  defaultToggle="0" fadeFar="3500" fadeNear="3000"                                 iconSize="0.75" rotate="180,0,0"                      script-filter="combatFade"/>
-        <MarkerCategory name="c2"    DisplayName="Statue of Darkness" alpha="0.75" color="dbc339"    fadeFar="3000" fadeNear="2800"                                 iconSize="0.5"  rotate="180,0,-15"                    script-filter="heightFade"/>
+        <MarkerCategory name="c1"    DisplayName="Broken King"        alpha="0.9"  defaultToggle="0" fadeFar="3500" fadeNear="3000"                                 iconSize="0.75" rotate="180,0,0"                     script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+        <MarkerCategory name="c2"    DisplayName="Statue of Darkness" alpha="0.75" color="dbc339"    fadeFar="3000" fadeNear="2800"                                 iconSize="0.5"  rotate="180,0,-15"                   script-filter="heightFade"/>
       </MarkerCategory>
     <MarkerCategory     name="W5_B4" DisplayName="Dhuum"                                                                                                                                               mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="c1"    DisplayName="Death AoE"                                         fadeFar="2000" fadeNear="1650" isWall="true"/>
@@ -423,10 +429,10 @@
   </MarkerCategory>
   <POIs>
     <!-- ========== Soulless Horror ========== -->
-    <POI MapID="1264" xpos="-268.952" ypos="20.681"  zpos="-15.802" GUID="KkCg/91R+U2uVX0lZM7IdQ==" type="HMP.W5_B1"    iconFile="Data/General/s.png"/>
-    <POI MapID="1264" xpos="-269.824" ypos="20.683"  zpos="59.729"  GUID="2nPxFpzFKkyaEAeMg2fe1A==" type="HMP.W5_B1"    iconFile="Data/General/n.png"    rotate-z="180"/>
-    <POI MapID="1264" xpos="-231.84"  ypos="20.682"  zpos="22.065"  GUID="04Fgp4HwD0Gaz7EMzx4kkQ==" type="HMP.W5_B1"    iconFile="Data/General/e.png"    rotate-z="90"/>
-    <POI MapID="1264" xpos="-307.302" ypos="20.683"  zpos="21.762"  GUID="OaTwG+Q68EuVapv8voRtJw==" type="HMP.W5_B1"    iconFile="Data/General/w.png"    rotate-z="-90"/>
+    <POI MapID="1264" xpos="-268.952" ypos="20.681"  zpos="-15.802" GUID="KkCg/91R+U2uVX0lZM7IdQ==" type="HMP.W5_B1.c1" iconFile="Data/General/s.png"/>
+    <POI MapID="1264" xpos="-269.824" ypos="20.683"  zpos="59.729"  GUID="2nPxFpzFKkyaEAeMg2fe1A==" type="HMP.W5_B1.c1" iconFile="Data/General/n.png"    rotate-z="180"/>
+    <POI MapID="1264" xpos="-231.84"  ypos="20.682"  zpos="22.065"  GUID="04Fgp4HwD0Gaz7EMzx4kkQ==" type="HMP.W5_B1.c1" iconFile="Data/General/e.png"    rotate-z="90"/>
+    <POI MapID="1264" xpos="-307.302" ypos="20.683"  zpos="21.762"  GUID="OaTwG+Q68EuVapv8voRtJw==" type="HMP.W5_B1.c1" iconFile="Data/General/w.png"    rotate-z="-90"/>
     <!-- ========== Broken King ========== -->
     <POI MapID="1264" xpos="119.032"  ypos="110.522" zpos="227.378" GUID="grZaI9v0MU+2ftEMaR5ZAA==" type="HMP.W5_B3.c1"/>
     <POI MapID="1264" xpos="103.172"  ypos="109.405" zpos="221.664" GUID="V0pqQq3PXU2g511ppq7GzQ==" type="HMP.W5_B3.c1"/>
@@ -442,14 +448,14 @@
     <POI MapID="1264" xpos="384.933"  ypos="97.308"  zpos="20.685"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="HMP.W5_B3.c2"/>
     <!-- ========== Dhuum  ========== -->
     <!-- Death AoE  -->
-    <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="0.1" alpha="1"                            type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
+    <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="0.1" alpha="1"                           type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
   </POIs>
   
   
 <!-- ======================================== MYTHWRIGHT GAMBIT ============================================================================================================================================================ -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W6_B1" DisplayName="Conjured Amalgamate">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="500"  fadeNear="375"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="500"  fadeNear="375"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c2"    DisplayName="Shield/Sword">
         <MarkerCategory name="sc1"   DisplayName="In-Game"                                     fadeFar="3000" fadeNear="2500"                               iconSize="0.75" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
         <MarkerCategory name="sc2"   DisplayName="Minimap/Map"         defaultToggle="0"                                                                                                   mapDisplaySize="25" inGameVisibility="0"/>
@@ -457,7 +463,7 @@
     </MarkerCategory>
     <MarkerCategory     name="W6_B2" DisplayName="Twin Largos"         cull="CounterClockwise" fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  mapDisplaySize="20" bounce-duration="115" bounce-height="-31" autoTrigger="1" triggerRange="43"/>
     <MarkerCategory     name="W6_B3" DisplayName="Qadim">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="600"  fadeNear="450"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="600"  fadeNear="450"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c2"    DisplayName="Pyres"                                       fadeFar="4000" fadeNear="3750"                               iconSize="0.75"                mapVisibility="0" minimapVisibility="0">
         <MarkerCategory name="sc1"   DisplayName="Resolution"/>
         <MarkerCategory name="sc2"   DisplayName="Protection"/>
@@ -475,11 +481,11 @@
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W6B1-Bound.trl"  animSpeed="0" alpha="1"                         type="HMP.W6_B1.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- In-Game Markers -->
-    <POI MapID="1303" xpos="-96.686"  ypos="50.914"  zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="HMP.W6_B1.c2.sc1"     iconFile="Data/Raids/GS.png"       rotate-z="50"/>
-    <POI MapID="1303" xpos="-95.111"  ypos="50.914"  zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="HMP.W6_B1.c2.sc1"     iconFile="Data/Raids/Shield.png"   rotate-z="140"/>
+    <POI MapID="1303" xpos="-96.686"  ypos="50.914"  zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="HMP.W6_B1.c2.sc1" iconFile="Data/Raids/GS.png"       rotate-z="50"/>
+    <POI MapID="1303" xpos="-95.111"  ypos="50.914"  zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="HMP.W6_B1.c2.sc1" iconFile="Data/Raids/Shield.png"   rotate-z="140"/>
     <!-- Minimap/Map Markers -->
-    <POI MapID="1303" xpos="-112.686" ypos="50.914" zpos="-281.767"  GUID="mNXeDVUuAkW9oBVEoUD+og==" type="HMP.W6_B1.c2.sc2"     iconFile="Data/Raids/GS.png"                  tip-name="Swords"/>
-    <POI MapID="1303" xpos="-110.686" ypos="50.914" zpos="-375.214"  GUID="XDN1jfzRjES79mlybv0vrg==" type="HMP.W6_B1.c2.sc2"     iconFile="Data/Raids/Shield.png"              tip-name="Shields"/>
+    <POI MapID="1303" xpos="-112.686" ypos="50.914" zpos="-281.767"  GUID="mNXeDVUuAkW9oBVEoUD+og==" type="HMP.W6_B1.c2.sc2" iconFile="Data/Raids/GS.png"                                          tip-name="Swords"/>
+    <POI MapID="1303" xpos="-110.686" ypos="50.914" zpos="-375.214"  GUID="XDN1jfzRjES79mlybv0vrg==" type="HMP.W6_B1.c2.sc2" iconFile="Data/Raids/Shield.png"                                      tip-name="Shields"/>
     <!-- ========== Twin Largos ========== -->
     <!-- Nikare Side (Main, Side)-->
     <POI MapID="1303" xpos="352.912"  ypos="18.759"  zpos="8.824"    GUID="EkOZxvmqB0KwE78EyDW5vg==" type="HMP.W6_B2"        iconFile="Data/Raids/W6B2-1.png"   rotate-z="240" heightOffset="15.5" tip-name="Nikare"/>
@@ -493,7 +499,7 @@
     <POI MapID="1303" xpos="439.996"  ypos="32.0957" zpos="56.9919"  GUID="D/AyTyRFW0qne5GceyMafQ==" type="HMP.W6_B2"        iconFile="Data/Raids/kenut.png"    rotate-z="180" iconSize="2.45"     minimapVisibility="0" mapVisibility="0"/>
     <!-- ========== Qadim ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W6B3-Bound.trl" animSpeed="0" alpha="1" type="HMP.W6_B3.c1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W6B3-Bound.trl" animSpeed="0" alpha="1"                          type="HMP.W6_B3.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- Pyres (Resolution, Protection, Stability) -->
     <POI MapID="1303" xpos="-188.502" ypos="119.641" zpos="257.282"  GUID="r1GZU2Y9qUGzWscDIuiakA==" type="HMP.W6_B3.c2.sc1" iconFile="Data/General/Reso.png"/>
     <POI MapID="1303" xpos="-231.717" ypos="119.567" zpos="331.625"  GUID="MVp+U+9p+kW0f9OPDybNig==" type="HMP.W6_B3.c2.sc2" iconFile="Data/General/Prot.png"/>
@@ -529,12 +535,14 @@
           <MarkerCategory name="sc1"   DisplayName="In-Game"                        color="c2ab84" cull="CounterClockwise"                                                        rotate-x="90"  mapVisibility="0" minimapVisibility="0"/>
           <MarkerCategory name="sc2"   DisplayName="Minimap/Map"                    color="FFFFFF"                                                                                               mapDisplaySize="25" inGameVisibility="0"/>
         </MarkerCategory>
-        <MarkerCategory   name="c2"    DisplayName="Pillar Locations"   alpha="0.6" color="d1cd80"                               iconFile="Data/General/dot.png"  iconSize="0.5"  rotate-x="180" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
-        <MarkerCategory   name="c3"    DisplayName="Boundary"                                      fadeFar="350"  fadeNear="275"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start"/>
+        <MarkerCategory   name="c2"    DisplayName="Pillar Locations"   alpha="0.6" color="d1cd80"                               iconFile="Data/General/dot.png"  iconSize="0.5"  rotate-x="180" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+        <MarkerCategory   name="c3"    DisplayName="Boundary"                                      fadeFar="350"  fadeNear="275"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       </MarkerCategory>
-      <MarkerCategory     name="W7_B2" DisplayName="Cardinal Sabir"                                fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory     name="W7_B2" DisplayName="Cardinal Sabir">
+        <MarkerCategory   name="c1"    DisplayName="Boundary"                                      fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0"/>
+      </MarkerCategory>
       <MarkerCategory     name="W7_B3" DisplayName="Qadim the Peerless"                            fadeFar="5500" fadeNear="5000">
-        <MarkerCategory   name="c1"    DisplayName="Fire Placements"                color="d49937"                                                                iconSize="0.75" rotate-x="180" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="Disappears on Combat Start">
+        <MarkerCategory   name="c1"    DisplayName="Fire Placements"                color="d49937"                                                                iconSize="0.75" rotate-x="180" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
           <MarkerCategory name="sc1"   DisplayName="80% Fires"                                                                   iconFile="Data/General/dot1.png"/>
           <MarkerCategory name="sc2"   Displayname="60% Fires"                                                                   iconFile="Data/General/dot2.png"/>
         </MarkerCategory>
@@ -542,16 +550,17 @@
           <MarkerCategory name="sc1"   DisplayName="In-Game"                                                                                                      iconSize="1"                   mapVisibility="0" minimapVisibility="0"/>
           <MarkerCategory name="sc2"   Displayname="Minimap/Map"                    color="cc8227"                                                                                               mapDisplaySize="40" inGameVisibility="0"/>
         </MarkerCategory>
+        <MarkerCategory   name="c3"    DisplayName="Boundary"                                      fadeFar="750"  fadeNear="600"                                  trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       </MarkerCategory>
     </MarkerCategory>
   <POIs>
     <!-- ========== Cardinal Adina ========== -->
     <!-- Directions (In-Game) -->
-    <POI MapID="1323" xpos="378.580" ypos="7.254"  zpos="-7.834"  GUID="XjkNdote70a+BUidfQ7/Aw==" type="HMP.W7_B1.c1.sc1"     iconFile="Data/General/n.png"       rotate-z="180"/>
+    <POI MapID="1323" xpos="378.580" ypos="7.254"  zpos="-7.834"  GUID="XjkNdote70a+BUidfQ7/Aw==" type="HMP.W7_B1.c1.sc1"     iconFile="Data/General/n.png"   rotate-z="180"/>
     <POI MapID="1323" xpos="378.567" ypos="7.252"  zpos="-66.733" GUID="QvNEXKwrd0OBwpasrWvG5Q==" type="HMP.W7_B1.c1.sc1"     iconFile="Data/General/s.png"/>
     <!-- Directions (Minimap/Map) -->
-    <POI MapID="1323" xpos="379.080" ypos="7.254"  zpos="-7.834"  GUID="XjkNdote70a+BUidfQ7/Aw==" type="HMP.W7_B1.c1.sc2"     iconFile="Data/General/n.png" tip-name="North"/>
-    <POI MapID="1323" xpos="379.567" ypos="7.252"  zpos="-66.733" GUID="QvNEXKwrd0OBwpasrWvG5Q==" type="HMP.W7_B1.c1.sc2"     iconFile="Data/General/s.png" tip-name="South"/>
+    <POI MapID="1323" xpos="379.080" ypos="7.254"  zpos="-7.834"  GUID="XjkNdote70a+BUidfQ7/Aw==" type="HMP.W7_B1.c1.sc2"     iconFile="Data/General/n.png"   tip-name="North"/>
+    <POI MapID="1323" xpos="379.567" ypos="7.252"  zpos="-66.733" GUID="QvNEXKwrd0OBwpasrWvG5Q==" type="HMP.W7_B1.c1.sc2"     iconFile="Data/General/s.png"   tip-name="South"/>
     <!-- Pillars -->
     <POI MapID="1323" xpos="378.634" ypos="6.157"  zpos="-26.001" GUID="+qDcWauW20a8Q8KpfSXdDA==" type="HMP.W7_B1.c2"/>
     <POI MapID="1323" xpos="378.592" ypos="6.153"  zpos="-48.800" GUID="/ZrMwfAtSkWhLenh/nA5Uw==" type="HMP.W7_B1.c2"/>
@@ -562,7 +571,7 @@
     <Trail trailData="Data/Boundary/W7B1-Bound.trl" animSpeed="0" alpha="0.9"                     type="HMP.W7_B1.c3"     texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Cardinal Sabir ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W7B2-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.W7_B2"        texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W7B2-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.W7_B2.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Qadim the Peerless ========== -->
     <!-- Fire Placements -->
     <POI MapID="1323" xpos="13.225"  ypos="15.212" zpos="261.338" GUID="X5Uu+2XzIkeW25s5IobysA==" type="HMP.W7_B3.c1.sc1"                                     rotate-z="-100"/>
@@ -578,6 +587,8 @@
     <POI MapID="1323" xpos="41.461"  ypos="16.813" zpos="294.346" GUID="0OXp2ufTbU6/fEo+UcwOMA==" type="HMP.W7_B3.c2.sc2" iconFile="Data/General/1.png"       tip-name="1st Destroyed Pylon"/>
     <POI MapID="1323" xpos="8.192"   ypos="16.812" zpos="236.775" GUID="UPNrnI78QEKYECwurS+1KQ==" type="HMP.W7_B3.c2.sc2" iconFile="Data/General/2.png"       tip-name="2nd Destroyed Pylon"/>
     <POI MapID="1323" xpos="74.715"  ypos="16.813" zpos="236.775" GUID="PSR2ZpIrIUKHZQKqcJwZJQ==" type="HMP.W7_B3.c2.sc2" iconFile="Data/General/3.png"       tip-name="3rd Destroyed Pylon"/>
+    <!-- Boundary -->
+    <Trail trailData="Data/Boundary/W7B3-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.W7_B3.c3"     texture="Data/Boundary/RedLine.png"/>
   </POIs>
   
   

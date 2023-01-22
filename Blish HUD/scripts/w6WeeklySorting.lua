@@ -1,21 +1,6 @@
-function getDaily2UtcTimeRemainder(interval)
-  local delay = 64
-  local addTime = 27000 --7.5 hours
-  
-  local Year, Month, Day, Hour, Min, Sec = tonumber(os.date("!%Y")), tonumber(os.date("!%m")), tonumber(os.date("!%d")), tonumber(os.date("!%H")), tonumber(os.date("!%M")), tonumber(os.date("!%S"))
-  local utcTime   = os.time{year=Year, month=Month, day=Day, hour=Hour, min=Min, sec=Sec}
-  local totalDays = math.floor((utcTime - addTime + delay) / 86400)
-  local remainder = math.fmod(totalDays, interval)
-  return remainder
-end
-
 local function tick_weeklyW6Event(gameTime)
   --Time Variable
-  local remain = getDaily2UtcTimeRemainder(14)
-  
-  
-  Debug:Watch("GameTime in MS", gameTime.TotalGameTime.TotalMilliseconds)
-  
+  local remain = HMP.publicFunctions.getUtcTime(14, 27000)
   
   --If the current map the player is in is Lion's Arch Aerodome
   if(currentMap == 1155 and World:CategoryByType("HMP.raidT.c99.sc1"):IsVisible()) then
@@ -25,9 +10,9 @@ local function tick_weeklyW6Event(gameTime)
     }
     --Decide what shows based on week
     if(remain > 3 and remain < 11) then
-      HMP.weeklyW6Event.text:SetTexture("Data/MegaSingle.png")
+      HMP.weeklyW6Event.text:SetTexture("Data/Raids/w6-megapets.png")
     else
-      HMP.weeklyW6Event.text:SetTexture("Data/EctosSingle.png")
+      HMP.weeklyW6Event.text:SetTexture("Data/Raids/w6-ectoplasms.png")
     end
   end
   
@@ -49,19 +34,20 @@ local function tick_weeklyW6Event(gameTime)
     }
     --Decide what shows based on week
     if(remain > 3 and remain < 11) then
-      HMP.weeklyW6Event.megaText1:SetTexture("Data/MegaSingle.png")
-      HMP.weeklyW6Event.megaText2:SetTexture("Data/MegaSingle.png")
-      HMP.weeklyW6Event.megaArrow1:SetTexture("Data/991944-G.png")
-      HMP.weeklyW6Event.megaArrow2:SetTexture("Data/991944-G.png")
-      HMP.weeklyW6Event.megaArrow3:SetTexture("Data/991944-G.png")
+      HMP.weeklyW6Event.megaText1:SetTexture("Data/Raids/w6-megapets.png")
+      HMP.weeklyW6Event.megaText2:SetTexture("Data/Raids/w6-megapets.png")
+      HMP.weeklyW6Event.megaArrow1:SetTexture("Data/General/ArrowG.png")
+      HMP.weeklyW6Event.megaArrow2:SetTexture("Data/General/ArrowG.png")
+      HMP.weeklyW6Event.megaArrow3:SetTexture("Data/General/ArrowG.png")
     else
-      HMP.weeklyW6Event.ectoText1:SetTexture("Data/EctosSingle.png")
-      HMP.weeklyW6Event.ectoText2:SetTexture("Data/EctosSingle.png")
-      HMP.weeklyW6Event.ectoArrow1:SetTexture("Data/991944-G.png")
-      HMP.weeklyW6Event.ectoArrow2:SetTexture("Data/991944-G.png")
-      HMP.weeklyW6Event.ectoArrow3:SetTexture("Data/991944-G.png")
+      HMP.weeklyW6Event.ectoText1:SetTexture("Data/Raids/w6-ectoplasms.png")
+      HMP.weeklyW6Event.ectoText2:SetTexture("Data/Raids/w6-ectoplasms.png")
+      HMP.weeklyW6Event.ectoArrow1:SetTexture("Data/General/ArrowG.png")
+      HMP.weeklyW6Event.ectoArrow2:SetTexture("Data/General/ArrowG.png")
+      HMP.weeklyW6Event.ectoArrow3:SetTexture("Data/General/ArrowG.png")
     end
   end
 end
 
 Event:OnTick(tick_weeklyW6Event)
+Debug:Print("HMP: Sorting and Appraisal Script Loaded.")
