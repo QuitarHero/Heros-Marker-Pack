@@ -988,7 +988,7 @@
     <!-- ==================== SCRIPTS ==================== -->
     <!-- ===== Revenant Hammer Helper ===== -->
     <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="n5G47G5qp0e2f1U4sGUn1A=="  type="HMP.strikeB10_c99.revHammer.sc1" iconSize="7.3"/>
-    <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="hfVys/oWMkKoUtb/032zWw=="  type="HMP.strikeB10_c99.revHammer.sc2" iconSize="10.24"/>
+    <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="hfVys/oWMkKoUtb/032zWw=="  type="HMP.strikeB10_c99.revHammer.sc2" iconSize="9.3"/>
   </POIs>
   
 <!-- ========================================= OLD LION'S COURT ==================================================================================================================================================================== -->
