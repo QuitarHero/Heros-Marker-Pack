@@ -426,7 +426,7 @@
   <POIs>
     <!-- ==================== GENERAL ==================== -->
     <!-- Max Melee and it's Flanking Lines -->
-    <Trail trailData="Data/Strikes/B10-atkRange_max.trl"           animSpeed="0" alpha="0.75"      type="HMP.strikeB10_c1.sc1.asc1" texture="Data/Boundary/RedLine2.png"/>
+    <Trail trailData="Data/Strikes/B10-atkRange_max.trl"           animSpeed="0" alpha="0.55"      type="HMP.strikeB10_c1.sc1.asc1" texture="Data/Boundary/RedLine2.png"/>
     <POI MapID="1437" xpos="16.493" ypos="390.173" zpos="-553.888" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.45"/>
     <POI MapID="1437" xpos="18.579" ypos="390.173" zpos="-551.802" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.5"/>
     <POI MapID="1437" xpos="20.700" ypos="390.173" zpos="-549.681" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="db1818" iconSize="1.5"/>
@@ -438,7 +438,7 @@
     <POI MapID="1437" xpos="22.771" ypos="390.173" zpos="-547.509" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
     <POI MapID="1437" xpos="24.857" ypos="390.173" zpos="-545.423" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.45"/>
     <!-- Max Edge -->
-    <Trail trailData="Data/Strikes/B10-edgeRange.trl"              animSpeed="0" alpha="0.75"      type="HMP.strikeB10_c1.sc2"      texture="Data/Boundary/RedLine2.png"/>
+    <Trail trailData="Data/Strikes/B10-edgeRange.trl"              animSpeed="0" alpha="0.55"      type="HMP.strikeB10_c1.sc2"      texture="Data/Boundary/RedLine2.png"/>
     <!-- South -->
     <POI MapID="1437" xpos="15.213" ypos="391.192" zpos="-555.102" GUID="HMP=STRIKEB10=C1=SC3"     type="HMP.strikeB10_c1.sc3"/>
     <!-- Slaying -->
