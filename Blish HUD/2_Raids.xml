@@ -77,6 +77,7 @@
     <MarkerCategory       name="W1_B4" DisplayName="Sabetha">
       <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c2"    DisplayName="Directions"          color="ffedb8" fadeFar="2750" fadeNear="2250"                                                 rotate-x="90"  mapDisplaySize="30"/>
+      <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -149,6 +150,8 @@
     <POI MapID="1062" xpos="-89.847"  ypos="62.884" zpos="82.927"   GUID="f6MqlZMqbk2wBTmty3lt1g==" type="HMP.W1_B4.c2"                                iconFile="Data/General/e.png"                              tip-name="East"  inGameVisibility="0"/>
     <POI MapID="1062" xpos="-127.366" ypos="62.686" zpos="126.039"  GUID="A9Fo/Z7wLE+m1uR5pxlHcw==" type="HMP.W1_B4.c2"                                iconFile="Data/General/n.png"                              tip-name="North" inGameVisibility="0"/>
     <POI MapID="1062" xpos="-171.633" ypos="62.066" zpos="88.843"   GUID="X2SbGwYOdUqy5ZTY69jvGA==" type="HMP.W1_B4.c2"                                iconFile="Data/General/w.png"                              tip-name="West"  inGameVisibility="0"/>
+    <!-- Max Melee -->
+    <Trail trailData="Data/Raids/sab_maxMelee.trl"  animSpeed="0" alpha="0.5"                       type="HMP.W1_B4.c3"                                texture="Data/Boundary/RedLine.png"/>
   </POIs>
   
   
