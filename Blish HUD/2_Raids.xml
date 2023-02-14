@@ -451,7 +451,7 @@
     <POI MapID="1264" xpos="384.933"  ypos="97.308"  zpos="20.685"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="HMP.W5_B3.c2"/>
     <!-- ========== Dhuum  ========== -->
     <!-- Death AoE  -->
-    <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="0.1" alpha="1"                           type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
+    <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="0" alpha="1"                           type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
   </POIs>
   
   
