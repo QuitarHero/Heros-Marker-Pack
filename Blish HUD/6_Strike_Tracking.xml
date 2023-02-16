@@ -3,7 +3,7 @@
     <MarkerCategory name="strikeT" DisplayName="Strike Tracking" triggerRange="0" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c1"    DisplayName="Dailies"  tip-description="Only works if Lua Scripts are enabled">
         <MarkerCategory name="sc1" DisplayName="Today">
-          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
           <MarkerCategory name="yes" DisplayName="Complete"/>
         </MarkerCategory>
         <MarkerCategory name="sc2" DisplayName="Tomorrow" tip-name="At Reset"/>
