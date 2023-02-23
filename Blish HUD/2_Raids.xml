@@ -126,7 +126,7 @@
     <POI MapID="1062" xpos="-106.714" ypos="61.115" zpos="-167.071" GUID="q88mHFFu/EGiG/QA92B6LA==" type="HMP.W1_B2.c3" tip-name="Graveyard"/>
     <!-- ========== Gorseval ========== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W1B2-Bound.trl"   animSpeed="0" alpha="0.75"                    type="HMP.W1_B3.c1"                                texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W1B2-Bound.trl"   animSpeed="0" alpha="0.9"                    type="HMP.W1_B3.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Spirits (in-game) -->
     <POI MapID="1062" xpos="21.407"   ypos="48.572" zpos="-92.894"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="HMP.W1_B3.c2.sc1.s1"                                                                                    rotate-z="220"/>
     <POI MapID="1062" xpos="64.096"   ypos="48.908" zpos="-93.094"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="HMP.W1_B3.c2.sc1.s2"                                                                                    rotate-z="135"/>
