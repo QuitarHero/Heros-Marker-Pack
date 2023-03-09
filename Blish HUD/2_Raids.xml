@@ -77,7 +77,7 @@
     <MarkerCategory       name="W1_B4" DisplayName="Sabetha">
       <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c2"    DisplayName="Directions"          color="ffedb8" fadeFar="2750" fadeNear="2250"                                                 rotate-x="90"  mapDisplaySize="30"/>
-      <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"/>
+      <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"                                  trailScale="1.5"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -127,6 +127,7 @@
     <!-- ========== Gorseval ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W1B2-Bound.trl"   animSpeed="0" alpha="0.9"                    type="HMP.W1_B3.c1"                                texture="Data/Boundary/RedLine.png"/>
+    
     <!-- Spirits (in-game) -->
     <POI MapID="1062" xpos="21.407"   ypos="48.572" zpos="-92.894"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="HMP.W1_B3.c2.sc1.s1"                                                                                    rotate-z="220"/>
     <POI MapID="1062" xpos="64.096"   ypos="48.908" zpos="-93.094"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="HMP.W1_B3.c2.sc1.s2"                                                                                    rotate-z="135"/>
@@ -151,7 +152,7 @@
     <POI MapID="1062" xpos="-127.366" ypos="62.686" zpos="126.039"  GUID="A9Fo/Z7wLE+m1uR5pxlHcw==" type="HMP.W1_B4.c2"                                iconFile="Data/General/n.png"                              tip-name="North" inGameVisibility="0"/>
     <POI MapID="1062" xpos="-171.633" ypos="62.066" zpos="88.843"   GUID="X2SbGwYOdUqy5ZTY69jvGA==" type="HMP.W1_B4.c2"                                iconFile="Data/General/w.png"                              tip-name="West"  inGameVisibility="0"/>
     <!-- Max Melee -->
-    <Trail trailData="Data/Raids/sab_maxMelee.trl"  animSpeed="0" alpha="0.5"                       type="HMP.W1_B4.c3"                                texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/sab_maxMelee.trl"  animSpeed="0" alpha="0.75"                      type="HMP.W1_B4.c3"                                texture="Data/Boundary/RedLine.png"/>
   </POIs>
   
   
@@ -450,7 +451,6 @@
     <POI MapID="1264" xpos="364.521"  ypos="97.308"  zpos="24.811"  GUID="bVntJ42H6keMS4NQ4QrYDQ==" type="HMP.W5_B3.c2"/>
     <POI MapID="1264" xpos="384.933"  ypos="97.308"  zpos="20.685"  GUID="jDkcSZokJUSzaTgg/4Bk9g==" type="HMP.W5_B3.c2"/>
     <!-- ========== Dhuum  ========== -->
-    <!-- Death AoE  -->
     <Trail trailData="Data/Raids/Dhuum-AoE.trl" animSpeed="0" alpha="1"                           type="HMP.W5_B4.c1" texture="Data/General/Death.png"/>
   </POIs>
   
@@ -473,9 +473,24 @@
         <MarkerCategory name="sc3"   DisplayName="Stability"/>
       </MarkerCategory>
       <MarkerCategory   name="c3"    DisplayName="Lamp"                alpha="0.75"            fadeFar="3000" fadeNear="2000"                                               rotate-x="180" mapDisplaySize="35">
-        <MarkerCategory name="L1"    DisplayName="1st Path"            color="e0ca4c"                                         iconFile="Data/General/1.png"/>
-        <MarkerCategory name="L2"    DisplayName="2nd Path"            color="b36237"                                         iconFile="Data/General/2.png"/>
-        <MarkerCategory name="L3"    DisplayName="3rd Path"            color="ab2d11"                                         iconFile="Data/General/3.png"/>
+        <MarkerCategory   name="L1"   DisplayName="1st Path"           color="e0ca4c"                                         iconFile="Data/General/1.png">
+          <MarkerCategory name="asc1" DisplayName="Floor Markers"/>
+          <MarkerCategory name="asc2" DisplayName="Minimap Marker"/>
+        </MarkerCategory>
+        <MarkerCategory   name="L2"   DisplayName="2nd Path"           color="b36237"                                         iconFile="Data/General/2.png">
+          <MarkerCategory name="asc1" DisplayName="Floor Markers"/>
+          <MarkerCategory name="asc2" DisplayName="Minimap Marker"/>
+        </MarkerCategory>
+        <MarkerCategory   name="L3"   DisplayName="3rd Path"           color="ab2d11"                                         iconFile="Data/General/3.png">
+          <MarkerCategory name="asc1" DisplayName="Floor Markers"/>
+          <MarkerCategory name="asc2" DisplayName="Minimap Marker"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory   name="c4"    DisplayName="Max Melee"           cull="CounterClockwise" fadeFar="250"  fadeNear="175"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0">
+        <MarkerCategory name="sc1"   DisplayName="Phase 1"/>
+        <MarkerCategory name="sc2"   DisplayName="Phase 2"/>
+        <MarkerCategory name="sc3"   DisplayName="Phase 3.1"/>
+        <MarkerCategory name="sc4"   DisplayName="Phase 3.2"/>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
@@ -508,26 +523,34 @@
     <POI MapID="1303" xpos="-231.717" ypos="119.567" zpos="331.625"  GUID="MVp+U+9p+kW0f9OPDybNig==" type="HMP.W6_B3.c2.sc2" iconFile="Data/General/Prot.png"/>
     <POI MapID="1303" xpos="-145.4"   ypos="119.605" zpos="331.606"  GUID="aytz76QBXEmYh0D1q7mUnQ==" type="HMP.W6_B3.c2.sc3" iconFile="Data/General/Stab.png"/>
     <!-- Lamp Path 1 -->
-    <POI MapID="1303" xpos="-225.263" ypos="0.512"   zpos="364.238"  GUID="eGF+lHzvDE+O02xI/GRbdw==" type="HMP.W6_B3.c3.L1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-189.957" ypos="0.510"   zpos="363.048"  GUID="hPRoLFdtk0e0dlu8NvsUew==" type="HMP.W6_B3.c3.L1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-163.740" ypos="0.510"   zpos="344.665"  GUID="Q9clWPiLUkqviwzndFu8vw==" type="HMP.W6_B3.c3.L1"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-155.314" ypos="0.511"   zpos="331.048"  GUID="km5+mDoqUEGOZd8E2Cs84A==" type="HMP.W6_B3.c3.L1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-132.067" ypos="0.510"   zpos="309.717"  GUID="pCU6bumoDUWIwYF02DK58g==" type="HMP.W6_B3.c3.L1"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-131.463" ypos="0.513"   zpos="274.439"  GUID="H/AciZzZbUuO5vteLpwFmg==" type="HMP.W6_B3.c3.L1"                                                    tip-name="Lamp #1 Last Square"/>
+    <POI MapID="1303" xpos="-225.263" ypos="0.512"   zpos="364.238"  GUID="eGF+lHzvDE+O02xI/GRbdw==" type="HMP.W6_B3.c3.L1.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-189.957" ypos="0.510"   zpos="363.048"  GUID="hPRoLFdtk0e0dlu8NvsUew==" type="HMP.W6_B3.c3.L1.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-163.740" ypos="0.510"   zpos="344.665"  GUID="Q9clWPiLUkqviwzndFu8vw==" type="HMP.W6_B3.c3.L1.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-155.314" ypos="0.511"   zpos="331.048"  GUID="km5+mDoqUEGOZd8E2Cs84A==" type="HMP.W6_B3.c3.L1.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-132.067" ypos="0.510"   zpos="309.717"  GUID="pCU6bumoDUWIwYF02DK58g==" type="HMP.W6_B3.c3.L1.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-131.463" ypos="0.513"   zpos="274.439"  GUID="H/AciZzZbUuO5vteLpwFmg==" type="HMP.W6_B3.c3.L1.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-131.463" ypos="0.513"   zpos="274.439"  GUID="H/AciZzZbUuO5vteLpwFmg==" type="HMP.W6_B3.c3.L1.asc2"                                                    inGameVisibility="0" tip-name="Lamp #1 Last Square"/>
     <!-- Lamp Path 2 -->
-    <POI MapID="1303" xpos="-239.403" ypos="0.515"   zpos="344.335"  GUID="rreXhNvsNkmrJMmhxG5ngw==" type="HMP.W6_B3.c3.L2"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-239.807" ypos="0.515"   zpos="309.902"  GUID="Vl1qh65mO0i1maSPBqMHdQ==" type="HMP.W6_B3.c3.L2"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-224.641" ypos="0.513"   zpos="289.454"  GUID="HfqqSHqG3UGu+FqWfAq8Rw==" type="HMP.W6_B3.c3.L2"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-189.306" ypos="0.513"   zpos="288.997"  GUID="orx7QXAWmEyoygnI2rl0fg==" type="HMP.W6_B3.c3.L2"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-170.044" ypos="0.515"   zpos="273.470"  GUID="JaFVN+uF1E2qs51/DkCqqA==" type="HMP.W6_B3.c3.L2"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-154.663" ypos="0.515"   zpos="256.305"  GUID="zsWT243gaU6wyE1Jlwv1ng==" type="HMP.W6_B3.c3.L2"                                     rotate-z="90"  tip-name="Lamp #2 Last Square"/>
+    <POI MapID="1303" xpos="-239.403" ypos="0.515"   zpos="344.335"  GUID="rreXhNvsNkmrJMmhxG5ngw==" type="HMP.W6_B3.c3.L2.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-239.807" ypos="0.515"   zpos="309.902"  GUID="Vl1qh65mO0i1maSPBqMHdQ==" type="HMP.W6_B3.c3.L2.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-224.641" ypos="0.513"   zpos="289.454"  GUID="HfqqSHqG3UGu+FqWfAq8Rw==" type="HMP.W6_B3.c3.L2.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-189.306" ypos="0.513"   zpos="288.997"  GUID="orx7QXAWmEyoygnI2rl0fg==" type="HMP.W6_B3.c3.L2.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-170.044" ypos="0.515"   zpos="273.470"  GUID="JaFVN+uF1E2qs51/DkCqqA==" type="HMP.W6_B3.c3.L2.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-154.663" ypos="0.515"   zpos="256.305"  GUID="zsWT243gaU6wyE1Jlwv1ng==" type="HMP.W6_B3.c3.L2.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-154.663" ypos="0.515"   zpos="256.305"  GUID="zsWT243gaU6wyE1Jlwv1ng==" type="HMP.W6_B3.c3.L2.asc2"                                     rotate-z="90"  inGameVisibility="0" tip-name="Lamp #2 Last Square"/>
     <!-- Lamp Path 3 -->
-    <POI MapID="1303" xpos="-225.488" ypos="0.512"   zpos="352.110"  GUID="T7HJCdJqyU2xROwc5MjeJw==" type="HMP.W6_B3.c3.L3"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-211.932" ypos="0.510"   zpos="344.213"  GUID="nZwO5P2tl0i+nxAUM747cg==" type="HMP.W6_B3.c3.L3"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-212.744" ypos="0.510"   zpos="309.693"  GUID="iMGYc9JcwU2Q2AD8b2g23w==" type="HMP.W6_B3.c3.L3"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-212.568" ypos="0.513"   zpos="274.590"  GUID="QxfJA4WZnEq8xXN3tjLMaA==" type="HMP.W6_B3.c3.L3"                                                    mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-190.187" ypos="0.512"   zpos="248.778"  GUID="Jkcei9uc70qeI/EPrK6n0Q==" type="HMP.W6_B3.c3.L3"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
-    <POI MapID="1303" xpos="-155.008" ypos="0.515"   zpos="248.878"  GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="HMP.W6_B3.c3.L3"                                     rotate-z="90"  tip-name="Lamp #3 Last Square"/>
+    <POI MapID="1303" xpos="-225.488" ypos="0.512"   zpos="352.110"  GUID="T7HJCdJqyU2xROwc5MjeJw==" type="HMP.W6_B3.c3.L3.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-211.932" ypos="0.510"   zpos="344.213"  GUID="nZwO5P2tl0i+nxAUM747cg==" type="HMP.W6_B3.c3.L3.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-212.744" ypos="0.510"   zpos="309.693"  GUID="iMGYc9JcwU2Q2AD8b2g23w==" type="HMP.W6_B3.c3.L3.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-212.568" ypos="0.513"   zpos="274.590"  GUID="QxfJA4WZnEq8xXN3tjLMaA==" type="HMP.W6_B3.c3.L3.asc1"                                                    mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-190.187" ypos="0.512"   zpos="248.778"  GUID="Jkcei9uc70qeI/EPrK6n0Q==" type="HMP.W6_B3.c3.L3.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-155.008" ypos="0.515"   zpos="248.878"  GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="HMP.W6_B3.c3.L3.asc1"                                     rotate-z="90"  mapVisibility="0" minimapVisibility="0"/>
+    <POI MapID="1303" xpos="-155.008" ypos="0.515"   zpos="248.878"  GUID="zQh9zQtIB0Oej/AlbgdAYA==" type="HMP.W6_B3.c3.L3.asc2"                                     rotate-z="90"  inGameVisibility="0" tip-name="Lamp #3 Last Square"/>
+    <!-- Qadim Max Melee -->
+    <Trail trailData="Data/Raids/w6b3_maxMelee1.trl"  alpha="0.65" animSpeed="0"                      type="HMP.W6_B3.c4.sc1"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/w6b3_maxMelee2.trl"  alpha="0.65" animSpeed="0"                      type="HMP.W6_B3.c4.sc2"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/w6b3_maxMelee3.trl"  alpha="0.65" animSpeed="0"                      type="HMP.W6_B3.c4.sc3"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/w6b3_maxMelee4.trl"  alpha="0.65" animSpeed="0"                      type="HMP.W6_B3.c4.sc4"    texture="Data/Boundary/RedLine.png"/>
   </POIs>
   
   
