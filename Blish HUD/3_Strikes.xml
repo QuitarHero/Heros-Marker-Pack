@@ -1,23 +1,35 @@
 <OverlayData>
 <!-- ========================================= ICEBROOD CONSTRUCT  ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1"     color="27c1e8"          fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot1.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2"     color="27c1e8"          fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot2.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950"  fadeNear="800"  iconFile="Data/Strikes/Slaying/IC.png" iconSize="2"   rotate="95,0,32" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1"       alpha="0.6"           fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot1.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2"       alpha="0.6"           fadeFar="2500" fadeNear="2250" iconFile="Data/General/dot2.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"     cull="CounterClockwise"                                iconFile="Data/Strikes/Slaying/IC.png"                                 mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="sc1"    DisplayName="Cave Entrance" alpha="0.9"           fadeFar="3000" fadeNear="2750"                                        iconSize="2.5" rotate="80,0,255"/>
+      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                          fadeFar="950"  fadeNear="800"                                         iconSize="2"   rotate="95,0,32"/>
+    </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Phase 1 ========== -->
-    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1" rotate-z="30"/>
-    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1" rotate-z="130"/>
-    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1" rotate-z="215"/>
-    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1" rotate-z="-50"/>
+    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="30"/>
+    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="130"/>
+    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="215"/>
+    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="-50"/>
+    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
     <!-- ========== Phase 2 ========== -->
-    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c2" rotate-z="40"/>
-    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c2" rotate-z="135"/>
-    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c2" rotate-z="215"/>
-    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c2" rotate-z="-50"/>
+    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="40"/>
+    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="135"/>
+    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="215"/>
+    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="-50"/>
+    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Data/General/dot-border.png"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1332" xpos="-796.919" ypos="160.790" zpos="-282.519" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3"/>
+    <POI MapID="1332" xpos="-781.270" ypos="85.4864" zpos="-615.795" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3.sc1"/>
+    <POI MapID="1332" xpos="-796.919" ypos="160.790" zpos="-282.519" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3.sc2"/>
   </POIs>
   
 <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
@@ -77,6 +89,10 @@
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB5_c1" DisplayName="Directions" color="1fc4ed" cull="CounterClockwise" fadeFar="2500" fadeNear="2250"                                          iconSize="1"   rotate-x="90"/>
     <MarkerCategory name="StrB5_c2" DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="1250" fadeNear="1100"  iconFile="Data/Strikes/Slaying/WoJ.png" iconSize="1.5" rotate="140,0,85" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB5_c3" DisplayName="Max Melee"  defaultToggle="0"                      fadeFar="300"  fadeNear="250"                                           trailScale="1.5">
+      <MarkerCategory name="sc1"    DisplayName="Phase 1"/>
+      <MarkerCategory name="sc2"    DisplayName="Phases 2/3"/>
+    </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Directions ========== -->
@@ -86,22 +102,27 @@
     <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777"  GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1" iconFile="Data/General/w.png" rotate-z="-90" tip-name="West"/>
     <!-- ========== Slaying ========== -->
     <POI MapID="1359" xpos="10.667"  ypos="68.310" zpos="-42.808" GUID="HMP=STR=B5=C2"            type="HMP.StrB5_c2"/>
+    <!-- ========== Max Melee ========== -->
+    <Trail trailData="Data/Strikes/B5-atkRange_max_1.trl" alpha="0.35" animSpeed="0"              type="HMP.StrB5_c3.sc1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Strikes/B5-atkRange_max_2.trl" alpha="0.6"  animSpeed="0"              type="HMP.StrB5_c3.sc2" texture="Data/Boundary/RedLine.png"/>
   </POIs>
   
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="800"  fadeNear="700"                                         trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75" color="27b0ae"    fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
-    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconFile="Data/General/dot.png"        iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75"                   fadeFar="5000" fadeNear="4750"                                        iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
+    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750"                                        iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconFile="Data/Strikes/Slaying/CW.png" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0"/>
  </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
     <Trail trailData="Data/Boundary/StrB6-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.StrB6_c1" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Boss Spawn ========== -->
-    <POI MapID="1374" xpos="34.900"  ypos="17.272" zpos="-89.992"  GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2"/>
+    <POI MapID="1374" xpos="34.900"  ypos="17.272" zpos="-89.992"  GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2" color="27b0ae" iconFile="Data/General/dot.png"/>
+    <POI MapID="1374" xpos="34.900"  ypos="17.272" zpos="-89.992"  GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2" alpha="0.5"    iconFile="Data/General/dot-border.png"/>
     <!-- ========== Champ Spawn ========== -->
-    <POI MapID="1374" xpos="29.084"  ypos="18.002" zpos="-51.671"  GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3"/>
+    <POI MapID="1374" xpos="29.084"  ypos="18.002" zpos="-51.671"  GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3"                iconFile="Data/General/dot.png"/>
+    <POI MapID="1374" xpos="29.084"  ypos="18.002" zpos="-51.671"  GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3" alpha="0.8"    iconFile="Data/General/dot-border.png"/>
     <!-- ========== Slaying ========== -->
     <POI MapID="1374" xpos="128.446" ypos="20.980" zpos="-142.672" GUID="HMP=STR=B6=C4"            type="HMP.StrB6_c4"/>
   </POIs>
@@ -311,6 +332,7 @@
       <MarkerCategory   name="sc1"  DisplayName="Max Melee">
         <MarkerCategory name="asc1" DisplayName="Boundary"/>
         <MarkerCategory name="asc2" DisplayName="Flank Lines" alpha="0.65"            fadeFar="800" fadeNear="775"   iconFile="Data/Strikes/StrB10-flank.png"            rotate="180,0,135"/>
+        <MarkerCategory name="asc3" DisplayName="300r Range"   alpha="0.55"                                                                                  trailScale="0.75"/>
       </MarkerCategory>
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Data/General/s.png"          iconSize="1" rotate="90,0,0"/>
@@ -318,7 +340,7 @@
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks"                                                          rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
-      <MarkerCategory   name="prim2"  DisplayName="Primordus's Lava Slam"           color="de8912" defaultToggle="0" iconSize="15.25" tip-description="This circle is just slightly&#xA;larger than the one in-game."/>
+      <MarkerCategory   name="prim2"  DisplayName="Primordus's Lava Slam"           color="de8912" defaultToggle="0" iconSize="15.27" tip-description="This circle is just slightly&#xA;larger than the one in-game."/>
       <MarkerCategory   name="kralk1" DisplayName="Kralkatorrik's Branded Beams"                   defaultToggle="0">
         <MarkerCategory name="sb1"    DisplayName="Side Beam Indicators"            color="de8912"                   iconSize="37.75"/>
         <MarkerCategory name="sb2"    DisplayName="Side Beam AoE's"                 alpha="1"      defaultToggle="0" iconSize="9.15"/>
@@ -437,6 +459,8 @@
     <POI MapID="1437" xpos="20.650" ypos="390.173" zpos="-549.630" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
     <POI MapID="1437" xpos="22.771" ypos="390.173" zpos="-547.509" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
     <POI MapID="1437" xpos="24.857" ypos="390.173" zpos="-545.423" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.45"/>
+    <!-- 300r Range -->
+    <Trail trailData="Data/Strikes/300r_max.trl"                   animSpeed="0"                   type="HMP.strikeB10_c1.sc1.asc3" texture="Data/Boundary/RedLine2.png"/>
     <!-- Max Edge -->
     <Trail trailData="Data/Strikes/B10-edgeRange.trl"              animSpeed="0" alpha="0.55"      type="HMP.strikeB10_c1.sc2"      texture="Data/Boundary/RedLine2.png"/>
     <!-- South -->

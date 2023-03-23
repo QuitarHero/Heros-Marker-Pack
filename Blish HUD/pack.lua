@@ -43,6 +43,17 @@ else
     end
   end
 end
+--Icebrood Saga Strike Scripts
+if(currentMap == hmpMaps.ibsLobby) then
+  Pack:Require("scripts/ibsSchedule.lua")
+else
+  for _,v in ipairs(hmpMaps.ibsStrikes) do
+    if(currentMap == v) then
+      Pack:Require("scripts/ibsSchedule.lua")
+      break
+    end
+  end
+end
 --For use with the script-filter attribute
 function combatFade(marker) return Mumble.PlayerCharacter.IsInCombat end
 --This is for annoying markers that need to disappear when they should

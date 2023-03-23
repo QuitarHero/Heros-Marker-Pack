@@ -127,7 +127,6 @@
     <!-- ========== Gorseval ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W1B2-Bound.trl"   animSpeed="0" alpha="0.9"                    type="HMP.W1_B3.c1"                                texture="Data/Boundary/RedLine.png"/>
-    
     <!-- Spirits (in-game) -->
     <POI MapID="1062" xpos="21.407"   ypos="48.572" zpos="-92.894"  GUID="oEXylxHkdkWsf+eMfVVQIw==" type="HMP.W1_B3.c2.sc1.s1"                                                                                    rotate-z="220"/>
     <POI MapID="1062" xpos="64.096"   ypos="48.908" zpos="-93.094"  GUID="hGFPtRl7OE6JGHcwC8F18Q==" type="HMP.W1_B3.c2.sc1.s2"                                                                                    rotate-z="135"/>
@@ -464,7 +463,7 @@
         <MarkerCategory name="sc2"   DisplayName="Minimap/Map"         defaultToggle="0"                                                                                                   mapDisplaySize="25" inGameVisibility="0"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="W6_B2" DisplayName="Twin Largos"         cull="CounterClockwise" fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  mapDisplaySize="20" bounce-duration="115" bounce-height="-31" autoTrigger="1" triggerRange="43"/>
+    <MarkerCategory     name="W6_B2" DisplayName="Twin Largos"         cull="CounterClockwise" fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  mapDisplaySize="20" bounce-duration="112" bounce-height="-31" autoTrigger="1" triggerRange="43"/>
     <MarkerCategory     name="W6_B3" DisplayName="Qadim">
       <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="600"  fadeNear="450"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c2"    DisplayName="Pyres"                                       fadeFar="4000" fadeNear="3750"                               iconSize="0.75"                mapVisibility="0" minimapVisibility="0">
@@ -499,8 +498,8 @@
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W6B1-Bound.trl"  animSpeed="0" alpha="1"                         type="HMP.W6_B1.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- In-Game Markers -->
-    <POI MapID="1303" xpos="-96.686"  ypos="50.914"  zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="HMP.W6_B1.c2.sc1" iconFile="Data/Raids/GS.png"       rotate-z="50"/>
-    <POI MapID="1303" xpos="-95.111"  ypos="50.914"  zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="HMP.W6_B1.c2.sc1" iconFile="Data/Raids/Shield.png"   rotate-z="140"/>
+    <POI MapID="1303" xpos="-96.686"  ypos="50.914" zpos="-314.767" GUID="dEwIb7aW6UiY6ai/12wYOg==" type="HMP.W6_B1.c2.sc1" iconFile="Data/Raids/GS.png"       rotate-z="50"/>
+    <POI MapID="1303" xpos="-95.111"  ypos="50.914" zpos="-343.214" GUID="9uBOUgNzJUG5HC8e+jq9uw==" type="HMP.W6_B1.c2.sc1" iconFile="Data/Raids/Shield.png"   rotate-z="140"/>
     <!-- Minimap/Map Markers -->
     <POI MapID="1303" xpos="-112.686" ypos="50.914" zpos="-281.767"  GUID="mNXeDVUuAkW9oBVEoUD+og==" type="HMP.W6_B1.c2.sc2" iconFile="Data/Raids/GS.png"                                          tip-name="Swords"/>
     <POI MapID="1303" xpos="-110.686" ypos="50.914" zpos="-375.214"  GUID="XDN1jfzRjES79mlybv0vrg==" type="HMP.W6_B1.c2.sc2" iconFile="Data/Raids/Shield.png"                                      tip-name="Shields"/>

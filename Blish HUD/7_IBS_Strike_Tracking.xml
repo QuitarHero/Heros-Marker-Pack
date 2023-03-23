@@ -1,0 +1,223 @@
+<OverlayData>
+  <MarkerCategory name="HMP"       DisplayName="Hero's Pack">
+    <MarkerCategory name="ibsT"    DisplayName="IBS Strike Tracking" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="c1"    DisplayName="Dailies" tip-description="Only works if Lua Scripts are enabled">
+        <MarkerCategory name="sc1" DisplayName="Today">
+          <MarkerCategory name="no"  DisplayName="Incomplete"  script-filter="combatFade"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory   name="sc2" DisplayName="Tomorrow"/>
+      </MarkerCategory>
+      <MarkerCategory name="c8" DisplayName="Daily Clears">
+        <MarkerCategory name="sc1" DisplayName="Icebrood Construct" tip-description="Completion is assumed when&#xA;you enter the combat area.">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="Kodan Brothers">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="Fraenir of Jormag">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc4" DisplayName="Boneskinner">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc5" DisplayName="Whisper of Jormag">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc6" DisplayName="Cold War">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc7" DisplayName="Forging Steel">
+          <MarkerCategory name="no"  DisplayName="Incomplete"/>
+          <MarkerCategory name="yes" DisplayName="Complete"/>
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- =============== DAILY STUFF =============== -->
+    <!-- Titles -->
+    <POI MapID="1370" xpos="-86.72133" ypos="4.84632"  zpos="29.82771" GUID="b+kZ9capskqc0slwxLmNgg==" type="HMP.ibsT.c1.sc1"     iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="115,0,45"                    cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.97133" ypos="4.84632"  zpos="28.57771" GUID="nP+PHzi8oUuLA5WVPPLP3A==" type="HMP.ibsT.c1.sc2"     iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="115,0,45"                    cull="CounterClockwise"/>
+    <!-- Current Daily -->
+    <POI MapID="1370" xpos="-87.10883" ypos="-1.98367" zpos="30.17521" GUID="x1TeXAbSVE29HYpZjXraSQ==" type="HMP.ibsT.c1.sc1.no"  iconFile="Data/General/empty.png"  iconSize="0.55" rotate="120,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.10883" ypos="4.01633"  zpos="30.17521" GUID="6E6V6N43DUOsptOjhhN8/A==" type="HMP.ibsT.c1.sc1.no"  iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="120,0,45" color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.10883" ypos="-1.98367" zpos="30.17521" GUID="sE9Ta/4ooE2FtbpZZ7OqOA==" type="HMP.ibsT.c1.sc1.yes" iconFile="Data/General/empty.png"  iconSize="0.55" rotate="120,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.10883" ypos="4.01633"  zpos="30.17521" GUID="uxIFdvv5MkaaDSb3o8YI5A==" type="HMP.ibsT.c1.sc1.yes" iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="120,0,45" color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Next Daily -->
+    <POI MapID="1370" xpos="-88.40383" ypos="-1.98367" zpos="28.89021" GUID="zdVrClzRj0ew1nQ2kN+mRQ==" type="HMP.ibsT.c1.sc2"     iconFile="Data/General/empty.png"  iconSize="0.55" rotate="120,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-88.40383" ypos="4.01633"  zpos="28.89021" GUID="Zp3extUiQU+zegckLN5Nfg==" type="HMP.ibsT.c1.sc2"     iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="120,0,45" color="2f4e8f"     cull="CounterClockwise"/>
+    
+    <!-- =============== DAILY TRACKING =============== -->
+    <!-- ===== Category Reset Markers ===== -->
+    <!-- Eye of the North -->
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1370" xpos="-87.051"  ypos="6.146"   zpos="28.72271" GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    <!-- Icebrood Construct -->
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1332" xpos="-780.441" ypos="159.696" zpos="-247.786" GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c1" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    <!-- Kodan Brothers -->
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1346" xpos="14.656"   ypos="179.678" zpos="12.597"   GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c1" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    <!-- Fraenir of Jormag -->
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1341" xpos="31.249"   ypos="179.758" zpos="0.657"    GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c1" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    <!-- Boneskinner -->
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1339" xpos="16.065"   ypos="179.605" zpos="14.032"   GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c1" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    <!-- Whisper of Jormag -->
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1359" xpos="5.108"    ypos="54.228"  zpos="58.397"   GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <!-- Cold War -->
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1374" xpos="37.033"   ypos="18.762"  zpos="-91.109"  GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c1" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    <!-- Forging Steel -->
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="fSJ1yKiNPE+40G/AEjlTBQ==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc1.no" hide="HMP.ibsT.c8.sc1.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="908jLWMVP0u1TmMQeqT/aw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc2.no" hide="HMP.ibsT.c8.sc2.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="hSAuYrR5TUGLBmBJqf2VVg==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc3.no" hide="HMP.ibsT.c8.sc3.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="KavTTcA4lUKg1b0/XKWWfA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc4.no" hide="HMP.ibsT.c8.sc4.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="+EuQ67WE5EqI+8+tVxPn0Q==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc5.no" hide="HMP.ibsT.c8.sc5.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="KDak2AfeREuvm/PlaIb2LA==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc6.no" hide="HMP.ibsT.c8.sc6.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="Z921PfiRn022Le9fjgNqaw==" type="HMP.ibsT.c8" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c8.sc7.no" hide="HMP.ibsT.c8.sc7.yes"/>
+    <POI MapID="1368" xpos="-299.654" ypos="132.232" zpos="425.811"  GUID="xO3DCFw3nku4bh6DAPZnXA==" type="HMP.ibsT.c1" behavior="2" iconFile="Data/General/empty.png" autoTrigger="1" triggerRange="9999" inGameVisibility="0" show="HMP.ibsT.c1.sc1.no" hide="HMP.ibsT.c1.sc1.yes"/>
+    
+    <!-- ===== Eye of the North Display Markers ===== -->
+    <!-- Title -->
+    <POI MapID="1370" xpos="-87.05133" ypos="6.146316" zpos="28.72271" GUID="FG8yN4R7H0e2TKmZBQ8bDA==" type="HMP.ibsT.c8"         iconFile="Data/Strikes/Track/daily-clears.png" iconSize="2"     rotate="105,0,45"                      cull="CounterClockwise"/>
+    <!-- Icebrood Construct -->
+    <POI MapID="1370" xpos="-87.08133" ypos="1.79632"  zpos="28.67271" GUID="mdeO/Uao7ku//FS2rfDONg==" type="HMP.ibsT.c8.sc1.no"  iconFile="Data/Strikes/Track/B1g.png"          iconSize="0.425" rotate="90,0,46"    heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.08133" ypos="7.79632"  zpos="28.67271" GUID="913Lm4aUOUmqejaT38Do1A==" type="HMP.ibsT.c8.sc1.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="90,0,46"    color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.08133" ypos="1.79632"  zpos="28.67271" GUID="HyqBuTJ5K0GZPGEOgrH9DQ==" type="HMP.ibsT.c8.sc1.yes" iconFile="Data/Strikes/Track/B1c.png"          iconSize="0.425" rotate="90,0,46"    heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-87.08133" ypos="7.79632"  zpos="28.67271" GUID="8Yjhr7XTGk6vdZY92b0eDQ==" type="HMP.ibsT.c8.sc1.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="90,0,46"    color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Kodan Brothers -->
+    <POI MapID="1370" xpos="-85.93133" ypos="0.746316" zpos="30.21771" GUID="TabpiUPY5Ump4uOEy6CSvQ==" type="HMP.ibsT.c8.sc2.no"  iconFile="Data/Strikes/Track/B2g.png"          iconSize="0.425" rotate="102.5,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-85.93133" ypos="6.746316" zpos="30.21771" GUID="JNGZ1B68J0+RqpUQz5uLXQ==" type="HMP.ibsT.c8.sc2.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="102.5,0,45" color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-85.93133" ypos="0.746316" zpos="30.21771" GUID="YzCNbnAT70+4PVL83dLm5A==" type="HMP.ibsT.c8.sc2.yes" iconFile="Data/Strikes/Track/B2c.png"          iconSize="0.425" rotate="102.5,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-85.93133" ypos="6.746316" zpos="30.21771" GUID="1cqHQr453kyE9wl9cG4CNA==" type="HMP.ibsT.c8.sc2.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="102.5,0,45" color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Fraenir of Jormag -->
+    <POI MapID="1370" xpos="-88.47133" ypos="0.746316" zpos="27.52771" GUID="615VeseWTEStPl9Oc+JavA==" type="HMP.ibsT.c8.sc3.no"  iconFile="Data/Strikes/Track/B3g.png"          iconSize="0.425" rotate="102.5,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-88.47133" ypos="6.746316" zpos="27.52771" GUID="0EZIw7tTYUGOXNpJ4mRDPA==" type="HMP.ibsT.c8.sc3.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="102.5,0,45" color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-88.47133" ypos="0.746316" zpos="27.52771" GUID="xvDGN/JdvE6Ps2XUs7VltQ==" type="HMP.ibsT.c8.sc3.yes" iconFile="Data/Strikes/Track/B3c.png"          iconSize="0.425" rotate="102.5,0,45" heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-88.47133" ypos="6.746316" zpos="27.52771" GUID="Tu8T+hjlj0yUtwseQXkLXg==" type="HMP.ibsT.c8.sc3.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="102.5,0,45" color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Boneskinner -->
+    <POI MapID="1370" xpos="-86.02133" ypos="-0.55368" zpos="30.82771" GUID="5S/ctG2/HU23MpVZaAAQMA==" type="HMP.ibsT.c8.sc4.no"  iconFile="Data/Strikes/Track/B4g.png"          iconSize="0.425" rotate="115,0,42"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.02133" ypos="5.44632"  zpos="30.82771" GUID="BOAr2w48D0m8vQBkxl41Ww==" type="HMP.ibsT.c8.sc4.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="115,0,42"   color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.02133" ypos="-0.55368" zpos="30.82771" GUID="m/BS6wtZAkKf0OEd2VWXbw==" type="HMP.ibsT.c8.sc4.yes" iconFile="Data/Strikes/Track/B4c.png"          iconSize="0.425" rotate="115,0,42"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.02133" ypos="5.44632"  zpos="30.82771" GUID="i8yXzDVxG0OvQI6xzlBw/g==" type="HMP.ibsT.c8.sc4.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="115,0,42"   color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Whisper of Jormag -->
+    <POI MapID="1370" xpos="-89.10133" ypos="-0.55368" zpos="27.57771" GUID="3dIWmtjAtEOx392KyctiwQ==" type="HMP.ibsT.c8.sc5.no"  iconFile="Data/Strikes/Track/B5g.png"          iconSize="0.425" rotate="115,0,48"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-89.10133" ypos="5.44632"  zpos="27.57771" GUID="N416XlgSmEStD4Shy/JJ9A==" type="HMP.ibsT.c8.sc5.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="115,0,45"   color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-89.10133" ypos="-0.55368" zpos="27.57771" GUID="h9Xs2Z8ZG0eAvLyXFBwEig==" type="HMP.ibsT.c8.sc5.yes" iconFile="Data/Strikes/Track/B5c.png"          iconSize="0.425" rotate="115,0,48"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-89.10133" ypos="5.44632"  zpos="27.57771" GUID="AjWW0OlcY0iESA7PHgRHqA==" type="HMP.ibsT.c8.sc5.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="115,0,45"   color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Cold War -->
+    <POI MapID="1370" xpos="-90.00133" ypos="-1.68367" zpos="27.54771" GUID="XaZPXJcS90KEyPS+HhZt7Q==" type="HMP.ibsT.c8.sc6.no"  iconFile="Data/Strikes/Track/B6g.png"          iconSize="0.425" rotate="125,0,48"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-90.00133" ypos="4.31633"  zpos="27.54771" GUID="cRWsYF/YgkuncPsJUsLIOQ==" type="HMP.ibsT.c8.sc6.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="125,0,48"   color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-90.00133" ypos="-1.68367" zpos="27.54771" GUID="m/bX2YvBbEa6JLgFDxgkJw==" type="HMP.ibsT.c8.sc6.yes" iconFile="Data/Strikes/Track/B6c.png"          iconSize="0.425" rotate="125,0,48"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-90.00133" ypos="4.31633"  zpos="27.54771" GUID="7zPWTZyO80y0AMMDaTPpcQ==" type="HMP.ibsT.c8.sc6.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="125,0,48"   color="14cc1a"     cull="CounterClockwise"/>
+    <!-- Forging Steel -->
+    <POI MapID="1370" xpos="-86.01133" ypos="-1.68367" zpos="31.71771" GUID="lg0xp/yb60O9hHvRI9t1bw==" type="HMP.ibsT.c8.sc7.no"  iconFile="Data/Strikes/Track/FSg.png"          iconSize="0.425" rotate="125,0,42"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.01133" ypos="4.31633"  zpos="31.71771" GUID="B2KqLJmPhk+7EbiSQcd+ow==" type="HMP.ibsT.c8.sc7.no"  iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="125,0,42"   color="141414"     cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.01133" ypos="-1.68367" zpos="31.71771" GUID="qaUgmAOhjE+EWMbSLRl6tg==" type="HMP.ibsT.c8.sc7.yes" iconFile="Data/Strikes/Track/FSc.png"          iconSize="0.425" rotate="125,0,42"   heightOffset="7.5" cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.01133" ypos="4.31633"  zpos="31.71771" GUID="L6yDLp87ZUO+9wG2WNt0kg==" type="HMP.ibsT.c8.sc7.yes" iconFile="Data/General/dot-border.png"         iconSize="0.65"  rotate="125,0,42"   color="14cc1a"     cull="CounterClockwise"/>
+    
+    <!-- =============== In-Instance (All) Chest Markers =============== -->
+    <!-- Icebrood Construct (Boss Spawn) -->
+    <POI MapID="1332" xpos="-780.441859283719" ypos="159.696012192024"  zpos="-247.786842773686" GUID="pqgUqQgdU02UhLgU9mCnqQ==" type="HMP.ibsT.c8.sc1.no" iconFile="Data/General/empty.png" triggerRange="25"   show="HMP.ibsT.c8.sc1.yes" hide="HMP.ibsT.c8.sc1.no" autoTrigger="1"/>
+    <!-- Kodan Brothers -->
+    <POI MapID="1346" xpos="2.64627889255779"  ypos="179.987452374905"  zpos="7.69390398780798"  GUID="Mkmp/F6u8Uy9RTD5uPW+6Q==" type="HMP.ibsT.c8.sc2.no" iconFile="Data/General/empty.png" triggerRange="3.7"  show="HMP.ibsT.c8.sc2.yes" hide="HMP.ibsT.c8.sc2.no"/>
+    <POI MapID="1346" xpos="27.3263906527813"  ypos="179.687325374651"  zpos="10.302032004064"   GUID="Mkmp/F6u8Uy9RTD5uPW+6Q==" type="HMP.ibsT.c8.sc2.no" iconFile="Data/General/empty.png" triggerRange="4.9"  show="HMP.ibsT.c8.sc2.yes" hide="HMP.ibsT.c8.sc2.no" script-filter="combatFade"/>
+    <POI MapID="1346" xpos="14.6562103124206"  ypos="179.678511557023"  zpos="12.5971551943104"  GUID="Mkmp/F6u8Uy9RTD5uPW+6Q==" type="HMP.ibsT.c8.sc2.no" iconFile="Data/General/empty.png" triggerRange="4.75" show="HMP.ibsT.c8.sc2.yes" hide="HMP.ibsT.c8.sc2.no" script-filter="combatFade"/>
+    <!-- Fraenir of Jormag -->
+    <POI MapID="1341" xpos="6.85181610363221"  ypos="179.758851917704"  zpos="7.33708407416815"  GUID="wEhxnIaQpUKQ1m1jd/QJNw==" type="HMP.ibsT.c8.sc3.no" iconFile="Data/General/empty.png" triggerRange="3.7"  show="HMP.ibsT.c8.sc3.yes" hide="HMP.ibsT.c8.sc3.no"/>
+    <POI MapID="1341" xpos="31.249936499873"   ypos="179.758851917704"  zpos="0.65738887477775"  GUID="wEhxnIaQpUKQ1m1jd/QJNw==" type="HMP.ibsT.c8.sc3.no" iconFile="Data/General/empty.png" triggerRange="4.9"  show="HMP.ibsT.c8.sc3.yes" hide="HMP.ibsT.c8.sc3.no" script-filter="combatFade"/>
+    <POI MapID="1341" xpos="20.1553467106934"  ypos="179.813868427737"  zpos="11.6228092456185"  GUID="wEhxnIaQpUKQ1m1jd/QJNw==" type="HMP.ibsT.c8.sc3.no" iconFile="Data/General/empty.png" triggerRange="4.75" show="HMP.ibsT.c8.sc3.yes" hide="HMP.ibsT.c8.sc3.no" script-filter="combatFade"/>
+    <!-- Boneskinner -->
+    <POI MapID="1339" xpos="3.28315976631953"  ypos="179.605372110744"  zpos="8.47833375666751"  GUID="1bdZWBtSvkCkyP9a57aGrQ==" type="HMP.ibsT.c8.sc4.no" iconFile="Data/General/empty.png" triggerRange="3.7"  show="HMP.ibsT.c8.sc4.yes" hide="HMP.ibsT.c8.sc4.no"/>
+    <POI MapID="1339" xpos="27.9532639065278"  ypos="179.605372110744"  zpos="7.21493522987046"  GUID="1bdZWBtSvkCkyP9a57aGrQ==" type="HMP.ibsT.c8.sc4.no" iconFile="Data/General/empty.png" triggerRange="4.9"  show="HMP.ibsT.c8.sc4.yes" hide="HMP.ibsT.c8.sc4.no" script-filter="combatFade"/>
+    <POI MapID="1339" xpos="16.0653543307087"  ypos="179.60557023114"   zpos="14.0325628651257"  GUID="1bdZWBtSvkCkyP9a57aGrQ==" type="HMP.ibsT.c8.sc4.no" iconFile="Data/General/empty.png" triggerRange="4.75" show="HMP.ibsT.c8.sc4.yes" hide="HMP.ibsT.c8.sc4.no" script-filter="combatFade"/>
+    <!-- Whisper of Jormag -->
+    <POI MapID="1359" xpos="10.347904495809"   ypos="54.22883667767344" zpos="50.5130810261621"  GUID="ZZGGsVcSak2zY1HKVkfcHw==" type="HMP.ibsT.c8.sc5.no" iconFile="Data/General/empty.png" triggerRange="3.7"  show="HMP.ibsT.c8.sc5.yes" hide="HMP.ibsT.c8.sc5.no"/>
+    <POI MapID="1359" xpos="-4.75062255524511" ypos="54.2288366776734"  zpos="53.9055118110236"  GUID="ZZGGsVcSak2zY1HKVkfcHw==" type="HMP.ibsT.c8.sc5.no" iconFile="Data/General/empty.png" triggerRange="4.9"  show="HMP.ibsT.c8.sc5.yes" hide="HMP.ibsT.c8.sc5.no" script-filter="combatFade"/>
+    <POI MapID="1359" xpos="5.10853441706883"  ypos="54.2288366776734"  zpos="58.3977647955296"  GUID="ZZGGsVcSak2zY1HKVkfcHw==" type="HMP.ibsT.c8.sc5.no" iconFile="Data/General/empty.png" triggerRange="4.75" show="HMP.ibsT.c8.sc5.yes" hide="HMP.ibsT.c8.sc5.no" script-filter="combatFade"/>
+    <!-- Cold War -->
+    <POI MapID="1374" xpos="37.0332740665481"  ypos="18.7622644145288"  zpos="-91.1099822199645" GUID="nWAiavARbESWOAtiZ1zcsw==" type="HMP.ibsT.c8.sc6.no" iconFile="Data/General/empty.png" triggerRange="6.35" show="HMP.ibsT.c8.sc6.yes" hide="HMP.ibsT.c8.sc6.no"/>
+    <!-- Forging Steel -->
+    <POI MapID="1368" xpos="-299.654559309119" ypos="132.232801625603"  zpos="425.811531623063"  GUID="YLX3w6EWXkSX571j7nHeEQ==" type="HMP.ibsT.c8.sc7.no" iconFile="Data/General/empty.png" triggerRange="6.25" show="HMP.ibsT.c8.sc7.yes" hide="HMP.ibsT.c8.sc7.no"/>
+    <!-- =============== In-Instance (Daily Script) Chest Markers =============== -->
+    <!-- Icebrood Construct (Boss Spawn) -->
+    <POI MapID="1332" xpos="-780.441859283719" ypos="159.696012192024"  zpos="-247.786842773686" GUID="eOtgj4GupUGQFWpo4JW0UA==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" autoTrigger="1"/>
+    <!-- Kodan Brothers -->
+    <POI MapID="1346" xpos="2.64627889255779"  ypos="179.987452374905"  zpos="7.69390398780798"  GUID="iAeMyUxzwE2xGX4aPYbSlA==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0"/>
+    <POI MapID="1346" xpos="27.3263906527813"  ypos="179.687325374651"  zpos="10.302032004064"   GUID="MQmFdJdj90CWYnTzAk8adw==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" script-filter="combatFade"/>
+    <POI MapID="1346" xpos="14.6562103124206"  ypos="179.678511557023"  zpos="12.5971551943104"  GUID="6/MTnswzukuU95kOS38YfQ==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" script-filter="combatFade"/>
+    <!-- Fraenir of Jormag -->
+    <POI MapID="1341" xpos="6.85181610363221"  ypos="179.758851917704"  zpos="7.33708407416815"  GUID="aC6MlFoULU2kDYF+MFS9uA==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0"/>
+    <POI MapID="1341" xpos="31.249936499873"   ypos="179.758851917704"  zpos="0.65738887477775"  GUID="MsXOpcvdj0CcTrnyHCLd3A==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" script-filter="combatFade"/>
+    <POI MapID="1341" xpos="20.1553467106934"  ypos="179.813868427737"  zpos="11.6228092456185"  GUID="nj/GrjOzYkiBJ/S7QJZ+OQ==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" script-filter="combatFade"/>
+    <!-- Boneskinner -->
+    <POI MapID="1339" xpos="3.28315976631953"  ypos="179.605372110744"  zpos="8.47833375666751"  GUID="bzP3/5u1ZUinUlmQWnamZg==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0"/>
+    <POI MapID="1339" xpos="27.9532639065278"  ypos="179.605372110744"  zpos="7.21493522987046"  GUID="hn4YeO4oLUaVXrvYmREeuw==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" script-filter="combatFade"/>
+    <POI MapID="1339" xpos="16.0653543307087"  ypos="179.60557023114"   zpos="14.0325628651257"  GUID="W69qM4nFe0q/uuoOJ/iuhQ==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0" script-filter="combatFade"/>
+    <!-- Whisper of Jormag -->
+    <POI MapID="1359" xpos="10.347904495809"   ypos="54.22883667767344" zpos="50.5130810261621"  GUID="ydXPxj58dUekQ4vdrs8wRA==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" InGameVisibility="0"/>
+    <POI MapID="1359" xpos="-4.75062255524511" ypos="54.2288366776734"  zpos="53.9055118110236"  GUID="PBdjlGJq00OdP6tc44l2YQ==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" InGameVisibility="0" script-filter="combatFade"/>
+    <POI MapID="1359" xpos="5.10853441706883"  ypos="54.2288366776734"  zpos="58.3977647955296"  GUID="rJIUUe4/Z0a6QUcDjxIy1A==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" InGameVisibility="0" script-filter="combatFade"/>
+    <!-- Cold War -->
+    <POI MapID="1374" xpos="37.0332740665481"  ypos="18.7622644145288"  zpos="-91.1099822199645" GUID="NGZx8ebqxkuDjn1KTqkzGQ==" type="HMP.ibsT.c1.sc1.no" iconFile="Data/General/empty.png" triggerRange="0" show="HMP.ibsT.c1.sc1.yes" hide="HMP.ibsT.c1.sc1.no" inGameVisibility="0"/>
+    <!-- Markers that solely exist to show the "Complete" category -->
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc1.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc2.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc3.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc4.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc5.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc6.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI MapID="1332" xpos="0" ypos="0" zpos="0" GUID="uspn4BCMgEKApcXzYpUefw==" type="HMP.ibsT.c8.sc7.yes" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+  </POIs>
+</OverlayData>
