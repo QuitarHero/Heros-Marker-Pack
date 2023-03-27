@@ -486,8 +486,8 @@
         </MarkerCategory>
       </MarkerCategory>
       <MarkerCategory   name="c4"    DisplayName="Max Melee"           cull="CounterClockwise" fadeFar="250"  fadeNear="175"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0">
-        <MarkerCategory name="sc1"   DisplayName="Phase 1"/>
-        <MarkerCategory name="sc2"   DisplayName="Phase 2"/>
+        <MarkerCategory name="sc1"   DisplayName="Phase 1"             defaultToggle="0"/>
+        <MarkerCategory name="sc2"   DisplayName="Phase 2"             defaultToggle="0"/>
         <MarkerCategory name="sc3"   DisplayName="Phase 3.1"/>
         <MarkerCategory name="sc4"   DisplayName="Phase 3.2"/>
       </MarkerCategory>
