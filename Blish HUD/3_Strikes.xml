@@ -332,7 +332,7 @@
       <MarkerCategory   name="sc1"  DisplayName="Max Melee">
         <MarkerCategory name="asc1" DisplayName="Boundary"/>
         <MarkerCategory name="asc2" DisplayName="Flank Lines" alpha="0.65"            fadeFar="800" fadeNear="775"   iconFile="Data/Strikes/StrB10-flank.png"            rotate="180,0,135"/>
-        <MarkerCategory name="asc3" DisplayName="300r Range"   alpha="0.55"                                                                                  trailScale="0.75"/>
+        <MarkerCategory name="asc3" DisplayName="300r Range"  alpha="0.55" defaultToggle="0"                                                                  trailScale="0.75"/>
       </MarkerCategory>
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Data/General/s.png"          iconSize="1" rotate="90,0,0"/>
