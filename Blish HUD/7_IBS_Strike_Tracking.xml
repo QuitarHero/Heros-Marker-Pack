@@ -43,7 +43,7 @@
   <POIs>
     <!-- =============== DAILY STUFF =============== -->
     <!-- Titles -->
-    <POI MapID="1370" xpos="-86.72133" ypos="4.84632"  zpos="29.82771" GUID="b+kZ9capskqc0slwxLmNgg==" type="HMP.ibsT.c1.sc1"     iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="115,0,45"                    cull="CounterClockwise"/>
+    <POI MapID="1370" xpos="-86.72133" ypos="4.84632"  zpos="29.82771" GUID="b+kZ9capskqc0slwxLmNgg==" type="HMP.ibsT.c1.sc1"     iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="115,0,45"                    cull="CounterClockwise" script-once="SetIBSDaily" autoTrigger="1" triggerRange="9999"/>
     <POI MapID="1370" xpos="-87.97133" ypos="4.84632"  zpos="28.57771" GUID="nP+PHzi8oUuLA5WVPPLP3A==" type="HMP.ibsT.c1.sc2"     iconFile="Data/General/empty.png"  iconSize="0.8"  rotate="115,0,45"                    cull="CounterClockwise"/>
     <!-- Current Daily -->
     <POI MapID="1370" xpos="-87.10883" ypos="-1.98367" zpos="30.17521" GUID="x1TeXAbSVE29HYpZjXraSQ==" type="HMP.ibsT.c1.sc1.no"  iconFile="Data/General/empty.png"  iconSize="0.55" rotate="120,0,45" heightOffset="7.5" cull="CounterClockwise"/>

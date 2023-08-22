@@ -1,0 +1,34 @@
+marker-population-defaults:
+  alpha: 1
+  tint: FFFFFFFF
+  fade-near: -1
+  fade-far: -1
+  height-offset: 1.5
+  icon-size: 1
+  min-size: 5
+  max-size: 2048
+  trigger-range: 2
+  map-display-size: 20
+  map-visibility: true
+  cull: None
+  guid: 00000000-0000-0000-0000-000000000000
+  mini-map-visibility: true
+  scale-on-map-with-zoom: true
+  in-game-visibility: true
+  rotate-xyz:
+    x: 0
+    y: 0
+    z: 0
+  title-color: FFFFFFFF
+  can-fade: true
+trail-population-defaults:
+  alpha: 1
+  anim-speed: 1
+  tint: FFFFFFFF
+  cull: None
+  fade-near: 700
+  fade-far: 900
+  mini-map-visibility: true
+  map-visibility: true
+  in-game-visibility: true
+  trail-scale: 1

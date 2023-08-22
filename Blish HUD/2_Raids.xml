@@ -615,15 +615,4 @@
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W7B3-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.W7_B3.c3"     texture="Data/Boundary/RedLine.png"/>
   </POIs>
-  
-  
-<!-- ======================================== SPECIAL FORCES TRAINING AREA ========================================================================================================================================================== -->
-  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="SFTA_c1" DisplayName="(270) Flank Lines" alpha="0.35"                   fadeFar="1750" fadeNear="1600" iconFile="Data/Raids/Flank1.png" iconSize="1.5" rotate="0,0,270" tip-description="Small Hitbox"/>
-    <MarkerCategory name="SFTA_c2" DisplayName="(180) Flank Lines" alpha="0.35" defaultToggle="0" fadeFar="1750" fadeNear="1600" iconFile="Data/Raids/Flank2.png" iconSize="1.5" rotate="0,0,270" tip-description="Small Hitbox"/>
-  </MarkerCategory>
-  <POIs>
-    <POI MapID="1154" xpos="506.278" ypos="0.877" zpos="-320.020" GUID="i7yP2j6vskubzQA1kCxLnQ==" type="HMP.SFTA_c1"/>
-    <POI MapID="1154" xpos="506.278" ypos="0.877" zpos="-320.020" GUID="i7yP2j6vskubzQA1kCxLnQ==" type="HMP.SFTA_c2"/>
-  </POIs>
 </OverlayData>

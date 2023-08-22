@@ -109,7 +109,7 @@
     
     <!-- ==================== SPIRIT VALE ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="58.802"   ypos="34.183"  zpos="-343.237" GUID="tuacr+Gv9UiLskdieMqAvw==" type="HMP.raidT"                                                                          iconFile="Data/General/Empty.png"                                        triggerRange="3.25" script-focus="laaFade_W1"/>
+    <POI MapID="1155" xpos="58.802"   ypos="34.183"  zpos="-343.237" GUID="tuacr+Gv9UiLskdieMqAvw==" type="HMP.raidT.c99.sc2"                                                                  iconFile="Data/General/Empty.png"                                        triggerRange="3.25" script-focus="LAA_Fade"/>
     <!-- ========== Vale Guardian ========== -->
     <POI MapID="1155" xpos="59.120"   ypos="15.7886" zpos="-345.990" GUID="yO/CWPVMnkGUGFNOrtCfRw==" type="HMP.raidT"                       fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/Raids/Track/W1B1g.png"  iconSize="0.5"  rotate="90,0,-35" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="59.120"   ypos="15.7886" zpos="-345.990" GUID="XR1Vf8maAUGMn2yKP857OA==" type="HMP.raidT"        color="141414" fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,-35" cull="CounterClockwise"/>
@@ -160,7 +160,7 @@
     
     <!-- ==================== SALVATION PASS ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="65.269"  ypos="39.560"  zpos="-370.738" GUID="5HcLprv7mUmqFhNvSHhBnA==" type="HMP.raidT"                                                                          iconFile="Data/General/Empty.png"                                        triggerRange="3.5" script-focus="laaFade_W2"/>
+    <POI MapID="1155" xpos="65.269"  ypos="39.560"  zpos="-370.738" GUID="5HcLprv7mUmqFhNvSHhBnA==" type="HMP.raidT.c99.sc2"                                                                  iconFile="Data/General/Empty.png"                                        triggerRange="3.5" script-focus="LAA_Fade"/>
     <!-- ========== Slothasor ========== -->
     <POI MapID="1155" xpos="65.3916" ypos="21.4712" zpos="-373.153" GUID="VQmq6kt1MUqXJLNkat4KWQ==" type="HMP.raidT"                       fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/Raids/Track/W2B1g.png"  iconSize="0.5"  rotate="90,0,-67" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="65.3916" ypos="21.4712" zpos="-373.153" GUID="eUFQ90EiVUu720MIruGvuQ==" type="HMP.raidT"        color="141414" fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,-67" cull="CounterClockwise"/>
@@ -205,7 +205,7 @@
     
     <!-- ==================== STRONGHOLD OF THE FAITHFUL ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="86.0594"  ypos="34.184"  zpos="-386.227" GUID="b30OevACHU6037byNXS1HA==" type="HMP.raidT"                                                                               iconFile="Data/General/Empty.png"                                        triggerRange="3.5" script-focus="laaFade_W3"/>
+    <POI MapID="1155" xpos="86.0594"  ypos="34.184"  zpos="-386.227" GUID="ELxXulJmCE6O4GPh10/zMA==" type="HMP.raidT.c99.sc2"                                                                       iconFile="Data/General/Empty.png"                                        triggerRange="3.5" script-focus="LAA_Fade"/>
     <!-- ========== Escort ========== -->
     <POI MapID="1155" xpos="85.8665"  ypos="15.9338" zpos="-387.980" GUID="N6ehsVZAMkOQapeKWvUDSA==" type="HMP.raidT"                            fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/Raids/Track/W3B1g.png"  iconSize="0.5"  rotate="90,0,-64" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="85.8665"  ypos="15.9338" zpos="-387.980" GUID="l/9Q56qPj0WLEbBQ6rIX4g==" type="HMP.raidT"            color="141414"  fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,-64" cull="CounterClockwise"/>
@@ -276,7 +276,7 @@
     
     <!-- ==================== BASTION OF THE PENITENT ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="93.0825"  ypos="39.6001" zpos="-414.159" GUID="b30OevACHU6037byNXS1HA==" type="HMP.raidT"                                                                               iconFile="Data/General/Empty.png"                                        triggerRange="3.5" script-focus="laaFade_W4"/>
+    <POI MapID="1155" xpos="93.0825"  ypos="39.6001" zpos="-414.159" GUID="lbslvR+bEUSgUEHN2TFhIg==" type="HMP.raidT.c99.sc2"                                                                       iconFile="Data/General/Empty.png"                                        triggerRange="3.5" script-focus="LAA_Fade"/>
     <!-- ========== Cairn ========== -->
     <POI MapID="1155" xpos="93.8103"  ypos="7.4474"  zpos="-416.726" GUID="yFyYbK1jcUeRwL7B2Z//bw==" type="HMP.raidT"                            fadeFar="3500" fadeNear="3000" heightOffset="36.5" iconFile="Data/Raids/Track/W4B1g.png"  iconSize="0.5"  rotate="90,0,-35" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="93.8103"  ypos="7.4474"  zpos="-416.726" GUID="fJcHTJEs3kGA17blywu8Cg==" type="HMP.raidT"            color="141414"  fadeFar="3500" fadeNear="3000" heightOffset="36.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,-35" cull="CounterClockwise"/>
@@ -362,7 +362,7 @@
     
     <!-- ==================== HALL OF CHAINS ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="126.374"  ypos="34.185"  zpos="-409.953" GUID="b30OevACHU6037byNXS1HA==" type="HMP.raidT"                                                                               iconFile="Data/General/Empty.png"                                      triggerRange="4.1" script-focus="laaFade_W5"/>
+    <POI MapID="1155" xpos="126.374"  ypos="34.185"  zpos="-409.953" GUID="xxUWfcVQA06WCiou6qVnFw==" type="HMP.raidT.c99.sc2"                                                                       iconFile="Data/General/Empty.png"                                      triggerRange="4.1" script-focus="LAA_Fade"/>
     <!-- ========== Soulless Horror ========== -->
     <POI MapID="1155" xpos="128.794"  ypos="15.8638" zpos="-410.256" GUID="86cnNrgzRkOR0zLfN50wjw==" type="HMP.raidT"                            fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/Raids/Track/W5B1g.png"  iconSize="0.5"  rotate="90,0,5" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="128.794"  ypos="15.8638" zpos="-410.256" GUID="VGJMxyLo9EeDzCtmJ0XEAA==" type="HMP.raidT"            color="141414"  fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,5" cull="CounterClockwise"/>
@@ -438,7 +438,7 @@
     
     <!-- ==================== MYTHWRIGHT GAMBIT ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="163.796"  ypos="34.185"  zpos="-389.635" GUID="b30OevACHU6037byNXS1HA==" type="HMP.raidT"                                                                                iconFile="Data/General/Empty.png"                                       triggerRange="3.6" script-focus="laaFade_W6"/>
+    <POI MapID="1155" xpos="163.796"  ypos="34.185"  zpos="-389.635" GUID="6ZfzJPriqEuUB2ZX2wqTtA==" type="HMP.raidT.c99.sc2"                                                                        iconFile="Data/General/Empty.png"                                       triggerRange="3.6" script-focus="LAA_Fade"/>
     <!-- ========== Conjured Amalgamate ========== -->
     <POI MapID="1155" xpos="164.92"   ypos="14.0653" zpos="-387.958" GUID="y825N6C8vU2k/joYg700vQ==" type="HMP.raidT"                             fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/Raids/Track/W6B1g.png"  iconSize="0.5"  rotate="90,0,60" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="164.92"   ypos="14.0653" zpos="-387.958" GUID="cWxoCwmCYkyra/R+bpFVrw==" type="HMP.raidT"             color="141414"  fadeFar="3500" fadeNear="3000" heightOffset="22.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,60" cull="CounterClockwise"/>
@@ -446,12 +446,12 @@
     <POI MapID="1155" xpos="164.92"   ypos="28.0653" zpos="-387.958" GUID="JIQmoQXMC0uzD2XeQvso1w==" type="HMP.raidT"             color="41ab44"  fadeFar="3500" fadeNear="3000" heightOffset="8.5"  iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,60" cull="CounterClockwise" raid="conjured_amalgamate"/>
     <POI MapID="1155" xpos="164.92"   ypos="21.0653" zpos="-387.958" GUID="jpe2gXAj3Eam6dQwpxBOfw==" type="HMP.raidT.c1"          color="2f4e8f"                                 heightOffset="15.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,60"/>
     <!-- ========== Sorting and Appraisal ========== -->
-    <POI MapID="1155" xpos="164.334"  ypos="22.531"  zpos="-389.406" GUID="DpbZ61s3rECdYVslcrYx4Q==" type="HMP.raidT.c99.sc1.asc1"                fadeFar="3500" fadeNear="3000" heightOffset="15.5" iconFile="Data/General/Empty.png"      iconSize="1.4"  rotate="90,0,60" cull="CounterClockwise"/>
+    <POI MapID="1155" xpos="164.334"  ypos="22.531"  zpos="-389.406" GUID="DpbZ61s3rECdYVslcrYx4Q==" type="HMP.raidT.c99.sc1.asc1"                fadeFar="3500" fadeNear="3000" heightOffset="15.5" iconFile="Data/General/Empty.png"      iconSize="1.4"  rotate="90,0,60" cull="CounterClockwise" autoTrigger="1" triggerRange="9999" script-once="weeklyW6Event"/>
     <!-- Megapet Markers -->
     <POI MapID="1303" xpos="167.543"  ypos="100.056" zpos="-330.509" GUID="HKnlvaGii0qeDwWPQvqLgQ==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="6"    rotate="90,0,79"   cull="CounterClockwise" script-filter="heightFade"/>
     <POI MapID="1303" xpos="168.935"  ypos="91.8010" zpos="-324.379" GUID="YmzZVOWjBkewMs9gN58S7Q==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,79"  cull="CounterClockwise" script-filter="heightFade"/>
     <POI MapID="1303" xpos="166.585"  ypos="91.8010" zpos="-336.879" GUID="CNdxwIXkMk6OPNty6hgMyA==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,259" cull="Clockwise"        script-filter="heightFade"/>
-    <POI MapID="1303" xpos="222.784"  ypos="183.623" zpos="-230.346" GUID="9B6j0wFla0yd8xecg3o0rQ==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="4"    rotate="90,0,148"  cull="CounterClockwise"/>
+    <POI MapID="1303" xpos="222.784"  ypos="183.623" zpos="-230.346" GUID="9B6j0wFla0yd8xecg3o0rQ==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="4"    rotate="90,0,148"  cull="CounterClockwise" autoTrigger="1" triggerRange="9999" script-once="weeklyW6Event"/>
     <POI MapID="1303" xpos="219.672"  ypos="180.372" zpos="-228.325" GUID="3ldQ/QN9Nke/CSqSFy7Llg==" type="HMP.raidT.c99.sc1.asc3" color="e6ca97"  fadeFar="2000" fadeNear="1850"                     iconFile="Data/General/Empty.png"      iconSize="0.65" rotate="90,90,145" cull="CounterClockwise"/>
     <!-- Ectoplasm Markers -->
     <POI MapID="1303" xpos="146.295"  ypos="100.056" zpos="-298.863" GUID="kj8/tdwUJEm4i4i3tIdw9Q==" type="HMP.raidT.c99.sc1.asc2" color="e6ca97"  fadeFar="3000" fadeNear="2850"                     iconFile="Data/General/Empty.png"      iconSize="6"    rotate="90,0,169"  cull="CounterClockwise" script-filter="heightFade"/>
@@ -526,7 +526,7 @@
     
     <!-- ==================== THE KEY OF AHDASHIM ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="157.419" ypos="39.7"    zpos="-413.569" GUID="b30OevACHU6037byNXS1HA==" type="HMP.raidT"                                                                                iconFile="Data/General/Empty.png"                                       triggerRange="3.71" script-focus="laaFade_W7"/>
+    <POI MapID="1155" xpos="157.419" ypos="39.7"    zpos="-413.569" GUID="9ySCoUBWeU2GkeZD8j1nRg==" type="HMP.raidT.c99.sc2"                                                                        iconFile="Data/General/Empty.png"                                       triggerRange="3.71" script-focus="LAA_Fade"/>
     <!-- ========== Gate ========== -->
     <POI MapID="1155" xpos="159.124" ypos="7.1464"  zpos="-412.382" GUID="faOHRVHZg0+fHEd4rbcTzw==" type="HMP.raidT"                             fadeFar="3500" fadeNear="3000" heightOffset="36.5" iconFile="Data/Raids/Track/W7B1g.png"  iconSize="0.5"  rotate="90,0,45" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="159.124" ypos="7.1464"  zpos="-412.382" GUID="GXYoqFRU5kGPBjNV4lJdlA==" type="HMP.raidT"             color="141414"  fadeFar="3500" fadeNear="3000" heightOffset="36.5" iconFile="Data/General/dot-border.png" iconSize="0.75" rotate="90,0,45" cull="CounterClockwise"/>

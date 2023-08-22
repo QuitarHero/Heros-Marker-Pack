@@ -1,0 +1,1073 @@
+<OverlayData>
+  <MarkerCategory name="hmpSim" DisplayName="Hero's Sim Pack" fadeFar="10000" fadeNear="9750" mapVisibility="0" minimapVisibility="0" inGameVisibility="0">
+    <MarkerCategory name="htcm_main" DisplayName="Toggle Main Simulation"         defaultToggle="0" inGameVisibility="1"/>
+    <MarkerCategory name="htcm_wave" DisplayName="Toggle Mordy Wave Practice"     defaultToggle="0" inGameVisibility="1"/>
+    <MarkerCategory name="htcm_c1"  DisplayName="Features" MapID="1437">
+      <MarkerCategory name="sc1"    DisplayName="General"                       heightOffset="-0.05">
+        <MarkerCategory name="asc1" DisplayName="Expanding Orb"                                      iconSize="1"                   inGameVisibility="1">
+          <MarkerCategory name="orb1" DisplayName="First" tip-description="Includes all orbs during Dragon phases."/>
+          <MarkerCategory name="orb2" DisplayName="Second"/>
+          <MarkerCategory name="orb3" DisplayName="Third"/>
+          <MarkerCategory name="orb4" DisplayName="Fourth"/>
+        </MarkerCategory>
+        <MarkerCategory name="asc2" DisplayName="Share the Void"                                     iconSize="4.35" rotate-x="180" tip-description="I.e. Greens"/>
+        <MarkerCategory name="asc3" DisplayName="Spreads"                                            iconSize="7.68" rotate-x="180" tip-description="Actual name is, 'Targetted Expulsion'"/>
+        <MarkerCategory name="asc4" DisplayName="Void Pools"                                         iconSize="11.5" rotate-x="180" tip-description="The 'Red' mechanic"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc2"    DisplayName="Dragon Attacks">
+        <MarkerCategory name="d1"   DisplayName="Jormag"                                                   rotate-x="180">
+          <MarkerCategory name="atk1" DisplayName="Void Pool Breath" heightOffset="-0.05" iconSize="7.625"/>
+          <MarkerCategory name="atk2" DisplayName="Grasp"            heightOffset="-0.05" iconSize="3.85"  tip-description="The 10 AoE's that spawn on the&#xA;closest player to center around&#xA;Green end."/>
+          <MarkerCategory name="atk3" DisplayName="Spread Breath"                         iconSize="7.625"/>
+          <MarkerCategory name="atk4" DisplayName="Frost Meteor"     heightOffset="-0.05"                  tip-description="The 'Slippery' Attack"/>
+        </MarkerCategory>
+        <MarkerCategory name="d2" DisplayName="Primordus">
+          <MarkerCategory name="atk1" DisplayName="Jaws of Destruction" iconSize="38.15" rotate="0, 0, -0.65" tip-description="The 'Chomp' Attack"/>
+          <MarkerCategory name="atk2" DisplayName="Lava Slam"           iconSize="15.27" rotate-x="180"       tip-description="The 'Chin Boop' Attack"/>
+        </MarkerCategory>
+        <MarkerCategory name="d3" DisplayName="Kralkatorrik">
+          <MarkerCategory name="atk1" DisplayName="Side Beams"      alpha="1"                      iconFile="Data/Shapes/BeamFill.png" iconSize="9.15" rotate-x="180"/>
+          <MarkerCategory name="atk2" DisplayName="Center Beam"     alpha="1"                      iconFile="Data/Shapes/BeamFill.png" iconSize="9.15" rotate-x="180"/>
+          <MarkerCategory name="atk3" DisplayName="Crystal Barrage" tip-description="The random AoE's that only sometimes&#xA;interferes with the group">
+            <MarkerCategory name="sc1" DisplayName="AoE Indicators"           heightOffset="-0.05"                                     iconSize="7.55" rotate-x="180"/>
+            <MarkerCategory name="sc2" DisplayName="Projectiles"                                   iconFile="Data/Sim/Proj-1.png"      iconSize="1"    rotate="90,300,270"/>
+          </MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="d4" DisplayName="Mordremoth">
+          <MarkerCategory name="atk1"  DisplayName="Poison Scream"               heightOffset="-0.05" tip-description="The 'Spit' Attack">
+            <MarkerCategory name="sc1" DisplayName="AoE Indicators"                                                                  iconSize="4.825" rotate-x="180"/>
+            <MarkerCategory name="sc2" DisplayName="Projectiles"                                      iconFile="Data/Sim/Proj-1.png" iconSize="1"     rotate="90,245,270"/>
+          </MarkerCategory>
+          <MarkerCategory name="atk2"  DisplayName="Shock Waves"    alpha="0.05" heightOffset="-0.05" iconFile="Data/Shapes/Orb20.png"                    rotate-x="180"/>
+        </MarkerCategory>
+        <MarkerCategory name="d5" DisplayName="Zhaitan" heightOffset="-0.05">
+          <MarkerCategory name="atk1" DisplayName="Putrid Deluge" tip-description="The 'Spit' Attack">
+            <MarkerCategory name="sc1" DisplayName="AoE Indicators"                                iconSize="5.04"   rotate-x="180"/>
+            <MarkerCategory name="sc2" DisplayName="Projectiles"    iconFile="Data/Sim/Proj-1.png" iconSize="1"      rotate="90,245,270"/>
+          </MarkerCategory>
+          <MarkerCategory name="atk2" DisplayName="Claw Slam"                                      iconSize="15.375" rotate-x="180" tip-description="The weird attack Zhaitan does&#xA;during Void Pools"/>
+          <MarkerCategory name="atk3" DisplayName="Scream"                                         iconSize="36.925" rotate-x="180"/>
+        </MarkerCategory>
+        <MarkerCategory name="d6" DisplayName="Soo-Won">
+          <MarkerCategory name="atk1" DisplayName="Wave"                   alpha="1" heightOffset="-0.05" iconFile="Data/Shapes/Orb5.png"                     rotate-x="180"/>
+          <MarkerCategory name="atk2" DisplayName="Tsunami Wave"                     heightOffset="-0.05"                                                     rotate-x="180"/>
+          <MarkerCategory name="atk3" DisplayName="Claw Slap"                        heightOffset="-0.05"                                                     rotate-x="180"/>
+          <MarkerCategory name="atk4" DisplayName="Tail Slam"                        heightOffset="-0.05"                                                     rotate-x="180"/>
+          <MarkerCategory name="atk5" DisplayName="Void Beam"                        heightOffset="-0.05"                                    iconSize="5.075" rotate-x="180"/>
+          <MarkerCategory name="atk6" DisplayName="Magic Hail Projectiles"                                iconFile="Data/Sim/StrB10-Orb.png" iconSize="2.5"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="sc3"    DisplayName="Enemies">
+        <MarkerCategory name="p_1"  DisplayName="Void Melters"/>
+        <MarkerCategory name="d2_1" DisplayName="Primordus's Destroyers"/>
+        <MarkerCategory name="d3_1" DisplayName="Kralkatorrik's Brandbombers"/>
+        <MarkerCategory name="d5_1" DisplayName="Zhaitan's Giants"            heightOffset="-0.01" iconSize="3.1"/>
+        <MarkerCategory name="d5_2" DisplayName="Zhaitan's Reach"             heightOffset="-0.05" iconSize="1" tip-description="Zhaitan's 'Wurms'"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc4"    DisplayName="Player States"         iconSize="0.25">
+        <MarkerCategory name="db_1" DisplayName="Infirmity"             iconFile="Data/Strikes/Infirmity.png"/>
+        <MarkerCategory name="db_2" DisplayName="Debilitated"           iconFile="Data/Strikes/Debilitated.png"/>
+        <MarkerCategory name="db_3" DisplayName="Influence of the Void" iconFile="Data/Strikes/Influence of the Void.png"/>
+        <MarkerCategory name="db_4" DisplayName="Slow"                  iconFile="Data/General/Slow.png"/>
+        <MarkerCategory name="ps_1" DisplayName="Downed"                iconFile="Data/General/Downed.png" iconSize="0.5"/>
+        <MarkerCategory name="ps_2" DisplayName="Death"                 iconFile="Data/General/Death.png" iconSize="0.5"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc5"    DisplayName="Purification">
+        <MarkerCategory name="p_1"  DisplayName="Circles"             color="a3faff" iconSize="7.6" rotate-x="180"/>
+        <MarkerCategory name="p_2"  DisplayName="Lightning of Jormag" heightOffset="-0.05" rotate-x="180" tip-description="Purification 1's lightning AoE's&#xA;that usually one-shot down players"/>
+        <MarkerCategory name="p_4"  DisplayName="Dragon Orbs"         heightOffset="-0.05"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc6"    DisplayName="Misc">
+        <MarkerCategory name="asc1" DisplayName="Target Indicator" iconFile="Data/Sim/2522291.png" iconSize="1.5"/>
+        <MarkerCategory name="d4_playerPos" DisplayName="Mordy Wave Player Jump Positions" heightOffset="-0.05" iconFile="Data/General/dot.png" iconSize="0.25" rotate-x="180"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ======================================== SIMULATION TRIGGER MARKERS ======================================== -->
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="As/ysIBSSk+GoAp5W7PTPg==" type="hmpSim.htcm_main" iconFile="Data/General/empty.png" triggerRange="60" script-trigger="Trigger_HTcm_Sim"/>
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="h/D67Lhy/E6Vrhx3hB7q8A==" type="hmpSim.htcm_wave" iconFile="Data/General/empty.png" triggerRange="60" script-trigger="triggerD4_Practice"/>
+    
+    
+    <!-- ======================================== GENERAL ======================================== -->
+    <!-- ========== Expanding Orbs  ========== -->
+    <!-- 1 -->
+    <POI GUID="Tsnby0osQkOJuYdeUBviKQ==" type="hmpSim.htcm_c1.sc1.asc1.orb1"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="7+YKSa78IkmK7uDl9c2mUw==" type="hmpSim.htcm_c1.sc1.asc1.orb1"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="iu01OxZXwU2vSBqaCZLhQQ==" type="hmpSim.htcm_c1.sc1.asc1.orb1"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="1/lGNSKrZESbXhL8U/v0DA==" type="hmpSim.htcm_c1.sc1.asc1.orb1"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="ORjT1ZVl70im6DFzBiVl3w==" type="hmpSim.htcm_c1.sc1.asc1.orb1" alpha="0.9"  heightOffset="2" iconFile="Data/Sim/StrB10-Orb.png"    iconSize="1"       inGameVisibility="0"/>
+    <POI GUID="YbxywGJTOUaNoJr5YlFR2A==" type="hmpSim.htcm_c1.sc1.asc1.orb1" alpha="0.35"                  iconFile="Data/Shapes/CircleFill.png" rotate-x="180"     inGameVisibility="0"/>
+    <POI GUID="eCuW2Sg99ESz2a7AfTBaaQ==" type="hmpSim.htcm_c1.sc1.asc1.orb1" alpha="0.9"                   iconFile="Data/Shapes/Orb1.png"       rotate-x="180"     inGameVisibility="0"/>
+    <!-- 2 -->
+    <POI GUID="3dn886ED3kO+V3zK59poiw==" type="hmpSim.htcm_c1.sc1.asc1.orb2"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="FYg7VViVRUWk2877FTfhFg==" type="hmpSim.htcm_c1.sc1.asc1.orb2"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="VCQEq6qi20e6vSA3eSL0Vg==" type="hmpSim.htcm_c1.sc1.asc1.orb2"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="QHYoaj5NYU25XQNIox+sjg==" type="hmpSim.htcm_c1.sc1.asc1.orb2"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="t7lpry9KYU2MYxfaWDa/+g==" type="hmpSim.htcm_c1.sc1.asc1.orb2" alpha="0.9"  heightOffset="2" iconFile="Data/Sim/StrB10-Orb.png"    iconSize="1"       inGameVisibility="0"/>
+    <POI GUID="VUpBGRC5hkmsreXOeaTUmg==" type="hmpSim.htcm_c1.sc1.asc1.orb2" alpha="0.35"                  iconFile="Data/Shapes/CircleFill.png" rotate-x="180"     inGameVisibility="0"/>
+    <POI GUID="zWjB0CeKp0KL2rS1rZ+y0w==" type="hmpSim.htcm_c1.sc1.asc1.orb2" alpha="0.9"                   iconFile="Data/Shapes/Orb1.png"       rotate-x="180"     inGameVisibility="0"/>
+    <!-- 3 -->
+    <POI GUID="i0fOdUghtkqRmEKCRzi9Lg==" type="hmpSim.htcm_c1.sc1.asc1.orb3"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="uGrMUjhLKUGtHE+DFUF1dg==" type="hmpSim.htcm_c1.sc1.asc1.orb3"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="8r2oel3orEOJ/44HcABvJw==" type="hmpSim.htcm_c1.sc1.asc1.orb3"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="nsV4WVTVjUmwoz2h2fYg0g==" type="hmpSim.htcm_c1.sc1.asc1.orb3"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="DvjKOFYBlEiOhDb8+53/UQ==" type="hmpSim.htcm_c1.sc1.asc1.orb3" alpha="0.9"  heightOffset="2" iconFile="Data/Sim/StrB10-Orb.png"    iconSize="1"       inGameVisibility="0"/>
+    <POI GUID="oq8pn82XsUaZklgkInDamA==" type="hmpSim.htcm_c1.sc1.asc1.orb3" alpha="0.35"                  iconFile="Data/Shapes/CircleFill.png" rotate-x="180"     inGameVisibility="0"/>
+    <POI GUID="npSmNcb26U6n6yfKHzdEuw==" type="hmpSim.htcm_c1.sc1.asc1.orb3" alpha="0.9"                   iconFile="Data/Shapes/Orb1.png"       rotate-x="180"     inGameVisibility="0"/>
+    <!-- 4 -->
+    <POI GUID="kRQ9/KcphE+tIEoLygP8Ig==" type="hmpSim.htcm_c1.sc1.asc1.orb4"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="71f5WunO70eCZwRNtuoWiA==" type="hmpSim.htcm_c1.sc1.asc1.orb4"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="Qz0s+uY4/E6vD9drUhBCoQ==" type="hmpSim.htcm_c1.sc1.asc1.orb4"                               iconFile="Data/Sim/PolyFill-void.png" rotate="180,0,7.5"/>
+    <POI GUID="cf5UR/Lvq0Gc2WAiFuZvTQ==" type="hmpSim.htcm_c1.sc1.asc1.orb4"                               iconFile="Data/Shapes/25-Poly7-R.png" rotate="180,0,7.5"/>
+    <POI GUID="IRKOm+FF1EC74JP4OyQYvA==" type="hmpSim.htcm_c1.sc1.asc1.orb4" alpha="0.9"  heightOffset="2" iconFile="Data/Sim/StrB10-Orb.png"    iconSize="1"       inGameVisibility="0"/>
+    <POI GUID="7GyH80po7UiTFZfSH3va1g==" type="hmpSim.htcm_c1.sc1.asc1.orb4" alpha="0.35"                  iconFile="Data/Shapes/CircleFill.png" rotate-x="180"     inGameVisibility="0"/>
+    <POI GUID="y1sX0S8R7EGnrO1YPqvBGw==" type="hmpSim.htcm_c1.sc1.asc1.orb4" alpha="0.9"                   iconFile="Data/Shapes/Orb1.png"       rotate-x="180"     inGameVisibility="0"/>
+    <!-- ========== Share the Void (Greens) ========== -->
+    <POI GUID="dtiq8Z+W/0uOxysNSsa3+w==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="dmPvPdx6+EOdfzzHbGZdNQ==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="jqAotoK6gkOBrUAKeIXIlQ==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="Ee/TFAq7e0aWpryyvCTkkg==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="JhSjilBfyk276ImG0lDiKQ==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="sFKafzaeV06KJpw0aPD0+g==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/Orb1.png"/>
+    <!-- Indicators -->
+    <POI GUID="oTRehsZmfUuhDQrG7mlDcA==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="5XoI1ReuCEeI0k+m10fxHg==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="4o9gHl2D60mKAZk5lMvvxA==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="UbxY3crVb0ya1FfQN5nTnA==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="vuM9i6uhw0K5sFcxjcu0UA==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="OwOl2pEL2kaWPlSsy0jc2A==" type="hmpSim.htcm_c1.sc1.asc2" iconFile="Data/Shapes/Orb1.png"/>
+    <!-- ========== Targetted Expulsion (Spread) ========== -->
+    <!-- Actual -->
+    <POI GUID="q1QpunX6/kKxHGESbU/RZg==" type="hmpSim.htcm_c1.sc1.asc3" iconFile="Data/Shapes/CircleFill.png" alpha="0.15"/>
+    <POI GUID="tfyihqklWUi0tvNAocf/iw==" type="hmpSim.htcm_c1.sc1.asc3" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- Indicator -->
+    <POI GUID="MPfvKybg5EqHs49RGyWFHA==" type="hmpSim.htcm_c1.sc1.asc3" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="BXMvXMIwbEybVYwNMglD+A==" type="hmpSim.htcm_c1.sc1.asc3" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- ========== Void Pools ========== -->
+    <!-- Target Indicator -->
+    <POI GUID="O7CosK/X10GJbGbpEwOikw==" type="hmpSim.htcm_c1.sc1.asc4" color="" alpha="0.5" iconSize="0.45"/>
+    <!-- 1 -->
+    <POI GUID="UMXDx+8J+0eNlnNvSXm9FA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="WsK7toavDk+RQSKTYWKPNQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="4HIzv2Bz1USL+PifP4893g==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="oGela1Uqb0S7G0lfwqy8lA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 2 -->
+    <POI GUID="bbJXeqGkpkWZoyBAyaIkBg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="wbGveAWulkOOVcmrJwXmnA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="JYqzu3gtK0yuJLSLlyclgw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="/6dqnTmjw0ebJBpXHhyTwQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 3 -->
+    <POI GUID="E8uX1mecQku7eYIjBZ1GNQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="/o9oax69wkmZZ54Nypaepw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="daLI2UfskEmObPZpYGQQCw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="8WhcwAZj50iQtcd8BtPZ3Q==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 4 -->
+    <POI GUID="OX6Kvb1AGkKmKSUWijMwcw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="UqLjg/iwPEq1GBuUbDEe9A==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="JQwY/UPH4kGZU8TyWfK+wg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="f5Ye0ZMooUqRYnglMW8TGA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 5 -->
+    <POI GUID="I9ETKoUNH0iKeQNq+ztRPg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="UHmXpmuaQEqHxPdORlKduw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="5M9+F9zgtUaJAYs6bSEc6w==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="Yb1VUyJBo02GD8hd0H3ZvA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 6 -->
+    <POI GUID="o+2Bfi+sfkuAfDncHuVlAg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="00WJ+672Bkuj00ZMBz81ig==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="ox4L8na48kK4cqONKPADew==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="bXyyoW2Byk6g2Jt2ZWHSkA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 7 -->
+    <POI GUID="h31NcxjQxUGwkqfuLD14MA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="KbxgwDfmjUSNIaG84lNKHQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="oHQDhte25UieogrFzfLuMQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="8+VOpp8yR0ylv+vKoXV9JA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 8 -->
+    <POI GUID="cw25y7wkAkK6aUHc375FAg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="yeo3EK6Ngk6EtRBpcn2uUg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="d2itw0nG/0+BzwoA95VLzA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="fI+l9mmrCUWvZ6JgkPEBaw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 9 -->
+    <POI GUID="vwMZtY1hDker1L94+0WNow==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="vL/e2vraCk6+hPCMKtBShQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="uYECaPY5XkeHVprp/HvpeQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="mL9iHLNsaEezDquAJ6whvw==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    <!-- 10 -->
+    <POI GUID="cCjjWij8T0KHdcvJZss9xQ==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="nbw+uD0aG0+Tvi1wHfiazA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="JQwY/UPH4kGZU8TyWfK+wg==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="f5Ye0ZMooUqRYnglMW8TGA==" type="hmpSim.htcm_c1.sc1.asc4" iconFile="Data/Shapes/Orb5.png"       alpha="0.75"/>
+    
+    
+    <!-- ======================================== DRAGON ATTACKS ======================================== -->
+    <!-- ========== Jormag's Void Pool Breath ========== -->
+    <POI GUID="rbg/jeSk20S7SMV/OwCYeA==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="4/9q4oxBVE+dVg4/QLmJkA==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="rkK7PaokxEmQ4Xxg84oZYw==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="66RjAEwtc060YE5v+zoabQ==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="nD+WT/oSvEuSq4yD+tBanQ==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="xv6T7mqJO0uE7ECB5Oe/wA==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="ity0g8ew3U2vKjblR1vCyA==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="TaHXg824QEOmDvlgo15Fpw==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="Y04/4zxM2kelxqlPKbRjYw==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="BrucWINmX0G4tF41D5mFjg==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="i/UILfa8eEmkn2GYiGL5kA==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="EkQr/qq11kCLvYfTT54r3g==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="H7KX+k10+0mLk/Sm9hnBnw==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI GUID="Iuv3lAgdQEulJ7g5W7P0KQ==" type="hmpSim.htcm_c1.sc2.d1.atk1" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- ========== Jormag's Grasp ========== -->
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="TP9d7Rdfa0C/J7YX/7w+3Q==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="rAJhhF8d7EGrqWBqITtjOg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="z/MyhIBW80SKtFnw7FbQKA==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="63v3C3zZk066cxj1jCyQyw==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <POI GUID="hdB155ZRs0e7R9XjE304Fg==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="TUY2HJpthk+uCzUcWAlH4g==" type="hmpSim.htcm_c1.sc2.d1.atk2" iconFile="Data/Shapes/Orb1.png"/>
+    <!-- ========== Jormag's Spread Breath ========== -->
+    <POI GUID="1gwaDGRQg0G2fv8gvZoEOA==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="lxCBn04xZkqQaRAY7pOE0w==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="rD+mJxObsUG2Ey3ENePaRw==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="J4P9oX2Xu0C74XR4Hr43CA==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="31heCHI7ekKBdb6oHjxdOw==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="LhE+XnZURU+Bv7JyLnkCWg==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="tHyY2iwcV0GlgU8B2q4jaw==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="6rRVEw70SEyVUT55UHBdMQ==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="eGYQ/csH50aYvYOMB6z6+g==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="FJxkPfEGlEm6395qg1avkg==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="5FFuwdQup0WC5vPhy6ariA==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="ZYexhojsGEC8x6bNqTIl+Q==" type="hmpSim.htcm_c1.sc2.d1.atk3" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- ========== Jormag's Frost Meteor ========== -->
+    <!-- Attack Indicator -->
+    <POI xpos="15.367" ypos="391.723" zpos="-518.107" GUID="k4zyRoZ8RUmSJn1W4mHZBQ==" type="hmpSim.htcm_c1.sc2.d1.atk4"                iconFile="Data/Shapes/Atk Indicator/Circle5.png" alpha="0.9"/>
+    <!-- AoE -->
+    <POI xpos="15.367" ypos="391.723" zpos="-518.107" GUID="VKgb8KT1q0C0zar4ckLmow==" type="hmpSim.htcm_c1.sc2.d1.atk4" iconFile="Data/Shapes/CircleFill.png"            alpha="0.25"/>
+    <POI xpos="15.367" ypos="391.723" zpos="-518.107" GUID="ofscCzutxUKoezSSa0Pthg==" type="hmpSim.htcm_c1.sc2.d1.atk4" iconFile="Data/Shapes/Orb10.png"/>
+    <!-- Projectile -->
+    <POI                                              GUID="/bXqN8KCKEOO+xQr6GDDKw==" type="hmpSim.htcm_c1.sc2.d1.atk4" iconFile="Data/Sim/Proj-1.png" iconSize="3" rotate="90,300,270"/>
+    
+    
+    <!-- ========== Primordus's Jaws of Destruction ========== -->
+    <POI xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="cszsZWF730a18jiHLfw6RQ==" type="hmpSim.htcm_c1.sc2.d2.atk1" iconFile="Data/Shapes/D2-JoD-Fill.png" alpha="0.15"/>
+    <POI xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="cpLFU41rHUSNNXNj3RVYFw==" type="hmpSim.htcm_c1.sc2.d2.atk1" iconFile="Data/Shapes/D2-JoD-Orb9.png"/>
+    <POI xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="59mGuq7jR0S83Lx/fXNBOQ==" type="hmpSim.htcm_c1.sc2.d2.atk1" iconFile="Data/Shapes/Orb10.png"           alpha="0.9"/>
+    <!-- ========== Primordus's Lava Slam ========== -->
+    <POI xpos="14.375"  ypos="390.113" zpos="-543.570" GUID="A1z3YC0m3kS2R/4JgncvVg==" type="hmpSim.htcm_c1.sc2.d2.atk2" iconFile="Data/Shapes/CircleFill.png"  alpha="0.15"/>
+    <POI xpos="14.375"  ypos="390.113" zpos="-543.570" GUID="uCZ1t67vok64dYzI5Oq7NQ==" type="hmpSim.htcm_c1.sc2.d2.atk2" iconFile="Data/Shapes/Orb5.png"/>
+    
+    
+    <!-- ========== Kralkatorrik's Beams ========== -->
+    <!-- Sides (Left, Right) -->
+    <POI xpos="1.652"  ypos="390.223" zpos="-518.258" GUID="mBrFoYWoOkSX+ehzs8hQVA==" type="hmpSim.htcm_c1.sc2.d3.atk1" alpha="0.2" iconFile="Data/Shapes/D3-Fill1.png"   iconSize="37.75" rotate-z="90"/>
+    <POI xpos="1.652"  ypos="390.223" zpos="-518.258" GUID="XfZaoVSkkUaObafN+2t8fQ==" type="hmpSim.htcm_c1.sc2.d3.atk1" alpha="0.9" iconFile="Data/Shapes/D3-Border1.png" iconSize="37.75" rotate-z="90"/>
+    <POI xpos="1.685"  ypos="390.223" zpos="-549.873" GUID="nFjZigXevUSN5qNNXaquAg==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.675"  ypos="390.223" zpos="-540.983" GUID="ZdOkGGnqtE+yAGs8hLnWxQ==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.666"  ypos="390.223" zpos="-532.093" GUID="IGiusj6B/kqxkYxZMD62Mg==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.657"  ypos="390.223" zpos="-523.203" GUID="+oZF/DbViECpdflYIGJpxQ==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.648"  ypos="390.223" zpos="-514.313" GUID="RnFVqoorBUqczpmUZPEMjQ==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.639"  ypos="390.223" zpos="-505.423" GUID="HsrtGpFM6ECqCmNv6V8d5g==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.629"  ypos="390.223" zpos="-496.533" GUID="fPgbV0Evs0OdnQHSqzSwpQ==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="1.620"  ypos="390.223" zpos="-487.643" GUID="qUxNS5PCS0e4255cjyFiUQ==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.084" ypos="390.223" zpos="-517.958" GUID="1eQaV6jjFkyX4vvMVLO8ow==" type="hmpSim.htcm_c1.sc2.d3.atk1" alpha="0.2" iconFile="Data/Shapes/D3-Fill1.png"   iconSize="37.75" rotate-z="270"/>
+    <POI xpos="29.084" ypos="390.223" zpos="-517.958" GUID="WCdEqZs0yEm5YaFdv/ynHA==" type="hmpSim.htcm_c1.sc2.d3.atk1" alpha="0.9" iconFile="Data/Shapes/D3-Border1.png" iconSize="37.75" rotate-z="270"/>
+    <POI xpos="29.117" ypos="390.223" zpos="-549.844" GUID="1k2GyTkpBkyvfLa7MwK+0Q==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.107" ypos="390.223" zpos="-540.954" GUID="q2ghmG4Pzk+bVxZDEdXMQA==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.098" ypos="390.223" zpos="-532.064" GUID="szDNVMFtVES2WTlRI5V8eA==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.089" ypos="390.223" zpos="-523.174" GUID="SoePxULZvUaJwK8yJE6cFA==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.080" ypos="390.223" zpos="-514.284" GUID="DczjoPR7YE+2O+rAGMdxsw==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.071" ypos="390.223" zpos="-505.394" GUID="Zq2KR/zyX0K4j0JfHy+m7Q==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.061" ypos="390.223" zpos="-496.504" GUID="gaom4HRA5Eu9rRL2jn5p/A==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <POI xpos="29.052" ypos="390.223" zpos="-487.614" GUID="RQBHJtV9Dk2FdvUg37Ff9A==" type="hmpSim.htcm_c1.sc2.d3.atk1"/>
+    <!-- Center -->
+    <POI xpos="15.266" ypos="390.223" zpos="-518.252" GUID="qDhkG3z/pkGIqWeMdcxa0Q==" type="hmpSim.htcm_c1.sc2.d3.atk2" alpha="0.2" iconFile="Data/Shapes/D3-Fill2.png"   iconSize="37.75" rotate-z="90"/>
+    <POI xpos="15.266" ypos="390.223" zpos="-518.252" GUID="JW8+mBmya0G9sXZ9yLEQ4Q==" type="hmpSim.htcm_c1.sc2.d3.atk2" alpha="0.9" iconFile="Data/Shapes/D3-Border2.png" iconSize="37.75" rotate-z="90"/>
+    <POI xpos="15.401" ypos="390.223" zpos="-549.859" GUID="mLjyZMgtwU+bOrrq7dAKlw==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.391" ypos="390.223" zpos="-540.969" GUID="xQ9Ll6+3FUG6TBb4Wm8w3g==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.382" ypos="390.223" zpos="-532.079" GUID="myAMSoPggk+hEwIYVZEF9g==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.373" ypos="390.223" zpos="-523.189" GUID="OpWKxzrosUyRDKcVVNSARA==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.364" ypos="390.223" zpos="-514.298" GUID="W3rPkdEHUkCF8okHT1hKwg==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.355" ypos="390.223" zpos="-505.408" GUID="rT1E98p3X0q9YBsFb1iKhA==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.345" ypos="390.223" zpos="-496.518" GUID="GVMHjC4fqUuLLCJO6dopqA==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <POI xpos="15.336" ypos="390.223" zpos="-487.628" GUID="iytYcsbK40mIaesZKl14pA==" type="hmpSim.htcm_c1.sc2.d3.atk2"/>
+    <!-- ========== Kralkatorrik's Crystal Barrage ========== -->
+    <POI GUID="zXXpOHJEDkC8gLVognrYUQ==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="ojyIAAZtA0a7/6nLIXFWSw==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="myBgn1ZOZUyc6+ju3HFv2A==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="mlWAilhcKUmVKS1RddHKCg==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="oZAtJhLkj0GiBdtLU6PLrQ==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="GGYNikCgs02AQtD0AWXMbA==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="r9jZELxuHEqPDzG0VHR+GA==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="eODk4Ae+KkusSUTRQuzLyg==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- Projectiles -->
+    <POI GUID="bRLvzjAGCUKmno4nsWxuRA==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc2"/>
+    <POI GUID="pjsfEspgI0SRjA5nyHexTg==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc2"/>
+    <POI GUID="VnKrxW/kIkW12icWOeibpA==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc2"/>
+    <POI GUID="UQWgDHMrNUaQuuOqVfzG/Q==" type="hmpSim.htcm_c1.sc2.d3.atk3.sc2"/>
+    
+    
+    <!-- ========== Mordremoth's Poison Roar ========== -->
+    <!-- AoE's -->
+    <POI GUID="XZViymz7/kmeg/IblPcU/A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="rewDRohLxk+vGgSZzhudpw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="dsaF9QhLG0COCUKI+2G3wA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="jb2JJ7K/+kOP7hFFA2SDtQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="I9wxrafPG0669iet2NpVoA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="UMggj+Xus0Kbf+Qzs+t7cg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="MAodv8fuL0Gx9rlV+GkjLA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="PvTUNPTO1kOT/ssUYRGa5Q==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="oL/bxZudWU6dPByMpzsIDg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="b/ovZxoYO0Kv3iEGKTcVhQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="sfzjnc0c3UWXSlm1oMhWnA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="C9KduDsURkaut9aH2l4duA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="q+8eUC2sG0iKwfF5HUYUnA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="x3ruBImK3kGm76C2SBH08Q==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="hYvm0mm6bk2pTgLb9cJ55g==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="zqhxlLksR0Om8ADsIddiIw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="KX0k0moQHkWJpp+awcbCCA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="IIgHSWVp5USpUFYoC1LoSg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="NPhpjczxxU2x5QxHc5QUzw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="8GXPQL1dbE6LmBx8CUS6zQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="x8Y7oCtTv0uIYjqjVdvgzQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="Gvi/JFL5f0uTNuUfjvmbmg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="WlAE1r/VB0mmszAS3OAOkQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="T9y6eDfxQ06nzvScSHdHRA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="n2hAjdHbAEGWDP/ihtw8WA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="CCCx2MF3206qPYAigWpKzw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="4p9GhNc7XUmJ9dLYlBTVwA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="O1zFAWQeAk+aE2xkfMhRqg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="6X354C1Mx0qNeUUEkr/ZMw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="6anIsSE5cEC50ZKG89R6mA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="EGqzMzuHak6g43ZCPGXMpg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="ilkFzRQ60U6qpgNwsF/AxQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="USivwziT70elCMAG3Z5QRw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="JCsHRJH2EUm7NXi3L/ykZg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="+emyGBSNGEC1EDyXK12xgw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="AMSfTFvpik+LLmyNARbF2g==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="deUpktWOEU6tMCa0im/27Q==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="mXuM0furlk27EPdDytlXpQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="ExvFndePmkW3VA8u35ZKoA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="/ZqHe1HzKEWPtoIu0vGMJg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="55EjIZoLkUmKNwuhSMneww==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="rFR2iSVIzkicOSl/EsY6Kg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="YA7SMX2gYUmkT9jNfUhAYQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="IYnhRGNoWEqjSQiwXi48qQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="iZ0S84fRx0G8DDiHZe/+9A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="RR6p5LztgEqRi/71/m9ZtA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="fj8qEj2OIEG4zRXczC85jA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="boToL2hvSUSnx4cCNieJAA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="cGPSJ61ieka7dM6PEZ4P4w==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="Q/mradIZbkShwbYuCSH7kA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="notH/RZO00qKjCYRUIA1TQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="sA2S+G5+2EKOZdv0FCen6A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="Dx4PKBQYDE+X1wUgB4sZPQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="GY3tjADBzESp+j2CiZIrjQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="xrtJ5j4AZUSxQGIaWUq0UA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="ecV7mWPEokeQiB++N/325w==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="R6xdOeiwTke0esehhC6biQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="qV9MqgM6w0qqgvcq6DOq8w==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="IfMCf6iOvEmtpyyhMGPDPA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="PU2cjWGFjUenhdWixHP0ng==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="fod9ytlPWk2Ugw5nG6HQhw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="fthT/qG/HEWBGJiPnW5Rfg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="oOVX8sHt90K5B24NCW1N0A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="H2ThfkPBzkmihkin7mtiAQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="qUzZ1NN5dU2S2OKlJe3KiA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="FZpQ2jPYgUmlxOvxxR4fnw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="Bv7ctzRU0EGu/Rvvu/Z90g==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="yBs8ZZ9W0E2ze8TOJjzQsQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc1" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- Projectiles -->
+    <POI GUID="Y1sqa98czUqki+tx2TxUHw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="jiF8E4QtmUitKJblaIyeJA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="OXSkBP1tJUWzC/tLccadbA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="o2JnxqdzFE2+boMoxCN15Q==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="gAQyllsKeU2EblTIvyM/nw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="+srwIetGs0W3ouUR8PskNw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="e8dQ/6GgOk+m18IqRXfOnQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="xPIFY+V9kECBBfdnt6XZNg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="ixW4MooBqEOt44NZFr98+w==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="5GrgMmzmq0qTBLyS37ae7A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="j/teRPYAxECqBAfQSEJk5A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="OQVhKPUiNEeIRt1MqjXvZA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="tnY+GzujOE28pHcQsKxBbw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="xkZ16o7CL0OCER2s15vVcQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="aPVfexP+iEmUiToODeiZ3w==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="+ySKTnL/1UCY/wydV4zj7Q==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="PB0j8ZvqcU6JzPHV7gcYcA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="rhy0nCppB0eYuOIjU29DGQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="l37gqBa+PEyzeKkkQj0/6A==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="29zd+jDpQkCytf6kN2z3YQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="HIrXVN1XrkiQ+HA7/TxGxw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="VQvpAbYp70ytN2ZO8M2MRg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="tPPuniDPUESsZ2svc2LGbA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="tA8GTrpCT0alm3N7IJsocw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="S06AZvjc4k+qAvw5C0MrvQ==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="bCUAh6/oZ0+ABHaacKXMOA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="yqyW88j+V0ek+j1QnXhbYg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="mH6LiI2HV0yErKjgYiR3XA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="Npd3SxI+8EG+7MqeYshOOA==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="1IKvnQjEBEOZwu0Bpf5C5g==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="yow6XqKUAkOkstfm37BPtw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="HNXferpTQ0+7ve7dmpW3Fg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="ws+C+TzjcUyCp25zDPKRcw==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <POI GUID="exgtH3reH02k+Fj+KusxUg==" type="hmpSim.htcm_c1.sc2.d4.atk1.sc2"/>
+    <!-- ========== Mordremoth's Waves ========== -->
+    <!-- Attack Indicator -->
+    <POI MapID="1437" xpos="15.3328420548443" ypos="391.723" zpos="-523.060716043307" GUID="rLKFMX4Xpkqj88P0yyEc4A==" type="hmpSim.htcm_c1.sc2.d4.atk2" alpha="0.9" iconFile="Data/Shapes/Atk Indicator/Circle5.png"/>
+    <!-- Wave 1 -->
+    <POI MapID="1437" GUID="rftayYEsoUWK/9GlCGVaHg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="uN7ryB/j6EiFFs8qeUAP1w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="5JNdIprjsUmwwq9kzYFqMw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ajm6tF4KT0yxEvEGBAQhyQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="x09+6DKTv0CqfIJqP5SihA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="bp1yhPDeyEeBE3M7xwv4Zg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="dgJkUGHjakKIKuPL9rz60A==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ns90z9zc70ycVTtDM/0efg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="SVJFWMXRz0WwmhZVeIiCVA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="7fKnTAKcZkawWDWhuSm8tg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="XZ8VCvGV4Eyj6e/Q294jaw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="mkb8NlNTPk2REUrbLdGUbA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="tTfHe6VrD0GsFAIzkZifCg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="v2Fp5wex4EWzjAQG/5HF7w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="UDlol+hgsEmFX5cWQT/vQQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ctJuCUebpkqvwmqV4vuIkA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Xz/FUGTm+ECS1Smu24za9Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="DJ3HSkxyXEuUzF/vCjgz1w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="lh5hIaBvxEy7S+xPYvS13w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="AZ4bdcVDAUaoXlF8XGSY2g==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="qHjxiw1NtkWFeBX9ydWfNg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="5TM9ruyO5EmiWHunDK+sXw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="YF4YjtPKf0e/YSYOm7lsuQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="BdK5GrxRoUOJo048k4SBLQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="F6jXrcft30G6I264bcdvXQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="dNjlIMoUrEGm/FDQzzT76Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="f0DimK/GykKBCaHmTK6aiQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Yrv1pDkII0uYOmx58raUsA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="MTN9txwkhkyJPAxaQ7n4aw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="qZkxN6mwPUeiMxbS+/DOLQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="tGVO5ORqYE+HGKxlYUeiJg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="aPvfCOw7c0ydUZsDGj8cEw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="TA+OWxMnRkuZ6zkyHONWDw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="yXqaFfIB2kmSUWrVw1fG9Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="2KBOuwzhBE2jp7EphD8hBA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="WATjIyAA+kSwdg58Yw8wjw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="PeQTPBItCEWV+OVyyOuxSw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="IgyDtibiDU+5N1D0pVIGmA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="/ndjnGNfoEeUvp+U/cWpvg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="yoYmFnpNAkWEf9YDcqKxdQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="DxftjzdX40epg4EHkpVXyQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="SclZ7aedME+LcYZrh9WEdA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="GoaWoBmHX02yFuMTj0eCdA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="B8yQZo1GVkinSTZWQWo0ZA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="UMsYc+pyX0CNqlYDQsE09A==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ppsRDc6h/E+aEIhYh9HdAw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="hhY3lSp2lkaTMtQz9f41IA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="sv0zsmIQJ0+1D/V0Lxa9Fg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="T4yxO4nfUkSOA0X3YhYiEA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="fX8ZY6oH1kCriopIu0q5UQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <!-- Wave 2 -->
+    <POI MapID="1437" GUID="3YmtHz5d+0uWAeNUpOhBkg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="s/5zPi/XmkmIZVLbLggdFA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="g/y0OTC85E6aKRRCXq/XFw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="78zmQkfK9kqUuLYm9UkvSA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Fmd80bNizkqpa1vZkA5eTw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="vwwzGG2jGUilV7nB2ZtgGw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="hl5mngGrqUGCr6LDCsw9kQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Ran8HNSUMEmpDBhaQvTZYw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="E4wKYl5hgEORkShUb4NSaA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="4GD6JNXFf0yrcyTHFypezQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="dVmEje3A0EiCdEWaiw2RcA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="VLNWviWGek+/VnoWDUnlOQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="up9toAypaEu5pf2S3wDztg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="fFM7VsyCx0WOrae0wssl6g==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="/pKFiYyv+EmiZsv3rhdzrA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="fw9tGmHzDUKLoPg08GDS6Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="LbQRGk2de0+mVL35KlwOUA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="q8j/Ko1ctUmrWdKNJIj7wQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="HFQoPKGjJE2ydW9wCsZdCw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="sHFEU1MNOUSmALEGeFUO+w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="mxE492CD1UWCf7p+U3qaSQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="uiqgwc4HJUmzyJqBhfkmGA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="CQcX6pS++0alhRX8oCBU8w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="yYVrjjTXI0G0rHF4IHGCwg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="C1x6s3+mqEeTi0x+3qjIlA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="61HyXM6/uEmKryA9cxgu7Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="+vEwBUdD9UOu1GKxbhG+jA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ul9UBD0YpUy9ogLcUN61aw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="sp0vWYCYukyopP+pqBazaQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="/DtQE8BOxEOoO0fJtlSUIw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="nuMR3UOvA0SiVYFLrOPJHA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Y4YzU0OEgkGOJLyMVMIDjQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="aqdg1FTbG0i9ludhMHQGoA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="fNtErW6mlEiWHvrEOv7Pdg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="GbBI6zNiek6tTxeMHqGBPg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="IfibIPlyeU2n1/sjK7YhRA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="s7CWLqFNLUW74nEdgvqpfw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="V9Q6ztGyL062mIxnW0oIcw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="5Ug/C3hz70eXxsF88U3Tqg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="S4uNHqsbb0u8P1y000bG+Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Y7+xUF8Igkmd55/yzYLq6w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="OONb5yypcU6h3in1ZQHtcw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="UeizCMDvi0SgHoducPOhjw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="bSFVREMoXUSjuR9Zzm079A==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="vHnZh4UEpEqkCIFLxpD4dg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ZHXW9tbpxkejFtXr0eMS4g==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ezf/tECKtEGgMm0wV8Ns0Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="3AQGxgbvH0yhkRcMRJqEcQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="QV31cnIRA0+6d3PJStwfXA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Z3vHu3c56Uerc1LD2NG3pA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <!-- Wave 3 -->
+    <POI MapID="1437" GUID="Klup2n2iUE+bUGEwAABAdQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="huRY27tDgkGJmujSRkn3Ag==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="07JYqruT2ESFCsNNY88H+A==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="4Ni20P8iv0Ctp6/2gkx8jg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="VOTmHB8nL0elRtk6jQIyzw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ZTtxdSDom0KuDDmax8AEnw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="yBkOl8P/pkGBPmZ+V+yG/w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="xA6hv7i7bUyvM2JQ+n20/Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="/oqh1vOurUqBquWG4OudjA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="CPULnyy16EGm7uSoTfhyCQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="fXFk2d55Zk+eJm1tQJ4p/Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="yeC1oScbZUGsEcNoKJJK0w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="r2Juw9ua/02gANGIbBHPJA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="FxP8/KnAcke5rQ2FPZcD9g==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="bwc4NoU9ake/Ij10FtPUYg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="BfWFmeIo+EiujLwpOVfjaw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="nkRVigxH1kWe4h9GI5osJg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="stTVEzXckEa0csWcS7o08g==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="mMWYGYz3gUagg9/J8an5uQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="XbqO8Lh/gUybfGLtJFjeZA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="+EgpUOCw+U65ZfN+WNj96g==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="1XEdpBEqLk+cgNkygoEFCw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="38DOahfkGkyYlJUFi5GfFA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="2+cJVSvZ/k+AEN2jnNBLSQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="+d5VvoFjK0CCLhrpvDg7xQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="LNODbIeNxU2/oTrex2Em6A==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="39KCKlvhD06+4UD+XPet2w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="zRXaYlfqQkqPuWwAaC1RQw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="3KtQLbQoVEiqk/ny1Gxt8Q==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="EibICoZT00qrKRaKUBATew==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Cbar1iy25k6fAoalDtQRpQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="7pVOHErg9UKbBj8AvFyZfQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="7jiRlSiUgk2AdxLX4BDruw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="ms+o9T2k0U2E1H/PyFP6Yg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="GZjjY7D6eEaQ5Cz0EpPw2w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="wgXKMHmNukWhQpUt2E2QpQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="K4eF7tv6B0mWdMnBYFQTug==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="TyTdURiN50KGtGyjhb2ZxQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="E370ef0BekyyOjFM6Wr3Xw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="MU+WFlIn0U6p+ttAE3rW/w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="Zs36vjllcEiYVIGWyY20jw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="MfHQocXsV0yuNxVYj7oCkw==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="IE5Xwf1NsUKmCEdZd4VzUg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="lSq90+HQK0GIeHH/LwedCg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="JB4T//fFpkSA1wuJ9ck7hA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="9aPMpv3SxkSD+ZSppWPwUg==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="AZA/x8VtK0KGQKkT+KsK/w==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="e2kybmCbGEq8NPodMAWCaQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="qbXB2YswyEehFWv30GkavA==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    <POI MapID="1437" GUID="M13mPF2gJUCT+Am9LryvQQ==" type="hmpSim.htcm_c1.sc2.d4.atk2"/>
+    
+    
+    <!-- ========== Zhaitan's Putrid Deluge ========== -->
+    <POI GUID="f291Xew7uUeKtujK4HOPQA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="rpotA5x8MUiJkFViI4hYkA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="I/66C8hlN0G5SwyDfLKTLA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="OrAOSIuPq0Wt3LKO2S+D1A==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="Zn9lRj0B9kGCf0vsIher9w==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="qrznudW7pUWujyM6WZwqtw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="suScXRHn40yKxZEaVnZy9w==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="0NJuKFnIC0yNmwqUVuGJmw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="p8E+upkgMEmm1z7+iGGz6g==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="W/6KieWFeUexLrjq/HlsOA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="W27eh8zsQkG30ZRmzL3HKg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="uzCYkyNkWk+LiCoIUgDzfg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="jT9WfhBqpEyiKegqp36mfA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="MEC4gdfsuEOU8Sw8RnEsRw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="jTKyCKAGQkeSjGHRBeqkAw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="muTp5vvqr0uKMNIdI4ViJA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="WxJVV7N4aUCREw1kxGlmFw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="0as+RjG34kadwlnfNMbETQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="/NSGI3YdykSQN/kQy+Z6fg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="STFEXsrUTkKJ1AWxU7f2cw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="PDSJiwMiDEOzUdWLuNbUFg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="r9aRTNsXtUiYmtpuqcc4kA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="SBR0EZz1L0aIqB7MQ7FP3A==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="8jlJvMgvBEWqfRouS7Snng==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="80It1NW5/0WYMGYnFfLmpA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="PInPx6UQskWqGGB2vmet9w==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="dzVjzloCLU2VbmpUQ27cCw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="o8GLZdS/LUOCJs9hpbxp6g==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="+8FzmRWjGEadPH48zxNFYA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="BbhlqGHCI0a5xwxOSskEzA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="qUVGw2dFwEi/UeMc1pJqcA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="AZ+hwQbGyUaGA/VTVmg05A==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="7crsm5uj2k694up8QoQKlg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="9cUvzR4CaUiNhsnX5WateA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="dZTs/7LDj0GA52zL1PBteA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="2ls+7xWW602crqJfU1YAig==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="4VqSv9lKI0m8EMwrMchJWQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="QFaJATnt2UKla7h5QpiVvg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="AQlgz2Ya9UmqPGSTn88/QQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="O0XCNsebCEu7l7p41mdgSQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="OK+nPJwbnkCxu8/NPKP2xg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="u1NmuIheyUCpxTygdUAGZA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="tMNe9D/7MUyX5WRhoifOqA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="a9cs/m9ccEOpz1C/XNGjVg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <POI GUID="NyVBGzrkh0WVTtSrs9aYrA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI GUID="MxjNhoQdZ0WGkAU54CH71A==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc1" iconFile="Data/Shapes/Orb1.png"       alpha="0.75"/>
+    <!-- Projectiles -->
+    <POI GUID="hk1lPeQjh06rXibY7/BUkQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="M1jYOad/A0agA2UjQAyetg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="MA2q5A9ZoEaf8w+JTAC1QQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="8s2zKivcykGwcUESv4NsoQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="wBDUqqJ0skGj742wqiym3A==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="ypuz+7R3UE+Bw6NsU8LRsA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="rfjAMNLJ+0mffC05PTr5Fw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="f2WoHEabeEe25fdhQXHnBA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="jpddudv/EkyXT7OsR9RwIg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="A9iUc+ftGk6k/0Rywxd1XA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="PUF6cG6oq0OAq0rGRxUStg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="XQzS4a8O80uUJuPQoggahw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="3H/XbJ9UWkKuvXvdLY3nBQ==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="37B3B3kNrE+2/X2vinQqNA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="VrOgZHZ9ukqcOuLlnwZBlA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="3I6pRytehEeydCABaE9iPA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="fLXXaJFSe0a4Bt0VMJg7Hw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="AK5lDerX20CYqxgMSpgPGg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="o6ndojUjlUSsHodz5UtR9g==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="HDbmGJ65M0+gwNdL91PCyA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="wQYVbY37Wk+fy8sTmt/Mhg==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="/tXFmGIUQEGGJ2aJZRQgWA==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <POI GUID="2MwMWvy+s0WluvPtXvDIzw==" type="hmpSim.htcm_c1.sc2.d5.atk1.sc2"/>
+    <!-- ========== Zhaitan's Claw Slam ========== -->
+    <POI xpos="-20.587" ypos="391.723" zpos="-512.461" GUID="S9alruJP70qXKo5CsRXoQg==" type="hmpSim.htcm_c1.sc2.d5.atk2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI xpos="-20.587" ypos="391.723" zpos="-512.461" GUID="te5e54mj/U+RgIsnv4Prhg==" type="hmpSim.htcm_c1.sc2.d5.atk2" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- ========== Zhaitan's Scream ========== -->
+    <!-- Actual -->
+    <POI xpos="15.359" ypos="391.723" zpos="-518.036" GUID="paPX4xp9EUCKgAPOZSmc6w==" type="hmpSim.htcm_c1.sc2.d5.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI xpos="15.359" ypos="391.723" zpos="-518.036" GUID="5VZtSF2YukibxSRQdX3JiA==" type="hmpSim.htcm_c1.sc2.d5.atk3" iconFile="Data/Shapes/Orb10.png"/>
+    <!-- Indicator -->
+    <POI xpos="15.359" ypos="391.723" zpos="-518.036" GUID="v81cas6yL0SY5kHxZD7E6A==" type="hmpSim.htcm_c1.sc2.d5.atk3" iconFile="Data/Shapes/CircleFill.png" alpha="0.1"/>
+    <POI xpos="15.359" ypos="391.723" zpos="-518.036" GUID="SnojzFoE30aNrib7fwFlsw==" type="hmpSim.htcm_c1.sc2.d5.atk3" iconFile="Data/Shapes/Orb10.png"          alpha="0.75"/>
+    
+    
+    <!-- ========== Soo-Won's Wave ========== -->
+    <POI GUID="uRIBGOXhb0OfA8/CwGyxKA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="x4Sb/pK69U+SQhRb5TqNFA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="pXZP7w5k2kakO5EkgL9Dqg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="S0FsOdAwL0ysQQaZN8hrCA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="W7/tCUJdl0+yQBHloemdmg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="Oy3a5zuOQEuwzX7iFed7zQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="FoPFmZmopkiU8BkEZ9aGbA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="8s3K/yMkWECRPYQ1/C34Iw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="Z13AjSDhr0efSZLgmLPJaQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="aL7iqYZZhki74PieszoQcw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="y+FRBNWcvUOkgF5yFMmXQw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="+9yTVK/S+0icpX/uZDOmvQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="1/qlyXq44kKiNIXJ70K1RA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="MoOvTetD4Ey9Ze2TC96ihg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="hj+KrvIEgEKLE1koj0B8hA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="qeLWsPnG2E+xSRRYXNRxag==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="KInhGxqDzkqAzPbsMoffsw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="Juiw/KHRyUKFQLeRH7HTvw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="0CroiOf1NU+wra+9CsFrAw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="shox0TFSg0ujlfvE/kskyQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="PS7U6j2WfUOYYaQFw76Nfg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="kRoG0ugHokS5B0qqzRx0qQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="F4cNExdJgkCxWW5AhYdWrw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="xuqcnEg+I0ajBMhb6cLoOQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="UWNNQOHivkiAMZUV6V9xKQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="XDwuxK18vUeyF3/ZBuoxTQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="uCnXY4GtvEaCmLfWzaEFPw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="+Mr7b4DmHk+zHbI1H95xOg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="USrt8Df8r0yodNzl2w6WhA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="9awtsJJvqkaLOjeWqxCAzA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="XnQkqBURukSu2WM1qy7qqQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="6qncv2k7ZU6Q7PZ9wgkKvA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="xAIBHbbE+0KrbePI1e/X3Q==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="MNYPDPOrfUWulugMEmsOzg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="2/aU01sp30az/+Uiv6+v7g==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="e5M4GCHeskaORDJF+hYoug==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="OnCiLJnexEO/WnAuMuNGNA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="sgMih5TZkUaASU1ZZCnsgA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="GwaHOnTbQ02hZ5tZ2W/l/A==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="k1I8JAtk8E6FDAxGBF0taQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="4k+oZt85VU6hU2KpBcjTlg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="wb2II70TU0SRN5CRF6EQpQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="SwItqomj4EGxYpyhilYfmQ==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="GmxvyMPa5k+nwwaMYTuJ5g==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="VKzd3bJM902TSTmP/N+lRA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="G4FxPwr2P0qkH/lzQRSlsA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="5iYXAIoS702zbWcc1IB4uA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="+9KyOrmN8UGWY3gyMDfBcg==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="UZJiK89qWk2jXzzbCoakyw==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <POI GUID="3Nw9ceKYUEWA7owYNPtETA==" type="hmpSim.htcm_c1.sc2.d6.atk1"/>
+    <!-- ========== Soo-Won's Tsunami Wave ========== -->
+    <!-- Attack Indicator -->
+    <POI xpos="24.794" ypos="391.723" zpos="-537.284" GUID="o2KZnn/Jp0yCyNNZtokYoA==" type="hmpSim.htcm_c1.sc2.d6.atk2" alpha="0.9" iconFile="Data/Shapes/Atk Indicator/Circle5.png"/>
+    <!-- Attack Circle -->
+    <POI xpos="24.794" ypos="391.723" zpos="-537.284" GUID="k56nV8jI1UOvvvUabzGKxA==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/CircleFill.png" iconSize="6.05" alpha="0.1"/>
+    <POI xpos="24.794" ypos="391.723" zpos="-537.284" GUID="wt+G4EmwZk6mIa+xKzX4tg==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/Orb1.png"       iconSize="6.05"/>
+    <!-- Magic Hail AoE's -->
+    <POI xpos="48.513" ypos="391.723" zpos="-528.198" GUID="YAtkfpQ4bUiSz6oV9tmRqw==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="48.513" ypos="391.723" zpos="-528.198" GUID="BSWUohMiXUGKP1X6h4uoGA==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="40.792" ypos="391.723" zpos="-517.556" GUID="8Mr/rJ15bEO0K1eVQLrF2w==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="40.792" ypos="391.723" zpos="-517.556" GUID="TOwyYElYskCNUl57BvzWoQ==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="28.784" ypos="391.723" zpos="-512.199" GUID="TIlgC5KlDEe/901CEpv1QA==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="28.784" ypos="391.723" zpos="-512.199" GUID="Ts/tDz6j0EmeSq5xwRVDkg==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="15.707" ypos="391.723" zpos="-513.565" GUID="4Avg582AAESw3yCxeT08jw==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="15.707" ypos="391.723" zpos="-513.565" GUID="ZlQusDnmjkCPFQraXaXKzQ==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="5.065"  ypos="391.723" zpos="-521.286" GUID="V3BAcZwwPk2j5JzsI+CAqw==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="5.065"  ypos="391.723" zpos="-521.286" GUID="LP+zhR7TsUyfJ8OIfGr2Hg==" type="hmpSim.htcm_c1.sc2.d6.atk2"             iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <!-- ========== Soo-Won's Claw Slap ========== -->
+    <!-- Cone Attack -->
+    <POI xpos="26.546"  ypos="391.723" zpos="-554.902" GUID="f2RXkE7uoEq53drEA5MlsQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/145-Orb10.png" iconSize="24.2"  rotate-z="171.1"/>
+    <POI xpos="26.546"  ypos="391.723" zpos="-554.902" GUID="DpEy7q42WkC1DA2GVxe+Lw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/145-Fill.png"  iconSize="24.2"  rotate-z="171.1" alpha="0.2"/>
+    <POI xpos="26.546"  ypos="391.723" zpos="-554.902" GUID="8eZch2j7YkeftN5lwd6GCg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/145-Orb10.png" iconSize="27.15" rotate-z="171.1"/>
+    <POI xpos="26.546"  ypos="391.723" zpos="-554.902" GUID="uAMC1xa1pEarAiDKCfA9Lg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/145-Fill.png"  iconSize="27.15" rotate-z="171.1" alpha="0.15"/>
+    <!-- Arrow Indicators -->
+    <POI xpos="-2.268"  ypos="391.723" zpos="-535.437" GUID="ji5ZgvsEWU2KtpKbR9klhg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,56"/>
+    <POI xpos="19.934"  ypos="391.723" zpos="-520.763" GUID="H3+zNylSjUCPGkpAfEyBqQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,11"/>
+    <POI xpos="37.889"  ypos="391.723" zpos="-522.031" GUID="n/YN/Q9eAUapKULF/sxMIQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,-21"/>
+    <POI xpos="28.995"  ypos="391.723" zpos="-520.215" GUID="5BBnzg2Idk+OkcVbrlBMJw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,-6"/>
+    <POI xpos="-6.324"  ypos="391.723" zpos="-543.558" GUID="+7Fhz1k5JE+QPonZV19SPg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,71"/>
+    <POI xpos="46.010"  ypos="391.723" zpos="-526.087" GUID="9nMs79GA8keE5ACb+W+fgA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,-36"/>
+    <POI xpos="11.324"  ypos="391.723" zpos="-523.638" GUID="ymly8vpPs0uss4StSKH/TQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,26"/>
+    <POI xpos="3.751"   ypos="391.723" zpos="-528.643" GUID="8TLzBldB1Uq4sqUSFRXkuA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Sim/Arrow1.png"       iconSize="8.5"   rotate="180,0,41"/>
+    <!-- Magic Hail -->
+    <!-- 1st -->
+    <POI xpos="-8.989"  ypos="391.723" zpos="-542.638" GUID="d+bi1h3KX0m3aRp0mG+Pkg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-8.989"  ypos="391.723" zpos="-542.638" GUID="XprPRXlEm0SQTLy6AAOubw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="-4.604"  ypos="391.723" zpos="-533.859" GUID="XOdh+okxi0C+6LyTvMUxsg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-4.604"  ypos="391.723" zpos="-533.859" GUID="3gvprHZAIUmnHEtOj4HAxg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="1.903"   ypos="391.723" zpos="-526.514" GUID="vtk6/2oUjECiyVUPWevQUw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="1.903"   ypos="391.723" zpos="-526.514" GUID="zN3t07KIUESR8XnYZ0IYag==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="10.090"  ypos="391.723" zpos="-521.103" GUID="msiamHFifUWJ3NVhWu3CvA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="10.090"  ypos="391.723" zpos="-521.103" GUID="CHWXnoIFNUOTXMKvDAYw8w==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="19.398"  ypos="391.723" zpos="-517.995" GUID="qpChjNzmYEuor2oK/oEHXQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="19.398"  ypos="391.723" zpos="-517.995" GUID="SLUvuB6ft0a7O/KVAwCbaQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="29.194"  ypos="391.723" zpos="-517.403" GUID="AdmqRj80rkSqHSDL4a3aQQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="29.194"  ypos="391.723" zpos="-517.403" GUID="QhBuqFxzqUWB9Bz3uS2Fqw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="38.809"  ypos="391.723" zpos="-519.366" GUID="896BNnOg2E6XyXxzUZJNMg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="38.809"  ypos="391.723" zpos="-519.366" GUID="t5hY7LCKLUqEds9FIk3Deg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="47.588"  ypos="391.723" zpos="-523.751" GUID="oYiloXcByUySEik+kfPkaw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="47.588"  ypos="391.723" zpos="-523.751" GUID="+x0jeAbCJEqUb8xKKh7MKA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <!-- 2nd -->
+    <POI xpos="-15.022" ypos="391.723" zpos="-526.822" GUID="EBr9l5k7nU6fSNRxus+8vQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-15.022" ypos="391.723" zpos="-526.822" GUID="UCsPEArEuUCFCu/Pi1Sgqg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="-6.338"  ypos="391.723" zpos="-517.020" GUID="QHqB36TuokOadJP3A/oAzw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-6.338"  ypos="391.723" zpos="-517.020" GUID="Zf4FTWcRRE2gnmyW5sgf0A==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="4.587"   ypos="391.723" zpos="-509.800" GUID="+F2PLatQdkCZbW+7k4z8Hg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="4.587"   ypos="391.723" zpos="-509.800" GUID="PMZCjlud5EiZlqY1hp8hSQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="17.009"  ypos="391.723" zpos="-505.653" GUID="8hwFfBKx+0inS/fz7vvYDw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="17.009"  ypos="391.723" zpos="-505.653" GUID="EWuAX3daBUida/QqMW9PMw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="30.080"  ypos="391.723" zpos="-504.863" GUID="vdx1qpgnD0G6FjvIO8tBGw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="30.080"  ypos="391.723" zpos="-504.863" GUID="I0D5awPUEUG9TDe56HBteg==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="42.910"  ypos="391.723" zpos="-507.482" GUID="pv0ON+FH6E6Rf9n3IM80gw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="42.910"  ypos="391.723" zpos="-507.482" GUID="J5hkJ/nlFEiRi26hlz8Z3Q==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <!-- 3rd -->
+    <POI xpos="-14.052" ypos="391.723" zpos="-508.134" GUID="95P26dBB0k+PNOX+XnFNjQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-14.052" ypos="391.723" zpos="-508.134" GUID="gz6Yot5uqEioGyzSoFYrtw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="-0.564"  ypos="391.723" zpos="-499.220" GUID="5CN4NO5mNkO9DeRlEqRzqw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-0.564"  ypos="391.723" zpos="-499.220" GUID="8veBbz9zhUiurs+jp1Ot+Q==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="14.771"  ypos="391.723" zpos="-494.101" GUID="AVBAfwNKJEekh4h49LfvCA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="14.771"  ypos="391.723" zpos="-494.101" GUID="zW8oTSFsF0ONZcl2w8Bbxw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="30.909"  ypos="391.723" zpos="-493.125" GUID="IcekGAB93EycutzO7nERfA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="30.909"  ypos="391.723" zpos="-493.125" GUID="8GQKJ63k2k+niMmpEVnpxw==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <!-- 4th -->
+    <POI xpos="-5.715"  ypos="391.723" zpos="-488.641" GUID="rCPYtuigy0y7AUxLH/x0zA==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-5.715"  ypos="391.723" zpos="-488.641" GUID="Y6V8XpG3pUuxOkmPkh6gVQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="12.534"  ypos="391.723" zpos="-482.549" GUID="wSwuO6TsskSbBfY7DBz5XQ==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="12.534"  ypos="391.723" zpos="-482.549" GUID="Uk5QgHdOykiJXZ4CpiaQ/Q==" type="hmpSim.htcm_c1.sc2.d6.atk3" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <!-- ========== Soo-Won's Tail Slam ========== -->
+    <!-- Attack Indicator -->
+    <POI xpos="15.394" ypos="391.723" zpos="-518.287" GUID="Sh8MMxFiykaSjxk8XL/27g==" type="hmpSim.htcm_c1.sc2.d6.atk4" alpha="0.9" iconFile="Data/Shapes/Atk Indicator/Circle5.png"/>
+    <!-- Tail Slam AoE -->
+    <POI xpos="15.266" ypos="391.723" zpos="-517.452" GUID="b/oSdsGv60q329pXxBFdsA==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/D6-Fill.png"    iconSize="37.75" alpha="0.1"/>
+    <POI xpos="15.266" ypos="391.723" zpos="-517.452" GUID="+2VwTwbxpkiJxijKM9P7Jg==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/D6-Border.png"  iconSize="37.75"/>
+    <!-- Magic Hail AoE's -->
+    <POI xpos="11.726" ypos="391.723" zpos="-542.536" GUID="tj2z7o7Sikag2Qf0Hp+JLA==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="11.726" ypos="391.723" zpos="-542.536" GUID="HCbQFzqSTkaHTtOq3DnZJQ==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="38.340" ypos="391.723" zpos="-528.999" GUID="jwMjYTp8sUSBG8R52DOlKw==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="38.340" ypos="391.723" zpos="-528.999" GUID="qzZMs/uZpkKFhmnWvTedSg==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="33.689" ypos="391.723" zpos="-499.504" GUID="HcV9idNavkW8P1wmSdqd9g==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="33.689" ypos="391.723" zpos="-499.504" GUID="ax6CF25EPkCTBpBJQdT6tA==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="4.201"  ypos="391.723" zpos="-494.812" GUID="aittk+OyyE21jbIhTWv+Uw==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="4.201"  ypos="391.723" zpos="-494.812" GUID="VjGgJ3KNEUq8N3Z/b6x68A==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <POI xpos="-9.374" ypos="391.723" zpos="-521.408" GUID="gKapvMf95kqhZgWgm4hJdA==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/CircleFill.png" iconSize="5.05" alpha="0.1"/>
+    <POI xpos="-9.374" ypos="391.723" zpos="-521.408" GUID="pbUt/smVBkmNFt6phUP2RA==" type="hmpSim.htcm_c1.sc2.d6.atk4" iconFile="Data/Shapes/Orb1.png"       iconSize="5.05"/>
+    <!-- ========== Soo-Won's Void Beam (50) ========== -->
+    <POI xpos="-2.371" ypos="391.723" zpos="-509.677" GUID="4krgI7b8VU+sjwukYI5cJg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="-2.371" ypos="391.723" zpos="-509.677" GUID="3P7/3eYbF0O2df0SANEUiQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="-1.590" ypos="391.723" zpos="-500.822" GUID="nGfkbJOIgkiAzr7UF+wogg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="-1.590" ypos="391.723" zpos="-500.822" GUID="t4t5Of6H6EWBExMjT0ZVtQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="-0.809" ypos="391.723" zpos="-491.966" GUID="PHlz1+fK9k+ukOROpeQqnw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="-0.809" ypos="391.723" zpos="-491.966" GUID="AjRYzg+p/kSyLrUWMnrD9w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="1.732"  ypos="391.723" zpos="-510.040" GUID="esugJbKNo06QfNR2T9vBEg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="1.732"  ypos="391.723" zpos="-510.040" GUID="Dl5kIk4hc0KoJjKb+L1WPw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="7.021"  ypos="391.723" zpos="-544.551" GUID="kvng2wblKUKN6poPIXbl0g==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="7.021"  ypos="391.723" zpos="-544.551" GUID="186sby0IDEyJMo3lT1qlUg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="2.668"  ypos="391.723" zpos="-501.199" GUID="6mJ9yebzB0SrfNYJuw8WeA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="2.668"  ypos="391.723" zpos="-501.199" GUID="Es1oh9zOjUKuXwGG/Hr2bA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="3.604"  ypos="391.723" zpos="-492.358" GUID="6ZuIUJ2crEGPi2Bqzoa3MA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="3.604"  ypos="391.723" zpos="-492.358" GUID="Yb5kgPWa5ESVypjT2EFZHw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="19.317" ypos="391.723" zpos="-535.687" GUID="JuUQktz3YkC2cO3Gexoiqg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="19.317" ypos="391.723" zpos="-535.687" GUID="f1jq7Kf3wEiq5HU0h0Nb4w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="4.539"  ypos="391.723" zpos="-483.518" GUID="D1ETmo1Oyk6A76HSMMtgEA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="4.539"  ypos="391.723" zpos="-483.518" GUID="PGRGkGF5lEitU2j1wDq92Q==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="5.836"  ypos="391.723" zpos="-510.403" GUID="meRwkYEoj0SwiDIr2G/x+A==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="5.836"  ypos="391.723" zpos="-510.403" GUID="oK3ZHlqFFUOjNytLbNCAzw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="6.926"  ypos="391.723" zpos="-501.580" GUID="Mqu98SASy0uODfW8w4Bxqg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="6.926"  ypos="391.723" zpos="-501.580" GUID="txDhBW+CIUmjEx9T4+afxw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="8.016"  ypos="391.723" zpos="-492.757" GUID="T7KF04kdFEqVQ2KzJh0wwQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="8.016"  ypos="391.723" zpos="-492.757" GUID="Uo/WOJ90TECE5zhMzTI9Cg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="9.105"  ypos="391.723" zpos="-483.934" GUID="Jox8ZZogvkKMXjF+Qlgr3w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="9.105"  ypos="391.723" zpos="-483.934" GUID="Lw6MShbXGUKf/OmtOp0nWQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="9.939"  ypos="391.723" zpos="-510.767" GUID="VkRKL/FUhEOc7Ah0cq0fvg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="9.939"  ypos="391.723" zpos="-510.767" GUID="bekpd70JhUCbNHKsKiWqPw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="11.182" ypos="391.723" zpos="-501.965" GUID="YnS5R790Kk2trEBP/UUujw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="11.182" ypos="391.723" zpos="-501.965" GUID="EDZQF9eCJUOLeGMBeh4Wkw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="17.519" ypos="391.723" zpos="-546.512" GUID="sc2tWI9/CkWcbjjEXEgxTQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="17.519" ypos="391.723" zpos="-546.512" GUID="5mhmd2MRmUe/FnnPJF07ow==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="10.351" ypos="391.723" zpos="-524.284" GUID="RLLcY4a6L0eBUMhSkCC5hw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="10.351" ypos="391.723" zpos="-524.284" GUID="dQBoCnRQ4EmS8qbKESQ8ew==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="12.426" ypos="391.723" zpos="-493.162" GUID="9ufSgFJwxkWKgdBXBseeDQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="12.426" ypos="391.723" zpos="-493.162" GUID="1/YLqIwGxUa9eEuvldZk9w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="13.669" ypos="391.723" zpos="-484.359" GUID="iG06iUB2hkWZspkB90p/ZA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="13.669" ypos="391.723" zpos="-484.359" GUID="/hVqQICtgkK52URpw94Isg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="14.042" ypos="391.723" zpos="-511.133" GUID="MupGFQOEgUm7LsCo8EgP7w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="14.042" ypos="391.723" zpos="-511.133" GUID="k3SjiEYONU2kOAKmZTz+gQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="15.437" ypos="391.723" zpos="-502.353" GUID="zPwBJEZ6jUOGjrbXmxaHDA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="15.437" ypos="391.723" zpos="-502.353" GUID="Ju00ThkQQkOvIzLmAL/HIQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="16.833" ypos="391.723" zpos="-493.573" GUID="tAKZbO7JlU6qMzyaaCF67w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="16.833" ypos="391.723" zpos="-493.573" GUID="5Bz+bu/RDEuO6Sp2jMgvgA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="18.229" ypos="391.723" zpos="-484.793" GUID="HE9eoGL0k0uwPGsNpJ1wSA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="18.229" ypos="391.723" zpos="-484.793" GUID="TEurZs8y8EymZnoamzWJqg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="18.145" ypos="391.723" zpos="-511.499" GUID="9BX0VOYNFkOqKgxcboXlCA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="18.145" ypos="391.723" zpos="-511.499" GUID="U/RR83oaR0WVNvf4pneMQw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="29.319" ypos="391.723" zpos="-537.524" GUID="qgNervNbUkeNfphX2xPxGQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="29.319" ypos="391.723" zpos="-537.524" GUID="CVOUZDOb40+c3qkSksqHpw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="19.695" ypos="391.723" zpos="-502.745" GUID="i0bMctIfB0e6wDq69LS1iw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="19.695" ypos="391.723" zpos="-502.745" GUID="DcmziOzUVUOrRzkAM184gg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="20.671" ypos="391.723" zpos="-525.454" GUID="uDmF/KPlrUCeZUopZwykmg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="20.671" ypos="391.723" zpos="-525.454" GUID="ninQ8LHytUeuROpStp24DQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="21.245" ypos="391.723" zpos="-493.991" GUID="f1XoESHC80mK2IRVuOn9MQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="21.245" ypos="391.723" zpos="-493.991" GUID="TIcD57Yj90W+RN7C/rdPxw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="22.185" ypos="391.723" zpos="-515.417" GUID="nDE2TLrUtUO8aGGNeIiSAA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="22.185" ypos="391.723" zpos="-515.417" GUID="ff/yyDQgH0SbtLVOWsSWXA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="22.796" ypos="391.723" zpos="-485.237" GUID="LBGad9r53UiJL0ztsFZyFg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="22.796" ypos="391.723" zpos="-485.237" GUID="f7qtFRPCDEOVUPxJp29SNQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="22.247" ypos="391.723" zpos="-511.866" GUID="+t7dSQoCqUS3LdDh8tpg4g==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="22.247" ypos="391.723" zpos="-511.866" GUID="OjBiqWa7zUaKG0uTJ7XJ0g==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="23.948" ypos="391.723" zpos="-503.140" GUID="e9Wbols8REqNo/Xqcch3bA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="23.948" ypos="391.723" zpos="-503.140" GUID="MNLUUXFFgkG+z3RxfNuWaA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="25.648" ypos="391.723" zpos="-494.414" GUID="p4etJQilaE+CcK9uH4Fl/w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="25.648" ypos="391.723" zpos="-494.414" GUID="E2m9H8ktk06mlfA99YigrQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="27.709" ypos="391.723" zpos="-547.885" GUID="+w1Nfam7TkKVsTHUWfXwig==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="27.709" ypos="391.723" zpos="-547.885" GUID="rz3xfOhgOUyUyJ1ybTwZIQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="27.349" ypos="391.723" zpos="-485.688" GUID="TWXdeBNEwkWoepfoPhiaoA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="27.349" ypos="391.723" zpos="-485.688" GUID="BbvVF8WAtUGZfv5YPnTCLw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="26.350" ypos="391.723" zpos="-512.234" GUID="uPe4ue2iwEOc89CP8fPEDA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="26.350" ypos="391.723" zpos="-512.234" GUID="D45dQN360kSATOkx3eBUrA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="28.204" ypos="391.723" zpos="-503.539" GUID="fXj6PdESYkmyxbwGzX2UXQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="28.204" ypos="391.723" zpos="-503.539" GUID="Y7Xj+m1Y0EOF3vUMod3p5A==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="30.057" ypos="391.723" zpos="-494.845" GUID="G8k6I6eOM0SiXd3w0gF6wg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="30.057" ypos="391.723" zpos="-494.845" GUID="GC2oEnL0b0mUBPQXu4dtwQ==" type="hmpSim.htcm_c1.sc2.d6.atk5"iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="31.911" ypos="391.723" zpos="-486.150" GUID="7C+vc7dkOEaNfMKzVEVUhg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="31.911" ypos="391.723" zpos="-486.150" GUID="QOfpOt3BbUSnqPKlmFjN4A==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="30.452" ypos="391.723" zpos="-512.603" GUID="/EixnyT2vEmpJaJTexZw1w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="30.452" ypos="391.723" zpos="-512.603" GUID="lQH65IaCck6v6cwkdC1JPw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="32.227" ypos="391.723" zpos="-517.281" GUID="77HyuePSnUuN/f7arjBDgQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="32.227" ypos="391.723" zpos="-517.281" GUID="M9T/HWgB7kW8w2nZV9e6Bg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="32.457" ypos="391.723" zpos="-503.942" GUID="+R8t3xwVnEmkZETZMo1Osg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="32.457" ypos="391.723" zpos="-503.942" GUID="jDxt3+d2lE6atPu54L2Zsg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="30.659" ypos="391.723" zpos="-527.390" GUID="TuyCdcRh90qR0ZvetzxhZg==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="30.659" ypos="391.723" zpos="-527.390" GUID="kWdKYmtKtEStfAoP7KvJ8A==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="34.462" ypos="391.723" zpos="-495.281" GUID="zO8uvLBmK0+3J3q7FzLtKw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="34.462" ypos="391.723" zpos="-495.281" GUID="9bIdd+mEJ0S1nmwVbnfn6Q==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="39.169" ypos="391.723" zpos="-539.172" GUID="tcWbk1hTf02BFtAQm9VXVw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="39.169" ypos="391.723" zpos="-539.172" GUID="te/fMd+fEk6O8t61JQVTYQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="34.554" ypos="391.723" zpos="-512.973" GUID="t8ZzvmkwC0mvdKAKOYa6DQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="34.554" ypos="391.723" zpos="-512.973" GUID="itjt8blbZUaI5zSWkuDELQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="36.709" ypos="391.723" zpos="-504.348" GUID="hhXkfYNj8USL8HS1kwx1iA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="36.709" ypos="391.723" zpos="-504.348" GUID="ftxvgpyO5EeUkLWku+C8aA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="38.865" ypos="391.723" zpos="-495.723" GUID="AeUSZcw0y0WRhmGtKiArTQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="38.865" ypos="391.723" zpos="-495.723" GUID="bK/vOKJzC0qfGS9t7pQjUw==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="42.506" ypos="391.723" zpos="-518.797" GUID="k1yICuc6t0+37yfwaRT4VQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="42.506" ypos="391.723" zpos="-518.797" GUID="793yTqel10ShujjJTmpqGQ==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <POI xpos="40.977" ypos="391.723" zpos="-528.950" GUID="kww7DoQibkCK+gcTvGnExA==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/CircleFill.png" alpha="0.35"/>
+    <POI xpos="40.977" ypos="391.723" zpos="-528.950" GUID="S76PEUv9jUSMlnEWJQj49w==" type="hmpSim.htcm_c1.sc2.d6.atk5" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- ========== Magic Hail Projectiles ========== -->
+    <POI GUID="Q2NyhydSEEmdKiZfN7bh1g==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="jr8iBSi82kGvpYel7N1joA==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="n13rI6z7kUOFqBoNWYGnAA==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="5Sza//b79UmgQNIpxVMnHQ==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="rPXaKsrMtEiYAR17RuqMWw==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="93XRb9WOl0y6Qz5mULM7NQ==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="aIoTKTfk+EK7HEbFoo+mVg==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    <POI GUID="SsRuRwX3+Uqw1loADCTRLA==" type="hmpSim.htcm_c1.sc2.d6.atk6"/>
+    
+    
+    <!-- ======================================== ENEMIES ======================================== -->
+    <!-- ===== Giants (Border, Pic, Text) ===== -->
+    <!-- Giant #1 -->
+    <POI GUID="PFNOWryHdUihMR4Mv1Wkfg==" type="hmpSim.htcm_c1.sc3.d5_1"                  iconFile="Data/Shapes/Orb1.png"         rotate-x="180"/>
+    <POI GUID="IcyDTc0klUqG80CC2sNpMg==" type="hmpSim.htcm_c1.sc3.d5_1" heightOffset="2" iconFile="Data/Sim/pic-void-giant.png"  iconSize="1"/>
+    <POI GUID="PAx1ImC1M0qBHVWKjageTA==" type="hmpSim.htcm_c1.sc3.d5_1" heightOffset="2" iconFile="Data/Sim/text-void-giant.png" iconSize="1.5"/>
+    <!-- Giant #2 -->
+    <POI GUID="ww/V6k1WtUut15myhG3zjg==" type="hmpSim.htcm_c1.sc3.d5_1"                  iconFile="Data/Shapes/Orb1.png"         rotate-x="180"/>
+    <POI GUID="XR0G0OzGukSYN2KARuMs+A==" type="hmpSim.htcm_c1.sc3.d5_1" heightOffset="2" iconFile="Data/Sim/pic-void-giant.png"  iconSize="1"/>
+    <POI GUID="PvAM6XP/L0mdoQ6NpU5rfQ==" type="hmpSim.htcm_c1.sc3.d5_1" heightOffset="2" iconFile="Data/Sim/text-void-giant.png" iconSize="1.5"/>
+    <!-- Giant #3 -->
+    <POI GUID="DI0jRvgpWUmh/4DiIoBJOA==" type="hmpSim.htcm_c1.sc3.d5_1"                  iconFile="Data/Shapes/Orb1.png"         rotate-x="180"/>
+    <POI GUID="UT98xnXX7U6eD4FN+XrPYg==" type="hmpSim.htcm_c1.sc3.d5_1" heightOffset="2" iconFile="Data/Sim/pic-void-giant.png"  iconSize="1"/>
+    <POI GUID="ZNSTGK+nnUivAQiTROTEmA==" type="hmpSim.htcm_c1.sc3.d5_1" heightOffset="2" iconFile="Data/Sim/text-void-giant.png" iconSize="1.5"/>
+    <!-- ===== Attack Indicators (Fill, Border, atkFill, atkBorder)-->
+    <!-- Giant #1 AoE's-->
+    <POI GUID="jBZCyrTPAk6+MHLHAgoUFw==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.15" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="V23B5B6vO0asBe8GhX4DNA==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb10.png"          rotate-x="180"/>
+    <POI GUID="wCZoJQ1udUC7sORilsktMw==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.15" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="8HdNuHPtnkKlL6VCwmLG6g==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb10.png"          rotate-x="180"/>
+    <POI GUID="HeY9NMhGe0SH65hIKaoM9g==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.35" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="nZz80ZDtTE20HM+NenBdbg==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb5.png"           rotate-x="180"/>
+    <!-- Giant #2 AoE's -->
+    <POI GUID="K71Kv9ReMk2bLGtOTI80Dw==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.15" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="jHHsV7G2PU24whRydZJbKA==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb10.png"          rotate-x="180"/>
+    <POI GUID="s0vQYkz7vU2woI+g0PklPA==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.15" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="GHsFv6hPfUGhJSogULsldA==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb10.png"          rotate-x="180"/>
+    <POI GUID="PNDQ3bg870uNv2l35xYQrg==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.35" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="TI0MEKDOiUywGckhAsaA+g==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb5.png"           rotate-x="180"/>
+    <!-- Giant #3 AoE's -->
+    <POI GUID="MpTt3MJX2kOzNS4Sz+tNdg==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.15" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="6YM30eM+dkGZz0kmMdL4mw==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb10.png"          rotate-x="180"/>
+    <POI GUID="vzDN9nTTx0eZQdt/diZZ6Q==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.15" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="1Les3HudK0mZ5SH1Bgs0Ww==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb10.png"          rotate-x="180"/>
+    <POI GUID="+4C/Me1e6E6uhCicFdOwQQ==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.35" iconFile="Data/Shapes/CircleFill.png" rotate-x="180"/>
+    <POI GUID="EenxvTE9rkabAM3gsXMQhA==" type="hmpSim.htcm_c1.sc3.d5_1" alpha="0.85" iconFile="Data/Shapes/Orb5.png"           rotate-x="180"/>
+    <!-- ========== Zhaitan's Reach (Wurms) ========== -->
+    <!-- Wurm Picture, Wurm Text | 1/2/3 -->
+    <POI GUID="tNoDPyZM7km34XOUM617Ow==" type="hmpSim.htcm_c1.sc3.d5_2" iconFile="Data/Sim/D5-Zhaitan's Reach.png"      iconSize="1"/>
+    <POI GUID="beJbUBJFAEOiZbVoYE7NEw==" type="hmpSim.htcm_c1.sc3.d5_2" iconFile="Data/Sim/text-zhaitans-reach.png" iconSize="1.25"/>
+    <POI GUID="lMArybEGt0+SUGFwnDoKZQ==" type="hmpSim.htcm_c1.sc3.d5_2" iconFile="Data/Sim/D5-Zhaitan's Reach.png"      iconSize="1"/>
+    <POI GUID="4BLJBofcmkiI3zMvS8NtcA==" type="hmpSim.htcm_c1.sc3.d5_2" iconFile="Data/Sim/text-zhaitans-reach.png" iconSize="1.25"/>
+    <POI GUID="0uvuUCUD40+k8ezbzP91Ug==" type="hmpSim.htcm_c1.sc3.d5_2" iconFile="Data/Sim/D5-Zhaitan's Reach.png"      iconSize="1"/>
+    <POI GUID="AzbFQmOq6EKKl/O9LqDY3w==" type="hmpSim.htcm_c1.sc3.d5_2" iconFile="Data/Sim/text-zhaitans-reach.png" iconSize="1.25"/>
+    <!-- Wurm Attack Markers | 1/2/3 -->
+    <POI GUID="Hz49zxMqPEWmQe73BXfS0g==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="qOBi/kBddE27X/oKvdPW1A==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="3FlLRNlyo0an1lCQ8yl/dA==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="8rq0c6jFskqa7RgJJq1wrg==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="5itZHLQLU0mSmDd3HP+Snw==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="DrFPlpWxokqHqK4dNKNnyw==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="vp5bAPJ1KkWgIEWIWZhbnA==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="XEYTagWVSUmOPW7W6/LsuA==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="WIsnw7H4PkCwwpejuT6IRg==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="ZgML3nJyDEy7x3MilA9sjQ==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="FUXSybpqckOks4XCQDcgNw==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    <POI GUID="lXXiiOvG10SjvYV8IGsbdQ==" type="hmpSim.htcm_c1.sc3.d5_2" rotate-x="180"/>
+    
+    
+    <!-- ======================================== PLAYER STATES ======================================== -->
+    <!-- ========== Debuffs ========== -->
+    <POI GUID="zgdl0KGM7kuZtBoc3URkuA==" type="hmpSim.htcm_c1.sc4.db_1"/>
+    <POI GUID="gsNEZG4VYUWG0FcemoktDg==" type="hmpSim.htcm_c1.sc4.db_2"/>
+    <POI GUID="46VKXJaVcE6lDX78SkXzQg==" type="hmpSim.htcm_c1.sc4.db_3"/>
+    <POI GUID="omb6xqYTmUi2Nprh/KFATQ==" type="hmpSim.htcm_c1.sc4.db_4"/>
+    <!-- ========== General States ========== -->
+    <POI GUID="P41viKF8YE2989KZwIRozA==" type="hmpSim.htcm_c1.sc4.ps_1"/>
+    <POI GUID="/Uviem1QzEW5urPkn+3N2w==" type="hmpSim.htcm_c1.sc4.ps_2"/>
+    
+    
+    <!-- ======================================== PURIFICATION ======================================== -->
+    <!-- ========== Circles ========== -->
+    <POI GUID="/ceny5gbu0eyUvK08qc0tw==" type="hmpSim.htcm_c1.sc5.p_1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="6a5gvTEDT0S/PqgcEz9VsQ==" type="hmpSim.htcm_c1.sc5.p_1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="kOohStyT8kqJd0C06K+Waw==" type="hmpSim.htcm_c1.sc5.p_1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="27PUL+KBUUqVWgvZAgBiUQ==" type="hmpSim.htcm_c1.sc5.p_1" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="9lGa+jTYR06tALXScHG0KA==" type="hmpSim.htcm_c1.sc5.p_1" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="kZx2tJZ4bkGg+DKcV8lecg==" type="hmpSim.htcm_c1.sc5.p_1" iconFile="Data/Shapes/Orb5.png"/>
+    <!-- ========== Lightning of Jormag ========== -->
+    <POI GUID="l23YiV7DiUymelZLD8xuZA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="LiIIJu7dR0W6wqK4SoD0LA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="CyFt0LfuE0Ce28j4nnDAeA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="j2PxBnTaVUWoqY/4zY9Nmg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="+VxEzmqtbkqqHGQgbJaAHA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="H3Ok+TwUe0m/R8O6TyACzQ==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="C7UV/5zj7kOj9uL1xTMqRg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="SToWajCxMUmA/iBGpLXi/A==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="hataF6ZxhkS9OCttjLc8UA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="EOxZS8DPpUy6NtjseCcAtA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="S3eHRGmMIUKyzieWN/326Q==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="vJXzrBhGQkixcZWn7TttHA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="pcJtKS4yXEic4IPHNrpcCA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="FlaDJPDDfEO+dmdMfmdEAQ==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="QZLv6VMjdkSETiY/KdEsHw==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="9IGHe/KRfUCrdZc8N7H4xw==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="0rJOu67Q4Uu2xPVs68aONg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="0Ty3qLpmT0ujewEU0fZvzQ==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="8mhvCwh1wkmBNrRv/UOibg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="yx2pvE99o0+AgOsf+HyWsw==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="nmDCbv2GGk68hy/AxzqLiQ==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="GLOTEubBwUOxycmfg0Zcqg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="c+moTeVokkmqwlXb6qMGIw==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="tDhuaaNbv0y7bV7Oykfe3g==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="ufqQBLgfdEmNJvWIuJgAHg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="KOzXjsmkME2mOQAQNDm+fg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="0UaPiCXdWU6VnRQC69yHHA==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    <POI GUID="uVQnn2PYRkOEB06LSRkGmg==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/CircleFill.png" alpha="0.25"/>
+    <POI GUID="vG3276J65EuAQcl7osAOww==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/Orb5.png"/>
+    <POI GUID="DLkNfxMKN0K9LbP6Vf1ewQ==" type="hmpSim.htcm_c1.sc5.p_2" iconFile="Data/Shapes/BigWhiteLine1.png"  iconSize="15" rotate-x="90" heightOffset="15"/>
+    
+    
+    <!-- ========== Dragon Orbs ========== -->
+    <!-- (1) | Attack Indicator, Ball, AoE -->
+    <POI GUID="4nRFn2Y66E+tmKu+hJwdPw==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/CircleFill.png" alpha="0.25" rotate-x="180"/>
+    <POI GUID="OLAseYXn/EOOWLChCewGKw==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/Orb1.png"                    rotate-x="180"/>
+    <POI GUID="0rbke9YKjEKs9SkHXnY1NQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Sim/StrB10-Orb-g.png" heightOffset="2.5"/>
+    <!-- (2) | Attack Indicator, Ball, AoE -->
+    <POI GUID="azV5ETz2h0KTqjuep5Mlew==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/CircleFill.png" alpha="0.25" rotate-x="180"/>
+    <POI GUID="wFOhD8efLEqUo3QDx7cNAQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/Orb1.png"                    rotate-x="180"/>
+    <POI GUID="0zreIF/j6EW2TDoN3XiaYA==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Sim/StrB10-Orb-g.png" heightOffset="2.5"/>
+    <!-- (3) | Attack Indicator, Ball, AoE -->
+    <POI GUID="XJ/OBEKyQ0WE4qAe2jE0pQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/CircleFill.png" alpha="0.25" rotate-x="180"/>
+    <POI GUID="Lr0hFLasvkqkSDAeqqHCgQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/Orb1.png"                    rotate-x="180"/>
+    <POI GUID="1J9J3WYtF06chXQCkuy7zA==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Sim/StrB10-Orb-g.png" heightOffset="2.5"/>
+    <!-- (4) | Attack Indicator, Ball, AoE -->
+    <POI GUID="lV5F/D9McUKmFzpfPvM+wQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/CircleFill.png" alpha="0.25" rotate-x="180"/>
+    <POI GUID="GO9dJlpr8E+I4fhd0KjstQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/Orb1.png"                    rotate-x="180"/>
+    <POI GUID="pAjUUuaZ20yEF4GtMMkMyw==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Sim/StrB10-Orb-g.png" heightOffset="2.5"/>
+    <!-- (5) | Attack Indicator, Ball, AoE -->
+    <POI GUID="zZeaV5hGp0i0fUAoPG4l1w==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/CircleFill.png" alpha="0.25" rotate-x="180"/>
+    <POI GUID="vmHmJ/RSUkif5IvGaJ4jnQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/Orb1.png"                    rotate-x="180"/>
+    <POI GUID="boR+VswNQUCV46Sa+UqkQQ==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Sim/StrB10-Orb-g.png" heightOffset="2.5"/>
+    <!-- (6) | Attack Indicator, Ball, AoE -->
+    <POI GUID="6Ut8sw1nLkyG8QyUV/kdDw==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/CircleFill.png" alpha="0.25" rotate-x="180"/>
+    <POI GUID="UYFtaW47L0Cyho2naDvVEA==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Shapes/Orb1.png"                    rotate-x="180"/>
+    <POI GUID="ewt2xHg1P0WnCb69ZXDOAg==" type="hmpSim.htcm_c1.sc5.p_4" iconFile="Data/Sim/StrB10-Orb-g.png" heightOffset="2.5"/>
+    
+    
+    <!-- ======================================== GENERAL ======================================== -->
+    <!-- Target Indicator -->
+    <POI xpos="15.5556119999695" ypos="393.223" zpos="-554.694400573024" GUID="HjkU5LzznE+Ng/NPc5CCWw==" type="hmpSim.htcm_c1.sc6.asc1" iconFile="Data/Sim/2522291.png"/>
+    <POI xpos="15.5556119999695" ypos="393.223" zpos="-554.694400573024" GUID="Y0Ej0mM2302saQmfKIFbzA==" type="hmpSim.htcm_c1.sc6.asc1" iconFile="Data/Sim/2522289.png"/>
+    <!-- Mordy Wave Player Jump Positions -->
+    <POI GUID="NSSL12ObOUuE9NQa01s3Bw==" type="hmpSim.htcm_c1.sc6.d4_playerPos" color="30d91a"/>
+    <POI GUID="4VfiNxjIdUiR0Kt7srhcnw==" type="hmpSim.htcm_c1.sc6.d4_playerPos" color="cc7a16"/>
+    <!-- Phase Titles -->
+    <POI MapID="1437" xpos="15.3591026162052" ypos="391.723" zpos="-518.036474472949" GUID="OJcRXfwjCke2koxPLreeXg==" type="hmpSim.htcm_main" iconFile="Data/Sim/Titles/Start.png" heightOffset="4.5" iconSize="2.5"/>
+    
+  </POIs>
+</OverlayData>

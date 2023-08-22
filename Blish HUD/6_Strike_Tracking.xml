@@ -57,6 +57,8 @@
 
   <POIs>
   <!-- ====================================================================== DAILY STRIKES / SCRIPT MARKERS / TITLES ====================================================================== -->
+  <!-- Stupid marker -->
+  <POI MapID="1428" xpos="-790.1943" ypos="9.807883" zpos="440.5246" GUID="5JGYjSPnjUWjibeWHM2M6g==" iconFile="Data/General/empty.png" script-once="SetEOD_StrikeTextures" autoTrigger="1" triggerRange="9999"/>
   <!-- Titles -->
   <POI MapID="1428" xpos="-815.772" ypos="17.700"  zpos="409.145"  GUID="r4PNILi5GkGaY6vsPUbBeg==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Data/General/empty.png"    iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
   <POI MapID="1428" xpos="-817.497" ypos="17.700"  zpos="410.860"  GUID="s4N9z1PQQUu+BqXsONAm8g==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Data/General/empty.png"    iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>

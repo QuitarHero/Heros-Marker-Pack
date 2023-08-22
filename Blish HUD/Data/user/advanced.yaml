@@ -1,0 +1,20 @@
+# A set of directory paths to also check for marker packs to load.
+marker-load-paths: []
+# If marker packs should be automatically optimized when they are downloaded.
+optimize-marker-packs: true
+# The debounce time for the copy attribute to auto trigger in milliseconds.
+copy-attribute-recharge-ms: 8000
+# The X offset (% of screen width) of the interact icon.
+interact-gear-x-offset: 0.620000005
+# The Y offset (% of screen height) of the interact icon.
+interact-gear-y-offset: 0.579999983
+# If the interact icon should spin or not.
+interact-gear-animation: true
+# The X offset of the info window in pixels.
+info-window-x-offset-pixels: 300
+# The Y offset of the info window in pixels.
+info-window-y-offset-pixels: 200
+# If the early hide feature based on camera movement should be used when the map closes.
+map-trigger-hide-from-camera: true
+# The Douglas Peucker error used by the trails shown on the minimap.
+map-trail-douglas-peucker-error: 0.200000003

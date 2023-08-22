@@ -4,7 +4,7 @@
 <OverlayData>
 <!-- ======================================== TROUBLESHOOTING PEOPLE THAT DON'T KNOW THE NEW MARKER MENU LAYOUT ============================================================================================================ -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="Troubleshooting" DisplayName="HOVER OVER ME IF YOU SEE ME" tip-description="v2.3.0 Release&#xA;This marker pack is designed to only show categories from a single map at a time.&#xA;Please turn on 'Enable Smart Categories' in the Pathing Module Settings."/>
+    <MarkerCategory name="Troubleshooting" DisplayName="HOVER OVER ME IF YOU SEE ME" tip-description="v2.5.0 Release&#xA;This marker pack is designed to only show categories from a single map at a time.&#xA;Please turn on 'Enable Smart Categories' in the Pathing Module Settings."/>
   </MarkerCategory>
   
   <POIs>

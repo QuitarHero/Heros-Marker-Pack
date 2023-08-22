@@ -1,0 +1,12 @@
+# A set of maps to not render marker/trails onto the minimap.
+compass:
+- 935
+- 895
+- 934
+# A set of maps to not render marker/trails onto the fullscreen map.
+map:
+- 935
+- 895
+- 934
+# A set of maps to not render marker/trails in-game.
+world: []
