@@ -388,8 +388,11 @@
     <Trail trailData="Data/Boundary/W3B2-Bound.trl" animSpeed="0" alpha="0.85"                      type="HMP.W3_B2.c1"                                texture="Data/Boundary/RedLine.png"/>
     <!-- Green Circles -->
     <POI MapID="1156" xpos="-97.019"  ypos="148.556" zpos="255.827" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-97.019"  ypos="148.556" zpos="255.827" GUID="fhaeyOkgC0SweDMNHtlWzg==" type="HMP.W3_B2.c2" alpha="0.75" color="FFFFFF" iconFile="Data/General/dot-border.png"/>
     <POI MapID="1156" xpos="-81.049"  ypos="148.556" zpos="228.662" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-81.049"  ypos="148.556" zpos="228.662" GUID="1kMFZOLPCkS6JiJdIcz4YQ==" type="HMP.W3_B2.c2" alpha="0.75" color="FFFFFF" iconFile="Data/General/dot-border.png"/>
     <POI MapID="1156" xpos="-114.034" ypos="148.556" zpos="229.050" GUID="fg81J0pga0SNm4K8SUYn7Q==" type="HMP.W3_B2.c2"/>
+    <POI MapID="1156" xpos="-114.034" ypos="148.556" zpos="229.050" GUID="fg81J0pga0SNm4K8SUYn7Q==" type="HMP.W3_B2.c2" alpha="0.75" color="FFFFFF" iconFile="Data/General/dot-border.png"/>
     <!-- Rifts -->
     <POI MapID="1156" xpos="-109.084" ypos="148.551" zpos="251.514" GUID="4MohG8eTBU2qAk2/Ochs5w==" type="HMP.W3_B2.c3"/>
     <POI MapID="1156" xpos="-115.513" ypos="148.551" zpos="229.142" GUID="Fn3ecIHlnE6OHuCgXAKqrg==" type="HMP.W3_B2.c3"/>
