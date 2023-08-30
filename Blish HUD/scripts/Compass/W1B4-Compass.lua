@@ -108,7 +108,7 @@ local function tick_compassSabetha(gameTime)
   if(World:CategoryByType("HMP.W1_B4.c25.sc1"):IsVisible() and (player.Position - compass.bossPos):Length() < 110) then
     
     --"Begins" the Script
-    if(player.IsInCombat == false and compass.cannon == 0) then
+    if(player.IsInCombat == true and compass.cannon == 0) then
       resetSabCompass()
       compass.curTime = math.floor(gameTime.TotalGameTime.TotalSeconds)
       for i = 1, 3 do
@@ -145,7 +145,7 @@ local function tick_compassSabetha(gameTime)
     if(compass.cannon == 8) then animateCannon(compass.cannonPositions[4], compass.markers[4], timeDiff-compass.subtract, compass.cannonMech[2]) end
     
     --"Resets" the Script
-    if(player.IsInCombat == true and compass.cannon > 0 or timeDiff > compass.enrage) then resetSabCompass() end
+    if(player.IsInCombat == false and compass.cannon > 0 or timeDiff > compass.enrage) then resetSabCompass() end
   else
     resetSabCompass()
   end

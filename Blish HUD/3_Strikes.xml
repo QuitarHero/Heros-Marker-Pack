@@ -1056,4 +1056,45 @@
     <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="HMP=STRB11=C9"  type="HMP.StrB11_c9" iconFile="Data/Strikes/Slaying/OLC-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
   </POIs>
   
+<!-- ========================================= THE COSMIC OBSERVATORY (DAGDA) ==================================================================================================================================================================== -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="StrB12_c1" DisplayName="Max Melee"/>
+    <MarkerCategory name="StrB12_c3" DisplayName="Slaying" cull="CounterClockwise" iconSize="2.1" rotate="90,0,122" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- Max Melee -->
+    <Trail trailData="Data/Strikes/Testing.trl" texture="Data/Boundary/RedLine2.png" alpha="0.5" animSpeed="0" type="HMP.StrB12_c1"/>
+    <!-- Slaying -->
+    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="12903871290874==" type="HMP.StrB12_c3" iconFile="Data/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
+    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="12903871290874==" type="HMP.StrB12_c3" iconFile="Data/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+  </POIs>
+  
+<!-- ========================================= THE TEMPLE OF FEBE (CERUS) ==================================================================================================================================================================== -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="StrB13_c1" DisplayName="Max Melee" minimapVisibility="0" mapVisibility="0"/>
+    <MarkerCategory name="StrB13_c2" DisplayName="Embodiment Positions" iconFile="Data/General/dot.png" iconSize="1" rotate-x="180">
+      <MarkerCategory name="sc1" DisplayName="Despair"/>
+      <MarkerCategory name="sc2" DisplayName="Envy"/>
+      <MarkerCategory name="sc3" DisplayName="Gluttony"/>
+      <MarkerCategory name="sc4" DisplayName="Malice"/>
+      <MarkerCategory name="sc5" DisplayName="Rage"/>
+      <MarkerCategory name="sc6" DisplayName="Regret"/>
+    </MarkerCategory>
+    <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Data/Strikes/Slaying/Febe.png" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- Max Melee -->
+    <Trail trailData="Data/Strikes/StrB13-atkRange.trl" texture="Data/Boundary/RedLine.png" alpha="0.65" animSpeed="0" type="HMP.StrB13_c1"/>
+    <!-- Embodiment Positions -->
+    <POI MapID="1520" xpos="-12.4949898527055" ypos="177.1" zpos="-86.6954871844369" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc1" color="ff1100"/> <!-- Red -->
+    <POI MapID="1520" xpos="9.70629995859802"  ypos="177.1" zpos="-122.673805756145" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc2" color="ff00f7"/> <!-- Pink -->
+    <POI MapID="1520" xpos="-20.5459955651624" ypos="177.1" zpos="-102.980170230708" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc3" color="f6ff00"/> <!-- Yellow -->
+    <POI MapID="1520" xpos="-11.3319752807334" ypos="177.1" zpos="-121.739340260756" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc4" color="00ff15"/> <!-- Green -->
+    <POI MapID="1520" xpos="11.7183598720857"  ypos="177.1" zpos="-85.9835255688962" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc5" color="00eeff"/> <!-- Light Blue -->
+    <POI MapID="1520" xpos="22.8595050558673"  ypos="177.1" zpos="-103.363720183591" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc6" color="ff7b00"/> <!-- Orange -->
+    <!-- Slaying -->
+    <POI MapID="1520" xpos="11.60079" ypos="206.0636" zpos="-214.4242" GUID="12903847190267==" type="HMP.StrB13_c4"/>
+  </POIs>
 </OverlayData>
