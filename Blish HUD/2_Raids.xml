@@ -78,6 +78,63 @@
       <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c2"    DisplayName="Directions"          color="ffedb8" fadeFar="2750" fadeNear="2250"                                                 rotate-x="90"  mapDisplaySize="30"/>
       <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"                                  trailScale="1.5"/>
+      <MarkerCategory     name="c25"   DisplayName="Compass"       defaultToggle="0"    fadeFar="3500" fadeNear="3250"                                 iconSize="0.5"                 minimapVisibility="0" mapVisibility="0" tip-description="Only works if Lua Scripts are enabled.&#xA;This is a 'Timer' Compass, only showing&#xA;the relevant direction based on combat&#xA;duration.">
+        <MarkerCategory name="sc1" DisplayName="Enable Compass" tip-description="By default, the Compass Script always runs&#xA;so you can toggle it on/off mid-combat&#xA;and still have an accurate compass.&#xA;This disables that feature."/>
+        <MarkerCategory   name="sc2"   DisplayName="Mechanics"     tip-description="Changes timings based on your mechanic">
+          <MarkerCategory name="asc1"  DisplayName="All Cannons"   defaultToggle="1"/>
+          <MarkerCategory name="asc2"  DisplayName="1/3 Cannon"    defaultToggle="0"/>
+          <MarkerCategory name="asc3"  DisplayName="2/4 Cannon"    defaultToggle="0"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="Icon Display">
+          <MarkerCategory name="asc1" DisplayName="Directions"/>
+          <MarkerCategory name="asc2" DisplayName="Numbers" defaultToggle="0">
+            <MarkerCategory name="num1" DisplayName="Individual Numbers"                   tip-description="'1'-'4`, resetting after East finishes"/>
+            <MarkerCategory name="num2" DisplayName="1/3 and 2/4"        defaultToggle="0" tip-description="Shows '1/3' and '2/4' for relevant cannons"/>
+          </MarkerCategory>
+          <MarkerCategory name="asc3" DisplayName="Commander Markers" defaultToggle="0">
+            <MarkerCategory name="dir1" DisplayName="South">
+              <MarkerCategory name="cmdr1" DisplayName="Arrow"/>
+              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="0"/>
+              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="0"/>
+              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
+              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
+              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
+            </MarkerCategory>
+            <MarkerCategory name="dir2" DisplayName="West">
+              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr2" DisplayName="Circle"/>
+              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="0"/>
+              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
+              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
+              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
+            </MarkerCategory>
+            <MarkerCategory name="dir3" DisplayName="North">
+              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="0"/>
+              <MarkerCategory name="cmdr3" DisplayName="Heart"/>
+              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="0"/>
+              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
+              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
+              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
+            </MarkerCategory>
+            <MarkerCategory name="dir4" DisplayName="East">
+              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="0"/>
+              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr4" DisplayName="Square"/>
+              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
+              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
+              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
+              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
+            </MarkerCategory>
+          </MarkerCategory>
+        </MarkerCategory>
+      </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -152,6 +209,52 @@
     <POI MapID="1062" xpos="-171.633" ypos="62.066" zpos="88.843"   GUID="X2SbGwYOdUqy5ZTY69jvGA==" type="HMP.W1_B4.c2"                                iconFile="Data/General/w.png"                              tip-name="West"  inGameVisibility="0"/>
     <!-- Max Melee -->
     <Trail trailData="Data/Raids/sab_maxMelee.trl"  animSpeed="0" alpha="0.75"                      type="HMP.W1_B4.c3"                                texture="Data/Boundary/RedLine.png"/>
+    <!-- ===== Compass ===== -->
+    <!-- Main Markers -->
+    <POI MapID="1062" GUID="a2acF3HTSUK1AlGyYexRgw==" type="HMP.W1_B4.c25" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="oRixKYVN9UGXmGrylg3sYQ==" type="HMP.W1_B4.c25" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="1DbTIKzA7UWZxzyHF9hqBA==" type="HMP.W1_B4.c25" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="P4Tpysi/bUuO8w+jJA8aog==" type="HMP.W1_B4.c25" inGameVisibility="0"/>
+    <!-- Category Filler Markers -->
+    <POI MapID="1062" GUID="LzgeARiXGUOLQFuPSiIgEA==" type="HMP.W1_B4.c25.sc1"                 inGameVisibility="0"/>
+    <POI MapID="1062" GUID="UlJeoz95C0O6ikzooFY1ZA==" type="HMP.W1_B4.c25.sc2.asc1"            inGameVisibility="0"/>
+    <POI MapID="1062" GUID="GvoeXlCRJ022+n0FTF5yCA==" type="HMP.W1_B4.c25.sc2.asc2"            inGameVisibility="0"/>
+    <POI MapID="1062" GUID="FUUsjsYdkEGY9jD3mTU+ag==" type="HMP.W1_B4.c25.sc2.asc3"            inGameVisibility="0"/>
+    <POI MapID="1062" GUID="5GLgRdcUsUCQKF99/+RhmQ==" type="HMP.W1_B4.c25.sc3.asc1"            inGameVisibility="0"/>
+    <POI MapID="1062" GUID="minoObW+bkqUXRJOGPJEew==" type="HMP.W1_B4.c25.sc3.asc2.num1"       inGameVisibility="0"/>
+    <POI MapID="1062" GUID="7lAL2uUWzEyi9Ussz4Pjuw==" type="HMP.W1_B4.c25.sc3.asc2.num2"       inGameVisibility="0"/>
+    <POI MapID="1062" GUID="Iyd5QuQW/kufpJEAXPJ5gw==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr1" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="CwYSG4YIzU+NqsUTXeHQUw==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr2" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="RznNCsmzVUK6Pu7elpwamQ==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr3" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="T99+Ty6CS0SXlAjspp61fw==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr4" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="LLrvAoxOlUm0hdBCjaax1w==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr5" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="kzGECKlrTEGA5rtvdOR3cQ==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr6" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="sHBrpzycqkOblS4wlpb1Rg==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr7" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="vRJwDcM3N0KwOPzsacR9VQ==" type="HMP.W1_B4.c25.sc3.asc3.dir1.cmdr8" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="AkylR07TDEaqql3ximB8JA==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr1" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="fKCxGLhfF0254K7DJ3LwwQ==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr2" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="TjfSy4jn4k68XbaCkIBMHA==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr3" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="4/BYaQC1IESm/8AOy8CTKA==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr4" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="FFJu63ByOEq8WRv9poKing==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr5" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="MSSOzbjXykGDx3szVwOhJA==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr6" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="7VTjVNglxUug6jaDw3cKaQ==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr7" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="a8WW2rzzmUC4sUk3gbNIUw==" type="HMP.W1_B4.c25.sc3.asc3.dir2.cmdr8" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="E6mWilqNgkGuJUiTKKi8iA==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr1" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="4Hg5ZiO3A060MiNcJKuAUQ==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr2" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="o9Ls81j6W0GsQVswegloXA==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr3" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="qyreV4m63ket6qCCNiAoIg==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr4" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="yNLXWeFE0kawq36P0zgPKw==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr5" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="JclbpaTixEqAvK7JpepFwA==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr6" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="5DoNcUkTekqPjse0SEejVA==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr7" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="uwdyjcLODkSY6Tgc0Ge1Mw==" type="HMP.W1_B4.c25.sc3.asc3.dir3.cmdr8" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="mNR20i9n40SWkwRbbotKvw==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr1" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="kuCvlPtLQEOI1F0iEBNAtA==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr2" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="IYSmyDGSGEWV8/uhTZaSoQ==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr3" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="h/ybM+4EF0eqsqFVqtXZ4Q==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr4" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="TW/IwCdSPk+5/roXAx5NXg==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr5" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="6GQCMtuNdk2xkY7VV+uCNg==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr6" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="3ZIetWRTfU2z9CGES7TjqA==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr7" inGameVisibility="0"/>
+    <POI MapID="1062" GUID="r63BZB7NykufKX1iSdgF6w==" type="HMP.W1_B4.c25.sc3.asc3.dir4.cmdr8" inGameVisibility="0"/>
   </POIs>
   
   

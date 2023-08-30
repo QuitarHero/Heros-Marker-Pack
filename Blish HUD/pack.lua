@@ -19,6 +19,7 @@ else
     for i = 1, #files do Pack:Require(LoadLoc[1] .. files[i]) end
   else
     for _,v in ipairs(hmpMaps[3]) do
+      if(map == v and map == hmpMaps[3][2]) then Pack:Require("scripts/Compass/W1B4-Compass")
       if(map == hmpMaps[3][7]) then Pack:Require(LoadLoc[3] .. "Time") Pack:Require(LoadLoc[1] .. "W6-WeeklyEvent") end
     end
   end
