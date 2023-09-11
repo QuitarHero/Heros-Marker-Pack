@@ -470,10 +470,7 @@
 <!-- ======================================== BASTION OF THE PENITENT ====================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W4_B1" DisplayName="Cairn"                                      fadeFar="4000" fadeNear="3500"                                                                       mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Agony Spots"        alpha="0.75"                                           iconFile="Data/General/dot.png"     iconSize="0.5"  rotate="180,0,15"                                         script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
-        <MarkerCategory name="sc1"   DisplayName="Kite"/>
-        <MarkerCategory name="sc2"   DisplayName="No-Kite"            defaultToggle="0"/>
-      </MarkerCategory>
+      <MarkerCategory   name="c1"    DisplayName="Max Melee"                                  fadeFar="225"  fadeNear="175"                                      trailScale="1.5"/>
     </MarkerCategory>
     <MarkerCategory     name="W4_B3" DisplayName="Samarog">
       <MarkerCategory   name="c1"    DisplayName="Boundary"                                   fadeFar="600"  fadeNear="525"                                      trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
@@ -488,18 +485,11 @@
   </MarkerCategory>
   <POIs>
     <!-- ==================== Cairn ==================== -->
-    <!-- Agony Markers -->
-    <POI MapID="1188" xpos="369.295"  ypos="32.120"  zpos="52.475"  GUID="wedtPfCXTEugS91HgQoMkg==" type="HMP.W4_B1.c1.sc1"/>
-    <POI MapID="1188" xpos="359.920"  ypos="32.120"  zpos="50.043"  GUID="sKrUfpjhCkqx1MObpkeN/w==" type="HMP.W4_B1.c1.sc1"/>
-    <POI MapID="1188" xpos="361.518"  ypos="32.120"  zpos="63.235"  GUID="MPL7+6k9ok2ajPAdN+b7yA==" type="HMP.W4_B1.c1.sc1"/>
-    <POI MapID="1188" xpos="369.301"  ypos="32.120"  zpos="34.189"  GUID="xXkIzhbDjkC7KmaMBOeoag==" type="HMP.W4_B1.c1.sc1"/>
-    <POI MapID="1188" xpos="359.106"  ypos="32.120"  zpos="50.503"  GUID="AYCnJxIgn0+DxviFHb7TBg==" type="HMP.W4_B1.c1.sc2"/>
-    <POI MapID="1188" xpos="368.492"  ypos="32.120"  zpos="47.646"  GUID="edOmOFblmECujARKFnbbig==" type="HMP.W4_B1.c1.sc2"/>
-    <POI MapID="1188" xpos="362.802"  ypos="32.120"  zpos="46.023"  GUID="wka32siebUi9HZLbkKCgcA==" type="HMP.W4_B1.c1.sc2"/>
-    <POI MapID="1188" xpos="369.976"  ypos="32.120"  zpos="53.264"  GUID="a6gCOX4GC0CJfo9UZBapGQ==" type="HMP.W4_B1.c1.sc2"/>
+    <!-- Max Melee -->
+    <Trail trailData="Data/Raids/cairn_maxMelee.trl" animSpeed="0" alpha="0.75"                      type="HMP.W4_B1.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- ==================== Samarog ==================== -->
     <!-- Boundary -->
-    <Trail trailData="Data/Boundary/W4B3-Bound.trl" animSpeed="0" alpha="1"                         type="HMP.W4_B3.c1"     texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Boundary/W4B3-Bound.trl"  animSpeed="0" alpha="1"                         type="HMP.W4_B3.c1"     texture="Data/Boundary/RedLine.png"/>
     <!-- Door -->
     <POI MapID="1188" xpos="101.351"  ypos="105.300" zpos="115.941" GUID="AJnnDYZUAEGXGxOx3Zqchg==" type="HMP.W4_B3.c2"                                     rotate="155,0,50"  tip-name="Rubble for Door Key"/>
     <POI MapID="1188" xpos="57.325"   ypos="97.480"  zpos="53.245"  GUID="qZr3hbBj4U2M8eDHAVUo4Q==" type="HMP.W4_B3.c2"                                     rotate="120,0,-25" tip-name="Rubble for Door Key"/>
