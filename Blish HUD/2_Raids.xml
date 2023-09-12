@@ -558,6 +558,12 @@
         <MarkerCategory name="sc1"   DisplayName="In-Game"                                     fadeFar="3000" fadeNear="2500"                               iconSize="0.75" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
         <MarkerCategory name="sc2"   DisplayName="Minimap/Map"         defaultToggle="0"                                                                                                   mapDisplaySize="25" inGameVisibility="0"/>
       </MarkerCategory>
+      <MarkerCategory   name="c3"    DisplayName="Max Melee"           alpha="0.75"            fadeFar="300"  fadeNear="275"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0">
+        <MarkerCategory name="sc1"   DisplayName="Right Arm (Close)"/>
+        <MarkerCategory name="sc2"   DisplayName="Right Arm (Far)"/>
+        <MarkerCategory name="sc3"   DisplayName="Left Arm (Close)"/>
+        <MarkerCategory name="sc4"   DisplayName="Left Arm (Far)"/>
+      </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="W6_B2" DisplayName="Twin Largos"         cull="CounterClockwise" fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  mapDisplaySize="20" bounce-duration="112" bounce-height="-31" autoTrigger="1" triggerRange="43"/>
     <MarkerCategory     name="W6_B3" DisplayName="Qadim">
@@ -599,6 +605,11 @@
     <!-- Minimap/Map Markers -->
     <POI MapID="1303" xpos="-112.686" ypos="50.914" zpos="-281.767"  GUID="mNXeDVUuAkW9oBVEoUD+og==" type="HMP.W6_B1.c2.sc2" iconFile="Data/Raids/GS.png"                                          tip-name="Swords"/>
     <POI MapID="1303" xpos="-110.686" ypos="50.914" zpos="-375.214"  GUID="XDN1jfzRjES79mlybv0vrg==" type="HMP.W6_B1.c2.sc2" iconFile="Data/Raids/Shield.png"                                      tip-name="Shields"/>
+    <!-- Max Melee | Rclose, Rfar, Lclose, Lfar-->
+    <Trail trailData="Data/Raids/ca_RightClose.trl" animSpeed="0"                                    type="HMP.W6_B1.c3.sc1" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/ca_RightFar.trl"   animSpeed="0"                                    type="HMP.W6_B1.c3.sc2" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/ca_LeftClose.trl"  animSpeed="0"                                    type="HMP.W6_B1.c3.sc3" texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Raids/ca_LeftFar.trl"    animSpeed="0"                                    type="HMP.W6_B1.c3.sc4" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Twin Largos ========== -->
     <!-- Nikare Side (Main, Side)-->
     <POI MapID="1303" xpos="352.912"  ypos="18.759"  zpos="8.824"    GUID="EkOZxvmqB0KwE78EyDW5vg==" type="HMP.W6_B2"        iconFile="Data/Raids/W6B2-1.png"   rotate-z="240" heightOffset="15.5" tip-name="Nikare"/>
