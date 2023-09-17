@@ -29,11 +29,11 @@ else
   else
     for _,v in ipairs(hmpMaps[1]) do
       if(map == v and map == hmpMaps[1][3]) then --Harvest Temple
-        files = { c1 = "Throw Helper",
+        files = { c1 = { "Throw Helper", "StrB10_D2_SafeSpot" },
           c2 = { "Animate", "Position" },
           c3 = { "HT-Main", "HT-General", "HT-Enemies", "HT-P1", "HT-D1", "HT-D2", "HT-D3", "HT-P2", "HT-D4", "HT-D4-Practice", "HT-D5", "HT-P3", "HT-D6", "HT-P4" },
         }
-        Pack:Require(LoadLoc[1] .. files.c1)
+        for i = 1, #files.c1 do Pack:Require(LoadLoc[1] .. files.c1[i]) end
         for i = 1, #files.c2 do Pack:Require(LoadLoc[3] .. files.c2[i]) end
         for i = 1, #files.c3 do Pack:Require(LoadLoc[5] .. files.c3[i]) end
       end

@@ -341,6 +341,7 @@
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Data/General/s.png"          iconSize="1" rotate="90,0,0"/>
       <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Data/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory   name="sc5"  DisplayName="Primordus Safe Spot" alpha="0.6"                                    iconFile="Data/Shapes/PrimySafeSpot1.png" iconSize="15.27" rotate="0,0,0" tip-description="Only works if Lua Scripts are enabled."/>
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks"                                                          rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
@@ -475,6 +476,8 @@
     <POI MapID="1437" xpos="15.213" ypos="391.192" zpos="-555.102" GUID="HMP=STRIKEB10=C1=SC3"     type="HMP.strikeB10_c1.sc3"/>
     <!-- Slaying -->
     <POI MapID="1437" xpos="15.352" ypos="391.220" zpos="-481.393" GUID="HMP=STRIKEB10=C1=SC4"     type="HMP.strikeB10_c1.sc4"/>
+    <!-- Primordus Safe Spot -->
+    <POI MapID="1437" xpos="14.375" ypos="390.113" zpos="-543.570" GUID="jWwX9IzYeEWK/6ItALBYTw==" type="HMP.strikeB10_c1.sc5"/>
     
     <!-- ==================== DRAGONVOID ATACKS ==================== -->
     <!-- Primordus's Jaws of Destruction -->
