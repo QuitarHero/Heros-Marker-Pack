@@ -565,7 +565,6 @@
         <MarkerCategory name="sc4"   DisplayName="Left Arm (Far)"/>
       </MarkerCategory>
     </MarkerCategory>
-    <MarkerCategory     name="W6_B2" DisplayName="Twin Largos"         cull="CounterClockwise" fadeFar="2000" fadeNear="1750"                                               rotate-x="90"  mapDisplaySize="20" bounce-duration="112" bounce-height="-31" autoTrigger="1" triggerRange="43"/>
     <MarkerCategory     name="W6_B3" DisplayName="Qadim">
       <MarkerCategory   name="c1"    DisplayName="Boundary"                                    fadeFar="600"  fadeNear="450"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c2"    DisplayName="Pyres"                                       fadeFar="4000" fadeNear="3750"                               iconSize="0.75"                mapVisibility="0" minimapVisibility="0">
@@ -595,6 +594,21 @@
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
+  <MarkerCategory name="HMPscripts" DisplayName="Hero's Scripts">
+    <MarkerCategory name="W6_B2" DisplayName="Twin Largos Aide" MapID="1303" alpha="0.75" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" rotate-x="90" inGameVisibility="0" minimapVisibility="0" mapVisibility="0" tip-description="Only works while in combat.&#xA;Lowers markers on each platform&#xA;based on your display preferences.">
+      <MarkerCategory name="c0"  DisplayName="Enable Preview"/>
+      <MarkerCategory name="c1"    DisplayName="Display Options"   IsSeparator="1">
+        <MarkerCategory name="sc1" DisplayName="Show Geysers"      tip-description="Only useful for Challenge Mode."/>
+        <MarkerCategory name="sc2" DisplayName="Show Nikare"/>
+        <MarkerCategory name="sc3" DisplayName="Show Kenut"/>
+      </MarkerCategory>
+      <MarkerCategory name="c2"    DisplayName="Boss Icon Options" IsSeparator="1">
+        <MarkerCategory name="sc1" DisplayName="Icons"/>
+        <MarkerCategory name="sc2" DisplayName="Names"             defaultToggle="0"/>
+        <MarkerCategory name="sc3" DisplayName="Letter"            defaultToggle="0"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
   <POIs>
     <!-- ========== Conjured Amalgamate ========== -->
     <!-- Boundary -->
@@ -611,16 +625,47 @@
     <Trail trailData="Data/Raids/ca_LeftClose.trl"  animSpeed="0"                                    type="HMP.W6_B1.c3.sc3" texture="Data/Boundary/RedLine.png"/>
     <Trail trailData="Data/Raids/ca_LeftFar.trl"    animSpeed="0"                                    type="HMP.W6_B1.c3.sc4" texture="Data/Boundary/RedLine.png"/>
     <!-- ========== Twin Largos ========== -->
-    <!-- Nikare Side (Main, Side)-->
-    <POI MapID="1303" xpos="352.912"  ypos="18.759"  zpos="8.824"    GUID="EkOZxvmqB0KwE78EyDW5vg==" type="HMP.W6_B2"        iconFile="Data/Raids/W6B2-1.png"   rotate-z="240" heightOffset="15.5" tip-name="Nikare"/>
-    <POI MapID="1303" xpos="352.912"  ypos="32.059"  zpos="8.824"    GUID="EkOZxvmqB0KwE78EyDW5vg==" type="HMP.W6_B2"        iconFile="Data/Raids/nikare.png"   rotate-z="240" iconSize="2.45"     minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1303" xpos="294.891"  ypos="18.7677" zpos="56.7795"  GUID="wsPLZaSmeEW2H4c6vU/eUg==" type="HMP.W6_B2"        iconFile="Data/Raids/W6B2-1.png"   rotate-z="180" heightOffset="15.5" tip-name="Nikare"/>
-    <POI MapID="1303" xpos="294.891"  ypos="32.0677" zpos="56.7795"  GUID="wsPLZaSmeEW2H4c6vU/eUg==" type="HMP.W6_B2"        iconFile="Data/Raids/nikare.png"   rotate-z="180" iconSize="2.45"     minimapVisibility="0" mapVisibility="0"/>
-    <!-- Kenut Side (Main, Side)-->
-    <POI MapID="1303" xpos="380.974"  ypos="18.762"  zpos="8.720"    GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="HMP.W6_B2"        iconFile="Data/Raids/W6B2-2.png"   rotate-z="120" heightOffset="15.5" tip-name="Kenut"/>
-    <POI MapID="1303" xpos="380.974"  ypos="32.062"  zpos="8.720"    GUID="k2zyA8w6Ok+3T95+F9QHIw==" type="HMP.W6_B2"        iconFile="Data/Raids/kenut.png"    rotate-z="120" iconSize="2.45"     minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1303" xpos="439.996"  ypos="18.7957" zpos="56.9919"  GUID="D/AyTyRFW0qne5GceyMafQ==" type="HMP.W6_B2"        iconFile="Data/Raids/W6B2-2.png"   rotate-z="180" heightOffset="15.5" tip-name="Kenut"/>
-    <POI MapID="1303" xpos="439.996"  ypos="32.0957" zpos="56.9919"  GUID="D/AyTyRFW0qne5GceyMafQ==" type="HMP.W6_B2"        iconFile="Data/Raids/kenut.png"    rotate-z="180" iconSize="2.45"     minimapVisibility="0" mapVisibility="0"/>
+    <!-- Preview Markers -->
+    <POI xpos="342.092" ypos="38.808" zpos="-194.793" GUID="3GddgVFyaEucktVKexglxA==" type="HMPscripts.W6_B2.c0"/>
+    <POI xpos="345.201" ypos="38.808" zpos="-194.808" GUID="xdPyzy3oMkmfVHPi9nNlFQ==" type="HMPscripts.W6_B2.c0"/>
+    <POI xpos="348.493" ypos="38.808" zpos="-194.824" GUID="LlMF2llluUm64EFimmlhGQ==" type="HMPscripts.W6_B2.c0"/>
+    <POI xpos="345.201" ypos="41.808" zpos="-194.808" GUID="IsRwCNevXkqLvpK9/o+Z5Q==" type="HMPscripts.W6_B2.c0" iconFile="Data/General/Preview.png"        iconSize="3.5"/>
+    <POI xpos="342.092" ypos="37.308" zpos="-195.443" GUID="d1RlnxsM9km6y+noSvEaVQ==" type="HMPscripts.W6_B2.c0" iconFile="Data/Raids/W6B2/geyser-text.png" iconSize="1.25" rotate-x="180"/>
+    <POI xpos="345.201" ypos="37.308" zpos="-195.458" GUID="AKqZFYBB5UmrdtonnJHggA==" type="HMPscripts.W6_B2.c0" iconFile="Data/Raids/W6B2/nikare.png"      iconSize="1.25" rotate-x="180"/>
+    <POI xpos="348.493" ypos="37.308" zpos="-195.474" GUID="qCj7h5wIPUWVR30ppHLgEQ==" type="HMPscripts.W6_B2.c0" iconFile="Data/Raids/W6B2/kenut.png"       iconSize="1.25" rotate-x="180"/>
+    <!-- Nikare P1 -->
+    <POI xpos="366.827" ypos="33.25" zpos="-65.704"   GUID="uFMjTyXW3ka5eDy0NoHhxA==" type="HMPscripts.W6_B2"    rotate-z="180"/>
+    <POI xpos="347.802" ypos="33.25" zpos="-82.207"   GUID="qH5SvVuOB0m/ZXFAoQNwtw==" type="HMPscripts.W6_B2"    rotate-z="270"/>
+    <POI xpos="366.847" ypos="33.25" zpos="-98.506"   GUID="eT6Dybp89k6O3HZluVSugA==" type="HMPscripts.W6_B2"/>
+    <POI xpos="385.808" ypos="33.25" zpos="-82.182"   GUID="Au8+ZOn7Z0+uU8r5mulOXw==" type="HMPscripts.W6_B2"    rotate-z="90"/>
+    <!-- Kenut P1 -->
+    <POI xpos="352.557" ypos="33.25" zpos="8.919"     GUID="h/UIEZo4hkKJ+8geDOZCkA==" type="HMPscripts.W6_B2"    rotate-z="240"/>
+    <POI xpos="381.072" ypos="33.25" zpos="8.943"     GUID="5Af4bCPaHEmnE4iqPo2OkA==" type="HMPscripts.W6_B2"    rotate-z="120"/>
+    <POI xpos="366.842" ypos="33.25" zpos="-15.762"   GUID="aQbS3P0XuU+mAeAM5FG+wg==" type="HMPscripts.W6_B2"/>
+    <POI xpos="366.827" ypos="33.25" zpos="17.162"    GUID="Mg5kkCzDHUWu5pXYK/wvvA==" type="HMPscripts.W6_B2"    rotate-z="180"/>
+    <!-- Nikare P2 -->
+    <POI xpos="294.886" ypos="33.25" zpos="56.408"    GUID="TJThngoYGkm/+qATogAwkw==" type="HMPscripts.W6_B2"    rotate-z="180"/>
+    <POI xpos="309.177" ypos="33.25" zpos="31.818"    GUID="8NEULN+sTU2raaBInUc7ig==" type="HMPscripts.W6_B2"    rotate-z="60"/>
+    <!-- Nikare P3 -->
+    <POI xpos="313.941" ypos="33.25" zpos="125.386"   GUID="wu3qFb1RE0Gg3GrNIFaaIg==" type="HMPscripts.W6_B2"    rotate-z="90"/>
+    <POI xpos="294.940" ypos="33.25" zpos="108.902"   GUID="fA6M/vKB7UyHbx/s6cp46Q==" type="HMPscripts.W6_B2"/>
+    <POI xpos="275.919" ypos="33.25" zpos="125.350"   GUID="H46lyEijDkKM+B/2E9+WBA==" type="HMPscripts.W6_B2"    rotate-z="270"/>
+    <POI xpos="304.405" ypos="33.25" zpos="141.830"   GUID="SSHEbZ7wVEuYDK967ikroQ==" type="HMPscripts.W6_B2"    rotate-z="150"/>
+    <!-- Kenut P2 -->
+    <POI xpos="439.971" ypos="33.25" zpos="56.780"    GUID="7aXiDzTU60yBBhlDKe8TZg==" type="HMPscripts.W6_B2"    rotate-z="180"/>
+    <POI xpos="425.742" ypos="33.25" zpos="32.101"    GUID="YrTd9EAnYkOzcUclHhfVEQ==" type="HMPscripts.W6_B2"    rotate-z="300"/>
+    <!-- Kenut P3 -->
+    <POI xpos="420.906" ypos="33.25" zpos="125.638"   GUID="q7NIQqoIkkK/jYSRHkWzlw==" type="HMPscripts.W6_B2"    rotate-z="270"/>
+    <POI xpos="439.974" ypos="33.25" zpos="109.149"   GUID="avTdG2bmjEC7KoKMDqXw4Q==" type="HMPscripts.W6_B2"/>
+    <POI xpos="459.038" ypos="33.25" zpos="125.671"   GUID="vdCNNiMqK0+EAELQyLrWfA==" type="HMPscripts.W6_B2"    rotate-z="90"/>
+    <POI xpos="430.460" ypos="33.25" zpos="142.108"   GUID="MdAgWqWpqUm8th5I/dMu2A==" type="HMPscripts.W6_B2"    rotate-z="210"/>
+    <!-- Empty Markers to show categories to player -->
+    <POI xpos="0" ypos="0" zpos="0" GUID="dDwbM6VclUOyYydz9EIrmQ==" type="HMPscripts.W6_B2.c1.sc1" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI xpos="0" ypos="0" zpos="0" GUID="2l5dGNk/fkaIepAG/vrkKg==" type="HMPscripts.W6_B2.c1.sc2" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI xpos="0" ypos="0" zpos="0" GUID="a6s5r0Y+uUGQk0p1mkbeBg==" type="HMPscripts.W6_B2.c1.sc3" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI xpos="0" ypos="0" zpos="0" GUID="qwmI/1bhEU6AugyieDB5DA==" type="HMPscripts.W6_B2.c2.sc1" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI xpos="0" ypos="0" zpos="0" GUID="smdbvrRA5kqLSZkwPj4kkQ==" type="HMPscripts.W6_B2.c2.sc2" iconFile="Data/General/empty.png" inGameVisibility="0"/>
+    <POI xpos="0" ypos="0" zpos="0" GUID="P8xvuOudVE+bawacYVWD/Q==" type="HMPscripts.W6_B2.c2.sc3" iconFile="Data/General/empty.png" inGameVisibility="0"/>
     <!-- ========== Qadim ========== -->
     <!-- Boundary -->
     <Trail trailData="Data/Boundary/W6B3-Bound.trl" animSpeed="0" alpha="1"                          type="HMP.W6_B3.c1"     texture="Data/Boundary/RedLine.png"/>

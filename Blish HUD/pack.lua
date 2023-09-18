@@ -20,7 +20,7 @@ else
   else
     for _,v in ipairs(hmpMaps[3]) do
       if(map == v and map == hmpMaps[3][2]) then Pack:Require("scripts/Compass/W1B4-Compass")
-      if(map == hmpMaps[3][7]) then Pack:Require(LoadLoc[3] .. "Time") Pack:Require(LoadLoc[1] .. "W6-WeeklyEvent") end
+      if(map == hmpMaps[3][7]) then Pack:Require(LoadLoc[3] .. "Time") Pack:Require(LoadLoc[1] .. "W6-WeeklyEvent") Pack:Require(LoadLoc[3] .. "Animate") Pack:Require(LoadLoc[1] .. "W6_B2-Aide") end
     end
   end
   
