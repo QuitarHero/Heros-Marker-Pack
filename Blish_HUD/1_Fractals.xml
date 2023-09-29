@@ -1,0 +1,739 @@
+<!-- ======================================================================================================================= -->
+<!-- ============================================= QUITARHERO'S FRACTAL MARKERS ============================================ -->
+<!-- ======================================================================================================================= -->
+<OverlayData>
+<!-- ======================================== TROUBLESHOOTING PEOPLE THAT DON'T KNOW THE NEW MARKER MENU LAYOUT ============================================================================================================ -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="Troubleshooting" DisplayName="HOVER OVER ME IF YOU SEE ME" tip-description="v2.5.0 Release&#xA;This marker pack is designed to only show categories from a single map at a time.&#xA;Please turn on 'Enable Smart Categories' in the Pathing Module Settings."/>
+  </MarkerCategory>
+  
+  <POIs>
+    <POI MapID="0" xpos="0" ypos="0" zpos="0" GUID="TROUBLESHOOTINGHEROSMARKERPACK==" type="HMP.Troubleshooting" iconFile="Data/General/empty.png"/>
+  </POIs>
+  
+  
+  
+
+<!-- ======================================== AETHERBLADE ================================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_AB_c1" DisplayName="Electric Skip" cull="CounterClockwise" fadeFar="850"  fadeNear="600"                                       iconSize="0.55"                    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_AB_sy" DisplayName="Slaying"                                                                                                                                      mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"         cull="CounterClockwise" fadeFar="750"  fadeNear="500" iconFile="Data/Fracs/Slaying/AB1.png" iconSize="1.5"  rotate="105,0,50"  tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Last Room"     cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Data/Fracs/Slaying/AB2.png" iconSize="1.75" rotate="90,45,175" tip-description="Potion: Inquest&#xA;Sigils: Force, Mad Sct"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Electric Skip ========== -->
+    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="TeExJPcqu0qaos1t9NVy5Q==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/EleLF-1.png"    profession="elementalist" rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="uwRVcQkgVke4jzZz6hDVwQ==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/GrdTele-1.png"  profession="guardian"     rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="F5oW0w0+ukasi6lkro7aow==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/MesBlink-1.png" profession="mesmer"       rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="dtxmT3BQSUikRexkeAgEGQ==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/NecFW-1.png"    profession="necromancer"  rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-24.640" ypos="4.372"  zpos="99.736"  GUID="wwaSyv2TYEO7t6GcI9MV9A==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/RevSw5-1.png"   profession="revenant"     rotate="110,0,240"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="g08iEbRKekuJNe9pig7LSA==" type="HMP.F_AB_c1"    iconFile="Data/Class/Normal/ThfSB5-1.png"   profession="thief"        rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-10.685" ypos="15.252" zpos="111.652" GUID="aJe17B+snUiRQyHnGDkmXQ==" type="HMP.F_AB_c1"    iconFile="Data/General/empty.png"           info="/gg after activating all panels."   infoRange="12"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="956" xpos="38.017"  ypos="0.144"  zpos="93.257"  GUID="6PjwWpGQ7Em8IdABHEn5/Q==" type="HMP.F_AB_sy.s1"/>
+    <POI MapID="956" xpos="-75.048" ypos="1.403"  zpos="125.524" GUID="gxxy3BxSL0CWKMCNAPMQgw==" type="HMP.F_AB_sy.s2"/>
+  </POIs>
+  
+  
+<!-- ======================================== AQUATIC RUINS ==================================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_AR_sy" DisplayName="Slaying"     fadeFar="750" fadeNear="500" iconFile="Data/Fracs/Slaying/AR1.png" iconSize="1.5" rotate="110,0,-46" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Scarlet&#xA;Sigils: Force, Serpent"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="951" xpos="-192.245" ypos="9.479" zpos="131.885" GUID="8Rv1BA+/REy9iLmDSDQ+DQ==" type="HMP.F_AR_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== CAPTAIN MAI TRIN ==================================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
+    <MarkerCategory name="F_CMT_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Data/Fracs/Slaying/CMT1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="960" xpos="-77.836" ypos="50.114" zpos="-25.706" GUID="amp5aQRkqUOTtjM4LChncQ==" type="HMP.F_CMT_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== CHAOS ISLES ============================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_CI_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Data/Fracs/Slaying/CI1.png" iconSize="1.75" rotate="120,-4,71" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1164" xpos="-260.734" ypos="559.701" zpos="-62.491" GUID="Qm3Aol4BAU+yvhLX6KqjeQ==" type="HMP.F_CI_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== CLIFFSIDE ==================================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_CS_c1" DisplayName="Speed Skip"       cull="CounterClockwise"                                                                                                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_c2" DisplayName="Wind Skip"        cull="CounterClockwise" fadeFar="1250" fadeNear="1000"                                                                       mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_c3" DisplayName="Chest Speed Skip"                                                                                                           rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_c4" DisplayName="Boss Skip"                                                                                                                                     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/CS1.png" iconSize="2" rotate="130,0,190" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Outlaw&#xA;Sigils: Force, Justice"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Initial Speed Skip ========== -->
+    <POI MapID="952" xpos="28.818"  ypos="560.948" zpos="-26.444" GUID="6g3UyuZKaE+xwQZtjKEOhA==" type="HMP.F_CS_c1"                         fadeFar="2250" fadeNear="1750" iconFile="Data/General/WMPD-1.png"          iconSize="0.5"  rotate="160,0,0"    profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="952" xpos="32.650"  ypos="591.972" zpos="-22.834" GUID="pdXNCnwv3U+BdE3bNOw+mQ==" type="HMP.F_CS_c1"                         fadeFar="1000" fadeNear="750"  iconFile="Data/General/WMPD-2.png"          iconSize="0.5"  rotate="172,0,113"  profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="952" xpos="28.818"  ypos="560.948" zpos="-26.444" GUID="bq6wr5rAr0is5qqfBWLz+A==" type="HMP.F_CS_c1"                         fadeFar="2250" fadeNear="1750" iconFile="Data/General/MesP-1.png"          iconSize="0.75" rotate="160,0,0"    profession="mesmer"/>
+    <POI MapID="952" xpos="32.650"  ypos="591.972" zpos="-22.834" GUID="4atl4Qu2hkGFuGvQBQhOhQ==" type="HMP.F_CS_c1"                         fadeFar="1000" fadeNear="750"  iconFile="Data/General/MesP-2.png"          iconSize="0.75" rotate="172,0,113"  profession="mesmer"/>
+    <POI MapID="952" xpos="28.818"  ypos="560.948" zpos="-26.444" GUID="644V+7CLx0Ont6ENidHV8w==" type="HMP.F_CS_c1"                         fadeFar="2250" fadeNear="1750" iconFile="Data/General/ThfP-2.png"          iconSize="0.75" rotate="160,0,0"    profession="thief"/>
+    <POI MapID="952" xpos="32.650"  ypos="591.972" zpos="-22.834" GUID="Gpw63ZTvukOSyh8SHgoehA==" type="HMP.F_CS_c1"                         fadeFar="1000" fadeNear="750"  iconFile="Data/General/ThfP-1.png"          iconSize="0.75" rotate="172,0,113"  profession="thief"/>
+    <!-- ========== Wind Skip ========== -->
+    <!-- Bottom Port -->
+    <POI MapID="952" xpos="64.284"  ypos="591.430" zpos="96.785"  GUID="0rMXPgdqGk6zn89nFpCYKw==" type="HMP.F_CS_c2"                                                        iconFile="Data/General/WMPD-1.png"          iconSize="0.5"  rotate="180,0,180"  profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="952" xpos="64.284"  ypos="591.430" zpos="96.785"  GUID="VVae5nSwz0+lw3N/mAl/NA==" type="HMP.F_CS_c2"                                                        iconFile="Data/General/MesP-1.png"          iconSize="0.75" rotate="180,0,180"  profession="mesmer"/>
+    <POI MapID="952" xpos="64.284"  ypos="591.430" zpos="96.785"  GUID="iW2KbjLcOUaV/rAl/NPiDg==" type="HMP.F_CS_c2"                                                        iconFile="Data/General/ThfP-2.png"          iconSize="0.75" rotate="180,0,180"  profession="thief"/>
+    <!-- First Tele -->
+    <POI MapID="952" xpos="58.289"  ypos="612.994" zpos="103.089" GUID="yUNdyEZvx0KNCvLO4tsL8A==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/GrdTele-2.png"  iconSize="0.7"  rotate="-5,-22,177" profession="guardian"/>
+    <POI MapID="952" xpos="58.289"  ypos="612.994" zpos="103.089" GUID="XTZBrBV5r0Wd2BOQOah7mA==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/NecFW-2.png"    iconSize="0.7"  rotate="-5,-22,177" profession="necromancer"/>
+    <POI MapID="952" xpos="58.289"  ypos="612.994" zpos="103.089" GUID="lx1tn+tNDE+VETTR5BLTNA==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/MesBlink-2.png" iconSize="0.7"  rotate="-5,-22,177" profession="mesmer"/>
+    <POI MapID="952" xpos="58.289"  ypos="612.994" zpos="103.089" GUID="nF8M+cH8ZE6xweR33SFeNQ==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/ThfSB5-2.png"   iconSize="0.7"  rotate="-5,-22,177" profession="thief"/>
+    <!-- Second Tele -->
+    <POI MapID="952" xpos="63.395"  ypos="629.228" zpos="104.334" GUID="+7Z2NyX+GUirveUK0Ocbfg==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/EleLF-1.png"    iconSize="0.5"  rotate="0.01,0,135" profession="elementalist"/>
+    <POI MapID="952" xpos="63.395"  ypos="629.228" zpos="104.334" GUID="+7Z2NyX+GUirveUK0Ocbfg==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/MesBlink-1.png" iconSize="0.5"  rotate="0.01,0,135" profession="mesmer"/>
+    <POI MapID="952" xpos="63.395"  ypos="629.228" zpos="104.334" GUID="i/I4Aw7pP0CHq8+Zl/0dGQ==" type="HMP.F_CS_c2"                                                        iconFile="Data/Class/Normal/ThfSB5-1.png"   iconSize="0.5"  rotate="0.01,0,135" profession="thief"/>
+    <!-- Top Port -->
+    <POI MapID="952" xpos="66.268"  ypos="629.205" zpos="106.401" GUID="YmFq1+jrZEOTJzw1E4bRuQ==" type="HMP.F_CS_c2"                                                        iconFile="Data/General/WMPD-2.png"          iconSize="0.5"  rotate="180,0,0"    profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="952" xpos="66.268"  ypos="629.205" zpos="106.401" GUID="MOU/R877zEOkVXes95hzZQ==" type="HMP.F_CS_c2"                                                        iconFile="Data/General/MesP-2.png"          iconSize="0.75" rotate="180,0,0"    profession="mesmer"/>
+    <POI MapID="952" xpos="66.268"  ypos="629.205" zpos="106.401" GUID="NbnK60mVi0y1PjCLVoUNSg==" type="HMP.F_CS_c2"                                                        iconFile="Data/General/ThfP-1.png"          iconSize="0.75" rotate="180,0,0"    profession="thief"/>
+    <!-- ========== Chest Speed Skip ========== -->
+    <POI MapID="952" xpos="55.598"  ypos="666.716" zpos="-11.571" GUID="MFNW+q4CmEKPXl4L7cv/ew==" type="HMP.F_CS_c3" cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Data/General/WMPD-1.png"          iconSize="0.5"  rotate-z="90"       profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="952" xpos="55.598"  ypos="666.716" zpos="-11.571" GUID="YCs5umZ8wESdr17WA5/HrQ==" type="HMP.F_CS_c3" cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Data/General/MesP-1.png"          iconSize="0.75" rotate-z="90"       profession="mesmer"/>
+    <POI MapID="952" xpos="55.598"  ypos="666.716" zpos="-11.571" GUID="GT4INE6zyUSsb/8WjWjDDw==" type="HMP.F_CS_c3" cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Data/General/ThfP-2.png"          iconSize="0.75" rotate-z="90"       profession="thief"/>
+    <POI MapID="952" xpos="63.096"  ypos="688.662" zpos="-30.095" GUID="0DMnz4d9BE2Inse4u86rlw==" type="HMP.F_CS_c3"                         fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-2.png"          iconSize="0.5"  rotate-z="175"      profession="elementalist,engineer,guardian,necromancer,ranger,revenant,warrior"/>
+    <POI MapID="952" xpos="63.096"  ypos="688.662" zpos="-30.095" GUID="5AFI8KhfdkanOAj52gOWBQ==" type="HMP.F_CS_c3"                         fadeFar="1500" fadeNear="1250" iconFile="Data/General/MesP-2.png"          iconSize="0.75" rotate-z="175"      profession="mesmer"/>
+    <POI MapID="952" xpos="63.096"  ypos="688.662" zpos="-30.095" GUID="HoLlSrCz1kazvhXtNZbwLw==" type="HMP.F_CS_c3"                         fadeFar="1500" fadeNear="1250" iconFile="Data/General/ThfP-1.png"          iconSize="0.75" rotate-z="175"      profession="thief"/>
+    <!-- ========== Boss Skip ========== -->
+    <!-- Initial Port -->
+    <POI MapID="952" xpos="104.726" ypos="686.805" zpos="-10.116" GUID="MEqtSaxl8U6iScn9GTnvTQ==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/General/WMPD-1.png"          iconSize="0.25" rotate="180,0,95"   profession="guardian"/>
+    <POI MapID="952" xpos="104.726" ypos="686.805" zpos="-10.116" GUID="YYZg9uJUb0eNarrMtQMPhw==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/General/WMPD-1.png"          iconSize="0.25" rotate="180,0,95"   profession="thief"/>
+    <POI MapID="952" xpos="104.726" ypos="686.805" zpos="-10.116" GUID="Xfcf1AAwvUa/zwLb/TGxZg==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/General/WMPD-1.png"          iconSize="0.25" rotate="180,0,95"   profession="revenant"/>
+    <POI MapID="952" xpos="83.842"  ypos="686.608" zpos="-33.996" GUID="bY15ybLJ0EegXffsyufENg==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/General/MesP-1.png"          iconSize="0.5"  rotate="180,0,90"   profession="mesmer"/>
+    <POI MapID="952" xpos="83.842"  ypos="686.608" zpos="-33.996" GUID="VigTQ6NzYkO3g8nUty8hpw==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/General/WMPD-1.png"          iconSize="0.25" rotate="180,0,90"   profession="necromancer"/>
+    <!-- Teleport Skills -->
+    <POI MapID="952" xpos="92.913"  ypos="713.83"  zpos="-17.101" GUID="5/EwSzIVAEuFp8WOzAGZJA==" type="HMP.F_CS_c4"                         fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/Target.png"            iconSize="0.5"                      profession="guardian"/>
+    <POI MapID="952" xpos="92.913"  ypos="713.83"  zpos="-17.101" GUID="LYyadE5LPEqphAYOucvS7A==" type="HMP.F_CS_c4"                         fadeFar="2250" fadeNear="2000" iconFile="Data/Fracs/Target.png"            iconSize="0.5"                      profession="thief"/>
+    <POI MapID="952" xpos="92.913"  ypos="713.83"  zpos="-17.101" GUID="UP1wZ+bvD0eaqSnd2GrK4A==" type="HMP.F_CS_c4"                         fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/Target.png"            iconSize="0.5"                      profession="revenant"/>
+    <POI MapID="952" xpos="104.78"  ypos="686.805" zpos="-10.858" GUID="ZQbn0n+N702iETq9PuCHSg==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/Class/Normal/GrdJI-2.png"    iconSize="0.36" rotate="180,0,95"   profession="guardian"/>
+    <POI MapID="952" xpos="104.78"  ypos="686.805" zpos="-10.858" GUID="K5xq4tkrgkmhx+TRinydkQ==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/Class/Normal/ThfIS-2.png"    iconSize="0.36" rotate="180,0,95"   profession="thief"/>
+    <POI MapID="952" xpos="104.78"  ypos="686.805" zpos="-10.858" GUID="oQgXWPB2uUGu1eKUNUpUKQ==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/Class/Normal/RevPT-2.png"    iconSize="0.36" rotate="180,0,95"   profession="revenant"/>
+    <!-- Exit Port -->
+    <POI MapID="952" xpos="96.542"  ypos="711.149" zpos="-9.922"  GUID="6LwDhG5xu0i1qGbIzR8r+Q==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/General/WMPD-2.png"          iconSize="0.25" rotate="170,0,90"   profession="guardian"/>
+    <POI MapID="952" xpos="96.542"  ypos="711.149" zpos="-9.922"  GUID="WQerOQ1FOUewQeJfkcL0/g==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/General/WMPD-2.png"          iconSize="0.25" rotate="170,0,90"   profession="thief"/>
+    <POI MapID="952" xpos="96.542"  ypos="711.149" zpos="-9.922"  GUID="4uA+LsaTMECEh/LkSvu/2A==" type="HMP.F_CS_c4" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/General/WMPD-2.png"          iconSize="0.25" rotate="170,0,90"   profession="revenant"/>
+    <POI MapID="952" xpos="92.940"  ypos="710.636" zpos="-17.700" GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="HMP.F_CS_c4"                         fadeFar="1750" fadeNear="1500" iconFile="Data/General/MesP-2.png"          iconSize="0.5"                      profession="mesmer"/>
+    <POI MapID="952" xpos="92.940"  ypos="710.636" zpos="-17.700" GUID="zPUBhqMgg0qg2pFmKSIxLQ==" type="HMP.F_CS_c4"                         fadeFar="1750" fadeNear="1500" iconFile="Data/General/WMPD-2.png"          iconSize="0.25"                     profession="necromancer"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="952" xpos="-45.175" ypos="557.334" zpos="-24.172" GUID="pUQcn0qIIkCSTZasl9Vwqw==" type="HMP.F_CS_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== DEEPSTONE ========================================================================================================================================================= -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_DS_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="900" fadeNear="650" iconFile="Data/Fracs/Slaying/DS1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1290" xpos="45.434" ypos="311.781" zpos="-250.415" GUID="TklhNxl2k0Gng/LriUe4hw==" type="HMP.F_DS_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== MISTLOCK OBSERVATORY ========================================================================================================================================================= -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_MO_c1" DisplayName="Jumping Puzzle" iconSize="0.2" mapVisibility="0" minimapVisibility="0"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Low Grav Jumping Puzzle ========== -->
+    <POI MapID="872" xpos="111.697" ypos="218.000" zpos="-116.844" GUID="Tcrz0wjZvUSevK2KK5y0Ew==" type="HMP.F_MO_c1" cull="Clockwise"        fadeFar="500" fadeNear="350" iconFile="Data/Fracs/Jump-1.png"  rotate="45,0,170"/>
+    <POI MapID="872" xpos="118.867" ypos="220.026" zpos="-120.850" GUID="uc3ZaYVYsUatFafvXlyQDA==" type="HMP.F_MO_c1" cull="Clockwise"        fadeFar="800" fadeNear="550" iconFile="Data/Fracs/Jump-2.png"  rotate="90,0,230"/>
+    <POI MapID="872" xpos="124.155" ypos="223.412" zpos="-122.468" GUID="CPn7MAsSTUOqTvlJ2/v5Fw==" type="HMP.F_MO_c1" cull="CounterClockwise" fadeFar="600" fadeNear="400" iconFile="Data/Fracs/Jump-2.png"  rotate="90,0,10"/>
+    <POI MapID="872" xpos="113.774" ypos="224.847" zpos="-117.626" GUID="xTB1mTnifk2HelFqfpahpA==" type="HMP.F_MO_c1" cull="Clockwise"        fadeFar="750" fadeNear="550" iconFile="Data/Fracs/Jump-1.png"  rotate="85,0,145"/>
+    <POI MapID="872" xpos="118.028" ypos="227.950" zpos="-121.638" GUID="rgRGmmQ2u0mohqUgGQfm8g==" type="HMP.F_MO_c1" cull="Clockwise"        fadeFar="600" fadeNear="400" iconFile="Data/Fracs/Jump-2.png"  rotate="90,0,160"/>
+    <POI MapID="872" xpos="119.893" ypos="233.836" zpos="-122.947" GUID="pIv4b14WPUiMRACj8ziBsw==" type="HMP.F_MO_c1" cull="CounterClockwise" fadeFar="500" fadeNear="300" iconFile="Data/Fracs/Jump-1.png"  rotate="90,0,0"/>
+    <POI MapID="872" xpos="117.047" ypos="237.964" zpos="-122.834" GUID="8WThfkq6NEamQhjtOjtj4Q==" type="HMP.F_MO_c1" cull="Clockwise"        fadeFar="550" fadeNear="350" iconFile="Data/Fracs/Jump-2y.png" rotate="90,0,65"/>
+  </POIs>
+  
+  
+<!-- ======================================== MOLTEN BOSS ================================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_MB_c1" DisplayName="Close Tele Skip"                                                                                             iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_MB_c2" DisplayName="Far Tele Skip"                                                                                               iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_MB_sy" DisplayName="Slaying"         cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Data/Fracs/Slaying/MB1.png" iconSize="1.75" rotate="90,0,46" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Portals ========== -->
+    <POI MapID="959" xpos="-188.716" ypos="207.524" zpos="-156.404" GUID="lPJDsCzYdkexdPsT74HZzQ==" type="HMP.F_MB_c1" cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/General/WMPD-1.png" iconSize="0.65" rotate="180,0,90"    profession="guardian,thief,revenant"/>
+    <!-- ========== Skip One (close) ========== -->
+    <POI MapID="959" xpos="-186.886" ypos="210.619" zpos="-161.371" GUID="u/WHjtkV7kuj0dCGM0u3lQ==" type="HMP.F_MB_c1"                         fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs//Target.png"                                       profession="guardian,revenant,thief"/>
+    <POI MapID="959" xpos="-154.118" ypos="195.000" zpos="-168.451" GUID="adM1Qs4PHkq3zN95nIjhJQ==" type="HMP.F_MB_c1" cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/GrdJI-1.png"           rotate="185,10,180"  profession="guardian"/>
+    <POI MapID="959" xpos="-154.118" ypos="195.000" zpos="-168.451" GUID="wthdi1RKt0KWFXKr6mbr7Q==" type="HMP.F_MB_c1" cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/RevPT-1.png"           rotate="185,10,180"  profession="revenant"/>
+    <POI MapID="959" xpos="-154.118" ypos="195.000" zpos="-168.451" GUID="+B+gYgOEZESUOT20K2RjcA==" type="HMP.F_MB_c1" cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Data/Class/Normal/ThfIS-1.png"           rotate="185,10,180"  profession="thief"/>
+    <POI MapID="959" xpos="-145.353" ypos="144.696" zpos="-160.574" GUID="aNNfiX3Xb0aeZq6WTdL2Xg==" type="HMP.F_MB_c1" cull="CounterClockwise" fadeFar="850"  fadeNear="700"  iconFile="Data/General/WMPD-2.png"                 rotate="185,-10,120" profession="guardian,revenant,thief"/>
+    <!-- ========== Skip Two (far) ========== -->
+    <POI MapID="959" xpos="-127.989" ypos="193.087" zpos="-118.172" GUID="fvhp2XAZfUe+8iwf1V/Ssw==" type="HMP.F_MB_c2"                         fadeFar="2000" fadeNear="1750" iconFile="Data/Fracs/Target.png"                                        profession="guardian,thief"/>
+    <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="MDFq6LNl3ECc8n3xtbEu4A==" type="HMP.F_MB_c2"                         fadeFar="3650" fadeNear="3500" iconFile="Data/Class/Normal/GrdJI-1.png"                                profession="guardian"/>
+    <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="c8IG4ASa90Wjb27uYeVwlg==" type="HMP.F_MB_c2"                         fadeFar="3650" fadeNear="3500" iconFile="Data/Class/Normal/ThfIS-1.png"                                profession="thief"/>
+    <POI MapID="959" xpos="-163.231" ypos="132.304" zpos="-84.6329" GUID="dkt4SGKqwUGiovPes/RJ6A==" type="HMP.F_MB_c2" cull="CounterClockwise" fadeFar="3500" fadeNear="3350" iconFile="Data/General/WMPD-2.png"                 rotate="180,0,-70"   profession="guardian,thief"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="959" xpos="-196.002" ypos="209.865" zpos="-152.922" GUID="J17GQkWtCEic4w4cVTUvFA==" type="HMP.F_MB_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== MOLTEN FURNACE =============================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_MF_c2" DisplayName="Dredge Spawns"   alpha="0.9" color="944131" fadeFar="1500" fadeNear="1000" iconFile="Data/General/dot.png"       iconSize="0.35" rotate="180,0,0"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_MF_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                            mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"                                      fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/MF1.png" iconSize="1.75" rotate="110,0,20"  tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Weapons Testing"                            fadeFar="1400" fadeNear="1250" iconFile="Data/Fracs/Slaying/MF2.png" iconSize="1.6"  rotate="100,0,180" tip-description="Potion: Dredge&#xA;Sigils: Force, Sorrow"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Dredge Spawns ========== -->
+    <POI MapID="955" xpos="-243.567" ypos="224.896" zpos="23.984"  GUID="YERHetKzQ0i7jw8rUB5YlQ==" type="HMP.F_MF_c2"/>
+    <POI MapID="955" xpos="-221.376" ypos="224.999" zpos="25.228"  GUID="lujW5bDzSk6tFk8wZLJ2eg==" type="HMP.F_MF_c2"/>
+    <POI MapID="955" xpos="-219.214" ypos="224.999" zpos="14.470"  GUID="zAG5FaZwYkGG7K942gxquw==" type="HMP.F_MF_c2"/>
+    <POI MapID="955" xpos="-217.489" ypos="224.999" zpos="35.622"  GUID="RbNyp3P65km1XIhTfqdP3Q==" type="HMP.F_MF_c2"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="955" xpos="221.202"  ypos="255.475" zpos="115.924" GUID="KBXDDh4rKEq6peYe3wFHCw==" type="HMP.F_MF_sy.s1"/>
+    <POI MapID="955" xpos="-193.490" ypos="252.842" zpos="130.450" GUID="eEcLSZbiF0SwF324U95ddA==" type="HMP.F_MF_sy.s2"/>
+  </POIs>
+  
+  
+<!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_NM_c1" DisplayName="Knight Spawns"   alpha="0.75" color="faedd9" cull="CounterClockwise" fadeFar="3500" fadeNear="3000"                                       iconSize="0.75" rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_NM_c2" DisplayName="Siax Directions"              color="9aad79" cull="CounterClockwise" fadeFar="2250" fadeNear="2000"                                       iconSize="1"    rotate-x="90"/>
+    <MarkerCategory   name="F_NM_c3" DisplayName="Ensolyss' Orbs"  alpha="0.6"                 cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Data/Fracs/ball.png"        iconSize="0.5"  rotate="180,0,0"  mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_NM_c4" DisplayName="North"                        color="669468" cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Data/General/n.png"         iconSize="1"    rotate="90,0,180"/>
+    <MarkerCategory   name="F_NM_sy" DisplayName="Slaying"                                     cull="CounterClockwise"                                                                      iconSize="1.6"                    mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050" iconFile="Data/Fracs/Slaying/NM1.png"                 rotate="90,0,25"  tip-description="Potion - Scarlet&#xA;Sigils - Force, Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/Slaying/NM2.png"                 rotate="90,-8,25" tip-description="Potion - Scarlet&#xA;Sigils - Force, Serpent"/>
+      <MarkerCategory name="s3"      DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/NM3.png"                 rotate="80,0,260" tip-description="Potion - Scarlet&#xA;Sigils - Force, Serpent"/>
+      <MarkerCategory name="s4"      DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"  iconFile="Data/Fracs/Slaying/NM4.png"                 rotate="95,0,90"  tip-description="Potion - Scarlet&#xA;Sigils - Force, Serpent"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Knights ========== -->
+    <POI MapID="1177" xpos="115.401" ypos="12.456" zpos="153.006"  GUID="D3TdNEjLFECd1ntKnkDcaA==" type="HMP.F_NM_c1"    iconFile="Data/General/1.png" rotate-z="90"/>
+    <POI MapID="1177" xpos="92.618"  ypos="12.069" zpos="168.462"  GUID="ZeSgHnJTfECytz2/yyLeXw==" type="HMP.F_NM_c1"    iconFile="Data/General/2.png" rotate-z="205"/>
+    <POI MapID="1177" xpos="90.366"  ypos="11.947" zpos="139.640"  GUID="Z+mzkaYKOECG+yc90OclmA==" type="HMP.F_NM_c1"    iconFile="Data/General/3.png" rotate-z="-35"/>
+    <!-- ========== Siax Directions ========== -->
+    <POI MapID="1177" xpos="39.624"  ypos="44.601" zpos="-46.315"  GUID="BanG0e6C0EepzwjZ8642gg==" type="HMP.F_NM_c2"    iconFile="Data/General/n.png" rotate-z="180" tip-name="North"/>
+    <POI MapID="1177" xpos="43.504"  ypos="44.928" zpos="-104.055" GUID="/4jQnjR4qU+d3yZktZDSiw==" type="HMP.F_NM_c2"    iconFile="Data/General/s.png"                tip-name="South"/>
+    <POI MapID="1177" xpos="69.627"  ypos="45.521" zpos="-78.580"  GUID="qZ6fDKqyB0OuHst7FRxcLQ==" type="HMP.F_NM_c2"    iconFile="Data/General/e.png" rotate-z="90"  tip-name="East"/>
+    <POI MapID="1177" xpos="16.671"  ypos="46.068" zpos="-73.919"  GUID="5kWIV2NVv025b11lLjBPYw==" type="HMP.F_NM_c2"    iconFile="Data/General/w.png" rotate-z="-90" tip-name="West"/>
+    <!-- ========== Orbs ========== -->
+    <POI MapID="1177" xpos="32.704"  ypos="43.036" zpos="25.660"   GUID="DijNR9RjrU2qeI58A1CaHQ==" type="HMP.F_NM_c3"/>
+    <POI MapID="1177" xpos="28.262"  ypos="43.037" zpos="40.208"   GUID="fs8EMCk4Z0O5+SpXk384Ww==" type="HMP.F_NM_c3"/>
+    <POI MapID="1177" xpos="41.074"  ypos="43.037" zpos="49.066"   GUID="2I2VcNI2vEezT6b7D8zQew==" type="HMP.F_NM_c3"/>
+    <POI MapID="1177" xpos="53.673"  ypos="43.036" zpos="40.200"   GUID="hWKe8oFIf0WLkb3oEmos0A==" type="HMP.F_NM_c3"/>
+    <POI MapID="1177" xpos="48.134"  ypos="43.036" zpos="26.115"   GUID="Pqw5Mz74F0Gy9EVFTQZX/Q==" type="HMP.F_NM_c3"/>
+    <!-- ========== North ========== -->
+    <POI MapID="1177" xpos="41.746"  ypos="44.797" zpos="64.036"   GUID="P0VtrunYg0O7c+g/POoDVw==" type="HMP.F_NM_c4"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1177" xpos="48.387"  ypos="25.277" zpos="153.057"  GUID="8meljvOM5kaSbhcbbfmumA==" type="HMP.F_NM_sy.s1"/>
+    <POI MapID="1177" xpos="178.877" ypos="6.084"  zpos="122.229"  GUID="gGX5I+lVrkqbCKXSYVXkEg==" type="HMP.F_NM_sy.s2"/>
+    <POI MapID="1177" xpos="73.737"  ypos="42.887" zpos="-94.415"  GUID="a/OhfapMMk+hEXF+Ildf/g==" type="HMP.F_NM_sy.s3"/>
+    <POI MapID="1177" xpos="47.620"  ypos="47.289" zpos="-32.762"  GUID="lwniATE1Ok2BUuxji/vvMw==" type="HMP.F_NM_sy.s4"/>
+  </POIs>
+  
+  
+<!-- ======================================== SHATTERED OBSERVATORY ======================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"      DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_ShO_c0" DisplayName="Skorvald Launches" cull="CounterClockwise"                                                                    iconFile="Data/General/Arrow-2.png"    iconSize="0.35"                     mapVisibility="0" minimapVisibility="0" tip-description="Be Careful!"/>
+    <MarkerCategory   name="F_ShO_c1" DisplayName="Virastra Skip"                                                                                                                iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_ShO_c2" DisplayName="Arkk Directions" color="c4ac54" cull="CounterClockwise" fadeFar="3000" fadeNear="2750"                                                        rotate-x="90"/>
+    <MarkerCategory   name="F_ShO_sy" DisplayName="Slaying"                        cull="CounterClockwise"                                                                                                           mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"       DisplayName="Skorvald"                                               fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/ShO1.png" iconSize="1.25" rotate="165,15,290" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s2"       DisplayName="Artsariiv"                                              fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/ShO2.png" iconSize="1.75" rotate="115,0,290"  tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s3"       DisplayName="Arkk"                                                   fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/ShO3.png" iconSize="1.75" rotate="115,0,180"  tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Skorvald Launches ========== -->
+    <POI MapID="1205" xpos="-511.784" ypos="79.3191" zpos="428.161"  GUID="1Xat6OPQV0uXUk65wVUUKw==" type="HMP.F_ShO_c0" rotate="180,0,135" fadeFar="750"  fadeNear="500"/>
+    <POI MapID="1205" xpos="-519.533" ypos="79.3154" zpos="435.175"  GUID="XLvdiwR3cUSv33BwnP+7kA==" type="HMP.F_ShO_c0" rotate="180,0,135" fadeFar="750"  fadeNear="500"/>
+    <POI MapID="1205" xpos="-532.289" ypos="78.8292" zpos="397.643"  GUID="dc5sbB9be0WGPOgE5TNhXg==" type="HMP.F_ShO_c0" rotate="180,0,230" fadeFar="1350" fadeNear="1100"/>
+    <POI MapID="1205" xpos="-526.032" ypos="79.0114" zpos="406.479"  GUID="oaSkxzwnTEGfISy406c3Ww==" type="HMP.F_ShO_c0" rotate="180,0,230" fadeFar="1350" fadeNear="1100"/>
+    <POI MapID="1205" xpos="-454.225" ypos="82.2568" zpos="422.191"  GUID="Q1BIKN2JgUqTkBEi6qjiSw==" type="HMP.F_ShO_c0" rotate="180,0,-30" fadeFar="1500" fadeNear="1250"/>
+    <POI MapID="1205" xpos="-463.614" ypos="86.8204" zpos="492.318"  GUID="2diKqwUfmEWVTW7wFimCWA==" type="HMP.F_ShO_c0" rotate="180,0,60"  fadeFar="1350" fadeNear="1100"/>
+    <POI MapID="1205" xpos="-458.293" ypos="86.861"  zpos="499.323"  GUID="c57n3YMEqkKxX8fKx9x3tA==" type="HMP.F_ShO_c0" rotate="180,0,60"  fadeFar="1350" fadeNear="1100"/>
+    <POI MapID="1205" xpos="-529.305" ypos="90.1263" zpos="487.876"  GUID="mavKd4/ix020J6cnrkUT8A==" type="HMP.F_ShO_c0" rotate="180,0,220" fadeFar="1250" fadeNear="1000"/>
+    <POI MapID="1205" xpos="-535.123" ypos="90.0154" zpos="477.761"  GUID="g/UtW9etl0mkEfKTlcpplQ==" type="HMP.F_ShO_c0" rotate="180,0,220" fadeFar="1250" fadeNear="1000"/>
+    <!-- ========== Viirastra Skip ========== -->
+    <POI MapID="1205" xpos="342.781"  ypos="108.648" zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="HMP.F_ShO_c1"    cull="CounterClockwise" fadeFar="1000" fadeNear="500"  iconFile="Data/Fracs/Jump-1.png"  rotate="190,0,310"/>
+    <POI MapID="1205" xpos="331.750"  ypos="111.834" zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="HMP.F_ShO_c1"                            fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Jump-1.png"  rotate="90,0,-65"/>
+    <POI MapID="1205" xpos="291.389"  ypos="119.614" zpos="72.273"   GUID="pyoT/vbxZkSvCIcsA8Bpyw==" type="HMP.F_ShO_c1"    cull="CounterClockwise" fadeFar="3000" fadeNear="2250" iconFile="Data/Fracs/Jump-1y.png" rotate="90,0,-65"/>
+    <!-- ========== Arkk Directions ========== -->
+    <POI MapID="1205" xpos="-455.315" ypos="72.456"  zpos="-395.400" GUID="Ze7TDtDe4kyefOJdnSMpZQ==" type="HMP.F_ShO_c2"                                                           iconFile="Data/General/n.png"     rotate-z="180"     tip-name="North"/>
+    <POI MapID="1205" xpos="-421.715" ypos="72.477"  zpos="-429.567" GUID="KyDTNWNN9kGRYKUbq9HUjw==" type="HMP.F_ShO_c2"                                                           iconFile="Data/General/e.png"     rotate-z="90"      tip-name="East"/>
+    <POI MapID="1205" xpos="-455.382" ypos="72.477"  zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="HMP.F_ShO_c2"                                                           iconFile="Data/General/s.png"                        tip-name="South"/>
+    <POI MapID="1205" xpos="-489.319" ypos="72.477"  zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="HMP.F_ShO_c2"                                                           iconFile="Data/General/w.png"     rotate-z="270"     tip-name="West"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1205" xpos="-532.079" ypos="100.090" zpos="435.470"  GUID="gbkIwOdqaUOod5cKtQbaug==" type="HMP.F_ShO_sy.s1"/>
+    <POI MapID="1205" xpos="338.264"  ypos="143.796" zpos="1.175"    GUID="cbkxPrXuK0u3sxuIycWjUg==" type="HMP.F_ShO_sy.s2"/>
+    <POI MapID="1205" xpos="-349.303" ypos="88.659"  zpos="-426.638" GUID="3mg2opXHiESifjR0PLpeOg==" type="HMP.F_ShO_sy.s3"/>
+  </POIs>
+  
+  
+<!-- ======================================== SIREN'S REEF ================================================================================================================================================================= -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_SR_c1" DisplayName="Chest Spawns" fadeFar="3250" fadeNear="3000" iconFile="Data/Fracs/SR.png"          iconSize="0.75" rotate-x="175"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_SR_sy" DisplayName="Slaying"      fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/SR1.png" iconSize="2"    rotate="180,0,190" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Chest Spawns ========== -->
+    <POI MapID="1309" xpos="-172.733" ypos="0.500"  zpos="-0.7578" GUID="cf60rtKRVkiZMmbrnKtzGw==" type="HMP.F_SR_c1"/>
+    <POI MapID="1309" xpos="-165.113" ypos="1.000"  zpos="197.517" GUID="pBzbURiTlESVHg/fVTwXCw==" type="HMP.F_SR_c1" rotate-z="180"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1309" xpos="233.669"  ypos="-0.877" zpos="105.161" GUID="XBflJJPTw0mfw1CpbFDXsQ==" type="HMP.F_SR_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== SNOWBLIND ================================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_SB_sy" DisplayName="Slaying"     fadeFar="1000" fadeNear="750" iconFile="Data/Fracs/Slaying/SB1.png" iconSize="1.5" rotate="90,0,-80" tip-description="Potion: Svanir&#xA;Sigils: Night, Wrath"/>
+  </MarkerCategory>
+  <POIs>
+    <POI MapID="948" xpos="-69.502" ypos="28.014" zpos="126.185" GUID="t5XIzjfT7Eee9Jex1g+zlA==" type="HMP.F_SB_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== SOLID OCEAN ================================================================================================================================================================== -->
+  <MarkerCategory       name="HMP"      DisplayName="Hero's Pack">
+    <MarkerCategory     name="F_SoO_c1" DisplayName="Path Skip"                         cull="CounterClockwise"                                                                                                        mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory   name="F_SoO_c2" DisplayName="Jade Colossus Spawns" behavior="1" cull="CounterClockwise" fadeFar="4000" fadeNear="3500"                                                                         mapVisibility="0" minimapVisibility="0" tip-description="Press 'F' on a marker to hide it&#xA;for the rest of the fractal." triggerRange="5">
+        <MarkerCategory name="sc1"      DisplayName="Dots"                                                                                     iconFile="Data/General/dot.png"        iconSize="0.3" rotate-x="180"/>
+        <MarkerCategory name="sc2"      DisplayName="Numbers"                                                               heightOffset="2.1"                                        iconSize="0.5"/>
+        <MarkerCategory name="sc3"      DisplayName="Arrows"                                                                                   iconFile="Data/General/Pointer.png" iconSize="0.35" rotate-x="180"/>
+      </MarkerCategory>
+    <MarkerCategory name="F_SoO_sy" DisplayName="Slaying"                               cull="CounterClockwise" fadeFar="1400" fadeNear="1150" iconFile="Data/Fracs/Slaying/SoO1.png" iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Ele&#xA;Sigils: Night, Ele"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Path Skip ========== -->
+    <!-- Entrance Portals -->
+    <POI MapID="958" xpos="704.880" ypos="652.041" zpos="581.471" GUID="5/gn8NZ96UmvPrEURtIkag==" type="HMP.F_SoO_c1"     fadeFar="1150" fadeNear="900"  iconFile="Data/General/WMPD-1.png"         iconSize="0.5" specialization="18,55,56" rotate="180,0,180"/>
+    <POI MapID="958" xpos="704.880" ypos="652.041" zpos="581.471" GUID="rkoJulKSzEinkrtILRzFFw==" type="HMP.F_SoO_c1"     fadeFar="1150" fadeNear="900"  iconFile="Data/General/WMPD-1.png"         iconSize="0.5" profession="engineer"     rotate="180,0,180"/>
+    <!-- Elementalist - Weaver -->
+    <POI MapID="958" xpos="705.473" ypos="652.091" zpos="580.418" GUID="UHLYXfhjtEmi37GURWAJUw==" type="HMP.F_SoO_c1"     fadeFar="1300" fadeNear="1050" iconFile="Data/Class/Normal/WeaFGS3-1.png" iconSize="0.5" specialization="56"       rotate="180,0,120"/>
+    <POI MapID="958" xpos="725.871" ypos="634.650" zpos="591.492" GUID="ZARrcbn5wE2bk2tKVDHx6Q==" type="HMP.F_SoO_c1"     fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Wea-1.png"     iconSize="0.3" specialization="56"       rotate="97,5,135"/>
+    <POI MapID="958" xpos="734.627" ypos="633.824" zpos="594.441" GUID="11XQEA/Kt0ql+OZF4tUrqA==" type="HMP.F_SoO_c1"     fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Normal/WeaFGS3-1.png" iconSize="0.3" specialization="56"       rotate="180,0,165"/>
+    <POI MapID="958" xpos="734.642" ypos="632.235" zpos="605.799" GUID="XUc/7tucv0K0f4r4ZJDRgQ==" type="HMP.F_SoO_c1"     fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/Wea-1.png"     iconSize="0.3" specialization="56"/>
+    <POI MapID="958" xpos="734.388" ypos="524.150" zpos="635.249" GUID="9r2X4zPPm0KvD1Axwp0Y+w==" type="HMP.F_SoO_c1"     fadeFar="4500" fadeNear="4250" iconFile="Data/Class/Normal/Wea-1.png"     iconSize="0.3" specialization="56"/>
+    <!-- Engineer -->
+    <POI MapID="958" xpos="703.683" ypos="652.141" zpos="575.216" GUID="OeXjTgyWaEqf1VWTbDrYEw==" type="HMP.F_SoO_c1"     fadeFar="1300" fadeNear="1050" iconFile="Data/Class/Normal/EngRB-1.png"   iconSize="0.5" profession="engineer"     rotate="180,0,135"/>
+    <POI MapID="958" xpos="725.871" ypos="634.650" zpos="591.492" GUID="vK7vJFmC9k656RY1QpD2rw==" type="HMP.F_SoO_c1"     fadeFar="1700" fadeNear="1450" iconFile="Data/Class/Normal/Eng-1.png"     iconSize="0.3" profession="engineer"     rotate="97,5,135"/>
+    <POI MapID="958" xpos="734.627" ypos="633.824" zpos="594.441" GUID="v/AP9tfgcEOiJzFhcTzcsA==" type="HMP.F_SoO_c1"     fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/EngRB-1.png"   iconSize="0.3" profession="engineer"     rotate="180,0,165"/>
+    <POI MapID="958" xpos="734.642" ypos="632.235" zpos="605.799" GUID="HipNhwpqX0qHjg1SguIG2w==" type="HMP.F_SoO_c1"     fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/Eng-1.png"     iconSize="0.3" profession="engineer"/>
+    <POI MapID="958" xpos="734.388" ypos="524.150" zpos="635.249" GUID="TnG5PrHpqU6Qzc9SxPHe5g==" type="HMP.F_SoO_c1"     fadeFar="4500" fadeNear="4250" iconFile="Data/Class/Normal/Eng-1.png"     iconSize="0.3" profession="engineer"/>
+    <!-- Ranger - Soulbeast -->
+    <POI MapID="958" xpos="705.144" ypos="652.041" zpos="578.912" GUID="OEJ3KCdZ7kiXuGvxbRMP5w==" type="HMP.F_SoO_c1"     fadeFar="1300" fadeNear="1050" iconFile="Data/Class/Normal/SlbGS3-1.png"  iconSize="0.5" specialization="55"       rotate="180,0,125"/>
+    <POI MapID="958" xpos="725.871" ypos="634.650" zpos="591.492" GUID="rl477YxGXkamJjSqY4I07Q==" type="HMP.F_SoO_c1"     fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Slb-1.png"     iconSize="0.3" specialization="55"       rotate="97,5,135"/>
+    <POI MapID="958" xpos="733.958" ypos="633.764" zpos="592.283" GUID="1M+wOG9Lx0Cz8sADTf+jcA==" type="HMP.F_SoO_c1"     fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Normal/SlbGS3-1.png"  iconSize="0.3" specialization="55"       rotate="180,0,165"/>
+    <POI MapID="958" xpos="740.05"  ypos="632.392" zpos="610.547" GUID="2IE+QCe/EUWx7RRysGgDRQ==" type="HMP.F_SoO_c1"     fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/Slb-1.png"     iconSize="0.3" specialization="55"/>
+    <POI MapID="958" xpos="734.388" ypos="524.150" zpos="635.249" GUID="AvJZRRFFSU24R/Ql8rYalw==" type="HMP.F_SoO_c1"     fadeFar="4500" fadeNear="4250" iconFile="Data/Class/Normal/Slb-1.png"     iconSize="0.3" specialization="55"/>
+    <!-- Warrior - Berserker -->
+    <POI MapID="958" xpos="708.706" ypos="652.191" zpos="582.193" GUID="7zxO0jmyaUiBXcpTX3wfRg==" type="HMP.F_SoO_c1"     fadeFar="1300" fadeNear="1050" iconFile="Data/Class/Normal/BerSw2-1.png"  iconSize="0.5" specialization="18"       rotate="180,0,135"/>
+    <POI MapID="958" xpos="725.871" ypos="634.650" zpos="591.492" GUID="zRuYNbM0e0m+bRGN8tMGHw==" type="HMP.F_SoO_c1"     fadeFar="1500" fadeNear="1250" iconFile="Data/Class/Normal/Ber-1.png"     iconSize="0.3" specialization="18"       rotate="97,5,135"/>
+    <POI MapID="958" xpos="734.627" ypos="633.824" zpos="594.441" GUID="EuagByx5w0SORB5YfEgdyQ==" type="HMP.F_SoO_c1"     fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Normal/BerSw2-1.png"  iconSize="0.3" specialization="18"       rotate="180,0,165"/>
+    <POI MapID="958" xpos="734.642" ypos="632.235" zpos="605.799" GUID="q+w52ajzp0yZ1xP4pwPM6A==" type="HMP.F_SoO_c1"     fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Normal/Ber-1.png"     iconSize="0.3" specialization="18"/>
+    <POI MapID="958" xpos="734.388" ypos="524.150" zpos="635.249" GUID="Aq9zrVzWS0OZIxhTpUphKw==" type="HMP.F_SoO_c1"     fadeFar="4500" fadeNear="4250" iconFile="Data/Class/Normal/Ber-1.png"     iconSize="0.3" specialization="18"/>
+    <!-- Exit Portals -->
+    <POI MapID="958" xpos="736.55"  ypos="610.393" zpos="689.165" GUID="XjqD0YPG9ECpFcQONNrNbA==" type="HMP.F_SoO_c1"     fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-2.png"         iconSize="0.5" specialization="18,55,56" rotate="188,30,160"/>
+    <POI MapID="958" xpos="736.55"  ypos="610.393" zpos="689.165" GUID="HNcv4RsCUEi15dLhUDjzAQ==" type="HMP.F_SoO_c1"     fadeFar="1500" fadeNear="1250" iconFile="Data/General/WMPD-2.png"         iconSize="0.5" profession="engineer"     rotate="188,30,160"/>
+    <!-- ========== Jade Colossus Spawns ========== -->
+    <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/1.png" iconSize="0.75" heightOffset="2.2"/>
+    <POI MapID="958" xpos="770.793" ypos="586.057" zpos="823.428" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc3" rotate-z="-15"/>
+    <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/2.png"/>
+    <POI MapID="958" xpos="760.603" ypos="586.041" zpos="791.283" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc3" rotate-z="-120"/>
+    <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/3.png"/>
+    <POI MapID="958" xpos="738.256" ypos="586.272" zpos="805.722" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc3" rotate-z="123"/>
+    <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/4.png"/>
+    <POI MapID="958" xpos="752.508" ypos="586.251" zpos="814.946" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc3" rotate-z="45"/>
+    <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/5.png"/>
+    <POI MapID="958" xpos="777.691" ypos="586.160" zpos="791.768" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc3" rotate-z="210"/>
+    <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/6.png"/>
+    <POI MapID="958" xpos="767.911" ypos="586.100" zpos="807.790" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc3" rotate-z="-51"/>
+    <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/7.png"/>
+    <POI MapID="958" xpos="745.685" ypos="586.202" zpos="790.669" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc3" rotate-z="-100"/>
+    <POI MapID="958" xpos="727.075" ypos="586.840" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc1" rotate-y="10"/>
+    <POI MapID="958" xpos="727.075" ypos="586.840" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/8.png"/>
+    <POI MapID="958" xpos="727.475" ypos="586.780" zpos="794.482" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc3" rotate="188,-2,106"/>
+    <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/9.png"/>
+    <POI MapID="958" xpos="753.136" ypos="586.213" zpos="802.536" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc3" rotate-z="-138"/>
+    <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="HMP.F_SoO_c2.sc1"/>
+    <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="HMP.F_SoO_c2.sc2" iconFile="Data/General/10.png"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="958" xpos="751.648" ypos="598.66"  zpos="731.87"  GUID="kgTTmo8x+ECpi1Ivw+dnNw==" type="HMP.F_SoO_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== SUNQUA PEAK ================================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_SP_c1" DisplayName="Platform Jumps"       cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c2" DisplayName="VotM Skip"            cull="CounterClockwise"                                                                    iconSize="0.75"                    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c3" DisplayName="Waterfall Skip"       cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c4" DisplayName="Ele Skip"                                                                                                                                           mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="sc1"     DisplayName="Barrier #1 Skip"/>
+      <MarkerCategory name="sc2"     DisplayName="Barrier #2 Skip"/>
+      <MarkerCategory name="sc3"     DisplayName="Barrier #3 Skip"/>
+    </MarkerCategory>
+    <MarkerCategory   name="F_SP_c5" DisplayName="FotM Skip"            cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c6" DisplayName="Dialogue Door Skip"                                                                                                                                 mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_sy" DisplayName="Slaying"              cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconFile="Data/Fracs/Slaying/SP1.png" iconSize="1.75" rotate="105,0,192" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s2"      DisplayName="CM"                                           fadeFar="900" fadeNear="750" iconFile="Data/Fracs/Slaying/SP2.png" iconSize="1.9"  rotate="94,0,-90"  tip-description="Potion: N/A&#xA;Sigils: Night, Force"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Platform Jumps ========== -->
+    <POI MapID="1384" xpos="39.547"   ypos="49.534"  zpos="-207.583" GUID="x64tbihnJ0OncSFXe0nrdA==" type="HMP.F_SP_c1"                             fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.3"                        rotate="120,0,250"/>
+    <POI MapID="1384" xpos="47.788"   ypos="54.414"  zpos="-200.876" GUID="ki548qsCNkSIoLgZPFcLaQ==" type="HMP.F_SP_c1"                             fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/C-Jump1-1.png"           iconSize="0.55"/>
+    <POI MapID="1384" xpos="12.107"   ypos="62.627"  zpos="-197.77"  GUID="StAClvdp7EuuWAogKM88vA==" type="HMP.F_SP_c1"                             fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/C-Jump1-1.png"           iconSize="0.55"/>
+    <POI MapID="1384" xpos="4.8827"   ypos="71.408"  zpos="-211.226" GUID="OnuC9jP2+E+3SfXfv4xh/g==" type="HMP.F_SP_c1"                             fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/C-Jump1-1.png"           iconSize="0.55"/>
+    <POI MapID="1384" xpos="-2.959"   ypos="76.423"  zpos="-239.309" GUID="2KSBKudov0SxWJl1A56Cgw==" type="HMP.F_SP_c1"                             fadeFar="1400" fadeNear="1150" iconFile="Data/Fracs/C-Jump2-1.png"           iconSize="0.55"/>
+    <POI MapID="1384" xpos="-2.289"   ypos="87.334"  zpos="-249.704" GUID="3SJTPQXR30WUFMKvO4QM6g==" type="HMP.F_SP_c1"                             fadeFar="1700" fadeNear="1450" iconFile="Data/Fracs/C-Jump2-1.png"           iconSize="0.55"/>
+    <POI MapID="1384" xpos="-23.996"  ypos="96.522"  zpos="-257.523" GUID="dvqsYeUcakOKuQtApAgOfQ==" type="HMP.F_SP_c1"                             fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/C-Jump2-1.png"           iconSize="0.55"/>
+    <!-- ========== VotM Skip ========== --> 
+    <POI MapID="1384" xpos="-22.096"  ypos="90.069"  zpos="-196.209" GUID="vbPlafo2SkyRdc7oeFbeWQ==" type="HMP.F_SP_c2"                             fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/C-B1Skip-1.png"/>
+    <POI MapID="1384" xpos="-30.922"  ypos="89.151"  zpos="-138.118" GUID="IY1p0OKsekWtXrYpwcrE2w==" type="HMP.F_SP_c2"                             fadeFar="2500" fadeNear="2400" iconFile="Data/Fracs/C-Choya-1y.png"                                                rotate="90,0,200"/>
+    <!-- ========== Little Skip ========== -->
+    <POI MapID="1384" xpos="-167.057" ypos="113.459" zpos="-140.946" GUID="HO1boE2HGkmQMAF9YYYqWA==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-EngRif5-1.png" iconSize="0.75" profession="engineer" rotate="185,0,190"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="0ujK3YnqX0OfOGBE0szu0w==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-Eng-1y.png"    iconSize="0.65" profession="engineer" rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-163.743" ypos="113.369" zpos="-139.84"  GUID="SRQ8tZX8FEuUnEKcRHXOYQ==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-GrdGS3-1.png"  iconSize="0.70" profession="guardian" rotate="195,-2,210"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="7r9SIQWbukezJLYFMyIF3A==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-Grd-1y.png"    iconSize="0.65" profession="guardian" rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-167.057" ypos="113.459" zpos="-140.946" GUID="z827CXwnmE25C+3njdqGAQ==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-MirSw1-1.png"  iconSize="0.75" specialization="59"   rotate="185,0,190"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="BoH8sFHJhE+uf7N20wYk3w==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-Mir-1y.png"    iconSize="0.65" specialization="59"   rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-163.743" ypos="113.369" zpos="-139.84"  GUID="mDhe/htwLEm9A3PtA+W4YQ==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-ReaSh2-1.png"  iconSize="0.70" specialization="34"   rotate="195,-2,210"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="0SNcSHG+r0Wel7pfYiQXsg==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-Rea-1y.png"    iconSize="0.65" specialization="34"   rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-167.057" ypos="113.459" zpos="-140.946" GUID="5eqbTj/dC0K1rne6zjF4qQ==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-RgrSw2-1.png"  iconSize="0.75" profession="ranger"   rotate="185,0,190"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="U7gFcoGnE0iUcUCpaqmoIw==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-Rgr-1y.png"    iconSize="0.65" profession="ranger"   rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-163.743" ypos="113.369" zpos="-139.84"  GUID="Zii8jnqhbUu3daZY2njfvg==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-RevCtA-1.png"  iconSize="0.70" profession="revenant" rotate="195,-2,210"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="5sJQrbAAjkar14g6uxO0PA==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-Rev-1y.png"    iconSize="0.65" profession="revenant" rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-167.057" ypos="113.459" zpos="-140.946" GUID="lCbaELSIcEeAdwojqNhvoQ==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-DDSt5-1.png"   iconSize="0.75" specialization="7"    rotate="185,0,190"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="D38pzRr82UCkJorJYj7EWg==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-DD-1y.png"     iconSize="0.65" specialization="7"    rotate="150,0,186"/>
+    <POI MapID="1384" xpos="-167.057" ypos="113.459" zpos="-140.946" GUID="D38pzRr82UCkJorJYj7EWg==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-WarSw2-1.png"  iconSize="0.75" profession="warrior"  rotate="185,0,190"/>
+    <POI MapID="1384" xpos="-171.096" ypos="111.539" zpos="-125.542" GUID="uSEgo0nDJk65Rj8vV4XkUg==" type="HMP.F_SP_c3"                             fadeFar="1000" fadeNear="750"  iconFile="Data/Class/Canthan/C-War-1y.png"    iconSize="0.65" profession="warrior"  rotate="150,0,186"/>
+    <!-- ========== Elemental Skip ========== -->
+    <!-- Barrier #1 Skip -->
+    <POI MapID="1384" xpos="51.267"   ypos="194.33"  zpos="-7.918"   GUID="L4AbGKtcu0SP5fE+jnvE7w==" type="HMP.F_SP_c4.sc1" cull="Clockwise"        fadeFar="1150" fadeNear="1000" iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="90,0,-13"/>
+    <POI MapID="1384" xpos="47.504"   ypos="201.289" zpos="4.433"    GUID="jd7gHw5rwkqEH5ieg/baGg==" type="HMP.F_SP_c4.sc1" cull="CounterClockwise" fadeFar="750"  fadeNear="550"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="120,0,-60"/>
+    <POI MapID="1384" xpos="46.353"   ypos="204.5"   zpos="3.089"    GUID="9luqmlLNlkWGyOdNL/Kl8g==" type="HMP.F_SP_c4.sc1" cull="Clockwise"        fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="65,0,120"/>
+    <POI MapID="1384" xpos="55.319"   ypos="202.855" zpos="5.614"    GUID="OirFgA/5oEmMrrsC11ZKJQ==" type="HMP.F_SP_c4.sc1" cull="CounterClockwise" fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/C-Jump-1y.png"           iconSize="0.45"                       rotate="135,0,90"/>
+    <!-- Barrier #2 Skip -->
+    <POI MapID="1384" xpos="57.925"   ypos="228.38"  zpos="-30.211"  GUID="kYtgXvAIB0iqCGhsZiQrWQ==" type="HMP.F_SP_c4.sc2" cull="Clockwise"        fadeFar="900"  fadeNear="750"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="110,0,220"/>
+    <POI MapID="1384" xpos="58.974"   ypos="228.585" zpos="-25.472"  GUID="wyN93bTF9ES143rMq1cOAQ==" type="HMP.F_SP_c4.sc2"                         fadeFar="900"  fadeNear="750"  iconFile="Data/Fracs/C-Jump-1y.png"           iconSize="0.5"/>
+    <!-- Barrier #3 Skip -->
+    <POI MapID="1384" xpos="73.216"   ypos="224.949" zpos="4.024"    GUID="1RKo/0PB5ESE291cguJVZA==" type="HMP.F_SP_c4.sc3" cull="Clockwise"        fadeFar="800"  fadeNear="550"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.35"                       rotate="70,0,275"/>
+    <POI MapID="1384" xpos="73.219"   ypos="226.854" zpos="6.767"    GUID="0cdo/a9Jl0qG0I2mrogGvw==" type="HMP.F_SP_c4.sc3" cull="Clockwise"        fadeFar="900"  fadeNear="650"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.4"                        rotate="38,0,233"/>
+    <POI MapID="1384" xpos="72.900"   ypos="228.481" zpos="12.978"   GUID="xx5aDYeF6EeomS09qeK+Sg==" type="HMP.F_SP_c4.sc3"                         fadeFar="1100" fadeNear="850"  iconFile="Data/Fracs/C-Jump-1y.png"           iconSize="0.5"/>
+    <!-- ========== FotM Skip ========== -->
+    <POI MapID="1384" xpos="-28.403"  ypos="210.533" zpos="110.664"  GUID="xYOxNLtzdEuldTfzV4tVug==" type="HMP.F_SP_c5"                             fadeFar="550"  fadeNear="300"  iconFile="Data/Class/Canthan/C-EngRB-1.png"   iconSize="0.75" profession="engineer" rotate="180,0,190"/>
+    <POI MapID="1384" xpos="-30.467"  ypos="213.159" zpos="129.218"  GUID="68FNltJgB0Gi6mwhYMg3IA==" type="HMP.F_SP_c5"                             fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Canthan/C-Eng-1.png"     iconSize="0.75" profession="engineer" rotate="90,0,220"/>
+    <POI MapID="1384" xpos="-25.010"  ypos="209.151" zpos="133.512"  GUID="MgsUFgpM9Eu+bb1Lbjkreg==" type="HMP.F_SP_c5"                             fadeFar="600"  fadeNear="450"  iconFile="Data/Class/Canthan/C-Eng-1y.png"    iconSize="0.5"  profession="engineer" rotate="130,0,186"/>
+    <POI MapID="1384" xpos="-28.403"  ypos="210.533" zpos="110.664"  GUID="Kfvih9qvQ0+cRmcqlBptMQ==" type="HMP.F_SP_c5"                             fadeFar="550"  fadeNear="300"  iconFile="Data/Class/Canthan/C-DHWoR-1.png"   iconSize="0.75" specialization="27"   rotate="180,0,190"/>
+    <POI MapID="1384" xpos="-30.467"  ypos="213.159" zpos="129.218"  GUID="tNgv9IuhfE6fi9r87jgyog==" type="HMP.F_SP_c5"                             fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Canthan/C-DH-1.png"      iconSize="0.75" specialization="27"   rotate="90,0,220"/>
+    <POI MapID="1384" xpos="-25.010"  ypos="209.151" zpos="133.512"  GUID="tNgv9IuhfE6fi9r87jgyog==" type="HMP.F_SP_c5"                             fadeFar="600"  fadeNear="450"  iconFile="Data/Class/Canthan/C-DH-1y.png"     iconSize="0.5"  specialization="27"   rotate="130,0,186"/>
+    <POI MapID="1384" xpos="-28.403"  ypos="210.533" zpos="110.664"  GUID="tNgv9IuhfE6fi9r87jgyog==" type="HMP.F_SP_c5"                             fadeFar="550"  fadeNear="300"  iconFile="Data/Class/Canthan/C-RevH3-1.png"   iconSize="0.75" profession="revenant" rotate="180,0,190"/>
+    <POI MapID="1384" xpos="-30.467"  ypos="213.159" zpos="129.218"  GUID="4GYFVVHHfEaj1sQVqV17Dg==" type="HMP.F_SP_c5"                             fadeFar="1250" fadeNear="1000" iconFile="Data/Class/Canthan/C-Rev-1.png"     iconSize="0.75" profession="revenant" rotate="90,0,220"/>
+    <POI MapID="1384" xpos="-25.010"  ypos="209.151" zpos="133.512"  GUID="mW7I+MNWi0OKAbpWzhmJyg==" type="HMP.F_SP_c5"                             fadeFar="600"  fadeNear="450"  iconFile="Data/Class/Canthan/C-Rev-1y.png"    iconSize="0.5"  profession="revenant" rotate="130,0,186"/>
+    <!-- ========== Dialouge Door Skip ========== -->
+    <POI MapID="1384" xpos="57.156"   ypos="233.528" zpos="208.409"  GUID="k7cDcIOp40akRpBOG/1HXA==" type="HMP.F_SP_c6"                             fadeFar="500"  fadeNear="300"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="90,0,180"/>
+    <POI MapID="1384" xpos="69.837"   ypos="244.425" zpos="209.42"   GUID="gqv0EM4QfUCFU5w9uzSXnw==" type="HMP.F_SP_c6"     cull="CounterClockwise" fadeFar="750"  fadeNear="550"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.3"                        rotate="90,0,0"/>
+    <POI MapID="1384" xpos="75.599"   ypos="247.166" zpos="189.42"   GUID="x4aIKJojSECbsW2+FQEm2A==" type="HMP.F_SP_c6"     cull="CounterClockwise" fadeFar="500"  fadeNear="300"  iconFile="Data/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="90,0,105"/>
+    <POI MapID="1384" xpos="131.267"  ypos="231.789" zpos="167.652"  GUID="bZT/L00Dt0OaMPmvWynFHg==" type="HMP.F_SP_c6"                             fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/C-Choya-1.png"           iconSize="0.65"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1384" xpos="181.581"  ypos="25.648"  zpos="-148.331" GUID="ojMTy8Jl4kOLg6PAroWJwQ==" type="HMP.F_SP_sy.s1"/>
+    <POI MapID="1384" xpos="162.733"  ypos="248.652" zpos="82.193"   GUID="84VslGzbO0qqVmx9P0FJQA==" type="HMP.F_SP_sy.s2"/>
+  </POIs>
+  
+  
+<!-- ======================================== SWAMPLAND ==================================================================================================================================================================== -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_SL_c1" DisplayName="Swampland Traps"                                fadeFar="1100" fadeNear="850"                                        iconSize="0.25" heightOffset="1" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="t1"      DisplayName="Top Left (Skelk)"                                                              iconFile="Data/Fracs/Trip.png"/>
+      <MarkerCategory name="t2"      DisplayName="Top Middle (Flies)"/>
+      <MarkerCategory name="t3"      DisplayName="Top Right (Spikes)"/>
+      <MarkerCategory name="t4"      DisplayName="Middle Left (Traps)"/>
+      <MarkerCategory name="t5"      DisplayName="Middle"/>
+      <MarkerCategory name="t6"      DisplayName="Middle Right (Champ)"                                                          iconFile="Data/Fracs/Bear.png"/>
+      <MarkerCategory name="t7"      DisplayName="Entrance"/>
+      <MarkerCategory name="t8"      DisplayName="Bottom Right (Spiders)"/>
+      <MarkerCategory name="t9"      DisplayName="Passage"/>
+    </MarkerCategory>
+    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"  iconFile="Data/Fracs/Slaying/SL1.png" iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Night, Force"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Top Left (Skelk) ========== -->
+    <POI MapID="949" xpos="25.741"  ypos="0.105"  zpos="180.811" GUID="SYE1TSzub0yy1lP2z3lk4g==" type="HMP.F_SL_c1.t1"/>
+    <POI MapID="949" xpos="27.425"  ypos="0.105"  zpos="175.736" GUID="sq3YrRkNpE+ScM8WNAAIiQ==" type="HMP.F_SL_c1.t1"/>
+    <POI MapID="949" xpos="27.855"  ypos="0.119"  zpos="171.589" GUID="gOSgLg8kNEqdZfgC/FoXVw==" type="HMP.F_SL_c1.t1"/>
+    <POI MapID="949" xpos="12.391"  ypos="0.084"  zpos="174.363" GUID="t8aJwfvDm0ukmhjKIfpsQw==" type="HMP.F_SL_c1.t1"/>
+    <!-- ========== Top Middle (Flies) ========== -->
+    <POI MapID="949" xpos="55.244"  ypos="-0.038" zpos="188.023" GUID="paQccXu+c0qoLaPzDuIV2A==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="44.757"  ypos="-0.145" zpos="188.136" GUID="uKWuA3MNp02Ly2I5NB8Y7A==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="43.277"  ypos="-0.613" zpos="174.689" GUID="xhOhaEj1XkeXcxy/oaVgfQ==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="97.643"  ypos="0.255"  zpos="179.310" GUID="IYbcM7PsoUiC7ILGpZixwA==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="54.082"  ypos="0.392"  zpos="177.921" GUID="QchynCEY8E6hHusIeHi7Uw==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="34.406"  ypos="0.404"  zpos="184.180" GUID="4FDItgQn9Ueq1adTFxEYUw==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="60.394"  ypos="0.151"  zpos="163.432" GUID="xUHApBqcGkO3d/yFkdIGzQ==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="57.760"  ypos="0.038"  zpos="164.390" GUID="akjvraXBIEO8t0UWtYhzbw==" type="HMP.F_SL_c1.t2" iconFile="Data/Fracs/Trip.png"/>
+    <!-- ========== Top Right (Spikes) ========== -->
+    <POI MapID="949" xpos="138.450" ypos="0.165"  zpos="127.791" GUID="9J2nuh5jz02LFyO9xeY/rw==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="142.417" ypos="-0.001" zpos="129.425" GUID="KwbtsYpziUOoREB3xp61rA==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="143.598" ypos="0.133"  zpos="126.373" GUID="IOLj52QCY0mfFp5VfQrAIQ==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="112.213" ypos="0.281"  zpos="158.227" GUID="JR3nZ0PAJkCoUy0+h3pNBA==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="148.275" ypos="0.342"  zpos="137.376" GUID="CBzvse0DCUK7CREeV6Ywmw==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="155.488" ypos="0.692"  zpos="138.268" GUID="d1fJyWAjJkCGcy7x6M+poQ==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="153.043" ypos="0.599"  zpos="146.842" GUID="5r1N6gmM6UerbzHIoytT5g==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="158.690" ypos="1.319"  zpos="152.716" GUID="/vnKtRfFrU+z+biM+mBKaA==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="150.138" ypos="0.496"  zpos="154.858" GUID="s0Nd9K6XD0GbiUW6j1+45g==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="145.424" ypos="0.769"  zpos="161.727" GUID="v0GhrmgFGUGYF0iE/1FlOw==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="139.755" ypos="0.410"  zpos="168.448" GUID="OlXQuCR5E0ah4eLThtRRwQ==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="137.377" ypos="0.518"  zpos="161.716" GUID="ZetaU9EPrUqwjXmvdr60cw==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="131.284" ypos="0.429"  zpos="165.917" GUID="aixzL08XI0euR96Lomxzvw==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="96.848"  ypos="-0.061" zpos="130.013" GUID="gdCyRl8mX0O89zP2UUG7mQ==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="96.5414" ypos="-0.681" zpos="126.295" GUID="UsVRX23vq0mM5mb9+u9tbw==" type="HMP.F_SL_c1.t3" iconFile="Data/Fracs/Spike.png"/>
+    <!-- ========== Middle Left (Traps) ========== -->
+    <POI MapID="949" xpos="-22.476" ypos="0.941"  zpos="128.430" GUID="gGaf9p8ebkSj2Ma6ATG42A==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-25.305" ypos="1.066"  zpos="131.647" GUID="d9btvIr+0E6tpQCxSGcJig==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-18.523" ypos="0.819"  zpos="132.076" GUID="UpSMa98AkkedSFWD+DS4aA==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-14.707" ypos="0.469"  zpos="130.383" GUID="rxM8Y96d60ORa8EIsQ4ZnA==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-16.226" ypos="0.517"  zpos="135.552" GUID="DWAB07PJBEiUbIEkP1Jjqw==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-19.880" ypos="1.066"  zpos="137.637" GUID="3SHsqXOT/UaCZejVq66uFg==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-15.691" ypos="0.206"  zpos="126.096" GUID="fg+6vj6e5k+oNU8sixRIVw==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-19.975" ypos="0.479"  zpos="125.750" GUID="udvRcSfPK0y170rlED1dXA==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="-21.517" ypos="1.521"  zpos="130.672" GUID="7lXe6l5AmEqwbgU1JxQGog==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="-16.925" ypos="1.473"  zpos="98.234"  GUID="NsrmhhCUtUmHlWYEgA0aPA==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-24.776" ypos="0.838"  zpos="111.395" GUID="0dJJH+FPck6o6MsmlRht1Q==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-24.554" ypos="0.796"  zpos="115.266" GUID="bpUcxdUbeUOmnNfHrsxhwA==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-21.428" ypos="0.551"  zpos="116.817" GUID="5Q22379yf0a3DfY1CQxW6A==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-18.501" ypos="0.337"  zpos="114.306" GUID="qDAzwjvBA0mipIaK8lqmTg==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-15.328" ypos="0.170"  zpos="115.562" GUID="mnDTzAYPqkqooOOLrIU2VQ==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-15.145" ypos="0.159"  zpos="113.082" GUID="SENYE3fgFUGAp7QZsBHHCQ==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-6.628"  ypos="-0.017" zpos="129.216" GUID="13V+tbOWVEisTu29XOqc9A==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-6.622"  ypos="0.036"  zpos="126.512" GUID="l8ZGIMXad0q8QcSpk0GadQ==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-7.144"  ypos="0.183"  zpos="124.084" GUID="LcNR7S1txUSEyCl+MEXW7w==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="-12.706" ypos="0.504"  zpos="142.861" GUID="Cd9qIf/JbkC6Ga4ImjdKuQ==" type="HMP.F_SL_c1.t4" iconFile="Data/Fracs/Trip.png"/>
+    <!-- ========== Middle Area ========== -->
+    <POI MapID="949" xpos="39.650"  ypos="0.376"  zpos="105.739" GUID="0BW7jyJmSEKZYb0scBM3pw==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="27.986"  ypos="-0.545" zpos="143.207" GUID="t3z/52uaREiPocF09fsLFw==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="42.764"  ypos="-0.686" zpos="137.634" GUID="NkX7JhM8JUOnMCpNfPhLQA==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="80.546"  ypos="-0.419" zpos="107.509" GUID="zx82DfxgMESOyo9OltvVAw==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="85.739"  ypos="-0.851" zpos="94.530"  GUID="yavG4Ot6nUq28mkPelD7Nw==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="73.556"  ypos="0.339"  zpos="87.465"  GUID="FIENLk0UMEOmSRUBniLCQQ==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="38.528"  ypos="-0.342" zpos="129.514" GUID="ywv9ezZXg0mde9UuvhZD6Q==" type="HMP.F_SL_c1.t5" iconFile="Data/Fracs/Trip.png"/>
+    <!-- ========== Middle Right (Champ) ========== -->
+    <POI MapID="949" xpos="99.432"  ypos="-0.180" zpos="91.509"  GUID="8TbTiHLK9U2OVYl6ksKggw==" type="HMP.F_SL_c1.t6"/>
+    <POI MapID="949" xpos="100.116" ypos="-0.297" zpos="96.083"  GUID="efzg86hMzEyHxh3qB3vUVA==" type="HMP.F_SL_c1.t6"/>
+    <!-- ========== Entrance ========== -->
+    <POI MapID="949" xpos="47.636"  ypos="-0.621" zpos="64.059"  GUID="1Cmhngqj5kquk8d1kG5J3A==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="40.668"  ypos="-0.234" zpos="70.636"  GUID="z2QNLQXoVkSrbwNt31jGYw==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="46.346"  ypos="-0.146" zpos="73.806"  GUID="+s8X75DMWEao/DxsvBzXhQ==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="06.881"  ypos="0.686"  zpos="67.479"  GUID="Oqq5jBWav0KsrOQtaWKfFw==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Spike.png"/>
+    <POI MapID="949" xpos="57.189"  ypos="0.253"  zpos="73.423"  GUID="IV0nqY+lVkyT6+Fo3FuxAQ==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="54.718"  ypos="0.292"  zpos="74.581"  GUID="MVI4nMhNfk+d9reP1s2n/w==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="52.956"  ypos="0.443"  zpos="76.086"  GUID="wqiLgpRIe0uKMA2o4KDoVg==" type="HMP.F_SL_c1.t7" iconFile="Data/Fracs/Trip.png"/>
+    <!-- ========== Bottom Right (Spiders) ========== -->
+    <POI MapID="949" xpos="99.770"  ypos="0.398"  zpos="75.792"  GUID="HdD6Gm9jCkKZoKctfK2phw==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Bear.png"/>
+    <POI MapID="949" xpos="142.928" ypos="2.939"  zpos="70.871"  GUID="pQ03tVGsK06Q9W7dcFl9oA==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Spider.png"/>
+    <POI MapID="949" xpos="98.915"  ypos="0.387"  zpos="59.235"  GUID="T2IJ+EBwGEmXri2YPqWAMQ==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="114.822" ypos="0.600"  zpos="71.137"  GUID="r4gsTLbIg0a2Ows5cJJN+w==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="100.170" ypos="0.419"  zpos="56.907"  GUID="mYRVIFq7kEatKys+N7AVPQ==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="100.408" ypos="0.722"  zpos="54.009"  GUID="4FD70T6/REeRxH8wbHl9mQ==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="99.714"  ypos="0.829"  zpos="51.369"  GUID="Ip5h50dUn0muBtykbjLxbg==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="99.973"  ypos="0.205"  zpos="70.297"  GUID="sQfni3IndEC0uHUVtERSig==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <POI MapID="949" xpos="112.719" ypos="0.467"  zpos="60.348"  GUID="/XUtdOUSdkqlJs2LUSw1RQ==" type="HMP.F_SL_c1.t8" iconFile="Data/Fracs/Trip.png"/>
+    <!-- ========== PASSAGE ========== -->
+    <POI MapID="949" xpos="21.242"  ypos="-0.539" zpos="-7.270"  GUID="+d8B11gpVEejpe72TteYcQ==" type="HMP.F_SL_c1.t9" iconFile="Data/Fracs/Trip.png" alpha="0.65"/>
+    <POI MapID="949" xpos="17.885"  ypos="-0.471" zpos="-6.799"  GUID="x2nyPbvwqEibZMDhf9GjWA==" type="HMP.F_SL_c1.t9" iconFile="Data/Fracs/Trip.png" alpha="0.65"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="949" xpos="68.74529" ypos="0.946115" zpos="119.3885"  GUID="GIeR4Zt130+F2mKfqpOGkg==" type="HMP.F_SL_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== THAUMANOVA REACTOR ============================================================================================================================================================ -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_TR_c1" DisplayName="Maze"             color="53806e"          fadeFar="3000" fadeNear="2750"                                       iconSize="0.75"                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_TR_c2" DisplayName="Subject 6 Portal"                                                                                              iconSize="0.5"  rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_TR_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/TR1.png" iconSize="2"    rotate="90,0,180" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Maze ========== -->
+    <POI MapID="957" xpos="-2.204"  ypos="37.664" zpos="-214.180" GUID="RM53JibWak6Mu3tmiFVNhw==" type="HMP.F_TR_c1"                                iconFile="Data/General/1.png"/>
+    <POI MapID="957" xpos="-52.010" ypos="37.164" zpos="-192.614" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="HMP.F_TR_c1"                                iconFile="Data/General/2.png"/>
+    <POI MapID="957" xpos="-18.967" ypos="40.647" zpos="-231.344" GUID="8jv47sgfbkmfME22/3LvqQ==" type="HMP.F_TR_c1"                                iconFile="Data/General/3.png"/>
+    <!-- ========== Portal ========== -->
+    <POI MapID="957" xpos="133.990" ypos="20.133" zpos="116.249"  GUID="lGx15a7kx0WpH83FFFdq3A==" type="HMP.F_TR_c2" fadeFar="1750" fadeNear="1250" iconFile="Data/General/WMPD-1.png" rotate-z="45"  profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="957" xpos="133.990" ypos="19.889" zpos="26.760"   GUID="C/ZpThM9pk6dKXjvwqD+ag==" type="HMP.F_TR_c2" fadeFar="1500" fadeNear="1000" iconFile="Data/General/WMPD-2.png" rotate-z="180" profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,thief,warrior"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="957" xpos="75.237"  ypos="1.792"  zpos="-63.206"  GUID="N/nreCu4X0aLVZQOY4NDLg==" type="HMP.F_TR_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== TWILIGHT OASIS =============================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_TO_c1" DisplayName="Skip to 2nd Sandblinder"                         fadeFar="1000" fadeNear="750"                                        iconSize="0.5"                    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_TO_sy" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Slaying/TO1.png" iconSize="2.25" rotate="90,0,-89" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Skip to Second Sandblinder ========== -->
+    <POI MapID="1267" xpos="126.685" ypos="11.943" zpos="76.939"  GUID="Y9iDxpas+UCJvnT78e5Lqg==" type="HMP.F_TO_c1" cull="CounterClockwise" iconFile="Data/Fracs/Jump-1.png"  rotate="180,0,90"/>
+    <POI MapID="1267" xpos="128.429" ypos="22.525" zpos="76.136"  GUID="kF1rIo0U+0eMdn220VSTrQ==" type="HMP.F_TO_c1" cull="CounterClockwise" iconFile="Data/Fracs/Jump-2.png"  rotate="90,0,90"/>
+    <POI MapID="1267" xpos="126.675" ypos="30.480" zpos="75.335"  GUID="J3pK25KUMkWq5Wf5vLCBOw==" type="HMP.F_TO_c1" cull="Clockwise"        iconFile="Data/Fracs/Jump-2.png"  rotate="90,0,180"/>
+    <POI MapID="1267" xpos="128.852" ypos="34.851" zpos="68.165"  GUID="cPrIEthiB0igyCtqA3f5Sg==" type="HMP.F_TO_c1" cull="Clockwise"        iconFile="Data/Fracs/Jump-2.png"  rotate="90,0,270"/>
+    <POI MapID="1267" xpos="135.409" ypos="43.761" zpos="73.991"  GUID="j9TmY/3caUK/E900bC9ORQ==" type="HMP.F_TO_c1" cull="CounterClockwise" iconFile="Data/Fracs/Jump-2y.png" rotate="90,0,180"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1267" xpos="33.838"  ypos="29.178" zpos="223.016" GUID="Knw+tPY6JESdzCR7VpZk0w==" type="HMP.F_TO_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== UNCATEGORIZED ================================================================================================================================================================ -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_UC_c0" DisplayName="Skip to Old Tom" cull="CounterClockwise" fadeFar="1350" fadeNear="1100"                                       iconSize="0.5"  rotate="0,0,-98"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UC_c1" DisplayName="Harpy JP Skip"                           fadeFar="1000" fadeNear="750"                                                                            mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UC_c2" DisplayName="Harpy Leap Skip" cull="CounterClockwise" fadeFar="1000" fadeNear="750"                                                                            mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UC_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                          mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"                                   fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/UC1.png" iconSize="1.75" rotate="88,0,140"   tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Old Tom"                                 fadeFar="800"  fadeNear="650"  iconFile="Data/Fracs/Slaying/UC2.png" iconSize="2.5"  rotate="90,5,-9"    tip-description="Potion: Inquest&#xA;Sigils: Force, Mad Sct"/>
+      <MarkerCategory name="s3"      DisplayName="Raving Asura"                            fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/UC3.png" iconSize="1.75" rotate="125,-5,200" tip-description="Potion: Inquest&#xA;Sigils: Force, Mad Sct"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Skip to Old Tom ========== -->
+    <POI MapID="947" xpos="-744.64"  ypos="824.410" zpos="-701.596" GUID="M2SmnshxYUasXsg6TO5Wkw==" type="HMP.F_UC_c0"                            iconFile="Data/Class/Normal/EleLF-1.png"                                        profession="elementalist"/>
+    <POI MapID="947" xpos="-744.64"  ypos="824.410" zpos="-701.596" GUID="E5Gwxbu8v06V2UUhZkSHSA==" type="HMP.F_UC_c0"                            iconFile="Data/Class/Normal/GrdTele-1.png"                                      profession="guardian"/>
+    <POI MapID="947" xpos="-744.64"  ypos="824.410" zpos="-701.596" GUID="V+w8LmKc10SWql93DjCGqw==" type="HMP.F_UC_c0"                            iconFile="Data/Class/Normal/MesBlink-1.png"                                     profession="mesmer"/>
+    <POI MapID="947" xpos="-744.64"  ypos="824.410" zpos="-701.596" GUID="m52Gyy+8m06rdXM8fkkb+g==" type="HMP.F_UC_c0"                            iconFile="Data/Class/Normal/NecFW-1.png"                                        profession="necromancer"/>
+    <POI MapID="947" xpos="-744.64"  ypos="824.410" zpos="-701.596" GUID="bbcHh9jZ2kafW81sYHbRbQ==" type="HMP.F_UC_c0"                            iconFile="Data/Class/Normal/ThfSB5-1.png"                                       profession="thief"/>
+    <!-- ========== JP Version ========== -->
+    <!-- Jump #1 -->
+    <POI MapID="947" xpos="-773.953" ypos="838.628" zpos="-766.156" GUID="xmRtsVhexUCyM087px4mzg==" type="HMP.F_UC_c1"    cull="Clockwise"        iconFile="Data/Fracs/Jump-2.png"            iconSize="0.15" rotate="110,-5,235"/>
+    <!-- Jump #2 -->
+    <POI MapID="947" xpos="-773.709" ypos="839.839" zpos="-765.221" GUID="3eMN6GYkTUyO9/RE+5q+Tw==" type="HMP.F_UC_c1"    cull="Clockwise"        iconFile="Data/Fracs/Jump-1.png"            iconSize="0.15" rotate="85,20,225"/>
+    <!-- Jump #3 -->
+    <POI MapID="947" xpos="-773.800" ypos="841.064" zpos="-764.174" GUID="sWOsELHGLU+jR0zaLnKCnA==" type="HMP.F_UC_c1"    cull="Clockwise"        iconFile="Data/Fracs/Jump-2.png"            iconSize="0.2"  rotate="105,-7,250" specialization="20,28,35,44,54,58,1,10,23,24,40,45,2,19,39,50,53,60"/>
+    <!-- Jump #4 -->
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="tv45QQEqFUOqZ3ouRQ9bNQ==" type="HMP.F_UC_c1"    cull="Clockwise"        iconFile="Data/Fracs/Jump-1.png"            iconSize="0.25" rotate="55,0,-36"   specialization="2,19,39,50,53,60,20,28,35,44,54,58,1,10,23,24,45"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="WV211V8TfEi54SlQDz+r/w==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/ReaSh2-1.png"   iconSize="0.25" rotate="135,0,144"  specialization="34"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="NTZQBldOJUeBuyv6a2sUSg==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/DDSt5-1.png"    iconSize="0.25" rotate="135,0,144"  specialization="7"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="AVJfOv5hrkCVdGc/Wa7ZRw==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/MirSw1-1.png"   iconSize="0.25" rotate="135,0,144"  specialization="59"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="yGhGmiUYfkqGqXCMhUos5w==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/EleLH2-1.png"   iconSize="0.25" rotate="135,0,144"  profession="elementalist"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="qZWwzToFzkG/lD8AVIG1eg==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/EngRif5-1.png"  iconSize="0.25" rotate="135,0,144"  profession="engineer"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="h2C3+HdEV0qaFSMAUYYr9A==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/GrdGS3-1.png"   iconSize="0.25" rotate="135,0,144"  profession="guardian"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="6rIrk25S8k+0qultCsufNg==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/RgrSw2-1.png"   iconSize="0.25" rotate="135,0,144"  profession="ranger"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="SvwcYVtSfUGQxn3w5V7cMA==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/RevCtA-1.png"   iconSize="0.25" rotate="135,0,144"  profession="revenant"/>
+    <POI MapID="947" xpos="-779.275" ypos="840.528" zpos="-757.400" GUID="tv45QQEqFUOqZ3ouRQ9bNQ==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Class/Normal/WarSw2-1.png"   iconSize="0.25" rotate="135,0,144"  profession="warrior"/>
+    <!-- Jump #5 -->
+    <POI MapID="947" xpos="-780.850" ypos="846.768" zpos="-749.200" GUID="HEow3lpVmE+/7ZGRPcbIdg==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Fracs/Jump-1.png"            iconSize="0.25" rotate="122,0,260"/>
+    <!-- Jump #6 -->
+    <POI MapID="947" xpos="-776.717" ypos="848.189" zpos="-753.146" GUID="H73jBUtzCUGuLHHMZd654g==" type="HMP.F_UC_c1"    cull="CounterClockwise" iconFile="Data/Fracs/Jump-1.png"            iconSize="0.15" rotate="125,0,140"/>
+    <!-- Jump #7 -->
+    <POI MapID="947" xpos="-772.825" ypos="850.759" zpos="-753.725" GUID="Q7GuhpvSJUan9baSSU5+/w==" type="HMP.F_UC_c1"    cull="Clockwise"        iconFile="Data/Fracs/Jump-1y.png"           iconSize="0.19" rotate="55,7,-40"/>
+    <!-- ========== Leap Version ========== -->
+    <POI MapID="947" xpos="-824.750" ypos="841.934" zpos="-729.816" GUID="Q3pB7fmuVkm7erxOABdX+Q==" type="HMP.F_UC_c2"                            iconFile="Data/Class/Normal/EngRif5-2.png"  iconSize="0.35" rotate="140,0,235"  profession="engineer"/>
+    <POI MapID="947" xpos="-824.750" ypos="841.934" zpos="-729.816" GUID="jy/Zcv2+uUK3LenzWmQalw==" type="HMP.F_UC_c2"                            iconFile="Data/Class/Normal/DHWoR-2.png"    iconSize="0.30" rotate="140,0,235"  specialization="27"/>
+    <POI MapID="947" xpos="-824.750" ypos="841.934" zpos="-729.816" GUID="a2FHRSDJwE67KZMcjoZLgQ==" type="HMP.F_UC_c2"                            iconFile="Data/Class/Normal/MirSw1-2.png"   iconSize="0.35" rotate="140,0,235"  specialization="59"/>
+    <POI MapID="947" xpos="-824.750" ypos="841.934" zpos="-729.816" GUID="ytqK1qor902RLMfcb+XuPQ==" type="HMP.F_UC_c2"                            iconFile="Data/Class/Normal/ReaSh2-2.png"   iconSize="0.35" rotate="140,0,235"  specialization="34"/>
+    <POI MapID="947" xpos="-824.750" ypos="841.934" zpos="-729.816" GUID="FVALyQ4z+EGSCOptY3N+2w==" type="HMP.F_UC_c2"                            iconFile="Data/Class/Normal/RgrSw2-2.png"   iconSize="0.35" rotate="140,0,235"  profession="ranger"/>
+    <POI MapID="947" xpos="-824.750" ypos="841.934" zpos="-729.816" GUID="DVujJMaMd0+Q90yT0GSPeA==" type="HMP.F_UC_c2"                            iconFile="Data/Class/Normal/WarSw2-2.png"   iconSize="0.35" rotate="140,0,235"  profession="warrior"/>
+    <POI MapID="947" xpos="-839.388" ypos="843.500" zpos="-719.574" GUID="WLVDKrDMdkiYzqt8A9sfRA==" type="HMP.F_UC_c2"                            iconFile="Data/Fracs/Jump-2.png"            iconSize="0.20" rotate="140,0,200"  profession="engineer,ranger,warrior" specialization="27,59,34"/>
+    <POI MapID="947" xpos="-842.013" ypos="857.209" zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="HMP.F_UC_c2"                            iconFile="Data/Fracs/Jump-1y.png"           iconSize="0.5"  rotate="125,17,150" profession="engineer,ranger,warrior" specialization="27,59,34"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="947" xpos="-817.098" ypos="747.345" zpos="-758.081" GUID="g/LHhQkSVk2nnE6Ka0R0MQ==" type="HMP.F_UC_sy.s1"/>
+    <POI MapID="947" xpos="-720.454" ypos="800.248" zpos="-710.179" GUID="3PW0iaswsUeNi3D9cnAwrQ==" type="HMP.F_UC_sy.s2"/>
+    <POI MapID="947" xpos="-795.559" ypos="855.707" zpos="-686.479" GUID="1kkf/7FN8kmstmq2QlCNZw==" type="HMP.F_UC_sy.s3"/>
+  </POIs>
+  
+  
+<!-- ======================================== UNDERGROUND FACILITY ========================================================================================================================================================= -->
+  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_UF_c1" DisplayName="Button Skip"       fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UF_c2" DisplayName="Bucket Boundaries" fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UF_sy" DisplayName="Slaying"           cull="CounterClockwise"                                              iconSize="2" rotate-x="90"                               mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"             fadeFar="1500" fadeNear="1250" iconFile="Data/Fracs/Slaying/UF1.png"                                           rotate-z="-91" tip-description="Potion: Dredge&#xA;Sigils: Night, Sorrow"/>
+      <MarkerCategory name="s2"      DisplayName="Dredge Boss"       fadeFar="1100" fadeNear="850"  iconFile="Data/Fracs/Slaying/UF2.png"                            rotate-y="-18" rotate-z="55"  tip-description="Potion: Dredge&#xA;Sigils: Night, Sorrow"/>
+      <MarkerCategory name="s3"      DisplayName="Elemental Boss"    fadeFar="1150" fadeNear="900"  iconFile="Data/Fracs/Slaying/UF3.png"                            rotate-y="-18" rotate-z="55"  tip-description="Potion: Ele&#xA;Sigils: Night, Ele"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Button Skip ========== -->
+    <POI MapID="953" xpos="745.242" ypos="13.696" zpos="407.787" GUID="GU1zPvYA202GISCSUQ54pQ==" type="HMP.F_UF_c1"    iconFile="Data/General/WMPD-1.png"       iconSize="0.5"  rotate="180,0,-55" profession="guardian,thief"/>
+    <POI MapID="953" xpos="692.992" ypos="22.278" zpos="391.388" GUID="H7ipHud3zkSW8vhaI0dYlg==" type="HMP.F_UF_c1"    iconFile="Data/Fracs/Feline.png"         iconSize="0.35" rotate="90,0,-45"  profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,warrior" specialization="20,28,35,44,54,58"/>
+    <POI MapID="953" xpos="692.992" ypos="22.308" zpos="391.388" GUID="hTUZ8RUvDEy1entkHMhO5A==" type="HMP.F_UF_c1"    iconFile="Data/Class/Normal/DDSt5-2.png" iconSize="0.45" rotate="90,0,-45"  specialization="7"/>
+    <POI MapID="953" xpos="647.661" ypos="37.599" zpos="392.171" GUID="6Kbv6Ch8ZU6M3SZ7UrUONA==" type="HMP.F_UF_c1"    iconFile="Data/Fracs/Target.png"         iconSize="0.45"                    profession="guardian,thief"/>
+    <POI MapID="953" xpos="662.762" ypos="37.951" zpos="363.906" GUID="WbcgXBS7YkWqPBw8LX66sg==" type="HMP.F_UF_c1"    iconFile="Data/Class/Normal/GrdJI-1.png" iconSize="0.5"  rotate="90,0,10"   profession="guardian"/>
+    <POI MapID="953" xpos="662.762" ypos="37.951" zpos="363.906" GUID="GHrMJeUBMk+0XL16ALjTkQ==" type="HMP.F_UF_c1"    iconFile="Data/Class/Normal/ThfIS-1.png" iconSize="0.5"  rotate="90,0,10"   profession="thief"/>
+    <POI MapID="953" xpos="637.775" ypos="17.620" zpos="368.426" GUID="kf3D8SE9Ika2j9chiHsS3w==" type="HMP.F_UF_c1"    iconFile="Data/General/WMPD-2.png"       iconSize="0.65" rotate="180,0,-90" profession="guardian,thief"/>
+    <!-- ========== Bucket Boundaries ========== -->
+    <Trail trailData="Data/Fracs/UFBucket1.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Fracs/UFBucket2.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Fracs/UFBucket3.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Data/Boundary/RedLine.png"/>
+    <Trail trailData="Data/Fracs/UFBucket4.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Data/Boundary/RedLine.png"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="953" xpos="732.800" ypos="17.000" zpos="404.000" GUID="KSLw0W8pWECU/vgXLG2k9w==" type="HMP.F_UF_sy.s1"/>
+    <POI MapID="953" xpos="695.800" ypos="67.000" zpos="111.800" GUID="IA0UiMhI4021rdoj9xwtFw==" type="HMP.F_UF_sy.s2"/>
+    <POI MapID="953" xpos="694.800" ypos="72.000" zpos="110.800" GUID="txLoxyKtPkavg31FNxTp0Q==" type="HMP.F_UF_sy.s3"/>
+  </POIs>
+  
+  
+<!-- ======================================== URBAN BATTLEGROUND =========================================================================================================================================================== -->
+  <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory name="F_UB_c1" DisplayName="Burning Oil Boundary"                         fadeFar="1500" fadeNear="1000"                                                                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_UB_c2" DisplayName="Barricade Skip"                                                                                                                                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_UB_sy" DisplayName="Slaying"              cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/UB1.png" iconSize="2" rotate="90,0,170" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+  </MarkerCategory>
+  <POIs>  
+    <!-- ========== Burning Oil Boundary ========== -->
+    <Trail trailData="Data/Fracs/UB Oils.trl" animSpeed="2" alpha="1"                            type="HMP.F_UB_c1"                                                        texture="Data/Boundary/RedLine.png"/>
+    <!-- ========== Barricade Skip ========== -->
+    <POI MapID="950" xpos="286.715" ypos="7.000"  zpos="686.865" GUID="OrbSrzXOGUaNGaOsglaHpg==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1750" fadeNear="1500" iconFile="Data/Fracs/Jump-1.png"    iconSize="0.45" rotate="270,180,225"/>
+    <POI MapID="950" xpos="275.598" ypos="10.871" zpos="675.902" GUID="VLKxx9gDQUi2ERBZ3gRWPA==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="900"  fadeNear="700"  iconFile="Data/Fracs/Jump-2.png"    iconSize="0.25" rotate="80,0,-60"/>
+    <POI MapID="950" xpos="278.345" ypos="12.860" zpos="681.080" GUID="aQ1ysElmCU6TV50ceMvFHw==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="700"  fadeNear="500"  iconFile="Data/Fracs/Jump-2.png"    iconSize="0.25" rotate="80,0,140"/>
+    <POI MapID="950" xpos="281.602" ypos="17.163" zpos="688.230" GUID="L8DR9sxmQUazZ2OyCFw21A==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="550"  fadeNear="400"  iconFile="Data/Fracs/Jump-1.png"    iconSize="0.45" rotate="90,0,-30"/>
+    <POI MapID="950" xpos="267.448" ypos="18.302" zpos="692.747" GUID="4O1JFOyP9kOPZfytnlCW/Q==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="850"  fadeNear="600"  iconFile="Data/Fracs/Jump-1.png"    iconSize="0.55" rotate="140,0,-60"/>
+    <POI MapID="950" xpos="257.040" ypos="23.330" zpos="698.135" GUID="Lo8bMzFf7kyYlJZnlplKwg==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Jump-1.png"    iconSize="0.5"  rotate="38,-5,-55"/>
+    <POI MapID="950" xpos="217.298" ypos="11.038" zpos="714.105" GUID="EVBQFGDvNkS+yA+OiGXt0Q==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1850" fadeNear="1600" iconFile="Data/Fracs/Jump-1y.png"   iconSize="0.75" rotate="90,0,45"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="950" xpos="378.296" ypos="2.816"  zpos="565.358" GUID="p1giSXVoOEGBVgHjOBB6Hw==" type="HMP.F_UB_sy"/>
+  </POIs>
+  
+  
+<!-- ======================================== VOLCANIC ===================================================================================================================================================================== -->
+  <MarkerCategory       name="HMP"     DisplayName="Hero's Pack">
+    <MarkerCategory     name="F_VO_c1" DisplayName="Portal"                cull="CounterClockwise"                                              iconSize="0.35"                     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory     name="F_VO_c2" DisplayName="Cliff Fall"                                                                                 iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory     name="F_VO_sy" DisplayName="Slaying"               cull="CounterClockwise"                                                                                  mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconFile="Data/Fracs/Slaying/Vo1.png" iconSize="1.35" rotate="90,0,210"   tip-description="Potion: Grawl&#xA;Sigils: Night, Grawl"/>
+      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconFile="Data/Fracs/Slaying/Vo2.png" iconSize="1.5"  rotate="90,0,3"     tip-description="Potion: Ele&#xA;Sigils: Night, Ele"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Portal ========== -->
+    <POI MapID="954" xpos="350.135" ypos="81.000" zpos="-716.496" GUID="4bFCZMjeJESnDAfAWNvqSA==" type="HMP.F_VO_c1"                            fadeFar="600"  fadeNear="400"  iconFile="Data/General/WMPD-1.png" rotate="170,-10,225" profession="elementalist,engineer,guardian,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="954" xpos="232.187" ypos="52.805" zpos="-691.025" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" type="HMP.F_VO_c1"                            fadeFar="900"  fadeNear="750"  iconFile="Data/General/WMPD-2.png" rotate="173,-5,114"  profession="elementalist,engineer,guardian,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="954" xpos="350.135" ypos="81.000" zpos="-716.496" GUID="HVSPzvgYy0m+GT2kHlm8SQ==" type="HMP.F_VO_c1"                            fadeFar="600"  fadeNear="400"  iconFile="Data/General/MesP-1.png" rotate="170,-10,225" profession="mesmer"/>
+    <POI MapID="954" xpos="232.187" ypos="52.805" zpos="-691.025" GUID="q+ShB924N0m8QfuKB6MbVw==" type="HMP.F_VO_c1"                            fadeFar="900"  fadeNear="750"  iconFile="Data/General/MesP-2.png" rotate="173,-5,114"  profession="mesmer"/>
+    <!-- ========== Cliff ========== -->
+    <POI MapID="954" xpos="198.889" ypos="52.540" zpos="-725.508" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="HMP.F_VO_c2"    cull="Clockwise"        fadeFar="750"  fadeNear="500"  iconFile="Data/Fracs/Jump-1.png"   rotate="0.1,0,135"/>
+    <POI MapID="954" xpos="196.401" ypos="28.001" zpos="-730.729" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="HMP.F_VO_c2"    cull="Clockwise"        fadeFar="1100" fadeNear="1000" iconFile="Data/Fracs/Jump-1.png"   rotate="45,0,132"/>
+    <POI MapID="954" xpos="204.046" ypos="5.654"  zpos="-731.373" GUID="vW3ZXkN/PUiyF6P2m3Jlww==" type="HMP.F_VO_c2"    cull="CounterClockwise" fadeFar="1100" fadeNear="1000" iconFile="Data/Fracs/Jump-1.png"   rotate="180,0,100"/>
+    <POI MapID="954" xpos="235.295" ypos="6.950"  zpos="-781.714" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="HMP.F_VO_c2"    cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconFile="Data/Fracs/Jump-1y.png"  rotate="160,0,20"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="954" xpos="377.169" ypos="82.029" zpos="-732.727" GUID="ld3ngP9UTEa9uK8ddhWDiQ==" type="HMP.F_VO_sy.s1"/>
+    <POI MapID="954" xpos="185.581" ypos="22.256" zpos="-806.573" GUID="LyBQvH4YyEu1ibWUKBZjEg==" type="HMP.F_VO_sy.s2"/>
+  </POIs>
+</OverlayData>
