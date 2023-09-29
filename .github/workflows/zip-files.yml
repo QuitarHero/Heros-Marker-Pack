@@ -9,7 +9,7 @@ jobs:
       - uses: vimtor/action-zip@v1.1
         with:
           files: Blish_HUD/pack.lua
-          recursive: false
+          recursive: true
           dest: result.zip
       - uses: actions/upload-artifact@v3
         with:
