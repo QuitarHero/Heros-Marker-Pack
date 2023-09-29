@@ -1,0 +1,13 @@
+name: zip-marker-pack
+
+on: [push]
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: Blish HUD/
+          recursive: false
+          dest: result.zip
