@@ -5,9 +5,13 @@ jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
       - uses: vimtor/action-zip@v1.1
         with:
-          files: Blish HUD/ pack.lua
+          files: Blish HUD/pack.lua
           recursive: false
           dest: result.zip
+      - uses: actions/upload-artifact@v1
+        with:
+          name: my-artifact
+          path: ${{ github.workspace }}/result.zip
