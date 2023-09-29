@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: vimtor/action-zip@v1.1
         with:
-          files: Blish HUD/
+          files: Blish HUD/ pack.lua
           recursive: false
           dest: result.zip
