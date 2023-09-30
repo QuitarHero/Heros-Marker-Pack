@@ -1,4 +1,4 @@
-name: zip-marker-pack
+name: .zip Pack
 
 on: [push]
 jobs:
@@ -8,10 +8,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: vimtor/action-zip@v1.1
         with:
-          files: '${{ github.workspace }}/Blish HUD/pack.lua'
+          files: /Blish_HUD
           recursive: true
-          dest: result.zip
+          dest: Hero.Blish.Pack.zip
       - uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
-          path: ${{ github.workspace }}/result.zip
+          name: Heros-Marker-Pack-Artifact
+          path: ${{ github.workspace }}/Hero.Blish.Pack.zip
