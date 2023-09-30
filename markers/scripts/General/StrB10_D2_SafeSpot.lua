@@ -14,16 +14,16 @@ local function UpdateTexture()
   
   --No Max Melee or No Boundary
   if( SS.catCheck[1] == false or SS.catCheck[2] == false ) then
-    SS.marker:SetTexture("Data/General/empty.png")
+    SS.marker:SetTexture("Assets/General/empty.png")
   else
     --No 300r and No Edge
-    if(     SS.catCheck[3] == false and SS.catCheck[4] == false ) then SS.marker:SetTexture("Data/Shapes/" .. SS.textures[4] .. ".png")
+    if(     SS.catCheck[3] == false and SS.catCheck[4] == false ) then SS.marker:SetTexture("Assets/Shapes/" .. SS.textures[4] .. ".png")
     --Yes 300r and No Edge
-    elseif( SS.catCheck[3] == true  and SS.catCheck[4] == false ) then SS.marker:SetTexture("Data/Shapes/" .. SS.textures[3] .. ".png")
+    elseif( SS.catCheck[3] == true  and SS.catCheck[4] == false ) then SS.marker:SetTexture("Assets/Shapes/" .. SS.textures[3] .. ".png")
     --No 300r and Yes Edge
-    elseif( SS.catCheck[3] == false and SS.catCheck[4] == true )  then SS.marker:SetTexture("Data/Shapes/" .. SS.textures[2] .. ".png")
+    elseif( SS.catCheck[3] == false and SS.catCheck[4] == true )  then SS.marker:SetTexture("Assets/Shapes/" .. SS.textures[2] .. ".png")
     --Yes 300r and Yes Edge
-    else SS.marker:SetTexture("Data/Shapes/" .. SS.textures[1] .. ".png") end
+    else SS.marker:SetTexture("Assets/Shapes/" .. SS.textures[1] .. ".png") end
   end
 end
 

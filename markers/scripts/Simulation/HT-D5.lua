@@ -53,8 +53,8 @@ HMP.HTcmSim.Zhaitan = {
     markers = World:CategoryByType("hmpSim.htcm_c1.sc3.d5_2"):GetMarkers(),
     centerPos = { I:Vector3(21.12552, -532.931, 391.723), I:Vector3(-1.975932, -513.8334, 391.723), I:Vector3(24.91432, -503.3301, 391.723), }, --close / mid / far
     icon = {
-      {"Data/Shapes/CircleFill.png", "Data/Shapes/Orb5.png"},
-      {"Data/Shapes/wurmThrashBorder.png", "Data/Shapes/wurmThrashFill.png"}
+      {"Assets/Shapes/CircleFill.png", "Assets/Shapes/Orb5.png"},
+      {"Assets/Shapes/wurmThrashBorder.png", "Assets/Shapes/wurmThrashFill.png"}
     },
     height = { --Max / Min
       {390.723, 394.723}, --Wurm Text

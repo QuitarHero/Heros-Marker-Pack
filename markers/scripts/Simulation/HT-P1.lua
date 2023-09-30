@@ -62,7 +62,7 @@ function HTcm_P1_LightningOfJormag(curTime, table, index)
             jl.markers[a].Tint = HMP.HTcmSim.color[2]
           else
             jl.markers[a].Tint = HMP.HTcmSim.color[3]
-            jl.markers[a]:SetTexture("Data/Shapes/BigWhiteLine1.png")
+            jl.markers[a]:SetTexture("Assets/Shapes/BigWhiteLine1.png")
           end
           jl.markers[a]:SetPos(vector)
         end
@@ -99,7 +99,7 @@ function HTcm_P1_LightningOfJormag(curTime, table, index)
       --"Despawn" Laser
       if(jl.track[i][k] == 4 and curTime >= timeTrack + jl.time[3][6]) then
         jl.markers[(l+2)].InGameVisibility = false
-        jl.markers[(l+2)]:SetTexture("Data/Shapes/BigWhiteLine1-2.png")
+        jl.markers[(l+2)]:SetTexture("Assets/Shapes/BigWhiteLine1-2.png")
         --If a player "gets hit" by an AoE, we assume they go down
         if( ( Mumble.PlayerCharacter.Position - jl.markers[l].Position ):Length() <= jl.markers[l].Size and World:CategoryByType("hmpSim.htcm_c1.sc4.ps_1"):IsVisible() ) then
           ApplyDowned(Mumble.PlayerCharacter.Position)

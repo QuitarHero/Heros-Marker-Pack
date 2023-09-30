@@ -29,25 +29,25 @@ Debug:Watch("Sab Compass Variables", HMP.CompassSabetha)
 local function setCompassTexture(category)
   --If the user wants Directional marker icons
   if(category == 1) then
-    compass.markers[1]:SetTexture("Data/General/s.png")
-    compass.markers[2]:SetTexture("Data/General/w.png")
-    compass.markers[3]:SetTexture("Data/General/n.png")
-    compass.markers[4]:SetTexture("Data/General/e.png")
+    compass.markers[1]:SetTexture("Assets/General/s.png")
+    compass.markers[2]:SetTexture("Assets/General/w.png")
+    compass.markers[3]:SetTexture("Assets/General/n.png")
+    compass.markers[4]:SetTexture("Assets/General/e.png")
   --If the user wants Numerical marker icons
   elseif(category == 2) then
     --If the user wants Individual Numbers
     if(World:CategoryByType("HMP.W1_B4.c25.sc3.asc2.num1"):IsVisible()) then
-      compass.markers[1]:SetTexture("Data/General/1.png")
-      compass.markers[2]:SetTexture("Data/General/2.png")
-      compass.markers[3]:SetTexture("Data/General/3.png")
-      compass.markers[4]:SetTexture("Data/General/4.png")
+      compass.markers[1]:SetTexture("Assets/General/1.png")
+      compass.markers[2]:SetTexture("Assets/General/2.png")
+      compass.markers[3]:SetTexture("Assets/General/3.png")
+      compass.markers[4]:SetTexture("Assets/General/4.png")
     --If the user wants Combination Numbers
     else
       for i = 1, #compass.markers do
         if(i % 2 == 1) then
-          compass.markers[i]:SetTexture("Data/General/1and3.png")
+          compass.markers[i]:SetTexture("Assets/General/1and3.png")
         else
-          compass.markers[i]:SetTexture("Data/General/2and4.png")
+          compass.markers[i]:SetTexture("Assets/General/2and4.png")
         end
       end
     end

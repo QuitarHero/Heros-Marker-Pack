@@ -11,9 +11,9 @@ function weeklyW6Event()
     }
     --Decide what shows based on week
     if(remain > 2 and remain < 10) then
-      HMP.weeklyW6Event.text:SetTexture("Data/Raids/w6-megapets.png")
+      HMP.weeklyW6Event.text:SetTexture("Assets/Raids/w6-megapets.png")
     else
-      HMP.weeklyW6Event.text:SetTexture("Data/Raids/w6-ectoplasms.png")
+      HMP.weeklyW6Event.text:SetTexture("Assets/Raids/w6-ectoplasms.png")
     end
   end
   
@@ -35,17 +35,17 @@ function weeklyW6Event()
     }
     --Decide what shows based on week
     if(remain > 2 and remain < 10) then
-      HMP.weeklyW6Event.megaText1:SetTexture("Data/Raids/w6-megapets.png")
-      HMP.weeklyW6Event.megaText2:SetTexture("Data/Raids/w6-megapets.png")
-      HMP.weeklyW6Event.megaArrow1:SetTexture("Data/General/ArrowG.png")
-      HMP.weeklyW6Event.megaArrow2:SetTexture("Data/General/ArrowG.png")
-      HMP.weeklyW6Event.megaArrow3:SetTexture("Data/General/ArrowG.png")
+      HMP.weeklyW6Event.megaText1:SetTexture("Assets/Raids/w6-megapets.png")
+      HMP.weeklyW6Event.megaText2:SetTexture("Assets/Raids/w6-megapets.png")
+      HMP.weeklyW6Event.megaArrow1:SetTexture("Assets/General/ArrowG.png")
+      HMP.weeklyW6Event.megaArrow2:SetTexture("Assets/General/ArrowG.png")
+      HMP.weeklyW6Event.megaArrow3:SetTexture("Assets/General/ArrowG.png")
     else
-      HMP.weeklyW6Event.ectoText1:SetTexture("Data/Raids/w6-ectoplasms.png")
-      HMP.weeklyW6Event.ectoText2:SetTexture("Data/Raids/w6-ectoplasms.png")
-      HMP.weeklyW6Event.ectoArrow1:SetTexture("Data/General/ArrowG.png")
-      HMP.weeklyW6Event.ectoArrow2:SetTexture("Data/General/ArrowG.png")
-      HMP.weeklyW6Event.ectoArrow3:SetTexture("Data/General/ArrowG.png")
+      HMP.weeklyW6Event.ectoText1:SetTexture("Assets/Raids/w6-ectoplasms.png")
+      HMP.weeklyW6Event.ectoText2:SetTexture("Assets/Raids/w6-ectoplasms.png")
+      HMP.weeklyW6Event.ectoArrow1:SetTexture("Assets/General/ArrowG.png")
+      HMP.weeklyW6Event.ectoArrow2:SetTexture("Assets/General/ArrowG.png")
+      HMP.weeklyW6Event.ectoArrow3:SetTexture("Assets/General/ArrowG.png")
     end
   end
 end

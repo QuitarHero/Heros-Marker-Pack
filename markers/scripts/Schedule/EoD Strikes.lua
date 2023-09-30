@@ -92,62 +92,62 @@ function SetEOD_StrikeTextures()
   
   --Giving textures to daily-specific Arborstone markers so the feature is a full on/off if scripts are enabled or disabled
   if(currentMap == 1428) then
-    HMP.dailyCycle.titleDaily:SetTexture("Data/Strikes/Track/daily-title.png")
-    HMP.dailyCycle.titleReset:SetTexture("Data/Strikes/Track/reset-title.png")
-    HMP.dailyCycle.incompleteBorder:SetTexture("Data/General/dot-border.png")
-    HMP.dailyCycle.completeBorder:SetTexture("Data/General/dot-border.png")
-    HMP.dailyCycle.resetBorder:SetTexture("Data/General/dot-border.png")
+    HMP.dailyCycle.titleDaily:SetTexture("Assets/Strikes/Track/daily-title.png")
+    HMP.dailyCycle.titleReset:SetTexture("Assets/Strikes/Track/reset-title.png")
+    HMP.dailyCycle.incompleteBorder:SetTexture("Assets/General/dot-border.png")
+    HMP.dailyCycle.completeBorder:SetTexture("Assets/General/dot-border.png")
+    HMP.dailyCycle.resetBorder:SetTexture("Assets/General/dot-border.png")
   end
   
   --Kaineng Overlook Daily
   if(remain == 4) then
-    noDaily:SetTexture("Data/Strikes/Track/B9g.png")
-    yesDaily:SetTexture("Data/Strikes/Track/B9c.png")
-    curText:SetTexture("Data/Strikes/Track/B9-text.png")
-    dailyTimeText:SetTexture("Data/Strikes/Track/always-night.png")
-    nextDaily:SetTexture("Data/Strikes/Track/B10c.png")
-    nextText:SetTexture("Data/Strikes/Track/B10-text.png")
-    resetTimeText:SetTexture("Data/Strikes/Track/always-night.png")
+    noDaily:SetTexture("Assets/Strikes/Track/B9g.png")
+    yesDaily:SetTexture("Assets/Strikes/Track/B9c.png")
+    curText:SetTexture("Assets/Strikes/Track/B9-text.png")
+    dailyTimeText:SetTexture("Assets/Strikes/Track/always-night.png")
+    nextDaily:SetTexture("Assets/Strikes/Track/B10c.png")
+    nextText:SetTexture("Assets/Strikes/Track/B10-text.png")
+    resetTimeText:SetTexture("Assets/Strikes/Track/always-night.png")
   end
   --Harvest Temple Daily
   if(remain == 0) then
-    noDaily:SetTexture("Data/Strikes/Track/B10g.png")
-    yesDaily:SetTexture("Data/Strikes/Track/B10c.png")
-    curText:SetTexture("Data/Strikes/Track/B10-text.png")
-    dailyTimeText:SetTexture("Data/Strikes/Track/always-night.png")
-    nextDaily:SetTexture("Data/Strikes/Track/B11c.png")
-    nextText:SetTexture("Data/Strikes/Track/B11-text.png")
-    resetTimeText:SetTexture("Data/Strikes/Track/tyrian-night.png")
+    noDaily:SetTexture("Assets/Strikes/Track/B10g.png")
+    yesDaily:SetTexture("Assets/Strikes/Track/B10c.png")
+    curText:SetTexture("Assets/Strikes/Track/B10-text.png")
+    dailyTimeText:SetTexture("Assets/Strikes/Track/always-night.png")
+    nextDaily:SetTexture("Assets/Strikes/Track/B11c.png")
+    nextText:SetTexture("Assets/Strikes/Track/B11-text.png")
+    resetTimeText:SetTexture("Assets/Strikes/Track/tyrian-night.png")
   end
   --Old Lion's Court Daily
   if(remain == 1) then
-    noDaily:SetTexture("Data/Strikes/Track/B11g.png")
-    yesDaily:SetTexture("Data/Strikes/Track/B11c.png")
-    curText:SetTexture("Data/Strikes/Track/B11-text.png")
-    dailyTimeText:SetTexture("Data/Strikes/Track/tyrian-night.png")
-    nextDaily:SetTexture("Data/Strikes/Track/B7c.png")
-    nextText:SetTexture("Data/Strikes/Track/B7-text.png")
-    resetTimeText:SetTexture("Data/Strikes/Track/always-day.png")
+    noDaily:SetTexture("Assets/Strikes/Track/B11g.png")
+    yesDaily:SetTexture("Assets/Strikes/Track/B11c.png")
+    curText:SetTexture("Assets/Strikes/Track/B11-text.png")
+    dailyTimeText:SetTexture("Assets/Strikes/Track/tyrian-night.png")
+    nextDaily:SetTexture("Assets/Strikes/Track/B7c.png")
+    nextText:SetTexture("Assets/Strikes/Track/B7-text.png")
+    resetTimeText:SetTexture("Assets/Strikes/Track/always-day.png")
   end
   --Aetherblade Hideout Daily
   if(remain == 2) then
-    noDaily:SetTexture("Data/Strikes/Track/B7g.png")
-    yesDaily:SetTexture("Data/Strikes/Track/B7c.png")
-    curText:SetTexture("Data/Strikes/Track/B7-text.png")
-    dailyTimeText:SetTexture("Data/Strikes/Track/always-day.png")
-    nextDaily:SetTexture("Data/Strikes/Track/B8c.png")
-    nextText:SetTexture("Data/Strikes/Track/B8-text.png")
-    resetTimeText:SetTexture("Data/Strikes/Track/canthan-night.png")
+    noDaily:SetTexture("Assets/Strikes/Track/B7g.png")
+    yesDaily:SetTexture("Assets/Strikes/Track/B7c.png")
+    curText:SetTexture("Assets/Strikes/Track/B7-text.png")
+    dailyTimeText:SetTexture("Assets/Strikes/Track/always-day.png")
+    nextDaily:SetTexture("Assets/Strikes/Track/B8c.png")
+    nextText:SetTexture("Assets/Strikes/Track/B8-text.png")
+    resetTimeText:SetTexture("Assets/Strikes/Track/canthan-night.png")
   end
   --Xunlai Jade Junkyard Daily
   if(remain == 3) then
-    noDaily:SetTexture("Data/Strikes/Track/B8g.png")
-    yesDaily:SetTexture("Data/Strikes/Track/B8c.png")
-    curText:SetTexture("Data/Strikes/Track/B8-text.png")
-    dailyTimeText:SetTexture("Data/Strikes/Track/canthan-night.png")
-    nextDaily:SetTexture("Data/Strikes/Track/B9c.png")
-    nextText:SetTexture("Data/Strikes/Track/B9-text.png")
-    resetTimeText:SetTexture("Data/Strikes/Track/always-night.png")
+    noDaily:SetTexture("Assets/Strikes/Track/B8g.png")
+    yesDaily:SetTexture("Assets/Strikes/Track/B8c.png")
+    curText:SetTexture("Assets/Strikes/Track/B8-text.png")
+    dailyTimeText:SetTexture("Assets/Strikes/Track/canthan-night.png")
+    nextDaily:SetTexture("Assets/Strikes/Track/B9c.png")
+    nextText:SetTexture("Assets/Strikes/Track/B9-text.png")
+    resetTimeText:SetTexture("Assets/Strikes/Track/always-night.png")
   end
 end
 

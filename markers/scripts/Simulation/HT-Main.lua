@@ -30,9 +30,9 @@ function Trigger_HTcm_Sim() HTcm.track[1] = HTcm.track[1] + 1 end
 local titleTextures = { "P1", "D1", "D2", "D3", "P2", "D4", "D5", "P3", "D6-1", "P4", "D6-2" }
 local function SetTitleTexture(index)
   --Setting Textures
-  if(index < 1) then HTcm.titleMarker:SetTexture("Data/Sim/Titles/Start.png")
-  elseif(index > #titleTextures) then HTcm.titleMarker:SetTexture("Data/Sim/Titles/Reset.png")
-  else HTcm.titleMarker:SetTexture("Data/Sim/Titles/" .. titleTextures[index] .. ".png") end
+  if(index < 1) then HTcm.titleMarker:SetTexture("Assets/Sim/Titles/Start.png")
+  elseif(index > #titleTextures) then HTcm.titleMarker:SetTexture("Assets/Sim/Titles/Reset.png")
+  else HTcm.titleMarker:SetTexture("Assets/Sim/Titles/" .. titleTextures[index] .. ".png") end
   --Re-Showing the Marker
   HTcm.titleMarker.InGameVisibility = true
 end

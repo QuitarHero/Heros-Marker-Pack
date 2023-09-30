@@ -13,13 +13,13 @@ HMP.W6B2_Aide = {
   height = {33.55, 0},
   size = {1, 3, 1.25, 0.75},
   color = { I:Color(255, 0, 0, 255), I:Color(255, 255, 255, 255) },
-  path = "Data/Raids/W6B2/",
+  path = "Assets/Raids/W6B2/",
   icons = {
     { "Icon1.png", "Icon2.png" },
     { "nikare.png", "kenut.png" },
     { "n.png", "k.png" },
     "Geyser.png",
-    "Data/General/empty.png"
+    "Assets/General/empty.png"
   },
   b1_GUID = { "h/UIEZo4hkKJ+8geDOZCkA==", "TJThngoYGkm/+qATogAwkw==", "q7NIQqoIkkK/jYSRHkWzlw==" },
   b2_GUID = { "uFMjTyXW3ka5eDy0NoHhxA==", "5Af4bCPaHEmnE4iqPo2OkA==", "wu3qFb1RE0Gg3GrNIFaaIg==", "7aXiDzTU60yBBhlDKe8TZg==" }
