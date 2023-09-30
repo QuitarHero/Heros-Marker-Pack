@@ -6,4 +6,6 @@ This pack provides skip guides, mechanical optimization, encounter strategy supp
 
 For a full list of features, hop on over to the [Wiki](https://github.com/QuitarHero/Heros-Marker-Pack/wiki).
 
+For in-between releases, head on over to the [Actions](https://github.com/QuitarHero/Heros-Marker-Pack/actions) tab, download the latest artifact, and replace your `markers/Hero.Blish.Pack.zip` with the one provided.
+
 **Support Discord:** https://discord.gg/rCEuzGz
