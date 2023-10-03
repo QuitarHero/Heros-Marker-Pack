@@ -341,7 +341,11 @@
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Assets/General/s.png"          iconSize="1" rotate="90,0,0"/>
       <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Assets/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory   name="sc5"  DisplayName="Primordus Safe Spot" alpha="0.6"                                    iconFile="Assets/Shapes/PrimySafeSpot1.png" iconSize="15.27" rotate="0,0,0" tip-description="Only works if Lua Scripts are enabled."/>
+      <MarkerCategory   name="sc5"  DisplayName="Hitbox Ranges"            defaultToggle="0"                                                                                                                            tip-description="Displays there area where usage of&#xA;certain skills makes them auto-trigger.">
+        <MarkerCategory name="asc1" DisplayName="Mines"/>
+        <MarkerCategory name="asc2" DisplayName="Traps"/>
+        <MarkerCategory name="asc3" DisplayName="Necro Marks"/>
+      </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks"                                                          rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
@@ -447,10 +451,11 @@
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c99" DisplayName="Scripts" tip-description="Only works if Lua Scripts are enabled">
-      <MarkerCategory   name="revHammer" DisplayName="Revenant Hammer Helper" color="259fba" defaultToggle="0" iconFile="Assets/Strikes/revHammer.png" tip-description="Shows when it's time to throw">
-        <MarkerCategory name="sc1"       DisplayName="Normal Mode"    defaultToggle="0"/>
-        <MarkerCategory name="sc2"       DisplayName="Challenge Mode"/>
+      <MarkerCategory   name="sc1"  DisplayName="Revenant Hammer Helper" color="259fba" defaultToggle="0" iconFile="Assets/Strikes/revHammer.png" tip-description="Shows when it's time to&#xA;throw using Hammer 3.">
+        <MarkerCategory name="asc1" DisplayName="Normal Mode"                           defaultToggle="0"/>
+        <MarkerCategory name="asc2" DisplayName="Challenge Mode"/>
       </MarkerCategory>
+      <MarkerCategory   name="sc2"  DisplayName="Primordus Safe Spot"    alpha="0.75"                     iconFile="Assets/General/empty.png" iconSize="15.27" rotate="0,0,0" tip-description="Shows if you're safe from Primy's Lava Slam.&#xA;• Red: Not Safe.&#xA;• Yellow: Safe but not in melee range.&#xA;• Green: Safe and in melee range."/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -476,8 +481,10 @@
     <POI MapID="1437" xpos="15.213" ypos="391.192" zpos="-555.102" GUID="HMP=STRIKEB10=C1=SC3"     type="HMP.strikeB10_c1.sc3"/>
     <!-- Slaying -->
     <POI MapID="1437" xpos="15.352" ypos="391.220" zpos="-481.393" GUID="HMP=STRIKEB10=C1=SC4"     type="HMP.strikeB10_c1.sc4"/>
-    <!-- Primordus Safe Spot -->
-    <POI MapID="1437" xpos="14.375" ypos="390.113" zpos="-543.570" GUID="jWwX9IzYeEWK/6ItALBYTw==" type="HMP.strikeB10_c1.sc5"/>
+    <!-- Hitbox Ranges -->
+    <Trail trailData="Assets/Strikes/B10-mineRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc1" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B10-trapRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc2" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B10-markRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc3" texture="Assets/Boundary/RedLine.png"/>
     
     <!-- ==================== DRAGONVOID ATACKS ==================== -->
     <!-- Primordus's Jaws of Destruction -->
@@ -1029,8 +1036,11 @@
     <POI MapID="1437" xpos="15.359"  ypos="390.113" zpos="-518.036"  GUID="HMP=STRIKEB10=C5=SWON=G3"  type="HMP.strikeB10_c5.swon.g3.sc3"  alpha="0.75"                iconFile="Assets/Shapes/25-Poly7-R.png" iconSize="32.496"/>
     <!-- ==================== SCRIPTS ==================== -->
     <!-- ===== Revenant Hammer Helper ===== -->
-    <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="n5G47G5qp0e2f1U4sGUn1A=="  type="HMP.strikeB10_c99.revHammer.sc1" iconSize="7.3"/>
-    <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="hfVys/oWMkKoUtb/032zWw=="  type="HMP.strikeB10_c99.revHammer.sc2" iconSize="9.3"/>
+    <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="n5G47G5qp0e2f1U4sGUn1A=="  type="HMP.strikeB10_c99.sc1.asc1" iconSize="7.3"/>
+    <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="hfVys/oWMkKoUtb/032zWw=="  type="HMP.strikeB10_c99.sc1.asc2" iconSize="9.3"/>
+    <!-- ===== Primordus Safe Spot ===== -->
+    <POI MapID="1437" xpos="14.375"  ypos="390.173" zpos="-543.570"  GUID="jWwX9IzYeEWK/6ItALBYTw=="  type="HMP.strikeB10_c99.sc2"/>
+    
   </POIs>
   
 <!-- ========================================= OLD LION'S COURT ==================================================================================================================================================================== -->
