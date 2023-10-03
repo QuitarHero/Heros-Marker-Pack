@@ -1061,16 +1061,32 @@
   
 <!-- ========================================= THE COSMIC OBSERVATORY (DAGDA) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB12_c1" DisplayName="Max Melee"/>
-    <MarkerCategory name="StrB12_c3" DisplayName="Slaying" cull="CounterClockwise" iconSize="2.1" rotate="90,0,122" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB12_c1" DisplayName="Max Melee"        fadeFar="650" fadeNear="600"                                                                                                                minimapVisibility="0" mapVisibility="0"/>
+    <MarkerCategory name="StrB12_c2" DisplayName="Tormented Spawns" alpha="0.55" color="bdbdbd" cull="CounterClockwise" heightOffset="-0.05" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180"    minimapVisibility="0" mapVisibility="0"/>
+    <MarkerCategory name="StrB12_c3" DisplayName="Slaying"                                      cull="CounterClockwise"                                                        iconSize="2.1" rotate="90,0,122" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
   </MarkerCategory>
   
   <POIs>
     <!-- Max Melee -->
-    <Trail trailData="Assets/Strikes/Testing.trl" texture="Assets/Boundary/RedLine2.png" alpha="0.5" animSpeed="0" type="HMP.StrB12_c1"/>
+    <Trail trailData="Assets/Strikes/StrB12-atkRange_max.trl" alpha="0.5" animSpeed="0"           type="HMP.StrB12_c1" texture="Assets/Boundary/RedLine2.png"/>
+    <!-- Tormented Spawns -->
+    <POI MapID="1515" xpos="-12.163" ypos="151.436" zpos="5.814"  GUID="xjnscEf9PUq30Zl16OSI8Q==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="6.590"   ypos="151.436" zpos="-2.939" GUID="Ro2zxceJxkqw1gsvV74NHQ==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="22.376"  ypos="151.436" zpos="1.543"  GUID="eYMObWXOWU+SW/tQSr6Cpg==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="32.276"  ypos="151.436" zpos="23.262" GUID="8FDFsB6xG0q52//Zssf2AQ==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="22.626"  ypos="151.436" zpos="46.119" GUID="M6HhhfLexEOOs5sUrbExUw==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="hCk3AYUyeEeeWB9dZXHcsA==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="Ogc7xx+LHkuyPjocPHFcwA==" type="HMP.StrB12_c2"/>
+    <POI MapID="1515" xpos="-12.163" ypos="151.436" zpos="5.814"  GUID="sYB/SjGEM02PgatBSxgX3g==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="6.590"   ypos="151.436" zpos="-2.939" GUID="hnbpO0O/qkeUuGOLfL0rYg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="22.376"  ypos="151.436" zpos="1.543"  GUID="owKtyam7JkW6gphGA+eKDg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="32.276"  ypos="151.436" zpos="23.262" GUID="lMW2iMA3Hk6zgLyjDr5iGA==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="22.626"  ypos="151.436" zpos="46.119" GUID="2o/t/lfZBkiCWRjQrzjtIg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="Ya7crexQIU+nLwzt2EWBFw==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="DOoI+mANBUyl/UBH32ykCg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
     <!-- Slaying -->
-    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="12903871290874==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
-    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="12903871290874==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="uI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
+    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="Io1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
   </POIs>
   
 <!-- ========================================= THE TEMPLE OF FEBE (CERUS) ==================================================================================================================================================================== -->
