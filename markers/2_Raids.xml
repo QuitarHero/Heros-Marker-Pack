@@ -596,7 +596,7 @@
   </MarkerCategory>
   <MarkerCategory name="HMPscripts" DisplayName="Hero's Scripts">
     <MarkerCategory name="W6_B2" DisplayName="Twin Largos Aide" MapID="1303" alpha="0.75" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" rotate-x="90" inGameVisibility="0" minimapVisibility="0" mapVisibility="0" tip-description="Only works while in combat.&#xA;Lowers markers on each platform&#xA;based on your display preferences.">
-      <MarkerCategory name="c0"  DisplayName="Enable Preview"/>
+      <MarkerCategory name="c0"  DisplayName="Enable Preview"      inGameVisibility="1"/>
       <MarkerCategory name="c1"    DisplayName="Display Options"   IsSeparator="1">
         <MarkerCategory name="sc1" DisplayName="Show Geysers"      tip-description="Only useful for Challenge Mode."/>
         <MarkerCategory name="sc2" DisplayName="Show Nikare"/>
@@ -626,13 +626,13 @@
     <Trail trailData="Assets/Raids/ca_LeftFar.trl"    animSpeed="0"                                    type="HMP.W6_B1.c3.sc4" texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Twin Largos ========== -->
     <!-- Preview Markers -->
-    <POI xpos="342.092" ypos="38.808" zpos="-194.793" GUID="3GddgVFyaEucktVKexglxA==" type="HMPscripts.W6_B2.c0"/>
-    <POI xpos="345.201" ypos="38.808" zpos="-194.808" GUID="xdPyzy3oMkmfVHPi9nNlFQ==" type="HMPscripts.W6_B2.c0"/>
-    <POI xpos="348.493" ypos="38.808" zpos="-194.824" GUID="LlMF2llluUm64EFimmlhGQ==" type="HMPscripts.W6_B2.c0"/>
-    <POI xpos="345.201" ypos="41.808" zpos="-194.808" GUID="IsRwCNevXkqLvpK9/o+Z5Q==" type="HMPscripts.W6_B2.c0" iconFile="Assets/General/Preview.png"        iconSize="3.5"/>
-    <POI xpos="342.092" ypos="37.308" zpos="-195.443" GUID="d1RlnxsM9km6y+noSvEaVQ==" type="HMPscripts.W6_B2.c0" iconFile="Assets/Raids/W6B2/geyser-text.png" iconSize="1.25" rotate-x="180"/>
-    <POI xpos="345.201" ypos="37.308" zpos="-195.458" GUID="AKqZFYBB5UmrdtonnJHggA==" type="HMPscripts.W6_B2.c0" iconFile="Assets/Raids/W6B2/nikare.png"      iconSize="1.25" rotate-x="180"/>
-    <POI xpos="348.493" ypos="37.308" zpos="-195.474" GUID="qCj7h5wIPUWVR30ppHLgEQ==" type="HMPscripts.W6_B2.c0" iconFile="Assets/Raids/W6B2/kenut.png"       iconSize="1.25" rotate-x="180"/>
+    <POI xpos="342.092" ypos="38.808" zpos="-194.793" GUID="3GddgVFyaEucktVKexglxA==" type="HMPscripts.W6_B2.c0"                                                              rotate="90, 0, 180"/>
+    <POI xpos="345.201" ypos="38.808" zpos="-194.808" GUID="xdPyzy3oMkmfVHPi9nNlFQ==" type="HMPscripts.W6_B2.c0"                                                              rotate="90, 0, 180"/>
+    <POI xpos="348.493" ypos="38.808" zpos="-194.824" GUID="LlMF2llluUm64EFimmlhGQ==" type="HMPscripts.W6_B2.c0"                                                              rotate="90, 0, 180"/>
+    <POI xpos="345.201" ypos="41.808" zpos="-194.808" GUID="IsRwCNevXkqLvpK9/o+Z5Q==" type="HMPscripts.W6_B2.c0" iconFile="Assets/General/Preview.png"        iconSize="3.5"  rotate="90, 0, 180"/>
+    <POI xpos="342.092" ypos="37.308" zpos="-195.443" GUID="d1RlnxsM9km6y+noSvEaVQ==" type="HMPscripts.W6_B2.c0" iconFile="Assets/Raids/W6B2/geyser-text.png" iconSize="1.25" rotate="180, 0, 180"/>
+    <POI xpos="345.201" ypos="37.308" zpos="-195.458" GUID="AKqZFYBB5UmrdtonnJHggA==" type="HMPscripts.W6_B2.c0" iconFile="Assets/Raids/W6B2/nikare.png"      iconSize="1.25" rotate="180, 0, 180"/>
+    <POI xpos="348.493" ypos="37.308" zpos="-195.474" GUID="qCj7h5wIPUWVR30ppHLgEQ==" type="HMPscripts.W6_B2.c0" iconFile="Assets/Raids/W6B2/kenut.png"       iconSize="1.25" rotate="180, 0, 180"/>
     <!-- Nikare P1 -->
     <POI xpos="366.827" ypos="33.25" zpos="-65.704"   GUID="uFMjTyXW3ka5eDy0NoHhxA==" type="HMPscripts.W6_B2"    rotate-z="180"/>
     <POI xpos="347.802" ypos="33.25" zpos="-82.207"   GUID="qH5SvVuOB0m/ZXFAoQNwtw==" type="HMPscripts.W6_B2"    rotate-z="270"/>
