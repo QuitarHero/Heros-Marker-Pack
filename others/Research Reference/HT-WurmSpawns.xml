@@ -1,0 +1,703 @@
+<OverlayData>
+  <MarkerCategory name="hmpAlpha" DisplayName="Hero's Alpha Pack">
+    <MarkerCategory name="ht_wurmSpawns" DisplayName="Zhaitan Wurm Spawns" heightOffset="-0.06" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180" mapDisplaySize="5">
+      <MarkerCategory name="c1" DisplayName="Spawn Section 1" color="c91a1a"/> <!-- Red -->
+      <MarkerCategory name="c2" DisplayName="Spawn Section 2" color="27cf1b"/> <!-- Green -->
+      <MarkerCategory name="c3" DisplayName="Spawn Section 3" color="dbd21a"/> <!-- Yellow -->
+      <MarkerCategory name="c4" DisplayName="Random Markers"/>
+      <MarkerCategory name="c5" DisplayName="Ground Slam"/>
+      <MarkerCategory name="c6" DisplayName="Thrash"/>
+    </MarkerCategory>
+    <MarkerCategory name="ht_d5WurmMarkers" DisplayName="Wurm Markers" heightOffset="-0.06" rotate-x="180" inGameVisibility="1">
+      <MarkerCategory name="gs_F"  DisplayName="Ground Slam Fills"        alpha="0.5" color="d17321" iconFile="Assets/Shapes/wurmThrashFill.png" iconSize="12.68"/>
+      <MarkerCategory name="gs_cB" DisplayName="Ground Slam Close Border"             color="d6b41a" iconFile="Storage/Orb3.png"              iconSize="6.75"/>
+      <MarkerCategory name="gs_fB" DisplayName="Ground Slam Far Border"               color="d6b41a" iconFile="Storage/Orb5.png"              iconSize="12.75"/>
+      <MarkerCategory name="th_F"  DisplayName="Thrash Fill"              alpha="0.5" color="d17321" iconFile="Assets/Shapes/CircleFill.png"    iconSize="9.75">
+        <MarkerCategory name="c1"  DisplayName="Static Fill"/>
+        <MarkerCategory name="c2"  DisplayName="Indicator Fill"/>
+      </MarkerCategory>
+      <MarkerCategory name="th_B"  DisplayName="Thrash Border"                        color="d6b41a" iconFile="Storage/Orb10.png"             iconSize="9.75">
+        <MarkerCategory name="c1"  DisplayName="Static Border"/>
+        <MarkerCategory name="c2"  DisplayName="Indicator Border"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========== Ground Slam ========== -->
+    <!-- Fills -->
+    <POI MapID="1437" xpos="0" ypos="391.7127" zpos="0" GUID="fT3GstOFbEC0nI5DkGxQww==" type="hmpAlpha.ht_d5WurmMarkers.gs_F"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="rHfP2NE7Wkia26com0uoCg==" type="hmpAlpha.ht_d5WurmMarkers.gs_F"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="XAFLp7SWvEqZQ39LG3Lv0Q==" type="hmpAlpha.ht_d5WurmMarkers.gs_F"/>
+    <!-- Close Borders -->
+    <POI MapID="1437" xpos="0" ypos="391.7127" zpos="0" GUID="z/d7sq3A3UW/lKlMXH7xSw==" type="hmpAlpha.ht_d5WurmMarkers.gs_cB"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="TOB4JHm9ZkaZCaOLKeBOiQ==" type="hmpAlpha.ht_d5WurmMarkers.gs_cB"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="pusQgnttmESyMOd2PMOpfw==" type="hmpAlpha.ht_d5WurmMarkers.gs_cB"/>
+    <!-- Far Borders -->
+    <POI MapID="1437" xpos="0" ypos="391.7127" zpos="0" GUID="lvDpvDf8pkugNarjcQs1NA==" type="hmpAlpha.ht_d5WurmMarkers.gs_fB"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="tMIpvuT0o0sYpAjbV6+Avw==" type="hmpAlpha.ht_d5WurmMarkers.gs_fB"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="5Qra2g09zEiHRRJfr60e2A==" type="hmpAlpha.ht_d5WurmMarkers.gs_fB"/>
+    
+    <!-- ========== Thrash ========== -->
+    <!-- Borders -->
+    <POI MapID="1437" xpos="-7.41849" ypos="391.7127" zpos="-519.4299" GUID="lPLeGsRDNkChJzMT7yUS2A==" type="hmpAlpha.ht_d5WurmMarkers.th_B.c1"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="EhqHs7CAGUKXogLac6V/0A==" type="hmpAlpha.ht_d5WurmMarkers.th_B.c1"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="f9q/2LCVXk2alyxMRTUIbg==" type="hmpAlpha.ht_d5WurmMarkers.th_B.c1"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="tJ01Z0orrUWxTMRe/te0Rg==" type="hmpAlpha.ht_d5WurmMarkers.th_B.c2"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="hFhu9jcjRky9IZ6032ywFw==" type="hmpAlpha.ht_d5WurmMarkers.th_B.c2"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="bVsLAHVVJEiLPaZYUh9SIA==" type="hmpAlpha.ht_d5WurmMarkers.th_B.c2"/>
+    <!-- Fills -->
+    <POI MapID="1437" xpos="-7.41849" ypos="391.7127" zpos="-519.4299" GUID="YNFHtx0Me0ykxEDi88w3/w==" type="hmpAlpha.ht_d5WurmMarkers.th_F.c1"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="Ss3tMFGmbkSmTwWNXrxA3Q==" type="hmpAlpha.ht_d5WurmMarkers.th_F.c1"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="LuDtpzmZp0+91jmTvFb4qA==" type="hmpAlpha.ht_d5WurmMarkers.th_F.c1"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="zhquZdY6j0OJqGrh+uxFVA==" type="hmpAlpha.ht_d5WurmMarkers.th_F.c2"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="sHEeCF8T60iRho64cEkHbA==" type="hmpAlpha.ht_d5WurmMarkers.th_F.c2"/>
+    <POI MapID="1437" xpos="0" ypos="391.723" zpos="0" GUID="sm7GpOL8HEeQL4li1Qntgw==" type="hmpAlpha.ht_d5WurmMarkers.th_F.c2"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ===================================== BLAH ==================================== -->
+    <!-- <POI MapID="1437" xpos="21.12552" ypos="391.723" zpos="-532.931" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1" color="FFFFFF" iconFile="Storage/Orb10.png" iconSize="13.4"/> -->
+    
+    
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="+NtW/aAtRUKcz5y/AXTD6w==" type="hmpAlpha.ht_wurmSpawns.c4"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="txoHBBv1WkGs8PGjF9AdpQ==" type="hmpAlpha.ht_wurmSpawns.c4"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="fBoqSmJ3SkiM9u77cEJh1A==" type="hmpAlpha.ht_wurmSpawns.c4"/>
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="v/giRq5CtkWpi0Eqqp6NJg==" type="hmpAlpha.ht_wurmSpawns.c4" iconFile="Assets/General/Empty.png" triggerRange="50" script-trigger="triggerWurms"/>
+    
+    
+    <POI MapID="1437" xpos="22.5322440125882" ypos="391.723" zpos="-534.14548096144" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c4"/>
+    
+    
+    
+    
+    
+    
+    <!-- Section 1-->
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    
+    <!-- Section 2-->
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    
+    <!-- Section 3 -->
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="" ypos="391.723" zpos="" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ========== DIVIDER ========== -->
+    <!-- Section 1 -->
+    <POI MapID="1437" xpos="24.0098831346631" ypos="391.723" zpos="-530.89186971839" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="30.8418266654136" ypos="391.723" zpos="-539.372671138758" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.825668464139" ypos="391.723" zpos="-542.53227703257" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.9679767132926" ypos="391.723" zpos="-528.430712647415" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="16.0118363936084" ypos="391.723" zpos="-535.056959469242" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.4829273992192" ypos="391.723" zpos="-528.265231736775" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.1461718410672" ypos="391.723" zpos="-535.598995176543" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.9730099745746" ypos="391.723" zpos="-540.98503686808" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.9232323514545" ypos="391.723" zpos="-531.269415114516" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.4173344746394" ypos="391.723" zpos="-526.091653310507" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.0226199577852" ypos="391.723" zpos="-533.045128155631" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.042392577108" ypos="391.723" zpos="-541.652929507418" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.300772159583" ypos="391.723" zpos="-523.923586681263" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="31.390364769203" ypos="391.723" zpos="-531.416582635045" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.4986263687418" ypos="391.723" zpos="-543.560011277594" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.2390070129362" ypos="391.723" zpos="-545.796988069626" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.1666569300053" ypos="391.723" zpos="-532.81327708083" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.0276732850564" ypos="391.723" zpos="-532.919042623717" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="32.9161749652655" ypos="391.723" zpos="-528.650371728799" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.2995293382542" ypos="391.723" zpos="-533.290619023066" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="19.4953901564893" ypos="391.723" zpos="-540.009524994857" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="19.2904158231755" ypos="391.723" zpos="-543.845354723508" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="31.0917523704537" ypos="391.723" zpos="-530.313258030841" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.2170327228023" ypos="391.723" zpos="-527.633457877933" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.6625484822238" ypos="391.723" zpos="-530.01838959007" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.2458109072621" ypos="391.723" zpos="-524.263514697702" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="22.2024871666569" ypos="391.723" zpos="-544.398795024651" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="13.2620453084955" ypos="391.723" zpos="-534.498566170774" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.7630892479318" ypos="391.723" zpos="-531.014094452389" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.2451134236388" ypos="391.723" zpos="-532.967023197808" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.1211757145651" ypos="391.723" zpos="-538.398734064684" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.7475901763013" ypos="391.723" zpos="-525.485939837593" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="32.1910739368201" ypos="391.723" zpos="-531.708733277284" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.8382488233456" ypos="391.723" zpos="-529.335714158714" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.9744793637811" ypos="391.723" zpos="-536.882304083556" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.9686081569516" ypos="391.723" zpos="-526.324317184869" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.6152168777829" ypos="391.723" zpos="-541.637054515991" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.920529538914" ypos="391.723" zpos="-531.933954955664" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.9413717516593" ypos="391.723" zpos="-522.71970353136" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="10.2898951234566" ypos="391.723" zpos="-529.775133921428" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.2934170855548" ypos="391.723" zpos="-536.081696515884" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="23.2687966248498" ypos="391.723" zpos="-535.428485068618" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.6191475256603" ypos="391.723" zpos="-526.749487555277" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.3950764666587" ypos="391.723" zpos="-526.172730066726" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.3279265229197" ypos="391.723" zpos="-535.304355335648" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.0696782583737" ypos="391.723" zpos="-539.174983045509" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.2999331980361" ypos="391.723" zpos="-535.41220367741" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.6473272864433" ypos="391.723" zpos="-536.948217047963" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.3799863348074" ypos="391.723" zpos="-543.414164556351" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.190261137259" ypos="391.723" zpos="-532.314903949952" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="19.3881270304114" ypos="391.723" zpos="-525.141541423568" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="23.6579155247256" ypos="391.723" zpos="-525.321119326596" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="9.41528774374462" ypos="391.723" zpos="-530.025679386133" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.1046657234805" ypos="391.723" zpos="-525.178600003556" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.271972131135" ypos="391.723" zpos="-522.415665695541" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="30.7184970320116" ypos="391.723" zpos="-530.627735261023" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.4506922766262" ypos="391.723" zpos="-536.982786429295" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="19.9001793239032" ypos="391.723" zpos="-537.631197279154" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.2961257400921" ypos="391.723" zpos="-524.979159311254" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.3026576005649" ypos="391.723" zpos="-538.807267444076" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.3408535919391" ypos="391.723" zpos="-523.551273682312" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="9.84985229907976" ypos="391.723" zpos="-528.940515772121" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.4591362480664" ypos="391.723" zpos="-525.569480392481" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="26.8943335170599" ypos="391.723" zpos="-527.136176946464" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.5517080220777" ypos="391.723" zpos="-525.938719993091" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.8902949192407" ypos="391.723" zpos="-535.278548949584" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.4930426897569" ypos="391.723" zpos="-536.619744425338" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="13.0293153941697" ypos="391.723" zpos="-527.643313072611" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.5471157045575" ypos="391.723" zpos="-529.376989136426" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.3748011816074" ypos="391.723" zpos="-529.276024190947" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="26.9524613856709" ypos="391.723" zpos="-523.128541710588" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.3216486623097" ypos="391.723" zpos="-525.939608992611" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.9778435919645" ypos="391.723" zpos="-524.108422381452" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="9.36642096413268" ypos="391.723" zpos="-535.522896817636" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.7785390435889" ypos="391.723" zpos="-541.898598174757" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.6186359699366" ypos="391.723" zpos="-521.743912258287" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.6051937891954" ypos="391.723" zpos="-531.153591177061" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="16.3839601626615" ypos="391.723" zpos="-539.188572038171" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.3749101475485" ypos="391.723" zpos="-532.589503201668" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="26.2890416839175" ypos="391.723" zpos="-542.321558746358" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.264244439308" ypos="391.723" zpos="-529.637084995974" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.5269336374558" ypos="391.723" zpos="-536.842299105158" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.5512711423136" ypos="391.723" zpos="-536.658936604174" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.923642561233" ypos="391.723" zpos="-534.094579388927" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="31.460105511543" ypos="391.723" zpos="-534.485561377797" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.4016855430898" ypos="391.723" zpos="-526.663153001897" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.9312676371155" ypos="391.723" zpos="-538.954434964605" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.6684234990513" ypos="391.723" zpos="-539.90157505315" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.8500024129987" ypos="391.723" zpos="-524.701410461238" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.9773559122278" ypos="391.723" zpos="-528.947576968309" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.5170103708144" ypos="391.723" zpos="-523.780051358772" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="13.3110873480128" ypos="391.723" zpos="-540.300227837877" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="22.484890818159" ypos="391.723" zpos="-538.015651471548" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="30.424418530814" ypos="391.723" zpos="-529.559234038014" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="22.1712670275158" ypos="391.723" zpos="-530.628065460845" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="32.1371243659528" ypos="391.723" zpos="-534.414035016421" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.2250768984585" ypos="391.723" zpos="-530.503605528053" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="26.8075544639206" ypos="391.723" zpos="-533.236237652432" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="30.1793416831555" ypos="391.723" zpos="-532.739312320771" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.2864041493418" ypos="391.723" zpos="-529.807010904214" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.9851046860435" ypos="391.723" zpos="-522.367126321752" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.4509272264993" ypos="391.723" zpos="-531.892324378145" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.5070142062123" ypos="391.723" zpos="-534.726327847783" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.072262960978" ypos="391.723" zpos="-543.617440646582" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.6684143550562" ypos="391.723" zpos="-535.688936527974" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.9253113403319" ypos="391.723" zpos="-532.756482711499" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="10.6749838075087" ypos="391.723" zpos="-537.879939344833" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="22.5134848527182" ypos="391.723" zpos="-541.437029624004" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.1099700026162" ypos="391.723" zpos="-534.013223232859" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="9.67635540676808" ypos="391.723" zpos="-532.9475922083" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.7308490453415" ypos="391.723" zpos="-535.310375132397" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="30.6393836947328" ypos="391.723" zpos="-531.077950017907" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.063887061501" ypos="391.723" zpos="-541.528723574489" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.6749858395076" ypos="391.723" zpos="-543.818075138239" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="31.7133103548124" ypos="391.723" zpos="-535.739558700638" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.074429579808" ypos="391.723" zpos="-521.612441929281" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.5117843236365" ypos="391.723" zpos="-522.508578845367" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="19.2986487207297" ypos="391.723" zpos="-527.928732718484" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.2315792949472" ypos="391.723" zpos="-540.3681474012" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.6959570841832" ypos="391.723" zpos="-532.827069273383" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="13.7166123530293" ypos="391.723" zpos="-528.794237251112" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="26.8454385434632" ypos="391.723" zpos="-543.848504321808" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="31.6087894112537" ypos="391.723" zpos="-533.828031932863" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="10.7667625939482" ypos="391.723" zpos="-532.472307664954" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.4495797572269" ypos="391.723" zpos="-529.97299981458" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.6089174271846" ypos="391.723" zpos="-539.660021183589" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="21.4253964302859" ypos="391.723" zpos="-525.969123776673" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.0738834801029" ypos="391.723" zpos="-535.157975214694" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="10.409172189047" ypos="391.723" zpos="-530.975410273279" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.273898212095" ypos="391.723" zpos="-530.221894280177" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.5584400344424" ypos="391.723" zpos="-533.155186296199" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="10.409172189047" ypos="391.723" zpos="-530.975410273279" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.273898212095" ypos="391.723" zpos="-530.221894280177" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.5584400344424" ypos="391.723" zpos="-533.155186296199" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.5016217891242" ypos="391.723" zpos="-524.857467976967" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.1678423473651" ypos="391.723" zpos="-528.710493496334" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="23.2232455594474" ypos="391.723" zpos="-524.800368807801" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.359079606097" ypos="391.723" zpos="-542.402381502714" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.6988272826333" ypos="391.723" zpos="-539.420448512958" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.4598794516651" ypos="391.723" zpos="-543.684928410139" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="30.9021770328244" ypos="391.723" zpos="-528.987353346829" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.819964897219" ypos="391.723" zpos="-540.738377601276" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="26.1969972136215" ypos="391.723" zpos="-523.811267941915" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="27.4500064769965" ypos="391.723" zpos="-541.338452277236" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.2754552312542" ypos="391.723" zpos="-543.275048831474" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.1735012103093" ypos="391.723" zpos="-528.909959588622" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="25.5880924864301" ypos="391.723" zpos="-541.29946329829" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.9460819251158" ypos="391.723" zpos="-538.718138892205" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="33.5889952019426" ypos="391.723" zpos="-531.266697315984" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.4920434542965" ypos="391.723" zpos="-525.338137317406" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.600903731512" ypos="391.723" zpos="-533.074846139583" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="13.9585116624037" ypos="391.723" zpos="-537.477933761916" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.8532635172377" ypos="391.723" zpos="-544.017109430761" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="33.5624979362511" ypos="391.723" zpos="-534.322188666018" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.4080863396334" ypos="391.723" zpos="-535.51268602315" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="14.4442813200881" ypos="391.723" zpos="-531.696871483689" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.5803274566232" ypos="391.723" zpos="-539.599340616356" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.4254637402496" ypos="391.723" zpos="-545.267220555701" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.5856718677372" ypos="391.723" zpos="-524.28157408795" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.4664158841354" ypos="391.723" zpos="-530.819632157399" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="16.2443021480768" ypos="391.723" zpos="-528.733226484058" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="32.05916672805" ypos="391.723" zpos="-526.887434880785" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.0972235274993" ypos="391.723" zpos="-526.583041445158" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.4685459269852" ypos="391.723" zpos="-532.28579556567" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="24.5243131208709" ypos="391.723" zpos="-523.225823658055" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="11.3197215653504" ypos="391.723" zpos="-533.558512678403" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.7690379247195" ypos="391.723" zpos="-523.742459379072" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="15.2512965422999" ypos="391.723" zpos="-536.630768019385" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.1210334746419" ypos="391.723" zpos="-537.52657473565" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="18.7746980576631" ypos="391.723" zpos="-540.202285490766" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.515246341767" ypos="391.723" zpos="-525.726680907592" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="28.5235749972695" ypos="391.723" zpos="-537.059189588038" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="23.5869454230495" ypos="391.723" zpos="-543.537938689513" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="12.6132031668703" ypos="391.723" zpos="-529.711760955649" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.0044602375915" ypos="391.723" zpos="-543.010787374175" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="20.7192768115905" ypos="391.723" zpos="-528.796472449905" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.9353570349072" ypos="391.723" zpos="-531.212823945075" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="17.1476821242517" ypos="391.723" zpos="-532.234614593308" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    <POI MapID="1437" xpos="29.6654186806739" ypos="391.723" zpos="-542.216326603184" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c1"/>
+    
+    <!-- Section 2-->
+    <POI MapID="1437" xpos="6.26946083449115" ypos="391.723" zpos="-520.953312285211" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.50209854686678" ypos="391.723" zpos="-504.812179801423" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.87741788819434" ypos="391.723" zpos="-515.499605030213" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="8.40146710320776" ypos="391.723" zpos="-513.313402810763" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.81777719640031" ypos="391.723" zpos="-516.619109425681" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="1.39728507166606" ypos="391.723" zpos="-504.208828527233" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="9.23058971148156" ypos="391.723" zpos="-508.189082577895" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.67180068122763" ypos="391.723" zpos="-514.573953330065" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.96975115633438" ypos="391.723" zpos="-523.862321914346" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.92417850094361" ypos="391.723" zpos="-520.190626897061" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.60475716343113" ypos="391.723" zpos="-522.826027873945" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="10.6831021511248" ypos="391.723" zpos="-514.330088061753" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.69980594410479" ypos="391.723" zpos="-514.779998018801" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-9.14891757958451" ypos="391.723" zpos="-520.97485147358" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.65345376313497" ypos="391.723" zpos="-514.309183873041" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.504244820307797" ypos="391.723" zpos="-522.485083858055" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.65677227134297" ypos="391.723" zpos="-515.864196433334" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="6.08709985496608" ypos="391.723" zpos="-522.863924653481" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.19030736523402" ypos="391.723" zpos="-526.098612906749" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.08480979220271" ypos="391.723" zpos="-513.011142973983" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.13355465188049" ypos="391.723" zpos="-517.621799284228" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.61420697432823" ypos="391.723" zpos="-522.885514641822" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="1.7772866718652" ypos="391.723" zpos="-511.900503173728" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.53719700991362" ypos="391.723" zpos="-506.072552520822" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.99836576488249" ypos="391.723" zpos="-506.79088953292" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-11.5153545457085" ypos="391.723" zpos="-519.916180045263" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.5189336577758" ypos="391.723" zpos="-504.917386544611" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.50813599660656" ypos="391.723" zpos="-519.561672436697" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.0463515967701378" ypos="391.723" zpos="-509.172493846853" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.81026896045476" ypos="391.723" zpos="-508.12548101224" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.14820841196746" ypos="391.723" zpos="-518.734013883633" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.65460362051405" ypos="391.723" zpos="-511.420138633125" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.15760970889076" ypos="391.723" zpos="-523.868316311109" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.85515911821408" ypos="391.723" zpos="-510.043281576628" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.89337034958001" ypos="391.723" zpos="-518.128427410649" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.14590006121397" ypos="391.723" zpos="-510.283082847135" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.19133149268099" ypos="391.723" zpos="-509.009578334828" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-13.44455563994" ypos="391.723" zpos="-516.882431083487" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.09434748705236" ypos="391.723" zpos="-503.787595154699" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.04076431098727" ypos="391.723" zpos="-515.49361063345" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-2.2284827826193" ypos="391.723" zpos="-520.174650305689" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-11.4212994124983" ypos="391.723" zpos="-514.050916812505" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="6.97522637737776" ypos="391.723" zpos="-507.692335046139" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="1.30843086504733" ypos="391.723" zpos="-522.524834836589" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="9.85072682060752" ypos="391.723" zpos="-509.451385696252" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.29536958250043" ypos="391.723" zpos="-510.729182806241" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="9.0903020312369" ypos="391.723" zpos="-517.716058633328" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.96418855933818" ypos="391.723" zpos="-506.014767552026" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.922191663216502" ypos="391.723" zpos="-504.933439335943" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.83932451276476" ypos="391.723" zpos="-517.1059255628" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="6.18645672731337" ypos="391.723" zpos="-509.252072003881" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.20624052263012" ypos="391.723" zpos="-522.277794569991" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.06961120240995" ypos="391.723" zpos="-510.050266572856" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-2.49449633097198" ypos="391.723" zpos="-517.882657143365" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.132930167817709" ypos="391.723" zpos="-524.221249120526" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-12.4488489996215" ypos="391.723" zpos="-510.667232239695" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.53593435119545" ypos="391.723" zpos="-518.970995755662" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.30794613170909" ypos="391.723" zpos="-522.197530613334" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="8.09709652756787" ypos="391.723" zpos="-513.869662510382" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-2.79139169064849" ypos="391.723" zpos="-513.697349003432" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.96306587994443" ypos="391.723" zpos="-514.94090693191" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.602277540570128" ypos="391.723" zpos="-505.15820381457" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.44761329028882" ypos="391.723" zpos="-512.474288863884" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.82831209471147" ypos="391.723" zpos="-502.512693643145" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.78932616376387" ypos="391.723" zpos="-512.766490306095" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-12.8508116565617" ypos="391.723" zpos="-515.127063431386" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.88402112262859" ypos="391.723" zpos="-514.09790678713" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-14.1036786800135" ypos="391.723" zpos="-515.013550892683" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.52232023794707" ypos="391.723" zpos="-513.93509287505" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.89213311624812" ypos="391.723" zpos="-523.605934452795" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.5408378439476" ypos="391.723" zpos="-514.628436300645" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.8323252925443" ypos="391.723" zpos="-506.449234317413" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.85716063713326" ypos="391.723" zpos="-503.760264769457" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.50815568159593" ypos="391.723" zpos="-520.564692495066" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-11.5657885044742" ypos="391.723" zpos="-508.085095034049" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.70629208460228" ypos="391.723" zpos="-507.509378944935" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.399520880058725" ypos="391.723" zpos="-521.628850320421" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.70666114640298" ypos="391.723" zpos="-507.917582124506" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-11.0398424184851" ypos="391.723" zpos="-511.12844519064" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.65789799873508" ypos="391.723" zpos="-511.406625840422" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.85378828095433" ypos="391.723" zpos="-506.413115536918" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.4696164856071" ypos="391.723" zpos="-503.006697976383" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.11824100014986" ypos="391.723" zpos="-507.207474707964" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.53743373778578" ypos="391.723" zpos="-502.768827104833" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.7788773714062" ypos="391.723" zpos="-520.306120634695" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="7.51696668283799" ypos="391.723" zpos="-518.940363372204" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.85259879959665" ypos="391.723" zpos="-522.726205927849" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-14.2144612281909" ypos="391.723" zpos="-513.672914216626" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.106555043040277" ypos="391.723" zpos="-517.466681567992" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-13.7554428360609" ypos="391.723" zpos="-511.51627758121" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.25275551751202" ypos="391.723" zpos="-521.768016845271" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-9.14781344218074" ypos="391.723" zpos="-511.885136182027" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.08548441583842" ypos="391.723" zpos="-501.937002954018" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-11.002390646709" ypos="391.723" zpos="-520.273253052443" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.16393151147698" ypos="391.723" zpos="-510.487882936543" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.949975793813071" ypos="391.723" zpos="-513.728209986767" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-9.98058856848217" ypos="391.723" zpos="-520.701395221247" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="6.56162417672294" ypos="391.723" zpos="-518.819180037643" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="1.0662325978344" ypos="391.723" zpos="-510.313207230868" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-11.5705835138849" ypos="391.723" zpos="-520.493343933594" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.0520707338818" ypos="391.723" zpos="-522.631895778776" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.16164754471033" ypos="391.723" zpos="-508.982400349504" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.336310626592262" ypos="391.723" zpos="-516.672144597042" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.67356598027437" ypos="391.723" zpos="-501.375790257073" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.97270568273893" ypos="391.723" zpos="-525.975727773107" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.13318813007841" ypos="391.723" zpos="-518.671479117401" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.77340519836119" ypos="391.723" zpos="-503.708905997191" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.20299262638398" ypos="391.723" zpos="-522.050744092598" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.18371937079154" ypos="391.723" zpos="-509.334113959579" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="9.70552170301828" ypos="391.723" zpos="-508.826571433651" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="8.27931653716907" ypos="391.723" zpos="-520.30622223464" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="7.07219387301531" ypos="391.723" zpos="-511.783968036657" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.14791021612848" ypos="391.723" zpos="-507.45487057437" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="9.19164950050927" ypos="391.723" zpos="-515.157416414995" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.17176562924656" ypos="391.723" zpos="-509.197538233329" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.547285097066048" ypos="391.723" zpos="-521.612441929281" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.37906362950564" ypos="391.723" zpos="-507.223781499158" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.98904244591708" ypos="391.723" zpos="-519.589485421678" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="6.53731384985052" ypos="391.723" zpos="-506.271485213398" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.35454570854532" ypos="391.723" zpos="-513.34855639178" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.06028051744852" ypos="391.723" zpos="-512.009748514736" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.0656182331261541" ypos="391.723" zpos="-519.964135219367" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.02905225031178" ypos="391.723" zpos="-515.501713229075" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.09199900432054" ypos="391.723" zpos="-523.50474090744" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-2.3278566729574" ypos="391.723" zpos="-517.446539378869" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="7.76090484911138" ypos="391.723" zpos="-511.35762926688" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.87307169654128" ypos="391.723" zpos="-513.711598395737" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.59475261683359" ypos="391.723" zpos="-524.294121681174" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.901723541469288" ypos="391.723" zpos="-520.057226169098" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.96006918956264" ypos="391.723" zpos="-506.908415269456" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.22949294007381" ypos="391.723" zpos="-513.769281764588" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.901723541469288" ypos="391.723" zpos="-520.057226169098" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.96006918956264" ypos="391.723" zpos="-506.908415269456" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.22949294007381" ypos="391.723" zpos="-513.769281764588" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-8.50159588113822" ypos="391.723" zpos="-518.669497918471" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.27201010411454" ypos="391.723" zpos="-515.292696741944" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="8.76783828336733" ypos="391.723" zpos="-513.502937508414" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.828432312846551" ypos="391.723" zpos="-503.958486262417" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.06490458495152" ypos="391.723" zpos="-516.056779129339" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.91124457392793" ypos="391.723" zpos="-516.802090926871" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="9.47459493371874" ypos="391.723" zpos="-514.791631212519" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.318400004064" ypos="391.723" zpos="-519.791212112746" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-9.75775575881189" ypos="391.723" zpos="-518.582096565668" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.1161825852614" ypos="391.723" zpos="-510.113690338607" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.40836497748291" ypos="391.723" zpos="-503.905374891098" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-9.72515005041897" ypos="391.723" zpos="-517.470161366113" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-0.140206265668617" ypos="391.723" zpos="-515.711110716" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.30210210286487" ypos="391.723" zpos="-507.681692451886" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="1.37027896804936" ypos="391.723" zpos="-520.977442272181" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.86008798555249" ypos="391.723" zpos="-517.067571583511" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.313475022923488" ypos="391.723" zpos="-511.666493100094" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-4.66476539302669" ypos="391.723" zpos="-503.196410473938" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="4.47135338746917" ypos="391.723" zpos="-521.982570529412" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.45812837661068" ypos="391.723" zpos="-512.821201876551" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-5.36116164297271" ypos="391.723" zpos="-521.30431469567" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.1225781494078" ypos="391.723" zpos="-524.267019895809" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.22205696708924" ypos="391.723" zpos="-504.15061175867" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-1.8786375955357" ypos="391.723" zpos="-513.260799439168" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.2714623534103" ypos="391.723" zpos="-504.669660478383" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.14031485822998" ypos="391.723" zpos="-505.587565182715" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.1668017099271" ypos="391.723" zpos="-504.945224929579" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="5.76547938664113" ypos="391.723" zpos="-517.542576727009" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-7.57810698982223" ypos="391.723" zpos="-515.003568698073" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.354860668375239" ypos="391.723" zpos="-507.524923736541" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.35104025643826" ypos="391.723" zpos="-515.286041945537" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.3325866584032" ypos="391.723" zpos="-523.989601245615" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="2.00698105923023" ypos="391.723" zpos="-517.079331777161" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="3.34778220019761" ypos="391.723" zpos="-522.743223918659" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.82586328203383" ypos="391.723" zpos="-508.412831057071" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.10879652324988" ypos="391.723" zpos="-521.214068544403" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="10.2435909484609" ypos="391.723" zpos="-510.408863579214" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.04712243555389" ypos="391.723" zpos="-505.798715268694" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-3.61758644250332" ypos="391.723" zpos="-512.832479470461" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="10.2340039776379" ypos="391.723" zpos="-516.882608883391" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-10.8719053291711" ypos="391.723" zpos="-507.316643849012" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="0.318819459437492" ypos="391.723" zpos="-526.253248023246" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="1.41763731867585" ypos="391.723" zpos="-503.13235170853" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-6.87753320413207" ypos="391.723" zpos="-525.461174850966" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    <POI MapID="1437" xpos="-9.05082867455251" ypos="391.723" zpos="-507.9077777298" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c2"/>
+    
+    <!-- Section 3-->
+    <POI MapID="1437" xpos="24.4326151063878" ypos="391.723" zpos="-512.808857483217" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="34.4093410989558" ypos="391.723" zpos="-506.196580653846" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.3872812108681" ypos="391.723" zpos="-500.843330344602" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.7444659779884" ypos="391.723" zpos="-504.622416503895" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.2328213542765" ypos="391.723" zpos="-508.816690838987" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="18.7089847371482" ypos="391.723" zpos="-498.752098673867" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.3853304919215" ypos="391.723" zpos="-512.173172026487" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.2584855004178" ypos="391.723" zpos="-498.098252226944" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.5997325381444" ypos="391.723" zpos="-492.817391878608" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.8108767821265" ypos="391.723" zpos="-492.593490999515" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.9016182331262" ypos="391.723" zpos="-506.903843271925" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="22.0174396305826" ypos="391.723" zpos="-500.585749083696" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.9285676185735" ypos="391.723" zpos="-512.148711839696" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="18.4247919106124" ypos="391.723" zpos="-500.125044132476" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.1477542602127" ypos="391.723" zpos="-501.883104183124" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.4603569714072" ypos="391.723" zpos="-491.64416651215" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="31.0655319646127" ypos="391.723" zpos="-505.55601839975" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.5143992522244" ypos="391.723" zpos="-502.027452305176" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.0844549543943" ypos="391.723" zpos="-511.328165282791" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="34.5714082514395" ypos="391.723" zpos="-505.622109164061" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.2129217350223" ypos="391.723" zpos="-496.799119128476" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.9813564100675" ypos="391.723" zpos="-503.573270070434" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.6372653358767" ypos="391.723" zpos="-509.57676002855" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="16.9435348144912" ypos="391.723" zpos="-507.539604928613" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="31.9872923868621" ypos="391.723" zpos="-495.169303608576" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.8152328797742" ypos="391.723" zpos="-505.082003855718" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.055072250261" ypos="391.723" zpos="-500.949553087241" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="18.0286181645462" ypos="391.723" zpos="-495.651700148082" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.5615022567888" ypos="391.723" zpos="-491.752319653747" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="16.7281109268201" ypos="391.723" zpos="-496.018323550105" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="12.7632492678454" ypos="391.723" zpos="-506.594192039136" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.0025247586366" ypos="391.723" zpos="-512.773881702104" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.925194500395" ypos="391.723" zpos="-513.034485561378" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="33.8249839345087" ypos="391.723" zpos="-500.370560399897" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="16.8557737978822" ypos="391.723" zpos="-497.198838712627" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.6464372709239" ypos="391.723" zpos="-507.355658227945" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.8565256374762" ypos="391.723" zpos="-500.851966339938" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="13.7738004221478" ypos="391.723" zpos="-508.248467745827" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.4481507539986" ypos="391.723" zpos="-502.540659028044" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.073964760059" ypos="391.723" zpos="-512.674008956035" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.8739271680793" ypos="391.723" zpos="-503.870957909683" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="22.5449998857001" ypos="391.723" zpos="-495.020485088938" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.0072745560717" ypos="391.723" zpos="-514.109209781027" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="34.0568019893269" ypos="391.723" zpos="-509.889738659541" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="14.1660765403187" ypos="391.723" zpos="-499.473077284538" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="22.8055846949843" ypos="391.723" zpos="-495.543699406402" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.7246082687115" ypos="391.723" zpos="-510.615238467771" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.2936670214198" ypos="391.723" zpos="-508.753698873003" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.9929921437842" ypos="391.723" zpos="-493.097477527362" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.029761163929" ypos="391.723" zpos="-513.559604877813" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.6487029497004" ypos="391.723" zpos="-500.702335020739" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.7423450791337" ypos="391.723" zpos="-491.163446371739" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.0522122118054" ypos="391.723" zpos="-497.261348078872" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.7361195424954" ypos="391.723" zpos="-506.064805525005" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="14.1660841603146" ypos="391.723" zpos="-504.66790787933" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.9907300210058" ypos="391.723" zpos="-496.68774018862" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.7145803541266" ypos="391.723" zpos="-510.684047030615" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.0832212770605" ypos="391.723" zpos="-502.616427187129" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.8218698961903" ypos="391.723" zpos="-513.93775987361" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="31.9467082887775" ypos="391.723" zpos="-507.060713587215" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.2539973228414" ypos="391.723" zpos="-491.720823670755" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.5582764585307" ypos="391.723" zpos="-509.622607003792" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.2706978138232" ypos="391.723" zpos="-507.741712619475" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.8446943238651" ypos="391.723" zpos="-500.882471723465" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.131857424797" ypos="391.723" zpos="-496.41187093759" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.479401881123" ypos="391.723" zpos="-499.512955263004" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="31.3429226748218" ypos="391.723" zpos="-511.225015938491" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="34.5810145262522" ypos="391.723" zpos="-495.523430217348" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.0503707127998" ypos="391.723" zpos="-492.221965400139" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="33.9459310491972" ypos="391.723" zpos="-501.484121198575" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.5333565319875" ypos="391.723" zpos="-508.747298076459" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.6098104907023" ypos="391.723" zpos="-506.92027706305" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.3893020337769" ypos="391.723" zpos="-510.280136448726" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="14.1092631209979" ypos="391.723" zpos="-497.200515111722" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="22.1010530834313" ypos="391.723" zpos="-511.969972136215" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.5811631161719" ypos="391.723" zpos="-497.259493879873" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.0840866545932" ypos="391.723" zpos="-512.168193629175" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.7290761262989" ypos="391.723" zpos="-503.518558499978" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.8958498962411" ypos="391.723" zpos="-505.700772921583" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="16.070827861753" ypos="391.723" zpos="-500.676554034661" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.2776421700732" ypos="391.723" zpos="-501.555317360129" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="18.6835377608896" ypos="391.723" zpos="-510.36931580057" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.9142006243317" ypos="391.723" zpos="-493.392066568284" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="14.9025798766069" ypos="391.723" zpos="-497.040164998311" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.4875070167462" ypos="391.723" zpos="-492.845662063343" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.4661303882896" ypos="391.723" zpos="-502.026766505546" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.1758212450565" ypos="391.723" zpos="-515.571309191493" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.6171841067206" ypos="391.723" zpos="-509.843510684504" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="33.8977193352316" ypos="391.723" zpos="-504.975730313106" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="14.7003070858342" ypos="391.723" zpos="-509.826746693557" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.4670430097968" ypos="391.723" zpos="-510.894689116868" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.8709731496745" ypos="391.723" zpos="-494.31916606765" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.3232768014305" ypos="391.723" zpos="-505.987183166921" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.4470118186136" ypos="391.723" zpos="-511.447138818545" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="22.6920886662721" ypos="391.723" zpos="-498.795151650618" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.0351926969959" ypos="391.723" zpos="-508.102519424639" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.5908773409262" ypos="391.723" zpos="-505.801102867404" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.919794463311" ypos="391.723" zpos="-515.040144678322" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.5694067325204" ypos="391.723" zpos="-506.559952857625" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="33.8474857823577" ypos="391.723" zpos="-500.124536132751" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.484931458137" ypos="391.723" zpos="-502.065145884821" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.6174177865944" ypos="391.723" zpos="-509.44196230134" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="18.6280715568414" ypos="391.723" zpos="-500.126568131653" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="32.3966284058207" ypos="391.723" zpos="-512.453003675378" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.6446567318854" ypos="391.723" zpos="-505.299707138158" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.2600155955916" ypos="391.723" zpos="-495.41179727763" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.6742731158925" ypos="391.723" zpos="-514.221096720608" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="29.9817297898659" ypos="391.723" zpos="-494.959880721664" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="13.3924120080975" ypos="391.723" zpos="-500.92775989901" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.2131287449105" ypos="391.723" zpos="-511.899461774291" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="22.4593816119339" ypos="391.723" zpos="-514.041696617484" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.3066819743917" ypos="391.723" zpos="-506.935059855068" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.1942108351262" ypos="391.723" zpos="-496.448827917633" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.9721197050554" ypos="391.723" zpos="-500.692022626308" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="14.9272125293052" ypos="391.723" zpos="-508.05911084808" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.0230860475335" ypos="391.723" zpos="-496.944127650171" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.0026263585818" ypos="391.723" zpos="-505.024015687032" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.5446417458935" ypos="391.723" zpos="-514.94535192951" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.0489036095921" ypos="391.723" zpos="-505.851699640082" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.566114894298" ypos="391.723" zpos="-493.74035118021" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="19.7838298607319" ypos="391.723" zpos="-499.378970335356" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.0718083012235" ypos="391.723" zpos="-512.891001038859" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.0228262056738" ypos="391.723" zpos="-499.080774496382" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="36.4752743833518" ypos="391.723" zpos="-500.784630976299" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.6078623117544" ypos="391.723" zpos="-499.192636035977" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.1913025366966" ypos="391.723" zpos="-510.157784714796" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="13.7275485711238" ypos="391.723" zpos="-500.692708425937" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.1517867620351" ypos="391.723" zpos="-499.943256430642" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="16.686429549328" ypos="391.723" zpos="-504.899403354322" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.7427209989307" ypos="391.723" zpos="-493.179849682881" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.8636731936165" ypos="391.723" zpos="-512.436138084485" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="16.686429549328" ypos="391.723" zpos="-504.899403354322" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.7427209989307" ypos="391.723" zpos="-493.179849682881" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="23.8636731936165" ypos="391.723" zpos="-512.436138084485" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.4708992357144" ypos="391.723" zpos="-500.112445739279" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="32.5260489559336" ypos="391.723" zpos="-498.532083992675" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.4003393438168" ypos="391.723" zpos="-506.558784458256" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.6838590707161" ypos="391.723" zpos="-497.384919012144" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.4379821234897" ypos="391.723" zpos="-501.183207561068" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.4416067015324" ypos="391.723" zpos="-515.138620425145" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.123487113317" ypos="391.723" zpos="-506.850173100907" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="13.2527669475058" ypos="391.723" zpos="-507.672396056906" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.2510991844064" ypos="391.723" zpos="-514.870929969698" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.9111254479923" ypos="391.723" zpos="-508.881867203792" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.8118800815848" ypos="391.723" zpos="-492.919118823676" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.4430849807341" ypos="391.723" zpos="-509.090909090909" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.6266100416306" ypos="391.723" zpos="-512.362071724481" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="12.8711819375618" ypos="391.723" zpos="-504.031384223053" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="33.2827729673026" ypos="391.723" zpos="-495.27699955042" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="12.9404924041341" ypos="391.723" zpos="-503.110533120312" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.9745720737311" ypos="391.723" zpos="-514.337428657789" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="36.4035194220995" ypos="391.723" zpos="-506.280070408762" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="27.4903543552087" ypos="391.723" zpos="-501.592325140144" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="20.7335170599008" ypos="391.723" zpos="-491.838679607113" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.5039077878898" ypos="391.723" zpos="-500.515213321785" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="32.9447397898405" ypos="391.723" zpos="-503.501896108976" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.7966502498089" ypos="391.723" zpos="-515.059728067747" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="26.6289468403687" ypos="391.723" zpos="-499.512447263278" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.5764628487101" ypos="391.723" zpos="-493.146042301137" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.4055514210022" ypos="391.723" zpos="-506.073644720232" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.9487275876871" ypos="391.723" zpos="-503.022776167701" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="31.8319409907519" ypos="391.723" zpos="-497.189847117483" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="15.7634029377624" ypos="391.723" zpos="-502.259023980127" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.9072544900826" ypos="391.723" zpos="-505.809865862672" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="21.7827640773074" ypos="391.723" zpos="-515.091401850643" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.9203558030079" ypos="391.723" zpos="-514.080533196512" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.738801781047" ypos="391.723" zpos="-497.286138465485" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="13.7547732924224" ypos="391.723" zpos="-507.044584595924" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.9779147119261" ypos="391.723" zpos="-509.063705705599" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="32.8916639785015" ypos="391.723" zpos="-499.913690846607" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="25.2275610171171" ypos="391.723" zpos="-499.659792583712" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="30.6668359999086" ypos="391.723" zpos="-512.785235495973" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="17.5025260286359" ypos="391.723" zpos="-493.984038648619" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.1944521349958" ypos="391.723" zpos="-495.353453509135" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.3563287875825" ypos="391.723" zpos="-512.961155800976" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="34.5320789126774" ypos="391.723" zpos="-501.41320443687" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="24.3110431520367" ypos="391.723" zpos="-508.400181863902" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="28.2380308914633" ypos="391.723" zpos="-514.196738133761" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    <POI MapID="1437" xpos="35.0561720696671" ypos="391.723" zpos="-496.314461990191" GUID="12890376712347162384==" type="hmpAlpha.ht_wurmSpawns.c3"/>
+    
+  </POIs>
+</OverlayData>
