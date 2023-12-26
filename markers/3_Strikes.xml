@@ -1,32 +1,34 @@
 <OverlayData>
 <!-- ========================================= ICEBROOD CONSTRUCT  ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB1_c1" DisplayName="Phase 1"       alpha="0.6"           fadeFar="2500" fadeNear="2250" iconFile="Assets/General/dot1.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB1_c2" DisplayName="Phase 2"       alpha="0.6"           fadeFar="2500" fadeNear="2250" iconFile="Assets/General/dot2.png"       iconSize="0.5" rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"       cull="CounterClockwise"                              iconFile="Assets/Strikes/Slaying/IC.png"                                 mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="sc1"    DisplayName="Cave Entrance" alpha="0.9"           fadeFar="3000" fadeNear="2750"                                        iconSize="2.5" rotate="80,0,255"/>
-      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                          fadeFar="950"  fadeNear="800"                                         iconSize="2"   rotate="95,0,32"/>
+    <MarkerCategory name="StrB1_c1" DisplayName="Stack Positions" alpha="0.6"             fadeFar="2500" fadeNear="2250"                                          iconSize="0.5" rotate-x="180"    mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="sc1"    DisplayName="Phase 1"                                                                iconFile="Assets/General/dot1.png"/>
+      <MarkerCategory name="sc2"    DisplayName="Phase 2"                                                                iconFile="Assets/General/dot2.png"/>
+    </MarkerCategory>
+    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"         cull="CounterClockwise"                                iconFile="Assets/Strikes/Slaying/IC.png"                                  mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="sc1"    DisplayName="Cave Entrance"   alpha="0.9"             fadeFar="3000" fadeNear="2750"                                          iconSize="2.5" rotate="80,0,255"/>
+      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                              fadeFar="950"  fadeNear="800"                                           iconSize="2"   rotate="95,0,32"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Phase 1 ========== -->
-    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="30"/>
-    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="130"/>
-    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="215"/>
-    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1" color="27c1e8" rotate-z="-50"/>
-    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1.sc1" color="27c1e8" rotate-z="30"/>
+    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1.sc1" color="27c1e8" rotate-z="130"/>
+    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1.sc1" color="27c1e8" rotate-z="215"/>
+    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1.sc1" color="27c1e8" rotate-z="-50"/>
+    <POI MapID="1332" xpos="-782.414" ypos="158.096" zpos="-238.352" GUID="Tw4KNtW8I0Gh2F8NzMYdBQ==" type="HMP.StrB1_c1.sc1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-789.622" ypos="158.096" zpos="-250.661" GUID="Yg9JJL54gUuX+JQYdgYdOg==" type="HMP.StrB1_c1.sc1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-778.858" ypos="158.096" zpos="-257.841" GUID="i3mh4DwYkk+nNJD99POPWQ==" type="HMP.StrB1_c1.sc1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-770.853" ypos="158.096" zpos="-244.962" GUID="T2pjWsxnWUuiEx7EujD7ZA==" type="HMP.StrB1_c1.sc1" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
     <!-- ========== Phase 2 ========== -->
-    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="40"/>
-    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="135"/>
-    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="215"/>
-    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c2" color="27c1e8" rotate-z="-50"/>
-    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c1.sc2" color="27c1e8" rotate-z="40"/>
+    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c1.sc2" color="27c1e8" rotate-z="135"/>
+    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c1.sc2" color="27c1e8" rotate-z="215"/>
+    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c1.sc2" color="27c1e8" rotate-z="-50"/>
+    <POI MapID="1332" xpos="-789.151" ypos="158.096" zpos="-243.869" GUID="2izJPP+XKkOa0OY+5BlQSw==" type="HMP.StrB1_c1.sc2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-784.851" ypos="158.096" zpos="-256.424" GUID="OEKRwLVYOkubIUER2kpIeQ==" type="HMP.StrB1_c1.sc2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c1.sc2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c1.sc2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
     <!-- ========== Slaying ========== -->
     <POI MapID="1332" xpos="-781.270" ypos="85.4864" zpos="-615.795" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3.sc1"/>
     <POI MapID="1332" xpos="-796.919" ypos="160.790" zpos="-282.519" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3.sc2"/>
@@ -147,7 +149,7 @@
     </MarkerCategory>
     <MarkerCategory     name="StrB7_c3"  DisplayName="Attack Ranges"                                                                                                                                           minimapVisibility="0" mapVisibility="0">
       <MarkerCategory   name="sc1"       DisplayName="Hitbox"                                                  fadeFar="200"  fadeNear="150"                                 trailScale="3"/>
-      <MarkerCategory   name="sc2"       DisplayName="Max Range"                                               fadeFar="3000" fadeNear="2500"                                trailScale="2"/>
+      <MarkerCategory   name="sc2"       DisplayName="Max Melee"                                               fadeFar="3000" fadeNear="2500"                                trailScale="2"/>
     </MarkerCategory>
     <MarkerCategory     name="StrB7_c4"  DisplayName="Boundary"                        defaultToggle="0"       fadeFar="600"  fadeNear="450"                                 trailScale="1.5"                  minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Only relevant after a wipe&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950"  fadeNear="800"                                 iconSize="1.75" rotate="90,0,225"                                         script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
@@ -376,18 +378,18 @@
       </MarkerCategory>
       <MarkerCategory   name="swon4"  DisplayName="Soo-Won's Void Beam"             color="deab12" defaultToggle="0" iconSize="5.075"/>
     </MarkerCategory>
-    <MarkerCategory     name="strikeB10_c3" DisplayName="Purification Phases"    defaultToggle="0" rotate-x="180" mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory     name="strikeB10_c3" DisplayName="Purification Phases"    defaultToggle="0" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="pur1" DisplayName="Purification 1">
-        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Assets/General/dot1.png" iconSize="0.5" tip-description="Challenge Mode only"/>
-        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6"/>
+        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Assets/General/dot.png" iconSize="0.25" tip-description="Challenge Mode only"/>
+        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6" rotate-x="180"/>
       </MarkerCategory>
       <MarkerCategory   name="pur2" DisplayName="Purification 2"                 defaultToggle="0">
-        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Assets/General/dot2.png" iconSize="0.5" tip-description="Challenge Mode only"/>
-        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6"/>
+        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Assets/General/dot.png" iconSize="0.25" tip-description="Challenge Mode only"/>
+        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6" rotate-x="180"/>
       </MarkerCategory>
       <MarkerCategory   name="pur3" DisplayName="Purification 3"                 defaultToggle="0">
-        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Assets/General/dot3.png" iconSize="0.5" tip-description="Challenge Mode only"/>
-        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6"/>
+        <MarkerCategory name="sc1"  DisplayName="Void Melters"    alpha="0.75"   iconFile="Assets/General/dot.png" iconSize="0.25" tip-description="Challenge Mode only"/>
+        <MarkerCategory name="sc2"  DisplayName="Prismatic Rifts" color="a3faff" defaultToggle="0"                iconSize="7.6" rotate-x="180"/>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory   name="strikeB10_c4" DisplayName="Enemy Spawns" rotate-x="180" mapVisibility="0" minimapVisibility="0">
@@ -864,12 +866,18 @@
     <!-- ==================== PURIFICATION PHASES ==================== -->
     <!-- ===== Purification 1 ===== -->
     <!-- Void Melters -->
-    <POI MapID="1437" xpos="45.360"  ypos="390.123" zpos="-526.548" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="70"/>
-    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="60"/>
-    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="47"/>
-    <POI MapID="1437" xpos="33.703"  ypos="390.123" zpos="-541.998" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="35"/>
-    <POI MapID="1437" xpos="27.088"  ypos="390.123" zpos="-544.823" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="24"/>
-    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-z="225"/>
+    <POI MapID="1437" xpos="45.360"  ypos="390.123" zpos="-526.548" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="33.703"  ypos="390.123" zpos="-541.998" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="27.088"  ypos="390.123" zpos="-544.823" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="45.360"  ypos="390.123" zpos="-526.548" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" iconFile="Assets/Strikes/Melter Location 1.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" iconFile="Assets/Strikes/Melter Location 1.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" iconFile="Assets/Strikes/Melter Location 1.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="33.703"  ypos="390.123" zpos="-541.998" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" iconFile="Assets/Strikes/Melter Location 1.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="27.088"  ypos="390.123" zpos="-544.823" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" iconFile="Assets/Strikes/Melter Location 1.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc1" iconFile="Assets/Strikes/Melter Location 1.png" iconSize="0.75" heightOffset="2.5"/>
     <!-- Prismatic Rifts -->
     <POI MapID="1437" xpos="32.053"  ypos="390.184" zpos="-534.904" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2"              iconFile="Assets/Shapes/Orb5.png"/>
     <POI MapID="1437" xpos="32.053"  ypos="390.184" zpos="-534.904" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2" alpha="0.25" iconFile="Assets/Shapes/CircleFill.png"/>
@@ -879,12 +887,18 @@
     <POI MapID="1437" xpos="3.935"   ypos="390.184" zpos="-507.351" GUID="HMP=STRIKEB10=C3=PUR1" type="HMP.strikeB10_c3.pur1.sc2" alpha="0.25" iconFile="Assets/Shapes/CircleFill.png"/>
     <!-- ===== Purification 2 ===== -->
     <!-- Void Melters -->
-    <POI MapID="1437" xpos="35.978"  ypos="390.123" zpos="-497.165" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="135"/>
-    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="60"/>
-    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="47"/>
-    <POI MapID="1437" xpos="29.387"  ypos="390.113" zpos="-545.006" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="25"/>
-    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-z="225"/>
-    <POI MapID="1437" xpos="14.565"  ypos="390.113" zpos="-545.880" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1"/>
+    <POI MapID="1437" xpos="35.978"  ypos="390.123" zpos="-497.165" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="29.387"  ypos="390.113" zpos="-545.006" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="14.565"  ypos="390.113" zpos="-545.880" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="35.978"  ypos="390.123" zpos="-497.165" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" iconFile="Assets/Strikes/Melter Location 2.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="42.847"  ypos="390.123" zpos="-532.128" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" iconFile="Assets/Strikes/Melter Location 2.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="39.932"  ypos="390.123" zpos="-539.499" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" iconFile="Assets/Strikes/Melter Location 2.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="29.387"  ypos="390.113" zpos="-545.006" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" iconFile="Assets/Strikes/Melter Location 2.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="-7.401"  ypos="390.116" zpos="-494.381" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" iconFile="Assets/Strikes/Melter Location 2.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="14.565"  ypos="390.113" zpos="-545.880" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc1" iconFile="Assets/Strikes/Melter Location 2.png" iconSize="0.75" heightOffset="2.5"/>
     <!-- Prismatic Rifts -->
     <POI MapID="1437" xpos="38.891"  ypos="390.184" zpos="-533.203" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2"              iconFile="Assets/Shapes/Orb5.png"/>
     <POI MapID="1437" xpos="38.891"  ypos="390.184" zpos="-533.203" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2" alpha="0.25" iconFile="Assets/Shapes/CircleFill.png"/>
@@ -892,12 +906,18 @@
     <POI MapID="1437" xpos="-7.392"  ypos="390.184" zpos="-505.578" GUID="HMP=STRIKEB10=C3=PUR2" type="HMP.strikeB10_c3.pur2.sc2" alpha="0.25" iconFile="Assets/Shapes/CircleFill.png"/>
     <!-- ===== Purification 3 ===== -->
     <!-- Void Melters -->
-    <POI MapID="1437" xpos="-6.819"  ypos="390.113" zpos="-539.644" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="-48"/>
-    <POI MapID="1437" xpos="33.786"  ypos="390.113" zpos="-542.057" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="37"/>
-    <POI MapID="1437" xpos="15.593"  ypos="390.113" zpos="-487.299" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="177"/>
-    <POI MapID="1437" xpos="37.112"  ypos="390.113" zpos="-496.711" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="135"/>
-    <POI MapID="1437" xpos="39.946"  ypos="390.113" zpos="-535.022" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="55"/>
-    <POI MapID="1437" xpos="-16.051" ypos="390.113" zpos="-517.198" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-z="-93"/>
+    <POI MapID="1437" xpos="-6.819"  ypos="390.113" zpos="-539.644" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="33.786"  ypos="390.113" zpos="-542.057" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="15.593"  ypos="390.113" zpos="-487.299" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="37.112"  ypos="390.113" zpos="-496.711" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="39.946"  ypos="390.113" zpos="-535.022" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="-16.051" ypos="390.113" zpos="-517.198" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" rotate-x="180"/>
+    <POI MapID="1437" xpos="-6.819"  ypos="390.113" zpos="-539.644" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" iconFile="Assets/Strikes/Melter Location 3.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="33.786"  ypos="390.113" zpos="-542.057" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" iconFile="Assets/Strikes/Melter Location 3.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="15.593"  ypos="390.113" zpos="-487.299" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" iconFile="Assets/Strikes/Melter Location 3.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="37.112"  ypos="390.113" zpos="-496.711" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" iconFile="Assets/Strikes/Melter Location 3.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="39.946"  ypos="390.113" zpos="-535.022" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" iconFile="Assets/Strikes/Melter Location 3.png" iconSize="0.75" heightOffset="2.5"/>
+    <POI MapID="1437" xpos="-16.051" ypos="390.113" zpos="-517.198" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc1" iconFile="Assets/Strikes/Melter Location 3.png" iconSize="0.75" heightOffset="2.5"/>
     <!-- Prismatic Rifts -->
     <POI MapID="1437" xpos="33.675"  ypos="390.184" zpos="-536.803" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc2"              iconFile="Assets/Shapes/Orb5.png"/>
     <POI MapID="1437" xpos="33.675"  ypos="390.184" zpos="-536.803" GUID="HMP=STRIKEB10=C3=PUR3" type="HMP.strikeB10_c3.pur3.sc2" alpha="0.25" iconFile="Assets/Shapes/CircleFill.png"/>
@@ -1087,13 +1107,13 @@
     <POI MapID="1515" xpos="22.626"  ypos="151.436" zpos="46.119" GUID="M6HhhfLexEOOs5sUrbExUw==" type="HMP.StrB12_c2"/>
     <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="hCk3AYUyeEeeWB9dZXHcsA==" type="HMP.StrB12_c2"/>
     <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="Ogc7xx+LHkuyPjocPHFcwA==" type="HMP.StrB12_c2"/>
-    <POI MapID="1515" xpos="-12.163" ypos="151.436" zpos="5.814"  GUID="sYB/SjGEM02PgatBSxgX3g==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1515" xpos="6.590"   ypos="151.436" zpos="-2.939" GUID="hnbpO0O/qkeUuGOLfL0rYg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1515" xpos="22.376"  ypos="151.436" zpos="1.543"  GUID="owKtyam7JkW6gphGA+eKDg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1515" xpos="32.276"  ypos="151.436" zpos="23.262" GUID="lMW2iMA3Hk6zgLyjDr5iGA==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1515" xpos="22.626"  ypos="151.436" zpos="46.119" GUID="2o/t/lfZBkiCWRjQrzjtIg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="Ya7crexQIU+nLwzt2EWBFw==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="DOoI+mANBUyl/UBH32ykCg==" type="HMP.StrB12_c2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="-12.163" ypos="151.436" zpos="5.814"  GUID="sYB/SjGEM02PgatBSxgX3g==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="6.590"   ypos="151.436" zpos="-2.939" GUID="hnbpO0O/qkeUuGOLfL0rYg==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="22.376"  ypos="151.436" zpos="1.543"  GUID="owKtyam7JkW6gphGA+eKDg==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="32.276"  ypos="151.436" zpos="23.262" GUID="lMW2iMA3Hk6zgLyjDr5iGA==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="22.626"  ypos="151.436" zpos="46.119" GUID="2o/t/lfZBkiCWRjQrzjtIg==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="Ya7crexQIU+nLwzt2EWBFw==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="DOoI+mANBUyl/UBH32ykCg==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
     <!-- Slaying -->
     <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="uI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
     <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="Io1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
@@ -1103,27 +1123,28 @@
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="StrB13_c1" DisplayName="Max Melee" minimapVisibility="0" mapVisibility="0"/>
     <MarkerCategory name="StrB13_c2" DisplayName="Embodiment Positions" iconFile="Assets/General/dot.png" iconSize="1" rotate-x="180">
-      <MarkerCategory name="sc1" DisplayName="Despair"/>
-      <MarkerCategory name="sc2" DisplayName="Envy"/>
-      <MarkerCategory name="sc3" DisplayName="Gluttony"/>
-      <MarkerCategory name="sc4" DisplayName="Malice"/>
-      <MarkerCategory name="sc5" DisplayName="Rage"/>
-      <MarkerCategory name="sc6" DisplayName="Regret"/>
+      <MarkerCategory name="sc1" DisplayName="Despair"  mapDisplaySize="20" tip-name="Despair"/>
+      <MarkerCategory name="sc2" DisplayName="Envy"     mapDisplaySize="20" tip-name="Envy"/>
+      <MarkerCategory name="sc3" DisplayName="Gluttony" mapDisplaySize="20" tip-name="Gluttony"/>
+      <MarkerCategory name="sc4" DisplayName="Malice"   mapDisplaySize="20" tip-name="Malice"/>
+      <MarkerCategory name="sc5" DisplayName="Rage"     mapDisplaySize="20" tip-name="Rage"/>
+      <MarkerCategory name="sc6" DisplayName="Regret"   mapDisplaySize="20" tip-name="Regret"/>
     </MarkerCategory>
     <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Assets/Strikes/Slaying/Febe.png" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
   </MarkerCategory>
   
   <POIs>
     <!-- Max Melee -->
-    <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" texture="Assets/Boundary/RedLine.png" alpha="0.65" animSpeed="0" type="HMP.StrB13_c1"/>
+    <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" alpha="0.65" animSpeed="0"                  type="HMP.StrB13_c1" texture="Assets/Boundary/RedLine.png"/>
     <!-- Embodiment Positions -->
-    <POI MapID="1520" xpos="-12.4949898527055" ypos="177.1" zpos="-86.6954871844369" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc1" color="ff1100"/> <!-- Red -->
-    <POI MapID="1520" xpos="9.70629995859802"  ypos="177.1" zpos="-122.673805756145" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc2" color="ff00f7"/> <!-- Pink -->
-    <POI MapID="1520" xpos="-20.5459955651624" ypos="177.1" zpos="-102.980170230708" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc3" color="f6ff00"/> <!-- Yellow -->
-    <POI MapID="1520" xpos="-11.3319752807334" ypos="177.1" zpos="-121.739340260756" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc4" color="00ff15"/> <!-- Green -->
-    <POI MapID="1520" xpos="11.7183598720857"  ypos="177.1" zpos="-85.9835255688962" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc5" color="00eeff"/> <!-- Light Blue -->
-    <POI MapID="1520" xpos="22.8595050558673"  ypos="177.1" zpos="-103.363720183591" GUID="1908237489172348901723==" type="HMP.StrB13_c2.sc6" color="ff7b00"/> <!-- Orange -->
+    <POI MapID="1520" xpos="-12.494" ypos="177.1"   zpos="-86.695"  GUID="LXEMfrQ0/kqT2zAjwFTGGg==" type="HMP.StrB13_c2.sc1"/>
+    <POI MapID="1520" xpos="9.706"   ypos="177.1"   zpos="-122.673" GUID="erXTteh0DE+Gj7701INu0w==" type="HMP.StrB13_c2.sc2"/>
+    <POI MapID="1520" xpos="-20.545" ypos="177.1"   zpos="-102.980" GUID="9tovlMpwaUuKAJyO6F2KPg==" type="HMP.StrB13_c2.sc3"/>
+    <POI MapID="1520" xpos="-11.331" ypos="177.1"   zpos="-121.739" GUID="XlOqrOrGuk6qtPh/Ln8lGA==" type="HMP.StrB13_c2.sc4"/>
+    <POI MapID="1520" xpos="11.718"  ypos="177.1"   zpos="-85.983"  GUID="u8q+0b/3LUaWiH6JlVsVPQ==" type="HMP.StrB13_c2.sc5"/>
+    <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6"/>
     <!-- Slaying -->
-    <POI MapID="1520" xpos="11.60079" ypos="206.0636" zpos="-214.4242" GUID="12903847190267==" type="HMP.StrB13_c4"/>
+    <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"/>
+    
   </POIs>
 </OverlayData>

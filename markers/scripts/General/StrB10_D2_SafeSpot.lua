@@ -30,8 +30,6 @@ end
 UpdateTexture() --This ensures the marker always has a texture
 
 local function Tick_Primordus_SafeSpot(gameTime)
-  Debug:Watch("Vector", (player.Position - SS.center ):Length() )
-  
   --If the user changes their category settings, we change the texture displayed
   for i = 1, #SS.catCheck do if( World:CategoryByType(SS.categories[i]):IsVisible() ~= SS.catCheck[i] ) then UpdateTexture() end end
   

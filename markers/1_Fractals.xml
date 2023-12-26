@@ -2,18 +2,7 @@
 <!-- ============================================= QUITARHERO'S FRACTAL MARKERS ============================================ -->
 <!-- ======================================================================================================================= -->
 <OverlayData>
-<!-- ======================================== TROUBLESHOOTING PEOPLE THAT DON'T KNOW THE NEW MARKER MENU LAYOUT ============================================================================================================ -->
-  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="Troubleshooting" DisplayName="HOVER OVER ME IF YOU SEE ME" tip-description="v2.5.0 Release&#xA;This marker pack is designed to only show categories from a single map at a time.&#xA;Please turn on 'Enable Smart Categories' in the Pathing Module Settings."/>
-  </MarkerCategory>
   
-  <POIs>
-    <POI MapID="0" xpos="0" ypos="0" zpos="0" GUID="TROUBLESHOOTINGHEROSMARKERPACK==" type="HMP.Troubleshooting" iconFile="Assets/General/empty.png"/>
-  </POIs>
-  
-  
-  
-
 <!-- ======================================== AETHERBLADE ================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory   name="F_AB_c1" DisplayName="Electric Skip" cull="CounterClockwise" fadeFar="850"  fadeNear="600"                                       iconSize="0.55"                    mapVisibility="0" minimapVisibility="0"/>
@@ -246,7 +235,7 @@
 <!-- ======================================== SHATTERED OBSERVATORY ======================================================================================================================================================== -->
   <MarkerCategory     name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory   name="F_ShO_c0" DisplayName="Skorvald Launches" cull="CounterClockwise"                                                                    iconFile="Assets/General/Arrow-2.png"    iconSize="0.35"                     mapVisibility="0" minimapVisibility="0" tip-description="Be Careful!"/>
-    <MarkerCategory   name="F_ShO_c1" DisplayName="Virastra Skip"                                                                                                                iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_ShO_c1" DisplayName="Viirastra Skip"                                                                                                                iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_ShO_c2" DisplayName="Arkk Directions" color="c4ac54" cull="CounterClockwise" fadeFar="3000" fadeNear="2750"                                                        rotate-x="90"/>
     <MarkerCategory   name="F_ShO_sy" DisplayName="Slaying"                        cull="CounterClockwise"                                                                                                           mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="s1"       DisplayName="Skorvald"                                               fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/ShO1.png" iconSize="1.25" rotate="165,15,290" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
@@ -661,7 +650,7 @@
   
 <!-- ======================================== UNDERGROUND FACILITY ========================================================================================================================================================= -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_UF_c1" DisplayName="Button Skip"       fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UF_c1" DisplayName="Pressure Plate Skip"       fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UF_c2" DisplayName="Bucket Boundaries" fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UF_sy" DisplayName="Slaying"           cull="CounterClockwise"                                              iconSize="2" rotate-x="90"                               mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="s1"      DisplayName="Start"             fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/UF1.png"                                           rotate-z="-91" tip-description="Potion: Dredge&#xA;Sigils: Night, Sorrow"/>

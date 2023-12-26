@@ -1,154 +1,223 @@
-HMP.CompassSabetha = {
-  markers = World:CategoryByType("HMP.W1_B4.c25"):GetMarkers(),
+HMP.Compass_Sabetha = {
+  preview = World:CategoryByType("HMP.W1_B4.c4.sc1"):GetMarkers(),
+  markers = World:CategoryByType("HMP.W1_B4.c4.sc2"):GetMarkers(),
   cannonPositions = {
-    I:Vector3(-133.2225, 52.42474, 62.82022),
-    I:Vector3(-161.7514, 87.51527, 62.01423),
-    I:Vector3(-126.3933, 115.5325, 62.80072),
-    I:Vector3(-97.97771, 80.63229, 62.89721)
+    I:Vector3(-133.2225, 52.42474, 62.82022), I:Vector3(-161.7514, 87.51527, 62.01423),
+    I:Vector3(-126.3933, 115.5325, 62.80072), I:Vector3(-97.97771, 80.63229, 62.89721)
   },
   launchPlatforms = {
-    I:Vector3(-132.6284, 56.2659, 62.96154),
-    I:Vector3(-157.6624, 86.99155, 62.27127),
-    I:Vector3(-126.8654, 111.9275, 62.9425),
-    I:Vector3(-101.9276, 81.16863, 63.0384)
+    I:Vector3(-132.6284, 56.2659, 62.96154), I:Vector3(-157.6624, 86.99155, 62.27127),
+    I:Vector3(-126.8654, 111.9275, 62.9425), I:Vector3(-101.9276, 81.16863, 63.0384)
   },
   bossPos = I:Vector3(-128.986, 85.266, 62.386),
-  cmdrIds = { 1335145, 1335146, 1335147, 1335148, 1335149, 1335150, 1335151, 1335152 },
-  cannon = 0,
-  curTime = 0,
-  iconCheck = 0,
+  catStates = {
+    { false, false, false }, --Cannons
+    { false, false, false, false }, --Countdown, Directions, Numbers, Commander Markers
+    { { false, false, false, false, false, false, false, false }, --South
+      { false, false, false, false, false, false, false, false }, --West
+      { false, false, false, false, false, false, false, false }, --North
+      { false, false, false, false, false, false, false, false }, } --East
+  },
+  dir = "Assets/General/",
+  icon = {
+    { "empty.png" },
+    { "s.png", "w.png", "n.png", "e.png" },
+    { "1.png", "2.png", "3.png", "4.png" },
+    { 1335145, 1335146, 1335147, 1335148, 1335149, 1335150, 1335151, 1335152 }
+  },
+  curCannon = 0,
+  mechCannon = { 0, 0 },
+  startTime = 0,
+  alpha = { 0.6, 0.95 },
+  size = { 1, 0.75},
   subtract = 0,
-  alpha = {0.5, 0.9},
-  cannonMech = {0, 0},
-  enrage = 480,
+  enrage = 480
 }
 
-local compass, player = HMP.CompassSabetha, Mumble.PlayerCharacter
-Debug:Watch("Sab Compass Variables", HMP.CompassSabetha)
+local compass = HMP.Compass_Sabetha
+Debug:Watch("Sab Compass Variables", HMP.Compass_Sabetha)
+local cat, player = compass.catStates, Mumble.PlayerCharacter
 
-local function setCompassTexture(category)
-  --If the user wants Directional marker icons
-  if(category == 1) then
-    compass.markers[1]:SetTexture("Assets/General/s.png")
-    compass.markers[2]:SetTexture("Assets/General/w.png")
-    compass.markers[3]:SetTexture("Assets/General/n.png")
-    compass.markers[4]:SetTexture("Assets/General/e.png")
-  --If the user wants Numerical marker icons
-  elseif(category == 2) then
-    --If the user wants Individual Numbers
-    if(World:CategoryByType("HMP.W1_B4.c25.sc3.asc2.num1"):IsVisible()) then
-      compass.markers[1]:SetTexture("Assets/General/1.png")
-      compass.markers[2]:SetTexture("Assets/General/2.png")
-      compass.markers[3]:SetTexture("Assets/General/3.png")
-      compass.markers[4]:SetTexture("Assets/General/4.png")
-    --If the user wants Combination Numbers
-    else
-      for i = 1, #compass.markers do
-        if(i % 2 == 1) then
-          compass.markers[i]:SetTexture("Assets/General/1and3.png")
-        else
-          compass.markers[i]:SetTexture("Assets/General/2and4.png")
-        end
-      end
+local function ResetCompass()
+  ResetCountdown()
+  for i = 1, #compass.markers do
+    compass.markers[i].InGameVisibility = false
+    compass.markers[i].ResetLength = 30
+  end
+  compass.curCannon = 0
+  compass.mechCannon = { 0, 0 }
+  compass.startTime = 0
+  compass.subtract = 0
+end
+
+local function UpdateCategoryStates()
+  --Cannon Category States
+  for i = 1, #cat[1] do cat[1][i] = World:CategoryByType("HMP.W1_B4.c4.sc3.asc" .. i):IsVisible() end
+  --Display Option States
+  for i = 1, #cat[2] do cat[2][i] = World:CategoryByType("HMP.W1_B4.c4.sc4.asc" .. i):IsVisible() end
+  --Commander Marker States
+  for i = 1, #cat[3] do
+    for k = 1, #cat[3][i] do
+      cat[3][i][k] = World:CategoryByType("HMP.W1_B4.c4.sc4.asc4.dir" .. i .. ".cmdr" .. k):IsVisible()
     end
-  --If the user wants Commander Markers
-  elseif(category == 3) then
-    for i = 1, #compass.markers do
-      for k = 1, 8 do
-        if( World:CategoryByType("HMP.W1_B4.c25.sc3.asc3.dir" .. i .. ".cmdr" .. k):IsVisible() ) then
-          compass.markers[i]:SetTexture(compass.cmdrIds[k]) break
+  end
+end
+
+local function UpdateCompassTexture()
+  for i = 1, 4 do
+    --Countdown
+    if( i == 1 and cat[2][i] ) then
+      for _,v in ipairs(compass.markers) do
+        v:SetTexture(compass.dir .. compass.icon[i][1])
+        v.Size = compass.size[1]
+      end
+      break
+    end
+    --Directions and Numbers
+    if( i == 2 and cat[2][i] or i == 3 and cat[2][i] ) then
+      ResetCountdown()
+      for _,v in ipairs(compass.markers) do
+        v:SetTexture(compass.dir .. compass.icon[i][_])
+        v.Size = compass.size[2]
+      end
+      break
+    end
+    --Commander Markers
+    if( i == 4 and cat[2][i] ) then
+      ResetCountdown()
+      for k = 1, #cat[3] do
+        for l = 1, #cat[3][k] do
+          if( cat[3][k][l] ) then
+            compass.markers[k]:SetTexture(compass.icon[i][l])
+            compass.markers[k].Size = compass.size[2]
+            break
+          end
         end
       end
     end
   end
 end
 
-local function animateCannon(cannonPosition, marker, time, offset)
-  --Sets the Marker's Position
-  local cannonVector = (cannonPosition - player.Position)
-  cannonVector = cannonVector / cannonVector:Length()
-  local cannonPos = player.Position + cannonVector * 2.5
-  marker:SetPos(cannonPos.X, cannonPos.Y, 61.5)
+local function CheckCategoryStates()
+  --Checking 'Cannon Category' States
+  for i = 1, #cat[1] do
+    if( World:CategoryByType("HMP.W1_B4.c4.sc3.asc" .. i):IsVisible() ~= cat[1][i] ) then
+      UpdateCategoryStates() UpdateCompassTexture()
+    end
+  end
+  --Checking 'Display Option' States
+  for i = 1, #cat[2] do
+    if( World:CategoryByType("HMP.W1_B4.c4.sc4.asc" .. i):IsVisible() ~= cat[2][i] ) then
+      UpdateCategoryStates() UpdateCompassTexture()
+    end
+  end
+  --Checking 'Commander Marker' States
+  for i = 1, #cat[3] do
+    for k = 1, #cat[3][i] do
+      if( World:CategoryByType("HMP.W1_B4.c4.sc4.asc4.dir" .. i .. ".cmdr" .. k):IsVisible() ~= cat[3][i][k] ) then
+        UpdateCategoryStates() UpdateCompassTexture()
+      end
+    end
+  end
+end
+
+local function AnimateCompass(cannonPos, marker, time, offset)
+  --Sets the Marker's Position around the player
+  local vector = cannonPos - player.Position
+  vector = vector / vector:Length()
+  local pos = player.Position + vector * 2.5 --'2.5' can be changed to modify marker distance from player
+  marker:SetPos(pos.X, pos.Y, 61.5) --'61.5' is the height.
   
-  --Determines Compass visibility based on player position
-  if((player.Position - compass.bossPos):Length() > 31) then
+  --Determines Marker visibility based on the player's position
+  if( (player.Position - compass.bossPos):Length() > 31 ) then
     marker.InGameVisibility = false
   else
     for _, position in ipairs(compass.launchPlatforms) do
-      if((player.Position - position):Length() < 4) then marker.InGameVisibility = false break
-      elseif(_ == #compass.launchPlatforms) then marker.InGameVisibility = true end
+      if( (player.Position - position):Length() < 4 ) then marker.InGameVisibility = false break
+      elseif( _ == #compass.launchPlatforms ) then marker.InGameVisibility = true end
     end
   end
   
   --Changes marker opacity based on time elapsed
-  if(time <= 34-offset) then marker.Alpha = compass.alpha[1]
-  elseif(time > 34-offset and time <= 37) then marker.Alpha = compass.alpha[2]
+  if( time <= 34-offset ) then
+    marker.Alpha = compass.alpha[1]
     
-  --When the "Currrent Cannon" finishes, we do this
-  elseif(time > 37 and time < 50) then --"50" is specified here due to the script hitting the condition otherwise multiple times when it shouldn't
+  elseif( time > 34-offset and time <= 38 ) then
+    if( cat[1][1] ) then
+      marker.Alpha = compass.alpha[2]
+    elseif( cat[1][2] and offset == compass.mechCannon[1] ) then
+      marker.Alpha = compass.alpha[2]
+    elseif( cat[1][3] and offset == compass.mechCannon[2] ) then
+      marker.Alpha = compass.alpha[2]
+    end
+  
+  --When the Current Cannon completes, we modify running variables
+  elseif( time > 38 and time < 50 ) then --'50' is specified here due to the script hitting the condition multiple times when it shouldn't
     marker.InGameVisibility = false
     compass.subtract = compass.subtract + 30
-    if(compass.cannon == 8) then compass.cannon = 1
-    else compass.cannon = compass.cannon + 1 end
-  end
-end
-
---Resets variables
-local function resetSabCompass()
-  for i = 1, #compass.markers do compass.markers[i].InGameVisibility = false end
-  compass.curTime = 0
-  compass.iconCheck = 0
-  compass.cannon = 0
-  compass.subtract = 0
-  compass.cannonMech = {0, 0}
-end
-
-local function tick_compassSabetha(gameTime)
-  --If the user enables the compass and is around Sabetha, we actually do things
-  if(World:CategoryByType("HMP.W1_B4.c25.sc1"):IsVisible() and (player.Position - compass.bossPos):Length() < 110) then
-    
-    --"Begins" the Script
-    if(player.IsInCombat == true and compass.cannon == 0) then
-      resetSabCompass()
-      compass.curTime = math.floor(gameTime.TotalGameTime.TotalSeconds)
-      for i = 1, 3 do
-        if( World:CategoryByType("HMP.W1_B4.c25.sc2.asc" .. i):IsVisible() ) then
-          if(i == 1) then break
-          elseif(i == 2) then compass.cannonMech[1] = 2 break
-          elseif(i == 3) then compass.cannonMech[2] = 2 break end
+    if( compass.curCannon == 8 ) then compass.curCannon = 1
+    else compass.curCannon = compass.curCannon + 1 end
+    --If the marker requires a countdown, we give it here
+    --(since this is code that is only run once per ~30s)
+    if( cat[2][1] ) then
+      for i = 1, 4 do
+        if( marker.Guid == compass.markers[i].Guid ) then
+          if( i ~= 4 ) then
+            hmpCountdown(compass.markers[i+1])
+          else
+            hmpCountdown(compass.markers[1])
+          end
+          break
         end
       end
-      --Set the texture based on the user's choice
-      for i = 1, 3 do if( World:CategoryByType("HMP.W1_B4.c25.sc3.asc" .. i):IsVisible() ) then setCompassTexture(i) break end end
-      compass.cannon = 1
-      compass.iconCheck = 1
     end
-    
-    --Use this a lot so made it into a variable for convenience
-    local timeDiff = math.floor(gameTime.TotalGameTime.TotalSeconds - compass.curTime)
-    Debug:Watch("Sab Compass Time", timeDiff .. "s")
-    
-    --Every second we update textures to the user's choice
-    if( timeDiff >= compass.iconCheck ) then
-      for i = 1, 3 do if( World:CategoryByType("HMP.W1_B4.c25.sc3.asc" .. i):IsVisible() ) then setCompassTexture(i) break end end
-      compass.iconCheck = compass.iconCheck + 1
-    end
-    
-    --Cannon Functions
-    if(compass.cannon == 1) then animateCannon(compass.cannonPositions[1], compass.markers[1], timeDiff-compass.subtract, compass.cannonMech[1]) end
-    if(compass.cannon == 2) then animateCannon(compass.cannonPositions[2], compass.markers[2], timeDiff-compass.subtract, compass.cannonMech[2]) end
-    if(compass.cannon == 3) then animateCannon(compass.cannonPositions[3], compass.markers[3], timeDiff-compass.subtract, compass.cannonMech[1]) end
-    if(compass.cannon == 4) then animateCannon(compass.cannonPositions[4], compass.markers[4], timeDiff-compass.subtract, compass.cannonMech[2]) end
-    if(compass.cannon == 5) then animateCannon(compass.cannonPositions[1], compass.markers[1], timeDiff-compass.subtract, compass.cannonMech[1]) end
-    if(compass.cannon == 6) then animateCannon(compass.cannonPositions[3], compass.markers[3], timeDiff-compass.subtract, compass.cannonMech[2]) end
-    if(compass.cannon == 7) then animateCannon(compass.cannonPositions[2], compass.markers[2], timeDiff-compass.subtract, compass.cannonMech[1]) end
-    if(compass.cannon == 8) then animateCannon(compass.cannonPositions[4], compass.markers[4], timeDiff-compass.subtract, compass.cannonMech[2]) end
-    
-    --"Resets" the Script
-    if(player.IsInCombat == false and compass.cannon > 0 or timeDiff > compass.enrage) then resetSabCompass() end
-  else
-    resetSabCompass()
   end
 end
 
-Event:OnTick(tick_compassSabetha)
+ResetCompass()
+UpdateCategoryStates()
+UpdateCompassTexture()
+
+local function tick_compass_Sabetha(gameTime)
+  --When the compass is enabled by the user and the user is around Sabetha, we "begin" this script
+  if( World:CategoryByType("HMP.W1_B4.c4.sc2"):IsVisible() and (player.Position - compass.bossPos):Length() < 110 ) then
+    CheckCategoryStates()
+    
+    --"Begins" the Script
+    if( player.IsInCombat and compass.curCannon == 0) then
+      ResetCompass()
+      compass.startTime = gameTime.TotalGameTime.TotalSeconds
+      compass.markers[1].ResetLength = 38
+      for i = 1, 3 do
+        if( cat[1][i] ) then
+          if( i == 1 and cat[2][1] ) then break end
+          if( i == 2 ) then compass.mechCannon[1] = 2 break end
+          if( i == 3 ) then compass.mechCannon[2] = 2 break end
+        end
+      end
+      if( cat[2][1] ) then
+        hmpCountdown(compass.markers[1])
+        compass.markers[1].ResetLength = 30
+      end
+      compass.curCannon = 1
+    end
+    
+    local time = ( gameTime.TotalGameTime.TotalSeconds - compass.startTime )
+    Debug:Watch("Sabetha Compass Time: ", time .. "s")
+    
+    --Cannon Functions
+    if( compass.curCannon == 1 ) then AnimateCompass( compass.cannonPositions[1], compass.markers[1], time-compass.subtract, compass.mechCannon[1] ) end
+    if( compass.curCannon == 2 ) then AnimateCompass( compass.cannonPositions[2], compass.markers[2], time-compass.subtract, compass.mechCannon[2] ) end
+    if( compass.curCannon == 3 ) then AnimateCompass( compass.cannonPositions[3], compass.markers[3], time-compass.subtract, compass.mechCannon[1] ) end
+    if( compass.curCannon == 4 ) then AnimateCompass( compass.cannonPositions[4], compass.markers[4], time-compass.subtract, compass.mechCannon[2] ) end
+    if( compass.curCannon == 5 ) then AnimateCompass( compass.cannonPositions[1], compass.markers[1], time-compass.subtract, compass.mechCannon[1] ) end
+    if( compass.curCannon == 6 ) then AnimateCompass( compass.cannonPositions[3], compass.markers[2], time-compass.subtract, compass.mechCannon[2] ) end
+    if( compass.curCannon == 7 ) then AnimateCompass( compass.cannonPositions[2], compass.markers[3], time-compass.subtract, compass.mechCannon[1] ) end
+    if( compass.curCannon == 8 ) then AnimateCompass( compass.cannonPositions[4], compass.markers[4], time-compass.subtract, compass.mechCannon[2] ) end
+    
+    --"Resets" the Script
+    if( not player.IsInCombat and compass.curCannon > 0 ) then ResetCompass() end
+  end
+end
+
+Event:OnTick(tick_compass_Sabetha)
