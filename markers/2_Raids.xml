@@ -62,16 +62,10 @@
       <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0"                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory     name="c2"    DisplayName="Spirits">
         <MarkerCategory   name="sc1"   DisplayName="Locations (in-game)" color="a6c4a1" fadeFar="3500" fadeNear="3000" iconFile="Assets/General/dot.png" iconSize="0.75" rotate-x="180" minimapVisibility="0" mapVisibility="0">
-          <MarkerCategory name="s1"    DisplayName="NW Spirit"/>
-          <MarkerCategory name="s2"    DisplayName="NE Spirit"/>
-          <MarkerCategory name="s3"    DisplayName="SE Spirit"/>
-          <MarkerCategory name="s4"    DisplayName="SW Spirit"/>
+          <MarkerCategory name="s1" DisplayName="NW Spirit"/> <MarkerCategory name="s2" DisplayName="NE Spirit"/> <MarkerCategory name="s3" DisplayName="SE Spirit"/> <MarkerCategory name="s4" DisplayName="SW Spirit"/>
         </MarkerCategory>
         <MarkerCategory   name="sc2"   DisplayName="Locations (minimap)"                defaultToggle="0"              iconFile="Assets/Raids/Spirits.png"                              inGameVisibility="0" mapVisibility="1">
-          <MarkerCategory name="s1"    DisplayName="NW Spirit"/>
-          <MarkerCategory name="s2"    DisplayName="NE Spirit"/>
-          <MarkerCategory name="s3"    DisplayName="SE Spirit"/>
-          <MarkerCategory name="s4"    DisplayName="SW Spirit"/>
+          <MarkerCategory name="s1" DisplayName="NW Spirit"/> <MarkerCategory name="s2" DisplayName="NE Spirit"/> <MarkerCategory name="s3" DisplayName="SE Spirit"/> <MarkerCategory name="s4" DisplayName="SW Spirit"/>
         </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
@@ -80,57 +74,24 @@
       <MarkerCategory     name="c2"    DisplayName="Directions"          color="ffedb8" fadeFar="2750" fadeNear="2250"                                                 rotate-x="90"  mapDisplaySize="30"/>
       <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c4"   DisplayName="Compass">
-        <MarkerCategory   name="sc2"  DisplayName="Enable Compass"                               minimapVisibility="0" mapVisibility="0"/>
-        <MarkerCategory   name="sc3"  DisplayName="Cannons" IsSeparator="1" InGameVisibility="0" minimapVisibility="0" mapVisibility="0">
-          <MarkerCategory name="asc1" DisplayName="All Cannons" defaultToggle="1"/>
-          <MarkerCategory name="asc2" DisplayName="1/3 Cannon"  defaultToggle="0"/>
-          <MarkerCategory name="asc3" DisplayName="2/4 Cannon"  defaultToggle="0"/>
+        <MarkerCategory   name="sc1"  DisplayName="Enable Preview" minimapVisibility="0" mapVisibility="0" tip-description="If enabled, displays a compass&#xA;preview before Sabetha's bridge.&#xA;• The compass switches&#xA;directions every 10 seconds.&#xA;• Allow the next marker to spawn&#xA;to see your custom changes.">
+          <MarkerCategory name="asc1" DisplayName="Welcome Message" tip-description="Displays the initial welcome message."/>
         </MarkerCategory>
-        <MarkerCategory   name="sc4" DisplayName="Display Options" IsSeparator="1" InGameVisibility="0" minimapVisibility="0" mapVisibility="0">
-          <MarkerCategory name="asc1" DisplayName="Countdown"         defaultToggle="1" tip-description="Dynamically displays a countdown to the&#xA;next cannon based on your 'Cannons' selection."/>
-          <MarkerCategory name="asc2" DisplayName="Directions"        defaultToggle="0" tip-description="Displays the direction of the next cannon&#xA;based on your 'Cannons' selection."/>
-          <MarkerCategory name="asc3" DisplayName="Numbers"           defaultToggle="0" tip-description="Displays the number of the next cannon&#xA;based on your 'Cannons' selection.&#xA;The order is as such:&#xA;S/W/N/E/S/N/W/E&#xA;1/2/3/4/1/3/2/4"/>
-          <MarkerCategory name="asc4" DisplayName="Commander Markers" defaultToggle="0">
-            <MarkerCategory name="dir1" DisplayName="South" IsSeparator="1">
-              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="1"/>
-              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="0"/>
-              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="0"/>
-              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
-              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
-              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
-            </MarkerCategory>
-            <MarkerCategory name="dir2"  DisplayName="West" IsSeparator="1">
-              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="1"/>
-              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="0"/>
-              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
-              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
-              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
-            </MarkerCategory>
-            <MarkerCategory name="dir3" DisplayName="North" IsSeparator="1">
-              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="0"/>
-              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="1"/>
-              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="0"/>
-              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
-              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
-              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
-            </MarkerCategory>
-            <MarkerCategory name="dir4"  DisplayName="East" IsSeparator="1">
-              <MarkerCategory name="cmdr1" DisplayName="Arrow"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr2" DisplayName="Circle"   defaultToggle="0"/>
-              <MarkerCategory name="cmdr3" DisplayName="Heart"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr4" DisplayName="Square"   defaultToggle="1"/>
-              <MarkerCategory name="cmdr5" DisplayName="Star"     defaultToggle="0"/>
-              <MarkerCategory name="cmdr6" DisplayName="Swirl"    defaultToggle="0"/>
-              <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/>
-              <MarkerCategory name="cmdr8" DisplayName="X"        defaultToggle="0"/>
-            </MarkerCategory>
+        <MarkerCategory   name="sc2"  DisplayName="Enable Compass"                               minimapVisibility="0" mapVisibility="0" tip-description="If enabled, displays the Sabetha&#xA;Compass while in combat."/>
+        <MarkerCategory   name="sc3"  DisplayName="Cannons" IsSeparator="1" InGameVisibility="0" minimapVisibility="0" mapVisibility="0" tip-description="Options that change when&#xA;compass markers brighten.">
+          <MarkerCategory name="asc1" DisplayName="All Cannons" defaultToggle="1" tip-description="Brightens markers for the&#xA;last 4 seconds for all cannons.&#xA;(XX:55 - XX:51, XX:25 - XX:21)"/>
+          <MarkerCategory name="asc2" DisplayName="1/3 Cannon"  defaultToggle="0" tip-description="Brightens markers for the&#xA;last 6 seconds for 1/3 cannons.&#xA;(XX:57 - XX:51, XX:27 - XX:21)"/>
+          <MarkerCategory name="asc3" DisplayName="2/4 Cannon"  defaultToggle="0" tip-description="Brightens markers for the&#xA;last 6 seconds for 2/4 cannons.&#xA;(XX:57 - XX:51, XX:27 - XX:21)"/>
+        </MarkerCategory>
+        <MarkerCategory   name="sc4" DisplayName="Display Options" IsSeparator="1" InGameVisibility="0" minimapVisibility="0" mapVisibility="0" tip-description="Options that change how&#xA;compass markers are displayed.">
+          <MarkerCategory name="asc1" DisplayName="Countdown"         defaultToggle="1" tip-description="Dynamically displays a&#xA;countdown to the next cannon."/>
+          <MarkerCategory name="asc2" DisplayName="Directions"        defaultToggle="0" tip-description="Displays the direction&#xA;of the next cannon."/>
+          <MarkerCategory name="asc3" DisplayName="Numbers"           defaultToggle="0" tip-description="Displays the number&#xA;for the next cannon."/>
+          <MarkerCategory name="asc4" DisplayName="Commander Markers" defaultToggle="0" tip-description="Displays commander markers&#xA;for the next cannon.">
+            <MarkerCategory name="dir1" DisplayName="South" IsSeparator="1"> <MarkerCategory name="cmdr1" DisplayName="Arrow" defaultToggle="1"/> <MarkerCategory name="cmdr2" DisplayName="Circle" defaultToggle="0"/> <MarkerCategory name="cmdr3" DisplayName="Heart" defaultToggle="0"/> <MarkerCategory name="cmdr4" DisplayName="Square" defaultToggle="0"/> <MarkerCategory name="cmdr5" DisplayName="Star" defaultToggle="0"/> <MarkerCategory name="cmdr6" DisplayName="Swirl" defaultToggle="0"/> <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/> <MarkerCategory name="cmdr8" DisplayName="X" defaultToggle="0"/> </MarkerCategory>
+            <MarkerCategory name="dir2" DisplayName="West"  IsSeparator="1"> <MarkerCategory name="cmdr1" DisplayName="Arrow" defaultToggle="0"/> <MarkerCategory name="cmdr2" DisplayName="Circle" defaultToggle="1"/> <MarkerCategory name="cmdr3" DisplayName="Heart" defaultToggle="0"/> <MarkerCategory name="cmdr4" DisplayName="Square" defaultToggle="0"/> <MarkerCategory name="cmdr5" DisplayName="Star" defaultToggle="0"/> <MarkerCategory name="cmdr6" DisplayName="Swirl" defaultToggle="0"/> <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/> <MarkerCategory name="cmdr8" DisplayName="X" defaultToggle="0"/> </MarkerCategory>
+            <MarkerCategory name="dir3" DisplayName="North" IsSeparator="1"> <MarkerCategory name="cmdr1" DisplayName="Arrow" defaultToggle="0"/> <MarkerCategory name="cmdr2" DisplayName="Circle" defaultToggle="0"/> <MarkerCategory name="cmdr3" DisplayName="Heart" defaultToggle="1"/> <MarkerCategory name="cmdr4" DisplayName="Square" defaultToggle="0"/> <MarkerCategory name="cmdr5" DisplayName="Star" defaultToggle="0"/> <MarkerCategory name="cmdr6" DisplayName="Swirl" defaultToggle="0"/> <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/> <MarkerCategory name="cmdr8" DisplayName="X" defaultToggle="0"/> </MarkerCategory>
+            <MarkerCategory name="dir4" DisplayName="East"  IsSeparator="1"> <MarkerCategory name="cmdr1" DisplayName="Arrow" defaultToggle="0"/> <MarkerCategory name="cmdr2" DisplayName="Circle" defaultToggle="0"/> <MarkerCategory name="cmdr3" DisplayName="Heart" defaultToggle="0"/> <MarkerCategory name="cmdr4" DisplayName="Square" defaultToggle="1"/> <MarkerCategory name="cmdr5" DisplayName="Star" defaultToggle="0"/> <MarkerCategory name="cmdr6" DisplayName="Swirl" defaultToggle="0"/> <MarkerCategory name="cmdr7" DisplayName="Triangle" defaultToggle="0"/> <MarkerCategory name="cmdr8" DisplayName="X" defaultToggle="0"/> </MarkerCategory>
           </MarkerCategory>
         </MarkerCategory>
       </MarkerCategory>
@@ -213,14 +174,19 @@
     <!-- Max Melee -->
     <Trail trailData="Assets/Raids/sab_maxMelee.trl"  animSpeed="0" alpha="0.75"                    type="HMP.W1_B4.c3"                                texture="Assets/Boundary/RedLine.png"/>
     <!-- Compass -->
+    <!-- ========== Preview Markers (S/W/N/E) ========== -->
+    <POI MapID="1062" xpos="-66.78357" ypos="71.77616" zpos="127.4491" GUID="GT3VUKr89U+Msx9YfNJNaw==" type="HMP.W1_B4.c4.sc1"      iconFile="Assets/General/empty.png" ResetLength="10"/>
+    <POI MapID="1062" xpos="-69.28357" ypos="71.77616" zpos="129.9491" GUID="0iY1SSvPvkGoFAIg+avQWg==" type="HMP.W1_B4.c4.sc1"      iconFile="Assets/General/empty.png" ResetLength="10"/>
+    <POI MapID="1062" xpos="-66.78357" ypos="71.77616" zpos="132.4491" GUID="tl98DbdmbUWh8llYRFbpmg==" type="HMP.W1_B4.c4.sc1"      iconFile="Assets/General/empty.png" ResetLength="10"/>
+    <POI MapID="1062" xpos="-64.28357" ypos="71.77616" zpos="129.9491" GUID="8mzJEKwipkagFud8qIUB1Q==" type="HMP.W1_B4.c4.sc1"      iconFile="Assets/General/empty.png" ResetLength="10"/>
+    <POI MapID="1062" xpos="-66.78357" ypos="71.77616" zpos="129.9491" GUID="eCsO398JUk+rc9YbJpR6hw==" type="HMP.W1_B4.c4.sc1.asc1" iconFile="Assets/Raids/W1B4_Preview.png" alpha="0.5" fadeFar="1400" fadeNear="1150" iconSize="1.5" InGameVisibility="1" script-filter="combatFade"/>
+    <POI MapID="1062" xpos="-66.78357" ypos="71.77616" zpos="129.9491" GUID="oqqBdrEeWEyIJ975djVarQ==" type="HMP.W1_B4.c4.sc1.asc1" iconFile="Assets/General/empty.png"      triggerRange="5" script-filter="combatFade" info="Welcome to Sabetha's Cannon Compass!&#xA;&#xA;You're currently looking at a preview version of the compass, which allows you to customize it before the real fight.&#xA;You can do this at the following category: Hero's Pack => Sabetha => Compass. Hover over the categories for more information.&#xA;&#xA;In combat, this compass will follow your character around, only show the relevant direction at a time, and brightens up when it's time to go/throw.&#xA;&#xA;Interact (&quot;F&quot; by default) to hide this message." hide="HMP.W1_B4.c4.sc1.asc1"/>
     <!-- ========== Main Compass Markers ========== -->
     <POI MapID="1062" GUID="YwAr9DYU/EmxPvCyW9u2hA==" type="HMP.W1_B4.c4.sc2"/>
     <POI MapID="1062" GUID="jOsogTI0oEia68VMWeqb9Q==" type="HMP.W1_B4.c4.sc2"/>
     <POI MapID="1062" GUID="lH6MPI5DDEO0AWEE9u2wkA==" type="HMP.W1_B4.c4.sc2"/>
     <POI MapID="1062" GUID="j04Yp6UO2Euwtx7LupQ8CQ==" type="HMP.W1_B4.c4.sc2"/>
-    
     <!-- ========== Category Filler Markers (so the categories show up for the end-user) ========== -->
-    <POI MapID="1062" GUID="GT3VUKr89U+Msx9YfNJNaw==" type="HMP.W1_B4.c4.sc1"                 InGameVisibility="0"/>
     <POI MapID="1062" GUID="UT3VUKr89U+Msx9YfNJNaw==" type="HMP.W1_B4.c4.sc3.asc1"            InGameVisibility="0" iconFile="Assets/General/empty.png"/>
     <POI MapID="1062" GUID="nq3OOYfC20qrfh25xtwV1A==" type="HMP.W1_B4.c4.sc3.asc2"            InGameVisibility="0"/>
     <POI MapID="1062" GUID="Wlk+NWA8cESoWbfsxbQfFg==" type="HMP.W1_B4.c4.sc3.asc3"            InGameVisibility="0"/>
