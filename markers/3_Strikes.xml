@@ -348,6 +348,7 @@
         <MarkerCategory name="asc2" DisplayName="Traps"/>
         <MarkerCategory name="asc3" DisplayName="Necro Marks"/>
       </MarkerCategory>
+      <MarkerCategory   name="sc6"  DisplayName="Hitbox"      alpha="0.9" defaultToggle="0"     heightOffset="-0.05" iconFile="Storage/HalfCircle.png"        iconSize="10.1" rotate="360,0,0.3"/>
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks"                                                          rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
@@ -487,6 +488,8 @@
     <Trail trailData="Assets/Strikes/B10-mineRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc1" texture="Assets/Boundary/RedLine.png"/>
     <Trail trailData="Assets/Strikes/B10-trapRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc2" texture="Assets/Boundary/RedLine.png"/>
     <Trail trailData="Assets/Strikes/B10-markRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc3" texture="Assets/Boundary/RedLine.png"/>
+    <!-- Hitbox -->
+    <POI MapID="1437" xpos="15.555" ypos="391.723" zpos="-554.495" GUID="FfaiH36dw0GWVUTZvtuEVQ==" type="HMP.strikeB10_c1.sc6"/>
     
     <!-- ==================== DRAGONVOID ATACKS ==================== -->
     <!-- Primordus's Jaws of Destruction -->
@@ -1122,13 +1125,13 @@
 <!-- ========================================= THE TEMPLE OF FEBE (CERUS) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="StrB13_c1" DisplayName="Max Melee" minimapVisibility="0" mapVisibility="0"/>
-    <MarkerCategory name="StrB13_c2" DisplayName="Embodiment Positions" iconFile="Assets/General/dot.png" iconSize="1" rotate-x="180">
-      <MarkerCategory name="sc1" DisplayName="Despair"  mapDisplaySize="20" tip-name="Despair"/>
-      <MarkerCategory name="sc2" DisplayName="Envy"     mapDisplaySize="20" tip-name="Envy"/>
-      <MarkerCategory name="sc3" DisplayName="Gluttony" mapDisplaySize="20" tip-name="Gluttony"/>
-      <MarkerCategory name="sc4" DisplayName="Malice"   mapDisplaySize="20" tip-name="Malice"/>
-      <MarkerCategory name="sc5" DisplayName="Rage"     mapDisplaySize="20" tip-name="Rage"/>
-      <MarkerCategory name="sc6" DisplayName="Regret"   mapDisplaySize="20" tip-name="Regret"/>
+    <MarkerCategory name="StrB13_c2" DisplayName="Embodiment Positions" iconFile="Assets/General/dot.png" iconSize="0.75" rotate-x="180" script-filter="combatFade" tip-description="Hover-over these markers&#xA;on the minimap/map to&#xA;know their embodiments.&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start">
+      <MarkerCategory name="sc1" DisplayName="Despair"  mapDisplaySize="15" tip-name="Despair"/>
+      <MarkerCategory name="sc2" DisplayName="Envy"     mapDisplaySize="15" tip-name="Envy"/>
+      <MarkerCategory name="sc3" DisplayName="Gluttony" mapDisplaySize="15" tip-name="Gluttony"/>
+      <MarkerCategory name="sc4" DisplayName="Malice"   mapDisplaySize="15" tip-name="Malice"/>
+      <MarkerCategory name="sc5" DisplayName="Rage"     mapDisplaySize="15" tip-name="Rage"/>
+      <MarkerCategory name="sc6" DisplayName="Regret"   mapDisplaySize="15" tip-name="Regret"/>
     </MarkerCategory>
     <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Assets/Strikes/Slaying/Febe.png" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
   </MarkerCategory>
@@ -1137,12 +1140,12 @@
     <!-- Max Melee -->
     <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" alpha="0.65" animSpeed="0"                  type="HMP.StrB13_c1" texture="Assets/Boundary/RedLine.png"/>
     <!-- Embodiment Positions -->
-    <POI MapID="1520" xpos="-12.494" ypos="177.1"   zpos="-86.695"  GUID="LXEMfrQ0/kqT2zAjwFTGGg==" type="HMP.StrB13_c2.sc1"/>
-    <POI MapID="1520" xpos="9.706"   ypos="177.1"   zpos="-122.673" GUID="erXTteh0DE+Gj7701INu0w==" type="HMP.StrB13_c2.sc2"/>
-    <POI MapID="1520" xpos="-20.545" ypos="177.1"   zpos="-102.980" GUID="9tovlMpwaUuKAJyO6F2KPg==" type="HMP.StrB13_c2.sc3"/>
-    <POI MapID="1520" xpos="-11.331" ypos="177.1"   zpos="-121.739" GUID="XlOqrOrGuk6qtPh/Ln8lGA==" type="HMP.StrB13_c2.sc4"/>
-    <POI MapID="1520" xpos="11.718"  ypos="177.1"   zpos="-85.983"  GUID="u8q+0b/3LUaWiH6JlVsVPQ==" type="HMP.StrB13_c2.sc5"/>
-    <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6"/>
+    <POI MapID="1520" xpos="-12.494" ypos="177.1"   zpos="-86.695"  GUID="LXEMfrQ0/kqT2zAjwFTGGg==" type="HMP.StrB13_c2.sc1" tip-description=""/>
+    <POI MapID="1520" xpos="9.706"   ypos="177.1"   zpos="-122.673" GUID="erXTteh0DE+Gj7701INu0w==" type="HMP.StrB13_c2.sc2" tip-description=""/>
+    <POI MapID="1520" xpos="-20.545" ypos="177.1"   zpos="-102.980" GUID="9tovlMpwaUuKAJyO6F2KPg==" type="HMP.StrB13_c2.sc3" tip-description=""/>
+    <POI MapID="1520" xpos="-11.331" ypos="177.1"   zpos="-121.739" GUID="XlOqrOrGuk6qtPh/Ln8lGA==" type="HMP.StrB13_c2.sc4" tip-description=""/>
+    <POI MapID="1520" xpos="11.718"  ypos="177.1"   zpos="-85.983"  GUID="u8q+0b/3LUaWiH6JlVsVPQ==" type="HMP.StrB13_c2.sc5" tip-description=""/>
+    <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6" tip-description=""/>
     <!-- Slaying -->
     <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"/>
     

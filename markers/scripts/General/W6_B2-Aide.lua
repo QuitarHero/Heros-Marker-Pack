@@ -1,6 +1,6 @@
 HMP.W6B2_Aide = {
   curMarkers = {},
-  previewMarkers = World:CategoryByType("HMPscripts.W6_B2.c0"):GetMarkers(),
+  previewMarkers = World:CategoryByType("HMP.W6_B2.c1.sc0"):GetMarkers(),
   check = { {false, false, false}, {false, false, false} },
   centerPos = { --Nikare P1-3, Kenut P1-3
     I:Vector3(366.862, -82.811, 33.557), I:Vector3(295.256, 39.582, 33.557), I:Vector3(294.817, 125.677, 33.557),
@@ -108,7 +108,7 @@ local function UpdatePreviewIcon()
   local catStates = { {}, {} }
   for i = 1, 2 do
     for k = 1, 3 do
-      table.insert(catStates[i], World:CategoryByType("HMPscripts.W6_B2.c" .. i .. ".sc" .. k):IsVisible())
+      table.insert(catStates[i], World:CategoryByType("HMP.W6_B2.c1.sc" .. i .. ".asc" .. k):IsVisible())
     end
   end
   
@@ -162,13 +162,13 @@ local function Tick_LargosDirections(gameTime)
   --We always check if the user has changed their category preferences, and only update when something's been changed.
   for i = 1, #TL.check do
     for k = 1, #TL.check[i] do
-      if( World:CategoryByType("HMPscripts.W6_B2.c" .. i .. ".sc" .. k):IsVisible() ~= TL.check[i][k]) then
+      if( World:CategoryByType("HMP.W6_B2.c1.sc" .. i .. ".asc" .. k):IsVisible() ~= TL.check[i][k]) then
         UpdatePreviewIcon()
       end
     end
   end
   --We only begin this script when the player is in combat.
-  if( player.IsInCombat and (player.Position - TL.centerPoint):Length() <= 200 and World:CategoryByType("HMPscripts.W6_B2"):IsVisible() ) then
+  if( player.IsInCombat and (player.Position - TL.centerPoint):Length() <= 200 and World:CategoryByType("HMP.W6_B2.c1"):IsVisible() ) then
     for i = 1, #TL.centerPos do
       
       --When the player enters a new platform, we decide what shows.

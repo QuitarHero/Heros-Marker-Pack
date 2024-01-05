@@ -27,7 +27,7 @@ else
   -- ========== Raid Scripts ==========
   if( map == hmpMaps[3][1] ) then Pack:Require(Dir[3] .. "Time") Pack:Require(Dir[1] .. "LAA-Fade") Pack:Require(Dir[1] .. "W6-WeeklyEvent") end
   if( map == hmpMaps[3][2] ) then Pack:Require(Dir[3] .. "Countdown") Pack:Require(Dir[6] .. "W1B4-Compass") end
-  if( map == hmpMaps[3][7] ) then Pack:Require(Dir[3] .. "Time" ) Pack:Require(Dir[1] .. "W6-WeeklyEvent") Pack:Require(Dir[3] .. "Animate") Pack:Require(Dir[1] .. "W6B2-Aide") end
+  if( map == hmpMaps[3][7] ) then Pack:Require(Dir[3] .. "Time" ) Pack:Require(Dir[1] .. "W6-WeeklyEvent") Pack:Require(Dir[3] .. "Animate") Pack:Require(Dir[1] .. "W6_B2-Aide") end
   --if( map == hmpMaps[3][8] ) then Pack:Require(Dir[2] .. "W7B4 - Q2") end
   -- ========== End of Dragons' Strike Scripts ==========
   for i = 1, #hmpMaps[1] do if( map == hmpMaps[1][i] ) then Pack:Require(Dir[3] .. "Time") Pack:Require(Dir[4] .. "EoD Strikes") break end end
