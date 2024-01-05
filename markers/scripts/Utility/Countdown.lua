@@ -9,11 +9,15 @@ Debug:Watch("Countdown Test Variables", HMP.Countdown)
 local cd = HMP.Countdown
 
 --For manual calling and resetting
-function ResetCountdown()
+function ResetCountdown(marker)
   for i = 1, #cd.num do
-    for k = 1, 5 do
-      if(k < 4) then cd.num[i][k] = 0
-      else cd.num[i][k] = nil end
+    if(cd.num[i][4] == marker.Guid) then
+      marker.Texture = cd.num[i][5]
+      for k = 1, 5 do
+        if(k < 4) then cd.num[i][k] = 0
+        else cd.num[i][k] = nil end
+      end
+      break
     end
   end
 end

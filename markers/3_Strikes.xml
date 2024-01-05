@@ -348,7 +348,7 @@
         <MarkerCategory name="asc2" DisplayName="Traps"/>
         <MarkerCategory name="asc3" DisplayName="Necro Marks"/>
       </MarkerCategory>
-      <MarkerCategory   name="sc6"  DisplayName="Hitbox"      alpha="0.9" defaultToggle="0"     heightOffset="-0.05" iconFile="Storage/HalfCircle.png"        iconSize="10.1" rotate="360,0,0.3"/>
+      <MarkerCategory   name="sc6"  DisplayName="Hitbox"      alpha="0.9" defaultToggle="0"     heightOffset="-0.05" iconFile="Assets/Shapes/HalfCircle.png"  iconSize="10.1" rotate="360,0,0.3"/>
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks"                                                          rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>

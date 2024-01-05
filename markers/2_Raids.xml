@@ -557,27 +557,22 @@
         <MarkerCategory name="sc1"   DisplayName="In-Game"                                     fadeFar="3000" fadeNear="2500"                               iconSize="0.75" rotate-x="180" mapVisibility="0" minimapVisibility="0"/>
         <MarkerCategory name="sc2"   DisplayName="Minimap/Map"         defaultToggle="0"                                                                                                   mapDisplaySize="25" inGameVisibility="0"/>
       </MarkerCategory>
-      <!--
-      <MarkerCategory   name="c3"    DisplayName="Max Melee"           alpha="0.75"            fadeFar="275"  fadeNear="225"                                trailScale="1.5"               mapVisibility="0" minimapVisibility="0">
-        <MarkerCategory name="sc1"   DisplayName="Right Arm (Close)"/>
-        <MarkerCategory name="sc2"   DisplayName="Right Arm (Far)"/>
-        <MarkerCategory name="sc3"   DisplayName="Left Arm (Close)"/>
-        <MarkerCategory name="sc4"   DisplayName="Left Arm (Far)"/>
-      </MarkerCategory>
-      -->
     </MarkerCategory>
     <MarkerCategory     name="W6_B2" DisplayName="Twin Largos">
       <MarkerCategory   name="c1"    DisplayName="Directional Aide" MapID="1303" alpha="0.75" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" rotate-x="90" inGameVisibility="0" minimapVisibility="0" mapVisibility="0" tip-description="Only works while in combat.&#xA;Lowers markers on each platform&#xA;based on your display preferences.">
-      <MarkerCategory   name="sc0"   DisplayName="Enable Preview"   InGameVisibility="1"/>
-      <MarkerCategory   name="sc1"   DisplayName="Display Options"  IsSeparator="1">
-        <MarkerCategory name="asc1"  DisplayName="Show Geysers"     tip-description="Only useful for Challenge Mode."/>
-        <MarkerCategory name="asc2"  DisplayName="Show Nikare"/>
-        <MarkerCategory name="asc3"  DisplayName="Show Kenut"/>
-      </MarkerCategory>
-      <MarkerCategory   name="sc2"  DisplayName="Boss Icon Options" IsSeparator="1">
-        <MarkerCategory name="asc1" DisplayName="Icons"/>
-        <MarkerCategory name="asc2" DisplayName="Names"             defaultToggle="0"/>
-        <MarkerCategory name="asc3" DisplayName="Letter"            defaultToggle="0"/>
+        <MarkerCategory   name="sc0"   DisplayName="Enable Preview"   InGameVisibility="1">
+          <MarkerCategory name="asc1"  DisplayName="Welcome Message"  tip-description="Displays the initial welcome message."/>
+        </MarkerCategory>
+        <MarkerCategory   name="sc1"   DisplayName="Display Options"  IsSeparator="1">
+          <MarkerCategory name="asc1"  DisplayName="Show Geysers"     tip-description="Only useful for Challenge Mode."/>
+          <MarkerCategory name="asc2"  DisplayName="Show Nikare"/>
+          <MarkerCategory name="asc3"  DisplayName="Show Kenut"/>
+        </MarkerCategory>
+        <MarkerCategory   name="sc2"  DisplayName="Boss Icon Options" IsSeparator="1">
+          <MarkerCategory name="asc1" DisplayName="Icons"/>
+          <MarkerCategory name="asc2" DisplayName="Names"             defaultToggle="0"/>
+          <MarkerCategory name="asc3" DisplayName="Letter"            defaultToggle="0"/>
+        </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="W6_B3" DisplayName="Qadim">
@@ -619,11 +614,6 @@
     <!-- Minimap/Map Markers -->
     <POI MapID="1303" xpos="-112.686" ypos="50.914" zpos="-281.767"  GUID="mNXeDVUuAkW9oBVEoUD+og==" type="HMP.W6_B1.c2.sc2" iconFile="Assets/Raids/GS.png"                                          tip-name="Swords"/>
     <POI MapID="1303" xpos="-110.686" ypos="50.914" zpos="-375.214"  GUID="XDN1jfzRjES79mlybv0vrg==" type="HMP.W6_B1.c2.sc2" iconFile="Assets/Raids/Shield.png"                                      tip-name="Shields"/>
-    <!-- Max Melee | Rclose, Rfar, Lclose, Lfar
-    <Trail trailData="Assets/Raids/ca_RightClose.trl" animSpeed="0"                                    type="HMP.W6_B1.c3.sc1" texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Raids/ca_RightFar.trl"   animSpeed="0"                                    type="HMP.W6_B1.c3.sc2" texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Raids/ca_LeftClose.trl"  animSpeed="0"                                    type="HMP.W6_B1.c3.sc3" texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Raids/ca_LeftFar.trl"    animSpeed="0"                                    type="HMP.W6_B1.c3.sc4" texture="Assets/Boundary/RedLine.png"/> -->
     <!-- ========== Twin Largos ========== -->
     <!-- Preview Markers -->
     <POI xpos="342.092" ypos="38.808" zpos="-194.793" GUID="3GddgVFyaEucktVKexglxA==" type="HMP.W6_B2.c1.sc0"                                                              rotate="90, 0, 180"/>
@@ -633,6 +623,8 @@
     <POI xpos="342.092" ypos="37.308" zpos="-195.443" GUID="d1RlnxsM9km6y+noSvEaVQ==" type="HMP.W6_B2.c1.sc0" iconFile="Assets/Raids/W6B2/geyser-text.png" iconSize="1.25" rotate="180, 0, 180"/>
     <POI xpos="345.201" ypos="37.308" zpos="-195.458" GUID="AKqZFYBB5UmrdtonnJHggA==" type="HMP.W6_B2.c1.sc0" iconFile="Assets/Raids/W6B2/nikare.png"      iconSize="1.25" rotate="180, 0, 180"/>
     <POI xpos="348.493" ypos="37.308" zpos="-195.474" GUID="qCj7h5wIPUWVR30ppHLgEQ==" type="HMP.W6_B2.c1.sc0" iconFile="Assets/Raids/W6B2/kenut.png"       iconSize="1.25" rotate="180, 0, 180"/>
+    <!-- Welcome Message -->
+    <POI xpos="345.1599" ypos="38.80796" zpos="-196.4543" GUID="5RDZuSwxY025woZfzIxvgQ==" type="HMP.W6_B2.c1.sc0.asc1" iconFile="Assets/General/empty.png" triggerRange="5" info="Welcome to the Twin Largos Aide!&#xA;&#xA;You're currently looking at a display preview for the aide, allowing you to customize it before the real fight.&#xA;You can do this at the following category: Hero's Pack => Twin Largos => Directional Aide.&#xA;&#xA;When arriving on a platform, markers will appear at each edge of the platform that would lead to a geyser and the next largos platform, to help Kenut P1 and geyser navigation.&#xA;&#xA;Interact (&quot;F&quot; by default) to hide this message." hide="HMP.W6_B2.c1.sc0.asc1"/>
     <!-- Nikare P1 -->
     <POI xpos="366.827" ypos="33.25" zpos="-65.704"   GUID="uFMjTyXW3ka5eDy0NoHhxA==" type="HMP.W6_B2.c1"    rotate-z="180"/>
     <POI xpos="347.802" ypos="33.25" zpos="-82.207"   GUID="qH5SvVuOB0m/ZXFAoQNwtw==" type="HMP.W6_B2.c1"    rotate-z="270"/>

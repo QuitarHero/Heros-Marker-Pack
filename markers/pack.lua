@@ -2,7 +2,7 @@ HMP = {}
 HMP.HTcmSim = {}
 HMPphysics = {}
 hmpMaps = {
-  --Arbr, Aeth, XJJ,  Kain, Harv, OLC,   CO,  Febe
+ --Arbr, Aeth, XJJ,  Kain, Harv, OLC,   CO,  Febe
   {1428, 1432, 1450, 1451, 1437, 1485, 1515, 1520},
  --EotN, Shvr, KBro, FoJ,  Bone, WoJ,  CWar
   {1370, 1332, 1346, 1341, 1339, 1359, 1374},
@@ -18,7 +18,7 @@ Dir = { "scripts/General/", "scripts/Educational/", "scripts/Utility/",
 
 --Info Category Loading
 for i = 1, #hmpMaps do for k = 1, #hmpMaps[i] do if( Mumble.CurrentMap.Id == hmpMaps[i][k] ) then Pack:Require(Dir[1] .. "MenuInfo") break end end end
-  
+
 if(not Mumble.IsAvailable) then Debug:Error("Hero's Pack: Mumble API unavailable, script load aborted.")
 elseif( not HMP_GetBool("PackScriptToggle") ) then Debug:Error("Hero's Pack: Main Script loading aborted on user preference.")
 else

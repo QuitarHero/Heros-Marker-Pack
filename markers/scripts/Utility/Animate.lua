@@ -34,6 +34,10 @@ HMPphysics.animate = {
     marker:SetPosZ(minHeight + ((maxHeight-minHeight) * ((startTime-gameTime) / duration)))
   end,
   
+  Descend = function(gameTime, startTime, duration, maxHeight, minHeight, marker)
+    marker:SetPosZ(maxHeight - ( (startTime-gameTime) * (minHeight-maxHeight) ) / duration )
+  end,
+  
   --Moves a marker from 'startVector' to 'endVector' over 'duration'
   --Type: '1' is static height, '2' is 90 degree, '3' is 180 degree with peak
   MoveMarker = function(startVector, endVector, duration, time, type, peak)
