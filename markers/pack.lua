@@ -16,6 +16,9 @@ hmpMaps = {
 Dir = { "scripts/General/", "scripts/Educational/", "scripts/Utility/",
   "scripts/Schedule/", "scripts/Simulation/", "scripts/Compass/" }
 
+--We're forced to load this script, else the script console errors out
+--due to the, "PackScriptToggle" check below.
+Pack:Require(Dir[3] .. "Storage")
 --Info Category Loading
 for i = 1, #hmpMaps do for k = 1, #hmpMaps[i] do if( Mumble.CurrentMap.Id == hmpMaps[i][k] ) then Pack:Require(Dir[1] .. "MenuInfo") break end end end
 
