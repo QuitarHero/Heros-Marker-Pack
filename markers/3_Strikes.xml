@@ -352,7 +352,7 @@
     </MarkerCategory>
     <MarkerCategory     name="strikeB10_c2" DisplayName="Dragonvoid Attacks"                                                          rotate-x="180" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="prim1"  DisplayName="Primordus's Jaws of Destruction" color="de8912" defaultToggle="0" iconSize="38.15" rotate="0,0,-0.65"/>
-      <MarkerCategory   name="prim2"  DisplayName="Primordus's Lava Slam"           color="de8912" defaultToggle="0" iconSize="15.27" tip-description="This circle is just slightly&#xA;larger than the one in-game."/>
+      <MarkerCategory   name="prim2"  DisplayName="Primordus's Lava Slam"           color="edc49d" defaultToggle="0"                  tip-description="This circle is just slightly&#xA;larger than the one in-game."/>
       <MarkerCategory   name="kralk1" DisplayName="Kralkatorrik's Branded Beams"                   defaultToggle="0">
         <MarkerCategory name="sb1"    DisplayName="Side Beam Indicators"            color="de8912"                   iconSize="37.75"/>
         <MarkerCategory name="sb2"    DisplayName="Side Beam AoE's"                 alpha="1"      defaultToggle="0" iconSize="9.15"/>
@@ -496,8 +496,8 @@
     <POI MapID="1437" xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="HMP=STRIKEB10=C2=PRIM1"      type="HMP.strikeB10_c2.prim1"      iconFile="Assets/Shapes/D2-JoD-Orb9.png"/>
     <POI MapID="1437" xpos="15.012"  ypos="390.123" zpos="-547.342" GUID="HMP=STRIKEB10=C2=PRIM1"      type="HMP.strikeB10_c2.prim1"      iconFile="Assets/Shapes/D2-JoD-Fill.png"    alpha="0.15"/>
     <!-- Primordus's Lava Slam -->
-    <POI MapID="1437" xpos="14.375"  ypos="390.113" zpos="-543.570" GUID="HMP=STRIKEB10=C2=PRIM2"      type="HMP.strikeB10_c2.prim2"      iconFile="Assets/Shapes/Orb5.png"/>
-    <POI MapID="1437" xpos="14.375"  ypos="390.113" zpos="-543.570" GUID="HMP=STRIKEB10=C2=PRIM2"      type="HMP.strikeB10_c2.prim2"      iconFile="Assets/Shapes/CircleFill.png"     alpha="0.15"/>
+    <POI MapID="1437" xpos="14.374"  ypos="390.123" zpos="-543.568" GUID="aQV/ZLlGtUuB7XkYJvijWg=="    type="HMP.strikeB10_c2.prim2"      iconFile="Assets/Shapes/Deadly AoE.png"     alpha="0.85" iconSize="16.765" rotate-z="-10.55"/>
+    <POI MapID="1437" xpos="14.374"  ypos="390.123" zpos="-543.568" GUID="0S/KQ63PFUWN5ISYpacLbQ=="    type="HMP.strikeB10_c2.prim2"      iconFile="Assets/Shapes/CircleFill.png"     alpha="0.35" iconSize="15"/>
     <!-- Kralkatorrik's Side Beam Indicators-->
     <POI MapID="1437" xpos="1.6525"  ypos="390.113" zpos="-518.258" GUID="HMP=STRIKEB10=C2=KRALK1=SB1" type="HMP.strikeB10_c2.kralk1.sb1" iconFile="Assets/Shapes/D3-Fill1.png"       alpha="0.2" rotate-z="90"/>
     <POI MapID="1437" xpos="1.6525"  ypos="390.113" zpos="-518.258" GUID="HMP=STRIKEB10=C2=KRALK1=SB1" type="HMP.strikeB10_c2.kralk1.sb1" iconFile="Assets/Shapes/D3-Border1.png"     alpha="1"   rotate-z="90"/>

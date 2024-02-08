@@ -40,7 +40,7 @@ local function Tick_Primordus_SafeSpot(gameTime)
     else
       SS.marker.Tint = SS.color[3]
     end
-  elseif( ( player.Position - SS.marker.Position ):Length() <= SS.marker.Size + 0.1) then
+  elseif( ( player.Position - SS.marker.Position ):Length() <= SS.marker.Size + 0.05) then
     SS.marker.Tint = SS.color[2]
   end
   
