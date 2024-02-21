@@ -26,16 +26,18 @@ HMP.dailyIbsMarkers = {
   B6_1 = World:MarkerByGuid("NGZx8ebqxkuDjn1KTqkzGQ==")
 }
 
+local cycle, markers = HMP.dailyCycle, HMP.dailyIbsMarkers
+
 function SetIBSDaily()
-  local remain, currentMap = HMPtime.GetUtcTime(6, 0), Mumble.CurrentMap.Id
+  local remain, currentMap = HMPtime.GetUtcTime(6), Mumble.CurrentMap.Id
   --Easy access to time markers
-  local noDaily, yesDaily, nextDaily = HMP.dailyCycle.incompleteDaily, HMP.dailyCycle.completeDaily, HMP.dailyCycle.upcomingDaily
+  local noDaily, yesDaily, nextDaily = cycle.incompleteDaily, cycle.completeDaily, cycle.upcomingDaily
   if(currentMap == 1370) then
-    HMP.dailyCycle.titleDaily:SetTexture("Assets/Strikes/Track/daily-title.png")
-    HMP.dailyCycle.titleReset:SetTexture("Assets/Strikes/Track/reset-title.png")
-    HMP.dailyCycle.incompleteBorder:SetTexture("Assets/General/dot-border.png")
-    HMP.dailyCycle.completeBorder:SetTexture("Assets/General/dot-border.png")
-    HMP.dailyCycle.resetBorder:SetTexture("Assets/General/dot-border.png")
+    cycle.titleDaily:SetTexture("Assets/Strikes/Track/daily-title.png")
+    cycle.titleReset:SetTexture("Assets/Strikes/Track/reset-title.png")
+    cycle.incompleteBorder:SetTexture("Assets/General/dot-border.png")
+    cycle.completeBorder:SetTexture("Assets/General/dot-border.png")
+    cycle.resetBorder:SetTexture("Assets/General/dot-border.png")
   end
   --Boneskinner Daily
   if(remain == 0) then
@@ -77,52 +79,53 @@ end
 
 local function tick_ibsStrikeSch(gameTime)
   --Time Variables
-  local remain, currentMap = HMPtime.GetUtcTime(6, 0), Mumble.CurrentMap.Id
+  local remain, currentMap = HMPtime.GetUtcTime(6), Mumble.CurrentMap.Id
+  
   --Boneskinner Daily
   if(remain == 0 and currentMap == 1339) then
-    HMP.dailyIbsMarkers.B4_1.InGameVisibility = true
-    HMP.dailyIbsMarkers.B4_1.TriggerRange     = 3.7
-    HMP.dailyIbsMarkers.B4_2.InGameVisibility = true
-    HMP.dailyIbsMarkers.B4_2.TriggerRange     = 4.9
-    HMP.dailyIbsMarkers.B4_3.InGameVisibility = true
-    HMP.dailyIbsMarkers.B4_3.TriggerRange     = 4.75
+    markers.B4_1.InGameVisibility = true
+    markers.B4_1.TriggerRange     = 3.7
+    markers.B4_2.InGameVisibility = true
+    markers.B4_2.TriggerRange     = 4.9
+    markers.B4_3.InGameVisibility = true
+    markers.B4_3.TriggerRange     = 4.75
   end
   --Cold War Daily
   if(remain == 1 and currentMap == 1374) then
-    HMP.dailyIbsMarkers.B6_1.InGameVisibility = true
-    HMP.dailyIbsMarkers.B6_1.TriggerRange     = 6.35
+    markers.B6_1.InGameVisibility = true
+    markers.B6_1.TriggerRange     = 6.35
   end
   --Fraenir of Jormag Daily
   if(remain == 2 and currentMap == 1341) then
-    HMP.dailyIbsMarkers.B3_1.InGameVisibility = true
-    HMP.dailyIbsMarkers.B3_1.TriggerRange     = 3.7
-    HMP.dailyIbsMarkers.B3_2.InGameVisibility = true
-    HMP.dailyIbsMarkers.B3_2.TriggerRange     = 4.9
-    HMP.dailyIbsMarkers.B3_3.InGameVisibility = true
-    HMP.dailyIbsMarkers.B3_3.TriggerRange     = 4.75
+    markers.B3_1.InGameVisibility = true
+    markers.B3_1.TriggerRange     = 3.7
+    markers.B3_2.InGameVisibility = true
+    markers.B3_2.TriggerRange     = 4.9
+    markers.B3_3.InGameVisibility = true
+    markers.B3_3.TriggerRange     = 4.75
   end
   --Icebrood Construct Daily
   if(remain == 3 and currentMap == 1332) then
-    HMP.dailyIbsMarkers.B1_1.InGameVisibility = true
-    HMP.dailyIbsMarkers.B1_1.TriggerRange     = 25
+    markers.B1_1.InGameVisibility = true
+    markers.B1_1.TriggerRange     = 25
   end
   --Kodan Brothers Daily
   if(remain == 4 and currentMap == 1346) then
-    HMP.dailyIbsMarkers.B2_1.InGameVisibility = true
-    HMP.dailyIbsMarkers.B2_1.TriggerRange     = 3.7
-    HMP.dailyIbsMarkers.B2_2.InGameVisibility = true
-    HMP.dailyIbsMarkers.B2_2.TriggerRange     = 4.9
-    HMP.dailyIbsMarkers.B2_3.InGameVisibility = true
-    HMP.dailyIbsMarkers.B2_3.TriggerRange     = 4.75
+    markers.B2_1.InGameVisibility = true
+    markers.B2_1.TriggerRange     = 3.7
+    markers.B2_2.InGameVisibility = true
+    markers.B2_2.TriggerRange     = 4.9
+    markers.B2_3.InGameVisibility = true
+    markers.B2_3.TriggerRange     = 4.75
   end
   --Whisper of Jormag Daily
   if(remain == 5 and currentMap == 1359) then
-    HMP.dailyIbsMarkers.B5_1.InGameVisibility = true
-    HMP.dailyIbsMarkers.B5_1.TriggerRange     = 3.7
-    HMP.dailyIbsMarkers.B5_2.InGameVisibility = true
-    HMP.dailyIbsMarkers.B5_2.TriggerRange     = 4.9
-    HMP.dailyIbsMarkers.B5_3.InGameVisibility = true
-    HMP.dailyIbsMarkers.B5_3.TriggerRange     = 4.75
+    markers.B5_1.InGameVisibility = true
+    markers.B5_1.TriggerRange     = 3.7
+    markers.B5_2.InGameVisibility = true
+    markers.B5_2.TriggerRange     = 4.9
+    markers.B5_3.InGameVisibility = true
+    markers.B5_3.TriggerRange     = 4.75
   end
 end
 

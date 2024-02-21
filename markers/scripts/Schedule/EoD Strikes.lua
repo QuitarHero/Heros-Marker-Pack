@@ -35,6 +35,8 @@ HMP.EodMiscMarkers = {
   weeklyTitle = World:MarkerByGuid("fP+Ru6kS8E+xlLqR810Tjg==")
 }
 
+local cycle, markers, misc = HMP.dailyCycle, HMP.dailyEodMarkers, HMP.EodMiscMarkers
+
 --Removes the Weekly Clear text if the feature is turned off
 function removeEoDWeeklyTitle(marker)
   if(World:CategoryByType("HMP.strikeT.c8"):IsVisible() or World:CategoryByType("HMP.strikeT.c9"):IsVisible()) then
@@ -47,60 +49,60 @@ end
 --Moves the Daily markers down when the Weekly Tracking Feature is turned off
 function moveDailyMarkers()
   --Incomplete Daily
-  HMP.dailyCycle.incompleteDaily:SetPosZ(-1.450)
-  HMP.dailyCycle.incompleteBorder:SetPosZ(-1.450)
+  cycle.incompleteDaily:SetPosZ(-1.450)
+  cycle.incompleteBorder:SetPosZ(-1.450)
   --Complete Daily
-  HMP.dailyCycle.completeDaily:SetPosZ(-1.450)
-  HMP.dailyCycle.completeBorder:SetPosZ(-1.450)
+  cycle.completeDaily:SetPosZ(-1.450)
+  cycle.completeBorder:SetPosZ(-1.450)
   --Both Daily
-  HMP.dailyCycle.textOfDaily:SetPosZ(12.55)
-  HMP.dailyCycle.textOfDailyTime:SetPosZ(11.45)
-  HMP.dailyCycle.titleDaily:SetPosZ(13.8)
+  cycle.textOfDaily:SetPosZ(12.55)
+  cycle.textOfDailyTime:SetPosZ(11.45)
+  cycle.titleDaily:SetPosZ(13.8)
   --Reset Daily
-  HMP.dailyCycle.textOfNextDaily:SetPosZ(12.55)
-  HMP.dailyCycle.upcomingDaily:SetPosZ(-1.450)
-  HMP.dailyCycle.textOfResetTime:SetPosZ(11.45)
-  HMP.dailyCycle.resetBorder:SetPosZ(-1.450)
-  HMP.dailyCycle.titleReset:SetPosZ(13.8)
+  cycle.textOfNextDaily:SetPosZ(12.55)
+  cycle.upcomingDaily:SetPosZ(-1.450)
+  cycle.textOfResetTime:SetPosZ(11.45)
+  cycle.resetBorder:SetPosZ(-1.450)
+  cycle.titleReset:SetPosZ(13.8)
 end
 
 --Moves the Daily markers back up when the Weekly Tracking Feature is turned back on
 function returnDailyMarkers()
   --Incomplete Daily
-  HMP.dailyCycle.incompleteDaily:SetPosZ(2.450)
-  HMP.dailyCycle.incompleteBorder:SetPosZ(2.450)
+  cycle.incompleteDaily:SetPosZ(2.450)
+  cycle.incompleteBorder:SetPosZ(2.450)
   --Complete Daily
-  HMP.dailyCycle.completeDaily:SetPosZ(2.450)
-  HMP.dailyCycle.completeBorder:SetPosZ(2.450)
+  cycle.completeDaily:SetPosZ(2.450)
+  cycle.completeBorder:SetPosZ(2.450)
   --Both Daily
-  HMP.dailyCycle.textOfDaily:SetPosZ(16.45)
-  HMP.dailyCycle.textOfDailyTime:SetPosZ(15.35)
-  HMP.dailyCycle.titleDaily:SetPosZ(17.7)
+  cycle.textOfDaily:SetPosZ(16.45)
+  cycle.textOfDailyTime:SetPosZ(15.35)
+  cycle.titleDaily:SetPosZ(17.7)
   --Reset Daily
-  HMP.dailyCycle.textOfNextDaily:SetPosZ(16.45)
-  HMP.dailyCycle.upcomingDaily:SetPosZ(2.450)
-  HMP.dailyCycle.textOfResetTime:SetPosZ(15.35)
-  HMP.dailyCycle.resetBorder:SetPosZ(2.450)
-  HMP.dailyCycle.titleReset:SetPosZ(17.7)
+  cycle.textOfNextDaily:SetPosZ(16.45)
+  cycle.upcomingDaily:SetPosZ(2.450)
+  cycle.textOfResetTime:SetPosZ(15.35)
+  cycle.resetBorder:SetPosZ(2.450)
+  cycle.titleReset:SetPosZ(17.7)
 end
 
 function SetEOD_StrikeTextures()
-  local remain, currentMap = HMPtime.GetUtcTime(5, 0), Mumble.CurrentMap.Id
+  local remain, currentMap = HMPtime.GetUtcTime(5), Mumble.CurrentMap.Id
   --Easy access to time markers
-  local noDaily, yesDaily, nextDaily = HMP.dailyCycle.incompleteDaily, HMP.dailyCycle.completeDaily, HMP.dailyCycle.upcomingDaily
-  local curText, nextText, dailyTimeText, resetTimeText = HMP.dailyCycle.textOfDaily, HMP.dailyCycle.textOfNextDaily, HMP.dailyCycle.textOfDailyTime, HMP.dailyCycle.textOfResetTime
+  local noDaily, yesDaily, nextDaily = cycle.incompleteDaily, cycle.completeDaily, cycle.upcomingDaily
+  local curText, nextText, dailyTimeText, resetTimeText = cycle.textOfDaily, cycle.textOfNextDaily, cycle.textOfDailyTime, cycle.textOfResetTime
   
   --Giving textures to daily-specific Arborstone markers so the feature is a full on/off if scripts are enabled or disabled
   if(currentMap == 1428) then
-    HMP.dailyCycle.titleDaily:SetTexture("Assets/Strikes/Track/daily-title.png")
-    HMP.dailyCycle.titleReset:SetTexture("Assets/Strikes/Track/reset-title.png")
-    HMP.dailyCycle.incompleteBorder:SetTexture("Assets/General/dot-border.png")
-    HMP.dailyCycle.completeBorder:SetTexture("Assets/General/dot-border.png")
-    HMP.dailyCycle.resetBorder:SetTexture("Assets/General/dot-border.png")
+    cycle.titleDaily:SetTexture("Assets/Strikes/Track/daily-title.png")
+    cycle.titleReset:SetTexture("Assets/Strikes/Track/reset-title.png")
+    cycle.incompleteBorder:SetTexture("Assets/General/dot-border.png")
+    cycle.completeBorder:SetTexture("Assets/General/dot-border.png")
+    cycle.resetBorder:SetTexture("Assets/General/dot-border.png")
   end
   
   --Kaineng Overlook Daily
-  if(remain == 4) then
+  if(remain == 5) then
     noDaily:SetTexture("Assets/Strikes/Track/B9g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B9c.png")
     curText:SetTexture("Assets/Strikes/Track/B9-text.png")
@@ -110,7 +112,7 @@ function SetEOD_StrikeTextures()
     resetTimeText:SetTexture("Assets/Strikes/Track/always-night.png")
   end
   --Harvest Temple Daily
-  if(remain == 0) then
+  if(remain == 1) then
     noDaily:SetTexture("Assets/Strikes/Track/B10g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B10c.png")
     curText:SetTexture("Assets/Strikes/Track/B10-text.png")
@@ -120,7 +122,7 @@ function SetEOD_StrikeTextures()
     resetTimeText:SetTexture("Assets/Strikes/Track/tyrian-night.png")
   end
   --Old Lion's Court Daily
-  if(remain == 1) then
+  if(remain == 2) then
     noDaily:SetTexture("Assets/Strikes/Track/B11g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B11c.png")
     curText:SetTexture("Assets/Strikes/Track/B11-text.png")
@@ -130,7 +132,7 @@ function SetEOD_StrikeTextures()
     resetTimeText:SetTexture("Assets/Strikes/Track/always-day.png")
   end
   --Aetherblade Hideout Daily
-  if(remain == 2) then
+  if(remain == 3) then
     noDaily:SetTexture("Assets/Strikes/Track/B7g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B7c.png")
     curText:SetTexture("Assets/Strikes/Track/B7-text.png")
@@ -140,7 +142,7 @@ function SetEOD_StrikeTextures()
     resetTimeText:SetTexture("Assets/Strikes/Track/canthan-night.png")
   end
   --Xunlai Jade Junkyard Daily
-  if(remain == 3) then
+  if(remain == 4) then
     noDaily:SetTexture("Assets/Strikes/Track/B8g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B8c.png")
     curText:SetTexture("Assets/Strikes/Track/B8-text.png")
@@ -152,42 +154,42 @@ function SetEOD_StrikeTextures()
 end
 
 local function tick_eodStrikeSch(gameTime)
-  local remain, currentMap = HMPtime.GetUtcTime(5, 0), Mumble.CurrentMap.Id
+  local remain, currentMap = HMPtime.GetUtcTime(5), Mumble.CurrentMap.Id
   
   --Kaineng Overlook Daily
-  if(remain == 4 and currentMap == 1451) then
-    HMP.dailyEodMarkers.B9_1.InGameVisibility = true
-    HMP.dailyEodMarkers.B9_2.InGameVisibility = true
-    HMP.dailyEodMarkers.B9_3.InGameVisibility = true
-    HMP.dailyEodMarkers.B9_3.TriggerRange     = 3
+  if(remain == 5 and currentMap == 1451) then
+    markers.B9_1.InGameVisibility = true
+    markers.B9_2.InGameVisibility = true
+    markers.B9_3.InGameVisibility = true
+    markers.B9_3.TriggerRange     = 3
   end
   --Harvest Temple Daily
-  if(remain == 0 and currentMap == 1437) then
-    HMP.dailyEodMarkers.B10_1.InGameVisibility = true
-    HMP.dailyEodMarkers.B10_2.InGameVisibility = true
-    HMP.dailyEodMarkers.B10_3.InGameVisibility = true
-    HMP.dailyEodMarkers.B10_3.TriggerRange     = 4
+  if(remain == 1 and currentMap == 1437) then
+    markers.B10_1.InGameVisibility = true
+    markers.B10_2.InGameVisibility = true
+    markers.B10_3.InGameVisibility = true
+    markers.B10_3.TriggerRange     = 4
   end
   --Old Lion's Court Daily
-  if(remain == 1 and currentMap == 1485) then
-    HMP.dailyEodMarkers.B11_1.InGameVisibility = true
-    HMP.dailyEodMarkers.B11_2.InGameVisibility = true
-    HMP.dailyEodMarkers.B11_3.InGameVisibility = true
-    HMP.dailyEodMarkers.B11_3.TriggerRange     = 4
+  if(remain == 2 and currentMap == 1485) then
+    markers.B11_1.InGameVisibility = true
+    markers.B11_2.InGameVisibility = true
+    markers.B11_3.InGameVisibility = true
+    markers.B11_3.TriggerRange     = 4
   end
   --Aetherblade Hideout Daily
-  if(remain == 2 and currentMap == 1432) then
-    HMP.dailyEodMarkers.B7_1.InGameVisibility = true
-    HMP.dailyEodMarkers.B7_2.InGameVisibility = true
-    HMP.dailyEodMarkers.B7_3.InGameVisibility = true
-    HMP.dailyEodMarkers.B7_3.TriggerRange     = 3
+  if(remain == 3 and currentMap == 1432) then
+    markers.B7_1.InGameVisibility = true
+    markers.B7_2.InGameVisibility = true
+    markers.B7_3.InGameVisibility = true
+    markers.B7_3.TriggerRange     = 3
   end
   --Xunlai Jade Junkyard Daily
-  if(remain == 3 and currentMap == 1450) then
-    HMP.dailyEodMarkers.B8_1.InGameVisibility = true
-    HMP.dailyEodMarkers.B8_2.InGameVisibility = true
-    HMP.dailyEodMarkers.B8_3.InGameVisibility = true
-    HMP.dailyEodMarkers.B8_3.TriggerRange     = 4
+  if(remain == 4 and currentMap == 1450) then
+    markers.B8_1.InGameVisibility = true
+    markers.B8_2.InGameVisibility = true
+    markers.B8_3.InGameVisibility = true
+    markers.B8_3.TriggerRange     = 4
   end
   
   if(currentMap == 1428 and World:CategoryByType("HMP.strikeT.c8"):IsVisible() == false and World:CategoryByType("HMP.strikeT.c9"):IsVisible() == false) then

@@ -10,7 +10,7 @@ function weeklyW6Event()
       text = World:MarkerByGuid("DpbZ61s3rECdYVslcrYx4Q==")
     }
     --Decide what shows based on week
-    if(remain > 2 and remain < 10) then
+    if(remain >= 4 and remain <= 10) then
       HMP.weeklyW6Event.text:SetTexture("Assets/Raids/w6-megapets.png")
     else
       HMP.weeklyW6Event.text:SetTexture("Assets/Raids/w6-ectoplasms.png")
@@ -34,7 +34,7 @@ function weeklyW6Event()
       ectoArrow3 = World:MarkerByGuid("P74oTRMlAEuJ+wHzd2JGEQ==")
     }
     --Decide what shows based on week
-    if(remain > 2 and remain < 10) then
+    if(remain >= 4 and remain <= 10) then
       HMP.weeklyW6Event.megaText1:SetTexture("Assets/Raids/w6-megapets.png")
       HMP.weeklyW6Event.megaText2:SetTexture("Assets/Raids/w6-megapets.png")
       HMP.weeklyW6Event.megaArrow1:SetTexture("Assets/General/ArrowG.png")
