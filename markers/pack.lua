@@ -27,6 +27,8 @@ elseif( not HMP_GetBool("PackScriptToggle") ) then Debug:Error("Hero's Pack: Mai
 else
   local map = Mumble.CurrentMap.Id
   
+  -- ========== Fractal Scripts ==========
+  for i = 1, #hmpMaps[4] do if( map == hmpMaps[4][i] ) then Pack:Require(Dir[1] .. "Fractal_Slaying.lua") break end end
   -- ========== Raid Scripts ==========
   if( map == hmpMaps[3][1] ) then Pack:Require(Dir[3] .. "Time") Pack:Require(Dir[1] .. "LAA-Fade") Pack:Require(Dir[1] .. "W6-WeeklyEvent") end
   if( map == hmpMaps[3][2] ) then Pack:Require(Dir[3] .. "Countdown") Pack:Require(Dir[6] .. "W1B4-Compass") end

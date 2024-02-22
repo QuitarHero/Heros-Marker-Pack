@@ -7,8 +7,8 @@
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory   name="F_AB_c1" DisplayName="Electric Skip" cull="CounterClockwise" fadeFar="850"  fadeNear="600"                                       iconSize="0.55"                    mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_AB_sy" DisplayName="Slaying"                                                                                                                                      mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"         cull="CounterClockwise" fadeFar="750"  fadeNear="500" iconFile="Assets/Fracs/Slaying/AB1.png" iconSize="1.5"  rotate="105,0,50"  tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Last Room"     cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/AB2.png" iconSize="1.75" rotate="90,45,175" tip-description="Potion: Inquest&#xA;Sigils: Force, Mad Sct"/>
+      <MarkerCategory name="s1"      DisplayName="Start"         cull="CounterClockwise" fadeFar="750"  fadeNear="500" iconFile="Assets/Fracs/Slaying/AB1.png" iconSize="1.5"  rotate="105,0,50"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Last Room"     cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/AB2.png" iconSize="1.75" rotate="90,45,175" tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -28,7 +28,7 @@
   
 <!-- ======================================== AQUATIC RUINS ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_AR_sy" DisplayName="Slaying"     fadeFar="750" fadeNear="500" iconFile="Assets/Fracs/Slaying/AR1.png" iconSize="1.5" rotate="110,0,-46" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Scarlet&#xA;Sigils: Force, Serpent"/>
+    <MarkerCategory name="F_AR_sy" DisplayName="Slaying"     fadeFar="750" fadeNear="500" iconFile="Assets/Fracs/Slaying/AR1.png" iconSize="1.5" rotate="110,0,-46" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
@@ -38,7 +38,7 @@
   
 <!-- ======================================== CAPTAIN MAI TRIN ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="F_CMT_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Assets/Fracs/Slaying/CMT1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_CMT_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Assets/Fracs/Slaying/CMT1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
@@ -48,7 +48,7 @@
   
 <!-- ======================================== CHAOS ISLES ============================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_CI_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Assets/Fracs/Slaying/CI1.png" iconSize="1.75" rotate="120,-4,71" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_CI_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Assets/Fracs/Slaying/CI1.png" iconSize="1.75" rotate="120,-4,71" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
@@ -62,7 +62,7 @@
     <MarkerCategory name="F_CS_c2" DisplayName="Wind Skip"        cull="CounterClockwise" fadeFar="1250" fadeNear="1000"                                                                       mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_CS_c3" DisplayName="Chest Speed Skip"                                                                                                           rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_CS_c4" DisplayName="Boss Skip"                                                                                                                                     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_CS_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/CS1.png" iconSize="2" rotate="130,0,190" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Outlaw&#xA;Sigils: Force, Justice"/>
+    <MarkerCategory name="F_CS_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/CS1.png" iconSize="2" rotate="130,0,190" mapVisibility="0" minimapVisibility="0" tip-description="• Outlaw&#xA;• Force&#xA;• Justice"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Initial Speed Skip ========== -->
@@ -124,7 +124,7 @@
   
 <!-- ======================================== DEEPSTONE ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_DS_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="900" fadeNear="650" iconFile="Assets/Fracs/Slaying/DS1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_DS_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="900" fadeNear="650" iconFile="Assets/Fracs/Slaying/DS1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
@@ -152,7 +152,7 @@
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_MB_c1" DisplayName="Close Tele Skip"                                                                                             iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_MB_c2" DisplayName="Far Tele Skip"                                                                                               iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_MB_sy" DisplayName="Slaying"         cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/MB1.png" iconSize="1.75" rotate="90,0,46" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_MB_sy" DisplayName="Slaying"         cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/MB1.png" iconSize="1.75" rotate="90,0,46" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Portals ========== -->
@@ -177,8 +177,8 @@
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory   name="F_MF_c2" DisplayName="Dredge Spawns"   alpha="0.9" color="944131" fadeFar="1500" fadeNear="1000" iconFile="Assets/General/dot.png"       iconSize="0.35" rotate="180,0,0"   mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_MF_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                            mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"                                      fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/MF1.png" iconSize="1.75" rotate="110,0,20"  tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Weapons Testing"                            fadeFar="1400" fadeNear="1250" iconFile="Assets/Fracs/Slaying/MF2.png" iconSize="1.6"  rotate="100,0,180" tip-description="Potion: Dredge&#xA;Sigils: Force, Sorrow"/>
+      <MarkerCategory name="s1"      DisplayName="Start"                                      fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/MF1.png" iconSize="1.75" rotate="110,0,20"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Weapons Testing"                            fadeFar="1400" fadeNear="1250" iconFile="Assets/Fracs/Slaying/MF2.png" iconSize="1.6"  rotate="100,0,180" tip-description="• Dredge&#xA;• Force&#xA;• Sorrow"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -200,10 +200,10 @@
     <MarkerCategory   name="F_NM_c3" DisplayName="Ensolyss' Orbs"  alpha="0.6"                 cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/Fracs/ball.png"        iconSize="0.5"  rotate="180,0,0"  mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_NM_c4" DisplayName="North"                        color="669468" cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/General/n.png"         iconSize="1"    rotate="90,0,180"/>
     <MarkerCategory   name="F_NM_sy" DisplayName="Slaying"                                     cull="CounterClockwise"                                                                      iconSize="1.6"                    mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050" iconFile="Assets/Fracs/Slaying/NM1.png"                 rotate="90,0,25"  tip-description="Potion - Scarlet&#xA;Sigils - Force, Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/NM2.png"                 rotate="90,-8,25" tip-description="Potion - Scarlet&#xA;Sigils - Force, Serpent"/>
-      <MarkerCategory name="s3"      DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/NM3.png"                 rotate="80,0,260" tip-description="Potion - Scarlet&#xA;Sigils - Force, Serpent"/>
-      <MarkerCategory name="s4"      DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"  iconFile="Assets/Fracs/Slaying/NM4.png"                 rotate="95,0,90"  tip-description="Potion - Scarlet&#xA;Sigils - Force, Serpent"/>
+      <MarkerCategory name="s1"      DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050" iconFile="Assets/Fracs/Slaying/NM1.png"                 rotate="90,0,25"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/NM2.png"                 rotate="90,-8,25" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+      <MarkerCategory name="s3"      DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/NM3.png"                 rotate="80,0,260" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+      <MarkerCategory name="s4"      DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"  iconFile="Assets/Fracs/Slaying/NM4.png"                 rotate="95,0,90"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -238,9 +238,9 @@
     <MarkerCategory   name="F_ShO_c1" DisplayName="Viirastra Skip"                                                                                                                iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_ShO_c2" DisplayName="Arkk Directions" color="c4ac54" cull="CounterClockwise" fadeFar="3000" fadeNear="2750"                                                        rotate-x="90"/>
     <MarkerCategory   name="F_ShO_sy" DisplayName="Slaying"                        cull="CounterClockwise"                                                                                                           mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"       DisplayName="Skorvald"                                               fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/ShO1.png" iconSize="1.25" rotate="165,15,290" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
-      <MarkerCategory name="s2"       DisplayName="Artsariiv"                                              fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Slaying/ShO2.png" iconSize="1.75" rotate="115,0,290"  tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
-      <MarkerCategory name="s3"       DisplayName="Arkk"                                                   fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/ShO3.png" iconSize="1.75" rotate="115,0,180"  tip-description="Potion: Scarlet&#xA;Sigils: Force, Impact"/>
+      <MarkerCategory name="s1"       DisplayName="Skorvald"                                               fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/ShO1.png" iconSize="1.25" rotate="165,15,290" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"       DisplayName="Artsariiv"                                              fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Slaying/ShO2.png" iconSize="1.75" rotate="115,0,290"  tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s3"       DisplayName="Arkk"                                                   fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/ShO3.png" iconSize="1.75" rotate="115,0,180"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -273,7 +273,7 @@
 <!-- ======================================== SIREN'S REEF ================================================================================================================================================================= -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_SR_c1" DisplayName="Chest Spawns" fadeFar="3250" fadeNear="3000" iconFile="Assets/Fracs/SR.png"          iconSize="0.75" rotate-x="175"     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_SR_sy" DisplayName="Slaying"      fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/SR1.png" iconSize="2"    rotate="180,0,190" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_SR_sy" DisplayName="Slaying"      fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/SR1.png" iconSize="2"    rotate="180,0,190" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Chest Spawns ========== -->
@@ -286,7 +286,7 @@
   
 <!-- ======================================== SNOWBLIND ================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_SB_sy" DisplayName="Slaying"     fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/SB1.png" iconSize="1.5" rotate="90,0,-80" tip-description="Potion: Svanir&#xA;Sigils: Night, Wrath"/>
+    <MarkerCategory name="F_SB_sy" DisplayName="Slaying"     fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/SB1.png" iconSize="1.5" rotate="90,0,-80" tip-description="• Svanir&#xA;• Night&#xA;• Wrath"/>
   </MarkerCategory>
   <POIs>
     <POI MapID="948" xpos="-69.502" ypos="28.014" zpos="126.185" GUID="t5XIzjfT7Eee9Jex1g+zlA==" type="HMP.F_SB_sy"/>
@@ -301,7 +301,7 @@
         <MarkerCategory name="sc2"      DisplayName="Numbers"                                                               heightOffset="2.1"                                        iconSize="0.5"/>
         <MarkerCategory name="sc3"      DisplayName="Arrows"                                                                                   iconFile="Assets/General/Pointer.png" iconSize="0.35" rotate-x="180"/>
       </MarkerCategory>
-    <MarkerCategory name="F_SoO_sy" DisplayName="Slaying"                               cull="CounterClockwise" fadeFar="1400" fadeNear="1150" iconFile="Assets/Fracs/Slaying/SoO1.png" iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="Potion: Ele&#xA;Sigils: Night, Ele"/>
+    <MarkerCategory name="F_SoO_sy" DisplayName="Slaying"                               cull="CounterClockwise" fadeFar="1400" fadeNear="1150" iconFile="Assets/Fracs/Slaying/SoO1.png" iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Path Skip ========== -->
@@ -383,8 +383,8 @@
     <MarkerCategory   name="F_SP_c5" DisplayName="FotM Skip"            cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_SP_c6" DisplayName="Dialogue Door Skip"                                                                                                                                 mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_SP_sy" DisplayName="Slaying"              cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconFile="Assets/Fracs/Slaying/SP1.png" iconSize="1.75" rotate="105,0,192" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
-      <MarkerCategory name="s2"      DisplayName="CM"                                           fadeFar="900" fadeNear="750" iconFile="Assets/Fracs/Slaying/SP2.png" iconSize="1.9"  rotate="94,0,-90"  tip-description="Potion: N/A&#xA;Sigils: Night, Force"/>
+      <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconFile="Assets/Fracs/Slaying/SP1.png" iconSize="1.75" rotate="105,0,192" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Challenge"                                    fadeFar="900" fadeNear="750" iconFile="Assets/Fracs/Slaying/SP2.png" iconSize="1.9"  rotate="94,0,-90"  tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -463,7 +463,7 @@
       <MarkerCategory name="t8"      DisplayName="Bottom Right (Spiders)"/>
       <MarkerCategory name="t9"      DisplayName="Passage"/>
     </MarkerCategory>
-    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"  iconFile="Assets/Fracs/Slaying/SL1.png" iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Night, Force"/>
+    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"  iconFile="Assets/Fracs/Slaying/SL1.png" iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Top Left (Skelk) ========== -->
@@ -558,7 +558,7 @@
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_TR_c1" DisplayName="Maze"             color="53806e"          fadeFar="3000" fadeNear="2750"                                       iconSize="0.75"                   mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_TR_c2" DisplayName="Subject 6 Portal"                                                                                              iconSize="0.5"  rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_TR_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/TR1.png" iconSize="2"    rotate="90,0,180" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_TR_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/TR1.png" iconSize="2"    rotate="90,0,180" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Maze ========== -->
@@ -576,7 +576,7 @@
 <!-- ======================================== TWILIGHT OASIS =============================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_TO_c1" DisplayName="Skip to 2nd Sandblinder"                         fadeFar="1000" fadeNear="750"                                        iconSize="0.5"                    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_TO_sy" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Slaying/TO1.png" iconSize="2.25" rotate="90,0,-89" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Night"/>
+    <MarkerCategory name="F_TO_sy" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Slaying/TO1.png" iconSize="2.25" rotate="90,0,-89" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Skip to Second Sandblinder ========== -->
@@ -596,9 +596,9 @@
     <MarkerCategory   name="F_UC_c1" DisplayName="Harpy JP Skip"                           fadeFar="1000" fadeNear="750"                                                                            mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UC_c2" DisplayName="Harpy Leap Skip" cull="CounterClockwise" fadeFar="1000" fadeNear="750"                                                                            mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UC_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                          mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"                                   fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/UC1.png" iconSize="1.75" rotate="88,0,140"   tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Old Tom"                                 fadeFar="800"  fadeNear="650"  iconFile="Assets/Fracs/Slaying/UC2.png" iconSize="2.5"  rotate="90,5,-9"    tip-description="Potion: Inquest&#xA;Sigils: Force, Mad Sct"/>
-      <MarkerCategory name="s3"      DisplayName="Raving Asura"                            fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/UC3.png" iconSize="1.75" rotate="125,-5,200" tip-description="Potion: Inquest&#xA;Sigils: Force, Mad Sct"/>
+      <MarkerCategory name="s1"      DisplayName="Start"                                   fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/UC1.png" iconSize="1.75" rotate="88,0,140"   tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Old Tom"                                 fadeFar="800"  fadeNear="650"  iconFile="Assets/Fracs/Slaying/UC2.png" iconSize="2.5"  rotate="90,5,-9"    tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
+      <MarkerCategory name="s3"      DisplayName="Raving Asura"                            fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/UC3.png" iconSize="1.75" rotate="125,-5,200" tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -653,9 +653,9 @@
     <MarkerCategory   name="F_UF_c1" DisplayName="Pressure Plate Skip"       fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UF_c2" DisplayName="Bucket Boundaries" fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UF_sy" DisplayName="Slaying"           cull="CounterClockwise"                                              iconSize="2" rotate-x="90"                               mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"             fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/UF1.png"                                           rotate-z="-91" tip-description="Potion: Dredge&#xA;Sigils: Night, Sorrow"/>
-      <MarkerCategory name="s2"      DisplayName="Dredge Boss"       fadeFar="1100" fadeNear="850"  iconFile="Assets/Fracs/Slaying/UF2.png"                            rotate-y="-18" rotate-z="55"  tip-description="Potion: Dredge&#xA;Sigils: Night, Sorrow"/>
-      <MarkerCategory name="s3"      DisplayName="Elemental Boss"    fadeFar="1150" fadeNear="900"  iconFile="Assets/Fracs/Slaying/UF3.png"                            rotate-y="-18" rotate-z="55"  tip-description="Potion: Ele&#xA;Sigils: Night, Ele"/>
+      <MarkerCategory name="s1"      DisplayName="Start"             fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/UF1.png"                                           rotate-z="-91" tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
+      <MarkerCategory name="s2"      DisplayName="Dredge Boss"       fadeFar="1100" fadeNear="850"  iconFile="Assets/Fracs/Slaying/UF2.png"                            rotate-y="-18" rotate-z="55"  tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
+      <MarkerCategory name="s3"      DisplayName="Elemental Boss"    fadeFar="1150" fadeNear="900"  iconFile="Assets/Fracs/Slaying/UF3.png"                            rotate-y="-18" rotate-z="55"  tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -683,7 +683,7 @@
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_UB_c1" DisplayName="Burning Oil Boundary"                         fadeFar="1500" fadeNear="1000"                                                                      mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_UB_c2" DisplayName="Barricade Skip"                                                                                                                                   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_UB_sy" DisplayName="Slaying"              cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/UB1.png" iconSize="2" rotate="90,0,170" mapVisibility="0" minimapVisibility="0" tip-description="Potion: N/A&#xA;Sigils: Force, Impact"/>
+    <MarkerCategory name="F_UB_sy" DisplayName="Slaying"              cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/UB1.png" iconSize="2" rotate="90,0,170" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>  
     <!-- ========== Burning Oil Boundary ========== -->
@@ -706,8 +706,8 @@
     <MarkerCategory     name="F_VO_c1" DisplayName="Portal"                cull="CounterClockwise"                                              iconSize="0.35"                     mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory     name="F_VO_c2" DisplayName="Cliff Fall"                                                                                 iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory     name="F_VO_sy" DisplayName="Slaying"               cull="CounterClockwise"                                                                                  mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/Vo1.png" iconSize="1.35" rotate="90,0,210"   tip-description="Potion: Grawl&#xA;Sigils: Night, Grawl"/>
-      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/Vo2.png" iconSize="1.5"  rotate="90,0,3"     tip-description="Potion: Ele&#xA;Sigils: Night, Ele"/>
+      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/Vo1.png" iconSize="1.35" rotate="90,0,210"   tip-description="• Grawl&#xA;• Night&#xA;• Grawl"/>
+      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/Vo2.png" iconSize="1.5"  rotate="90,0,3"     tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
