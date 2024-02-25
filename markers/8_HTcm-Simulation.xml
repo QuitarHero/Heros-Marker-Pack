@@ -1,7 +1,11 @@
 <OverlayData>
   <MarkerCategory name="hmpSim" DisplayName="Hero's Sim Pack" fadeFar="10000" fadeNear="9750" mapVisibility="0" minimapVisibility="0" inGameVisibility="0">
-    <MarkerCategory name="htcm_main" DisplayName="Toggle Main Simulation"         defaultToggle="0" inGameVisibility="1"/>
-    <MarkerCategory name="htcm_wave" DisplayName="Toggle Mordy Wave Practice"     defaultToggle="0" inGameVisibility="1"/>
+    <MarkerCategory name="htcm_main" DisplayName="Toggle Main Simulation"         defaultToggle="0" inGameVisibility="1">
+      <MarkerCategory name="msg"     DisplayName="Introductory Message"           tip-description="Displays the first-use Introductory Message"/>
+    </MarkerCategory>
+    <MarkerCategory name="htcm_wave" DisplayName="Toggle Mordy Wave Practice"     defaultToggle="0" inGameVisibility="1">
+      <MarkerCategory name="msg"     DisplayName="Introductory Message"           tip-description="Displays the first-use Introductory Message"/>
+    </MarkerCategory>
     <MarkerCategory name="htcm_c1"  DisplayName="Features" MapID="1437">
       <MarkerCategory name="sc1"    DisplayName="General"                       heightOffset="-0.05">
         <MarkerCategory name="asc1" DisplayName="Expanding Orb"                                      iconSize="1"                   inGameVisibility="1">
@@ -86,8 +90,10 @@
   
   <POIs>
     <!-- ======================================== SIMULATION TRIGGER MARKERS ======================================== -->
-    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="As/ysIBSSk+GoAp5W7PTPg==" type="hmpSim.htcm_main" iconFile="Assets/General/empty.png" triggerRange="60" script-trigger="Trigger_HTcm_Sim"/>
-    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="h/D67Lhy/E6Vrhx3hB7q8A==" type="hmpSim.htcm_wave" iconFile="Assets/General/empty.png" triggerRange="60" script-trigger="triggerD4_Practice"/>
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="As/ysIBSSk+GoAp5W7PTPg==" type="hmpSim.htcm_main"     iconFile="Assets/General/empty.png" triggerRange="60" script-trigger="Trigger_HTcm_Sim"/>
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="iD1kdl7x+kyKdvjzJ7rEfg==" type="hmpSim.htcm_main.msg" iconFile="Assets/General/empty.png" triggerRange="60" info="Welcome to the Harvest Temple CM Simulation!&#xA;&#xA;This is an out-of-combat visual experience with limited gameplay capabilities, allowing you to practice mechanical movement (such as Void Pools), visualize individual phases in your own time, and reduce pressure induced by later phases.&#xA;&#xA;To begin (and to hide this message), simply 'Interact' (&quot;F&quot; by default) and the Simulation will begin.&#xA;You may interact as much and as quickly as you'd like to transition throughout all HTcm's phases.&#xA;&#xA;To turn this feature off, simply toggle the category again.&#xA;&#xA;More information can be found on the Hero's Marker Pack Wiki." hide="hmpSim.htcm_main.msg"/>
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="h/D67Lhy/E6Vrhx3hB7q8A==" type="hmpSim.htcm_wave"     iconFile="Assets/General/empty.png" triggerRange="60" script-trigger="triggerD4_Practice"/>
+    <POI MapID="1437" xpos="15.4233" ypos="391.7139" zpos="-518.0165" GUID="ldqe5RUxUkC+MWlzQryM8w==" type="hmpSim.htcm_wave.msg" iconFile="Assets/General/empty.png" triggerRange="60" info="Welcome to Mordremoth Shock Wave Practice!&#xA;&#xA;This is an out-of-combat exercise to help develop reliable jumping methods and strategies to help minimize self-debilitation and deaths during real attempts.&#xA;&#xA;To begin (and to hide this message), simply 'Interact' (&quot;F&quot; by default) and the exercise will start.&#xA;NOTE: The main simulation and this exercise are not compatible with each other. Please only have 1 enabled at a time.&#xA;&#xA;Shock Waves will constantly spawn with their normal pattern, with 5s inbetween patterns.&#xA;The exercise will stop when you get hit by a wave, and Interacting again will reset it.&#xA;Markers will appear where you start and end your jump, to help visualize your jumping successes and failures.&#xA;These markers can be disabled in the 'Features' category.&#xA;&#xA;More information can be found on the Hero's Marker Pack Wiki." hide="hmpSim.htcm_wave.msg"/>
     
     
     <!-- ======================================== GENERAL ======================================== -->
