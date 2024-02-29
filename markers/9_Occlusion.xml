@@ -1,0 +1,29 @@
+<OverlayData>
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack"/>
+  
+  <POIs>
+    <!-- ============================== COSMIC OBSERVATORY ============================== -->
+    <!-- Stairs for Slaying Marker-->
+    <POI MapID="1515" xpos="-26.8639" ypos="147.628" zpos="-1.51695"   GUID="SMFMAUnO10mRl4P+YXdqVA==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.2"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-26.5985" ypos="147.628" zpos="-1.25048"   GUID="5m1/oB4DHECwLDZNwkvDhg==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.2"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-26.2024" ypos="147.69"  zpos="-0.814711"  GUID="Hlyp+1euoUmiFZwrxtZr6A==" type="HMP" alpha="0" rotate="90,62,45" cull="Clockwise" iconSize="0.3"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-25.8528" ypos="147.924" zpos="-0.464148"  GUID="NDV0PSAGgE2Y/YGM+Iyy3w==" type="HMP" alpha="0" rotate="90,68,45" cull="Clockwise" iconSize="0.3"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-24.072"  ypos="148.313" zpos="1.3408"     GUID="CJb6tMXtz0ixsA0yZv2Q/w==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="1.2"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-23.875"  ypos="149.047" zpos="1.54398"    GUID="MQ2Y80n+mk+dnh330lVS/g==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.8"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-24.418"  ypos="149.55"  zpos="1.00247"    GUID="LWWtC1HlpU+izWQ9UKcwUQ==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.15" iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-24.4294" ypos="149.71"  zpos="1.00173"    GUID="BiulZsKX0kS8DGUhytKkOg==" type="HMP" alpha="0" rotate="90,40,45" cull="Clockwise" iconSize="0.1"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-24.7767" ypos="148.317" zpos="0.610241"   GUID="1TGoDbY7XEWV77sJNnK1Ag==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.75" iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-25.0646" ypos="148.873" zpos="0.333841"   GUID="/vSteypuxkSjV2zQAwW9eg==" type="HMP" alpha="0" rotate="90,76,45" cull="Clockwise" iconSize="0.3"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-25.4058" ypos="148.655" zpos="-0.019455"  GUID="FyxQgmfiYUWDnREO1Vu9UA==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.2"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-25.4554" ypos="148.512" zpos="-0.0608324" GUID="ugUaqaY6Wk+JifdazHnI4g==" type="HMP" alpha="0" rotate="90,25,45" cull="Clockwise" iconSize="0.25" iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-25.4058" ypos="147.897" zpos="-0.0194551" GUID="S9yIdJJT6U6y9dTvNUhmCw==" type="HMP" alpha="0" rotate="90,35,45" cull="Clockwise" iconSize="0.65" iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-24.9193" ypos="147.741" zpos="0.476284"   GUID="FV5y/SqGe0OntAaDRx1dXQ==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.4"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-25.9057" ypos="147.64"  zpos="-0.523341"  GUID="afpmy2N4L0WTBrcj3sOw1w==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.2"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    <POI MapID="1515" xpos="-26.41"   ypos="147.615" zpos="-1.04012"   GUID="a6DyOOfZ40SCmxOn0onaPw==" type="HMP" alpha="0" rotate="90,0,45"  cull="Clockwise" iconSize="0.2"  iconFile="Assets/Masking/Square.png" occlude="1"/>
+    
+    
+    
+    
+    
+  </POIs>
+</OverlayData>
