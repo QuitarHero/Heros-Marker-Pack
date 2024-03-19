@@ -3,6 +3,7 @@
     <MarkerCategory name="occlude" DisplayName="Occlusion" alpha="0" IsHidden="1" iconFile="Assets/Masking/Square.png" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c1" DisplayName="Cosmic Obesrvatory"   MapID="1515" cull="Clockwise"/>
       <MarkerCategory name="c2" DisplayName="Lion's Arch Aerodome" MapID="1155" alpha="0" occlude="1"/>
+      <MarkerCategory name="c3" DisplayName="Arborstone"           MapID="1428" alpha="0" occlude="1"/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -278,6 +279,56 @@
     <POI xpos="98.0308"  ypos="35.1064" zpos="-341.693"  GUID="f8x2H63xC026J22eKaZL8g==" type="HMP.occlude.c2" iconSize="0.84" rotate="90,0,-90"  cull=""/>
     
     
+    <!-- ======================================== ARBORSTONE ======================================== -->
+    <!-- Right wall from Schedule -->
+    <POI xpos="-820.861" ypos="10.1754" zpos="424.228" GUID="DA/dI25MOU6kFzosN6na8A==" type="HMP.occlude.c3" iconSize="2"  rotate="87,3,0"     cull="CounterClockwise"/>
+    <POI xpos="-820.547" ypos="13.9849" zpos="424.556" GUID="Rr9zwK6pKkWb5rGQ4h8eHA==" type="HMP.occlude.c3" iconSize="2"  rotate="83,7,-1"    cull="CounterClockwise"/>
+    <POI xpos="-819.938" ypos="17.7453" zpos="425.156" GUID="G6xLtiuUJkWM+3RrexlKhw==" type="HMP.occlude.c3" iconSize="2"  rotate="79,11,-1.5" cull="CounterClockwise"/>
+    <POI xpos="-819.079" ypos="21.3567" zpos="426.029" GUID="3ArvBlDnfkOp7erlqlSZ7w==" type="HMP.occlude.c3" iconSize="2"  rotate="75,15,-3"   cull="CounterClockwise"/>
+    <POI xpos="-825.353" ypos="13.2561" zpos="422.03"  GUID="GI2xpXyV/0eqQL8A1r2VJA==" type="HMP.occlude.c3" iconSize="5"  rotate="90,0,40"    cull="CounterClockwise"/>
+    <POI xpos="-824.489" ypos="22.0534" zpos="423.004" GUID="p2RiMmsMwUaoRwOdLpevrQ==" type="HMP.occlude.c3" iconSize="5"  rotate="90,0,40"    cull="CounterClockwise"/>
+    <!-- Floor -->
+    <POI xpos="-825.528" ypos="8.29263" zpos="434.358" GUID="xYmxb9qChE2oeslPQ0L55g==" type="HMP.occlude.c3" iconSize="15" rotate="180,0,45"   cull="Clockwise"/>
+    <!-- Right Strike Banner (bottom => top) -->
+    <POI xpos="-805.858" ypos="14.3353" zpos="411.445" GUID="VnNimNHONkO6Zh1lrR4Usg==" type="HMP.occlude.c3" iconSize="0.5"  rotate="90,11,135"  cull=""/>
+    <POI xpos="-806.968" ypos="14.3353" zpos="412.551" GUID="FF8w4PA0kUKgttDQEYpFDA==" type="HMP.occlude.c3" iconSize="0.5"  rotate="90,-11,135" cull=""/>
+    <POI xpos="-806.404" ypos="14.2573" zpos="412.007" GUID="0m2opqqZfE2OYw8EOvSaGg==" type="HMP.occlude.c3" iconSize="0.5"  rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="15.3048" zpos="412.007" GUID="crKJWGqcvUS+oQtorCnOCA==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="16.6648" zpos="412.007" GUID="212VV3ByzUm4NZAMpsmw6g==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="18.0148" zpos="412.007" GUID="85KTSfQ7Q0aeSifn0dYxZA==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="19.3748" zpos="412.007" GUID="HA7pcBGkSkCeU0e7qBIsuA==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="20.7348" zpos="412.007" GUID="ocg+sv6pp0izQaT/7stp5A==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="22.0948" zpos="412.007" GUID="QbDTOZ44JUqX0rX9GBQGzA==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="23.4548" zpos="412.007" GUID="dipwrpnL+k+ZcbPe95hwtg==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="24.8148" zpos="412.007" GUID="yzLZpYmlJk6XNgvlZodm/w==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <POI xpos="-806.404" ypos="26.1748" zpos="412.007" GUID="bx/ygforyES0tMVCbokHww==" type="HMP.occlude.c3" iconSize="1.36" rotate="90,0,135"   cull=""/>
+    <!-- ========== Boxes ========== -->
+    <!-- Annoying 2 Schedule Boxes -->
+    <POI xpos="-814.6441" ypos="9.878"   zpos="422.0212" GUID="AxiN6m2t/0q9UXqI8k5Pvw==" type="HMP.occlude.c3" iconSize="1.72" rotate="-90,0,-42"  cull="Clockwise"/>
+    <POI xpos="-817.0732" ypos="9.878"   zpos="421.8939" GUID="W/9sGp/PYUSrdwAy7/giPA==" type="HMP.occlude.c3" iconSize="1.72" rotate="-90,0,-132" cull="CounterClockwise"/>
+    <POI xpos="-814.5168" ypos="9.878"   zpos="419.5921" GUID="YytPESqg9EqJ33BYM4JNYQ==" type="HMP.occlude.c3" iconSize="1.72" rotate="-90,0,-132" cull="Clockwise"/>
+    <POI xpos="-815.795"  ypos="8.158"   zpos="420.743"  GUID="S1xtmvLuuEK8e6BKgyW0WQ==" type="HMP.occlude.c3" iconSize="1.72" rotate="0,0,-132"   cull="CounterClockwise"/>
+    <POI xpos="-815.795"  ypos="11.598"  zpos="420.743"  GUID="XBhQyGxj+keY49uxI2eAbw==" type="HMP.occlude.c3" iconSize="1.72" rotate="0,0,-132"   cull="Clockwise"/>
+    <POI xpos="-817.8209" ypos="9.878"   zpos="418.5118" GUID="AZa+AQAxtEGl4GcCYiv0Mg==" type="HMP.occlude.c3" iconSize="1.72" rotate="-90,0,-42"  cull="CounterClockwise"/>
+    <POI xpos="-817.9482" ypos="9.878"   zpos="420.9409" GUID="9UWPZKQ/U0uIR9VbqK16zw==" type="HMP.occlude.c3" iconSize="1.72" rotate="-90,0,-132" cull="CounterClockwise"/>
+    <POI xpos="-815.3918" ypos="9.878"   zpos="418.6391" GUID="cIjXejK0oUyaIIaadx2PSA==" type="HMP.occlude.c3" iconSize="1.72" rotate="-90,0,-132" cull="Clockwise"/>
+    <POI xpos="-816.67"   ypos="8.158"   zpos="419.79"   GUID="NIsgZ9JIEEKd4/LixYulVg==" type="HMP.occlude.c3" iconSize="1.72" rotate="0,0,-132"   cull="CounterClockwise"/>
+    <POI xpos="-816.67"   ypos="11.598"  zpos="419.79"   GUID="HjZFL7kr0Eab3fLbK0OKvg==" type="HMP.occlude.c3" iconSize="1.72" rotate="0,0,-132"   cull="Clockwise"/>
+    <POI xpos="-816.6316" ypos="12.906"  zpos="418.2701" GUID="A5fhbyxc4Ey08cpPwmIi0Q==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-18"  cull="CounterClockwise"/>
+    <POI xpos="-815.8344" ypos="12.906"  zpos="420.7239" GUID="C1fn51IsWkWe4m+fUE4Guw==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-18"  cull="Clockwise"/>
+    <POI xpos="-817.4598" ypos="12.906"  zpos="419.8956" GUID="t2N4VYp//0WFwpDYG49/8A==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-108" cull="CounterClockwise"/>
+    <POI xpos="-815.0061" ypos="12.906"  zpos="419.0984" GUID="utLyWRM5zUm+A2rPNiJo9A==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-108" cull="Clockwise"/>
+    <POI xpos="-816.233"  ypos="11.616"  zpos="419.497"  GUID="hgSBZzQDvEOCkOyjtNDRTg==" type="HMP.occlude.c3" iconSize="1.29" rotate="0,0,-108"   cull="CounterClockwise"/>
+    <POI xpos="-816.233"  ypos="14.196"  zpos="419.497"  GUID="7RJJFGJHy06Z/QzVgOT9wg==" type="HMP.occlude.c3" iconSize="1.29" rotate="0,0,-108"   cull="Clockwise"/>
+    <POI xpos="-816.3206" ypos="12.906"  zpos="419.2101" GUID="ANhHAc+uVk+zbsEED0gGhg==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-18"  cull="CounterClockwise"/>
+    <POI xpos="-815.5234" ypos="12.906"  zpos="421.6639" GUID="dYTOFmDA+0CCVnQDfeyjag==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-18"  cull="Clockwise"/>
+    <POI xpos="-817.1489" ypos="12.906"  zpos="420.8356" GUID="tPjm4EuKkUqyeqegBHHr9Q==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-108" cull="CounterClockwise"/>
+    <POI xpos="-814.6951" ypos="12.906"  zpos="420.0384" GUID="qN/jazrEZ0WpswHG03OPJw==" type="HMP.occlude.c3" iconSize="1.29" rotate="-90,0,-108" cull="Clockwise"/>
+    <POI xpos="-815.922"  ypos="11.616"  zpos="420.437"  GUID="ySHoVXJBRUWl+Wj+A3PvhA==" type="HMP.occlude.c3" iconSize="1.29" rotate="0,0,-108"   cull="CounterClockwise"/>
+    <POI xpos="-815.922"  ypos="14.196"  zpos="420.437"  GUID="DFYEY6YnWkOOgTaqVcdWwA==" type="HMP.occlude.c3" iconSize="1.29" rotate="0,0,-108"   cull="Clockwise"/>
+    <POI xpos="-816.052"  ypos="11.6338" zpos="420.004"  GUID="AFYEY6YnWkOOgTaqVcdWwA==" type="HMP.occlude.c3" iconSize="2.15" rotate="90,0,37"/>
+    
+    
     <!-- ============================== COSMIC OBSERVATORY ============================== -->
     <!-- Stairs for Slaying Marker-->
     <POI xpos="-26.8639" ypos="147.628" zpos="-1.51695"   GUID="SMFMAUnO10mRl4P+YXdqVA==" type="HMP.occlude.c1" rotate="90,0,45"  iconSize="0.2"/>
@@ -296,9 +347,6 @@
     <POI xpos="-24.9193" ypos="147.741" zpos="0.476284"   GUID="FV5y/SqGe0OntAaDRx1dXQ==" type="HMP.occlude.c1" rotate="90,0,45"  iconSize="0.4"/>
     <POI xpos="-25.9057" ypos="147.64"  zpos="-0.523341"  GUID="afpmy2N4L0WTBrcj3sOw1w==" type="HMP.occlude.c1" rotate="90,0,45"  iconSize="0.2"/>
     <POI xpos="-26.41"   ypos="147.615" zpos="-1.04012"   GUID="a6DyOOfZ40SCmxOn0onaPw==" type="HMP.occlude.c1" rotate="90,0,45"  iconSize="0.2"/>
-    
-    
-    
     
     
   </POIs>
