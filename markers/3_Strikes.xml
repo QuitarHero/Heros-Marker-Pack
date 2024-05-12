@@ -1118,14 +1118,14 @@
     <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="Ya7crexQIU+nLwzt2EWBFw==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="DOoI+mANBUyl/UBH32ykCg==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
     <!-- Slaying -->
-    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="uI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
-    <POI MapID="1515" xpos="-24.6239" ypos="148.7322" zpos="3.581988" GUID="Io1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+    <POI MapID="1515" xpos="-24.651" ypos="148.732" zpos="3.6214" GUID="uI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
+    <POI MapID="1515" xpos="-24.651" ypos="148.732" zpos="3.6214" GUID="Io1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
   </POIs>
   
 <!-- ========================================= THE TEMPLE OF FEBE (CERUS) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="StrB13_c1" DisplayName="Max Melee" minimapVisibility="0" mapVisibility="0"/>
-    <MarkerCategory name="StrB13_c2" DisplayName="Embodiment Positions" iconFile="Assets/General/dot.png" iconSize="0.75" rotate-x="180" script-filter="combatFade" tip-description="Hover-over these markers&#xA;on the minimap/map to&#xA;know their embodiments.&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start">
+    <MarkerCategory name="StrB13_c2" DisplayName="Embodiment Positions" iconFile="Assets/General/dot.png" iconSize="0.75" rotate-x="180" tip-description="Hover-over these markers&#xA;on the minimap/map to&#xA;know their embodiments.&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start">
       <MarkerCategory name="sc1" DisplayName="Despair"  mapDisplaySize="15" tip-name="Despair"/>
       <MarkerCategory name="sc2" DisplayName="Envy"     mapDisplaySize="15" tip-name="Envy"/>
       <MarkerCategory name="sc3" DisplayName="Gluttony" mapDisplaySize="15" tip-name="Gluttony"/>
@@ -1134,11 +1134,49 @@
       <MarkerCategory name="sc6" DisplayName="Regret"   mapDisplaySize="15" tip-name="Regret"/>
     </MarkerCategory>
     <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Assets/Strikes/Slaying/Febe.png" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB13_c90" DisplayName="Despair Pool Adventure" fadeFar="3000" fadeNear="2750" minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="sc1"      DisplayName="Enable Script"/>
+      <MarkerCategory name="sc2"      DisplayName="Adventure Board" IsSeparator="1" rotate="90,0,270" triggerRange="5" cull="CounterClockwise">
+        <MarkerCategory name="info"   DisplayName="Information Tab">
+          <MarkerCategory name="asc1" DisplayName="Board" isHidden="1"  heightOffset="15.5" iconFile="Assets/Strikes/DP_Adventure/Board1.png" iconSize="3.5"/>
+          <MarkerCategory name="asc2" DisplayName="Text"  isHidden="1"/>
+        </MarkerCategory>
+        <MarkerCategory name="curr"   DisplayName="Current Tab" defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Board" isHidden="1"  heightOffset="15.5" iconFile="Assets/Strikes/DP_Adventure/Board2.png" iconSize="3.5"/>
+          <MarkerCategory name="asc2" DisplayName="Text"  isHidden="1"/>
+        </MarkerCategory>
+        <MarkerCategory name="hist"   DisplayName="History Tab" defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Board" isHidden="1"  heightOffset="15.5" iconFile="Assets/Strikes/DP_Adventure/Board3.png" iconSize="3.5"/>
+          <MarkerCategory name="asc2" DisplayName="Text"  isHidden="1"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="sc3"   DisplayName="Amount of Pools" IsSeparator="1" tip-description="Only have 1 enabled at a time.">
+        <MarkerCategory name="1"   DisplayName="1 - One"/>
+        <MarkerCategory name="2"   DisplayName="2 - Two"   defaultToggle="0"/>
+        <MarkerCategory name="3"   DisplayName="3 - Three" defaultToggle="0"/>
+        <MarkerCategory name="4"   DisplayName="4 - Four"  defaultToggle="0"/>
+        <MarkerCategory name="5"   DisplayName="5 - Five"  defaultToggle="0"/>
+        <MarkerCategory name="6"   DisplayName="6 - Six"   defaultToggle="0"/>
+        <MarkerCategory name="7"   DisplayName="7 - Seven" defaultToggle="0"/>
+        <MarkerCategory name="8"   DisplayName="8 - Eight" defaultToggle="0"/>
+        <MarkerCategory name="9"   DisplayName="9 - Nine"  defaultToggle="0"/>
+        <MarkerCategory name="10"  DisplayName="10 - Ten"  defaultToggle="0"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc4"      DisplayName="Empowered?" IsSeparator="1" tip-description="Only have 1 enabled at a time.">
+        <MarkerCategory name="asc1"   DisplayName="No"/>
+        <MarkerCategory name="asc2"   DisplayName="Yes" defaultToggle="0"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc5"      DisplayName="Error Info" IsSeparator="1">
+        <MarkerCategory name="asc1"   DisplayName="Position Dots"/>
+        <MarkerCategory name="asc2"   DisplayName="Circle"/>
+      </MarkerCategory>
+      <MarkerCategory name="sc6"      DisplayName="Pools" isHidden="1" heightOffset="-0.05"/>
+    </MarkerCategory>
   </MarkerCategory>
   
   <POIs>
     <!-- Max Melee -->
-    <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" alpha="0.65" animSpeed="0"                  type="HMP.StrB13_c1" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" alpha="0.65" animSpeed="0"                type="HMP.StrB13_c1" texture="Assets/Boundary/RedLine.png"/>
     <!-- Embodiment Positions -->
     <POI MapID="1520" xpos="-12.494" ypos="177.1"   zpos="-86.695"  GUID="LXEMfrQ0/kqT2zAjwFTGGg==" type="HMP.StrB13_c2.sc1" tip-description=""/>
     <POI MapID="1520" xpos="9.706"   ypos="177.1"   zpos="-122.673" GUID="erXTteh0DE+Gj7701INu0w==" type="HMP.StrB13_c2.sc2" tip-description=""/>
@@ -1148,6 +1186,35 @@
     <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6" tip-description=""/>
     <!-- Slaying -->
     <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"/>
+    
+    <!-- ========== Despair Pool Adventure ========== -->
+    <!-- Minimap Marker -->
+    <POI MapID="1520" xpos="-14.0683" ypos="208.34" zpos="-225.954" GUID="zcrtjfTr9EG7sUMxTtO91g==" type="HMP.StrB13_c90" iconFile="Assets/Strikes/DP_Adventure/961365.png" inGameVisibility="0" minimapVisibility="1" mapVisibility="1" MapDisplaySize="24" tip-name="Despair Pool Dodging" tip-description="Disabled until Lua Scripts are enabled."/>
+    <!-- Trigger Markers -->
+    <POI MapID="1520" xpos="-6.74508" ypos="205.6108" zpos="-232.7538" GUID="2WSjZ55ZTEGiblHUjfkh+A==" type="HMP.StrB13_c90.sc1" iconFile="Assets/Strikes/DP_Adventure/Spawn.png" iconSize="1.5" alpha="0.5" triggerRange="5" autoTrigger="0" script-trigger="StartPoolPractice"/>
+    <POI MapID="1520" xpos="0"        ypos="0"        zpos="0"         GUID="Gdotxh/ZiEWBO9d6+120uQ==" type="HMP.StrB13_c90.sc1" iconFile="Assets/Strikes/DP_Adventure/Reset.png" iconSize="1.5" alpha="0.5" triggerRange="5" autoTrigger="0" script-trigger="RedisplayPoolPractice" inGameVisibility="0"/>
+    <!-- Adventure Board -->
+    <POI MapID="1520" xpos="-14.0683" ypos="208.34" zpos="-225.954" GUID="AIXi+iWpDkaVTjX78CIx5Q==" type="HMP.StrB13_c90.sc2.info"      iconFile="Assets/General/empty.png" show="HMP.StrB13_c90.sc2.curr" hide="HMP.StrB13_c90.sc2.info"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34" zpos="-225.954" GUID="lIXi+iWpDkaVTjX78CIx5Q==" type="HMP.StrB13_c90.sc2.info.asc1"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="208.34" zpos="-225.954" GUID="Ay7txJK2iE+cCfd8xbNgOw==" type="HMP.StrB13_c90.sc2.curr"      iconFile="Assets/General/empty.png" show="HMP.StrB13_c90.sc2.hist" hide="HMP.StrB13_c90.sc2.curr"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34" zpos="-225.954" GUID="ry7txJK2iE+cCfd8xbNgOw==" type="HMP.StrB13_c90.sc2.curr.asc1"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="208.34" zpos="-225.954" GUID="AXUo3DC8MUe0SEvb1W9E+Q==" type="HMP.StrB13_c90.sc2.hist"      iconFile="Assets/General/empty.png" show="HMP.StrB13_c90.sc2.info" hide="HMP.StrB13_c90.sc2.hist"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34" zpos="-225.954" GUID="RXUo3DC8MUe0SEvb1W9E+Q==" type="HMP.StrB13_c90.sc2.hist.asc1"/>
+    <!-- A large list of empty markers solely for categories to show up to the end-user -->
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="CPbhxOEGe0muvPPQEeM5Hw==" type="HMP.StrB13_c90.sc3.1"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="1/SxOrxQ9U60I8jy59DEoA==" type="HMP.StrB13_c90.sc3.2"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="IpfyAUgftkCesVyN68n/1g==" type="HMP.StrB13_c90.sc3.3"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="23SrFpLGY0WLx792T8B6Hg==" type="HMP.StrB13_c90.sc3.4"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="1CttHPhu5EyJS3dI1GOuDg==" type="HMP.StrB13_c90.sc3.5"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="MIRglxooDEC3nDfxFKyHGw==" type="HMP.StrB13_c90.sc3.6"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="vMIc8Fm4fUydbgoVV4NlzA==" type="HMP.StrB13_c90.sc3.7"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="uKVECHaCA0SxkPaB4G/fLA==" type="HMP.StrB13_c90.sc3.8"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="Xy5dC3qCREu/jN9Zdk9TAg==" type="HMP.StrB13_c90.sc3.9"    inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="Wy8ITnE0NEaz9OSw0Fy53g==" type="HMP.StrB13_c90.sc3.10"   inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="Z4tcfje0AUGf7PR4PV0PaA==" type="HMP.StrB13_c90.sc4.asc1" inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="m6WsUM465EiMVizyjvLAcQ==" type="HMP.StrB13_c90.sc4.asc2" inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="HmPEwQW3FkquU4xOnpMn1w==" type="HMP.StrB13_c90.sc5.asc1" inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc5.asc2" inGameVisibility="0"/>
     
   </POIs>
 </OverlayData>
