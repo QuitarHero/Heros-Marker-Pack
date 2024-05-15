@@ -458,7 +458,7 @@
         <MarkerCategory name="asc1" DisplayName="Normal Mode"                           defaultToggle="0"/>
         <MarkerCategory name="asc2" DisplayName="Challenge Mode"/>
       </MarkerCategory>
-      <MarkerCategory   name="sc2"  DisplayName="Primordus Safe Spot"    alpha="0.75"                     iconFile="Assets/General/empty.png" iconSize="15.27" rotate="0,0,0" tip-description="Shows if you're safe from Primy's Lava Slam.&#xA;• Red: Not Safe.&#xA;• Yellow: Safe but not in melee range.&#xA;• Green: Safe and in melee range."/>
+      <MarkerCategory   name="sc2"  DisplayName="Primordus Safe Spot"    alpha="0.75"                     iconFile="Assets/General/empty.png" iconSize="15.70" rotate="0,0,0" tip-description="Shows if you're safe from Primy's Lava Slam.&#xA;• Red: Not Safe.&#xA;• Yellow: Safe but not in melee range.&#xA;• Green: Safe and in melee range."/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -1063,7 +1063,6 @@
     <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="hfVys/oWMkKoUtb/032zWw=="  type="HMP.strikeB10_c99.sc1.asc2" iconSize="9.3"/>
     <!-- ===== Primordus Safe Spot ===== -->
     <POI MapID="1437" xpos="14.375"  ypos="390.173" zpos="-543.570"  GUID="jWwX9IzYeEWK/6ItALBYTw=="  type="HMP.strikeB10_c99.sc2"/>
-    
   </POIs>
   
 <!-- ========================================= OLD LION'S COURT ==================================================================================================================================================================== -->

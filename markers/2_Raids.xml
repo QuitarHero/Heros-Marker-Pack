@@ -50,29 +50,29 @@
 <!-- ======================================== SPIRIT VALE ================================================================================================================================================================== -->
   <MarkerCategory         name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory       name="W1_B1" DisplayName="Vale Guardian">
-      <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="550"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory     name="c1"    DisplayName="Boundary"                                                   fadeFar="550"  fadeNear="375"                                      trailScale="1.5"                minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     </MarkerCategory>
     <MarkerCategory       name="W1_B2" DisplayName="Spirit Run">
-      <MarkerCategory     name="c1"    DisplayName="Skip"                                                                                                                             minimapVisibility="0" mapVisibility="0"/>
-      <MarkerCategory     name="c2"    DisplayName="Trigger Lines"                      fadeFar="1500" fadeNear="1000"                                                                minimapVisibility="0" mapVisibility="0"/>
-      <MarkerCategory     name="c3"    DisplayName="Pressure Plates"     color="e5ff00" defaultToggle="0"              iconFile="Assets/General/dot.png"                              mapDisplaySize="15"   inGameVisibility="0"/>
-      <MarkerCategory     name="c4"    DisplayName="Adrenal Shrooms"     autoTrigger="1"                               iconFile="Assets/General/empty.png"                            minimapVisibility="0" mapVisibility="0" triggerRange="2.075" resetLength="30" tip-description="Only works if Lua Scripts are enabled"/>
+      <MarkerCategory     name="c1"    DisplayName="Skip"                                                                                                                                                          minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="c2"    DisplayName="Trigger Lines"                                              fadeFar="1500" fadeNear="1000"                                                                     minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="c3"    DisplayName="Pressure Plates"     color="e5ff00"  defaultToggle="0"                                     iconFile="Assets/General/dot.png"                                   mapDisplaySize="15"   inGameVisibility="0"/>
+      <MarkerCategory     name="c4"    DisplayName="Adrenal Shrooms"     autoTrigger="1"                        fadeFar="3000" fadeNear="2750" iconFile="Assets/General/empty.png"                                 minimapVisibility="0" mapVisibility="0" triggerRange="2.075" resetLength="30" tip-description="Only works if Lua Scripts are enabled"/>
     </MarkerCategory>
-    <MarkerCategory       name="W1_B3" DisplayName="Gorseval"                                                                                                                                               mapVisibility="0">
-      <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0"                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory       name="W1_B3" DisplayName="Gorseval"                                                                                                                                                                            mapVisibility="0">
+      <MarkerCategory     name="c1"    DisplayName="Boundary"                           cull="CounterClockwise" fadeFar="500"  fadeNear="375"                                      trailScale="1.5"                minimapVisibility="0"                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory     name="c2"    DisplayName="Spirits">
-        <MarkerCategory   name="sc1"   DisplayName="Locations (in-game)" color="a6c4a1" fadeFar="3500" fadeNear="3000" iconFile="Assets/General/dot.png" iconSize="0.75" rotate-x="180" minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory   name="sc1"   DisplayName="Locations (in-game)" color="a6c4a1" cull="CounterClockwise" fadeFar="3500" fadeNear="3000" iconFile="Assets/General/dot.png"   iconSize="0.75"  rotate-x="180" minimapVisibility="0" mapVisibility="0">
           <MarkerCategory name="s1" DisplayName="NW Spirit"/> <MarkerCategory name="s2" DisplayName="NE Spirit"/> <MarkerCategory name="s3" DisplayName="SE Spirit"/> <MarkerCategory name="s4" DisplayName="SW Spirit"/>
         </MarkerCategory>
-        <MarkerCategory   name="sc2"   DisplayName="Locations (minimap)"                defaultToggle="0"              iconFile="Assets/Raids/Spirits.png"                              inGameVisibility="0" mapVisibility="1">
+        <MarkerCategory   name="sc2"   DisplayName="Locations (minimap)" defaultToggle="0" iconFile="Assets/Raids/Spirits.png" inGameVisibility="0" mapVisibility="1">
           <MarkerCategory name="s1" DisplayName="NW Spirit"/> <MarkerCategory name="s2" DisplayName="NE Spirit"/> <MarkerCategory name="s3" DisplayName="SE Spirit"/> <MarkerCategory name="s4" DisplayName="SW Spirit"/>
         </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory       name="W1_B4" DisplayName="Sabetha">
-      <MarkerCategory     name="c1"    DisplayName="Boundary"                           fadeFar="500"  fadeNear="375"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
-      <MarkerCategory     name="c2"    DisplayName="Directions"          color="ffedb8" fadeFar="2750" fadeNear="2250"                                                 rotate-x="90"  mapDisplaySize="30"/>
-      <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="c1"    DisplayName="Boundary"   cull="CounterClockwise" fadeFar="500"  fadeNear="375"  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory     name="c2"    DisplayName="Directions"          color="ffedb8" fadeFar="2750" fadeNear="2250"                 rotate-x="90"  mapDisplaySize="30"/>
+      <MarkerCategory     name="c3"    DisplayName="Max Melee"                          fadeFar="250"  fadeNear="200"  trailScale="1.5"               minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory     name="c4"   DisplayName="Compass">
         <MarkerCategory   name="sc1"  DisplayName="Enable Preview" minimapVisibility="0" mapVisibility="0" tip-description="If enabled, displays a compass&#xA;preview before Sabetha's bridge.&#xA;• The compass switches&#xA;directions every 10 seconds.&#xA;• Allow the next marker to spawn&#xA;to see your custom changes.">
           <MarkerCategory name="asc1" DisplayName="Welcome Message" tip-description="Displays the initial welcome message."/>
@@ -261,7 +261,7 @@
     <MarkerCategory     name="W2_B2" DisplayName="Trio"           fadeFar="4750" fadeNear="4500"                                                  mapVisibility="0" minimapVisibility="0" tip-description="If lua scripts are enabled,&#xA;Bee/Oil markers disappear on Combat Start"/>
     <MarkerCategory     name="W2_B3" DisplayName="Matthias"       fadeFar="2750" fadeNear="2500"                                                  mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="c1"    DisplayName="Boundary"       fadeFar="475"  fadeNear="350"  trailScale="1.5"                                 script-filter="combatFade"              tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory   name="c2"    DisplayName="Wells"                                         iconSize="0.5" rotate-x="125"/>
+      <MarkerCategory   name="c2"    DisplayName="Wells" cull="CounterClockwise" iconSize="0.5"  rotate-x="125"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -336,20 +336,20 @@
   
 <!-- ======================================== STRONGHOLD OF THE FAITHFUL =================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
-    <MarkerCategory     name="W3_B2" DisplayName="Keep Construct"                                                iconFile="Assets/General/dot.png" iconSize="0.5"   rotate-x="180" mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Boundary"                                                      fadeFar="500"  fadeNear="375"   trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory   name="c2"    DisplayName="Green Circles"   alpha="0.65" color="30cf5a"                   fadeFar="2500" fadeNear="2000"                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory     name="W3_B2" DisplayName="Keep Construct"               cull="CounterClockwise"          iconFile="Assets/General/dot.png" iconSize="0.5"   rotate-x="180" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Boundary"                                                      fadeFar="500"  fadeNear="375"     trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory   name="c2"    DisplayName="Green Circles"   alpha="0.65" color="30cf5a"                   fadeFar="2500" fadeNear="2000"                     script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="c3"    DisplayName="Rifts"                        color="E44949" defaultToggle="0" fadeFar="2500" fadeNear="2000"/>
       <MarkerCategory   name="c4"    DisplayName="1-orb Pull"                   color="a44de8" defaultToggle="0" fadeFar="2500" fadeNear="2000"/>
     </MarkerCategory>
       <MarkerCategory   name="W3_B3" DisplayName="Twisted Castle">
         <MarkerCategory name="c1"    DisplayName="1st Button Skip"                                                                                                               mapVisibility="0" minimapVisibility="0"/>
         <MarkerCategory name="c2"    DisplayName="U-Turn Button Skip"                                                                                                            mapVisibility="0" minimapVisibility="0"/>
-        <MarkerCategory name="c3"    DisplayName="Buttons"                      color="d600d6"                                                   iconSize="0.75"                 mapDisplaySize="33"/>
-        <MarkerCategory name="c4"    DisplayName="Button Paths"                 color="d600d6"                                                   iconSize="0.5"                  mapVisibility="0" minimapVisibility="0"/>
+        <MarkerCategory name="c3"    DisplayName="Buttons"                      color="d600d6"                                                     iconSize="0.75"               mapDisplaySize="33"/>
+        <MarkerCategory name="c4"    DisplayName="Button Paths"                 color="d600d6" cull="CounterClockwise"                             iconSize="0.5"                mapVisibility="0" minimapVisibility="0"/>
       </MarkerCategory>
     <MarkerCategory     name="W3_B4" DisplayName="Xera">
-      <MarkerCategory   name="c1"    DisplayName="Tanking Locations"            cull="CounterClockwise"          fadeFar="3000" fadeNear="2500"  iconSize="1"     rotate-x="90"  mapDisplaySize="20"/>
+      <MarkerCategory   name="c1"    DisplayName="Tanking Locations"            cull="CounterClockwise"          fadeFar="3000" fadeNear="2500"    iconSize="1"     rotate-x="90"  mapDisplaySize="20"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -451,7 +451,7 @@
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="W4_B4" DisplayName="Deimos">
-      <MarkerCategory   name="c1"    Displayname="Boundary"                                         fadeFar="500"  fadeNear="375"                                        trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
+      <MarkerCategory   name="c1"    Displayname="Boundary"           cull="CounterClockwise"       fadeFar="500"  fadeNear="375"                                        trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
@@ -515,14 +515,14 @@
 <!-- ======================================== HALL OF CHAINS =============================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W5_B1" DisplayName="Soulless Horror">
-      <MarkerCategory   name="c1"    DisplayName="Directions"                      color="aabf9f"    fadeFar="4000" fadeNear="3750"                                 iconSize="1"    rotate-x="90"      mapVisibility="0" minimapVisibility="0" cull="CounterClockwise"/>
+      <MarkerCategory   name="c1"    DisplayName="Directions"                      cull="CounterClockwise" color="aabf9f"    fadeFar="4000" fadeNear="3750" iconSize="1"    rotate-x="90"      mapVisibility="0" minimapVisibility="0"/>
     </MarkerCategory>
-      <MarkerCategory   name="W5_B3" DisplayName="Statues"                                                                          iconFile="Assets/General/dot.png"                                    mapVisibility="0" minimapVisibility="0">
-        <MarkerCategory name="c1"    DisplayName="Broken King"        alpha="0.9"  defaultToggle="0" fadeFar="3500" fadeNear="3000"                                 iconSize="0.75" rotate="180,0,0"                     script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-        <MarkerCategory name="c2"    DisplayName="Statue of Darkness" alpha="0.75" color="dbc339"    fadeFar="3000" fadeNear="2800"                                 iconSize="0.5"  rotate="180,0,-15"                   script-filter="heightFade"/>
+      <MarkerCategory   name="W5_B3" DisplayName="Statues"                                                                iconFile="Assets/General/dot.png"                                    mapVisibility="0" minimapVisibility="0">
+        <MarkerCategory name="c1"    DisplayName="Broken King"        alpha="0.9"  cull="CounterClockwise" defaultToggle="0" fadeFar="3500" fadeNear="3000" iconSize="0.75" rotate="180,0,0"   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+        <MarkerCategory name="c2"    DisplayName="Statue of Darkness" alpha="0.75" cull="CounterClockwise" color="dbc339"    fadeFar="3000" fadeNear="2800" iconSize="0.5"  rotate="180,0,-15" script-filter="heightFade"/>
       </MarkerCategory>
-    <MarkerCategory     name="W5_B4" DisplayName="Dhuum"                                                                                                                                               mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Death AoE"                                         fadeFar="2000" fadeNear="1650" isWall="true"/>
+    <MarkerCategory     name="W5_B4" DisplayName="Dhuum"                                                                                                                                       mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="c1"    DisplayName="Death AoE"                                                                 fadeFar="2000" fadeNear="1650" isWall="true"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
