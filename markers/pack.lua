@@ -3,55 +3,47 @@ HMP.HTcmSim = {}
 HMPphysics = {}
 HMPutility = {}
 Utility = {}
-hmpMaps = {
- --Arbr, Aeth, XJJ,  Kain, Harv, OLC,   CO,  Febe
-  {1428, 1432, 1450, 1451, 1437, 1485, 1515, 1520},
- --EotN, Shvr, KBro, FoJ,  Bone, WoJ,  CWar
-  {1370, 1332, 1346, 1341, 1339, 1359, 1374},
- --LAA,   W1,   W2,   W3,   W4,   W5,   W6,   W7
-  {1155, 1062, 1149, 1156, 1188, 1264, 1303, 1323},
- --AeB, AqR, CMT, Caos, Clf, Deep, MlO, Bos, Fur, Ntmr, Shat, Surf, Reef, Sno, SoO, Peak, SwL, ThR, TwOa, Unc, UnF, UBg, Vol
-  {956, 951, 960, 1164, 952, 1290, 872, 959, 955, 1177, 1205, 1500, 1309, 948, 958, 1384, 949, 957, 1267, 947, 953, 950, 954},
- -- CO,  ToF 
-  {1515, 1520},
-  --AC, 
-  {36, 0}
-}
 Dir = { "scripts/General/", "scripts/Educational/", "scripts/Utility/",
   "scripts/Schedule/", "scripts/Simulation/", "scripts/Compass/" }
+HMP.MapScripts = { --Same format as HMP.Maps
+  -- Aetherblade Fractal ------------------ Aquatic Ruins Fractal ---------------- Captain Mai Trin Fractal ------------- Chaos Fractal ------------------------- Cliffside Fractal -------------------- Deepstone Fractal --------------------- Mistlock Observatory Fractal --------- Molten Boss Fractal ------------------ Molten Furnace Fractal --------------- Nightmare Fractal --------------------- Shattered Observatory Fractal --------- Silent Surf Fractal ------------------- Siren's Reef Fractal ------------------ Snowblind Fractal -------------------- Solid Ocean Fractal ------------------ Sunqua Peak Fractal ------------------- Swampland Fractal -------------------- Thaumanova Reactor Fractal ----------- Twilight Oasis Fractal ---------------- Uncategorized Fractal ---------------- Underground Facility Fractal --------- Urban Battlegrounds Fractal ---------- Volcanic Fractal
+  { {956, {Dir[1] .. "Fractal_Slaying"} }, {951, {Dir[1] .. "Fractal_Slaying"} }, {960, {Dir[1] .. "Fractal_Slaying"} }, {1164, {Dir[1] .. "Fractal_Slaying"} }, {952, {Dir[1] .. "Fractal_Slaying"} }, {1290, {Dir[1] .. "Fractal_Slaying"} }, {872, {Dir[1] .. "Fractal_Slaying"} }, {959, {Dir[1] .. "Fractal_Slaying"} }, {955, {Dir[1] .. "Fractal_Slaying"} }, {1177, {Dir[1] .. "Fractal_Slaying"} }, {1205, {Dir[1] .. "Fractal_Slaying"} }, {1500, {Dir[1] .. "Fractal_Slaying"} }, {1309, {Dir[1] .. "Fractal_Slaying"} }, {948, {Dir[1] .. "Fractal_Slaying"} }, {958, {Dir[1] .. "Fractal_Slaying"} }, {1384, {Dir[1] .. "Fractal_Slaying"} }, {949, {Dir[1] .. "Fractal_Slaying"} }, {957, {Dir[1] .. "Fractal_Slaying"} }, {1267, {Dir[1] .. "Fractal_Slaying"} }, {947, {Dir[1] .. "Fractal_Slaying"} }, {953, {Dir[1] .. "Fractal_Slaying"} }, {950, {Dir[1] .. "Fractal_Slaying"} }, {954, {Dir[1] .. "Fractal_Slaying"} } },
+  -- Lion's Arch Aerodome --------------------------------------- Spirit Vale ----------------------------------------------- W2 ------------ W3 ------------ W4 ------------ W5 ------------ Mythwright Gambit -------------------------------------------- W7
+  { {1155, {Dir[1] .. "LAA-Fade", Dir[1] .. "W6-WeeklyEvent"} }, {1062, {Dir[3] .. "Countdown", Dir[6] .. "W1B4-Compass"} }, {1149, {nil} }, {1156, {nil} }, {1188, {nil} }, {1264, {nil} }, {1303, {Dir[1] .. "W6-WeeklyEvent", Dir[1] .. "W6_B2-Aide"} }, {1323, {nil} } },
+  -- Eye of the North -------------------- Icebrood Construct ------------------ Kodan Brothers ---------------------- Fraenir of Jormag ------------------- Boneskinner ------------------------- Whisper of Jormag ------------------- Cold War (Varina Stormsounder)
+  { {1370, {Dir[4] .. "Icebrood Saga"} }, {1332, {Dir[4] .. "Icebrood Saga"} }, {1346, {Dir[4] .. "Icebrood Saga"} }, {1341, {Dir[4] .. "Icebrood Saga"} }, {1339, {Dir[4] .. "Icebrood Saga"} }, {1359, {Dir[4] .. "Icebrood Saga"} }, {1374, {Dir[4] .. "Icebrood Saga"} } },
+  -- Arborstone ------------------------ Aetherblade Hideout --------------- Xunlai Jade Junkyard -------------- Kaineng Overlook ------------------ Old Lion's Court ------------------ Harvest Temple
+  { {1428, {Dir[4] .. "EoD Strikes"} }, {1432, {Dir[4] .. "EoD Strikes"} }, {1450, {Dir[4] .. "EoD Strikes"} }, {1451, {Dir[4] .. "EoD Strikes"} }, {1485, {Dir[4] .. "EoD Strikes"} }, {1437, {Dir[3] .. "Throw Helper", Dir[3] .. "StrB10_D2_SafeSpot", Dir[3] .. "StrB10_RevGS5", Dir[5] .. "HT-Main", Dir[5] .. "HT-General", Dir[5] .. "HT-Enemies", Dir[5] .. "HT-P1", Dir[5] .. "HT-D1", Dir[5] .. "HT-D2", Dir[5] .. "HT-D3", Dir[5] .. "HT-P2", Dir[5] .. "HT-D4", Dir[5] .. "HT-D4-Practice", Dir[5] .. "HT-D5", Dir[5] .. "HT-P3", Dir[5] .. "HT-D6", Dir[5] .. "HT-P4"} } },
+  -- C-Observatory - Temple of Febe
+  { {1515, {nil} }, {1520, {Dir[1] .. "DP_Adventure"} } },
+  -- Ascalon Cat - blahblah
+  { {36, {nil} }, {0, {nil} } }
+}
 
---We're forced to load this script, else the script console errors out
---due to the, "PackScriptToggle" check below.
+--We're forced to load this script, else the script console errors out due to the, "PackScriptToggle" check below.
 Pack:Require(Dir[3] .. "Storage")
---Info Category Loading
-for i = 1, #hmpMaps do for k = 1, #hmpMaps[i] do if( Mumble.CurrentMap.Id == hmpMaps[i][k] ) then Pack:Require(Dir[1] .. "MenuInfo") break end end end
 
 if(not Mumble.IsAvailable) then Debug:Error("Hero's Pack: Mumble API unavailable, script load aborted.")
 elseif( not GetBool("PackScriptToggle") ) then Debug:Error("Hero's Pack: Main Script loading aborted on user preference.")
 else
-  local map = Mumble.CurrentMap.Id
+  local map, check = Mumble.CurrentMap.Id, false
   
-  -- ========== Fractal Scripts ==========
-  for i = 1, #hmpMaps[4] do if( map == hmpMaps[4][i] ) then Pack:Require(Dir[1] .. "Fractal_Slaying.lua") break end end
-  -- ========== Raid Scripts ==========
-  if( map == hmpMaps[3][1] ) then Pack:Require(Dir[3] .. "Time") Pack:Require(Dir[1] .. "LAA-Fade") Pack:Require(Dir[1] .. "W6-WeeklyEvent") end
-  if( map == hmpMaps[3][2] ) then Pack:Require(Dir[3] .. "Countdown") Pack:Require(Dir[6] .. "W1B4-Compass") end
-  if( map == hmpMaps[3][7] ) then Pack:Require(Dir[3] .. "Time" ) Pack:Require(Dir[1] .. "W6-WeeklyEvent") Pack:Require(Dir[3] .. "Animate") Pack:Require(Dir[1] .. "W6_B2-Aide") end
-  -- ========== End of Dragons' Strike Scripts ==========
-  for i = 1, #hmpMaps[1] do if( map == hmpMaps[1][i] ) then Pack:Require(Dir[3] .. "Time") Pack:Require(Dir[4] .. "EoD Strikes") break end end
-  if( map == hmpMaps[1][5] ) then
-    local files = { { "Throw Helper", "StrB10_D2_SafeSpot" },
-      { "Animate", "Position" },
-      { "HT-Main", "HT-General", "HT-Enemies", "HT-P1", "HT-D1", "HT-D2", "HT-D3", "HT-P2", "HT-D4", "HT-D4-Practice", "HT-D5", "HT-P3", "HT-D6", "HT-P4" },
-    }
-    for i = 1, #files[1] do Pack:Require(Dir[1] .. files[1][i]) end
-    for i = 1, #files[2] do Pack:Require(Dir[3] .. files[2][i]) end
-    for i = 1, #files[3] do Pack:Require(Dir[5] .. files[3][i]) end
+  -- ========== Script Loading ==========
+  for a,maps in ipairs(HMP.MapScripts) do
+    for b,id in ipairs(maps) do
+      if( map == id[1] ) then
+        check = true
+        Pack:Require(Dir[1] .. "MenuInfo") --Info Categories
+        if( id[2][1] ~= nil ) then
+          for c,script in ipairs(id[2]) do
+            Pack:Require(script)
+          end
+        end
+        break
+      end
+    end
+    if( check ) then break end
   end
-  -- ========== Icebrood Saga Strike Scripts ==========
-  for i = 1, #hmpMaps[2] do if( map == hmpMaps[2][i] ) then Pack:Require(Dir[3] .. "Time") Pack:Require(Dir[4] .. "Icebrood Saga") break end end
-  -- ========== Secrets of the Obscure Strike Scripts ==========
-  for i = 1, #hmpMaps[5] do if ( map == hmpMaps[5][2] ) then Pack:Require(Dir[1] .. "DP_Adventure") end end
   
   --For use with the script-filter attribute
   function combatFade(marker) return Mumble.PlayerCharacter.IsInCombat end
