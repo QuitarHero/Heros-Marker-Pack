@@ -1,3 +1,6 @@
+--Dependencies
+Pack:Require("scripts/Utility/Time")
+
 function weeklyW6Event()
   --Time Variable
   local remain = HMPtime.GetUtcTime(14, 27000)

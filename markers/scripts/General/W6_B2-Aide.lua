@@ -1,3 +1,6 @@
+--Dependencies
+Pack:Require(Dir[3] .. "Animate")
+
 HMP.W6B2_Aide = {
   curMarkers = {},
   previewMarkers = World:CategoryByType("HMP.W6_B2.c1.sc0"):GetMarkers(),

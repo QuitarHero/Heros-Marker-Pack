@@ -458,7 +458,8 @@
         <MarkerCategory name="asc1" DisplayName="Normal Mode"                           defaultToggle="0"/>
         <MarkerCategory name="asc2" DisplayName="Challenge Mode"/>
       </MarkerCategory>
-      <MarkerCategory   name="sc2"  DisplayName="Primordus Safe Spot"    alpha="0.75"                     iconFile="Assets/General/empty.png" iconSize="15.70" rotate="0,0,0" tip-description="Shows if you're safe from Primy's Lava Slam.&#xA;• Red: Not Safe.&#xA;• Yellow: Safe but not in melee range.&#xA;• Green: Safe and in melee range."/>
+      <MarkerCategory   name="sc2"  DisplayName="Primordus Safe Spot"    alpha="0.75"                     iconFile="Assets/General/empty.png"  iconSize="15.70" rotate="0,0,0"     tip-description="Shows if you're safe from Primy's Lava Slam.&#xA;• Red: Not Safe.&#xA;• Yellow: Safe but not in melee range.&#xA;• Green: Safe and in melee range."/>
+      <MarkerCategory   name="sc3"  DisplayName="Rev GS5 Range"                      heightOffset="-0.05" iconFile="Assets/Shapes/Rev GS5.png" iconSize="10.42" rotate="180,0,180" tip-description="Shows where to best use Rev's GS5.&#xA;- Located to the Right of the Dragonvoid's hitbox.&#xA;• Red: Bad RNG.&#xA;• Green: Good to use GS5."/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -1063,6 +1064,8 @@
     <POI MapID="1437" xpos="0"       ypos="0"       zpos="0"         GUID="hfVys/oWMkKoUtb/032zWw=="  type="HMP.strikeB10_c99.sc1.asc2" iconSize="9.3"/>
     <!-- ===== Primordus Safe Spot ===== -->
     <POI MapID="1437" xpos="14.375"  ypos="390.173" zpos="-543.570"  GUID="jWwX9IzYeEWK/6ItALBYTw=="  type="HMP.strikeB10_c99.sc2"/>
+    <!-- Revenant GS5 Range Marker -->
+    <POI MapID="1437" xpos="19.5119900635254" ypos="391.723" zpos="-552.495421652472" GUID="DcF/YAFiqkCqPMFkqKPl2A==" type="HMP.strikeB10_c99.sc3"/>
   </POIs>
   
 <!-- ========================================= OLD LION'S COURT ==================================================================================================================================================================== -->

@@ -1,3 +1,15 @@
+--Dependencies
+local dependencies = {
+  {"Animate", "Position"},
+  {"HT-D1", "HT-D2", "HT-D3", "HT-D4", "HT-D4-Practice", "HT-D5", "HT-D6", "HT-Enemies", "HT-General", "HT-P1", "HT-P2", "HT-P3", "HT-P4"}
+}
+local dir = {"scripts/Utility", "scripts/Simulation"}
+for a,table in ipairs(dependencies) do
+  for b,script in ipairs(table) do
+    Pack:Require(dir[a] .. script)
+  end
+end
+
 HMP.HTcmSim = {
   titleMarker = World:MarkerByGuid("OJcRXfwjCke2koxPLreeXg=="),
   track = {

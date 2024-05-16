@@ -3,8 +3,8 @@ HMPphysics.pos = {
   randomXZ = function (vector, r)
     local d, rNumX, rNumY = 0, 0, 0
     repeat
-      rNumX = math.random(vector.X - r, vector.X + r)
-      rNumY = math.random(vector.Y - r, vector.Y + r)
+      rNumX = math.random(vector.X - r, vector.X + r) --+ math.random(1, 998)
+      rNumY = math.random(vector.Y - r, vector.Y + r) --+ math.random(1, 998)
       d = math.sqrt((rNumX - vector.X)^2 + (rNumY - vector.Y)^2)
     until (d <= r)
     return I:Vector3(rNumX, rNumY, vector.Z)

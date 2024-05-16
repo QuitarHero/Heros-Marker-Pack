@@ -1,3 +1,6 @@
+--Dependencies
+Pack:Require("scripts/Utility/Countdown")
+
 HMP.Compass_Sabetha = {
   preview = World:CategoryByType("HMP.W1_B4.c4.sc1"):GetMarkers(),
   pVar = {

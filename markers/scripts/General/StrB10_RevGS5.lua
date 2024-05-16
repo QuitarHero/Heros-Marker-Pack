@@ -31,7 +31,6 @@ HMP.StrB10_RevGS5 = {
 }
 
 local RevGS5, Player = HMP.StrB10_RevGS5, Mumble.PlayerCharacter
-Debug:Watch("Rev GS5 Variables", HMP.StrB10_RevGS5)
 
 --Updates the category track variable and sets the marker's texture based on user preference
 local function UpdateCat()

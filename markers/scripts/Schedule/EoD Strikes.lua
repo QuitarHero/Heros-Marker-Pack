@@ -1,3 +1,6 @@
+--Dependencies
+Pack:Require("scripts/Utility/Time")
+
 HMP.dailyCycle = {
   incompleteDaily = World:MarkerByGuid("SBNx62U+Wk+R/HzTuahvRg=="),
   completeDaily   = World:MarkerByGuid("St08I1dXk0uOpOmNAsPDwg=="),
