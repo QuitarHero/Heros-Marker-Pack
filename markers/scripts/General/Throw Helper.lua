@@ -18,5 +18,4 @@ local function tick_revHammer(gameTime)
 end
 
 Event:OnTick(tick_revHammer)
-Debug:Print("HMP: Harvest Temple Hammer Script Loaded.")
 --Thanks to Noro.2879 for assisting me in the rotation math

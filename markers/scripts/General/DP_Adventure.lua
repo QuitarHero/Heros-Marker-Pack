@@ -117,7 +117,7 @@ local function CreatePool(amt)
       -- If 'i' == 1 (when we create a new Pool), we get a random position around the Player.
       -- We only want to do this for every individual Pool we make; not every loop iteration.
       if( i % 5 == 1 ) then
-        Pools.rPos[math.ceil(i/5)] = HMPphysics.pos.randomXZ(Player.Position, 2)
+        Pools.rPos[math.ceil(i/5)] = Utility.Position.randomXZ(Player.Position, 2)
         Pools.rPos[math.ceil(i/5)] = (Pools.rPos[math.ceil(i/5)] - Player.Position)
       end
       Pools.Markers[i] = Pack:CreateMarker(attr)

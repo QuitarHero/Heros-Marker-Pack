@@ -1,3 +1,6 @@
+--Dependencies
+Pack:Require("scripts/Utility/Math")
+
 local function GetVelocity(a1, a2, duration, time)
   local v = a1 - ( ( a1 - a2 ) / duration ) * time
   return v
@@ -82,18 +85,6 @@ MoveOrb = function(startVector, centerVector, duration, time, mod, direction)
   end
   return I:Vector3(x, y, startVector.Z)
 end
-
-
-
-}
-
-Utility.Math = {
-  --Gets the velocity from 'start' to 'finish'.
-  --Assumes start/finish to be Vector3 coordinate (vector.X for example)
-  GetVelocity = function(time, duration, start, finish)
-    return start - ((start - finish) / duration) * time
-  end,
-  
 }
 
 Utility.Animate = {
@@ -139,6 +130,21 @@ Utility.Animate = {
     end
   end,
   
+  FixedRotate = {
+    --Camera is a 'boolean'; true for PlayerCamera, false for PlayerCharacter
+    X = function(marker, camera)
+      local mumble = nil
+      if(camera) then mumble = Mumble.PlayerCamera.Forward else mumble = Mumble.PlayerCharacter.Forward end
+      marker:SetRotX(math.atan2(mumble.Y, mumble.X) - (math.pi/2))
+    end,
+    --Camera is a 'boolean'; true for PlayerCamera, false for PlayerCharacter
+    Z = function(marker, camera)
+      local mumble = nil
+      if(camera) then mumble = Mumble.PlayerCamera.Forward else mumble = Mumble.PlayerCharacter.Forward end
+      marker:SetRotZ(math.atan2(mumble.Y, mumble.X) - (math.pi/2))
+    end
+  },
+  
   --Moves a marker from 'startVector' to 'endVector' over 'duration' while 'time' is between 'start' and 'start + duration'
   --Type '1' is straight line, '2' arcs marker 90 degrees, '3' arcs marker 180 degrees
   MoveStraight = function(time, start, duration, startVector, endVector, type, peak)
@@ -169,9 +175,6 @@ Utility.Animate = {
     if(time > start and time <= start + duration) then
       local currentTime = time - start
       local angle = startAngle * math.pi / 180
-      
-      
-      
       --local mod = math.atan2((startVector.Y - centerVector.Y), (startVector.X - centerVector.X)) - math.atan2((centerVector.Y - radius), (centerVector.X - radius))
       local t = ((currentTime / duration) * (math.pi * 2)) + angle
       local x, y, sine, cosine = 0, 0, math.sin(t)*radius, math.cos(t)*radius

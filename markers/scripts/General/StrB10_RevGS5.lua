@@ -65,11 +65,11 @@ local function tick_RevGS5_Area(gameTime)
     --When the marker is visible, we begin to care about changing it's color
     if( RevGS5.Marker.InGameVisibility ) then
       -- M A T H
-      RevGS5.Redline.OverlapArea = HMPutility.math.OverlapArea(9.143, 12.98, RevGS5.Redline.Vector)
-      RevGS5.Redline.Lune1 = HMPutility.math.Lune1(9.143, 12.98, RevGS5.Redline.Vector)
+      RevGS5.Redline.OverlapArea = Utility.Math.OverlapArea(9.143, 12.98, RevGS5.Redline.Vector)
+      RevGS5.Redline.Lune1 = Utility.Math.Lune1(9.143, 12.98, RevGS5.Redline.Vector)
       RevGS5.Center.Vector = (Player.Position - RevGS5.Center.Hitbox):Length()
-      RevGS5.Center.OverlapArea = HMPutility.math.OverlapArea(9.143, 36.9, RevGS5.Center.Vector)
-      RevGS5.Center.Lune1 = HMPutility.math.Lune1(9.143, 36.9, RevGS5.Center.Vector)
+      RevGS5.Center.OverlapArea = Utility.Math.OverlapArea(9.143, 36.9, RevGS5.Center.Vector)
+      RevGS5.Center.Lune1 = Utility.Math.Lune1(9.143, 36.9, RevGS5.Center.Vector)
       local percent = RevGS5.Redline.OverlapArea / (RevGS5.Redline.OverlapArea + RevGS5.Redline.Lune1)
       
       --If the probability is high enough for GS5 to get 5 or more random impacts, we give the marker a gradient green.
