@@ -3,7 +3,7 @@ Utility.Misc = {
   ResetTable = function(table, value)
     for _, t in ipairs(table) do
       for i = 1, #t do
-        t[i] = 0
+        t[i] = value
       end
     end
   end,

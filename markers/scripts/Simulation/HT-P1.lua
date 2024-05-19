@@ -35,7 +35,6 @@ local jl = P1.jormagLightning
 
 function Reset_HTcm_P1() for k,v in ipairs(jl.markers) do v.InGameVisibility = false v.Alpha = 0 end end
   
-
 --Lightning of Jormag
 function HTcm_P1_LightningOfJormag(curTime, table, index)
   --Resetting variables
