@@ -6,12 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: vimtor/action-zip@v1.1
+      - uses: vimtor/action-zip@v1.2
         with:
           files: /markers
           recursive: true
           dest: Hero.Blish.Pack.zip
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Heros-Marker-Pack-Artifact
           path: ${{ github.workspace }}/Hero.Blish.Pack.zip
