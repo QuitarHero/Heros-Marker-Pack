@@ -5,9 +5,9 @@
       <MarkerCategory name="sc1"    DisplayName="Phase 1"                                                                iconFile="Assets/General/dot1.png"/>
       <MarkerCategory name="sc2"    DisplayName="Phase 2"                                                                iconFile="Assets/General/dot2.png"/>
     </MarkerCategory>
-    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"         cull="CounterClockwise"                                iconFile="Assets/Strikes/Slaying/IC.png"                                  mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory name="StrB1_c3" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                          mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="sc1"    DisplayName="Cave Entrance"   alpha="0.9"             fadeFar="3000" fadeNear="2750"                                          iconSize="2.5" rotate="80,0,255"/>
-      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                              fadeFar="950"  fadeNear="800"                                           iconSize="2"   rotate="95,0,32"/>
+      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                                                                                                      iconSize="2"   rotate="95,0,32"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -30,48 +30,53 @@
     <POI MapID="1332" xpos="-771.402" ypos="158.096" zpos="-251.962" GUID="mCMSe49v6kaL+q++1jLH3A==" type="HMP.StrB1_c1.sc2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1332" xpos="-776.661" ypos="158.096" zpos="-238.666" GUID="nOtLOKT+A0aMDHkjYISRgA==" type="HMP.StrB1_c1.sc2" alpha="0.35"   iconFile="Assets/General/dot-border.png"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1332" xpos="-781.270" ypos="85.4864" zpos="-615.795" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3.sc1"/>
-    <POI MapID="1332" xpos="-796.919" ypos="160.790" zpos="-282.519" GUID="HMP=STR=B1=C3"            type="HMP.StrB1_c3.sc2"/>
+    <POI MapID="1332" xpos="-781.270" ypos="85.4864" zpos="-615.795" GUID="D7Zt1MJt8U+0iOrxOMef3g==" type="HMP.StrB1_c3.sc1"                              iconFile="Assets/Strikes/Slaying/IC.png"/>
+    <POI MapID="1332" xpos="-781.270" ypos="71.4864" zpos="-615.795" GUID="DhNjqgFU0kK7xoDYC3nnzg==" type="HMP.StrB1_c3.sc1"                              iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
+    
+    <POI MapID="1332" xpos="-796.919" ypos="160.790" zpos="-282.519" GUID="I9YONiTfnE22ebTCxSnvmg==" type="HMP.StrB1_c3.sc2" fadeFar="850" fadeNear="750" iconFile="Assets/Strikes/Slaying/IC.png"/>
+    <POI MapID="1332" xpos="-796.919" ypos="146.790" zpos="-282.519" GUID="OkGII8N1zE6toXF7AXSgqQ==" type="HMP.StrB1_c3.sc2" fadeFar="950" fadeNear="850" iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= FALLEN VOICE / CLAW ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"       fadeFar="700"  fadeNear="575"  texture="Assets/Boundary/RedLine.png"    trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;dsappears on Combat Start"/>
-    <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions" fadeFar="4000" fadeNear="3750"                                                       rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB2_c3" DisplayName="Slaying"        fadeFar="800"  fadeNear="650"  iconFile="Assets/Strikes/Slaying/KB.png" iconSize="1.5" rotate="96,0,155" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c1" DisplayName="Boundary"                               fadeFar="700"  fadeNear="575"  texture="Assets/Boundary/RedLine.png"    trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;dsappears on Combat Start"/>
+    <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions"                         fadeFar="4000" fadeNear="3750"                                                         rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c3" DisplayName="Slaying"        cull="CounterClockwise" fadeFar="800"  fadeNear="650"                                           iconSize="1.4" rotate="96,0,155" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Assets/Boundary/StrB2-Bound.trl" animSpeed="0" alpha="0.75"                   type="HMP.StrB2_c1"/>
+    <Trail trailData="Assets/Boundary/StrB2-Bound.trl" animSpeed="0" alpha="0.75"                 type="HMP.StrB2_c1"/>
     <!-- ========== Boss Positions ========== -->
     <POI MapID="1346" xpos="-8.690" ypos="178.538" zpos="-5.287"  GUID="L3sEHR2sAkKFOhct1KhGyg==" type="HMP.StrB2_c2" iconFile="Assets/Strikes/pos1.png" iconSize="0.75" rotate-z="275"/>
     <POI MapID="1346" xpos="16.201" ypos="178.112" zpos="22.438"  GUID="WGt9DHoBdECZoamIeyJXkw==" type="HMP.StrB2_c2" iconFile="Assets/Strikes/pos2.png" iconSize="1.25" rotate-z="177"/>
     <POI MapID="1346" xpos="43.213" ypos="178.338" zpos="-1.512"  GUID="FaYhk7qPsE6w0acLCb7UHQ==" type="HMP.StrB2_c2" iconFile="Assets/Strikes/pos3.png" iconSize="1.25" rotate-z="87"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1346" xpos="65.859" ypos="179.483" zpos="-26.838" GUID="HMP=STR=B2=C3"            type="HMP.StrB2_c3"/>
+    <POI MapID="1346" xpos="65.859" ypos="179.483" zpos="-26.838" GUID="dRYbC3QTvECx6asow5KknQ==" type="HMP.StrB2_c3" iconFile="Assets/Strikes/Slaying/KB.png"/>
+    <POI MapID="1346" xpos="65.859" ypos="165.483" zpos="-26.838" GUID="YTQu5jUg+0SAikOG52gvew==" type="HMP.StrB2_c3" iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
   </POIs>
 
 <!-- ========================================= FRAENIR OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="800"  fadeNear="675"  texture="Assets/Boundary/RedLine.png"     trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     <MarkerCategory name="StrB3_c2" DisplayName="Stack Spots" alpha="0.6" color="34f1fa" fadeFar="4000" fadeNear="3750" iconFile="Assets/General/dot.png"         iconSize="0.5"  rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB3_c3" DisplayName="Slaying"     cull="CounterClockwise"    fadeFar="1000" fadeNear="850"  iconFile="Assets/Strikes/Slaying/FoJ.png" iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB3_c3" DisplayName="Slaying"     cull="CounterClockwise"    fadeFar="1000" fadeNear="850"                                            iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
     <Trail trailData="Assets/Boundary/StrB3-Bound.trl" animSpeed="0" alpha="0.75"                  type="HMP.StrB3_c1"/>
     <!-- ========== IC Markers ========== -->
-    <POI MapID="1341" xpos="16.215" ypos="178.325" zpos="-2.602" GUID="0JlsA3MrVkadrzakJXHcKw==" type="HMP.StrB3_c2"/>
-    <POI MapID="1341" xpos="11.345" ypos="178.325" zpos="1.620"  GUID="B8UNMpf3y0aMfaaj07+PJg==" type="HMP.StrB3_c2"/>
+    <POI MapID="1341" xpos="16.215" ypos="178.325" zpos="-2.602"  GUID="0JlsA3MrVkadrzakJXHcKw==" type="HMP.StrB3_c2"/>
+    <POI MapID="1341" xpos="11.345" ypos="178.325" zpos="1.620"   GUID="B8UNMpf3y0aMfaaj07+PJg==" type="HMP.StrB3_c2"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1341" xpos="71.854" ypos="180.871" zpos="-31.525" GUID="HMP=STR=B3=C3"           type="HMP.StrB3_c3"/>
+    <POI MapID="1341" xpos="71.854" ypos="180.871" zpos="-31.525" GUID="+NP39xQHIECbPsO9PYsiUw==" type="HMP.StrB3_c3" iconFile="Assets/Strikes/Slaying/FoJ.png"/>
+    <POI MapID="1341" xpos="71.854" ypos="166.871" zpos="-31.525" GUID="yaD8OGBu3UuGacqkPLeVhQ==" type="HMP.StrB3_c3" iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
   </POIs>
 
 <!-- ========================================= BONESKINNER ================================================================================================================================================================= -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"                                         trailScale="1.5"              mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory name="StrB4_c2" DisplayName="Torches"  color="66A144" cull="CounterClockwise" fadeFar="4000" fadeNear="3750"                                        iconSize="1" rotate-x="90"/>
-    <MarkerCategory name="StrB4_c3" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1200" fadeNear="1050" iconFile="Assets/Strikes/Slaying/BS.png" iconSize="2" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"  trailScale="1.5"              mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB4_c2" DisplayName="Torches"  color="66A144" cull="CounterClockwise" fadeFar="4000" fadeNear="3750" iconSize="1" rotate-x="90"/>
+    <MarkerCategory name="StrB4_c3" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1200" fadeNear="1050" iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -84,41 +89,43 @@
     <POI MapID="1339" xpos="3.416"   ypos="179.711" zpos="-28.427" GUID="wTquuH1PdkO8Vvld1UScaQ==" type="HMP.StrB4_c2" iconFile="Assets/General/5.png" rotate-z="-25" tip-name="5/6 are destroyed&#xA;third with low DPS"/>
     <POI MapID="1339" xpos="32.281"  ypos="179.845" zpos="21.882"  GUID="I9wCdHuBF0mbDqQEkpxhpg==" type="HMP.StrB4_c2" iconFile="Assets/General/6.png" rotate-z="145" tip-name="5/6 are destroyed&#xA;third with low DPS"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1339" xpos="71.854"  ypos="180.903" zpos="-31.525" GUID="HMP=STR=B4=C3"            type="HMP.StrB4_c3"/>
+    <POI MapID="1339" xpos="71.854"  ypos="180.903" zpos="-31.525" GUID="TOvCGnLtDEGax15Od7qVdQ==" type="HMP.StrB4_c3" iconFile="Assets/Strikes/Slaying/BS.png"/>
+    <POI MapID="1339" xpos="71.854"  ypos="166.903" zpos="-31.525" GUID="/kEM8LUFnk2aamRPmL6Tjw==" type="HMP.StrB4_c3" iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB5_c1" DisplayName="Directions" color="1fc4ed" cull="CounterClockwise" fadeFar="2500" fadeNear="2250"                                          iconSize="1"   rotate-x="90"/>
-    <MarkerCategory name="StrB5_c2" DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="1250" fadeNear="1100"  iconFile="Assets/Strikes/Slaying/WoJ.png" iconSize="1.5" rotate="140,0,85" mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB5_c3" DisplayName="Max Melee"  defaultToggle="0"                      fadeFar="300"  fadeNear="250"                                           trailScale="1.5">
+    <MarkerCategory name="StrB5_c1" DisplayName="Directions" color="1fc4ed" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="1"   rotate-x="90"/>
+    <MarkerCategory name="StrB5_c2" DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="1250" fadeNear="1100" iconSize="1.5" rotate="140,0,85" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB5_c3" DisplayName="Max Melee"  defaultToggle="0"                      fadeFar="300"  fadeNear="250"  trailScale="1.5">
       <MarkerCategory name="sc1"    DisplayName="Phase 1"/>
       <MarkerCategory name="sc2"    DisplayName="Phases 2/3"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Directions ========== -->
-    <POI MapID="1359" xpos="2.320"   ypos="54.296" zpos="66.525"  GUID="mUuPysgaDUKNgxz3vs3POQ==" type="HMP.StrB5_c1" iconFile="Assets/General/n.png" rotate-z="170" tip-name="North"/>
-    <POI MapID="1359" xpos="1.285"   ypos="54.296" zpos="11.692"  GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="HMP.StrB5_c1" iconFile="Assets/General/s.png"                tip-name="South"/>
-    <POI MapID="1359" xpos="27.831"  ypos="54.296" zpos="39.954"  GUID="jM1djHOvL0qKeJEqoscURQ==" type="HMP.StrB5_c1" iconFile="Assets/General/e.png" rotate-z="90"  tip-name="East"/>
-    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777"  GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1" iconFile="Assets/General/w.png" rotate-z="-90" tip-name="West"/>
+    <POI MapID="1359" xpos="2.320"   ypos="54.296" zpos="66.525"  GUID="mUuPysgaDUKNgxz3vs3POQ==" type="HMP.StrB5_c1"     iconFile="Assets/General/n.png"             rotate-z="170" tip-name="North"/>
+    <POI MapID="1359" xpos="1.285"   ypos="54.296" zpos="11.692"  GUID="uCkpIqw1OkutzJ5j2U4+Bg==" type="HMP.StrB5_c1"     iconFile="Assets/General/s.png"                            tip-name="South"/>
+    <POI MapID="1359" xpos="27.831"  ypos="54.296" zpos="39.954"  GUID="jM1djHOvL0qKeJEqoscURQ==" type="HMP.StrB5_c1"     iconFile="Assets/General/e.png"             rotate-z="90"  tip-name="East"/>
+    <POI MapID="1359" xpos="-27.287" ypos="54.296" zpos="39.777"  GUID="W95eoXEAJkWp5ExvtG7IYg==" type="HMP.StrB5_c1"     iconFile="Assets/General/w.png"             rotate-z="-90" tip-name="West"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1359" xpos="10.667"  ypos="68.310" zpos="-42.808" GUID="HMP=STR=B5=C2"            type="HMP.StrB5_c2"/>
+    <POI MapID="1359" xpos="10.667"  ypos="68.310" zpos="-42.808" GUID="z3cNrJbGg0WYeMLd6nezJw==" type="HMP.StrB5_c2"     iconFile="Assets/Strikes/Slaying/WoJ.png"/>
+    <POI MapID="1359" xpos="10.667"  ypos="54.310" zpos="-42.808" GUID="PsQI8HPQw0KyoNODm0n4kA==" type="HMP.StrB5_c2"     iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
     <!-- ========== Max Melee ========== -->
-    <Trail trailData="Assets/Strikes/B5-atkRange_max_1.trl" alpha="0.35" animSpeed="0"              type="HMP.StrB5_c3.sc1" texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Strikes/B5-atkRange_max_2.trl" alpha="0.6"  animSpeed="0"              type="HMP.StrB5_c3.sc2" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B5-atkRange_max_1.trl" alpha="0.35" animSpeed="0"            type="HMP.StrB5_c3.sc1" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B5-atkRange_max_2.trl" alpha="0.6"  animSpeed="0"            type="HMP.StrB5_c3.sc2" texture="Assets/Boundary/RedLine.png"/>
   </POIs>
   
 <!-- ========================================= COLD WAR ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="800"  fadeNear="700"                                         trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75"                   fadeFar="5000" fadeNear="4750"                                        iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
-    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750"                                        iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconFile="Assets/Strikes/Slaying/CW.png" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="800"  fadeNear="700"  trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75"                   fadeFar="5000" fadeNear="4750" iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
+    <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0"/>
  </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Assets/Boundary/StrB6-Bound.trl" animSpeed="0" alpha="0.75"                    type="HMP.StrB6_c1"                texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Boundary/StrB6-Bound.trl" animSpeed="0" alpha="0.75"                  type="HMP.StrB6_c1"                texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Boss Spawn ========== -->
     <POI MapID="1374" xpos="34.900"  ypos="17.272" zpos="-89.992"  GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2" color="27b0ae" iconFile="Assets/General/dot.png"/>
     <POI MapID="1374" xpos="34.900"  ypos="17.272" zpos="-89.992"  GUID="NqkE/x12RkugIEwXPWDWig==" type="HMP.StrB6_c2" alpha="0.5"    iconFile="Assets/General/dot-border.png"/>
@@ -126,33 +133,34 @@
     <POI MapID="1374" xpos="29.084"  ypos="18.002" zpos="-51.671"  GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3"                iconFile="Assets/General/dot.png"/>
     <POI MapID="1374" xpos="29.084"  ypos="18.002" zpos="-51.671"  GUID="vRwF8BloGkmF4RZY0fBsbA==" type="HMP.StrB6_c3" alpha="0.8"    iconFile="Assets/General/dot-border.png"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1374" xpos="128.446" ypos="20.980" zpos="-142.672" GUID="HMP=STR=B6=C4"            type="HMP.StrB6_c4"/>
+    <POI MapID="1374" xpos="128.446" ypos="20.980" zpos="-142.672" GUID="UWRk1J+HJ0KAU731tpNy9Q==" type="HMP.StrB6_c4"                iconFile="Assets/Strikes/Slaying/CW.png"/>
+    <POI MapID="1374" xpos="128.446" ypos="6.980"  zpos="-142.672" GUID="JouYt+sqgEuJ4SCzB6RQqQ==" type="HMP.StrB6_c4"                iconFile="Assets/Strikes/Slaying/IbsBG.png" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= AETHERBLADE HIDEOUT (Captain Mai Trin & Echo of Scarlet) ==================================================================================================================================================================== -->
   <MarkerCategory       name="HMP"       DisplayName="Hero's Pack">
-    <MarkerCategory     name="StrB7_c1"  DisplayName="Scarlet Phantasms"                                                                                                                                       minimapVisibility="0" mapVisibility="0">
+    <MarkerCategory     name="StrB7_c1"  DisplayName="Scarlet Phantasms"                                                                                                         minimapVisibility="0" mapVisibility="0">
       <MarkerCategory   name="sc1"       DisplayName="DPS Phantasm">
-        <MarkerCategory name="asc1"      DisplayName="Spawn Point"        alpha="0.5"  color="ff0000"                                                                       iconSize="0.55" rotate="180,0,130"/>
-        <MarkerCategory name="asc2"      DisplayName="Text"               alpha="0.75" cull="CounterClockwise"                                                              iconSize="0.65" rotate="90,0,125"/>
+        <MarkerCategory name="asc1"      DisplayName="Spawn Point"        alpha="0.5"  color="ff0000"                                         iconSize="0.55" rotate="180,0,130"/>
+        <MarkerCategory name="asc2"      DisplayName="Text"               alpha="0.75" cull="CounterClockwise"                                iconSize="0.65" rotate="90,0,125"/>
       </MarkerCategory>
       <MarkerCategory   name="sc2"       DisplayName="Defiant Phantasm">
-        <MarkerCategory name="asc1"      DisplayName="Spawn Point"        alpha="0.5"  color="00ffee"                                                                       iconSize="0.55" rotate="175,0,-55"/>
-        <MarkerCategory name="asc2"      DisplayName="Text"               alpha="0.75" cull="CounterClockwise"                                                              iconSize="0.65" rotate="90,0,-55"/>
+        <MarkerCategory name="asc1"      DisplayName="Spawn Point"        alpha="0.5"  color="00ffee"                                         iconSize="0.55" rotate="175,0,-55"/>
+        <MarkerCategory name="asc2"      DisplayName="Text"               alpha="0.75" cull="CounterClockwise"                                iconSize="0.65" rotate="90,0,-55"/>
       </MarkerCategory>
-      <MarkerCategory   name="sc3"       DisplayName="Orb/Line Phantasms" alpha="0.6"  color="#faac05"                                      iconFile="Assets/General/dot.png" iconSize="0.35" rotate-x="180"/>
+      <MarkerCategory   name="sc3"       DisplayName="Orb/Line Phantasms" alpha="0.6"  color="#faac05"      iconFile="Assets/General/dot.png" iconSize="0.35" rotate-x="180"/>
     </MarkerCategory>
-    <MarkerCategory     name="StrB7_c2"  DisplayName="Safe Spots"         alpha="0.75"                                                                                      iconSize="0.5"  rotate-x="180"     minimapVisibility="0" mapVisibility="0">
+    <MarkerCategory     name="StrB7_c2"  DisplayName="Safe Spots"         alpha="0.75"                                                        iconSize="0.5"  rotate-x="180"     minimapVisibility="0" mapVisibility="0">
       <MarkerCategory   name="sc1"       DisplayName="North Spot"/>
       <MarkerCategory   name="sc2"       DisplayName="East Spot"/>
       <MarkerCategory   name="sc3"       DisplayName="South Spot"/>
     </MarkerCategory>
-    <MarkerCategory     name="StrB7_c3"  DisplayName="Attack Ranges"                                                                                                                                           minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory   name="sc1"       DisplayName="Hitbox"                                                  fadeFar="200"  fadeNear="150"                                 trailScale="3"/>
-      <MarkerCategory   name="sc2"       DisplayName="Max Melee"                                               fadeFar="3000" fadeNear="2500"                                trailScale="2"/>
+    <MarkerCategory     name="StrB7_c3"  DisplayName="Attack Ranges"                                                                                                             minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory   name="sc1"       DisplayName="Hitbox"                                                  fadeFar="200"  fadeNear="150"  trailScale="3"/>
+      <MarkerCategory   name="sc2"       DisplayName="Max Melee"                                               fadeFar="3000" fadeNear="2500" trailScale="2"/>
     </MarkerCategory>
-    <MarkerCategory     name="StrB7_c4"  DisplayName="Boundary"                        defaultToggle="0"       fadeFar="600"  fadeNear="450"                                 trailScale="1.5"                  minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Only relevant after a wipe&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950"  fadeNear="800"                                 iconSize="1.75" rotate="90,0,225"                                         script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory     name="StrB7_c4"  DisplayName="Boundary"                        defaultToggle="0"       fadeFar="600"  fadeNear="450"  trailScale="1.5"                   minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Only relevant after a wipe&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950"  fadeNear="800"  iconSize="1.75" rotate="90,0,225"                                          script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     
   </MarkerCategory>
   
@@ -186,33 +194,33 @@
     <POI MapID="1432" xpos="65.431" ypos="44.185" zpos="33.001" GUID="rc2EL2uyW0OuLTCWrlfIkg==" type="HMP.StrB7_c2.sc3"      color="077100" iconFile="Assets/General/dot.png"/>
     <POI MapID="1432" xpos="65.431" ypos="44.185" zpos="33.001" GUID="rc2EL2uyW0OuLTCWrlfIkg==" type="HMP.StrB7_c2.sc3"      color="b89009" iconFile="Assets/General/dot-border.png"/>
     <!-- ========== Attack Range ========== -->
-    <Trail trailData="Assets/Strikes/B7-hitbox.trl"       alpha="0.6" animSpeed="0"               type="HMP.StrB7_c3.sc1"                     texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Strikes/B7-atkRange_max.trl" alpha="0.6" animSpeed="0"               type="HMP.StrB7_c3.sc2"                     texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B7-hitbox.trl"       alpha="0.6" animSpeed="0"             type="HMP.StrB7_c3.sc1"                     texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B7-atkRange_max.trl" alpha="0.6" animSpeed="0"             type="HMP.StrB7_c3.sc2"                     texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Assets/Boundary/StrB7-Bound.trl"    alpha="0.9" animSpeed="0"               type="HMP.StrB7_c4"                         texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Boundary/StrB7-Bound.trl"    alpha="0.9" animSpeed="0"             type="HMP.StrB7_c4"                         texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1432" xpos="40.365" ypos="46.218" zpos="51.608"  GUID="HMP=STRB7=c5"            type="HMP.StrB7_c5"                         iconFile="Assets/Strikes/Slaying/AH.png"/>
-    
+    <POI MapID="1432" xpos="40.365" ypos="46.218" zpos="51.608" GUID="WJ4xrqAgik6I743o2zyzcA==" type="HMP.StrB7_c5" iconFile="Assets/Strikes/Slaying/AH.png"/>
+    <POI MapID="1432" xpos="40.365" ypos="32.218" zpos="51.608" GUID="5cLx6b5u/0uu6SR6ZUtXKw==" type="HMP.StrB7_c5" iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= XUNLAI JADE JUNKYARD (Ankka) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-      <MarkerCategory   name="strB8_c1" DisplayName="Boundary"                                     cull="CounterClockwise" fadeFar="1150" fadeNear="100"                                  trailScale="1.5"               minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory   name="strB8_c2" DisplayName="Boss Spawns"       alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Assets/General/dot.png" iconSize="0.5"  rotate-x="180" minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory   name="strB8_c1" DisplayName="Boundary"                                     cull="CounterClockwise" fadeFar="1150" fadeNear="100"                                    trailScale="1.5"                  minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory   name="strB8_c2" DisplayName="Boss Spawns"       alpha="0.9" color="077100" cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Assets/General/dot.png" iconSize="0.5"  rotate-x="180"    minimapVisibility="0" mapVisibility="0">
         <MarkerCategory name="sc1" DisplayName="Dump Site 3"/>
         <MarkerCategory name="sc2" Displayname="Dump Site 2"/>
         <MarkerCategory name="sc3" DisplayName="Dump Site 1"/>
       </MarkerCategory>
-      <MarkerCategory   name="strB8_c3" DisplayName="Reanimated Spites" alpha="0.8"                cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Assets/General/dot.png" iconSize="0.5"  rotate-x="180" tip-name="CC Enemies" minimapVisibility="1" mapVisibility="1" mapDisplaySize="10">
+      <MarkerCategory   name="strB8_c3" DisplayName="Reanimated Spites" alpha="0.8"                cull="CounterClockwise" fadeFar="3500" fadeNear="3250" iconFile="Assets/General/dot.png" iconSize="0.5"  rotate-x="180"    minimapVisibility="1" mapVisibility="1" mapDisplaySize="10" tip-name="CC Enemies">
         <MarkerCategory name="sc1" DisplayName="Dump Site 2"/>
         <MarkerCategory name="sc2" DisplayName="Dump Site 1"/>
       </MarkerCategory>
-      <MarkerCategory name="strB8_c4" DisplayName="Slaying"                                        cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                 iconSize="2"    rotate="90,0,225" minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory name="strB8_c4" DisplayName="Slaying"                                        cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                   iconSize="2"    rotate="90,0,225" minimapVisibility="0" mapVisibility="0"/>
   </MarkerCategory>
   
   <POIs>
     <!-- ========== Boundary ========== -->
-    <Trail trailData="Assets/Boundary/StrB8-Bound.trl"                 alpha="1" animSpeed="0"        type="HMP.strB8_c1"     texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Boundary/StrB8-Bound.trl" alpha="1" animSpeed="0"                      type="HMP.strB8_c1"     texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Boss Spawns ========== -->
     <POI MapID="1450" xpos="-100.121" ypos="90.1249" zpos="1.696"   GUID="4dee/PKOr0qpbNfD8vBPzQ==" type="HMP.strB8_c2.sc1"/>
     <POI MapID="1450" xpos="53.688"   ypos="116.172" zpos="32.763"  GUID="rH+Ia+Quv0aSKsowmPhytw==" type="HMP.strB8_c2.sc2"/>
@@ -225,8 +233,10 @@
     <POI MapID="1450" xpos="-44.588"  ypos="157.411" zpos="108.224" GUID="GknPNGrkgU6X048W7KnjHw==" type="HMP.strB8_c3.sc2"/>
     <POI MapID="1450" xpos="-41.937"  ypos="157.431" zpos="151.549" GUID="GqzUtrHza0yV0LLfWUVbLw==" type="HMP.strB8_c3.sc2" alpha="1"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="HMP=STRB8=c4"             type="HMP.strB8_c4"     iconFile="Assets/Strikes/Slaying/XJJ-D.png" schedule="0 35 0/2 * * *" schedule-duration="65"/>
-    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="HMP=STRB8=c4"             type="HMP.strB8_c4"     iconFile="Assets/Strikes/Slaying/XJJ-N.png" schedule="0 40 1/2 * * *" schedule-duration="55"/>
+    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="Q/74eVMEM0S85L3UC7NjtQ==" type="HMP.strB8_c4"     iconFile="Assets/Strikes/Slaying/XJJ-D.png" schedule="0 35 0/2 * * *" schedule-duration="65"/>
+    <POI MapID="1450" xpos="-167.247" ypos="117.882" zpos="-44.798" GUID="qYAs+pYjYkOq18qjoRTI9A==" type="HMP.strB8_c4"     iconFile="Assets/Strikes/Slaying/EodBG.png" schedule="0 35 0/2 * * *" schedule-duration="65" heightOffset="15.5"/>
+    <POI MapID="1450" xpos="-167.247" ypos="131.882" zpos="-44.798" GUID="UTBRETa7ykSXOj2SvPk7aw==" type="HMP.strB8_c4"     iconFile="Assets/Strikes/Slaying/XJJ-N.png" schedule="0 40 1/2 * * *" schedule-duration="55"/>
+    <POI MapID="1450" xpos="-167.247" ypos="117.882" zpos="-44.798" GUID="xOWalP0JWUG+f6hV7AOM9w==" type="HMP.strB8_c4"     iconFile="Assets/Strikes/Slaying/EodBG.png" schedule="0 40 1/2 * * *" schedule-duration="55" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= KAINENG OVERLOOK (Minister Li and his Crew) ==================================================================================================================================================================== -->
@@ -329,7 +339,8 @@
     <POI MapID="1451" xpos="-586.084" ypos="265.186" zpos="-361.495" GUID="FygagMGKo0SBiKx0eGX+Ag==" type="HMP.strB9_c4.sc2" iconFile="Assets/General/w.png" tip-name="West"/> 
     
     <!-- ========== Slaying ========== -->
-    <POI MapID="1451" xpos="-534.295" ypos="262.935" zpos="-356.355" GUID="HMP=STRB9=C5"             type="HMP.strB9_c5"     iconFile="Assets/Strikes/Slaying/KO.png"/>
+    <POI MapID="1451" xpos="-534.295" ypos="262.935" zpos="-356.355" GUID="5qwn8XlbCEiGuOgakkrckQ==" type="HMP.strB9_c5"     iconFile="Assets/Strikes/Slaying/KO.png"/>
+    <POI MapID="1451" xpos="-534.295" ypos="248.935" zpos="-356.355" GUID="dpU7OaRAKUqoJowk0e5FXw==" type="HMP.strB9_c5"     iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= HARVEST TEMPLE (Dragonvoid) ==================================================================================================================================================================== -->
@@ -342,7 +353,7 @@
       </MarkerCategory>
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Assets/General/s.png"          iconSize="1" rotate="90,0,0"/>
-      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Assets/Strikes/Slaying/HT.png" iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                          iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
       <MarkerCategory   name="sc5"  DisplayName="Hitbox Ranges"            defaultToggle="0"                                                                                                                            tip-description="Displays there area where usage of&#xA;certain skills makes them auto-trigger.">
         <MarkerCategory name="asc1" DisplayName="Mines"/>
         <MarkerCategory name="asc2" DisplayName="Traps"/>
@@ -478,13 +489,14 @@
     <POI MapID="1437" xpos="22.771" ypos="390.173" zpos="-547.509" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.5"/>
     <POI MapID="1437" xpos="24.857" ypos="390.173" zpos="-545.423" GUID="HMP=STRB10=C1=SC2=ASC2"   type="HMP.strikeB10_c1.sc1.asc2" color="33bf21" iconSize="1.45"/>
     <!-- 300r Range -->
-    <Trail trailData="Assets/Strikes/300r_max.trl"                   animSpeed="0"                   type="HMP.strikeB10_c1.sc1.asc3" texture="Assets/Boundary/RedLine2.png"/>
+    <Trail trailData="Assets/Strikes/300r_max.trl"                   animSpeed="0"                 type="HMP.strikeB10_c1.sc1.asc3" texture="Assets/Boundary/RedLine2.png"/>
     <!-- Max Edge -->
-    <Trail trailData="Assets/Strikes/B10-edgeRange.trl"              animSpeed="0" alpha="0.55"      type="HMP.strikeB10_c1.sc2"      texture="Assets/Boundary/RedLine2.png"/>
+    <Trail trailData="Assets/Strikes/B10-edgeRange.trl"              animSpeed="0" alpha="0.55"    type="HMP.strikeB10_c1.sc2"      texture="Assets/Boundary/RedLine2.png"/>
     <!-- South -->
     <POI MapID="1437" xpos="15.213" ypos="391.192" zpos="-555.102" GUID="HMP=STRIKEB10=C1=SC3"     type="HMP.strikeB10_c1.sc3"/>
     <!-- Slaying -->
-    <POI MapID="1437" xpos="15.352" ypos="391.220" zpos="-481.393" GUID="HMP=STRIKEB10=C1=SC4"     type="HMP.strikeB10_c1.sc4"/>
+    <POI MapID="1437" xpos="15.352" ypos="391.220" zpos="-481.393" GUID="44tcLh1scE6DRXx0nQm7AA==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/HT.png"/>
+    <POI MapID="1437" xpos="15.352" ypos="377.220" zpos="-481.393" GUID="15rAMZ/DwkiBdcIWSu9W2A==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
     <!-- Hitbox Ranges -->
     <Trail trailData="Assets/Strikes/B10-mineRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc1" texture="Assets/Boundary/RedLine.png"/>
     <Trail trailData="Assets/Strikes/B10-trapRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc2" texture="Assets/Boundary/RedLine.png"/>
@@ -1082,16 +1094,18 @@
   
   <POIs>
     <!-- Breakbar Order -->
-    <POI MapID="1485" xpos="-12.462" ypos="19.89716" zpos="128.859" GUID="HMP=STRB11=C1=SC1" type="HMP.StrB11_c1.sc1"/>
-    <POI MapID="1485" xpos="1.905"   ypos="19.89716" zpos="134.811" GUID="HMP=STRB11=C1=SC2" type="HMP.StrB11_c1.sc2"/>
-    <POI MapID="1485" xpos="-18.414" ypos="19.89716" zpos="114.491" GUID="HMP=STRB11=C1=SC3" type="HMP.StrB11_c1.sc3"/>
+    <POI MapID="1485" xpos="-12.462"   ypos="19.89716" zpos="128.859"  GUID="MSfCFMJScEu3xCUbwM2BnQ==" type="HMP.StrB11_c1.sc1"/>
+    <POI MapID="1485" xpos="1.905"     ypos="19.89716" zpos="134.811"  GUID="t2Z8y1vIlUS+rLe/ajjPIg==" type="HMP.StrB11_c1.sc2"/>
+    <POI MapID="1485" xpos="-18.414"   ypos="19.89716" zpos="114.491"  GUID="+3DFcRFh5keX7A4NGoNBkg==" type="HMP.StrB11_c1.sc3"/>
     <!-- Boundary -->
-    <Trail trailData="Assets/Boundary/StrB11-Bound.trl" animSpeed="0" alpha="0.75"             type="HMP.StrB11_c2" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Boundary/StrB11-Bound.trl" animSpeed="0" alpha="0.75"                     type="HMP.StrB11_c2" texture="Assets/Boundary/RedLine.png"/>
     <!-- Puzzle Solution -->
-    <POI MapID="1485" xpos="-28.83719" ypos="-07.0151" zpos="162.7162" GUID="HMP=STRB11=C3"  type="HMP.StrB11_c3" iconFile="Assets/Strikes/B11-Puzzle.png"    iconSize="2.75" heightOffset="31.5"/>
+    <POI MapID="1485" xpos="-28.83719" ypos="-07.0151" zpos="162.7162" GUID="KWTKKT8kxUaBwNWetX7zYg==" type="HMP.StrB11_c3" iconFile="Assets/Strikes/B11-Puzzle.png"    iconSize="2.75" heightOffset="31.5"/>
     <!-- Slaying -->
-    <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="HMP=STRB11=C9"  type="HMP.StrB11_c9" iconFile="Assets/Strikes/Slaying/OLC-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
-    <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="HMP=STRB11=C9"  type="HMP.StrB11_c9" iconFile="Assets/Strikes/Slaying/OLC-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+    <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="4zupbM/94kOd0IpTzvfwVw==" type="HMP.StrB11_c9" iconFile="Assets/Strikes/Slaying/OLC-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
+    <POI MapID="1485" xpos="-28.15719" ypos="6.94517"  zpos="162.0162" GUID="yrO4L2uGb0qXdDFH77fwww==" type="HMP.StrB11_c9" iconFile="Assets/Strikes/Slaying/EodBG.png" schedule="0 25 0/2 * * *" schedule-duration="80" heightOffset="15.5"/>
+    <POI MapID="1485" xpos="-28.15719" ypos="20.94517" zpos="162.0162" GUID="sL1p/uo4Vky9HtsODyCW8w==" type="HMP.StrB11_c9" iconFile="Assets/Strikes/Slaying/OLC-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+    <POI MapID="1485" xpos="-28.15719" ypos="6.94517"  zpos="162.0162" GUID="CQ0paZUAUEaUbYJRiTLTmw==" type="HMP.StrB11_c9" iconFile="Assets/Strikes/Slaying/EodBG.png" schedule="0 45 1/2 * * *" schedule-duration="40" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= THE COSMIC OBSERVATORY (DAGDA) ==================================================================================================================================================================== -->
@@ -1103,7 +1117,7 @@
   
   <POIs>
     <!-- Max Melee -->
-    <Trail trailData="Assets/Strikes/StrB12-atkRange_max.trl" alpha="0.5" animSpeed="0"           type="HMP.StrB12_c1" texture="Assets/Boundary/RedLine2.png"/>
+    <Trail trailData="Assets/Strikes/StrB12-atkRange_max.trl" alpha="0.5" animSpeed="0"           type="HMP.StrB12_c1"              texture="Assets/Boundary/RedLine2.png"/>
     <!-- Tormented Spawns -->
     <POI MapID="1515" xpos="-12.163" ypos="151.436" zpos="5.814"  GUID="xjnscEf9PUq30Zl16OSI8Q==" type="HMP.StrB12_c2"/>
     <POI MapID="1515" xpos="6.590"   ypos="151.436" zpos="-2.939" GUID="Ro2zxceJxkqw1gsvV74NHQ==" type="HMP.StrB12_c2"/>
@@ -1120,8 +1134,10 @@
     <POI MapID="1515" xpos="-4.230"  ypos="151.436" zpos="47.893" GUID="Ya7crexQIU+nLwzt2EWBFw==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1515" xpos="-20.695" ypos="151.436" zpos="26.636" GUID="DOoI+mANBUyl/UBH32ykCg==" type="HMP.StrB12_c2" alpha="0.75" iconFile="Assets/General/dot-border.png"/>
     <!-- Slaying -->
-    <POI MapID="1515" xpos="-24.651" ypos="148.732" zpos="3.6214" GUID="uI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
-    <POI MapID="1515" xpos="-24.651" ypos="148.732" zpos="3.6214" GUID="Io1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3" iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+    <POI MapID="1515" xpos="-24.651" ypos="148.732" zpos="3.6214" GUID="uI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3"              iconFile="Assets/Strikes/Slaying/TCO-D.png" schedule="0 25 0/2 * * *" schedule-duration="80"/>
+    <POI MapID="1515" xpos="-24.651" ypos="134.732" zpos="3.6214" GUID="vI0t67EPuke3KvkSeOoDvA==" type="HMP.StrB12_c3"              iconFile="Assets/Strikes/Slaying/EodBG.png" schedule="0 25 0/2 * * *" schedule-duration="80" heightOffset="15.5"/>
+    <POI MapID="1515" xpos="-24.651" ypos="148.732" zpos="3.6214" GUID="Io1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3"              iconFile="Assets/Strikes/Slaying/TCO-N.png" schedule="0 45 1/2 * * *" schedule-duration="40"/>
+    <POI MapID="1515" xpos="-24.651" ypos="134.732" zpos="3.6214" GUID="Jo1gV5RBzEmZME9cG0PpsQ==" type="HMP.StrB12_c3"              iconFile="Assets/Strikes/Slaying/EodBG.png" schedule="0 45 1/2 * * *" schedule-duration="40" heightOffset="15.5"/>
   </POIs>
   
 <!-- ========================================= THE TEMPLE OF FEBE (CERUS) ==================================================================================================================================================================== -->
@@ -1135,7 +1151,7 @@
       <MarkerCategory name="sc5" DisplayName="Rage"     mapDisplaySize="15" tip-name="Rage"/>
       <MarkerCategory name="sc6" DisplayName="Regret"   mapDisplaySize="15" tip-name="Regret"/>
     </MarkerCategory>
-    <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconFile="Assets/Strikes/Slaying/Febe.png" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     <MarkerCategory name="StrB13_c90" DisplayName="Despair Pool Adventure" fadeFar="3000" fadeNear="2750" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="sc1"      DisplayName="Enable Script"/>
       <MarkerCategory name="sc2"      DisplayName="Adventure Board" IsSeparator="1" rotate="90,0,270" triggerRange="5" cull="CounterClockwise">
@@ -1178,7 +1194,7 @@
   
   <POIs>
     <!-- Max Melee -->
-    <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" alpha="0.65" animSpeed="0"                type="HMP.StrB13_c1" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/StrB13-atkRange.trl" alpha="0.65" animSpeed="0"                type="HMP.StrB13_c1"     texture="Assets/Boundary/RedLine.png"/>
     <!-- Embodiment Positions -->
     <POI MapID="1520" xpos="-12.494" ypos="177.1"   zpos="-86.695"  GUID="LXEMfrQ0/kqT2zAjwFTGGg==" type="HMP.StrB13_c2.sc1" tip-description=""/>
     <POI MapID="1520" xpos="9.706"   ypos="177.1"   zpos="-122.673" GUID="erXTteh0DE+Gj7701INu0w==" type="HMP.StrB13_c2.sc2" tip-description=""/>
@@ -1187,7 +1203,9 @@
     <POI MapID="1520" xpos="11.718"  ypos="177.1"   zpos="-85.983"  GUID="u8q+0b/3LUaWiH6JlVsVPQ==" type="HMP.StrB13_c2.sc5" tip-description=""/>
     <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6" tip-description=""/>
     <!-- Slaying -->
-    <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"/>
+    <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"     iconFile="Assets/Strikes/Slaying/Febe.png"/>
+    <POI MapID="1520" xpos="11.600"  ypos="192.063" zpos="-214.424" GUID="TFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"     iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
+    
     <!-- ========== Despair Pool Adventure ========== -->
     <!-- Minimap Marker -->
     <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="zcrtjfTr9EG7sUMxTtO91g==" type="HMP.StrB13_c90"               iconFile="Assets/Strikes/DP_Adventure/961365.png"    inGameVisibility="0" minimapVisibility="1" mapVisibility="1" MapDisplaySize="24" tip-name="Despair Pool Dodging" tip-description="Disabled until Lua Scripts are enabled."/>
