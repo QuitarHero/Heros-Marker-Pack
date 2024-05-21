@@ -5,64 +5,69 @@
   
 <!-- ======================================== AETHERBLADE ================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_AB_c1" DisplayName="Electric Skip" cull="CounterClockwise" fadeFar="850"  fadeNear="600"                                       iconSize="0.55"                    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_AB_sy" DisplayName="Slaying"                                                                                                                                      mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"         cull="CounterClockwise" fadeFar="750"  fadeNear="500" iconFile="Assets/Fracs/Slaying/AB1.png" iconSize="1.5"  rotate="105,0,50"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Last Room"     cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/AB2.png" iconSize="1.75" rotate="90,45,175" tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
+    <MarkerCategory   name="F_AB_c1" DisplayName="Electric Skip" cull="CounterClockwise" fadeFar="850"  fadeNear="600" iconSize="0.55"                    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_AB_sy" DisplayName="Slaying"                                                                                                mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"         cull="CounterClockwise" fadeFar="750"  fadeNear="500" iconSize="1.5"  rotate="105,0,50"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Last Room"     cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconSize="1.75" rotate="90,45,175" tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Electric Skip ========== -->
-    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="TeExJPcqu0qaos1t9NVy5Q==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/EleLF-1.png"    profession="elementalist" rotate="0.01,0,-75"/>
-    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="uwRVcQkgVke4jzZz6hDVwQ==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/GrdTele-1.png"  profession="guardian"     rotate="0.01,0,-75"/>
-    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="F5oW0w0+ukasi6lkro7aow==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/MesBlink-1.png" profession="mesmer"       rotate="0.01,0,-75"/>
-    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="dtxmT3BQSUikRexkeAgEGQ==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/NecFW-1.png"    profession="necromancer"  rotate="0.01,0,-75"/>
-    <POI MapID="956" xpos="-24.640" ypos="4.372"  zpos="99.736"  GUID="wwaSyv2TYEO7t6GcI9MV9A==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/RevSw5-1.png"   profession="revenant"     rotate="110,0,240"/>
-    <POI MapID="956" xpos="-21.480" ypos="7.351"  zpos="96.879"  GUID="g08iEbRKekuJNe9pig7LSA==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/ThfSB5-1.png"   profession="thief"        rotate="0.01,0,-75"/>
-    <POI MapID="956" xpos="-10.685" ypos="15.252" zpos="111.652" GUID="aJe17B+snUiRQyHnGDkmXQ==" type="HMP.F_AB_c1"    iconFile="Assets/General/empty.png"           info="/gg after activating all panels."   infoRange="12"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"   zpos="96.879"  GUID="TeExJPcqu0qaos1t9NVy5Q==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/EleLF-1.png"    profession="elementalist" rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"   zpos="96.879"  GUID="uwRVcQkgVke4jzZz6hDVwQ==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/GrdTele-1.png"  profession="guardian"     rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"   zpos="96.879"  GUID="F5oW0w0+ukasi6lkro7aow==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/MesBlink-1.png" profession="mesmer"       rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"   zpos="96.879"  GUID="dtxmT3BQSUikRexkeAgEGQ==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/NecFW-1.png"    profession="necromancer"  rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-24.640" ypos="4.372"   zpos="99.736"  GUID="wwaSyv2TYEO7t6GcI9MV9A==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/RevSw5-1.png"   profession="revenant"     rotate="110,0,240"/>
+    <POI MapID="956" xpos="-21.480" ypos="7.351"   zpos="96.879"  GUID="g08iEbRKekuJNe9pig7LSA==" type="HMP.F_AB_c1"    iconFile="Assets/Class/Normal/ThfSB5-1.png"   profession="thief"        rotate="0.01,0,-75"/>
+    <POI MapID="956" xpos="-10.685" ypos="15.252"  zpos="111.652" GUID="aJe17B+snUiRQyHnGDkmXQ==" type="HMP.F_AB_c1"    iconFile="Assets/General/empty.png"           infoRange="12"            info="/gg after activating all panels."/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="956" xpos="38.017"  ypos="0.144"  zpos="93.257"  GUID="6PjwWpGQ7Em8IdABHEn5/Q==" type="HMP.F_AB_sy.s1"/>
-    <POI MapID="956" xpos="-75.048" ypos="1.403"  zpos="125.524" GUID="gxxy3BxSL0CWKMCNAPMQgw==" type="HMP.F_AB_sy.s2"/>
+    <POI MapID="956" xpos="38.017"  ypos="0.144"   zpos="93.257"  GUID="6PjwWpGQ7Em8IdABHEn5/Q==" type="HMP.F_AB_sy.s1" iconFile="Assets/Fracs/Slaying/AB1.png"/>
+    <POI MapID="956" xpos="38.017"  ypos="-13.856" zpos="93.257"  GUID="7PjwWpGQ7Em8IdABHEn5/Q==" type="HMP.F_AB_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png"       heightOffset="15.5"/>
+    <POI MapID="956" xpos="-75.048" ypos="1.403"   zpos="125.524" GUID="gxxy3BxSL0CWKMCNAPMQgw==" type="HMP.F_AB_sy.s2" iconFile="Assets/Fracs/Slaying/AB2.png"/>
+    <POI MapID="956" xpos="-75.048" ypos="-12.597" zpos="125.524" GUID="hxxy3BxSL0CWKMCNAPMQgw==" type="HMP.F_AB_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png"       heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== AQUATIC RUINS ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_AR_sy" DisplayName="Slaying"     fadeFar="750" fadeNear="500" iconFile="Assets/Fracs/Slaying/AR1.png" iconSize="1.5" rotate="110,0,-46" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+    <MarkerCategory name="F_AR_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="750" fadeNear="500" iconSize="1.5" rotate="110,0,-46" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
-    <POI MapID="951" xpos="-192.245" ypos="9.479" zpos="131.885" GUID="8Rv1BA+/REy9iLmDSDQ+DQ==" type="HMP.F_AR_sy"/>
+    <POI MapID="951" xpos="-192.245" ypos="9.479"  zpos="131.885" GUID="8Rv1BA+/REy9iLmDSDQ+DQ==" type="HMP.F_AR_sy" iconFile="Assets/Fracs/Slaying/AR1.png"/>
+    <POI MapID="951" xpos="-192.245" ypos="-4.521" zpos="131.885" GUID="9Rv1BA+/REy9iLmDSDQ+DQ==" type="HMP.F_AR_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== CAPTAIN MAI TRIN ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory name="F_CMT_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Assets/Fracs/Slaying/CMT1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_CMT_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
-    <POI MapID="960" xpos="-77.836" ypos="50.114" zpos="-25.706" GUID="amp5aQRkqUOTtjM4LChncQ==" type="HMP.F_CMT_sy"/>
+    <POI MapID="960" xpos="-77.836" ypos="50.114" zpos="-25.706" GUID="amp5aQRkqUOTtjM4LChncQ==" type="HMP.F_CMT_sy" iconFile="Assets/Fracs/Slaying/CMT1.png"/>
+    <POI MapID="960" xpos="-77.836" ypos="36.114" zpos="-25.706" GUID="bmp5aQRkqUOTtjM4LChncQ==" type="HMP.F_CMT_sy" iconFile="Assets/Fracs/Slaying/fBG.png"  heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== CHAOS ISLES ============================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_CI_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconFile="Assets/Fracs/Slaying/CI1.png" iconSize="1.75" rotate="120,-4,71" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_CI_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="950" fadeNear="700" iconSize="1.75" rotate="120,-4,71" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1164" xpos="-260.734" ypos="559.701" zpos="-62.491" GUID="Qm3Aol4BAU+yvhLX6KqjeQ==" type="HMP.F_CI_sy"/>
+    <POI MapID="1164" xpos="-260.734" ypos="559.701" zpos="-62.491" GUID="Qm3Aol4BAU+yvhLX6KqjeQ==" type="HMP.F_CI_sy" iconFile="Assets/Fracs/Slaying/CI1.png"/>
+    <POI MapID="1164" xpos="-260.734" ypos="545.701" zpos="-62.491" GUID="Rm3Aol4BAU+yvhLX6KqjeQ==" type="HMP.F_CI_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== CLIFFSIDE ==================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_CS_c1" DisplayName="Speed Skip"       cull="CounterClockwise"                                                                                                      mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_CS_c2" DisplayName="Wind Skip"        cull="CounterClockwise" fadeFar="1250" fadeNear="1000"                                                                       mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_CS_c3" DisplayName="Chest Speed Skip"                                                                                                           rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_CS_c4" DisplayName="Boss Skip"                                                                                                                                     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_CS_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/CS1.png" iconSize="2" rotate="130,0,190" mapVisibility="0" minimapVisibility="0" tip-description="• Outlaw&#xA;• Force&#xA;• Justice"/>
+    <MarkerCategory name="F_CS_c1" DisplayName="Speed Skip"       cull="CounterClockwise"                                                                  mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_c2" DisplayName="Wind Skip"        cull="CounterClockwise" fadeFar="1250" fadeNear="1000"                                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_c3" DisplayName="Chest Speed Skip"                                                                       rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_c4" DisplayName="Boss Skip"                                                                                                 mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_CS_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconSize="2.5" rotate="130,0,190" mapVisibility="0" minimapVisibility="0" tip-description="• Outlaw&#xA;• Force&#xA;• Justice"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Initial Speed Skip ========== -->
@@ -118,17 +123,19 @@
     <POI MapID="952" xpos="92.940"  ypos="710.636" zpos="-17.700" GUID="YL0H2eq37E+Ivn8ePXjLMA==" type="HMP.F_CS_c4"                         fadeFar="1750" fadeNear="1500" iconFile="Assets/General/MesP-2.png"          iconSize="0.5"                      profession="mesmer"/>
     <POI MapID="952" xpos="92.940"  ypos="710.636" zpos="-17.700" GUID="zPUBhqMgg0qg2pFmKSIxLQ==" type="HMP.F_CS_c4"                         fadeFar="1750" fadeNear="1500" iconFile="Assets/General/WMPD-2.png"          iconSize="0.25"                     profession="necromancer"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="952" xpos="-45.175" ypos="557.334" zpos="-24.172" GUID="pUQcn0qIIkCSTZasl9Vwqw==" type="HMP.F_CS_sy"/>
+    <POI MapID="952" xpos="-45.175" ypos="557.334" zpos="-24.172" GUID="pUQcn0qIIkCSTZasl9Vwqw==" type="HMP.F_CS_sy"                                                        iconFile="Assets/Fracs/Slaying/CS1.png"/>
+    <POI MapID="952" xpos="-45.175" ypos="543.334" zpos="-24.172" GUID="qUQcn0qIIkCSTZasl9Vwqw==" type="HMP.F_CS_sy"                                    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== DEEPSTONE ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_DS_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="900" fadeNear="650" iconFile="Assets/Fracs/Slaying/DS1.png" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_DS_sy" DisplayName="Slaying"     cull="CounterClockwise" fadeFar="900" fadeNear="650" iconSize="1.5" rotate="90,0,90" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1290" xpos="45.434" ypos="311.781" zpos="-250.415" GUID="TklhNxl2k0Gng/LriUe4hw==" type="HMP.F_DS_sy"/>
+    <POI MapID="1290" xpos="45.434" ypos="311.781" zpos="-250.415" GUID="TklhNxl2k0Gng/LriUe4hw==" type="HMP.F_DS_sy" iconFile="Assets/Fracs/Slaying/DS1.png"/>
+    <POI MapID="1290" xpos="45.434" ypos="297.781" zpos="-250.415" GUID="UklhNxl2k0Gng/LriUe4hw==" type="HMP.F_DS_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
@@ -150,9 +157,9 @@
   
 <!-- ======================================== MOLTEN BOSS ================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_MB_c1" DisplayName="Close Tele Skip"                                                                                             iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_MB_c2" DisplayName="Far Tele Skip"                                                                                               iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_MB_sy" DisplayName="Slaying"         cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/MB1.png" iconSize="1.75" rotate="90,0,46" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_MB_c1" DisplayName="Close Tele Skip"                                                       iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_MB_c2" DisplayName="Far Tele Skip"                                                         iconSize="0.5"                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_MB_sy" DisplayName="Slaying"         cull="CounterClockwise" fadeFar="1000" fadeNear="750" iconSize="1.75" rotate="90,0,46" mapVisibility="0" minimapVisibility="0" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Portals ========== -->
@@ -169,16 +176,17 @@
     <POI MapID="959" xpos="-151.006" ypos="184.321" zpos="-84.6617" GUID="c8IG4ASa90Wjb27uYeVwlg==" type="HMP.F_MB_c2"                         fadeFar="3650" fadeNear="3500" iconFile="Assets/Class/Normal/ThfIS-1.png"                                profession="thief"/>
     <POI MapID="959" xpos="-163.231" ypos="132.304" zpos="-84.6329" GUID="dkt4SGKqwUGiovPes/RJ6A==" type="HMP.F_MB_c2" cull="CounterClockwise" fadeFar="3500" fadeNear="3350" iconFile="Assets/General/WMPD-2.png"                 rotate="180,0,-70"   profession="guardian,thief"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="959" xpos="-196.002" ypos="209.865" zpos="-152.922" GUID="J17GQkWtCEic4w4cVTUvFA==" type="HMP.F_MB_sy"/>
+    <POI MapID="959" xpos="-196.002" ypos="209.865" zpos="-152.922" GUID="J17GQkWtCEic4w4cVTUvFA==" type="HMP.F_MB_sy" iconFile="Assets/Fracs/Slaying/MB1.png"/>
+    <POI MapID="959" xpos="-196.002" ypos="195.865" zpos="-152.922" GUID="K17GQkWtCEic4w4cVTUvFA==" type="HMP.F_MB_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== MOLTEN FURNACE =============================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_MF_c2" DisplayName="Dredge Spawns"   alpha="0.9" color="944131" fadeFar="1500" fadeNear="1000" iconFile="Assets/General/dot.png"       iconSize="0.35" rotate="180,0,0"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_MF_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                            mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"                                      fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/MF1.png" iconSize="1.75" rotate="110,0,20"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Weapons Testing"                            fadeFar="1400" fadeNear="1250" iconFile="Assets/Fracs/Slaying/MF2.png" iconSize="1.6"  rotate="100,0,180" tip-description="• Dredge&#xA;• Force&#xA;• Sorrow"/>
+    <MarkerCategory   name="F_MF_c2" DisplayName="Dredge Spawns"   alpha="0.9" color="944131" fadeFar="1500" fadeNear="1000" iconFile="Assets/General/dot.png" iconSize="0.35" rotate="180,0,0"   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_MF_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                        mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"                                      fadeFar="1250" fadeNear="1000"                                   iconSize="1.75" rotate="110,0,20"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Weapons Testing"                            fadeFar="1400" fadeNear="1250"                                   iconSize="1.6"  rotate="100,0,180" tip-description="• Dredge&#xA;• Force&#xA;• Sorrow"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -188,22 +196,24 @@
     <POI MapID="955" xpos="-219.214" ypos="224.999" zpos="14.470"  GUID="zAG5FaZwYkGG7K942gxquw==" type="HMP.F_MF_c2"/>
     <POI MapID="955" xpos="-217.489" ypos="224.999" zpos="35.622"  GUID="RbNyp3P65km1XIhTfqdP3Q==" type="HMP.F_MF_c2"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="955" xpos="221.202"  ypos="255.475" zpos="115.924" GUID="KBXDDh4rKEq6peYe3wFHCw==" type="HMP.F_MF_sy.s1"/>
-    <POI MapID="955" xpos="-193.490" ypos="252.842" zpos="130.450" GUID="eEcLSZbiF0SwF324U95ddA==" type="HMP.F_MF_sy.s2"/>
+    <POI MapID="955" xpos="221.202"  ypos="255.475" zpos="115.924" GUID="KBXDDh4rKEq6peYe3wFHCw==" type="HMP.F_MF_sy.s1" iconFile="Assets/Fracs/Slaying/MF1.png"/>
+    <POI MapID="955" xpos="221.202"  ypos="241.475" zpos="115.924" GUID="LBXDDh4rKEq6peYe3wFHCw==" type="HMP.F_MF_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+    <POI MapID="955" xpos="-193.490" ypos="252.842" zpos="130.450" GUID="eEcLSZbiF0SwF324U95ddA==" type="HMP.F_MF_sy.s2" iconFile="Assets/Fracs/Slaying/MF2.png"/>
+    <POI MapID="955" xpos="-193.490" ypos="238.842" zpos="130.450" GUID="fEcLSZbiF0SwF324U95ddA==" type="HMP.F_MF_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_NM_c1" DisplayName="Knight Spawns"   alpha="0.75" color="faedd9" cull="CounterClockwise" fadeFar="3500" fadeNear="3000"                                       iconSize="0.75" rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_NM_c2" DisplayName="Siax Directions"              color="9aad79" cull="CounterClockwise" fadeFar="2250" fadeNear="2000"                                       iconSize="1"    rotate-x="90"/>
-    <MarkerCategory   name="F_NM_c3" DisplayName="Ensolyss' Orbs"  alpha="0.6"                 cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/Fracs/ball.png"        iconSize="0.5"  rotate="180,0,0"  mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_NM_c4" DisplayName="North"                        color="669468" cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/General/n.png"         iconSize="1"    rotate="90,0,180"/>
-    <MarkerCategory   name="F_NM_sy" DisplayName="Slaying"                                     cull="CounterClockwise"                                                                      iconSize="1.6"                    mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050" iconFile="Assets/Fracs/Slaying/NM1.png"                 rotate="90,0,25"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/NM2.png"                 rotate="90,-8,25" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
-      <MarkerCategory name="s3"      DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/NM3.png"                 rotate="80,0,260" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
-      <MarkerCategory name="s4"      DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"  iconFile="Assets/Fracs/Slaying/NM4.png"                 rotate="95,0,90"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+    <MarkerCategory   name="F_NM_c1" DisplayName="Knight Spawns"   alpha="0.75" color="faedd9" cull="CounterClockwise" fadeFar="3500" fadeNear="3000"                                  iconSize="0.75" rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_NM_c2" DisplayName="Siax Directions"              color="9aad79" cull="CounterClockwise" fadeFar="2250" fadeNear="2000"                                  iconSize="1"    rotate-x="90"/>
+    <MarkerCategory   name="F_NM_c3" DisplayName="Ensolyss' Orbs"  alpha="0.6"                 cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/Fracs/ball.png" iconSize="0.5"  rotate="180,0,0"  mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_NM_c4" DisplayName="North"                        color="669468" cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/General/n.png"  iconSize="1"    rotate="90,0,180"/>
+    <MarkerCategory   name="F_NM_sy" DisplayName="Slaying"                                     cull="CounterClockwise"                                                                 iconSize="1.6"                    mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050"                                                  rotate="90,0,25"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250"                                                  rotate="90,-8,25" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+      <MarkerCategory name="s3"      DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000"                                                  rotate="80,0,260" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+      <MarkerCategory name="s4"      DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"                                                   rotate="95,0,90"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -225,35 +235,39 @@
     <!-- ========== North ========== -->
     <POI MapID="1177" xpos="41.746"  ypos="44.797" zpos="64.036"   GUID="P0VtrunYg0O7c+g/POoDVw==" type="HMP.F_NM_c4"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1177" xpos="48.387"  ypos="25.277" zpos="153.057"  GUID="8meljvOM5kaSbhcbbfmumA==" type="HMP.F_NM_sy.s1"/>
-    <POI MapID="1177" xpos="178.877" ypos="6.084"  zpos="122.229"  GUID="gGX5I+lVrkqbCKXSYVXkEg==" type="HMP.F_NM_sy.s2"/>
-    <POI MapID="1177" xpos="73.737"  ypos="42.887" zpos="-94.415"  GUID="a/OhfapMMk+hEXF+Ildf/g==" type="HMP.F_NM_sy.s3"/>
-    <POI MapID="1177" xpos="47.620"  ypos="47.289" zpos="-32.762"  GUID="lwniATE1Ok2BUuxji/vvMw==" type="HMP.F_NM_sy.s4"/>
+    <POI MapID="1177" xpos="48.387"  ypos="25.277" zpos="153.057"  GUID="8meljvOM5kaSbhcbbfmumA==" type="HMP.F_NM_sy.s1" iconFile="Assets/Fracs/Slaying/NM1.png"/>
+    <POI MapID="1177" xpos="48.387"  ypos="11.277" zpos="153.057"  GUID="9meljvOM5kaSbhcbbfmumA==" type="HMP.F_NM_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+    <POI MapID="1177" xpos="178.877" ypos="6.084"  zpos="122.229"  GUID="gGX5I+lVrkqbCKXSYVXkEg==" type="HMP.F_NM_sy.s2" iconFile="Assets/Fracs/Slaying/NM2.png"/>
+    <POI MapID="1177" xpos="178.877" ypos="-7.916" zpos="122.229"  GUID="hGX5I+lVrkqbCKXSYVXkEg==" type="HMP.F_NM_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+    <POI MapID="1177" xpos="73.737"  ypos="42.887" zpos="-94.415"  GUID="a/OhfapMMk+hEXF+Ildf/g==" type="HMP.F_NM_sy.s3" iconFile="Assets/Fracs/Slaying/NM3.png"/>
+    <POI MapID="1177" xpos="73.737"  ypos="28.887" zpos="-94.415"  GUID="b/OhfapMMk+hEXF+Ildf/g==" type="HMP.F_NM_sy.s3" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+    <POI MapID="1177" xpos="47.620"  ypos="47.289" zpos="-32.762"  GUID="lwniATE1Ok2BUuxji/vvMw==" type="HMP.F_NM_sy.s4" iconFile="Assets/Fracs/Slaying/NM4.png"/>
+    <POI MapID="1177" xpos="47.620"  ypos="33.289" zpos="-32.762"  GUID="mwniATE1Ok2BUuxji/vvMw==" type="HMP.F_NM_sy.s4" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== SHATTERED OBSERVATORY ======================================================================================================================================================== -->
   <MarkerCategory     name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_ShO_c0" DisplayName="Skorvald Launches" cull="CounterClockwise"                                                                    iconFile="Assets/General/Arrow-2.png"    iconSize="0.35"                     mapVisibility="0" minimapVisibility="0" tip-description="Be Careful!"/>
-    <MarkerCategory   name="F_ShO_c1" DisplayName="Viirastra Skip"                                                                                                                iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_ShO_c2" DisplayName="Arkk Directions" color="c4ac54" cull="CounterClockwise" fadeFar="3000" fadeNear="2750"                                                        rotate-x="90"/>
-    <MarkerCategory   name="F_ShO_sy" DisplayName="Slaying"                        cull="CounterClockwise"                                                                                                           mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"       DisplayName="Skorvald"                                               fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/ShO1.png" iconSize="1.25" rotate="165,15,290" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"       DisplayName="Artsariiv"                                              fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Slaying/ShO2.png" iconSize="1.75" rotate="115,0,290"  tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s3"       DisplayName="Arkk"                                                   fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/ShO3.png" iconSize="1.75" rotate="115,0,180"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory   name="F_ShO_c0" DisplayName="Skorvald Launches"              cull="CounterClockwise"                                iconFile="Assets/General/Arrow-2.png" iconSize="0.35"                     mapVisibility="0" minimapVisibility="0" tip-description="Be Careful!"/>
+    <MarkerCategory   name="F_ShO_c1" DisplayName="Viirastra Skip"                                                                                                              iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_ShO_c2" DisplayName="Arkk Directions" color="c4ac54" cull="CounterClockwise" fadeFar="3000" fadeNear="2750"                                                       rotate-x="90"/>
+    <MarkerCategory   name="F_ShO_sy" DisplayName="Slaying"                        cull="CounterClockwise"                                                                                                          mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"       DisplayName="Skorvald"                                               fadeFar="1000" fadeNear="750"                                        iconSize="1.25" rotate="165,15,290" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"       DisplayName="Artsariiv"                                              fadeFar="1750" fadeNear="1500"                                       iconSize="1.75" rotate="115,0,290"  tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s3"       DisplayName="Arkk"                                                   fadeFar="1250" fadeNear="1000"                                       iconSize="1.75" rotate="115,0,180"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Skorvald Launches ========== -->
-    <POI MapID="1205" xpos="-511.784" ypos="79.3191" zpos="428.161"  GUID="1Xat6OPQV0uXUk65wVUUKw==" type="HMP.F_ShO_c0" rotate="180,0,135" fadeFar="750"  fadeNear="500"/>
-    <POI MapID="1205" xpos="-519.533" ypos="79.3154" zpos="435.175"  GUID="XLvdiwR3cUSv33BwnP+7kA==" type="HMP.F_ShO_c0" rotate="180,0,135" fadeFar="750"  fadeNear="500"/>
-    <POI MapID="1205" xpos="-532.289" ypos="78.8292" zpos="397.643"  GUID="dc5sbB9be0WGPOgE5TNhXg==" type="HMP.F_ShO_c0" rotate="180,0,230" fadeFar="1350" fadeNear="1100"/>
-    <POI MapID="1205" xpos="-526.032" ypos="79.0114" zpos="406.479"  GUID="oaSkxzwnTEGfISy406c3Ww==" type="HMP.F_ShO_c0" rotate="180,0,230" fadeFar="1350" fadeNear="1100"/>
-    <POI MapID="1205" xpos="-454.225" ypos="82.2568" zpos="422.191"  GUID="Q1BIKN2JgUqTkBEi6qjiSw==" type="HMP.F_ShO_c0" rotate="180,0,-30" fadeFar="1500" fadeNear="1250"/>
-    <POI MapID="1205" xpos="-463.614" ypos="86.8204" zpos="492.318"  GUID="2diKqwUfmEWVTW7wFimCWA==" type="HMP.F_ShO_c0" rotate="180,0,60"  fadeFar="1350" fadeNear="1100"/>
-    <POI MapID="1205" xpos="-458.293" ypos="86.861"  zpos="499.323"  GUID="c57n3YMEqkKxX8fKx9x3tA==" type="HMP.F_ShO_c0" rotate="180,0,60"  fadeFar="1350" fadeNear="1100"/>
-    <POI MapID="1205" xpos="-529.305" ypos="90.1263" zpos="487.876"  GUID="mavKd4/ix020J6cnrkUT8A==" type="HMP.F_ShO_c0" rotate="180,0,220" fadeFar="1250" fadeNear="1000"/>
-    <POI MapID="1205" xpos="-535.123" ypos="90.0154" zpos="477.761"  GUID="g/UtW9etl0mkEfKTlcpplQ==" type="HMP.F_ShO_c0" rotate="180,0,220" fadeFar="1250" fadeNear="1000"/>
+    <POI MapID="1205" xpos="-511.784" ypos="79.3191" zpos="428.161"  GUID="1Xat6OPQV0uXUk65wVUUKw==" type="HMP.F_ShO_c0"                            fadeFar="750"  fadeNear="500"                                      rotate="180,0,135"/>
+    <POI MapID="1205" xpos="-519.533" ypos="79.3154" zpos="435.175"  GUID="XLvdiwR3cUSv33BwnP+7kA==" type="HMP.F_ShO_c0"                            fadeFar="750"  fadeNear="500"                                      rotate="180,0,135"/>
+    <POI MapID="1205" xpos="-532.289" ypos="78.8292" zpos="397.643"  GUID="dc5sbB9be0WGPOgE5TNhXg==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,230"/>
+    <POI MapID="1205" xpos="-526.032" ypos="79.0114" zpos="406.479"  GUID="oaSkxzwnTEGfISy406c3Ww==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,230"/>
+    <POI MapID="1205" xpos="-454.225" ypos="82.2568" zpos="422.191"  GUID="Q1BIKN2JgUqTkBEi6qjiSw==" type="HMP.F_ShO_c0"                            fadeFar="1500" fadeNear="1250"                                     rotate="180,0,-30"/>
+    <POI MapID="1205" xpos="-463.614" ypos="86.8204" zpos="492.318"  GUID="2diKqwUfmEWVTW7wFimCWA==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,60"/>
+    <POI MapID="1205" xpos="-458.293" ypos="86.861"  zpos="499.323"  GUID="c57n3YMEqkKxX8fKx9x3tA==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,60"/>
+    <POI MapID="1205" xpos="-529.305" ypos="90.1263" zpos="487.876"  GUID="mavKd4/ix020J6cnrkUT8A==" type="HMP.F_ShO_c0"                            fadeFar="1250" fadeNear="1000"                                     rotate="180,0,220"/>
+    <POI MapID="1205" xpos="-535.123" ypos="90.0154" zpos="477.761"  GUID="g/UtW9etl0mkEfKTlcpplQ==" type="HMP.F_ShO_c0"                            fadeFar="1250" fadeNear="1000"                                     rotate="180,0,220"/>
     <!-- ========== Viirastra Skip ========== -->
     <POI MapID="1205" xpos="342.781"  ypos="108.648" zpos="96.860"   GUID="fbTuKujAs0iRKamV7PwQyA==" type="HMP.F_ShO_c1"    cull="CounterClockwise" fadeFar="1000" fadeNear="500"  iconFile="Assets/Fracs/Jump-1.png"  rotate="190,0,310"/>
     <POI MapID="1205" xpos="331.750"  ypos="111.834" zpos="90.772"   GUID="qtKVAC3yhU2uaEFf4bWp+g==" type="HMP.F_ShO_c1"                            fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Jump-1.png"  rotate="90,0,-65"/>
@@ -264,44 +278,49 @@
     <POI MapID="1205" xpos="-455.382" ypos="72.477"  zpos="-463.386" GUID="XFRHjzwReEK2vd2B3wF75A==" type="HMP.F_ShO_c2"                                                           iconFile="Assets/General/s.png"                        tip-name="South"/>
     <POI MapID="1205" xpos="-489.319" ypos="72.477"  zpos="-429.455" GUID="rs/YBaonHEGS4Ce9VgFv5A==" type="HMP.F_ShO_c2"                                                           iconFile="Assets/General/w.png"     rotate-z="270"     tip-name="West"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1205" xpos="-532.079" ypos="100.090" zpos="435.470"  GUID="gbkIwOdqaUOod5cKtQbaug==" type="HMP.F_ShO_sy.s1"/>
-    <POI MapID="1205" xpos="338.264"  ypos="143.796" zpos="1.175"    GUID="cbkxPrXuK0u3sxuIycWjUg==" type="HMP.F_ShO_sy.s2"/>
-    <POI MapID="1205" xpos="-349.303" ypos="88.659"  zpos="-426.638" GUID="3mg2opXHiESifjR0PLpeOg==" type="HMP.F_ShO_sy.s3"/>
+    <POI MapID="1205" xpos="-532.079" ypos="100.090" zpos="435.470"  GUID="gbkIwOdqaUOod5cKtQbaug==" type="HMP.F_ShO_sy.s1"                                                        iconFile="Assets/Fracs/Slaying/ShO1.png"/>
+    <POI MapID="1205" xpos="-532.079" ypos="86.090"  zpos="435.470"  GUID="hbkIwOdqaUOod5cKtQbaug==" type="HMP.F_ShO_sy.s1"  fadeFar="1250" fadeNear="1000"    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="1205" xpos="338.264"  ypos="143.796" zpos="1.175"    GUID="cbkxPrXuK0u3sxuIycWjUg==" type="HMP.F_ShO_sy.s2"                                                        iconFile="Assets/Fracs/Slaying/ShO2.png"/>
+    <POI MapID="1205" xpos="338.264"  ypos="129.796" zpos="1.175"    GUID="dbkxPrXuK0u3sxuIycWjUg==" type="HMP.F_ShO_sy.s2"                                    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="1205" xpos="-349.303" ypos="88.659"  zpos="-426.638" GUID="3mg2opXHiESifjR0PLpeOg==" type="HMP.F_ShO_sy.s3"                                                        iconFile="Assets/Fracs/Slaying/ShO3.png"/>
+    <POI MapID="1205" xpos="-349.303" ypos="74.659"  zpos="-426.638" GUID="4mg2opXHiESifjR0PLpeOg==" type="HMP.F_ShO_sy.s3"                                    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== SIREN'S REEF ================================================================================================================================================================= -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_SR_c1" DisplayName="Chest Spawns" fadeFar="3250" fadeNear="3000" iconFile="Assets/Fracs/SR.png"          iconSize="0.75" rotate-x="175"     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_SR_sy" DisplayName="Slaying"      fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/SR1.png" iconSize="2"    rotate="180,0,190" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_SR_c1" DisplayName="Chest Spawns" fadeFar="3250" fadeNear="3000" iconFile="Assets/Fracs/SR.png" iconSize="0.75" rotate-x="175"     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_SR_sy" DisplayName="Slaying"      fadeFar="1250" fadeNear="1000"                                iconSize="2"    rotate="180,0,190" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Chest Spawns ========== -->
-    <POI MapID="1309" xpos="-172.733" ypos="0.500"  zpos="-0.7578" GUID="cf60rtKRVkiZMmbrnKtzGw==" type="HMP.F_SR_c1"/>
-    <POI MapID="1309" xpos="-165.113" ypos="1.000"  zpos="197.517" GUID="pBzbURiTlESVHg/fVTwXCw==" type="HMP.F_SR_c1" rotate-z="180"/>
+    <POI MapID="1309" xpos="-172.733" ypos="0.500"   zpos="-0.7578" GUID="cf60rtKRVkiZMmbrnKtzGw==" type="HMP.F_SR_c1"/>
+    <POI MapID="1309" xpos="-165.113" ypos="1.000"   zpos="197.517" GUID="pBzbURiTlESVHg/fVTwXCw==" type="HMP.F_SR_c1" rotate-z="180"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1309" xpos="233.669"  ypos="-0.877" zpos="105.161" GUID="XBflJJPTw0mfw1CpbFDXsQ==" type="HMP.F_SR_sy"/>
+    <POI MapID="1309" xpos="233.669"  ypos="-0.877"  zpos="105.161" GUID="XBflJJPTw0mfw1CpbFDXsQ==" type="HMP.F_SR_sy" iconFile="Assets/Fracs/Slaying/SR1.png"/>
+    <POI MapID="1309" xpos="233.669"  ypos="-14.877" zpos="105.161" GUID="YBflJJPTw0mfw1CpbFDXsQ==" type="HMP.F_SR_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== SNOWBLIND ================================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_SB_sy" DisplayName="Slaying"     fadeFar="1000" fadeNear="750" iconFile="Assets/Fracs/Slaying/SB1.png" iconSize="1.5" rotate="90,0,-80" tip-description="• Svanir&#xA;• Night&#xA;• Wrath"/>
+    <MarkerCategory name="F_SB_sy" DisplayName="Slaying"     fadeFar="1000" fadeNear="750" iconSize="1.5" rotate="90,0,-80" tip-description="• Svanir&#xA;• Night&#xA;• Wrath"/>
   </MarkerCategory>
   <POIs>
-    <POI MapID="948" xpos="-69.502" ypos="28.014" zpos="126.185" GUID="t5XIzjfT7Eee9Jex1g+zlA==" type="HMP.F_SB_sy"/>
+    <POI MapID="948" xpos="-69.502" ypos="28.014" zpos="126.185" GUID="t5XIzjfT7Eee9Jex1g+zlA==" type="HMP.F_SB_sy" iconFile="Assets/Fracs/Slaying/SB1.png"/>
+    <POI MapID="948" xpos="-69.502" ypos="14.014" zpos="126.185" GUID="u5XIzjfT7Eee9Jex1g+zlA==" type="HMP.F_SB_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== SOLID OCEAN ================================================================================================================================================================== -->
   <MarkerCategory       name="HMP"      DisplayName="Hero's Pack">
-    <MarkerCategory     name="F_SoO_c1" DisplayName="Path Skip"                         cull="CounterClockwise"                                                                                                        mapVisibility="0" minimapVisibility="0"/>
-      <MarkerCategory   name="F_SoO_c2" DisplayName="Jade Colossus Spawns" behavior="1" cull="CounterClockwise" fadeFar="4000" fadeNear="3500"                                                                         mapVisibility="0" minimapVisibility="0" tip-description="Press 'F' on a marker to hide it&#xA;for the rest of the fractal." triggerRange="5">
-        <MarkerCategory name="sc1"      DisplayName="Dots"                                                                                     iconFile="Assets/General/dot.png"        iconSize="0.3" rotate-x="180"/>
-        <MarkerCategory name="sc2"      DisplayName="Numbers"                                                               heightOffset="2.1"                                        iconSize="0.5"/>
+    <MarkerCategory     name="F_SoO_c1" DisplayName="Path Skip"                         cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
+      <MarkerCategory   name="F_SoO_c2" DisplayName="Jade Colossus Spawns" behavior="1" cull="CounterClockwise" fadeFar="4000" fadeNear="3500"                                                                        mapVisibility="0" minimapVisibility="0" tip-description="Press 'F' on a marker to hide it&#xA;for the rest of the fractal." triggerRange="5">
+        <MarkerCategory name="sc1"      DisplayName="Dots"                                                                                     iconFile="Assets/General/dot.png"     iconSize="0.3"  rotate-x="180"/>
+        <MarkerCategory name="sc2"      DisplayName="Numbers"                                                   heightOffset="2.1"                                                   iconSize="0.5"/>
         <MarkerCategory name="sc3"      DisplayName="Arrows"                                                                                   iconFile="Assets/General/Pointer.png" iconSize="0.35" rotate-x="180"/>
       </MarkerCategory>
-    <MarkerCategory name="F_SoO_sy" DisplayName="Slaying"                               cull="CounterClockwise" fadeFar="1400" fadeNear="1150" iconFile="Assets/Fracs/Slaying/SoO1.png" iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
+    <MarkerCategory     name="F_SoO_sy" DisplayName="Slaying"                           cull="CounterClockwise" fadeFar="1400" fadeNear="1150"                                       iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Path Skip ========== -->
@@ -337,54 +356,55 @@
     <POI MapID="958" xpos="736.55"  ypos="610.393" zpos="689.165" GUID="HNcv4RsCUEi15dLhUDjzAQ==" type="HMP.F_SoO_c1"     fadeFar="1500" fadeNear="1250" iconFile="Assets/General/WMPD-2.png"         iconSize="0.5" profession="engineer"     rotate="188,30,160"/>
     <!-- ========== Jade Colossus Spawns ========== -->
     <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/1.png" iconSize="0.75" heightOffset="2.2"/>
-    <POI MapID="958" xpos="770.793" ypos="586.057" zpos="823.428" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc3" rotate-z="-15"/>
+    <POI MapID="958" xpos="770.913" ypos="586.057" zpos="823.828" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc2"             heightOffset="2.2" iconFile="Assets/General/1.png"              iconSize="0.75"/>
+    <POI MapID="958" xpos="770.793" ypos="586.057" zpos="823.428" GUID="W7kOZYbknku8PBOHjicXWQ==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="-15"/>
     <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/2.png"/>
-    <POI MapID="958" xpos="760.603" ypos="586.041" zpos="791.283" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc3" rotate-z="-120"/>
+    <POI MapID="958" xpos="760.923" ypos="586.041" zpos="791.083" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/2.png"/>
+    <POI MapID="958" xpos="760.603" ypos="586.041" zpos="791.283" GUID="U/6jNoQYT0aM/5P2Rt/nNA==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="-120"/>
     <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/3.png"/>
-    <POI MapID="958" xpos="738.256" ypos="586.272" zpos="805.722" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc3" rotate-z="123"/>
+    <POI MapID="958" xpos="737.936" ypos="586.272" zpos="805.532" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/3.png"/>
+    <POI MapID="958" xpos="738.256" ypos="586.272" zpos="805.722" GUID="nxJBQoVS10iz75vDtFhveQ==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="123"/>
     <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/4.png"/>
-    <POI MapID="958" xpos="752.508" ypos="586.251" zpos="814.946" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc3" rotate-z="45"/>
+    <POI MapID="958" xpos="752.218" ypos="586.251" zpos="815.256" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/4.png"/>
+    <POI MapID="958" xpos="752.508" ypos="586.251" zpos="814.946" GUID="zqnbM7ZzZEenmmg+DvMvSA==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="45"/>
     <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/5.png"/>
-    <POI MapID="958" xpos="777.691" ypos="586.160" zpos="791.768" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc3" rotate-z="210"/>
+    <POI MapID="958" xpos="777.881" ypos="586.160" zpos="791.418" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/5.png"/>
+    <POI MapID="958" xpos="777.691" ypos="586.160" zpos="791.768" GUID="flcdVoGDNEilezff3lqm9g==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="210"/>
     <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/6.png"/>
-    <POI MapID="958" xpos="767.911" ypos="586.100" zpos="807.790" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc3" rotate-z="-51"/>
+    <POI MapID="958" xpos="768.241" ypos="586.100" zpos="808.040" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/6.png"/>
+    <POI MapID="958" xpos="767.911" ypos="586.100" zpos="807.790" GUID="vJemMyXPEUuNSZPGfzvu/w==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="-51"/>
     <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/7.png"/>
-    <POI MapID="958" xpos="745.685" ypos="586.202" zpos="790.669" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc3" rotate-z="-100"/>
-    <POI MapID="958" xpos="727.075" ypos="586.840" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc1" rotate-y="10"/>
-    <POI MapID="958" xpos="727.075" ypos="586.840" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/8.png"/>
-    <POI MapID="958" xpos="727.475" ypos="586.780" zpos="794.482" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc3" rotate="188,-2,106"/>
+    <POI MapID="958" xpos="746.085" ypos="586.202" zpos="790.579" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/7.png"/>
+    <POI MapID="958" xpos="745.685" ypos="586.202" zpos="790.669" GUID="ulwa1qI4R0O1Jzs7hFVKzQ==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="-100"/>
+    <POI MapID="958" xpos="727.075" ypos="586.840" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc1"                                                                                                                      rotate-y="10"/>
+    <POI MapID="958" xpos="727.075" ypos="586.840" zpos="794.372" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/8.png"/>
+    <POI MapID="958" xpos="727.475" ypos="586.780" zpos="794.482" GUID="d1+i93+WI0i/KfLy7GK8Dw==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate="188,-2,106"/>
     <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/9.png"/>
-    <POI MapID="958" xpos="753.136" ypos="586.213" zpos="802.536" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc3" rotate-z="-138"/>
+    <POI MapID="958" xpos="753.406" ypos="586.213" zpos="802.226" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/9.png"/>
+    <POI MapID="958" xpos="753.136" ypos="586.213" zpos="802.536" GUID="wxAzC4Em3UuQxmGh5uZDxA==" type="HMP.F_SoO_c2.sc3"                                                                                                                      rotate-z="-138"/>
     <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="HMP.F_SoO_c2.sc1"/>
-    <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="HMP.F_SoO_c2.sc2" iconFile="Assets/General/10.png"/>
+    <POI MapID="958" xpos="738.195" ypos="586.285" zpos="819.331" GUID="qaJzH5kbLEqopYySdAFJbw==" type="HMP.F_SoO_c2.sc2"                                iconFile="Assets/General/10.png"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="958" xpos="751.648" ypos="598.66"  zpos="731.87"  GUID="kgTTmo8x+ECpi1Ivw+dnNw==" type="HMP.F_SoO_sy"/>
+    <POI MapID="958" xpos="751.648" ypos="598.66"  zpos="731.87"  GUID="kgTTmo8x+ECpi1Ivw+dnNw==" type="HMP.F_SoO_sy"                                    iconFile="Assets/Fracs/Slaying/SoO1.png"/>
+    <POI MapID="958" xpos="751.648" ypos="584.66"  zpos="731.87"  GUID="lgTTmo8x+ECpi1Ivw+dnNw==" type="HMP.F_SoO_sy"                heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== SUNQUA PEAK ================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_SP_c1" DisplayName="Platform Jumps"       cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_SP_c2" DisplayName="VotM Skip"            cull="CounterClockwise"                                                                    iconSize="0.75"                    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_SP_c3" DisplayName="Waterfall Skip"       cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_SP_c4" DisplayName="Ele Skip"                                                                                                                                           mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory   name="F_SP_c1" DisplayName="Platform Jumps"       cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c2" DisplayName="VotM Skip"            cull="CounterClockwise"                              iconSize="0.75"                    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c3" DisplayName="Waterfall Skip"       cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c4" DisplayName="Ele Skip"                                                                                                     mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="sc1"     DisplayName="Barrier #1 Skip"/>
       <MarkerCategory name="sc2"     DisplayName="Barrier #2 Skip"/>
       <MarkerCategory name="sc3"     DisplayName="Barrier #3 Skip"/>
     </MarkerCategory>
-    <MarkerCategory   name="F_SP_c5" DisplayName="FotM Skip"            cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_SP_c6" DisplayName="Dialogue Door Skip"                                                                                                                                 mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_SP_sy" DisplayName="Slaying"              cull="CounterClockwise"                                                                                                       mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconFile="Assets/Fracs/Slaying/SP1.png" iconSize="1.75" rotate="105,0,192" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Challenge"                                    fadeFar="900" fadeNear="750" iconFile="Assets/Fracs/Slaying/SP2.png" iconSize="1.9"  rotate="94,0,-90"  tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
+    <MarkerCategory   name="F_SP_c5" DisplayName="FotM Skip"            cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_c6" DisplayName="Dialogue Door Skip"                                                                                           mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_sy" DisplayName="Slaying"              cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconSize="1.75" rotate="105,0,192" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Challenge"                                    fadeFar="900" fadeNear="750" iconSize="1.9"  rotate="94,0,-90"  tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -445,8 +465,10 @@
     <POI MapID="1384" xpos="75.599"   ypos="247.166" zpos="189.42"   GUID="x4aIKJojSECbsW2+FQEm2A==" type="HMP.F_SP_c6"     cull="CounterClockwise" fadeFar="500"  fadeNear="300"  iconFile="Assets/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="90,0,105"/>
     <POI MapID="1384" xpos="131.267"  ypos="231.789" zpos="167.652"  GUID="bZT/L00Dt0OaMPmvWynFHg==" type="HMP.F_SP_c6"                             fadeFar="750"  fadeNear="500"  iconFile="Assets/Fracs/C-Choya-1.png"           iconSize="0.65"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1384" xpos="181.581"  ypos="25.648"  zpos="-148.331" GUID="ojMTy8Jl4kOLg6PAroWJwQ==" type="HMP.F_SP_sy.s1"/>
-    <POI MapID="1384" xpos="162.733"  ypos="248.652" zpos="82.193"   GUID="84VslGzbO0qqVmx9P0FJQA==" type="HMP.F_SP_sy.s2"/>
+    <POI MapID="1384" xpos="181.581"  ypos="25.648"  zpos="-148.331" GUID="ojMTy8Jl4kOLg6PAroWJwQ==" type="HMP.F_SP_sy.s1"                                                         iconFile="Assets/Fracs/Slaying/SP1.png"/>
+    <POI MapID="1384" xpos="181.581"  ypos="11.648"  zpos="-148.331" GUID="pjMTy8Jl4kOLg6PAroWJwQ==" type="HMP.F_SP_sy.s1"                                     heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="1384" xpos="162.733"  ypos="248.652" zpos="82.193"   GUID="84VslGzbO0qqVmx9P0FJQA==" type="HMP.F_SP_sy.s2"                                                         iconFile="Assets/Fracs/Slaying/SP2.png"/>
+    <POI MapID="1384" xpos="162.733"  ypos="234.652" zpos="82.193"   GUID="94VslGzbO0qqVmx9P0FJQA==" type="HMP.F_SP_sy.s2"                                     heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
@@ -463,7 +485,7 @@
       <MarkerCategory name="t8"      DisplayName="Bottom Right (Spiders)"/>
       <MarkerCategory name="t9"      DisplayName="Passage"/>
     </MarkerCategory>
-    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"  iconFile="Assets/Fracs/Slaying/SL1.png" iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
+    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"                                        iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Top Left (Skelk) ========== -->
@@ -550,33 +572,35 @@
     <POI MapID="949" xpos="21.242"  ypos="-0.539" zpos="-7.270"  GUID="+d8B11gpVEejpe72TteYcQ==" type="HMP.F_SL_c1.t9" iconFile="Assets/Fracs/Trip.png" alpha="0.65"/>
     <POI MapID="949" xpos="17.885"  ypos="-0.471" zpos="-6.799"  GUID="x2nyPbvwqEibZMDhf9GjWA==" type="HMP.F_SL_c1.t9" iconFile="Assets/Fracs/Trip.png" alpha="0.65"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="949" xpos="68.74529" ypos="0.946115" zpos="119.3885"  GUID="GIeR4Zt130+F2mKfqpOGkg==" type="HMP.F_SL_sy"/>
+    <POI MapID="949" xpos="68.7452" ypos="0.9461" zpos="119.388" GUID="GIeR4Zt130+F2mKfqpOGkg==" type="HMP.F_SL_sy"    iconFile="Assets/Fracs/Slaying/SL1.png"/>
+    <POI MapID="949" xpos="68.7452" ypos="-13.05" zpos="119.388" GUID="HIeR4Zt130+F2mKfqpOGkg==" type="HMP.F_SL_sy"    iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== THAUMANOVA REACTOR ============================================================================================================================================================ -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_TR_c1" DisplayName="Maze"             color="53806e"          fadeFar="3000" fadeNear="2750"                                       iconSize="0.75"                   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_TR_c2" DisplayName="Subject 6 Portal"                                                                                              iconSize="0.5"  rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_TR_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/TR1.png" iconSize="2"    rotate="90,0,180" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_TR_c1" DisplayName="Maze"             color="53806e"          fadeFar="3000" fadeNear="2750" iconSize="0.75"                   mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_TR_c2" DisplayName="Subject 6 Portal"                                                        iconSize="0.5"  rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_TR_sy" DisplayName="Slaying"          cull="CounterClockwise" fadeFar="1000" fadeNear="750"  iconSize="2"    rotate="90,0,180" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Maze ========== -->
-    <POI MapID="957" xpos="-2.204"  ypos="37.664" zpos="-214.180" GUID="RM53JibWak6Mu3tmiFVNhw==" type="HMP.F_TR_c1"                                iconFile="Assets/General/1.png"/>
-    <POI MapID="957" xpos="-52.010" ypos="37.164" zpos="-192.614" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="HMP.F_TR_c1"                                iconFile="Assets/General/2.png"/>
-    <POI MapID="957" xpos="-18.967" ypos="40.647" zpos="-231.344" GUID="8jv47sgfbkmfME22/3LvqQ==" type="HMP.F_TR_c1"                                iconFile="Assets/General/3.png"/>
+    <POI MapID="957" xpos="-2.204"  ypos="37.664"  zpos="-214.180" GUID="RM53JibWak6Mu3tmiFVNhw==" type="HMP.F_TR_c1"                                iconFile="Assets/General/1.png"/>
+    <POI MapID="957" xpos="-52.010" ypos="37.164"  zpos="-192.614" GUID="LQWpc2Usy0C7jWzGYx/8IQ==" type="HMP.F_TR_c1"                                iconFile="Assets/General/2.png"/>
+    <POI MapID="957" xpos="-18.967" ypos="40.647"  zpos="-231.344" GUID="8jv47sgfbkmfME22/3LvqQ==" type="HMP.F_TR_c1"                                iconFile="Assets/General/3.png"/>
     <!-- ========== Portal ========== -->
-    <POI MapID="957" xpos="133.990" ypos="20.133" zpos="116.249"  GUID="lGx15a7kx0WpH83FFFdq3A==" type="HMP.F_TR_c2" fadeFar="1750" fadeNear="1250" iconFile="Assets/General/WMPD-1.png" rotate-z="45"  profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,thief,warrior"/>
-    <POI MapID="957" xpos="133.990" ypos="19.889" zpos="26.760"   GUID="C/ZpThM9pk6dKXjvwqD+ag==" type="HMP.F_TR_c2" fadeFar="1500" fadeNear="1000" iconFile="Assets/General/WMPD-2.png" rotate-z="180" profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="957" xpos="133.990" ypos="20.133"  zpos="116.249"  GUID="lGx15a7kx0WpH83FFFdq3A==" type="HMP.F_TR_c2" fadeFar="1750" fadeNear="1250" iconFile="Assets/General/WMPD-1.png"    rotate-z="45"  profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="957" xpos="133.990" ypos="19.889"  zpos="26.760"   GUID="C/ZpThM9pk6dKXjvwqD+ag==" type="HMP.F_TR_c2" fadeFar="1500" fadeNear="1000" iconFile="Assets/General/WMPD-2.png"    rotate-z="180" profession="elementalist,engineer,guardian,mesmer,necromancer,ranger,revenant,thief,warrior"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="957" xpos="75.237"  ypos="1.792"  zpos="-63.206"  GUID="N/nreCu4X0aLVZQOY4NDLg==" type="HMP.F_TR_sy"/>
+    <POI MapID="957" xpos="75.237"  ypos="1.792"   zpos="-63.206"  GUID="N/nreCu4X0aLVZQOY4NDLg==" type="HMP.F_TR_sy"                                iconFile="Assets/Fracs/Slaying/TR1.png"/>
+    <POI MapID="957" xpos="75.237"  ypos="-12.208" zpos="-63.206"  GUID="O/nreCu4X0aLVZQOY4NDLg==" type="HMP.F_TR_sy"            heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== TWILIGHT OASIS =============================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_TO_c1" DisplayName="Skip to 2nd Sandblinder"                         fadeFar="1000" fadeNear="750"                                        iconSize="0.5"                    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_TO_sy" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Slaying/TO1.png" iconSize="2.25" rotate="90,0,-89" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
+    <MarkerCategory name="F_TO_c1" DisplayName="Skip to 2nd Sandblinder"                         fadeFar="1000" fadeNear="750"  iconSize="0.5"                    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_TO_sy" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1750" fadeNear="1500" iconSize="2.25" rotate="90,0,-89" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Skip to Second Sandblinder ========== -->
@@ -586,19 +610,20 @@
     <POI MapID="1267" xpos="128.852" ypos="34.851" zpos="68.165"  GUID="cPrIEthiB0igyCtqA3f5Sg==" type="HMP.F_TO_c1" cull="Clockwise"        iconFile="Assets/Fracs/Jump-2.png"  rotate="90,0,270"/>
     <POI MapID="1267" xpos="135.409" ypos="43.761" zpos="73.991"  GUID="j9TmY/3caUK/E900bC9ORQ==" type="HMP.F_TO_c1" cull="CounterClockwise" iconFile="Assets/Fracs/Jump-2y.png" rotate="90,0,180"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="1267" xpos="33.838"  ypos="29.178" zpos="223.016" GUID="Knw+tPY6JESdzCR7VpZk0w==" type="HMP.F_TO_sy"/>
+    <POI MapID="1267" xpos="33.838"  ypos="29.178" zpos="223.016" GUID="Knw+tPY6JESdzCR7VpZk0w==" type="HMP.F_TO_sy"                         iconFile="Assets/Fracs/Slaying/TO1.png"/>
+    <POI MapID="1267" xpos="33.838"  ypos="15.178" zpos="223.016" GUID="Lnw+tPY6JESdzCR7VpZk0w==" type="HMP.F_TO_sy"     heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== UNCATEGORIZED ================================================================================================================================================================ -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_UC_c0" DisplayName="Skip to Old Tom" cull="CounterClockwise" fadeFar="1350" fadeNear="1100"                                       iconSize="0.5"  rotate="0,0,-98"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_UC_c1" DisplayName="Harpy JP Skip"                           fadeFar="1000" fadeNear="750"                                                                            mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_UC_c2" DisplayName="Harpy Leap Skip" cull="CounterClockwise" fadeFar="1000" fadeNear="750"                                                                            mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_UC_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                          mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"                                   fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/UC1.png" iconSize="1.75" rotate="88,0,140"   tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Old Tom"                                 fadeFar="800"  fadeNear="650"  iconFile="Assets/Fracs/Slaying/UC2.png" iconSize="2.5"  rotate="90,5,-9"    tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
-      <MarkerCategory name="s3"      DisplayName="Raving Asura"                            fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/UC3.png" iconSize="1.75" rotate="125,-5,200" tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
+    <MarkerCategory   name="F_UC_c0" DisplayName="Skip to Old Tom" cull="CounterClockwise" fadeFar="1350" fadeNear="1100" iconSize="0.5"  rotate="0,0,-98"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UC_c1" DisplayName="Harpy JP Skip"                           fadeFar="1000" fadeNear="750"                                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UC_c2" DisplayName="Harpy Leap Skip" cull="CounterClockwise" fadeFar="1000" fadeNear="750"                                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UC_sy" DisplayName="Slaying"         cull="CounterClockwise"                                                                    mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"                                   fadeFar="1000" fadeNear="750"  iconSize="1.75" rotate="88,0,140"   tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"      DisplayName="Old Tom"                                 fadeFar="800"  fadeNear="650"  iconSize="2.5"  rotate="90,5,-9"    tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
+      <MarkerCategory name="s3"      DisplayName="Raving Asura"                            fadeFar="1000" fadeNear="750"  iconSize="1.75" rotate="125,-5,200" tip-description="• Inquest&#xA;• Force&#xA;• Mad Scientists"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -642,20 +667,23 @@
     <POI MapID="947" xpos="-839.388" ypos="843.500" zpos="-719.574" GUID="WLVDKrDMdkiYzqt8A9sfRA==" type="HMP.F_UC_c2"                            iconFile="Assets/Fracs/Jump-2.png"            iconSize="0.20" rotate="140,0,200"  profession="engineer,ranger,warrior" specialization="27,59,34"/>
     <POI MapID="947" xpos="-842.013" ypos="857.209" zpos="-706.293" GUID="y/A1JLvboU6goza818v4rg==" type="HMP.F_UC_c2"                            iconFile="Assets/Fracs/Jump-1y.png"           iconSize="0.5"  rotate="125,17,150" profession="engineer,ranger,warrior" specialization="27,59,34"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="947" xpos="-817.098" ypos="747.345" zpos="-758.081" GUID="g/LHhQkSVk2nnE6Ka0R0MQ==" type="HMP.F_UC_sy.s1"/>
-    <POI MapID="947" xpos="-720.454" ypos="800.248" zpos="-710.179" GUID="3PW0iaswsUeNi3D9cnAwrQ==" type="HMP.F_UC_sy.s2"/>
-    <POI MapID="947" xpos="-795.559" ypos="855.707" zpos="-686.479" GUID="1kkf/7FN8kmstmq2QlCNZw==" type="HMP.F_UC_sy.s3"/>
+    <POI MapID="947" xpos="-817.098" ypos="747.345" zpos="-758.081" GUID="g/LHhQkSVk2nnE6Ka0R0MQ==" type="HMP.F_UC_sy.s1"                         iconFile="Assets/Fracs/Slaying/UC1.png"/>
+    <POI MapID="947" xpos="-817.098" ypos="733.345" zpos="-758.081" GUID="h/LHhQkSVk2nnE6Ka0R0MQ==" type="HMP.F_UC_sy.s1"     fadeFar="1250" fadeNear="1000" heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="947" xpos="-720.454" ypos="800.248" zpos="-710.179" GUID="3PW0iaswsUeNi3D9cnAwrQ==" type="HMP.F_UC_sy.s2"                         iconFile="Assets/Fracs/Slaying/UC2.png"/>
+    <POI MapID="947" xpos="-720.454" ypos="786.248" zpos="-710.179" GUID="4PW0iaswsUeNi3D9cnAwrQ==" type="HMP.F_UC_sy.s2"     fadeFar="975" fadeNear="750" heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="947" xpos="-795.559" ypos="855.707" zpos="-686.479" GUID="1kkf/7FN8kmstmq2QlCNZw==" type="HMP.F_UC_sy.s3"                         iconFile="Assets/Fracs/Slaying/UC3.png"/>
+    <POI MapID="947" xpos="-795.559" ypos="841.707" zpos="-686.479" GUID="2kkf/7FN8kmstmq2QlCNZw==" type="HMP.F_UC_sy.s3"     heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== UNDERGROUND FACILITY ========================================================================================================================================================= -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_UF_c1" DisplayName="Pressure Plate Skip"       fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_UF_c2" DisplayName="Bucket Boundaries" fadeFar="1250" fadeNear="1000"                                                                                                mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_UF_sy" DisplayName="Slaying"           cull="CounterClockwise"                                              iconSize="2" rotate-x="90"                               mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"             fadeFar="1500" fadeNear="1250" iconFile="Assets/Fracs/Slaying/UF1.png"                                           rotate-z="-91" tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
-      <MarkerCategory name="s2"      DisplayName="Dredge Boss"       fadeFar="1100" fadeNear="850"  iconFile="Assets/Fracs/Slaying/UF2.png"                            rotate-y="-18" rotate-z="55"  tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
-      <MarkerCategory name="s3"      DisplayName="Elemental Boss"    fadeFar="1150" fadeNear="900"  iconFile="Assets/Fracs/Slaying/UF3.png"                            rotate-y="-18" rotate-z="55"  tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
+    <MarkerCategory   name="F_UF_c1" DisplayName="Pressure Plate Skip" fadeFar="1250" fadeNear="1000"                                                          mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UF_c2" DisplayName="Bucket Boundaries"   fadeFar="1250" fadeNear="1000"                                                          mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_UF_sy" DisplayName="Slaying"             cull="CounterClockwise"        iconSize="2" rotate-x="90"                               mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"      DisplayName="Start"               fadeFar="1500" fadeNear="1250"                                           rotate-z="-91" tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
+      <MarkerCategory name="s2"      DisplayName="Dredge Boss"         fadeFar="1100" fadeNear="850"                             rotate-y="-18" rotate-z="55"  tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
+      <MarkerCategory name="s3"      DisplayName="Elemental Boss"      fadeFar="1150" fadeNear="900"                             rotate-y="-18" rotate-z="55"  tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -668,61 +696,67 @@
     <POI MapID="953" xpos="662.762" ypos="37.951" zpos="363.906" GUID="GHrMJeUBMk+0XL16ALjTkQ==" type="HMP.F_UF_c1"    iconFile="Assets/Class/Normal/ThfIS-1.png" iconSize="0.5"  rotate="90,0,10"   profession="thief"/>
     <POI MapID="953" xpos="637.775" ypos="17.620" zpos="368.426" GUID="kf3D8SE9Ika2j9chiHsS3w==" type="HMP.F_UF_c1"    iconFile="Assets/General/WMPD-2.png"       iconSize="0.65" rotate="180,0,-90" profession="guardian,thief"/>
     <!-- ========== Bucket Boundaries ========== -->
-    <Trail trailData="Assets/Fracs/UFBucket1.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Fracs/UFBucket2.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Fracs/UFBucket3.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Fracs/UFBucket4.trl" animSpeed="0" alpha="0.75"                       type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Fracs/UFBucket1.trl" animSpeed="0" alpha="0.75"                     type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Fracs/UFBucket2.trl" animSpeed="0" alpha="0.75"                     type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Fracs/UFBucket3.trl" animSpeed="0" alpha="0.75"                     type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Fracs/UFBucket4.trl" animSpeed="0" alpha="0.75"                     type="HMP.F_UF_c2"    texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="953" xpos="732.800" ypos="17.000" zpos="404.000" GUID="KSLw0W8pWECU/vgXLG2k9w==" type="HMP.F_UF_sy.s1"/>
-    <POI MapID="953" xpos="695.800" ypos="67.000" zpos="111.800" GUID="IA0UiMhI4021rdoj9xwtFw==" type="HMP.F_UF_sy.s2"/>
-    <POI MapID="953" xpos="694.800" ypos="72.000" zpos="110.800" GUID="txLoxyKtPkavg31FNxTp0Q==" type="HMP.F_UF_sy.s3"/>
+    <POI MapID="953" xpos="732.800" ypos="17.000" zpos="404.000" GUID="KSLw0W8pWECU/vgXLG2k9w==" type="HMP.F_UF_sy.s1" iconFile="Assets/Fracs/Slaying/UF1.png"/>
+    <POI MapID="953" xpos="732.800" ypos="3.000"  zpos="404.000" GUID="LSLw0W8pWECU/vgXLG2k9w==" type="HMP.F_UF_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png"    heightOffset="15.5"/>
+    <POI MapID="953" xpos="695.800" ypos="67.000" zpos="111.800" GUID="IA0UiMhI4021rdoj9xwtFw==" type="HMP.F_UF_sy.s2" iconFile="Assets/Fracs/Slaying/UF2.png"/>
+    <POI MapID="953" xpos="695.800" ypos="53.000" zpos="111.800" GUID="JA0UiMhI4021rdoj9xwtFw==" type="HMP.F_UF_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png"    heightOffset="15.5"/>
+    <POI MapID="953" xpos="694.800" ypos="72.000" zpos="110.800" GUID="txLoxyKtPkavg31FNxTp0Q==" type="HMP.F_UF_sy.s3" iconFile="Assets/Fracs/Slaying/UF3.png"/>
+    <POI MapID="953" xpos="694.800" ypos="58.000" zpos="110.800" GUID="uxLoxyKtPkavg31FNxTp0Q==" type="HMP.F_UF_sy.s3" iconFile="Assets/Fracs/Slaying/fBG.png"    heightOffset="15.5"/>
   </POIs>
   
   
 <!-- ======================================== URBAN BATTLEGROUND =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="F_UB_c1" DisplayName="Burning Oil Boundary"                         fadeFar="1500" fadeNear="1000"                                                                      mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_UB_c2" DisplayName="Barricade Skip"                                                                                                                                   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_UB_sy" DisplayName="Slaying"              cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/UB1.png" iconSize="2" rotate="90,0,170" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+    <MarkerCategory name="F_UB_c1" DisplayName="Burning Oil Boundary"                         fadeFar="1500" fadeNear="1000"                                mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_UB_c2" DisplayName="Barricade Skip"                                                                                             mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_UB_sy" DisplayName="Slaying"              cull="CounterClockwise" fadeFar="1250" fadeNear="1000" iconSize="2" rotate="90,0,170" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>  
     <!-- ========== Burning Oil Boundary ========== -->
-    <Trail trailData="Assets/Fracs/UB Oils.trl" animSpeed="2" alpha="1"                            type="HMP.F_UB_c1"                                                        texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Fracs/UB Oils.trl" animSpeed="2" alpha="1"                           type="HMP.F_UB_c1"                                                        texture="Assets/Boundary/RedLine.png"/>
     <!-- ========== Barricade Skip ========== -->
-    <POI MapID="950" xpos="286.715" ypos="7.000"  zpos="686.865" GUID="OrbSrzXOGUaNGaOsglaHpg==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Jump-1.png"    iconSize="0.45" rotate="270,180,225"/>
-    <POI MapID="950" xpos="275.598" ypos="10.871" zpos="675.902" GUID="VLKxx9gDQUi2ERBZ3gRWPA==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="900"  fadeNear="700"  iconFile="Assets/Fracs/Jump-2.png"    iconSize="0.25" rotate="80,0,-60"/>
-    <POI MapID="950" xpos="278.345" ypos="12.860" zpos="681.080" GUID="aQ1ysElmCU6TV50ceMvFHw==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="700"  fadeNear="500"  iconFile="Assets/Fracs/Jump-2.png"    iconSize="0.25" rotate="80,0,140"/>
-    <POI MapID="950" xpos="281.602" ypos="17.163" zpos="688.230" GUID="L8DR9sxmQUazZ2OyCFw21A==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="550"  fadeNear="400"  iconFile="Assets/Fracs/Jump-1.png"    iconSize="0.45" rotate="90,0,-30"/>
-    <POI MapID="950" xpos="267.448" ypos="18.302" zpos="692.747" GUID="4O1JFOyP9kOPZfytnlCW/Q==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="850"  fadeNear="600"  iconFile="Assets/Fracs/Jump-1.png"    iconSize="0.55" rotate="140,0,-60"/>
-    <POI MapID="950" xpos="257.040" ypos="23.330" zpos="698.135" GUID="Lo8bMzFf7kyYlJZnlplKwg==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Jump-1.png"    iconSize="0.5"  rotate="38,-5,-55"/>
-    <POI MapID="950" xpos="217.298" ypos="11.038" zpos="714.105" GUID="EVBQFGDvNkS+yA+OiGXt0Q==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1850" fadeNear="1600" iconFile="Assets/Fracs/Jump-1y.png"   iconSize="0.75" rotate="90,0,45"/>
+    <POI MapID="950" xpos="286.715" ypos="7.000"   zpos="686.865" GUID="OrbSrzXOGUaNGaOsglaHpg==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1750" fadeNear="1500" iconFile="Assets/Fracs/Jump-1.png"      iconSize="0.45" rotate="270,180,225"/>
+    <POI MapID="950" xpos="275.598" ypos="10.871"  zpos="675.902" GUID="VLKxx9gDQUi2ERBZ3gRWPA==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="900"  fadeNear="700"  iconFile="Assets/Fracs/Jump-2.png"      iconSize="0.25" rotate="80,0,-60"/>
+    <POI MapID="950" xpos="278.345" ypos="12.860"  zpos="681.080" GUID="aQ1ysElmCU6TV50ceMvFHw==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="700"  fadeNear="500"  iconFile="Assets/Fracs/Jump-2.png"      iconSize="0.25" rotate="80,0,140"/>
+    <POI MapID="950" xpos="281.602" ypos="17.163"  zpos="688.230" GUID="L8DR9sxmQUazZ2OyCFw21A==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="550"  fadeNear="400"  iconFile="Assets/Fracs/Jump-1.png"      iconSize="0.45" rotate="90,0,-30"/>
+    <POI MapID="950" xpos="267.448" ypos="18.302"  zpos="692.747" GUID="4O1JFOyP9kOPZfytnlCW/Q==" type="HMP.F_UB_c2" cull="CounterClockwise" fadeFar="850"  fadeNear="600"  iconFile="Assets/Fracs/Jump-1.png"      iconSize="0.55" rotate="140,0,-60"/>
+    <POI MapID="950" xpos="257.040" ypos="23.330"  zpos="698.135" GUID="Lo8bMzFf7kyYlJZnlplKwg==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Jump-1.png"      iconSize="0.5"  rotate="38,-5,-55"/>
+    <POI MapID="950" xpos="217.298" ypos="11.038"  zpos="714.105" GUID="EVBQFGDvNkS+yA+OiGXt0Q==" type="HMP.F_UB_c2" cull="Clockwise"        fadeFar="1850" fadeNear="1600" iconFile="Assets/Fracs/Jump-1y.png"     iconSize="0.75" rotate="90,0,45"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="950" xpos="378.296" ypos="2.816"  zpos="565.358" GUID="p1giSXVoOEGBVgHjOBB6Hw==" type="HMP.F_UB_sy"/>
+    <POI MapID="950" xpos="378.296" ypos="2.816"   zpos="565.358" GUID="p1giSXVoOEGBVgHjOBB6Hw==" type="HMP.F_UB_sy"                                                        iconFile="Assets/Fracs/Slaying/UB1.png"/>
+    <POI MapID="950" xpos="378.296" ypos="-11.184" zpos="565.358" GUID="q1giSXVoOEGBVgHjOBB6Hw==" type="HMP.F_UB_sy"                                    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
   
   
 <!-- ======================================== VOLCANIC ===================================================================================================================================================================== -->
   <MarkerCategory       name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory     name="F_VO_c1" DisplayName="Portal"                cull="CounterClockwise"                                              iconSize="0.35"                     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory     name="F_VO_c2" DisplayName="Cliff Fall"                                                                                 iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory     name="F_VO_sy" DisplayName="Slaying"               cull="CounterClockwise"                                                                                  mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconFile="Assets/Fracs/Slaying/Vo1.png" iconSize="1.35" rotate="90,0,210"   tip-description="• Grawl&#xA;• Night&#xA;• Grawl"/>
-      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconFile="Assets/Fracs/Slaying/Vo2.png" iconSize="1.5"  rotate="90,0,3"     tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
+    <MarkerCategory     name="F_VO_c1" DisplayName="Portal"                cull="CounterClockwise"        iconSize="0.35"                     mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory     name="F_VO_c2" DisplayName="Cliff Fall"                                           iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory     name="F_VO_sy" DisplayName="Slaying"               cull="CounterClockwise"                                            mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconSize="1.35" rotate="90,0,210"   tip-description="• Grawl&#xA;• Night&#xA;• Grawl"/>
+      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconSize="1.5"  rotate="90,0,3"     tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
     <!-- ========== Portal ========== -->
-    <POI MapID="954" xpos="350.135" ypos="81.000" zpos="-716.496" GUID="4bFCZMjeJESnDAfAWNvqSA==" type="HMP.F_VO_c1"                            fadeFar="600"  fadeNear="400"  iconFile="Assets/General/WMPD-1.png" rotate="170,-10,225" profession="elementalist,engineer,guardian,necromancer,ranger,revenant,thief,warrior"/>
-    <POI MapID="954" xpos="232.187" ypos="52.805" zpos="-691.025" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" type="HMP.F_VO_c1"                            fadeFar="900"  fadeNear="750"  iconFile="Assets/General/WMPD-2.png" rotate="173,-5,114"  profession="elementalist,engineer,guardian,necromancer,ranger,revenant,thief,warrior"/>
-    <POI MapID="954" xpos="350.135" ypos="81.000" zpos="-716.496" GUID="HVSPzvgYy0m+GT2kHlm8SQ==" type="HMP.F_VO_c1"                            fadeFar="600"  fadeNear="400"  iconFile="Assets/General/MesP-1.png" rotate="170,-10,225" profession="mesmer"/>
-    <POI MapID="954" xpos="232.187" ypos="52.805" zpos="-691.025" GUID="q+ShB924N0m8QfuKB6MbVw==" type="HMP.F_VO_c1"                            fadeFar="900"  fadeNear="750"  iconFile="Assets/General/MesP-2.png" rotate="173,-5,114"  profession="mesmer"/>
+    <POI MapID="954" xpos="350.135" ypos="81.000" zpos="-716.496" GUID="4bFCZMjeJESnDAfAWNvqSA==" type="HMP.F_VO_c1"                            fadeFar="600"  fadeNear="400"  iconFile="Assets/General/WMPD-1.png"    rotate="170,-10,225" profession="elementalist,engineer,guardian,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="954" xpos="232.187" ypos="52.805" zpos="-691.025" GUID="JOYULwXHK0Gu5GV8aY9CyQ==" type="HMP.F_VO_c1"                            fadeFar="900"  fadeNear="750"  iconFile="Assets/General/WMPD-2.png"    rotate="173,-5,114"  profession="elementalist,engineer,guardian,necromancer,ranger,revenant,thief,warrior"/>
+    <POI MapID="954" xpos="350.135" ypos="81.000" zpos="-716.496" GUID="HVSPzvgYy0m+GT2kHlm8SQ==" type="HMP.F_VO_c1"                            fadeFar="600"  fadeNear="400"  iconFile="Assets/General/MesP-1.png"    rotate="170,-10,225" profession="mesmer"/>
+    <POI MapID="954" xpos="232.187" ypos="52.805" zpos="-691.025" GUID="q+ShB924N0m8QfuKB6MbVw==" type="HMP.F_VO_c1"                            fadeFar="900"  fadeNear="750"  iconFile="Assets/General/MesP-2.png"    rotate="173,-5,114"  profession="mesmer"/>
     <!-- ========== Cliff ========== -->
-    <POI MapID="954" xpos="198.889" ypos="52.540" zpos="-725.508" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="HMP.F_VO_c2"    cull="Clockwise"        fadeFar="750"  fadeNear="500"  iconFile="Assets/Fracs/Jump-1.png"   rotate="0.1,0,135"/>
-    <POI MapID="954" xpos="196.401" ypos="28.001" zpos="-730.729" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="HMP.F_VO_c2"    cull="Clockwise"        fadeFar="1100" fadeNear="1000" iconFile="Assets/Fracs/Jump-1.png"   rotate="45,0,132"/>
-    <POI MapID="954" xpos="204.046" ypos="5.654"  zpos="-731.373" GUID="vW3ZXkN/PUiyF6P2m3Jlww==" type="HMP.F_VO_c2"    cull="CounterClockwise" fadeFar="1100" fadeNear="1000" iconFile="Assets/Fracs/Jump-1.png"   rotate="180,0,100"/>
-    <POI MapID="954" xpos="235.295" ypos="6.950"  zpos="-781.714" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="HMP.F_VO_c2"    cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconFile="Assets/Fracs/Jump-1y.png"  rotate="160,0,20"/>
+    <POI MapID="954" xpos="198.889" ypos="52.540" zpos="-725.508" GUID="Nsb2E2qXs0K6g/LtKhcZ3Q==" type="HMP.F_VO_c2"    cull="Clockwise"        fadeFar="750"  fadeNear="500"  iconFile="Assets/Fracs/Jump-1.png"      rotate="0.1,0,135"/>
+    <POI MapID="954" xpos="196.401" ypos="28.001" zpos="-730.729" GUID="lVjmDyUrTkyqkcAbLBnZIw==" type="HMP.F_VO_c2"    cull="Clockwise"        fadeFar="1100" fadeNear="1000" iconFile="Assets/Fracs/Jump-1.png"      rotate="45,0,132"/>
+    <POI MapID="954" xpos="204.046" ypos="5.654"  zpos="-731.373" GUID="vW3ZXkN/PUiyF6P2m3Jlww==" type="HMP.F_VO_c2"    cull="CounterClockwise" fadeFar="1100" fadeNear="1000" iconFile="Assets/Fracs/Jump-1.png"      rotate="180,0,100"/>
+    <POI MapID="954" xpos="235.295" ypos="6.950"  zpos="-781.714" GUID="vMH5xvH/N0mgm3Ja3OOnbw==" type="HMP.F_VO_c2"    cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconFile="Assets/Fracs/Jump-1y.png"     rotate="160,0,20"/>
     <!-- ========== Slaying ========== -->
-    <POI MapID="954" xpos="377.169" ypos="82.029" zpos="-732.727" GUID="ld3ngP9UTEa9uK8ddhWDiQ==" type="HMP.F_VO_sy.s1"/>
-    <POI MapID="954" xpos="185.581" ypos="22.256" zpos="-806.573" GUID="LyBQvH4YyEu1ibWUKBZjEg==" type="HMP.F_VO_sy.s2"/>
+    <POI MapID="954" xpos="377.169" ypos="82.029" zpos="-732.727" GUID="ld3ngP9UTEa9uK8ddhWDiQ==" type="HMP.F_VO_sy.s1"                                                        iconFile="Assets/Fracs/Slaying/Vo1.png"/>
+    <POI MapID="954" xpos="377.169" ypos="68.029" zpos="-732.727" GUID="md3ngP9UTEa9uK8ddhWDiQ==" type="HMP.F_VO_sy.s1"                                    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="954" xpos="185.581" ypos="22.256" zpos="-806.573" GUID="LyBQvH4YyEu1ibWUKBZjEg==" type="HMP.F_VO_sy.s2"                                                        iconFile="Assets/Fracs/Slaying/Vo2.png"/>
+    <POI MapID="954" xpos="185.581" ypos="8.256"  zpos="-806.573" GUID="MyBQvH4YyEu1ibWUKBZjEg==" type="HMP.F_VO_sy.s2"                                    heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
   </POIs>
 </OverlayData>
