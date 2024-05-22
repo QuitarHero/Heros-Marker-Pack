@@ -597,6 +597,23 @@
   </POIs>
   
   
+<!-- ======================================== THE LONELY TOWER =============================================================================================================================================================== -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="F_TLT_sy" DisplayName="Slaying"   cull="CounterClockwise" iconSize="2.5"                   minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="s1" DisplayName="Start"                                                rotate="90,0,-16" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2" DisplayName="Eparch" fadeFar="1250" fadeNear="1000" iconSize="2.5" rotate="90,0,130" tip-description="• Sharp Stone&#xA;• Force&#xA;• Demon"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- Slaying -->
+    <POI MapID="1538" xpos="-101.231" ypos="865.05"  zpos="99.3706" GUID="Qr/3u0XLpk6aV49bBoJxLw==" type="HMP.F_TLT_sy.s1" iconFile="Assets/Fracs/Slaying/TLT1.png"/>
+    <POI MapID="1538" xpos="-101.231" ypos="851.05"  zpos="99.3706" GUID="Pr/3u0XLpk6aV49bBoJxLw==" type="HMP.F_TLT_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+    <POI MapID="1538" xpos="0.057"    ypos="899.359" zpos="125.816" GUID="OtENLe/aoEuWblyP6Rz2FQ==" type="HMP.F_TLT_sy.s2" iconFile="Assets/Fracs/Slaying/TLT2.png"/>
+    <POI MapID="1538" xpos="0.057"    ypos="885.359" zpos="125.816" GUID="PtENLe/aoEuWblyP6Rz2FQ==" type="HMP.F_TLT_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+  </POIs>
+  
+  
 <!-- ======================================== TWILIGHT OASIS =============================================================================================================================================================== -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_TO_c1" DisplayName="Skip to 2nd Sandblinder"                         fadeFar="1000" fadeNear="750"  iconSize="0.5"                    mapVisibility="0" minimapVisibility="0"/>
