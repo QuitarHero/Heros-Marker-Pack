@@ -1188,7 +1188,28 @@
         <MarkerCategory name="asc1"   DisplayName="Position Dots"/>
         <MarkerCategory name="asc2"   DisplayName="Circle"/>
       </MarkerCategory>
-      <MarkerCategory name="sc6"      DisplayName="Pools" isHidden="1" heightOffset="-0.05"/>
+      <!-- NEW STUFF HERE WHOA WOWEE -->
+      <MarkerCategory name="sc6"      DisplayName="Latency" IsSeparator="1">
+        <MarkerCategory name="asc1"   DisplayName="Lag"     IsSeparator="1" tip-description="How much 'earlier' you need to dodge.&#xA;In other words, getting hit by the&#xA;Despair Pool before the animation completes.&#xA;This is commonly referred to as: Ping.">
+          <MarkerCategory name="1"    DisplayName="50ms"/>
+          <MarkerCategory name="3"    DisplayName="50ms - 150ms"   defaultToggle="0"/>
+          <MarkerCategory name="5"    DisplayName="150ms - 250ms"  defaultToggle="0"/>
+          <MarkerCategory name="7"    DisplayName="250ms - 350ms"  defaultToggle="0"/>
+          <MarkerCategory name="9"    DisplayName="350ms - 450ms"  defaultToggle="0"/>
+          <MarkerCategory name="11"   DisplayName="450ms - 550ms"  defaultToggle="0"/>
+          <MarkerCategory name="13"   DisplayName="550ms - 1000ms" defaultToggle="0"/>
+        </MarkerCategory>
+        <MarkerCategory name="asc2"   DisplayName="Throttle" IsSeparator="1" tip-description="The chance to throttle.&#xA;This is when the game 'pauses,'&#xA;then quickly speeds up back to real-time.">
+          <MarkerCategory name="1"    DisplayName="1%"/>
+          <MarkerCategory name="2"    DisplayName="2%"  defaultToggle="0"/>
+          <MarkerCategory name="3"    DisplayName="3%"  defaultToggle="0"/>
+          <MarkerCategory name="4"    DisplayName="4%"  defaultToggle="0"/>
+          <MarkerCategory name="5"    DisplayName="5%"  defaultToggle="0"/>
+          <MarkerCategory name="10"   DisplayName="10%" defaultToggle="0"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <!-- END OF NEW STUFF -->
+      <MarkerCategory name="sc99"     DisplayName="Pools" isHidden="1" heightOffset="-0.05"/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -1235,5 +1256,22 @@
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="m6WsUM465EiMVizyjvLAcQ==" type="HMP.StrB13_c90.sc4.asc2" inGameVisibility="0"/>
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="HmPEwQW3FkquU4xOnpMn1w==" type="HMP.StrB13_c90.sc5.asc1" inGameVisibility="0"/>
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc5.asc2" inGameVisibility="0"/>
+    
+    
+    
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.1"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.3"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.5"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.7"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.9"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.11" inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.13" inGameVisibility="0"/>
+    
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.1"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.2"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.3"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.4"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.5"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.10" inGameVisibility="0"/>
   </POIs>
 </OverlayData>

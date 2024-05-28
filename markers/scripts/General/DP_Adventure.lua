@@ -8,6 +8,11 @@ HMP_PoolPractice = {
   ErrorMarkers = {},
   Track = 0,
   StartTime = 0,
+  Latency = {
+    Lag = {
+      PollIndex = 0
+    },
+  },
   rPos = {},
   dPools = {
     Size = { {2.97, 2.88, 3.04}, {5.23, 5.0826, 5.35} }, --Empowered Sizes are estimated
@@ -92,7 +97,7 @@ local function CreatePool(amt)
   local attr = {
     MapID = Mumble.CurrentMap.Id,
     iconSize = 0,
-    type = "HMP.StrB13_c90.sc6",
+    type = "HMP.StrB13_c90.sc99",
     alpha = 0,
   }
   
@@ -153,7 +158,7 @@ local function CreateDots()
     Pools.ErrorMarkers[i]:SetTexture("Assets/General/dot.png")
   end
   Pools.ErrorMarkers[1]:SetPos(Pools.Poll.Pos[1] - I:Vector3(0, 0, 1.55))
-  Pools.ErrorMarkers[2]:SetPos(Pools.Poll.Pos[#Pools.Poll.Pos - 1] - I:Vector3(0, 0, 1.55))
+  Pools.ErrorMarkers[2]:SetPos(Pools.Poll.Pos[#Pools.Poll.Pos - Pools.Latency.Lag.PollIndex] - I:Vector3(0, 0, 1.55))
 end
 
 local function CreateErrorCircle()
@@ -283,6 +288,23 @@ local function ChangeMinimapIcon()
   minimapMarker.TipDescription = ""
 end
 
+local function LagAmount()
+  local amount = 1
+  for i = 1, 13, 2 do
+    if( World:CategoryByType("HMP.StrB13_c90.sc6.asc1." .. i):IsVisible() == true ) then
+      if( i == 1 ) then
+        amount = 1
+      elseif( i == 13 ) then
+        amount = math.random(i-2, 20)
+      else
+        amount = math.random(i-2, i+1)
+      end
+      break
+    end
+  end
+  return amount
+end
+
 ChangeMinimapIcon()
 DisplayHistory()
 
@@ -302,6 +324,7 @@ local function tick_PoolPractice(gameTime)
     CreatePool(Pools.dPools.Amount)
     for i = 1, #Pools.Markers do if( i % 5 == 4 or i % 5 == 3 ) then Pools.Markers[i].InGameVisibility = false end end
     
+    Pools.Latency.Lag.PollIndex = LagAmount() --Gets Lag value for Polling Index
     Pools.StartTime = gameTime.TotalGameTime.TotalSeconds
     time = gameTime.TotalGameTime.TotalSeconds - Pools.StartTime
     Pools.Track = 2
@@ -393,7 +416,7 @@ local function tick_PoolPractice(gameTime)
             Pools.Markers[i].Alpha = 0.1
           end
           
-          if( i > #Pools.Markers - 5 ) then Pools.Markers[i]:SetPos(Pools.Poll.Pos[#Pools.Poll.Pos - 1]) end
+          if( i > #Pools.Markers - 5 ) then Pools.Markers[i]:SetPos(Pools.Poll.Pos[#Pools.Poll.Pos - Pools.Latency.Lag.PollIndex]) end
         else
           Pools.Markers[i].InGameVisibility = false
         end
@@ -405,13 +428,13 @@ local function tick_PoolPractice(gameTime)
   end
   
   if( Pools.Track == 3 ) then
-    local fRef = Pools.Poll.fVector[#Pools.Poll.fVector - 1] --Getting the last relevant Forward Vector
+    local fRef = Pools.Poll.fVector[#Pools.Poll.fVector - Pools.Latency.Lag.PollIndex] --Getting the last relevant Forward Vector
     local fAngle = math.atan2(fRef.Y, fRef.X) --Converting the fVector into radians
     if( fAngle < 0 ) then fAngle = fAngle + (math.pi * 2) end
     
     -- ===== Getting Dodge Direction =====
-    --Getting the player's position at the 4s mark, and the 4.95s mark.
-    local center, poolPos = Pools.Poll.Pos[1], Pools.Poll.Pos[#Pools.Poll.Pos - 1]
+    --Getting the player's position at the 4s mark, and the 4.95s - Lag Pool Index mark.
+    local center, poolPos = Pools.Poll.Pos[1], Pools.Poll.Pos[#Pools.Poll.Pos - Pools.Latency.Lag.PollIndex]
     local mAngle = math.atan2((center.Y - poolPos.Y), (center.X - poolPos.X))
     if( mAngle < 0 ) then mAngle = mAngle + (math.pi * 2) end
     local modAngle = mAngle + fAngle
@@ -430,7 +453,7 @@ local function tick_PoolPractice(gameTime)
   end
   
   if( Pools.Track == 4 ) then
-    local playerError = math.floor((Pools.Poll.Pos[1] - Pools.Poll.Pos[#Pools.Poll.Pos - 1]):Length() * 39.3701)
+    local playerError = math.floor((Pools.Poll.Pos[1] - Pools.Poll.Pos[#Pools.Poll.Pos - Pools.Latency.Lag.PollIndex]):Length() * 39.3701)
     local errorRange = math.floor(Pools.ErrorMarkers[3].Size * 39.3701)
     
     local attr = {
