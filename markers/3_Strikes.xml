@@ -1188,27 +1188,28 @@
         <MarkerCategory name="asc1"   DisplayName="Position Dots"/>
         <MarkerCategory name="asc2"   DisplayName="Circle"/>
       </MarkerCategory>
-      <!-- NEW STUFF HERE WHOA WOWEE -->
       <MarkerCategory name="sc6"      DisplayName="Latency" IsSeparator="1">
-        <MarkerCategory name="asc1"   DisplayName="Lag"     IsSeparator="1" tip-description="How much 'earlier' you need to dodge.&#xA;In other words, getting hit by the&#xA;Despair Pool before the animation completes.&#xA;This is commonly referred to as: Ping.">
+        <MarkerCategory name="asc1"   DisplayName="Ping"     IsSeparator="1" tip-description="Can also be known as: Lag.&#xA;This refers to how 'early' the&#xA;Despair Pool hits you in it's animation.&#xA;Pick the option that best fits your ping.">
           <MarkerCategory name="1"    DisplayName="50ms"/>
-          <MarkerCategory name="3"    DisplayName="50ms - 150ms"   defaultToggle="0"/>
-          <MarkerCategory name="5"    DisplayName="150ms - 250ms"  defaultToggle="0"/>
-          <MarkerCategory name="7"    DisplayName="250ms - 350ms"  defaultToggle="0"/>
-          <MarkerCategory name="9"    DisplayName="350ms - 450ms"  defaultToggle="0"/>
-          <MarkerCategory name="11"   DisplayName="450ms - 550ms"  defaultToggle="0"/>
-          <MarkerCategory name="13"   DisplayName="550ms - 1000ms" defaultToggle="0"/>
+          <MarkerCategory name="2"    DisplayName="100ms"  defaultToggle="0"/>
+          <MarkerCategory name="3"    DisplayName="150ms"  defaultToggle="0"/>
+          <MarkerCategory name="4"    DisplayName="200ms"  defaultToggle="0"/>
+          <MarkerCategory name="5"    DisplayName="250ms"  defaultToggle="0"/>
+          <MarkerCategory name="6"    DisplayName="300ms"  defaultToggle="0"/>
+          <MarkerCategory name="7"    DisplayName="350ms"  defaultToggle="0"/>
+          <MarkerCategory name="8"    DisplayName="400ms"  defaultToggle="0"/>
+          <MarkerCategory name="9"    DisplayName="450ms"  defaultToggle="0"/>
+          <MarkerCategory name="10"   DisplayName="500ms"  defaultToggle="0"/>
+          <MarkerCategory name="11"   DisplayName="550ms+" defaultToggle="0" tip-description="Random ping between 550ms - 950ms."/>
         </MarkerCategory>
-        <MarkerCategory name="asc2"   DisplayName="Throttle" IsSeparator="1" tip-description="The chance to throttle.&#xA;This is when the game 'pauses,'&#xA;then quickly speeds up back to real-time.">
-          <MarkerCategory name="1"    DisplayName="1%"/>
-          <MarkerCategory name="2"    DisplayName="2%"  defaultToggle="0"/>
-          <MarkerCategory name="3"    DisplayName="3%"  defaultToggle="0"/>
-          <MarkerCategory name="4"    DisplayName="4%"  defaultToggle="0"/>
-          <MarkerCategory name="5"    DisplayName="5%"  defaultToggle="0"/>
-          <MarkerCategory name="10"   DisplayName="10%" defaultToggle="0"/>
+        <MarkerCategory name="asc2"   DisplayName="Lag Spike" IsSeparator="1" tip-description="Can also be known as: Throttle.&#xA;This refers to how the game 'stops in time'&#xA;and everything becomes desynced.&#xA;After this time period, everything&#xA;jarringly speeds up back to real time.&#xA;The options represent the chance a Lag Spike&#xA;(a cumulative freeze of 1s) will happen every second.">
+          <MarkerCategory name="1"    DisplayName="0%"/>
+          <MarkerCategory name="2"    DisplayName="1%"  defaultToggle="0"/>
+          <MarkerCategory name="3"    DisplayName="2%"  defaultToggle="0"/>
+          <MarkerCategory name="4"    DisplayName="5%"  defaultToggle="0"/>
+          <MarkerCategory name="5"    DisplayName="10%" defaultToggle="0" tip-description="This is a fun option,&#xA;not to be taken too seriously.&#xA;Enable at your own insanity."/>
         </MarkerCategory>
       </MarkerCategory>
-      <!-- END OF NEW STUFF -->
       <MarkerCategory name="sc99"     DisplayName="Pools" isHidden="1" heightOffset="-0.05"/>
     </MarkerCategory>
   </MarkerCategory>
@@ -1231,16 +1232,16 @@
     <!-- Minimap Marker -->
     <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="zcrtjfTr9EG7sUMxTtO91g==" type="HMP.StrB13_c90"               iconFile="Assets/Strikes/DP_Adventure/961365.png"    inGameVisibility="0" minimapVisibility="1" mapVisibility="1" MapDisplaySize="24" tip-name="Despair Pool Dodging" tip-description="Disabled until Lua Scripts are enabled."/>
     <!-- Trigger Markers -->
-    <POI MapID="1520" xpos="-6.74508" ypos="205.6108" zpos="-232.7538" GUID="2WSjZ55ZTEGiblHUjfkh+A==" type="HMP.StrB13_c90.sc1"           iconFile="Assets/Strikes/DP_Adventure/Spawn.png"     iconSize="1.5" alpha="0.5" triggerRange="5" autoTrigger="0" script-trigger="StartPoolPractice"/>
+    <POI MapID="1520" xpos="-6.52568" ypos="205.6108" zpos="-231.7983" GUID="2WSjZ55ZTEGiblHUjfkh+A==" type="HMP.StrB13_c90.sc1"           iconFile="Assets/Strikes/DP_Adventure/Spawn.png"     iconSize="1.5" alpha="0.5" triggerRange="5" autoTrigger="0" script-trigger="StartPoolPractice"/>
     <POI MapID="1520" xpos="0"        ypos="0"        zpos="0"         GUID="Gdotxh/ZiEWBO9d6+120uQ==" type="HMP.StrB13_c90.sc1"           iconFile="Assets/Strikes/DP_Adventure/Reset.png"     iconSize="1.5" alpha="0.5" triggerRange="5" autoTrigger="0" script-trigger="RedisplayPoolPractice" inGameVisibility="0"/>
     <!-- Adventure Board -->
-    <POI MapID="1520" xpos="-14.0683" ypos="194.34"   zpos="-225.954"  GUID="Bv/AYrc49kKNX3+zMDmsGA==" type="HMP.StrB13_c90.sc2"           iconFile="Assets/Strikes/DP_Adventure/MainBoard.png" iconSize="3.5" heightOffset="15.5"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34"   zpos="-225.954"  GUID="Bv/AYrc49kKNX3+zMDmsGA==" type="HMP.StrB13_c90.sc2"           iconFile="Assets/Strikes/DP_Adventure/MainBoard.png" iconSize="4"   heightOffset="15.5"/>
     <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="AIXi+iWpDkaVTjX78CIx5Q==" type="HMP.StrB13_c90.sc2.info"      iconFile="Assets/General/empty.png"                                 show="HMP.StrB13_c90.sc2.curr" hide="HMP.StrB13_c90.sc2.info"/>
-    <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="lIXi+iWpDkaVTjX78CIx5Q==" type="HMP.StrB13_c90.sc2.info.asc1" iconFile="Assets/Strikes/DP_Adventure/Board1.png"    iconSize="3.5"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34"   zpos="-225.954"  GUID="lIXi+iWpDkaVTjX78CIx5Q==" type="HMP.StrB13_c90.sc2.info.asc1" iconFile="Assets/Strikes/DP_Adventure/Board1.png"    iconSize="4"   heightOffset="15.5"/>
     <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="Ay7txJK2iE+cCfd8xbNgOw==" type="HMP.StrB13_c90.sc2.curr"      iconFile="Assets/General/empty.png"                                 show="HMP.StrB13_c90.sc2.hist" hide="HMP.StrB13_c90.sc2.curr"/>
-    <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="ry7txJK2iE+cCfd8xbNgOw==" type="HMP.StrB13_c90.sc2.curr.asc1" iconFile="Assets/Strikes/DP_Adventure/Board2.png"    iconSize="3.5"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34"   zpos="-225.954"  GUID="ry7txJK2iE+cCfd8xbNgOw==" type="HMP.StrB13_c90.sc2.curr.asc1" iconFile="Assets/Strikes/DP_Adventure/Board2.png"    iconSize="4"   heightOffset="15.5"/>
     <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="AXUo3DC8MUe0SEvb1W9E+Q==" type="HMP.StrB13_c90.sc2.hist"      iconFile="Assets/General/empty.png"                                 show="HMP.StrB13_c90.sc2.info" hide="HMP.StrB13_c90.sc2.hist"/>
-    <POI MapID="1520" xpos="-14.0683" ypos="208.34"   zpos="-225.954"  GUID="RXUo3DC8MUe0SEvb1W9E+Q==" type="HMP.StrB13_c90.sc2.hist.asc1" iconFile="Assets/Strikes/DP_Adventure/Board3.png"    iconSize="3.5"/>
+    <POI MapID="1520" xpos="-14.0683" ypos="194.34"   zpos="-225.954"  GUID="RXUo3DC8MUe0SEvb1W9E+Q==" type="HMP.StrB13_c90.sc2.hist.asc1" iconFile="Assets/Strikes/DP_Adventure/Board3.png"    iconSize="4"   heightOffset="15.5"/>
     <!-- A large list of empty markers solely for categories to show up to the end-user -->
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="CPbhxOEGe0muvPPQEeM5Hw==" type="HMP.StrB13_c90.sc3.1"    inGameVisibility="0"/>
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="1/SxOrxQ9U60I8jy59DEoA==" type="HMP.StrB13_c90.sc3.2"    inGameVisibility="0"/>
@@ -1257,21 +1258,22 @@
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="HmPEwQW3FkquU4xOnpMn1w==" type="HMP.StrB13_c90.sc5.asc1" inGameVisibility="0"/>
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc5.asc2" inGameVisibility="0"/>
     
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="aP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.1"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="bP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.2"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="cP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.3"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="dP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.4"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="eP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.5"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="fP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.6"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="gP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.7"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="hP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.8"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="iP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.9"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="jP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.10" inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="kP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.11" inGameVisibility="0"/>
     
-    
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.1"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.3"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.5"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.7"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.9"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.11" inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc1.13" inGameVisibility="0"/>
-    
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.1"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.2"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.3"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.4"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.5"  inGameVisibility="0"/>
-    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="xP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.10" inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="hP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.1"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="iP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.2"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="jP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.3"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="kP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.4"  inGameVisibility="0"/>
+    <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="kP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.5"  inGameVisibility="0"/>
   </POIs>
 </OverlayData>

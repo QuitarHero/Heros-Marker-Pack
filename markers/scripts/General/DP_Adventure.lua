@@ -12,6 +12,13 @@ HMP_PoolPractice = {
     Lag = {
       PollIndex = 0
     },
+    Throttle = {
+      Threshold = {0, 1, 2, 5, 10},
+      Percent = 0,
+      TimePool = 0,
+      Interval = 0,
+      LastTime = 0
+    }
   },
   rPos = {},
   dPools = {
@@ -66,6 +73,8 @@ local function ResetPoolPractice()
   
   Pools.Markers = {}
   Pools.ErrorMarkers = {}
+  Pools.Latency.Throttle.Interval = 0
+  Pools.Latency.Throttle.LastTime = 0
   Pools.rPos = {}
   Pools.Track = 0
   Pools.StartTime = 0
@@ -83,7 +92,7 @@ local function InvertVisibility(GUIDtable)
       World:MarkerByGuid(v):SetPos(0, 0, 0)
     else
       World:MarkerByGuid(v).InGameVisibility = true
-      World:MarkerByGuid(v):SetPos(-6.74508, -232.7538, 205.6108)
+      World:MarkerByGuid(v):SetPos(-6.52568, -231.7983, 205.6108)
     end
   end
 end
@@ -180,12 +189,18 @@ local function DisplayNumbers(Position, Number, Attributes, Size)
   local offset = 0.09
   
   for i = 1, digitAmt do
-    local digit = tonumber(string.sub(Number, (digitAmt + 1 - i), (digitAmt + 1 - i)))
+    local digit = string.sub(Number, (digitAmt + 1 - i), (digitAmt + 1 - i))
+    
     markers[i] = Pack:CreateMarker(Attributes)
     markers[i].Size = Size
-    markers[i]:SetPos(Position + I:Vector3(0, -(offset * (i-1)), 0))
     markers[i]:SetRot(1.5708, 0, 4.71239)
-    markers[i]:SetTexture("Assets/Strikes/DP_Adventure/Numbers/" .. digit .. ".png")
+    markers[i]:SetPos(Position + I:Vector3(0, -((offset) * (i-1)), 0))
+    
+    if( digit == "%" ) then
+      markers[i]:SetTexture("Assets/Strikes/DP_Adventure/Numbers/percent.png")
+    else
+      markers[i]:SetTexture("Assets/Strikes/DP_Adventure/Numbers/" .. tonumber(digit) .. ".png")
+    end
   end
   
   return markers
@@ -202,14 +217,16 @@ local function DisplayText(Position, Text, Attributes, Size, Alignment)
 end
 
 local function DisplayHistory()
-  local height = {209.035, 208.7305, 208.426, 208.1215, 207.817, 207.5125, 207.212, 206.9185, 206.609}
+  local height = {209.012, 208.7145, 208.417, 208.1195, 207.822, 207.5245, 207.227, 206.9295, 206.6325} -- 0.2975 offset
   local HistoryBoard = {
     Number = {},
     Result = {},
     Direction = {},
     Distance = {},
     Amount = {},
-    Empowered = {}
+    Empowered = {},
+    Ping = {},
+    LagSpike = {}
   }
   
   local attr = {
@@ -222,7 +239,7 @@ local function DisplayHistory()
   --Displaying Information to the History Board
   for i = 1, 9 do
     local curStorage = Storage:ReadValue("hmp", "Pool" .. i)
-    HistoryBoard.Number = DisplayNumbers(I:Vector3(-14.0683, -227.868, height[i]), i, attr, 0.12)
+    HistoryBoard.Number = DisplayNumbers(I:Vector3(-14.0683, -228.70, height[i]), i, attr, 0.12)
     
     if( curStorage ~= nil ) then
       local temp, value = "", 0
@@ -235,7 +252,7 @@ local function DisplayHistory()
           break
         end
       end
-      HistoryBoard.Result = DisplayText(I:Vector3(-14.0683, -227.177, height[i]), temp, attr, 0.55, "CenterAlign")
+      HistoryBoard.Result = DisplayText(I:Vector3(-14.0683, -228.009, height[i]), temp, attr, 0.55, "CenterAlign")
               
       --We get the Direction from the Stored Value
       for k = value, value+15 do
@@ -245,7 +262,7 @@ local function DisplayHistory()
           break
         end
       end
-      HistoryBoard.Direction = DisplayText(I:Vector3(-14.0683, -226.281, height[i]), temp, attr, 0.55, "CenterAlign")
+      HistoryBoard.Direction = DisplayText(I:Vector3(-14.0683, -227.143, height[i]), temp, attr, 0.55, "CenterAlign")
               
       --We get the Distance from the Stored Value
       for k = value, value+6 do --only supports 5 digits
@@ -255,7 +272,7 @@ local function DisplayHistory()
           break
         end
       end
-      HistoryBoard.Distance = DisplayNumbers(I:Vector3(-14.0683, -225.322, height[i]), tonumber(temp), attr, 0.09)
+      HistoryBoard.Distance = DisplayNumbers(I:Vector3(-14.0683, -226.165, height[i]), tonumber(temp), attr, 0.09)
               
       --We get the Amount from the Stored Value
       for k = value, value+3 do
@@ -265,7 +282,7 @@ local function DisplayHistory()
           break
         end
       end
-      HistoryBoard.Amount = DisplayNumbers(I:Vector3(-14.0683, -224.665, height[i]), tonumber(temp), attr, 0.09)
+      HistoryBoard.Amount = DisplayNumbers(I:Vector3(-14.0683, -225.537, height[i]), tonumber(temp), attr, 0.09)
               
       --We get the Pool Size from the Stored Value
       for k = value, value+4 do
@@ -275,7 +292,29 @@ local function DisplayHistory()
           break
         end
       end
-      HistoryBoard.Empowered = DisplayText(I:Vector3(-14.0683, -224.152, height[i]), temp, attr, 0.55, "CenterAlign")
+      HistoryBoard.Empowered = DisplayText(I:Vector3(-14.0683, -225.049, height[i]), temp, attr, 0.55, "CenterAlign")
+    
+      if( string.sub(curStorage, value, value) ~= "" ) then
+        --We get the Ping from the Stored Value
+        for k = value, value+4 do
+          if( string.sub(curStorage, k, k) == "_" ) then
+            temp = string.sub(curStorage, value, k-1)
+            value = k+1
+            break
+          end
+        end
+        HistoryBoard.Ping = DisplayNumbers(I:Vector3(-14.0683, -224.41, height[i]), temp, attr, 0.09)
+        
+        --We get the Lag Spike / Throttle from the Stored Value
+      for k = value, value+5 do
+        if( string.sub(curStorage, k, k) == "_" ) then
+          temp = string.sub(curStorage, value, k-1)
+          value = k+1
+          break
+        end
+      end
+      HistoryBoard.LagSpike = DisplayNumbers(I:Vector3(-14.0683, -223.690, height[i]), tostring(temp .. "%"), attr, 0.09)
+      end
     else
       break
     end
@@ -290,14 +329,13 @@ end
 
 local function LagAmount()
   local amount = 1
-  for i = 1, 13, 2 do
+  for i = 1, 11 do
     if( World:CategoryByType("HMP.StrB13_c90.sc6.asc1." .. i):IsVisible() == true ) then
-      if( i == 1 ) then
-        amount = 1
-      elseif( i == 13 ) then
-        amount = math.random(i-2, 20)
+      if( i < 11 ) then
+        Debug:Print("hi: " .. i )
+        amount = i
       else
-        amount = math.random(i-2, i+1)
+        amount = math.random(i, 20)
       end
       break
     end
@@ -305,14 +343,30 @@ local function LagAmount()
   return amount
 end
 
+local function GetThrottlePercent()
+  for i = 1, 7 do
+    if( World:CategoryByType("HMP.StrB13_c90.sc6.asc2." .. i):IsVisible() == true ) then
+      Pools.Latency.Throttle.Percent = Pools.Latency.Throttle.Threshold[i]
+      break
+    end
+  end
+end
+
+local function ThrottleCheck()
+  local percent = 0
+  percent = (math.random(0, 10) * 10) + math.random(0, 10)
+  percent = percent + ( ((math.random(0, 10) * 10) + math.random(0, 10)) / 100 )
+  if( percent <= Pools.Latency.Throttle.Percent ) then
+    Pools.Latency.Throttle.TimePool = Pools.Latency.Throttle.TimePool + 1
+  end
+end
+
 ChangeMinimapIcon()
 DisplayHistory()
 
+local time = 0
+
 local function tick_PoolPractice(gameTime)
-  --Real time variable
-  local time = gameTime.TotalGameTime.TotalSeconds - Pools.StartTime
-  Debug:Watch("Pool Time", time)
-  
   -- When the script begins, we create markers
   if( Pools.Track == 1 ) then
     for i = 1, 10 do
@@ -325,42 +379,59 @@ local function tick_PoolPractice(gameTime)
     for i = 1, #Pools.Markers do if( i % 5 == 4 or i % 5 == 3 ) then Pools.Markers[i].InGameVisibility = false end end
     
     Pools.Latency.Lag.PollIndex = LagAmount() --Gets Lag value for Polling Index
+    GetThrottlePercent() --Gets Percent Chance to Throttle
     Pools.StartTime = gameTime.TotalGameTime.TotalSeconds
     time = gameTime.TotalGameTime.TotalSeconds - Pools.StartTime
     Pools.Track = 2
   end
   
   if( Pools.Track == 2 ) then
+    local lagTime = gameTime.TotalGameTime.TotalSeconds - Pools.StartTime
+    --Checks for Throttling every 5ms
+    if( lagTime >= Pools.Latency.Throttle.LastTime + (0.005 * Pools.Latency.Throttle.Interval) ) then
+      ThrottleCheck()
+      Pools.Latency.Throttle.LastTime = gameTime.TotalGameTime.TotalSeconds - Pools.StartTime
+      Pools.Latency.Throttle.Interval = Pools.Latency.Throttle.Interval + 1
+    end
+    if( time + Pools.Latency.Throttle.TimePool <= lagTime ) then
+      --Real time variable
+      time = gameTime.TotalGameTime.TotalSeconds - Pools.StartTime
+      Debug:Watch("Pool Time", time)
+      Pools.Latency.Throttle.TimePool = 0
+    end
+    
     -- Polls the Player's position, time, and forward vector
-    if( time > (5 - 1) + (0.05 * Pools.Poll.Interval) and time <= 5 ) then
-      Pools.Poll.Time[(1 + Pools.Poll.Interval)] = time
+    if( lagTime > (5 - 1) + (0.05 * Pools.Poll.Interval) and lagTime <= 5 ) then
+      Pools.Poll.Time[(1 + Pools.Poll.Interval)] = lagTime
       Pools.Poll.Pos[(1 + Pools.Poll.Interval)] = Player.Position
       Pools.Poll.fVector[(1 + Pools.Poll.Interval)] = Player.Forward
       Pools.Poll.Interval = Pools.Poll.Interval + 1
     end
     
     for i = 1, #Pools.Markers do
-      --If the markers we're looking at are for the player (last Pool set in the Marker table), we set them to follow the player.
-      if( i > #Pools.Markers - 5 ) then
-        if( i % 5 ~= 0 ) then
-          Pools.Markers[i]:SetPos(Player.Position.X, Player.Position.Y, 205.052) --205.052
-        elseif( i % 5 == 0 ) then
-          Pools.Markers[i]:SetPosX(Player.Position.X)
-          Pools.Markers[i]:SetPosY(Player.Position.Y)
-          if( time < 3.5 ) then
-            Pools.Markers[i]:SetPosZ(205.052 + 8.1) --212.052
-          end
-        end
-      --If the markers we're looking at are not for the player, we only modify the height value
-      else
-        if( time < 4 and i <= #Pools.Markers - 5 ) then
+      if( time + Pools.Latency.Throttle.TimePool >= lagTime ) then --Only modifies positions when allowed
+        --If the markers we're looking at are for the player (last Pool set in the Marker table), we set them to follow the player.
+        if( i > #Pools.Markers - 5 ) then
           if( i % 5 ~= 0 ) then
-            Pools.Markers[i]:SetPos(Player.Position + Pools.rPos[math.ceil(i/5)])
+            Pools.Markers[i]:SetPos(Player.Position.X, Player.Position.Y, 205.052) --205.052
           elseif( i % 5 == 0 ) then
-            Pools.Markers[i]:SetPosX(Player.Position.X + Pools.rPos[math.ceil(i/5)].X)
-            Pools.Markers[i]:SetPosY(Player.Position.Y + Pools.rPos[math.ceil(i/5)].Y)
+            Pools.Markers[i]:SetPosX(Player.Position.X)
+            Pools.Markers[i]:SetPosY(Player.Position.Y)
             if( time < 3.5 ) then
-              Pools.Markers[i]:SetPosZ(205.052 + 8.1)
+              Pools.Markers[i]:SetPosZ(205.052 + 8.1) --212.052
+            end
+          end
+        --If the markers we're looking at are not for the player, we only modify the height value
+        else
+          if( time < 4 and i <= #Pools.Markers - 5 ) then
+            if( i % 5 ~= 0 ) then
+              Pools.Markers[i]:SetPos(Player.Position + Pools.rPos[math.ceil(i/5)])
+            elseif( i % 5 == 0 ) then
+              Pools.Markers[i]:SetPosX(Player.Position.X + Pools.rPos[math.ceil(i/5)].X)
+              Pools.Markers[i]:SetPosY(Player.Position.Y + Pools.rPos[math.ceil(i/5)].Y)
+              if( time < 3.5 ) then
+                Pools.Markers[i]:SetPosZ(205.052 + 8.1)
+              end
             end
           end
         end
@@ -379,6 +450,11 @@ local function tick_PoolPractice(gameTime)
       -- (Yes this is a hack)
       if( time >= Pools.Dur.AoE_FadeIn and time < 4 ) then
         Pools.Markers[i].InGameVisibility = true
+        if( i % 5 == 4 or i % 5 == 2 ) then
+          Pools.Markers[i].Alpha = 0.25
+        else
+          Pools.Markers[i].Alpha = 0.9
+        end
       end
       
       --Inner AoE
@@ -399,13 +475,8 @@ local function tick_PoolPractice(gameTime)
         end
       end
       
-      --4.8667s animation
-      --400ms for fast fall down of impact orb
-      --783ms for slow fall down of impact orb
-      --816ms for inner aoe and impact orb to begin
-      
       --When the damaging AoE needs to spawn, we change its color and size.
-      if( time >= 5 and time < 6 ) then
+      if( time >= 5 ) then
         if( i % 5 ~= 0 ) then
           Pools.Markers[i].Tint = I:Color(214, 19, 19, 255)
           Pools.Markers[i].Size = Pools.dPools.Size[Pools.dPools.Type][3]
@@ -470,20 +541,22 @@ local function tick_PoolPractice(gameTime)
       Distance = {},
       Amount = {},
       Direction = {},
-      Empowered = {}
+      Empowered = {},
+      Ping = {},
+      LagSpike = {}
     }
     
-    --Result Marker
+    --Result and Description
     if( playerError == 0 ) then
-      CurrentBoard.Result = DisplayText(I:Vector3(-14.0683, -224.665, 209.027), Pools.Result.Text[5], attr, 1, "CenterAlign")
+      CurrentBoard.Result = DisplayText(I:Vector3(-14.0685, -224.944, 209.035), Pools.Result.Text[5], attr, 1, "CenterAlign")
       attr.alpha = 1
-      CurrentBoard.Description = DisplayText(I:Vector3(-14.0683, -225.954, 208.34), Pools.Description.Text[6], attr, 3.5, "Descriptions")
+      CurrentBoard.Description = DisplayText(I:Vector3(-14.0683, -225.954, 208.34), Pools.Description.Text[6], attr, 4, "Descriptions")
       attr.alpha = 0.75
       CurrentStorage = Pools.Result.Text[5] .. "_"
     else
       for _,v in ipairs(Pools.Result.Threshold) do
         if( playerError > errorRange * v ) then
-          CurrentBoard.Result = DisplayText(I:Vector3(-14.0683, -224.665, 209.027), Pools.Result.Text[_], attr, 1, "CenterAlign")
+          CurrentBoard.Result = DisplayText(I:Vector3(-14.0685, -224.944, 209.035), Pools.Result.Text[_], attr, 1, "CenterAlign")
           CurrentStorage = Pools.Result.Text[_] .. "_"
           break
         end
@@ -491,29 +564,32 @@ local function tick_PoolPractice(gameTime)
       for _,v in ipairs(Pools.Description.Threshold) do
         if( playerError > errorRange * v ) then
           attr.alpha = 1
-          CurrentBoard.Description = DisplayText(I:Vector3(-14.0683, -225.954, 208.34), Pools.Description.Text[_], attr, 3.5, "Descriptions")
+          CurrentBoard.Description = DisplayText(I:Vector3(-14.0683, -225.954, 208.34), Pools.Description.Text[_], attr, 4, "Descriptions")
           attr.alpha = 0.75
           break
         end
       end
     end
     
-    --Distance, Amount, and Direction Markers
-    CurrentBoard.Distance  = DisplayNumbers(I:Vector3(-14.0683, -226.522, 206.193), playerError, attr, 0.09)
-    CurrentBoard.Amount    = DisplayNumbers(I:Vector3(-14.0683, -226.219, 205.888), Pools.dPools.Amount, attr, 0.09)
-    CurrentBoard.Direction = DisplayText(I:Vector3(-14.0683, -224.302, 206.193), Pools.Dodge.Text[Pools.Dodge.Direction], attr, 0.55, "RightAlign")
-    --Empowered Marker
-    CurrentBoard.Empowered = DisplayText(I:Vector3(-14.0683, -224.302, 205.888), World:CategoryByType("HMP.StrB13_c90.sc4.asc" .. Pools.dPools.Type).DisplayName, attr, 0.55, "RightAlign")
-    CurrentStorage = CurrentStorage .. Pools.Dodge.Text[Pools.Dodge.Direction] .. "_" .. tostring(playerError) .. "_" .. tostring(Pools.dPools.Amount) .. "_" .. World:CategoryByType("HMP.StrB13_c90.sc4.asc" .. Pools.dPools.Type).DisplayName .. "_"
+    --Distance, Pool Amount
+    CurrentBoard.Distance  = DisplayNumbers(I:Vector3(-14.0685, -227.698, 206.265), playerError, attr, 0.09)
+    CurrentBoard.Amount    = DisplayNumbers(I:Vector3(-14.0685, -227.328, 205.966), Pools.dPools.Amount, attr, 0.09)
+    --Direction, Empowered
+    CurrentBoard.Direction = DisplayText(I:Vector3(-14.0685, -225.836, 206.269), Pools.Dodge.Text[Pools.Dodge.Direction], attr, 0.55, "RightAlign")
+    CurrentBoard.Empowered = DisplayText(I:Vector3(-14.0685, -225.836, 205.97), World:CategoryByType("HMP.StrB13_c90.sc4.asc" .. Pools.dPools.Type).DisplayName, attr, 0.55, "RightAlign")
+    --Ping, Lag Spike
+    CurrentBoard.Ping      = DisplayNumbers(I:Vector3(-14.0685, -223.637, 206.265), Pools.Latency.Lag.PollIndex * 50, attr, 0.09)
+    CurrentBoard.LagSpike  = DisplayNumbers(I:Vector3(-14.0685, -223.432, 205.966), tostring(Pools.Latency.Throttle.Percent .. "%"), attr, 0.09)
+    CurrentStorage = CurrentStorage .. Pools.Dodge.Text[Pools.Dodge.Direction] .. "_" .. tostring(playerError) .. "_" .. tostring(Pools.dPools.Amount) .. "_" .. World:CategoryByType("HMP.StrB13_c90.sc4.asc" .. Pools.dPools.Type).DisplayName .. "_" .. Pools.Latency.Lag.PollIndex * 50 .. "_" .. Pools.Latency.Throttle.Percent .. "_"
+    
+    
     
     local hBoardMarkers = World:CategoryByType("HMP.StrB13_c90.sc2.hist.asc2"):GetMarkers()
     for _,v in ipairs(hBoardMarkers) do if( v ~= nil ) then v:Remove() else break end end
     
     -- ========== STORAGE ==========
     --We only support the past 9 attempts, so if a 9th attempt already exists, we delete it
-    if( Storage:ReadValue("hmp", "Pool9") ~= nil ) then
-      Storage:DeleteValue("hmp", "Pool9")
-    end
+    if( Storage:ReadValue("hmp", "Pool9") ~= nil ) then Storage:DeleteValue("hmp", "Pool9") end
     
     --We increment each Stored Value's namespace by 1
     for i = 9, 1, -1 do
