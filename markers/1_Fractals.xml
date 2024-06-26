@@ -599,9 +599,10 @@
   
 <!-- ======================================== THE LONELY TOWER =============================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="F_TLT_sy" DisplayName="Slaying"   cull="CounterClockwise" iconSize="2.5"                   minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory name="s1" DisplayName="Start"  fadeFar="2000" fadeNear="1750"                rotate="90,0,-16" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2" DisplayName="Eparch" fadeFar="1250" fadeNear="1000" iconSize="2.5" rotate="90,0,130" tip-description="• Sharp Stone&#xA;• Force&#xA;• Demon"/>
+    <MarkerCategory name="F_TLT_c1" DisplayName="Avatar Tether Radius"            fadeFar="1750" fadeNear="1500" iconSize="19.5" rotate="180,0,55" minimapVisibility="0" mapVisibility="0"/>
+    <MarkerCategory name="F_TLT_sy" DisplayName="Slaying" cull="CounterClockwise" iconSize="2.5"                                                   minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="s1"     DisplayName="Start"                           fadeFar="2000" fadeNear="1750"                 rotate="90,0,-16" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"     DisplayName="Eparch"                          fadeFar="1250" fadeNear="1000" iconSize="2.5"  rotate="90,0,130" tip-description="• Sharp Stone&#xA;• Force&#xA;• Demon"/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -611,6 +612,8 @@
     <POI MapID="1538" xpos="-101.231" ypos="851.05"  zpos="99.3706" GUID="Pr/3u0XLpk6aV49bBoJxLw==" type="HMP.F_TLT_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
     <POI MapID="1538" xpos="0.057"    ypos="899.359" zpos="125.816" GUID="OtENLe/aoEuWblyP6Rz2FQ==" type="HMP.F_TLT_sy.s2" iconFile="Assets/Fracs/Slaying/TLT2.png"/>
     <POI MapID="1538" xpos="0.057"    ypos="885.359" zpos="125.816" GUID="PtENLe/aoEuWblyP6Rz2FQ==" type="HMP.F_TLT_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+    <!-- Avatar Tether Radius (480r) -->
+    <POI MapID="1538" xpos="48.363"   ypos="896.015" zpos="59.4"    GUID="qNHOe/2/JUyq7srB4shIRw==" type="HMP.F_TLT_c1"    iconFile="Assets/Shapes/Hitbox1.png"    heightOffset="-0.05" alpha="0.5"/>
   </POIs>
   
   
