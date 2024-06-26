@@ -13,7 +13,7 @@ HMP.MapScripts = {
   -- Eye of the North -------------------- Icebrood Construct ------------------ Kodan Brothers ---------------------- Fraenir of Jormag ------------------- Boneskinner ------------------------- Whisper of Jormag ------------------- Cold War (Varina Stormsounder)
   { {1370, {Dir[4] .. "Icebrood Saga"} }, {1332, {Dir[4] .. "Icebrood Saga"} }, {1346, {Dir[4] .. "Icebrood Saga"} }, {1341, {Dir[4] .. "Icebrood Saga"} }, {1339, {Dir[4] .. "Icebrood Saga"} }, {1359, {Dir[4] .. "Icebrood Saga"} }, {1374, {Dir[4] .. "Icebrood Saga"} } },
   -- Arborstone ------------------------ Aetherblade Hideout --------------- Xunlai Jade Junkyard -------------- Kaineng Overlook ------------------ Harvest Temple ------------------------------------------------------------------------------------------------------ Old Lion's Court
-  { {1428, {Dir[4] .. "EoD Strikes"} }, {1432, {Dir[4] .. "EoD Strikes"} }, {1450, {Dir[4] .. "EoD Strikes"} }, {1451, {Dir[4] .. "EoD Strikes"} }, {1437, {Dir[3] .. "Throw Helper", Dir[3] .. "StrB10_D2_SafeSpot", Dir[1] .. "StrB10_RevGS5", Dir[5] .. "HT-Main" } }, {1485, {Dir[4] .. "EoD Strikes"} } },
+  { {1428, {Dir[4] .. "EoD Strikes"} }, {1432, {Dir[4] .. "EoD Strikes"} }, {1450, {Dir[4] .. "EoD Strikes"} }, {1451, {Dir[4] .. "EoD Strikes"} }, {1437, {Dir[3] .. "Throw Helper", Dir[1] .. "StrB10_D2_SafeSpot", Dir[1] .. "StrB10_RevGS5", Dir[5] .. "HT-Main" } }, {1485, {Dir[4] .. "EoD Strikes"} } },
   -- C-Observatory - Temple of Febe
   { {1515, {nil} }, {1520, {Dir[1] .. "DP_Adventure"} } },
   -- Ascalon Cat - blahblah
