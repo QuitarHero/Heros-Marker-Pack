@@ -135,7 +135,6 @@ function HTcm_D4_ShockWaves(curTime, startTime, interval, table, index)
         if(curTime >= sw.time[i] + sw.attr.time[t] - sw.attr.fadeDur and curTime <= sw.time[i] + sw.attr.time[t]) then
           HMPphysics.animate.FadeOut(curTime, (sw.time[i] + sw.attr.time[t] - sw.attr.fadeDur), sw.attr.fadeDur, sw.attr.alpha[k], sw.markers[v])
         end
-        
         --Player Fail-State
         if(k == 1 and player.Position.Z <= 391.733 and (player.Position - sw.markers[v].Position):Length() >= sw.markers[v].Size - sw.attr.leeway and (player.Position - sw.markers[v].Position):Length() < sw.markers[v].Size) then
           --Stops the script when this function is called from the "Wave Practice" script

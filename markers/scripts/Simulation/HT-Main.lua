@@ -23,7 +23,7 @@ HMP.HTcmSim = {
 --Dependencies (yes, this must be *after* this script makes it's above table)
 local dependencies = {
   {"Animate", "Position", "Misc"},
-  {"HT-D1", "HT-D2", "HT-D3", "HT-D4", "HT-D4-Practice", "HT-D5", "HT-D6", "HT-Enemies", "HT-General", "HT-P1", "HT-P2", "HT-P3", "HT-P4"}
+  {"HT-Enemies", "HT-General", "HT-P1", "HT-D1", "HT-D2", "HT-D3", "HT-P2", "HT-D4", "HT-D4-Practice", "HT-D5", "HT-P3", "HT-D6", "HT-P4"}
 }
 local dir = {"scripts/Utility/", "scripts/Simulation/"}
 for a,table in ipairs(dependencies) do
@@ -37,8 +37,7 @@ local HTcm = HMP.HTcmSim
 
 function Trigger_HTcm_Sim() HTcm.track[1] = HTcm.track[1] + 1 end
 
-local function Reset_HTcm_Main() for i = 1, #HTcm.check do HTcm.check[i] = false end end
-
+local function Reset_HTcm_Main() Utility.Misc.ResetTable(HTcm.check, false) end
 local titleTextures = { "P1", "D1", "D2", "D3", "P2", "D4", "D5", "P3", "D6-1", "P4", "D6-2" }
 local function SetTitleTexture(index)
   --Setting Textures

@@ -182,7 +182,7 @@ function HTcm_D3_CenterBeam(curTime, startTime, interval, table, index)
       end
     end
     --If a player touches the beam, we down them
-    if( center.markers[a].InGameVisibility == true and center.markers[a].Alpha > 0.5 and ( Mumble.PlayerCharacter.Position - center.markers[a].Position ):Length() < center.markers[a].Size ) then ApplyDowned(Mumble.PlayerCharacter.Position) end
+    if( center.markers[a].InGameVisibility == true and center.markers[a].Alpha > 0.5 and ( Mumble.PlayerCharacter.Position - center.markers[a].Position ):Length() < center.markers[a].Size and World:CategoryByType("hmpSim.htcm_c1.sc4.ps_1"):IsVisible() ) then ApplyDowned(Mumble.PlayerCharacter.Position) end
   end
 end
 
@@ -207,7 +207,7 @@ function HTcm_D3_CrystalBarrage(curTime, startTime, interval, table, index)
     --Randomizing spawn positions and time delays
     if(cb.track[b] == 0 and curTime >= cb.time[b]) then
       local L = #D0.orb.size
-      cb.markers[i].Position = HMPphysics.pos.randomXZ(D0.orb.pos[1], D0.orb.size[L])
+      cb.markers[i].Position = Utility.Position.randomXZ(D0.orb.pos[1], D0.orb.size[L])
       cb.markers[a].Position = cb.markers[i].Position
       if(i <= 4) then
         cb.delay[b] = math.random(cb.sum[1], b * 250)

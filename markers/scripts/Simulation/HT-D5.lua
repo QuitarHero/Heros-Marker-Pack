@@ -198,7 +198,7 @@ function HTcm_D5_Wurms(curTime, startTime, interval, table, index)
     a, b, c, h = (i*2), (i*4)+3, (i*4)+6, wurms.halfway[i]
     --Randomizing wurm positions and delays
     if(wurms.track[i] == 0 and curTime >= wurms.time[4]) then
-      local vector = HMPphysics.pos.randomXZ(wurms.centerPos[i], wurms.radius)
+      local vector = Utility.Position.randomXZ(wurms.centerPos[i], wurms.radius)
       for k = a-1, a do wurms.markers[k]:SetPos(vector) end
       for k = b, c do wurms.markers[k]:SetPos(vector) end
       wurms.delay[i] = math.random(wurms.sum, 1000 + ((i - 1) * 250)) - wurms.sum
