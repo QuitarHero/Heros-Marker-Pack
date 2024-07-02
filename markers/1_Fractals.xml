@@ -320,7 +320,7 @@
         <MarkerCategory name="sc2"      DisplayName="Numbers"                                                   heightOffset="2.1"                                                   iconSize="0.5"/>
         <MarkerCategory name="sc3"      DisplayName="Arrows"                                                                                   iconFile="Assets/General/Pointer.png" iconSize="0.35" rotate-x="180"/>
       </MarkerCategory>
-    <MarkerCategory     name="F_SoO_sy" DisplayName="Slaying"                           cull="CounterClockwise" fadeFar="1400" fadeNear="1150"                                       iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
+    <MarkerCategory     name="F_SoO_sy" DisplayName="Slaying"                           cull="CounterClockwise" fadeFar="1400" fadeNear="1150"                                       iconSize="1.75" rotate="90,4,80" mapVisibility="0" minimapVisibility="0" tip-description="• Elemental&#xA;• Elemental&#xA;• Night"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Path Skip ========== -->
@@ -404,7 +404,7 @@
     <MarkerCategory   name="F_SP_c6" DisplayName="Dialogue Door Skip"                                                                                           mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_SP_sy" DisplayName="Slaying"              cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconSize="1.75" rotate="105,0,192" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Challenge"                                    fadeFar="900" fadeNear="750" iconSize="1.9"  rotate="94,0,-90"  tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
+      <MarkerCategory name="s2"      DisplayName="Challenge"                                    fadeFar="900" fadeNear="750" iconSize="1.9"  rotate="94,0,-90"  tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -485,7 +485,7 @@
       <MarkerCategory name="t8"      DisplayName="Bottom Right (Spiders)"/>
       <MarkerCategory name="t9"      DisplayName="Passage"/>
     </MarkerCategory>
-    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"                                        iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Night&#xA;• Force"/>
+    <MarkerCategory   name="F_SL_sy" DisplayName="Slaying"                cull="CounterClockwise" fadeFar="1000" fadeNear="850"                                        iconSize="2" rotate="90,0,0"   mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Top Left (Skelk) ========== -->
@@ -701,9 +701,9 @@
     <MarkerCategory   name="F_UF_c1" DisplayName="Pressure Plate Skip" fadeFar="1250" fadeNear="1000"                                                          mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UF_c2" DisplayName="Bucket Boundaries"   fadeFar="1250" fadeNear="1000"                                                          mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_UF_sy" DisplayName="Slaying"             cull="CounterClockwise"        iconSize="2" rotate-x="90"                               mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="Start"               fadeFar="1500" fadeNear="1250"                                           rotate-z="-91" tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
-      <MarkerCategory name="s2"      DisplayName="Dredge Boss"         fadeFar="1100" fadeNear="850"                             rotate-y="-18" rotate-z="55"  tip-description="• Dredge&#xA;• Night&#xA;• Sorrow"/>
-      <MarkerCategory name="s3"      DisplayName="Elemental Boss"      fadeFar="1150" fadeNear="900"                             rotate-y="-18" rotate-z="55"  tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
+      <MarkerCategory name="s1"      DisplayName="Start"               fadeFar="1500" fadeNear="1250"                                           rotate-z="-91" tip-description="• Dredge&#xA;• Sorrow&#xA;• Night"/>
+      <MarkerCategory name="s2"      DisplayName="Dredge Boss"         fadeFar="1100" fadeNear="850"                             rotate-y="-18" rotate-z="55"  tip-description="• Dredge&#xA;• Sorrow&#xA;• Night"/>
+      <MarkerCategory name="s3"      DisplayName="Elemental Boss"      fadeFar="1150" fadeNear="900"                             rotate-y="-18" rotate-z="55"  tip-description="• Elemental&#xA;• Elemental&#xA;• Night"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -758,8 +758,8 @@
     <MarkerCategory     name="F_VO_c1" DisplayName="Portal"                cull="CounterClockwise"        iconSize="0.35"                     mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory     name="F_VO_c2" DisplayName="Cliff Fall"                                           iconSize="0.5"                      mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory     name="F_VO_sy" DisplayName="Slaying"               cull="CounterClockwise"                                            mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconSize="1.35" rotate="90,0,210"   tip-description="• Grawl&#xA;• Night&#xA;• Grawl"/>
-      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconSize="1.5"  rotate="90,0,3"     tip-description="• Elemental&#xA;• Night&#xA;• Elemental"/>
+      <MarkerCategory   name="s1"      DisplayName="Start + Grawl Shaman"  fadeFar="1250" fadeNear="1000" iconSize="1.35" rotate="90,0,210"   tip-description="• Grawl&#xA;• Grawl&#xA;• Night"/>
+      <MarkerCategory   name="s2"      DisplayName="Imbued Shaman"         fadeFar="1000" fadeNear="750"  iconSize="1.5"  rotate="90,0,3"     tip-description="• Elemental&#xA;• Elemental&#xA;• Night"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
