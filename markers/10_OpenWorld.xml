@@ -1,0 +1,316 @@
+<OverlayData>
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="heartFarm" DisplayName="Repeatable Hearts">
+      <MarkerCategory name="syntri_h2_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
+      <MarkerCategory name="syntri_h2_2" DisplayName="Echoing Hills - Fires"         alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Fire1.png"         iconSize="0.75" behavior="1" triggerRange="6" autoTrigger="1"/>
+    </MarkerCategory>
+    <MarkerCategory name="miscFarm"     DisplayName="Open World Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="kodanCache" DisplayName="Major Kodan Caches" />
+    </MarkerCategory>
+    <MarkerCategory name="fiberFarm"         DisplayName="Refined Fiber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="verdantHerbs"    DisplayName="Verdant Herbs"    iconFile="Assets/OpenWorld/Harvesting/Verdant Herbs1.2.png"/>
+      <MarkerCategory name="seaweed"         DisplayName="Seaweed"          iconFile="Assets/OpenWorld/Harvesting/Seaweed1.png"/>
+      <MarkerCategory name="coral"           DisplayName="Coral"            iconFile="Assets/OpenWorld/Harvesting/Coral1.png"/>
+      <MarkerCategory name="orrianTruffle"   DisplayName="Orrian Truffle"   iconFile="Assets/OpenWorld/Harvesting/Orrian Truffle1.png"/>
+      <MarkerCategory name="flaxSeeds"       DisplayName="Flax Seed"        iconFile="Assets/OpenWorld/Harvesting/Flax Seed1.png"/>
+      <MarkerCategory name="saffronThread"   DisplayName="Saffron Thread"   iconFile="Assets/OpenWorld/Harvesting/Saffron Thread1.png"/>
+      <MarkerCategory name="raspberry"       DisplayName="Raspberry"        iconFile="Assets/OpenWorld/Harvesting/Raspberry1.png"/>
+      <MarkerCategory name="sageLeaf"        DisplayName="Sage Leaf"        iconFile="Assets/OpenWorld/Harvesting/Sage Leaf1.png"/>
+      <MarkerCategory name="onion"           DisplayName="Onion"            iconFile="Assets/OpenWorld/Harvesting/Onion1.png"/>
+      <MarkerCategory name="lettuce"         DisplayName="Lettuce"          iconFile="Assets/OpenWorld/Harvesting/Lettuce1.png"/>
+      <MarkerCategory name="vanillaBean"     DisplayName="Vanilla Bean"     iconFile="Assets/OpenWorld/Harvesting/Vanilla Bean1.png"/>
+      <MarkerCategory name="blackPeppercorn" DisplayName="Black Peppercorn" iconFile="Assets/OpenWorld/Harvesting/Black Peppercorn1.png"/>
+    </MarkerCategory>
+    <MarkerCategory name="metalFarm"    DisplayName="Refined Metal Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="copper"     DisplayName="Copper Ore"     iconFile="Assets/OpenWorld/Mining/Copper Ore1.png"/>
+      <MarkerCategory name="iron"       DisplayName="Iron Ore"       iconFile="Assets/OpenWorld/Mining/Iron Ore1.png"/>
+      <MarkerCategory name="silver"     DisplayName="Silver Ore"     iconFile="Assets/OpenWorld/Mining/Silver Ore1.png"/>
+      <MarkerCategory name="platinum"   DisplayName="Platinum Ore"   iconFile="Assets/OpenWorld/Mining/Platinum Ore1.png"/>
+      <MarkerCategory name="gold"       DisplayName="Gold Ore"       iconFile="Assets/OpenWorld/Mining/Gold Ore1.png"/>
+      <MarkerCategory name="orichalcum" DisplayName="Orichalcum Ore" iconFile="Assets/OpenWorld/Mining/Orichalcum Ore1.png"/>
+    </MarkerCategory>
+    <MarkerCategory name="lumberFarm" DisplayName="Refined Lumber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="green"    DisplayName="Green Wood Logs"    iconFile="Assets/OpenWorld/Logging/Green Wood Log1.png"/>
+      <MarkerCategory name="soft"     DisplayName="Soft Wood Logs"     iconFile="Assets/OpenWorld/Logging/Soft Wood Log1.png"/>
+      <MarkerCategory name="seasoned" DisplayName="Seasoned Wood Logs" iconFile="Assets/OpenWorld/Logging/Seasoned Wood Log1.png"/>
+      <MarkerCategory name="hard"     DisplayName="Hard Wood Logs"     iconFile="Assets/OpenWorld/Logging/Hard Wood Log1.png"/>
+      <MarkerCategory name="elder"    DisplayName="Elder Wood Logs"    iconFile="Assets/OpenWorld/Logging/Elder Wood Log1.png"/>
+      <MarkerCategory name="ancient"  DisplayName="Ancient Wood Logs"  iconFile="Assets/OpenWorld/Logging/Ancient Wood Log1.png"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========================= JANTHIR WILDS REPEATABLE HEARTS ========================= -->
+    <!-- Supply Crates (Daily) -->
+    <POI MapID="1554" xpos="525.2288" ypos="17.96843" zpos="40.12445" GUID="4gyWJgcZVEe2VjSrLcTtjA==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533" GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308" GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="561.7662" ypos="1.565976" zpos="328.3217" GUID="oWXdIqNZqUC2IZMKLZfe3Q==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="426.6658" ypos="21.95288" zpos="223.7552" GUID="ZyZYDAo8Fke6OFtRsCvV5Q==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="185.53"   ypos="3.06422"  zpos="3.89612"  GUID="Um9QpndSPkmw0/auKMHCTA==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="321.8287" ypos="35.36352" zpos="96.69124" GUID="fkEPtKL3xUqL2N22WzlbjQ==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="337.4701" ypos="19.69677" zpos="-35.7840" GUID="xkNy6SpHDkm0Xx76xIo5FQ==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="388.8679" ypos="7.798257" zpos="3.908484" GUID="X6YeSBX9+0ean0MBRhtEhg==" type="HMP.heartFarm.syntri_h2_1"/>
+    <POI MapID="1554" xpos="377.7111" ypos="4.808895" zpos="462.5662" GUID="YE8teOPFnkmj/Rs97mTPjg==" type="HMP.heartFarm.syntri_h2_1"/>
+    <!-- Fires (Respawn on map reload) -->
+    <POI MapID="1554" xpos="383.7805" ypos="4.230249" zpos="104.3419"  GUID="D3Map+1mREazBhWAJKr6iQ==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="376.8737" ypos="6.917405" zpos="103.6237"  GUID="Ap7Kh7eRvEGaD31xLbOffw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="380.996"  ypos="4.669713" zpos="131.7163"  GUID="l5aErmmcTUG8a5aHJazjOQ==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="269.2546" ypos="5.929757" zpos="175.6126"  GUID="3D64ArdjHE+z0Jc11H2hCQ==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="248.5365" ypos="1.540037" zpos="210.076"   GUID="RShHVVN+3USiQsEVmhoEFQ==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="261.2618" ypos="14.49481" zpos="267.2753"  GUID="v1mqIbwUZECMj0vj0w1ZHA==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="346.9834" ypos="17.05186" zpos="223.6761"  GUID="aI8Ad03/4keQC+eAHFCCDA==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="243.1572" ypos="7.270152" zpos="106.5964"  GUID="8tvNAQqBYEWKf+51vRQdzw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="327.4999" ypos="13.80734" zpos="-20.13711" GUID="7bdvghzeakm8GcZINtOwMw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="346.3562" ypos="18.38661" zpos="-27.18467" GUID="reA8OZW6skS6CS2Oh5XO9Q==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="265.8872" ypos="11.76366" zpos="59.24366"  GUID="+jYYF1TVN0azt3epmq35fg==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="319.0153" ypos="32.21286" zpos="350.1428"  GUID="tj7lscvU1U+ayYUmQXQahg==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="279.8496" ypos="44.39857" zpos="387.6074"  GUID="9iSr3TQY6kWB9kbHlUSbCA==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="248.042"  ypos="26.94962" zpos="410.3308"  GUID="jogj/kXC2UaIupAUaOaNtQ==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="235.2303" ypos="20.86074" zpos="393.0341"  GUID="en5+2L/JfEmtIkLp6vvMIg==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="195.5457" ypos="5.839172" zpos="382.0966"  GUID="Hzsx+I0NgkKc9RenDw98Tw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="373.2068" ypos="43.80421" zpos="393.1744"  GUID="aQFyTrCss0yIMx0iHi2gHA==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="322.6265" ypos="4.169271" zpos="534.452"   GUID="ZDpyU8yvfE+joudxdQHm9w==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="282.1162" ypos="8.931123" zpos="512.7133"  GUID="SDtl/ga6oUS4Q8ESIxFOQw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="284.5782" ypos="13.45696" zpos="536.7693"  GUID="bZ4wZn+F1kCyz+mBlwTgnw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="375.9236" ypos="4.08213"  zpos="-77.3624"  GUID="aUkG4sTiREutrrpZ9jhdXw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="467.1257" ypos="21.37437" zpos="-39.48603" GUID="wx16SX/8ykq6dBPhpQbKsw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="474.2618" ypos="20.91701" zpos="-49.77507" GUID="xupx/KJ87kiUOqJm/+SVrg==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="511.6416" ypos="12.51183" zpos="145.6936"  GUID="tYTkL7Cu90uvCSZwPVk30g==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="516.1038" ypos="15.26421" zpos="124.8996"  GUID="ctUyHdC8NEScdFwafarW2w==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="527.3163" ypos="10.88252" zpos="184.268"   GUID="Gao+OyBFb0q4aMk/0X2dhQ==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="571.9899" ypos="6.476819" zpos="225.1724"  GUID="nNf+tzxX80iBCkzT6V2+CA==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="578.142"  ypos="4.117079" zpos="223.3441"  GUID="ajUrDl2dFU2CofV8kNqtQw==" type="HMP.heartFarm.syntri_h2_2"/>
+    <POI MapID="1554" xpos="535.9221" ypos="6.042046" zpos="247.2617"  GUID="ctQUj3f/GkOFIK0G+o0Hww==" type="HMP.heartFarm.syntri_h2_2"/>
+    
+    
+    
+    <!-- ========================= OPEN WORLD CHESTS ========================= -->
+    <!-- ========== Major Kodan Caches (Daily, semi-rng) ==========
+    <POI MapID="1550" xpos="-236.4181" ypos="170.6493" zpos="-130.8753" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-245.8459" ypos="187.899"  zpos="-250.9945" GUID="yKP3SPJ+MkG/nAMEpKkjIw==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-419.746"  ypos="209.9406" zpos="145.935"   GUID="Pm6l4GhCRE2R8Bkck8i+MQ==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="ALyJlSHAtkiFXFLlMf0RLg==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-303.5594" ypos="49.42041" zpos="469.1941"  GUID="KrOgdSfcwUGTnKGL17MW0A==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="VXn3i/O020G76EmK3yhDMQ==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="758.9067"  ypos="299.5058" zpos="192.0667"  GUID="pZtaxXm5Wkuz14ZTddwXBA==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="546.316"   ypos="133.1194" zpos="236.3844"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="93.66795"  ypos="151.7457" zpos="331.5753"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-395.5733" ypos="144.0066" zpos="304.4761"  GUID="UcooizHGpUSjQc0BwNLIRg==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="ITI4SjmG/E+W0L98KLL0gw==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="208.3004"  ypos="213.1099" zpos="268.7059"  GUID="fat+P6a7L06drvQOcPJwrQ==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="737.8562"  ypos="1.221907" zpos="-252.55"   GUID="j9vwHSw330e5GxkxUcUufA==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="607.1757"  ypos="24.2021"  zpos="-244.8475" GUID="nEkRtjXxRU+YK1Y31lZwZQ==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="446.393"   ypos="29.52873" zpos="201.043"   GUID="puEBptGf5UWLKz/rDeYFqA==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="530.7496"  ypos="50.09403" zpos="486.8323"  GUID="b+C0318gM0C8O1LThTVHRw==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="329.5385"  ypos="26.86537" zpos="-251.8269" GUID="ecPXhLQBA0irg892c3LXKA==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-342.2993" ypos="60.92655" zpos="-771.7569" GUID="lV/6pNaQa0WsCeP+2hrvzg==" type="HMP.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-367.294"  ypos="29.93341" zpos="-152.4021" GUID="jdC9dbIsUki/sYow4qLqUA==" type="HMP.miscFarm.kodanCache"/> -->
+    
+    
+    
+    <!-- ========================= REFINED HOMESTEAD FIBER ========================= -->
+    <!-- ========== Verdant Herbs ========== -->
+    <POI MapID="1550" xpos="384.0198" ypos="328.6382" zpos="-142.1511" GUID="hAs6U824sUym28gApPHvJQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="664.7947" ypos="273.7112" zpos="-177.5408" GUID="KignQZaYukqzCn7xqks8Xg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="262.8228" ypos="213.2671" zpos="181.6543"  GUID="/0jEziVpkEmEI+0vBZJquw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="183.7824" ypos="213.9941" zpos="187.6131"  GUID="Ev7f1KJSjEWuMN1N+o+3wA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="178.7111" ypos="213.4475" zpos="213.5626"  GUID="zVJYcr4w5kKMTj3oCnd29Q==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="195.6677" ypos="213.3275" zpos="269.6487"  GUID="lI1Qzz4Qtkq4PuxUGSFGQg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="634.7682" ypos="2.780002" zpos="-328.9979" GUID="kDAbgDc3jE+rqppZ9mxqsw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="242.0826" ypos="8.347619" zpos="27.92859"  GUID="iXfhan6N2EGUO4Juk343AA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="436.1018" ypos="3.970072" zpos="-252.0873" GUID="OSmZjxjMWEik6r/AESF4TQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="444.094"  ypos="321.9336" zpos="-122.0522" GUID="pKLcfLj1Z0SKW1xZqy5TWg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="619.9238" ypos="255.043"  zpos="-142.728"  GUID="+lG2HsuOD0aKHTaR9lqD4w==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="195.3573" ypos="213.3728" zpos="269.5634"  GUID="8KZ/blnM+kuX31B6T7/MwA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="238.3736" ypos="213.7609" zpos="185.1373"  GUID="PEqKl6oEd0mfng7pEbWZag==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="178.7643" ypos="213.4498" zpos="213.354"   GUID="4AAA6pD8WkCvtOb3hs8pcA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="199.526"  ypos="213.1485" zpos="228.1183"  GUID="kDxHrb6ixUCG79hhRFd2pQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="635.25"   ypos="2.840194" zpos="-329.0437" GUID="XRJEFFfY00WueM+Zr67rsg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="548.5134" ypos="13.50954" zpos="-217.8191" GUID="+tdz8j5hk0qSW18hc4qClw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="449.2642" ypos="6.232563" zpos="-104.8748" GUID="+jyczDRZZUCwdASYnLAdNQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="297.6962" ypos="9.021438" zpos="-12.85694" GUID="IPkblbeGQka/pQfrdNUEyw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="297.5995" ypos="24.40231" zpos="-305.5021" GUID="C0ZuP+8yik6tTIrHAsyQDg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="103.271"  ypos="18.32475" zpos="-615.7678" GUID="AQ0hnQyC1kq68WLFUVChIQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-330.025" ypos="46.97052" zpos="-579.5557" GUID="F/y7S4+qikaPOkE7s+Z0Qw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-499.426" ypos="30.36365" zpos="-413.7374" GUID="tEKIohrhQUyk6Q6K1pWfAw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-130.905" ypos="0.739984" zpos="-203.2321" GUID="/XXmh5MFqkOCbftiI1eZiw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="87.08774" ypos="-0.00744" zpos="-101.6108" GUID="NfLsx9XlU0+DZt8oGljxXg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="180.6773" ypos="213.3833" zpos="200.7257"  GUID="HDsnfBUcXEqzk7lix11SNg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="187.8949" ypos="213.5235" zpos="224.6165"  GUID="BFr4orHnkE69GARpadWM7A==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="252.9452" ypos="213.7874" zpos="187.8397"  GUID="yCB5X+Ndk0qQtHbK9aWSKw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1550" xpos="208.3004" ypos="213.1099" zpos="268.7059"  GUID="fat+P6a7L06drvQOcPJwrQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="591.2343" ypos="-0.41432" zpos="-564.1566" GUID="OTXhjPHzK0i7p75OoyErGA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="542.1616" ypos="4.043627" zpos="-322.4356" GUID="pgEMI7QpqEu8NjXC1NVWsA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="401.0244" ypos="6.020025" zpos="-28.55026" GUID="3sm0Yx6olE2Hby6XyymM5Q==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="408.4694" ypos="4.057889" zpos="17.51343"  GUID="CvPxaws+fka4+46oudc9Vg==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-100.486" ypos="39.05572" zpos="-779.4825" GUID="bL1x6yB5JUyLRaLmRdxerQ==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-113.090" ypos="40.35419" zpos="-760.4745" GUID="vOheA41zLUOewjXY2Zs/iw==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-593.599" ypos="7.78756"  zpos="-583.2422" GUID="15H6HKwmkEWjrnfAqS7HBA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="27.7178"  ypos="13.52148" zpos="-187.2881" GUID="vRUMhEfhtUelpcPeUgVV8g==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-10.7089" ypos="13.52464" zpos="-11.60038" GUID="SMJLCbNsQU6/oB4RDdN0uA==" type="HMP.fiberFarm.verdantHerbs"/>
+    <POI MapID="1554" xpos="-404.639" ypos="54.29434" zpos="-291.2436" GUID="E4TS6XwmjUW+GhRU5qBPug==" type="HMP.fiberFarm.verdantHerbs"/>
+    
+    
+    
+    <!-- ========== Seaweed ========== -->
+    <POI MapID="1550" xpos="-123.5073" ypos="-24.65616" zpos="691.9296" GUID="6jTQXW4WSEq4JaXNIeRiUA==" type="HMP.fiberFarm.seaweed"/>
+    <POI MapID="1550" xpos="782.2724"  ypos="-18.03239" zpos="648.9439" GUID="Jh3W7YvGKUmFIzyFE02BXg==" type="HMP.fiberFarm.seaweed"/>
+    <POI MapID="1550" xpos="104.9234"  ypos="-35.15966" zpos="665.1992" GUID="wVvXlPGrykWD7K5wQz5PnA==" type="HMP.fiberFarm.seaweed"/>
+    <POI MapID="1550" xpos="-461.6311" ypos="-46.96237" zpos="660.7598" GUID="p5Zz1pN/+0WBBveX79h2pQ==" type="HMP.fiberFarm.seaweed"/>    
+    
+    <!-- ========== Coral (not needed but combo's with seaweed) ========== -->
+    <POI MapID="1550" xpos="-1024.869" ypos="-31.57922" zpos="401.06"   GUID="uQJp0e3pUkGlG+MMZrha7g==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="-926.0802" ypos="-17.74475" zpos="551.2867" GUID="a2S5a7m9dEKTu09NEmk77w==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="-6.711932" ypos="-10.0398"  zpos="633.1231" GUID="AuRSRJ+bpEqu3fL5Zxdq5Q==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="-1005.023" ypos="-35.43867" zpos="506.795"  GUID="j17vsmkQpUyZlkHH+6nT+A==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="-1054.582" ypos="-35.45876" zpos="237.9171" GUID="EQOkxoBDYUm6tJ+wDCCPsg==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="-216.8428" ypos="-41.64282" zpos="650.9119" GUID="9Tvxfl7+KEelpuh8RkwUVg==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="574.2159"  ypos="-11.6056"  zpos="625.7707" GUID="l2FMQbINpEq+Dw5CW0jcQQ==" type="HMP.fiberFarm.coral"/>
+    <POI MapID="1550" xpos="-1049.009" ypos="-66.78778" zpos="645.9212" GUID="B3Bw5OcJTkOzXq/aShnUAA==" type="HMP.fiberFarm.coral"/>
+    
+    <!-- ========== Coral or Seaweed ========== -->
+    <POI MapID="1550" xpos="447.2734"  ypos="-45.82024" zpos="684.0084" GUID="uk0CQmBeiE6AfRQPjtKR0w==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-466.9926" ypos="-60.55918" zpos="703.8835" GUID="gmaszAbmb0GBHhTN88Jijw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-526.4846" ypos="-57.0188"  zpos="665.269"  GUID="h/4xW8vjSUuvDmVDY7eBgA==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-509.1485" ypos="-26.12228" zpos="638.8974" GUID="vsPGdOxfT0qFDJRO3+BnkQ==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-881.2983" ypos="-37.95656" zpos="608.5788" GUID="Xf6AaaIMFkCsFL9zFzsjYA==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-740.8868" ypos="-17.46543" zpos="666.1348" GUID="sklPctPJ5U+ZUx43KtTXOg==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-650.9331" ypos="-20.22786" zpos="619.7513" GUID="4gViPJJM20mACFgdWHcjcA==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-638.5317" ypos="-25.58423" zpos="652.1347" GUID="MCCEDS1GHk6eX2nzWyxiSg==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-402.4419" ypos="-44.75492" zpos="665.3946" GUID="LIRPTiD4CkKgPpdELd8T3w==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-114.9751" ypos="-7.428803" zpos="623.6957" GUID="oBYhZwk4VESEnwNEQImtCw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="74.68029"  ypos="-23.57605" zpos="599.4511" GUID="1EDqNjCwy0eAzZnlTLPnag==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="330.1484"  ypos="-11.14252" zpos="617.1909" GUID="R6SlaCNwdkCiJWrErrfRIA==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="442.2048"  ypos="-9.496841" zpos="621.8286" GUID="bYKdln/esUG/v5vp+9dDWA==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="1025.51"   ypos="-9.986939" zpos="580.044"  GUID="slJXhWJdAEGanVyK/uuk4w==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="959.1005"  ypos="-7.337121" zpos="528.5399" GUID="Wl2EAOd4H02h/JG1GTKp+g==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="947.9115"  ypos="-12.05523" zpos="609.3723" GUID="yGHxkWofqkSCg1P7b/4w7A==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="874.7383"  ypos="-15.44718" zpos="665.4285" GUID="TUuKy9LVg0eCC3h3gA+emQ==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="675.6441"  ypos="-13.81548" zpos="670.045"  GUID="GkDQCG+l9ka2NXs8KrVUVw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="548.2737"  ypos="-45.9508"  zpos="706.0032" GUID="lAgCLfEwhEKX7XEf79hPRg==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="28.831"    ypos="-23.86576" zpos="687.6011" GUID="6okgmJBZfUuGQ0AdPy5LBw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-646.3986" ypos="-32.56898" zpos="692.4833" GUID="Ykh973Tkd0qaBQsSo42qHA==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-875.4991" ypos="-50.66623" zpos="666.5002" GUID="D9Kj7eme6E2FqWc9zIPiBw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-1034.287" ypos="-66.44089" zpos="584.384"  GUID="1Sum7MeBQk6qmrFvj9rEhQ==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-693.4296" ypos="-17.06949" zpos="607.3027" GUID="hkscG7KETkqw5HlhO/6ZQw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-317.9903" ypos="-18.00748" zpos="609.2966" GUID="ZhIqhLwUVk62mIJO9WYv5w==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="357.9204"  ypos="-57.60123" zpos="688.3486" GUID="3HuPngcJ2kaUGn6s3swJbQ==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="896.6919"  ypos="-16.54849" zpos="587.2818" GUID="iCpUIGqe1E+uo+CSgbdm+g==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-59.8194"  ypos="-26.70865" zpos="702.2348" GUID="bIAQIv+9306t5zHwU4Ry+A==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-791.1057" ypos="-22.16825" zpos="654.5781" GUID="lircRdhOwUK0C0J2DbcCzw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-961.1376" ypos="-60.11502" zpos="622.5987" GUID="9XNguXyjVEmMflvQIlybEw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-965.5063" ypos="-62.88554" zpos="672.8946" GUID="Y9z12F9ckEyhG/vdwXjJ1w==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-998.2745" ypos="-50.00631" zpos="631.8876" GUID="mqidLbCVo0enrE4trNsxPw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="-797.616"  ypos="-17.93844" zpos="601.7548" GUID="iCAHIrLktEeIHugsrGPHGw==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    <POI MapID="1550" xpos="994.4899"  ypos="-20.9129"  zpos="669.2542" GUID="HSawIKTIMUmyGy5L45Lt1Q==" type="HMP.fiberFarm.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
+    
+    <!-- ========== Orrian Truffle ========== -->
+    
+    
+    
+    
+    
+    <!-- ========== Flax Seeds ========== -->
+    
+    
+    
+    
+    
+    <!-- ========== Saffron Thread ========== -->
+    
+    
+    
+    
+    
+    <!-- ========== Raspberries ========== -->
+    <POI MapID="1554" xpos="270.8446"  ypos="9.387699" zpos="489.7393"  GUID="Ych/L+NoSEuk3fzeR8wLQw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="238.1737"  ypos="16.53436" zpos="367.2605"  GUID="tcLcnv8wXEi3E6gDMWUZwg==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="313.1807"  ypos="53.10736" zpos="418.33"    GUID="hO9RrdIQfUGvnJFx9Sp1gw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="262.5927"  ypos="14.68433" zpos="147.1524"  GUID="C2S84aXpGUWcLXJ9lRzXVg==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="311.2816"  ypos="5.113361" zpos="-112.9876" GUID="inJltquDRkSSnCqWxXKGhg==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-483.2086" ypos="59.06921" zpos="-778.2993" GUID="oRJTlGvul0Cg8a/ifnRaUA==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-489.3646" ypos="3.968837" zpos="-584.2827" GUID="PP6mtWwpPUa8NOFU5xxo3A==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-597.561"  ypos="33.60413" zpos="-354.3281" GUID="0wH6LNVop0W/OdsmIkkm3A==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-705.5673" ypos="56.57364" zpos="-238.4278" GUID="Dj14/crm7EC68aexapVpzQ==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-538.9875" ypos="88.74067" zpos="-130.5203" GUID="3ZX4BKT7z0mSueCuA/hYXQ==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-495.0096" ypos="53.52937" zpos="-62.18084" GUID="Ym9iIzmj3UOSenrgERhWnw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="727.8809"  ypos="0.250927" zpos="-570.0541" GUID="v8kCTlpo6kyPNUgtBcNh0w==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="249.4822"  ypos="3.494747" zpos="-86.90632" GUID="zOtXluyxukWQnD+/4/LdnA==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="297.6338"  ypos="4.856431" zpos="507.4221"  GUID="JxoJzX/eLkWLqIhLCNXlDQ==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="281.3664"  ypos="43.44839" zpos="396.0377"  GUID="s4282EYpvEKMDP4xiZEiUw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="351.4079"  ypos="6.908914" zpos="-299.6873" GUID="reQ1piBHR0ODpSmYMZvJeA==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-340.3454" ypos="36.80679" zpos="-559.448"  GUID="1Zr0jaDxH0Scu9pA12QfEg==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-470.0974" ypos="34.09918" zpos="-727.5239" GUID="zH64UgF19kmqKUZEaypmYw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-781.3868" ypos="61.30062" zpos="-437.3348" GUID="PQfxIuU5+EuQTkhVY5Nusw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-611.2286" ypos="70.70084" zpos="-323.935"  GUID="nlqbbdrq90uCkg7+D+pVrQ==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-603.4925" ypos="78.48349" zpos="-147.331"  GUID="f+tQ1LWp/E23vWFGDxCj2A==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-53.34594" ypos="48.33577" zpos="171.89"    GUID="iDwGGKxw40aIYRs+PmQXJQ==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="238.0067"  ypos="16.49102" zpos="367.4588"  GUID="NQUgmFdX40yHI2+9T15ZDw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="209.6929"  ypos="9.679287" zpos="387.2783"  GUID="zxvdJ6OJB0OfWST9R+Cxdw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="254.688"   ypos="22.82983" zpos="-334.106"  GUID="rlOUMbSLbESemNV1KRcBAg==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="263.9032"  ypos="0.678418" zpos="-458.9644" GUID="A3vOuY8lakqe7Hu94UAK7Q==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-578.5015" ypos="86.59648" zpos="-669.3271" GUID="os0P4h43Vk+zRZNTpU6Tww==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-638.5601" ypos="3.851158" zpos="-526.17"   GUID="PDsUCGMBNk+rAXznjiCEOw==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-681.3367" ypos="59.0687"  zpos="-208.9406" GUID="FF2XKk+HQEqrjHjz8lxW5g==" type="HMP.fiberFarm.raspberry"/>
+    <POI MapID="1554" xpos="-725.2172" ypos="64.3449"  zpos="-213.0935" GUID="jnP5/4sA8ES8Tqt3cgieIA==" type="HMP.fiberFarm.raspberry"/>
+    
+    
+    
+    <!-- ========== Sage Leaves ========== -->
+    
+    
+    
+    
+    
+    <!-- ========== Onions ========== -->
+    <!-- Scallions -->
+    <POI MapID="1550" xpos="-48.62109" ypos="106.4384" zpos="465.9397" GUID="GSJ7BGhy/kCxznhm5B3NNg==" type="HMP.fiberFarm.onion"/>
+    <POI MapID="1550" xpos="-110.498"  ypos="135.5542" zpos="323.9143" GUID="3iwUMJhzE0CxbDOaOHlfKw==" type="HMP.fiberFarm.onion"/>
+    <POI MapID="1550" xpos="-149.8705" ypos="107.9689" zpos="437.761"  GUID="UwPzAN/v3kOsuvjkHvOwWg==" type="HMP.fiberFarm.onion"/>
+    
+    
+    <!-- ========== Head of Lettuce ========== -->
+    
+    
+    
+    
+    
+    <!-- ========== Vanilla Beans ========== -->
+    
+    
+    
+    
+    
+    <!-- ========== Black Peppercorn ========== -->
+    
+    
+    
+    
+    <!-- ========================= REFINED HOMESTEAD <OTHERS> ========================= -->
+    <!-- ========== Ancient Wood ========== -->
+    <POI MapID="1550" xpos="-293.8996" ypos="191.371"  zpos="378.1473"  GUID="49qd+2UEMU2DGrhpu6Sg+g==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1550" xpos="465.0674"  ypos="313.7296" zpos="-297.3324" GUID="1UsKp3rlaUe1nm6yciy/lQ==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1550" xpos="994.7432"  ypos="382.0213" zpos="-213.5753" GUID="siSgPT6d40aWWDDyCfMOCA==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="316.3571"  ypos="17.94412" zpos="-50.77505" GUID="st33+Y/K4UKve/z6m5614w==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="125.8293"  ypos="39.93818" zpos="-347.1975" GUID="2dS5Yq+alUO18WvVCger/g==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="-373.4888" ypos="38.37874" zpos="-671.9528" GUID="GDQuSBFNxUmSAObERziZBg==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="-470.5988" ypos="83.92799" zpos="-228.4067" GUID="/8FPlywskkKyIM6bQKOz7Q==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1550" xpos="532.6069"  ypos="306.823"  zpos="-301.1497" GUID="IKiIskP0GkCqk267rkevvg==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="495.261"   ypos="29.99435" zpos="76.80791"  GUID="NxoLTGHsaECiCPWhE2wlOw==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="270.5413"  ypos="2.915981" zpos="-494.3137" GUID="SErOUYjJiUK0U15DA/gwVQ==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1554" xpos="-240.6531" ypos="30.81213" zpos="-238.1727" GUID="TnnkHJVpnUmYRovzCJotBg==" type="HMP.lumberFarm.ancient"/>
+    <POI MapID="1550" xpos="-425.6914" ypos="212.4058" zpos="282.6245"  GUID="m4nxRKchqE6ebUFQ6yMlqA==" type="HMP.lumberFarm.ancient"/>
+    
+    
+    <!-- ========== ORICHALCUM ORE ========== -->
+    <POI MapID="1554" xpos="407.4834"  ypos="3.358459" zpos="180.0435"  GUID="Dvjvo8iNXUqXFVxqtahCpA==" type="HMP.metalFarm.orichalcum"/>
+    <POI MapID="1554" xpos="-320.9447" ypos="40.38276" zpos="726.6635"  GUID="VE1SNPaltU+I25ten5eglA==" type="HMP.metalFarm.orichalcum"/>
+    <POI MapID="1554" xpos="318.9737"  ypos="7.132171" zpos="-265.7739" GUID="BDzV8slUIU+yrC20YStuCQ==" type="HMP.metalFarm.orichalcum"/>
+    <POI MapID="1554" xpos="-781.9737" ypos="21.27966" zpos="-783.4341" GUID="GlPFUSgjuUCcOWJ2C+yqQA==" type="HMP.metalFarm.orichalcum"/>
+    <POI MapID="1554" xpos="-268.9738" ypos="50.53119" zpos="-337.9319" GUID="kWuGS3BYIkO89vVamLubHA==" type="HMP.metalFarm.orichalcum"/>
+    <POI MapID="1550" xpos="-492.2793" ypos="173.2482" zpos="334.1162"  GUID="kUwD/NJdXEqOdpGj4iqK4g==" type="HMP.metalFarm.orichalcum"/>
+    
+    
+  </POIs>
+</OverlayData>
