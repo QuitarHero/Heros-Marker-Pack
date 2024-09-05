@@ -22,7 +22,7 @@ HMP_PoolPractice = {
   },
   rPos = {},
   dPools = {
-    Size = { {2.97, 2.88, 3.04}, {5.23, 5.0826, 5.35} }, --Empowered Sizes are estimated
+    Size = { {2.97, 2.88, 3.04}, {5.94, 5.76, 6.09} }, --0.9769736842 | 0.9473684211 | 1
     Type = 1,
     Amount = 1,
   },
