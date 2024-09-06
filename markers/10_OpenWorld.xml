@@ -44,16 +44,16 @@
   <POIs>
     <!-- ========================= JANTHIR WILDS REPEATABLE HEARTS ========================= -->
     <!-- Supply Crates (Daily) -->
-    <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308" GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="185.53"   ypos="3.06422"  zpos="3.89612"  GUID="Um9QpndSPkmw0/auKMHCTA==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="321.8287" ypos="35.36352" zpos="96.69124" GUID="fkEPtKL3xUqL2N22WzlbjQ==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="337.4701" ypos="19.69677" zpos="-35.7840" GUID="xkNy6SpHDkm0Xx76xIo5FQ==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="377.7111" ypos="4.808895" zpos="462.5662" GUID="YE8teOPFnkmj/Rs97mTPjg==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="388.8679" ypos="7.798257" zpos="3.908484" GUID="X6YeSBX9+0ean0MBRhtEhg==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="426.6658" ypos="21.95288" zpos="223.7552" GUID="ZyZYDAo8Fke6OFtRsCvV5Q==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="525.2288" ypos="17.96843" zpos="40.12445" GUID="4gyWJgcZVEe2VjSrLcTtjA==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="561.7662" ypos="1.565976" zpos="328.3217" GUID="oWXdIqNZqUC2IZMKLZfe3Q==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533" GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308"  GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="185.53"   ypos="3.06422"  zpos="3.89612"   GUID="Um9QpndSPkmw0/auKMHCTA==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="321.8287" ypos="35.36352" zpos="96.69124"  GUID="fkEPtKL3xUqL2N22WzlbjQ==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="337.4701" ypos="19.69677" zpos="-35.7840"  GUID="xkNy6SpHDkm0Xx76xIo5FQ==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="377.7111" ypos="4.808895" zpos="462.5662"  GUID="YE8teOPFnkmj/Rs97mTPjg==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="388.8679" ypos="7.798257" zpos="3.908484"  GUID="X6YeSBX9+0ean0MBRhtEhg==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="426.6658" ypos="21.95288" zpos="223.7552"  GUID="ZyZYDAo8Fke6OFtRsCvV5Q==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="525.2288" ypos="17.96843" zpos="40.12445"  GUID="4gyWJgcZVEe2VjSrLcTtjA==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="561.7662" ypos="1.565976" zpos="328.3217"  GUID="oWXdIqNZqUC2IZMKLZfe3Q==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533"  GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
     <!-- Fires (Respawn on map reload) -->
     <POI MapID="1554" xpos="192.0655" ypos="5.026712" zpos="385.607"   GUID="iUWRBelq4EmZ/JvZK5+r3w==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
     <POI MapID="1554" xpos="195.5457" ypos="5.839172" zpos="382.0966"  GUID="Hzsx+I0NgkKc9RenDw98Tw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
@@ -114,7 +114,7 @@
     
     <!-- ========================= OPEN WORLD CHESTS ========================= -->
     <!-- ========== Major Kodan Caches (Daily, semi-rng) ========== -->
-    <!-- Lowland Shore (1550) -->
+    <!-- Lowland Shore -->
     <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="ITI4SjmG/E+W0L98KLL0gw==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="ALyJlSHAtkiFXFLlMf0RLg==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="VXn3i/O020G76EmK3yhDMQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
@@ -128,7 +128,7 @@
     <POI MapID="1550" xpos="546.316"   ypos="133.1194" zpos="236.3844"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="758.9067"  ypos="299.5058" zpos="192.0667"  GUID="pZtaxXm5Wkuz14ZTddwXBA==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="983.0692"  ypos="411.9798" zpos="-91.85034" GUID="VGeRocGIS0OQeYGIqR7RSQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- Janthir Syntri (1554) -->
+    <!-- Janthir Syntri -->
     <POI MapID="1554" xpos="-395.5733" ypos="144.0066" zpos="304.4761"  GUID="UcooizHGpUSjQc0BwNLIRg==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1554" xpos="-367.294"  ypos="29.93341" zpos="-152.4021" GUID="jdC9dbIsUki/sYow4qLqUA==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1554" xpos="-355.3222" ypos="31.80698" zpos="-10.07854" GUID="71geVlttk0y8tP/+YgWE7A==" type="HMP.openWorld.miscFarm.kodanCache"/>
@@ -150,7 +150,7 @@
     
     <!-- ========================= REFINED HOMESTEAD FIBER ========================= -->
     <!-- ========== Verdant Herbs ========== -->
-    <!-- Lowland Shore (1550) -->
+    <!-- Lowland Shore -->
     <POI MapID="1550" xpos="178.7111" ypos="213.4475" zpos="213.5626"  GUID="zVJYcr4w5kKMTj3oCnd29Q==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1550" xpos="180.6773" ypos="213.3833" zpos="200.7257"  GUID="HDsnfBUcXEqzk7lix11SNg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1550" xpos="182.6006" ypos="214.0036" zpos="261.9644"  GUID="PD6KWcytbUKOu9ZcchVQqw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
@@ -169,7 +169,7 @@
     <POI MapID="1550" xpos="601.0229" ypos="251.675"  zpos="-170.3231" GUID="0ouS02YAWkGWKjUWgbSbyw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1550" xpos="619.9238" ypos="255.043"  zpos="-142.728"  GUID="+lG2HsuOD0aKHTaR9lqD4w==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1550" xpos="664.7947" ypos="273.7112" zpos="-177.5408" GUID="KignQZaYukqzCn7xqks8Xg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
-    <!-- Janthir Syntri (1554) -->
+    <!-- Janthir Syntri -->
     <POI MapID="1554" xpos="-652.826" ypos="33.29071" zpos="-375.5995" GUID="y75u9oBzo0yDIPPer0YNMw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1554" xpos="-593.599" ypos="7.78756"  zpos="-583.2422" GUID="15H6HKwmkEWjrnfAqS7HBA==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1554" xpos="-499.426" ypos="30.36365" zpos="-413.7374" GUID="tEKIohrhQUyk6Q6K1pWfAw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
@@ -202,16 +202,53 @@
     <POI MapID="1554" xpos="591.2343" ypos="-0.41432" zpos="-564.1566" GUID="OTXhjPHzK0i7p75OoyErGA==" type="HMP.openWorld.harvesting.verdantHerbs"/> 
     <POI MapID="1554" xpos="602.7027" ypos="1.674676" zpos="-454.9265" GUID="gsawGF91vkOAmrTm02y7Dg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1554" xpos="634.7682" ypos="2.780002" zpos="-328.9979" GUID="kDAbgDc3jE+rqppZ9mxqsw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <!-- Queensdale, Herb Patch -->
+    <POI MapID="15"   xpos="863.4767" ypos="22.03006" zpos="214.5439"  GUID="SJ0AHv6IkUOvFkdQNw2Abg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <!-- Sandswept Isles, Desert Herbs -->
+    <POI MapID="1271" xpos="25.84436" ypos="28.6785"  zpos="640.7014"  GUID="MEfzNQszsUi4Kf9HUAefhA==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1271" xpos="31.33425" ypos="28.6374"  zpos="638.3141"  GUID="Pg3lNriz8EeDHnsUtHlyhw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1271" xpos="35.81922" ypos="28.5"     zpos="636.4951"  GUID="GyA+/zoH10O4azpnd/BgoA==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1271" xpos="40.87056" ypos="28.4734"  zpos="633.5952"  GUID="UlMKQQjCe0+Vt/e5xVgMRA==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <!-- Domain of Kourna, Desert Herbs-->
+    <POI MapID="1288" xpos="-765.874" ypos="37.94299" zpos="703.6357"  GUID="l/3dYgohe0Og7RGRe4B0oQ==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-731.857" ypos="38.44678" zpos="839.456"   GUID="bmVVrshIrkGhRgTxqdCi9w==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-726.027" ypos="29.28473" zpos="752.3765"  GUID="34tqUZEWSUy9gTWGyTzbhQ==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-725.894" ypos="29.36394" zpos="688.9581"  GUID="TPyJfOmd0UqLxqVGoQD1AQ==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-723.813" ypos="38.59552" zpos="843.4708"  GUID="h4iG46BKU0KjxO9D4OW+lg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-679.422" ypos="29.6048"  zpos="755.5533"  GUID="vi6FPyEaaEyKuKZm0hnL/g==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-671.372" ypos="38.08559" zpos="790.4961"  GUID="OeDDTk+as0SA8iua5cxMOQ==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-663.576" ypos="29.74733" zpos="749.5038"  GUID="3c4GLpNEfkONo1sM0Js64Q==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-662.739" ypos="44.02515" zpos="809.1354"  GUID="hQJGngX8Mk+AIiD5CQMDcg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-657.364" ypos="48.20844" zpos="861.0825"  GUID="ENIsleJ3D0iSJmAk74CT/A==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-638.183" ypos="42.96142" zpos="842.1461"  GUID="HbMePLoAd06WSOtl+DqMHA==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1288" xpos="-611.871" ypos="44.21043" zpos="820.1444"  GUID="utTMXXGpA0+WwPSWpCp2yA==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     
     <!-- ========== Seaweed ========== -->
-    <!-- Lowland Shore (1550) -->
-    <POI MapID="1550" xpos="-461.6311" ypos="-46.96237" zpos="660.7598" GUID="p5Zz1pN/+0WBBveX79h2pQ==" type="HMP.openWorld.harvesting.seaweed"/>    
-    <POI MapID="1550" xpos="-123.5073" ypos="-24.65616" zpos="691.9296" GUID="6jTQXW4WSEq4JaXNIeRiUA==" type="HMP.openWorld.harvesting.seaweed"/>
-    <POI MapID="1550" xpos="104.9234"  ypos="-35.15966" zpos="665.1992" GUID="wVvXlPGrykWD7K5wQz5PnA==" type="HMP.openWorld.harvesting.seaweed"/>
-    <POI MapID="1550" xpos="782.2724"  ypos="-18.03239" zpos="648.9439" GUID="Jh3W7YvGKUmFIzyFE02BXg==" type="HMP.openWorld.harvesting.seaweed"/>
-    
+    <!-- Lowland Shore -->
+    <POI MapID="1550" xpos="-461.6311" ypos="-46.96237" zpos="660.7598"  GUID="p5Zz1pN/+0WBBveX79h2pQ==" type="HMP.openWorld.harvesting.seaweed"/>    
+    <POI MapID="1550" xpos="-123.5073" ypos="-24.65616" zpos="691.9296"  GUID="6jTQXW4WSEq4JaXNIeRiUA==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1550" xpos="104.9234"  ypos="-35.15966" zpos="665.1992"  GUID="wVvXlPGrykWD7K5wQz5PnA==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1550" xpos="782.2724"  ypos="-18.03239" zpos="648.9439"  GUID="Jh3W7YvGKUmFIzyFE02BXg==" type="HMP.openWorld.harvesting.seaweed"/>
+    <!-- Thunderhead Peaks -->
+    <POI MapID="1310" xpos="-22.1461"  ypos="-102.4401" zpos="-693.3772" GUID="SLmGrrJDAUWYOnRfCCKH9w==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="-12.2527"  ypos="-106.0471" zpos="-704.0287" GUID="1cYC6X4kWEqmYQPI5SVGvw==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="-9.80521"  ypos="-102.6285" zpos="-695.3458" GUID="4CORpV2o80qICk3EGN5R/Q==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="2.236047"  ypos="-104.9128" zpos="-710.8214" GUID="dbRO4moGlU237wfUT+TqUA==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="12.60908"  ypos="-109.6896" zpos="-740.3292" GUID="NKekz/3j5kig5fO+S+6UZQ==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="17.78591"  ypos="-109.8953" zpos="-754.8108" GUID="CdrQWaKzS0q5u4fBj62o8w==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="25.7716"   ypos="-104.4506" zpos="-732.0919" GUID="q83TxFd690OIZsliJqudzg==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1310" xpos="26.85875"  ypos="-107.0499" zpos="-748.578"  GUID="5KNYyDSzbk2gX684eP3ZKQ==" type="HMP.openWorld.harvesting.seaweed"/>
+    <!-- Ember Bay -->
+    <POI MapID="1175" xpos="-105.575"  ypos="-71.49879" zpos="-909.9926" GUID="iENxxBUS3UqQCwzi/4ptaA==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-101.6625" ypos="-70.77084" zpos="-903.1534" GUID="i0u/AfN4KEGB0TQcR9C78A==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-99.12363" ypos="-70.88641" zpos="-916.9027" GUID="55ppaq6ccUmScYAdm9FXgg==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-97.05838" ypos="-74.36063" zpos="-910.1205" GUID="FGhlBTQygkmDQiSR6L1ibg==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-88.44445" ypos="-71.89936" zpos="-912.1773" GUID="xeTPhWXIFkmt9ttZWjtXQw==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-85.41686" ypos="-73.31744" zpos="-920.9767" GUID="qI9MypdyBEitaR3REURF8w==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-78.09409" ypos="-73.02688" zpos="-925.3702" GUID="Q67NFg9mrEWMBKB3Ik2cxw==" type="HMP.openWorld.harvesting.seaweed"/>
+    <POI MapID="1175" xpos="-76.19634" ypos="-72.34516" zpos="-918.9786" GUID="1EEaSlGJvkGppAV3NtY0Aw==" type="HMP.openWorld.harvesting.seaweed"/>
     <!-- ========== Coral (not needed but combo's with seaweed) ========== -->
-    <!-- Lowland Shore (1550) -->
+    <!-- Lowland Shore -->
     <POI MapID="1550" xpos="-1054.582" ypos="-35.45876" zpos="237.9171" GUID="EQOkxoBDYUm6tJ+wDCCPsg==" type="HMP.openWorld.harvesting.coral"/>
     <POI MapID="1550" xpos="-1049.009" ypos="-66.78778" zpos="645.9212" GUID="B3Bw5OcJTkOzXq/aShnUAA==" type="HMP.openWorld.harvesting.coral"/>
     <POI MapID="1550" xpos="-1024.869" ypos="-31.57922" zpos="401.06"   GUID="uQJp0e3pUkGlG+MMZrha7g==" type="HMP.openWorld.harvesting.coral"/>
@@ -220,9 +257,8 @@
     <POI MapID="1550" xpos="-216.8428" ypos="-41.64282" zpos="650.9119" GUID="9Tvxfl7+KEelpuh8RkwUVg==" type="HMP.openWorld.harvesting.coral"/>
     <POI MapID="1550" xpos="-6.711932" ypos="-10.0398"  zpos="633.1231" GUID="AuRSRJ+bpEqu3fL5Zxdq5Q==" type="HMP.openWorld.harvesting.coral"/>
     <POI MapID="1550" xpos="574.2159"  ypos="-11.6056"  zpos="625.7707" GUID="l2FMQbINpEq+Dw5CW0jcQQ==" type="HMP.openWorld.harvesting.coral"/>
-    
     <!-- ========== Coral or Seaweed ========== -->
-    <!-- Lowland Shore (1550) -->
+    <!-- Lowland Shore -->
     <POI MapID="1550" xpos="-1034.287" ypos="-66.44089" zpos="584.384"  GUID="1Sum7MeBQk6qmrFvj9rEhQ==" type="HMP.openWorld.harvesting.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
     <POI MapID="1550" xpos="-998.2745" ypos="-50.00631" zpos="631.8876" GUID="mqidLbCVo0enrE4trNsxPw==" type="HMP.openWorld.harvesting.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
     <POI MapID="1550" xpos="-965.5063" ypos="-62.88554" zpos="672.8946" GUID="Y9z12F9ckEyhG/vdwXjJ1w==" type="HMP.openWorld.harvesting.seaweed" iconFile="Assets/OpenWorld/Harvesting/CoralSeaweed1.png"/>
@@ -261,11 +297,27 @@
     <!-- ========== Orrian Truffle ========== -->
     
     <!-- ========== Flax Seeds ========== -->
+    <!-- Domain of Kourna -->
+    <POI MapID="1288" xpos="-749.9531" ypos="34.03872" zpos="704.4908"  GUID="DVGYgmb7dEig3mYaAqhCNw==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1288" xpos="-741.4336" ypos="33.79822" zpos="697.1493"  GUID="c+FjX9BrGkyY4WG14eawig==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1288" xpos="-737.5707" ypos="33.92324" zpos="715.3076"  GUID="NcJL3H2qSUi7XaTKc/dEVQ==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1288" xpos="-742.3993" ypos="33.92569" zpos="761.2852"  GUID="Zk9c5D4rrE6zYAdeHMEcCw==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <!-- Verdant Brink (whole cluster) -->
+    <POI MapID="1052" xpos="722.6313"  ypos="14.40841" zpos="412.6824"  GUID="4zccxMweeUmxXl3XokY2lw==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <!-- Tangled Depths -->
+    <POI MapID="1045" xpos="-346.7434" ypos="331.2932" zpos="-66.43999" GUID="WVonS+Wl3UmeULDkCm5f6w==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-339.8061" ypos="329.6653" zpos="-97.98583" GUID="x7fsllnZ6kiNz8dQwMb0yA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-323.7498" ypos="328.9629" zpos="-99.93934" GUID="f+1V/cRjKE2Icu7AalRP7w==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-295.7556" ypos="329.3542" zpos="-98.68334" GUID="ivIAMydBL0iNScEnH7A15g==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-325.019"  ypos="329.8159" zpos="-76.74183" GUID="7aGaU37NdkGH8hqwvtSpPA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-306.2542" ypos="329.1494" zpos="-81.27381" GUID="sU7BMHjRP0CSzxqgDAelpA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-307.1576" ypos="329.9575" zpos="-48.53095" GUID="YJd2i5XrhUu1V+1EJZjdDQ==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1045" xpos="-289.9959" ypos="329.6147" zpos="-81.11236" GUID="rbGc6XVLw0uX3tyOd1svcA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
     
     <!-- ========== Saffron Thread ========== -->
     
     <!-- ========== Raspberries ========== -->
-    <!-- Janthir Syntri (1554) -->
+    <!-- Janthir Syntri -->
     <POI MapID="1554" xpos="-781.3868" ypos="61.30062" zpos="-437.3348" GUID="PQfxIuU5+EuQTkhVY5Nusw==" type="HMP.openWorld.harvesting.raspberry"/>
     <POI MapID="1554" xpos="-743.4292" ypos="77.35233" zpos="-50.27458" GUID="28jI4/nIG0C6gn0C6vEg6g==" type="HMP.openWorld.harvesting.raspberry"/>
     <POI MapID="1554" xpos="-740.4717" ypos="47.70404" zpos="-395.0456" GUID="whYz4dW8z0O2YsQXYljhWw==" type="HMP.openWorld.harvesting.raspberry"/>
@@ -311,12 +363,28 @@
     <!-- ========== Sage Leaves ========== -->
     
     <!-- ========== Onions ========== -->
-    <!-- Scallions -->
-    <POI MapID="1550" xpos="-149.8705" ypos="107.9689" zpos="437.761"  GUID="UwPzAN/v3kOsuvjkHvOwWg==" type="HMP.openWorld.harvesting.onion"/>
-    <POI MapID="1550" xpos="-110.498"  ypos="135.5542" zpos="323.9143" GUID="3iwUMJhzE0CxbDOaOHlfKw==" type="HMP.openWorld.harvesting.onion"/>
-    <POI MapID="1550" xpos="-48.62109" ypos="106.4384" zpos="465.9397" GUID="GSJ7BGhy/kCxznhm5B3NNg==" type="HMP.openWorld.harvesting.onion"/>
-    
+    <!-- Lowland Shore, Scallions -->
+    <POI MapID="1550" xpos="-149.870" ypos="107.9689" zpos="437.761"  GUID="UwPzAN/v3kOsuvjkHvOwWg==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="1550" xpos="-110.498" ypos="135.5542" zpos="323.9143" GUID="3iwUMJhzE0CxbDOaOHlfKw==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="1550" xpos="-48.6210" ypos="106.4384" zpos="465.9397" GUID="GSJ7BGhy/kCxznhm5B3NNg==" type="HMP.openWorld.harvesting.onion"/>
+    <!-- Queensdale, Onions -->
+    <POI MapID="15"   xpos="869.7241" ypos="21.92468" zpos="342.2549" GUID="DSrK+9kVXkis66CJLOR4lg==" type="HMP.openWorld.harvesting.onion"/>
+    <!-- Domain of Kourna, Desert Vegetables -->
+    <POI MapID="1271" xpos="-4.0299"  ypos="34.19335" zpos="570.4776" GUID="XVVWa0Zli06joUUW7BGkEw==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="1271" xpos="0.40203"  ypos="34.44363" zpos="569.4896" GUID="PHSgiXN1GkC08vyd3IMPkA==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="1271" xpos="4.82651"  ypos="34.50456" zpos="568.5762" GUID="LyZRN7ULx022UzRvQzfW1A==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="1271" xpos="8.39861"  ypos="34.75034" zpos="567.802"  GUID="Udgo4i4ZiUuRnW/Tt5OwrQ==" type="HMP.openWorld.harvesting.onion"/>
+     
     <!-- ========== Head of Lettuce ========== -->
+    <!-- Queensdale  -->
+    <POI MapID="15" xpos="871.9424" ypos="15.95411" zpos="406.3731" GUID="92zIChT340iXOOUJk2s1hw==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="872.4357" ypos="15.95408" zpos="419.1636" GUID="lraoZBsdNk+jQobiqTHpnw==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="878.6373" ypos="15.95408" zpos="418.823"  GUID="6HLxEcdSY0+YjHW1Mu+mBw==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="884.9542" ypos="15.95411" zpos="405.606"  GUID="I9nyjiLqZU+xSgwB5Tu/Bw==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="888.9131" ypos="15.95411" zpos="424.0012" GUID="jq/IvBfAdk2yGqkOSPRmBA==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="893.6948" ypos="15.95405" zpos="413.2249" GUID="bCHI5YzX/EO+kDh4vUFVNw==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="905.4892" ypos="15.95398" zpos="382.9486" GUID="QR05ILNt7k+Gi+XYU3X/7g==" type="HMP.openWorld.harvesting.lettuce"/>
+    <POI MapID="15" xpos="906.1201" ypos="15.95411" zpos="419.8636" GUID="9C3s4KO8hUqRYGGOYw8Ymg==" type="HMP.openWorld.harvesting.lettuce"/>
     
     <!-- ========== Vanilla Beans ========== -->
     
@@ -324,7 +392,7 @@
     
     <!-- ========================= REFINED HOMESTEAD <OTHERS> ========================= -->
     <!-- ========== Ancient Wood ========== -->
-    <!-- Lowland Shore (1550) -->
+    <!-- Lowland Shore -->
     <POI MapID="1550" xpos="-1066.354" ypos="231.7973" zpos="-239.9192" GUID="wMx31dZYUE+T4qUr1k/pcQ==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1550" xpos="-1066.354" ypos="231.7973" zpos="-239.9192" GUID="wMx31dZYUE+T4qUr1k/pcQ==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1550" xpos="-293.8996" ypos="191.371"  zpos="378.1473"  GUID="49qd+2UEMU2DGrhpu6Sg+g==" type="HMP.openWorld.lumber.ancient"/>
@@ -332,7 +400,7 @@
     <POI MapID="1550" xpos="465.0674"  ypos="313.7296" zpos="-297.3324" GUID="1UsKp3rlaUe1nm6yciy/lQ==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1550" xpos="532.5415"  ypos="306.4012" zpos="-301.4204" GUID="UkjHP3K89E2fhLwoW9pw0Q==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1550" xpos="994.7432"  ypos="382.0213" zpos="-213.5753" GUID="siSgPT6d40aWWDDyCfMOCA==" type="HMP.openWorld.lumber.ancient"/>
-    <!-- Janthir Syntri (1554) -->
+    <!-- Janthir Syntri -->
     <POI MapID="1554" xpos="-675.2426" ypos="15.94641" zpos="-687.9395" GUID="l+ABz+BTIk6FG479k6KrEA==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="-470.5988" ypos="83.92799" zpos="-228.4067" GUID="/8FPlywskkKyIM6bQKOz7Q==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="-373.4888" ypos="38.37874" zpos="-671.9528" GUID="GDQuSBFNxUmSAObERziZBg==" type="HMP.openWorld.lumber.ancient"/>
@@ -348,9 +416,9 @@
     <POI MapID="1554" xpos="522.6788"  ypos="7.0213"   zpos="282.7419"  GUID="u1x9MFlf/0mEOiAbJwiI2g==" type="HMP.openWorld.lumber.ancient"/>
     
     <!-- ========== ORICHALCUM ORE ========== -->
-    <!-- Lowland Shore (1550) -->
+    <!-- Lowland Shore -->
     <POI MapID="1550" xpos="-492.2793" ypos="173.2482" zpos="334.1162"  GUID="kUwD/NJdXEqOdpGj4iqK4g==" type="HMP.openWorld.mining.orichalcum"/>
-    <!-- Janthir Syntri (1554) -->
+    <!-- Janthir Syntri -->
     <POI MapID="1554" xpos="-781.9737" ypos="21.27966" zpos="-783.4341" GUID="GlPFUSgjuUCcOWJ2C+yqQA==" type="HMP.openWorld.mining.orichalcum"/>
     <POI MapID="1554" xpos="-320.9447" ypos="40.38276" zpos="726.6635"  GUID="VE1SNPaltU+I25ten5eglA==" type="HMP.openWorld.mining.orichalcum"/>
     <POI MapID="1554" xpos="-268.9738" ypos="50.53119" zpos="-337.9319" GUID="kWuGS3BYIkO89vVamLubHA==" type="HMP.openWorld.mining.orichalcum"/>
