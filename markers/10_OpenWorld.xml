@@ -5,10 +5,10 @@
         <MarkerCategory name="jSyntri_h2_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
         <MarkerCategory name="jSyntri_h2_2" DisplayName="Echoing Hills - Fires"         alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Fire1.png"         iconSize="0.75" behavior="1" triggerRange="6" autoTrigger="1"/>
       </MarkerCategory>
-      <MarkerCategory name="miscFarm"     DisplayName="Open World Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="miscFarm"     DisplayName="Open World Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15">
         <MarkerCategory name="kodanCache" DisplayName="Major Kodan Caches" />
       </MarkerCategory>
-      <MarkerCategory name="harvesting"        DisplayName="Refined Fiber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="harvesting"        DisplayName="Refined Fiber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15">
         <MarkerCategory name="verdantHerbs"    DisplayName="Verdant Herbs"    iconFile="Assets/OpenWorld/Harvesting/Verdant Herbs1.2.png"/>
         <MarkerCategory name="seaweed"         DisplayName="Seaweed"          iconFile="Assets/OpenWorld/Harvesting/Seaweed1.png"/>
         <MarkerCategory name="coral"           DisplayName="Coral"            iconFile="Assets/OpenWorld/Harvesting/Coral1.png"/>
@@ -22,7 +22,7 @@
         <MarkerCategory name="vanillaBean"     DisplayName="Vanilla Bean"     iconFile="Assets/OpenWorld/Harvesting/Vanilla Bean1.png"/>
         <MarkerCategory name="blackPeppercorn" DisplayName="Black Peppercorn" iconFile="Assets/OpenWorld/Harvesting/Black Peppercorn1.png"/>
       </MarkerCategory>
-      <MarkerCategory name="mining"       DisplayName="Refined Metal Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="mining"       DisplayName="Refined Metal Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15">
         <MarkerCategory name="copper"     DisplayName="Copper Ore"     iconFile="Assets/OpenWorld/Mining/Copper Ore1.png"/>
         <MarkerCategory name="iron"       DisplayName="Iron Ore"       iconFile="Assets/OpenWorld/Mining/Iron Ore1.png"/>
         <MarkerCategory name="silver"     DisplayName="Silver Ore"     iconFile="Assets/OpenWorld/Mining/Silver Ore1.png"/>
@@ -30,7 +30,7 @@
         <MarkerCategory name="gold"       DisplayName="Gold Ore"       iconFile="Assets/OpenWorld/Mining/Gold Ore1.png"/>
         <MarkerCategory name="orichalcum" DisplayName="Orichalcum Ore" iconFile="Assets/OpenWorld/Mining/Orichalcum Ore1.png"/>
       </MarkerCategory>
-      <MarkerCategory name="lumber"     DisplayName="Refined Lumber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="5">
+      <MarkerCategory name="lumber"     DisplayName="Refined Lumber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15">
         <MarkerCategory name="green"    DisplayName="Green Wood Logs"    iconFile="Assets/OpenWorld/Logging/Green Wood Log1.png"/>
         <MarkerCategory name="soft"     DisplayName="Soft Wood Logs"     iconFile="Assets/OpenWorld/Logging/Soft Wood Log1.png"/>
         <MarkerCategory name="seasoned" DisplayName="Seasoned Wood Logs" iconFile="Assets/OpenWorld/Logging/Seasoned Wood Log1.png"/>
@@ -333,6 +333,17 @@
     <POI MapID="1045" xpos="-306.2542" ypos="329.1494" zpos="-81.27381" GUID="sU7BMHjRP0CSzxqgDAelpA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
     <POI MapID="1045" xpos="-295.7556" ypos="329.3542" zpos="-98.68334" GUID="ivIAMydBL0iNScEnH7A15g==" type="HMP.openWorld.harvesting.flaxSeeds"/>
     <POI MapID="1045" xpos="-289.9959" ypos="329.6147" zpos="-81.11236" GUID="rbGc6XVLw0uX3tyOd1svcA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <!-- Draconis Mons -->
+    <POI MapID="1195" xpos="526.3418" ypos="103.4192"  zpos="-465.4343" GUID="2jEWUKeuW0SXxXiTEn7Lpw==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="526.4962" ypos="102.2894"  zpos="-473.2234" GUID="nfgJN7MYy06HuD7U7X8Fzg==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="532.2908" ypos="102.2431"  zpos="-479.916"  GUID="IKfY2YqxE0+w/OmcyTNJ5w==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="539.7629" ypos="104.581"   zpos="-482.5961" GUID="9kZko7OReEegykpM/WVaXA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="547.9783" ypos="107.3046"  zpos="-481.3394" GUID="Ymo9vY9agkKQglleqCxNnw==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="552.8641" ypos="108.1712"  zpos="-473.1347" GUID="sSYTq54S5UO91RYoJZr1Lw==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="554.1371" ypos="108.4633"  zpos="-464.373"  GUID="u8qDa3ukbk2BxG1qgWmjkA==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="547.5063" ypos="107.458"   zpos="-458.4542" GUID="82KD4Ym7f0+qoNdj15PY4A==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="538.7885" ypos="106.0682"  zpos="-457.4617" GUID="SLIvb0t4I0qWyghOoqszwQ==" type="HMP.openWorld.harvesting.flaxSeeds"/>
+    <POI MapID="1195" xpos="530.642"  ypos="104.7357"  zpos="-459.9126" GUID="3ivc1wIVmkmVJ3wR4GHvPg==" type="HMP.openWorld.harvesting.flaxSeeds"/>
     
     <!-- ========== Saffron Thread ========== -->
     <!-- Jahai Bluffs, Black Crocus -->
@@ -400,6 +411,22 @@
     <POI MapID="1554" xpos="727.8809"  ypos="0.250927" zpos="-570.0541" GUID="v8kCTlpo6kyPNUgtBcNh0w==" type="HMP.openWorld.harvesting.raspberry"/>
     
     <!-- ========== Sage Leaves ========== -->
+    <!-- Kaineng Overlook, Cluster of Canthan Herbs -->
+    <POI MapID="1438" xpos="-571.801"  ypos="223.78"   zpos="-333.3492" GUID="AGIYDA7+Tkex0rWVZ+NeKw==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="1438" xpos="-520.423"  ypos="223.7751" zpos="-412.0746" GUID="bLROVNuA2EWvl5QMSp0cJg==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <!-- Blazeridge Steppes, Mature Herbs -->
+    <POI MapID="20"   xpos="-1.979818" ypos="25.88197" zpos="858.5045"  GUID="LB+GSKD9GEGdWtxR3lhsOQ==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="123.8584"  ypos="30.47742" zpos="880.1021"  GUID="QRK+EX/8h0WoVIyYLatRBw==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="361.978"   ypos="31.80125" zpos="941.2755"  GUID="ieslnSdQjk2HwfG55oomDA==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <!-- Blazeridge Steppes, Young Herbs -->
+    <POI MapID="20"   xpos="-38.77989" ypos="58.7717"  zpos="-193.6401" GUID="tjFIgzthBUq6WJlmRReuzw==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="-132.0715" ypos="44.95682" zpos="-206.0372" GUID="sA+Lb7NZD0mepdOM+fgu3g==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="-180.9258" ypos="27.41542" zpos="-308.6396" GUID="fq/lpJB1lEqFQYMMo8fvxw==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="62.08862"  ypos="25.30243" zpos="-694.9462" GUID="zAfj+IZH+0+jRugxhEntDA==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="-525.6328" ypos="30.38501" zpos="-805.231"  GUID="rkfAjL1uYE+CP8EHL52ucA==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="68.701"    ypos="39.50801" zpos="-1021.009" GUID="4GbW6n1NH0iNZYWV0ZE9/g==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="408.1384"  ypos="102.0273" zpos="-519.0097" GUID="HBiBF/9IrUerLz+Vfrjh/g==" type="HMP.openWorld.harvesting.sageLeaf"/>
+    <POI MapID="20"   xpos="54.14117"  ypos="72.78122" zpos="-44.34457" GUID="Cvir7bvcZEC9p7rHnXyANA==" type="HMP.openWorld.harvesting.sageLeaf"/>
     
     <!-- ========== Onions ========== -->
     <!-- Lowland Shore, Scallions -->
@@ -413,7 +440,163 @@
     <POI MapID="1271" xpos="0.40203"  ypos="34.44363" zpos="569.4896" GUID="PHSgiXN1GkC08vyd3IMPkA==" type="HMP.openWorld.harvesting.onion"/>
     <POI MapID="1271" xpos="4.82651"  ypos="34.50456" zpos="568.5762" GUID="LyZRN7ULx022UzRvQzfW1A==" type="HMP.openWorld.harvesting.onion"/>
     <POI MapID="1271" xpos="8.39861"  ypos="34.75034" zpos="567.802"  GUID="Udgo4i4ZiUuRnW/Tt5OwrQ==" type="HMP.openWorld.harvesting.onion"/>
-     
+    <!-- Blazeridge Steppes, Scallions -->
+    <POI MapID="20" xpos="245.0692"  ypos="24.71934" zpos="977.7531"  GUID="5WexAIQLqUuQs7jy3/jukQ==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="309.3604"  ypos="26.72736" zpos="723.6542"  GUID="7EhvK7uX6kSihZyFRYzk7Q==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="317.6606"  ypos="38.44978" zpos="599.7722"  GUID="0HS8Au9Se06pS8YsN5GTcA==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="-188.7155" ypos="24.22478" zpos="-136.826"  GUID="mYn6clS9+0e4YGZorTYtDg==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="-181.79"   ypos="28.54942" zpos="-850.1992" GUID="Boh/Z04aP0eGF/9+fHdt/A==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="0.2293705" ypos="50.67566" zpos="-1001.414" GUID="1SnT4dTu0UK/yxG59j6tdA==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="367.6829"  ypos="24.0362"  zpos="786.4678"  GUID="6CuXFDGxZUuQhVR0oj0e6w==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="395.3627"  ypos="43.48392" zpos="909.92"    GUID="V3OTg3NPEEmki/TcCzJCnw==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="256.5846"  ypos="23.81731" zpos="995.2081"  GUID="Wg1sK/Be/Em8gEcp17m36w==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="199.6902"  ypos="25.37823" zpos="941.2627"  GUID="fYTYQHBLeUGn+NegZ7Flpg==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="112.5867"  ypos="21.23996" zpos="773.8848"  GUID="w4EeszfCW0yXykqTn7MAXg==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="-410.4312" ypos="38.81877" zpos="331.9939"  GUID="xoPwy6rrJkyJyrJ4YDTSFg==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="-463.5864" ypos="33.88234" zpos="-375.3557" GUID="JQCnjTMdWkmPgVdCbDzBQQ==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="426.7278"  ypos="17.53688" zpos="-933.787"  GUID="PmndFX/MeEmNn/3+Wm7ykA==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="163.2589"  ypos="46.67088" zpos="-634.3659" GUID="H3W9/NeeEUyKUxN8pQUwnA==" type="HMP.openWorld.harvesting.onion"/>
+    <POI MapID="20" xpos="53.78088"  ypos="24.93283" zpos="-767.2734" GUID="9PXk3mHu1ECFg4ucqYHDYw==" type="HMP.openWorld.harvesting.onion"/>
+    
+    <!-- =-=-=-=-=-= IRON ORE =-=-=-=-=-= -->
+    <!-- Blazeridge Steppes -->
+    <POI MapID="20" xpos="230.1855" ypos="5.776649" zpos="709.1871" GUID="xbTwPrC4KU6H5pmb9zAiwQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="225.4273" ypos="13.6641"  zpos="774.9027" GUID="60NCwfVlz0alBTL1XfQTmA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="99.13527" ypos="20.78448" zpos="819.8776" GUID="lUDUWslWhEOx1BPjLoshsg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="191.5697" ypos="21.23631" zpos="1049.704" GUID="vihtS7NpW0SjRgfOE4439A==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-261.653" ypos="43.73956" zpos="681.8394" GUID="KcVQew0rAUWJwY0gjT7nqw==" type="HMP.openWorld.mining.iron"/> <!-- RICH -->
+    <POI MapID="20" xpos="182.5233" ypos="15.18907" zpos="648.7781" GUID="rVrjEzojn0aK7LcAqJZi2A==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="483.1599" ypos="34.64088" zpos="338.5139" GUID="HLQOczYSNEyfhu1HJeDW/w==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="332.9828" ypos="14.65366" zpos="310.2345" GUID="Ifs0GQvBTESu0qorWBQRKA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-417.331" ypos="44.36924" zpos="-7.56897" GUID="Io7hUR5p/EWUt2KHMOfuTA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="136.2658" ypos="19.23085" zpos="160.0792" GUID="fMeg+vUagk+l/T9l+o5Shw==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="141.6347" ypos="35.47641" zpos="93.34962" GUID="Y3TL1jXnvEux4ljLu6UL/g==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="81.37861" ypos="65.0901"  zpos="-64.7672" GUID="S4zLdU1JbUmnR08s7Kz50g==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="101.9452" ypos="61.57675" zpos="-445.648" GUID="f9dFD/YGeUKShEarKjjdiw==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="243.1759" ypos="52.00916" zpos="-188.908" GUID="+3IdRYv2LU2g2LKajXcbAA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="321.8803" ypos="76.71317" zpos="-680.872" GUID="VUePuBfW7E67AmKleXPnxA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-534.130" ypos="33.01328" zpos="-734.655" GUID="AjmIN4XZS0ajlFXkmEaPRQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-180.646" ypos="30.95612" zpos="-840.300" GUID="IddRA5EJM0iHR1XVSYCY9w==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-141.981" ypos="33.49374" zpos="-750.063" GUID="/y3nuG5SI06o9j/yAwLHvA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="159.2071" ypos="26.43071" zpos="-981.527" GUID="SGYErm7KBEKk/XLSSfg/yQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="348.3645" ypos="2.743977" zpos="-920.074" GUID="w4XQLAM8U0i7aaINjJadSQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="412.261"  ypos="2.005241" zpos="-923.475" GUID="q22EKiqhQUiekalQOb06ow==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="378.6626" ypos="30.10098" zpos="-803.009" GUID="Zf6FutCIh0+vfvAiNCqVQw==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="484.6033" ypos="69.89349" zpos="-737.159" GUID="iydxF8wq3UmeTmNrGY1FRA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="578.8416" ypos="9.21856"  zpos="-490.897" GUID="qpwjPN1uyUupNfI/ecDQ1g==" type="HMP.openWorld.mining.iron"/> <!-- RICH -->
+    <POI MapID="20" xpos="417.3665" ypos="26.75134" zpos="299.1451" GUID="rPPRPP/2+ky+71g8HfyhlQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="493.2966" ypos="34.04045" zpos="480.8194" GUID="h+3MEtUK00KzaS1O9Nd/EQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="346.6674" ypos="19.69227" zpos="830.2602" GUID="YPS/n74FlUijzJyYE5wgjg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="513.0367" ypos="48.2732"  zpos="876.9057" GUID="1quTggA9/UizSNm+sUBN0A==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="176.5624" ypos="22.46073" zpos="1078.563" GUID="tGogdwGnJEuNGpqhWV0BnA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="103.1625" ypos="15.80182" zpos="1077.129" GUID="/RNXFdBO/0KMdMcpQfz1Hg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="75.10993" ypos="18.69794" zpos="939.8058" GUID="UBosbQ6+mE6yLSMuMYxjyw==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="204.8488" ypos="12.83257" zpos="675.4643" GUID="21LXLtTH2E+Fkavl9ben/A==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-25.4129" ypos="43.37119" zpos="1090.237" GUID="d0g++OvYfkeX4zNx8Utz+g==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-58.9441" ypos="58.68036" zpos="1181.38"  GUID="B+hFhDuJI0Od+gr3nshHiQ==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-188.509" ypos="41.27887" zpos="1208.982" GUID="QJ9Vq0+lp0207BXZWnwpMg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-494.095" ypos="31.39263" zpos="517.5464" GUID="NFJoGvGE60OLkgEVJRMfdg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-473.730" ypos="10.97304" zpos="198.6211" GUID="rW3H58ysfEixWizFvy93tg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-489.322" ypos="13.82893" zpos="161.175"  GUID="Y7xAuifLO0+XVk/tVrFL7g==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="-581.837" ypos="20.96625" zpos="-1055.66" GUID="P/pSo6jAcUi5nvB+kbEuRg==" type="HMP.openWorld.mining.iron"/> <!-- RICH -->
+    <POI MapID="20" xpos="251.88"   ypos="29.67221" zpos="-1088.98" GUID="cNhnrrvqZkGkMiWZCBBijg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="283.8026" ypos="30.24835" zpos="-1085.05" GUID="Xfd8E1uDJkG+WeMfSX3yDA==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="359.5608" ypos="1.756657" zpos="-1044.21" GUID="7dZ68sZuCkydpeEz5wnbRg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="519.6397" ypos="1.419402" zpos="-874.402" GUID="Ny/9DtnaYUu3rxuCTC66Hg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="46.72132" ypos="37.75225" zpos="-610.354" GUID="rV3X80+GQU6wpTgN5QOtQg==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="412.2107" ypos="83.21891" zpos="-113.225" GUID="iNZBaG2sbECECTegdiek5A==" type="HMP.openWorld.mining.iron"/>
+    <POI MapID="20" xpos="220.3933" ypos="61.27662" zpos="-139.027" GUID="PIQWuSVK/0OPHwV/WsFw3Q==" type="HMP.openWorld.mining.iron"/>
+    
+    <!-- =-=-=-=-=-= SEASONED WOOD =-=-=-=-=-= -->
+    <!-- Blazeridge Steppes -->
+    <POI MapID="20" xpos="210.6158" ypos="27.43633" zpos="743.3677" GUID="irQ0kFKMd0+qu4gf0lrpXA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-154.383" ypos="28.41658" zpos="1062.535" GUID="cTUrEPHEFEegD4GM9soNKA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-177.180" ypos="28.182"   zpos="1046.726" GUID="qADaLvWn606S9e2+IVOzFA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-197.539" ypos="33.91019" zpos="1076.101" GUID="PHpdaU1sA0uaPzE/oAepxQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-440.076" ypos="30.7954"  zpos="846.1967" GUID="LrDSKjLBw02dMtrrYv4KxQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-449.357" ypos="37.47058" zpos="776.2553" GUID="k8gRTpWvuUCrsHjZbMbAlg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-512.302" ypos="41.37784" zpos="809.7749" GUID="bPRWf6NOxE+imoASFQiuuQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="515.3287" ypos="39.10138" zpos="392.8135" GUID="t7QN42uLHU6Od8+iqL+sbQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="324.6878" ypos="17.49634" zpos="289.6802" GUID="zjJCpCYbDUeAYpSwolj7jg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="258.9211" ypos="15.01103" zpos="421.2657" GUID="iMjCUVLwx0SCF8wZwySEMg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-46.2578" ypos="31.68586" zpos="101.5327" GUID="r/GdX3eZA0WzziDaTLj3+Q==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="248.7941" ypos="16.72749" zpos="245.0438" GUID="H7h2YM5qFEqs7gxbHsmciw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="127.5598" ypos="37.1413"  zpos="139.0554" GUID="OZyqUMV3YkCGVRHEphIygg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="195.211"  ypos="44.69054" zpos="19.32909" GUID="EJgH7ZekzEmB49X0BoMo4g==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="139.0568" ypos="69.82058" zpos="-27.4914" GUID="4GAVNwf+x0qLKrN31nrlLg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="86.66334" ypos="62.71453" zpos="-121.172" GUID="6gVnHyrQ50yuGUft/5t2Ew==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-141.257" ypos="37.78363" zpos="-146.417" GUID="j3zsSCYI30SxQw7yBPEE2w==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-123.822" ypos="22.60844" zpos="-556.822" GUID="uGXKq6xuuUOM31cZEltCHg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="390.222"  ypos="84.85593" zpos="-255.240" GUID="DoSAkkPPO0uwD3AkEdHrqA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="453.009"  ypos="82.69474" zpos="-417.297" GUID="c04IDpYvzkCfB0bZePUCkg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="17.06573" ypos="18.09128" zpos="-764.026" GUID="xiGOoVTfBkmA47kGFtBBqA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="19.33389" ypos="38.34309" zpos="-848.167" GUID="N74Os8XdnkqNn3NtMLUxew==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="144.3938" ypos="20.02718" zpos="-857.703" GUID="RYi2Zqd1JkOV51EFI5HbFA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="114.8617" ypos="25.29744" zpos="-887.330" GUID="tDpdn/uyVEiFwPtoWvR5Zw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="42.39865" ypos="16.02985" zpos="-1201.45" GUID="x53Nwd/0W0O0VoUWthJSGw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="492.9778" ypos="40.98505" zpos="-1154.31" GUID="A+7gowiW4kKLgu1TeoXvww==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="502.3023" ypos="33.75637" zpos="-1101.10" GUID="PBDTDhPr7kWvWZwNi/POyQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="241.2652" ypos="24.00552" zpos="541.7537" GUID="QO4fyr8aw0CK7Sa4QWoUAQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="276.4426" ypos="31.19751" zpos="747.1895" GUID="JkJMxVdqbke9q3XeM2NciQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="354.4451" ypos="22.17784" zpos="792.6486" GUID="zwdEtAYsQkGhh5rP1DoXcg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="432.4212" ypos="42.68222" zpos="872.8853" GUID="CC3Z27vjKEqFgxE1/mXkjw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="328.9018" ypos="15.82663" zpos="866.4189" GUID="RBmKCP3avk2idLvHge+yJw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="256.7885" ypos="24.50784" zpos="987.0875" GUID="wilkvFLqNkyH3S/CyNvA/A==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="188.5704" ypos="23.04917" zpos="871.5814" GUID="EN4LRKajlk+Dot7FD2sn4A==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="251.0634" ypos="15.21377" zpos="795.9865" GUID="yzwVlZalFkOoQ1kHxMl7AA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="210.7157" ypos="27.43311" zpos="743.3678" GUID="G9Fx1YZeokO986NX0ML+Bw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="114.6649" ypos="18.54498" zpos="808.6461" GUID="eLl9QXO7r0qQ487xWvLsXQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-74.8982" ypos="41.47822" zpos="1114.058" GUID="1T8QMOenVEqrEk2rEiH9HQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-501.308" ypos="47.70639" zpos="606.1932" GUID="dko6OYrCK0+Lj3vnPUnZGw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-451.551" ypos="23.48509" zpos="521.7628" GUID="djhgGXeGwk6e8XVxTdtG1g==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-406.086" ypos="34.18274" zpos="421.2107" GUID="cgYXeekkWkye11zSRxqh0Q==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-312.905" ypos="22.09468" zpos="89.44984" GUID="99CsGFuNMkm0m2z/ziIxOg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-419.644" ypos="6.444308" zpos="-628.293" GUID="EqDbbwkPKkKn2IBXaKfbBw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-525.598" ypos="29.23326" zpos="-700.178" GUID="LRKSmQtFGEmavHsBiUfyww==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-500.105" ypos="31.63393" zpos="-800.473" GUID="CAnGCWNQj0SmQVa4m4/g0g==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="2.14231"  ypos="10.7784"  zpos="-1107.63" GUID="WgE1Va4XtUCkfYiBsCajdQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="450.1267" ypos="5.885341" zpos="-830.932" GUID="27s0yYuJDU2oBCavfBpUvA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="255.5857" ypos="41.97496" zpos="-793.933" GUID="lsn/ouXGPEaK2X8kpcXnZQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="106.4482" ypos="35.45901" zpos="-749.935" GUID="zZzE43v6sEWS26hydBojEw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="64.07384" ypos="57.16026" zpos="-399.404" GUID="Hn6CsVbKake/ohXacdC5XA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="6.515807" ypos="55.723"   zpos="-391.335" GUID="ImnDiM8CLkiP8NTrXZrXkQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="409.0212" ypos="74.7029"  zpos="-338.777" GUID="V6Sp5XEFhEyl7SnnR2Gmyw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="406.7238" ypos="82.02296" zpos="-171.693" GUID="utdBPO4CckKrykIiYjaUvw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="299.6291" ypos="76.01483" zpos="-94.6724" GUID="2VXL7eOpDEKYFzNCEqxh5Q==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="202.1317" ypos="65.84496" zpos="-82.4099" GUID="gqFSWFuZ3kW8V7hNdo1a0A==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="83.70422" ypos="65.34029" zpos="5.664657" GUID="xOa+yeuvS0KMQfbSrqYTTQ==" type="HMP.openWorld.lumber.seasoned"/>
+    
+    <!-- =-=-=-=-=-= GOLD ORE =-=-=-=-=-= -->
+    <POI MapID="20" xpos="-519.3345" ypos="22.87374" zpos="926.623"  GUID="esY2b1L0+kyCKmsE3ftRFg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-529.3246" ypos="23.38199" zpos="910.9003" GUID="puRFFA6ydEKrLLVJnJCkDg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-452.4075" ypos="22.7754"  zpos="854.6148" GUID="DUI+3c8bh06Ta6nt/lX8CQ==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-503.3784" ypos="56.07647" zpos="661.5482" GUID="88kGlR+dnEOjFwsnX0nqVw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-518.4061" ypos="55.03526" zpos="638.649"  GUID="YCq1K2c8WkOYbkYjTSQjTA==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="324.8062"  ypos="26.99068" zpos="420.2393" GUID="hmPRVXHtdkG4NPlHHihpyg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-332.6098" ypos="1.732898" zpos="406.0701" GUID="wo5FCZyPDkaxSwGfukAIlA==" type="HMP.openWorld.mining.gold"/> <!-- RICH -->
+    <POI MapID="20" xpos="-354.3499" ypos="2.810707" zpos="279.9394" GUID="JZX4VXPzGUOgNeutKbgQJw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-286.6631" ypos="9.88156"  zpos="198.1435" GUID="MX/4pjlLmkWE+2IQDe5eow==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-376.228"  ypos="12.40463" zpos="181.901"  GUID="qa7VsKIb+UqQDZhFoHUT+w==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-49.81317" ypos="40.92368" zpos="-644.346" GUID="sQfVrZZEPUWZIhZnVEXQjw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="376.2281"  ypos="87.13509" zpos="-161.288" GUID="xa4Inas5/EKyrzTmSHVqyQ==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="430.4175"  ypos="106.5497" zpos="-555.525" GUID="LC0KMgZvfkWm1gH0hyCnPA==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-239.6736" ypos="2.645797" zpos="-1060.09" GUID="bPFJHyy0v06YhD/nMvBMJw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-77.85809" ypos="37.3347"  zpos="-692.175" GUID="AScYeqfUXkK6Z/kcrQPQYg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="178.7676"  ypos="26.61994" zpos="-798.208" GUID="CoH7lG+ZT0S7EpyHnfzwvQ==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="562.1157"  ypos="32.22036" zpos="-979.838" GUID="zoueVdjJFUqaQlGXcbOZrg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="225.4495"  ypos="16.35369" zpos="432.2246" GUID="JHtnjTmyiUeDq4gTd+KNog==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-557.9713" ypos="79.78283" zpos="734.6353" GUID="MEiXIjb960mGDs2hoC6vvQ==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-465.6959" ypos="49.56797" zpos="638.7832" GUID="W8REZFHVdUeoXrU1YWf2Tw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-583.0476" ypos="44.90884" zpos="501.8524" GUID="Mwics3/lDUuyS0W8XF10Tg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-568.5935" ypos="49.51558" zpos="551.092"  GUID="d0m/Wih25kOCY+q/X6Qy9Q==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-414.6819" ypos="26.82489" zpos="271.634"  GUID="ThZPDgO8S0e6Pz6bcvQuCg==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-381.5907" ypos="19.88004" zpos="136.5355" GUID="SeDcwwv+7EGSzpwKj4g1Cw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-570.1334" ypos="62.97977" zpos="-175.344" GUID="fX3BZDywLU2OARuKyQSbmw==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-544.6839" ypos="50.94522" zpos="-586.915" GUID="UJ4sJQaZk0yX+/XCNJmwPQ==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="-158.6887" ypos="2.168617" zpos="-1090.66" GUID="s9JnKS6xTkOVqLyPUv3PpA==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="465.7922"  ypos="92.09235" zpos="-490.403" GUID="36C6541LAkOHneHD+WwPBQ==" type="HMP.openWorld.mining.gold"/>
+    <POI MapID="20" xpos="381.2242"  ypos="85.76189" zpos="-271.932" GUID="g9GG/KF7v0SZwQkYOnl0Vg==" type="HMP.openWorld.mining.gold"/>
+    
     <!-- ========== Head of Lettuce ========== -->
     <!-- Queensdale  -->
     <POI MapID="15" xpos="871.9424" ypos="15.95411" zpos="406.3731" GUID="92zIChT340iXOOUJk2s1hw==" type="HMP.openWorld.harvesting.lettuce"/>
