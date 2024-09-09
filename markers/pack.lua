@@ -3,8 +3,9 @@ HMP.HTcmSim = {}
 HMPphysics = {}
 HMPutility = {}
 Utility = {}
+HMP.Continents = {}
 Dir = { "scripts/General/", "scripts/Educational/", "scripts/Utility/",
-  "scripts/Schedule/", "scripts/Simulation/", "scripts/Compass/" }
+  "scripts/Schedule/", "scripts/Simulation/", "scripts/Compass/", "scripts/Continents" }
 HMP.MapScripts = {
   -- Aetherblade Fractal ------------------ Aquatic Ruins Fractal ---------------- Captain Mai Trin Fractal ------------- Chaos Fractal ------------------------- Cliffside Fractal -------------------- Deepstone Fractal --------------------- Mistlock Observatory Fractal --------- Molten Boss Fractal ------------------ Molten Furnace Fractal --------------- Nightmare Fractal --------------------- Shattered Observatory Fractal --------- Silent Surf Fractal ------------------- Siren's Reef Fractal ------------------ Snowblind Fractal -------------------- Solid Ocean Fractal ------------------ Sunqua Peak Fractal ------------------- Swampland Fractal -------------------- Thaumanova Reactor Fractal ----------- The Lonely Tower Fractal -------------- Twilight Oasis Fractal ---------------- Uncategorized Fractal ---------------- Underground Facility Fractal --------- Urban Battlegrounds Fractal ---------- Volcanic Fractal
   { {956, {Dir[1] .. "Fractal_Slaying"} }, {951, {Dir[1] .. "Fractal_Slaying"} }, {960, {Dir[1] .. "Fractal_Slaying"} }, {1164, {Dir[1] .. "Fractal_Slaying"} }, {952, {Dir[1] .. "Fractal_Slaying"} }, {1290, {Dir[1] .. "Fractal_Slaying"} }, {872, {Dir[1] .. "Fractal_Slaying"} }, {959, {Dir[1] .. "Fractal_Slaying"} }, {955, {Dir[1] .. "Fractal_Slaying"} }, {1177, {Dir[1] .. "Fractal_Slaying"} }, {1205, {Dir[1] .. "Fractal_Slaying"} }, {1500, {Dir[1] .. "Fractal_Slaying"} }, {1309, {Dir[1] .. "Fractal_Slaying"} }, {948, {Dir[1] .. "Fractal_Slaying"} }, {958, {Dir[1] .. "Fractal_Slaying"} }, {1384, {Dir[1] .. "Fractal_Slaying"} }, {949, {Dir[1] .. "Fractal_Slaying"} }, {957, {Dir[1] .. "Fractal_Slaying"} }, {1538, {Dir[1] .. "Fractal_Slaying"} }, {1267, {Dir[1] .. "Fractal_Slaying"} }, {947, {Dir[1] .. "Fractal_Slaying"} }, {953, {Dir[1] .. "Fractal_Slaying"} }, {950, {Dir[1] .. "Fractal_Slaying"} }, {954, {Dir[1] .. "Fractal_Slaying"} } },
@@ -17,7 +18,9 @@ HMP.MapScripts = {
   -- C-Observatory - Temple of Febe
   { {1515, {nil} }, {1520, {Dir[1] .. "DP_Adventure"} } },
   -- Ascalon Cat - blahblah
-  { {36, {nil} }, {0, {nil} } }
+  { {36, {nil} }, {0, {nil} } },
+  -- Queensdale -- B_Steppes --- Sraits_o_D -- C_Shore ----- T_Depths ------ V_Brink ------- Ember Bay ----- Drac_Mons ----- S_Landing ----- Sandy_Isles --- D_o_Kourna ---- Jahai Bluffs -- T_Peaks ------- Lowland_S ----- J_Syntri ----
+  { {15, {nil} }, {20, {nil} }, {51, {nil} }, {62, {nil} }, {1045, {nil} }, {1052, {nil} }, {1175, {nil} }, {1195, {nil} }, {1203, {nil} }, {1271, {nil} }, {1288, {nil} }, {1301, {nil} }, {1310, {nil} }, {1550, {nil} }, {1554, {nil} } }
 }
 
 --We're forced to load this script, else the script console errors out due to the, "PackScriptToggle" check below.
