@@ -22,5 +22,17 @@ Utility.Math = {
     local OverlapArea = Utility.Math.OverlapArea(r1, r2, d)
     local Lune2 = math.pi * r2^2 - OverlapArea
     return Lune2
+  end,
+  --Rounds the input up or down
+  Round = function(num)
+    local down = math.floor(num)
+    local up   = down + 1
+    local downV = -(down - num)
+    local upV   = up - num
+    if( upV > downV ) then
+      return down
+    else
+      return up
+    end
   end
 }

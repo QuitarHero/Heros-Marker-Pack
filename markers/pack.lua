@@ -19,8 +19,8 @@ HMP.MapScripts = {
   { {1515, {nil} }, {1520, {Dir[1] .. "DP_Adventure"} } },
   -- Ascalon Cat - blahblah
   { {36, {nil} }, {0, {nil} } },
-  -- Queensdale -- B_Steppes --- Sraits_o_D -- C_Shore ----- T_Depths ------ V_Brink ------- Ember Bay ----- Drac_Mons ----- S_Landing ----- Sandy_Isles --- D_o_Kourna ---- Jahai Bluffs -- T_Peaks ------- Lowland_S ----- J_Syntri ----
-  { {15, {nil} }, {20, {nil} }, {51, {nil} }, {62, {nil} }, {1045, {nil} }, {1052, {nil} }, {1175, {nil} }, {1195, {nil} }, {1203, {nil} }, {1271, {nil} }, {1288, {nil} }, {1301, {nil} }, {1310, {nil} }, {1550, {nil} }, {1554, {nil} } }
+  -- Queensdale ------------------------- Blazeridge Steppes ----------------- Straits of Devastation ------------- Cursed Shore ----------------------- Tangled Depths ----------------------- Verdant Brink ------------------------ Ember Bay ---------------------------- Draconis Mons ------------------------ Siren's Landing ---------------------- Sandswept Isles ---------------------- Domain of Kourna --------------------- Jahai Bluffs ------------------------- Thunderhead Peaks -------------------- Lowland Shore ------------------------ Janthir Syntri
+  { {15, {Dir[1] .. "GatheringIcons"} }, {20, {Dir[1] .. "GatheringIcons"} }, {51, {Dir[1] .. "GatheringIcons"} }, {62, {Dir[1] .. "GatheringIcons"} }, {1045, {Dir[1] .. "GatheringIcons"} }, {1052, {Dir[1] .. "GatheringIcons"} }, {1175, {Dir[1] .. "GatheringIcons"} }, {1195, {Dir[1] .. "GatheringIcons"} }, {1203, {Dir[1] .. "GatheringIcons"} }, {1271, {Dir[1] .. "GatheringIcons"} }, {1288, {Dir[1] .. "GatheringIcons"} }, {1301, {Dir[1] .. "GatheringIcons"} }, {1310, {Dir[1] .. "GatheringIcons"} }, {1550, {Dir[1] .. "GatheringIcons"} }, {1554, {Dir[1] .. "GatheringIcons"} } }
 }
 
 --We're forced to load this script, else the script console errors out due to the, "PackScriptToggle" check below.
