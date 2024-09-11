@@ -1,0 +1,206 @@
+<OverlayData>
+  <MarkerCategory name="HMP"               DisplayName="Hero's Pack">
+    <MarkerCategory name="openWorld"       DisplayName="Open World">
+      <MarkerCategory name="lumber"        DisplayName="Refined Lumber Farms" autoTrigger="0" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
+        <MarkerCategory name="green"       DisplayName="Green Wood Logs"    iconFile="Assets/OpenWorld/Logging/Green Wood Log1.png"/>
+        <MarkerCategory name="soft"        DisplayName="Soft Wood Logs"     iconFile="Assets/OpenWorld/Logging/Soft Wood Log1.png"/>
+        <MarkerCategory name="seasoned"    DisplayName="Seasoned Wood Logs" iconFile="Assets/OpenWorld/Logging/Seasoned Wood Log1.png"/>
+        <MarkerCategory name="hard"        DisplayName="Hard Wood Logs"     iconFile="Assets/OpenWorld/Logging/Hard Wood Log1.png"/>
+        <MarkerCategory name="elder"       DisplayName="Elder Wood Logs"    iconFile="Assets/OpenWorld/Logging/Elder Wood Log1.png"/>
+        <MarkerCategory name="ancient"     DisplayName="Ancient Wood Logs"  iconFile="Assets/OpenWorld/Logging/Ancient Wood Log1.png"/>
+        <MarkerCategory name="lowlandPine" DisplayName="Lowland Pine Logs"  iconFile="Assets/OpenWorld/Logging/Lowland Pine1.png"/>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- =========================================================================== REFINED HOMESTEAD WOOD =========================================================================== -->
+    <!-- ==================== Green Wood Log ==================== -->
+    
+    <!-- ==================== Soft Wood Log ==================== -->
+    
+    <!-- ==================== Seasoned Wood Log ==================== -->
+    <!-- Blazeridge Steppes -->
+    <POI MapID="20" xpos="210.6158" ypos="27.43633" zpos="743.3677" GUID="irQ0kFKMd0+qu4gf0lrpXA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-154.383" ypos="28.41658" zpos="1062.535" GUID="cTUrEPHEFEegD4GM9soNKA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-177.180" ypos="28.182"   zpos="1046.726" GUID="qADaLvWn606S9e2+IVOzFA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-197.539" ypos="33.91019" zpos="1076.101" GUID="PHpdaU1sA0uaPzE/oAepxQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-440.076" ypos="30.7954"  zpos="846.1967" GUID="LrDSKjLBw02dMtrrYv4KxQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-449.357" ypos="37.47058" zpos="776.2553" GUID="k8gRTpWvuUCrsHjZbMbAlg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-512.302" ypos="41.37784" zpos="809.7749" GUID="bPRWf6NOxE+imoASFQiuuQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="515.3287" ypos="39.10138" zpos="392.8135" GUID="t7QN42uLHU6Od8+iqL+sbQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="324.6878" ypos="17.49634" zpos="289.6802" GUID="zjJCpCYbDUeAYpSwolj7jg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="258.9211" ypos="15.01103" zpos="421.2657" GUID="iMjCUVLwx0SCF8wZwySEMg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-46.2578" ypos="31.68586" zpos="101.5327" GUID="r/GdX3eZA0WzziDaTLj3+Q==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="248.7941" ypos="16.72749" zpos="245.0438" GUID="H7h2YM5qFEqs7gxbHsmciw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="127.5598" ypos="37.1413"  zpos="139.0554" GUID="OZyqUMV3YkCGVRHEphIygg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="195.211"  ypos="44.69054" zpos="19.32909" GUID="EJgH7ZekzEmB49X0BoMo4g==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="139.0568" ypos="69.82058" zpos="-27.4914" GUID="4GAVNwf+x0qLKrN31nrlLg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="86.66334" ypos="62.71453" zpos="-121.172" GUID="6gVnHyrQ50yuGUft/5t2Ew==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-141.257" ypos="37.78363" zpos="-146.417" GUID="j3zsSCYI30SxQw7yBPEE2w==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-123.822" ypos="22.60844" zpos="-556.822" GUID="uGXKq6xuuUOM31cZEltCHg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="390.222"  ypos="84.85593" zpos="-255.240" GUID="DoSAkkPPO0uwD3AkEdHrqA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="453.009"  ypos="82.69474" zpos="-417.297" GUID="c04IDpYvzkCfB0bZePUCkg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="17.06573" ypos="18.09128" zpos="-764.026" GUID="xiGOoVTfBkmA47kGFtBBqA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="19.33389" ypos="38.34309" zpos="-848.167" GUID="N74Os8XdnkqNn3NtMLUxew==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="144.3938" ypos="20.02718" zpos="-857.703" GUID="RYi2Zqd1JkOV51EFI5HbFA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="114.8617" ypos="25.29744" zpos="-887.330" GUID="tDpdn/uyVEiFwPtoWvR5Zw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="42.39865" ypos="16.02985" zpos="-1201.45" GUID="x53Nwd/0W0O0VoUWthJSGw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="492.9778" ypos="40.98505" zpos="-1154.31" GUID="A+7gowiW4kKLgu1TeoXvww==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="502.3023" ypos="33.75637" zpos="-1101.10" GUID="PBDTDhPr7kWvWZwNi/POyQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="241.2652" ypos="24.00552" zpos="541.7537" GUID="QO4fyr8aw0CK7Sa4QWoUAQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="276.4426" ypos="31.19751" zpos="747.1895" GUID="JkJMxVdqbke9q3XeM2NciQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="354.4451" ypos="22.17784" zpos="792.6486" GUID="zwdEtAYsQkGhh5rP1DoXcg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="432.4212" ypos="42.68222" zpos="872.8853" GUID="CC3Z27vjKEqFgxE1/mXkjw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="328.9018" ypos="15.82663" zpos="866.4189" GUID="RBmKCP3avk2idLvHge+yJw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="256.7885" ypos="24.50784" zpos="987.0875" GUID="wilkvFLqNkyH3S/CyNvA/A==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="188.5704" ypos="23.04917" zpos="871.5814" GUID="EN4LRKajlk+Dot7FD2sn4A==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="251.0634" ypos="15.21377" zpos="795.9865" GUID="yzwVlZalFkOoQ1kHxMl7AA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="210.7157" ypos="27.43311" zpos="743.3678" GUID="G9Fx1YZeokO986NX0ML+Bw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="114.6649" ypos="18.54498" zpos="808.6461" GUID="eLl9QXO7r0qQ487xWvLsXQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-74.8982" ypos="41.47822" zpos="1114.058" GUID="1T8QMOenVEqrEk2rEiH9HQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-501.308" ypos="47.70639" zpos="606.1932" GUID="dko6OYrCK0+Lj3vnPUnZGw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-451.551" ypos="23.48509" zpos="521.7628" GUID="djhgGXeGwk6e8XVxTdtG1g==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-406.086" ypos="34.18274" zpos="421.2107" GUID="cgYXeekkWkye11zSRxqh0Q==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-312.905" ypos="22.09468" zpos="89.44984" GUID="99CsGFuNMkm0m2z/ziIxOg==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-419.644" ypos="6.444308" zpos="-628.293" GUID="EqDbbwkPKkKn2IBXaKfbBw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-525.598" ypos="29.23326" zpos="-700.178" GUID="LRKSmQtFGEmavHsBiUfyww==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="-500.105" ypos="31.63393" zpos="-800.473" GUID="CAnGCWNQj0SmQVa4m4/g0g==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="2.14231"  ypos="10.7784"  zpos="-1107.63" GUID="WgE1Va4XtUCkfYiBsCajdQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="450.1267" ypos="5.885341" zpos="-830.932" GUID="27s0yYuJDU2oBCavfBpUvA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="255.5857" ypos="41.97496" zpos="-793.933" GUID="lsn/ouXGPEaK2X8kpcXnZQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="106.4482" ypos="35.45901" zpos="-749.935" GUID="zZzE43v6sEWS26hydBojEw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="64.07384" ypos="57.16026" zpos="-399.404" GUID="Hn6CsVbKake/ohXacdC5XA==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="6.515807" ypos="55.723"   zpos="-391.335" GUID="ImnDiM8CLkiP8NTrXZrXkQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="409.0212" ypos="74.7029"  zpos="-338.777" GUID="V6Sp5XEFhEyl7SnnR2Gmyw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="406.7238" ypos="82.02296" zpos="-171.693" GUID="utdBPO4CckKrykIiYjaUvw==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="299.6291" ypos="76.01483" zpos="-94.6724" GUID="2VXL7eOpDEKYFzNCEqxh5Q==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="202.1317" ypos="65.84496" zpos="-82.4099" GUID="gqFSWFuZ3kW8V7hNdo1a0A==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="83.70422" ypos="65.34029" zpos="5.664657" GUID="xOa+yeuvS0KMQfbSrqYTTQ==" type="HMP.openWorld.lumber.seasoned"/>
+    
+    <!-- ==================== Hard Wood Log ==================== -->
+    
+    <!-- ==================== Elder Wood Log ==================== -->
+    
+    <!-- ==================== Ancient Wood Log ==================== -->
+    <!-- Lowland Shore -->
+    <POI MapID="1550" xpos="-1066.354" ypos="231.7973" zpos="-239.9192" GUID="wMx31dZYUE+T4qUr1k/pcQ==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="-1066.354" ypos="231.7973" zpos="-239.9192" GUID="wMx31dZYUE+T4qUr1k/pcQ==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="-293.8996" ypos="191.371"  zpos="378.1473"  GUID="49qd+2UEMU2DGrhpu6Sg+g==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="423.7349"  ypos="309.3876" zpos="-269.1227" GUID="ogfyJmdSi0qEceMZHjv+8Q==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="465.0674"  ypos="313.7296" zpos="-297.3324" GUID="1UsKp3rlaUe1nm6yciy/lQ==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="532.5415"  ypos="306.4012" zpos="-301.4204" GUID="UkjHP3K89E2fhLwoW9pw0Q==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="994.7432"  ypos="382.0213" zpos="-213.5753" GUID="siSgPT6d40aWWDDyCfMOCA==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="-1018.564" ypos="217.0163" zpos="55.52695"  GUID="ccadAA86LUGJsZ2vv+Un+A==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="945.6901"  ypos="379.9861" zpos="-121.7352" GUID="8RcSUfwulkCLdWF6YelU/g==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="-425.496"  ypos="212.9801" zpos="283.0849"  GUID="GVzwRqOXV06M+K1sKXdzCQ==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="922.5822"  ypos="373.2949" zpos="-316.9479" GUID="GnNUPBFHsEGrlXhXjyGo6w==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1550" xpos="-443.8545" ypos="209.8181" zpos="198.2214"  GUID="QHwzgGSNFkSueicPmbFHIg==" type="HMP.openWorld.lumber.ancient"/>
+    <!-- Janthir Syntri -->
+    <POI MapID="1554" xpos="-675.2426" ypos="15.94641" zpos="-687.9395" GUID="l+ABz+BTIk6FG479k6KrEA==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-470.5988" ypos="83.92799" zpos="-228.4067" GUID="/8FPlywskkKyIM6bQKOz7Q==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-373.4888" ypos="38.37874" zpos="-671.9528" GUID="GDQuSBFNxUmSAObERziZBg==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-263.0359" ypos="52.38981" zpos="486.2098"  GUID="bf7jQxQJoEaSaSiS3r/rHg==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-240.6531" ypos="30.81213" zpos="-238.1727" GUID="TnnkHJVpnUmYRovzCJotBg==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-218.8221" ypos="78.02589" zpos="-582.8081" GUID="SDtWPeClskKGMdOfthxERQ==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="125.8293"  ypos="39.93818" zpos="-347.1975" GUID="2dS5Yq+alUO18WvVCger/g==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="136.4208"  ypos="22.10718" zpos="-567.0292" GUID="BM//0jHUt0ypJeFSgkJe3A==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="231.7691"  ypos="3.934899" zpos="303.3879"  GUID="s3ZGbaQcJ0yieJdcBTdSYg==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="270.5413"  ypos="2.915981" zpos="-494.3137" GUID="SErOUYjJiUK0U15DA/gwVQ==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="273.5718"  ypos="7.282456" zpos="177.0432"  GUID="KI7530jTu0uHAQJ3YKKq3Q==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="316.3571"  ypos="17.94412" zpos="-50.77505" GUID="st33+Y/K4UKve/z6m5614w==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="426.7789"  ypos="20.94173" zpos="295.3466"  GUID="gTpzgSoDUk+gd+QYjDnRrg==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="495.261"   ypos="29.99435" zpos="76.80791"  GUID="NxoLTGHsaECiCPWhE2wlOw==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="522.6788"  ypos="7.0213"   zpos="282.7419"  GUID="u1x9MFlf/0mEOiAbJwiI2g==" type="HMP.openWorld.lumber.ancient"/>
+    
+    <!-- ==================== Lowland Pine Log ==================== -->
+    <!-- Lowland Pine OR Elder Wood -->
+    <POI MapID="1550" xpos="-299.0093" ypos="136.2463" zpos="63.04087"  GUID="Tu+wBVVKbkKLnw5YymI65g==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-257.8705" ypos="141.9957" zpos="192.2183"  GUID="/n47ZBwlOkG2+meHaSS7NQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-639.6285" ypos="5.161388" zpos="430.3437"  GUID="dQre7w81Q0GguM1sQ2cyuw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-858.2079" ypos="211.0822" zpos="-32.44"    GUID="VZzHCw7Hqka2Q9ZMmvs9iA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-936.9425" ypos="211.3004" zpos="10.76017"  GUID="qd4igjjoM0ue6wYCNm8pEA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-241.1821" ypos="209.2183" zpos="-350.7295" GUID="0C7ltB/7ak6vZwpegrGsCA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-10.45446" ypos="316.3699" zpos="-299.278"  GUID="xAjpdh/6V0eYHojPhcu6NQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="220.8909"  ypos="316.2357" zpos="-548.6443" GUID="D7/LOhlJfUi6MOAnqfZURQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="540.8696"  ypos="311.8951" zpos="-339.9282" GUID="P6sg4FDbqEywJujnRcVTwA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="636.0704"  ypos="308.0713" zpos="-336.4831" GUID="cSjJKhoy7kaijuffE9nNUg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="722.0157"  ypos="308.2323" zpos="-126.6073" GUID="ldFr5AGRskKKAREfU246qA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="961.3505"  ypos="336.1056" zpos="175.803"   GUID="0dUo9g+HG06JKODimBhVSg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="560.3388"  ypos="65.59466" zpos="267.3985"  GUID="hRtGfudfM02TZI1MwdL+lA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="282.133"   ypos="113.0225" zpos="331.5011"  GUID="7GJblI1bxEW1fgILwddaXw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="253.4274"  ypos="216.7855" zpos="214.9568"  GUID="mjrGmB+HyE+JomwofHmhng==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-78.72715" ypos="219.5779" zpos="-113.9311" GUID="ZKfWV5GsY0OTnUrJUzlQqw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-623.1646" ypos="4.943384" zpos="76.92752"  GUID="tMBlJYp4MUKu+dIIQy5AtA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-831.7978" ypos="6.115305" zpos="312.0964"  GUID="qXaKdzC38kWrEbQLlwa36w==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-957.2573" ypos="4.99649"  zpos="256.7585"  GUID="qk3Utj9ynUWCY6w31+AjXg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-1083.881" ypos="214.1246" zpos="-111.8478" GUID="KQ75MhShnU+5vs+ntNbVFw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-664.1723" ypos="329.1887" zpos="-605.0496" GUID="CCoXZ6K6KUKHL73iQfcfbQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-524.8404" ypos="206.1714" zpos="-290.3931" GUID="XbO9pGoFkkOBTzCXpVJ9VQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="801.7593"  ypos="330.9301" zpos="-445.4454" GUID="qGXwHL5qPkG1jpeQ+tmSDg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="857.9105"  ypos="363.7039" zpos="-519.7583" GUID="JnJITmgxDUSIqR+tqO6J0A==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="514.3199"  ypos="312.384"  zpos="-244.7475" GUID="yBkNJKLW5EKaEESHhHgY9g==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="275.2977"  ypos="330.7888" zpos="-61.15451" GUID="OkkRN1KpkkO+IlP2KzhmjQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="178.4072"  ypos="303.8366" zpos="-100.8397" GUID="B5Lwstoj8UGPgfYHlhvP0Q==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="273.0632"  ypos="253.1585" zpos="-86.61121" GUID="tNVFVNgi3kGwfTdWIC3rPA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="687.3323"  ypos="327.4666" zpos="41.07673"  GUID="XKBY3WDHtUC1/h2aoJP+Eg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="719.6956"  ypos="95.96313" zpos="228.4502"  GUID="5/7aYJS+X0KzpPEpuU+NEQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-655.0554" ypos="5.496003" zpos="542.1749"  GUID="mEDKJ8W6nUyDooYyxlO2wA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-155.942"  ypos="276.3969" zpos="-537.6817" GUID="50Nz7sEzzk+JnGSc1wwaTA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="479.2214"  ypos="324.6881" zpos="-365.4406" GUID="P3GIkoXHMkGJpClfFMhmHw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="709.2963"  ypos="316.9967" zpos="-30.4988"  GUID="UUaKSwguO06iIYd+482hKA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-749.8805" ypos="302.8987" zpos="-495.8921" GUID="Fdtl0O37HEm4gwIrJiPPyg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-184.024"  ypos="232.5504" zpos="-431.6084" GUID="QL42myqIAEiyOG9KCQ5SxQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-250.1013" ypos="307.6826" zpos="-630.0703" GUID="5jVlbKJC0kqXIU3vkPdHyg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="886.5107"  ypos="366.9111" zpos="-361.2248" GUID="3oyMcTgbe02VTqMSjWDIxw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="169.0406"  ypos="306.1441" zpos="-20.4939"  GUID="Hg3r89dd30mpmrKCN5+7Lw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="134.3447"  ypos="216.9942" zpos="196.4972"  GUID="locHNzkgikSexWXWy7EFcA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="737.0754"  ypos="92.91969" zpos="359.4038"  GUID="WSur8JOtbUiia8WfCZZQZg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="986.2648"  ypos="343.382"  zpos="270.2537"  GUID="zcEJ8u+CX0GAZLXQiX7QYQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="630.5836"  ypos="94.71136" zpos="316.3824"  GUID="VTIsTNaJrE6h8OURdYsBkA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-81.87925" ypos="110.6249" zpos="454.0429"  GUID="9GeL1XVbi0qQr69vI1lC8Q==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-98.12672" ypos="312.6617" zpos="-381.4331" GUID="J/U0UHUMuECTWHFpOfxxsQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="429.3562"  ypos="313.6803" zpos="-194.638"  GUID="bfXdz+RHd028M8USi7g5/w==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="316.9939"  ypos="311.8458" zpos="13.08054"  GUID="W995Sa1WdUSHIcTNRud1Rw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="858.0895"  ypos="321.0374" zpos="-33.38334" GUID="uIlQLypRCEyLP66Z4wl5Xg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-192.0326" ypos="224.5331" zpos="-112.4918" GUID="rWQ62ZzYDkq2mimMQFX65A==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="69.21986"  ypos="306.7161" zpos="-379.5268" GUID="qejuoEn4N0Cc9qKNEpXy3g==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="396.999"   ypos="335.5679" zpos="-358.225"  GUID="HHzVyHOlEUmyB30DBoVvZQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="707.8331"  ypos="331.0188" zpos="-450.5688" GUID="LTChMModqEaXYIgT5xP7RA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="71.10651"  ypos="158.5243" zpos="-58.32198" GUID="lT+TwTVEgkGBuniBh4zS3Q==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-716.8435" ypos="285.6981" zpos="-304.8359" GUID="4O+mtb4VY0CyZR5XpDjmWQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="2.499545"  ypos="220.1278" zpos="-196.9457" GUID="4OFnPMZd8kKsiDQ2UCFPuA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-860.962"  ypos="227.641"  zpos="-111.1254" GUID="DIlYLihdlkWMYspESA7NQg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-894.0908" ypos="23.62925" zpos="361.9632"  GUID="BHLKuzwZDU2QY3Lt2nGJ2w==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-831.7814" ypos="6.107742" zpos="312.1754"  GUID="C4pknCPOaUidIFqDhLHLgQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="829.8359"  ypos="329.0718" zpos="-136.1427" GUID="pDnqfCa3vkyrNR1p3JpOnw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="636.1402"  ypos="308.0619" zpos="-336.3545" GUID="9ojroVW1REKfJgOqVJBgXQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-165.6192" ypos="81.77459" zpos="277.4085"  GUID="QxludBkIaEicIZ8EF8cXdA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-784.2143" ypos="211.525"  zpos="61.1601"   GUID="4A2JNPTE8UKcL8XFfR/pRA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-871.2704" ypos="264.792"  zpos="-216.2674" GUID="1bMgkJaH0Uy7zqtbiKRRQw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="796.2798"  ypos="325.4508" zpos="-249.9922" GUID="2rGmHmrFtEquNkv3YSAciA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="86.01818"  ypos="218.6346" zpos="305.5352"  GUID="F4LdVC6sdE6IvY5srOL09g==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-847.9877" ypos="272.7423" zpos="-354.8347" GUID="XHqn+kJdmUy5VYt9WBg8YA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-380.5393" ypos="214.6064" zpos="-362.3733" GUID="Fsn7kAEdg061YW5JTL+M6Q==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="636.0576"  ypos="308.072"  zpos="-336.416"  GUID="cX7EGh/ph0Cos3K7IxE9Qg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-316.1261" ypos="4.628731" zpos="521.8193"  GUID="B8qJBBQ2rUCRBA/vy37puQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="234.7742"  ypos="217.1618" zpos="110.1171"  GUID="S2qjMgXFMEqq9FfkQmTtxg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-896.4562" ypos="5.789643" zpos="454.1993"  GUID="1mmNkJDHe0mSxgzbbG3rAA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="-608.8902" ypos="281.4231" zpos="-502.5606" GUID="+auM/FsyLUumxevrV5P+LA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="692.4732"  ypos="296.9606" zpos="-246.0912" GUID="DKtJ1yd2pUOLcJfj7gjyFg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="343.2322"  ypos="342.8964" zpos="-623.5987" GUID="yBz6GVR0akSOjRZzjtCWig==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="762.4667"  ypos="348.7278" zpos="-519.0059" GUID="bmeIDvnmBEeig2/w7P6elA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    
+    <!-- Lowland Pine Only(?) -->
+    <POI MapID="1550" xpos="755.4153"  ypos="314.4524" zpos="-353.6639" GUID="vkRrD3tfg02jutW5xPtMpw==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="361.0547"  ypos="327.3943" zpos="-278.7511" GUID="Rhk2QwmQMU67ctJ/AlciZg==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="-418.7746" ypos="8.414436" zpos="433.0352"  GUID="8ErQXCncv0e08bstQAQMIQ==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="776.9667"  ypos="102.7362" zpos="253.1466"  GUID="Gv0CkWKBsUK6nL9Wd7LGTQ==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="-371.5349" ypos="156.8346" zpos="135.4474"  GUID="UO59qeGdVUqqCf/89ulQEA==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="-226.8853" ypos="5.081125" zpos="421.6191"  GUID="tqf2U+gmVUihxrSAiboyxg==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="-10.08955" ypos="314.5223" zpos="-579.2766" GUID="1lR+k+uwXU2CLVsBm/Tkww==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="-834.9658" ypos="9.097367" zpos="189.0965"  GUID="2yD7bJEZyU2KCCnLYd9TKg==" type="HMP.openWorld.lumber.lowlandPine"/>
+    <POI MapID="1550" xpos="-575.0284" ypos="19.42135" zpos="349.8116"  GUID="e8Y3qmBVBkGT2Kx3UO+o4w==" type="HMP.openWorld.lumber.lowlandPine"/>
+    
+  </POIs>
+</OverlayData>

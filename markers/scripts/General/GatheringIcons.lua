@@ -11,20 +11,32 @@ local gIcons = HMP.GatheringIcons
 local function AddTexture(marker)
   local parentCat = marker.Category.Parent
   if(parentCat == World:CategoryByType("HMP.openWorld.harvesting")) then
-    marker:SetTexture("MyStuff/Better Gathering Markers/Herbs.png")
+    if( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.harvesting.honeyFlower").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Harvesting/Honey Flower.png")
+    else 
+      marker:SetTexture("Assets/OpenWorld/Harvesting/Herbs.png")
+    end
     marker.Tint = I:Color(167, 255, 166, 255)
   elseif(parentCat == World:CategoryByType("HMP.openWorld.mining")) then
-    marker:SetTexture("MyStuff/Better Gathering Markers/Ores.png")
+    if( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.chargedTitan").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Mining/Charged Titan.png")
+    elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.rottedAmber").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Mining/Rotted Amber.png")
+    else
+      marker:SetTexture("Assets/OpenWorld/Mining/Ores.png")
+    end
     marker.Tint = I:Color(207, 207, 207, 255)
   elseif(parentCat == World:CategoryByType("HMP.openWorld.lumber")) then
-    if( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.lumber.lowlineSapling")) then
-      marker:SetTexture("MyStuff/Better Gathering Markers/LowlineSapling.png")
+    Debug:Print("I'm wood! but also: " .. parentCat)
+    if( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.lumber.lowlandPine").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Circle.png")
+      marker.Tint = I:Color(255, 218, 133, 255)
     else
-      marker:SetTexture("MyStuff/Better Gathering Markers/Wood.png")
+      marker:SetTexture("Assets/OpenWorld/Logging/Wood.png")
+      marker.Tint = I:Color(255, 218, 133, 255)
     end
-    marker.Tint = I:Color(255, 218, 133, 255)
   elseif(parentCat == World:CategoryByType("HMP.openWorld.miscFarm")) then
-    marker:SetTexture("MyStuff/Better Gathering Markers/Chest.png")
+    marker:SetTexture("Assets/OpenWorld/Chest.png")
     marker.Tint = I:Color(153, 153, 153, 255)
   end
 end
