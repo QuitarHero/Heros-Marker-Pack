@@ -1,17 +1,47 @@
 <OverlayData>
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="openWorld" DisplayName="Open World">
+      <MarkerCategory name="routes" DisplayName="Gathering Routes">
+        <MarkerCategory name="1550" DisplayName="Lowland Shore" texture="Assets/OpenWorld/trail.png" alpha="1" animSpeed="0" fadeFar="3750" fadeNear="3550"/>
+      </MarkerCategory>
       <MarkerCategory name="hearts"         DisplayName="Repeatable Hearts">
         <MarkerCategory name="jSyntri_h2_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
         <MarkerCategory name="jSyntri_h2_2" DisplayName="Echoing Hills - Fires"         alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Fire1.png"         iconSize="0.75" behavior="1" triggerRange="6" autoTrigger="1"/>
       </MarkerCategory>
-      <MarkerCategory name="miscFarm"     DisplayName="Open World Farms"   autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="miscFarm"     DisplayName="Open World Farms"   autoTrigger="0" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
         <MarkerCategory name="kodanCache" DisplayName="Major Kodan Caches" iconFile="Assets/OpenWorld/102438.png"/>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
   
   <POIs>
+    <!-- ========== Lowland Shore Gathering & Heart Route ========== -->
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"         type="HMP.openWorld.routes.1550" color="3fd43f"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"         type="HMP.openWorld.routes.1550" texture="Assets/OpenWorld/star.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/1_LowlandPine.trl"       type="HMP.openWorld.routes.1550" color="ffb54d"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/1p5_MajorKodanCache.trl" type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2-1_HoneyFlower.trl"     type="HMP.openWorld.routes.1550" color="a2fc7e"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2-2_MajorKodanCache.trl" type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3_MajorKodanCache.trl"   type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4_LowlandPine.trl"       type="HMP.openWorld.routes.1550" color="ab711a"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5_HoneyFlower.trl"       type="HMP.openWorld.routes.1550" color="ff9100"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6_MajorKodanCache.trl"   type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7_HoneyFlower.trl"       type="HMP.openWorld.routes.1550" color="ff9100"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/8_MajorKodanCache.trl"   type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9_MajorKodanCaches.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/10_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/11_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/12_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/13_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/14_LowlandPine.trl"      type="HMP.openWorld.routes.1550" color="ab711a"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/15_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/16_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/17_LowlandPine.trl"      type="HMP.openWorld.routes.1550" color="ab711a"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/18_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/19_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/20_LowlandPine.trl"      type="HMP.openWorld.routes.1550" color="ab711a"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/21_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    
     <!-- =========================================================================== JANTHIR WILDS REPEATABLE HEARTS =========================================================================== -->
     <!-- Supply Crates (Daily) -->
     <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308"  GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
@@ -85,28 +115,51 @@
     
     <!-- =========================================================================== OPEN WORLD CHESTS =========================================================================== -->
     <!-- ==================== Major Kodan Caches (Daily, semi-rng) ==================== -->
-    <!-- Lowland Shore -->
-    <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="ITI4SjmG/E+W0L98KLL0gw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="ALyJlSHAtkiFXFLlMf0RLg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="VXn3i/O020G76EmK3yhDMQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-419.746"  ypos="209.9406" zpos="145.935"   GUID="Pm6l4GhCRE2R8Bkck8i+MQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-303.5594" ypos="49.42041" zpos="469.1941"  GUID="KrOgdSfcwUGTnKGL17MW0A==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-245.8459" ypos="187.899"  zpos="-250.9945" GUID="yKP3SPJ+MkG/nAMEpKkjIw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-236.4181" ypos="170.6493" zpos="-130.8753" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- Lowland Shore (34/41)-->
+    <!-- 1 (3/4) -->
+    <POI MapID="1550" xpos="-788.1699" ypos="68.72815" zpos="174.2892"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 2 (3/4) -->
+    <POI MapID="1550" xpos="-939.5621" ypos="314.8563" zpos="-209.7522" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-511.3564" ypos="241.5573" zpos="-486.5367" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 3 (2/3) -->
     <POI MapID="1550" xpos="-203.6044" ypos="337.4738" zpos="-570.6389" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="72.89407"  ypos="155.5676" zpos="186.6121"  GUID="X1G8+SNNekSsrzFZOI7HsA==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-135.1696" ypos="312.4364" zpos="-383.5349" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 4 (4/5) -->
+    <POI MapID="1550" xpos="-236.4181" ypos="170.6493" zpos="-130.8753" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-245.8459" ypos="187.899"  zpos="-250.9945" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-214.2683" ypos="152.3885" zpos="-266.7302" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-263.1411" ypos="53.46719" zpos="-52.89994" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 5 (done) -->
+    <POI MapID="1550" xpos="888.2636"  ypos="417.6709" zpos="-587.4136" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="1035.776"  ypos="391.9351" zpos="-268.3466" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="983.0692"  ypos="411.9798" zpos="-91.85034" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="680.8582"  ypos="303.1454" zpos="-256.482"  GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 6 (done) -->
+    <POI MapID="1550" xpos="665.9812"  ypos="334.5788" zpos="26.03078"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="758.9067"  ypos="299.5058" zpos="192.0667"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="993.4228"  ypos="360.944"  zpos="296.6677"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="875.1518"  ypos="274.7716" zpos="278.5246"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 7 (done) -->
     <POI MapID="1550" xpos="93.66795"  ypos="151.7457" zpos="331.5753"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="158.2639"  ypos="310.9416" zpos="-31.70581" GUID="CgEh1LCerkaxlHvbxKbbhQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="208.3004"  ypos="213.1099" zpos="268.7059"  GUID="fat+P6a7L06drvQOcPJwrQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="497.0096"  ypos="147.5897" zpos="361.7574"  GUID="GUrbkx2y8kG+8P3VnCJswA==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="273.3584"  ypos="97.04655" zpos="404.8897"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="549.1331"  ypos="79.75613" zpos="438.8122"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="573.8039"  ypos="6.53209"  zpos="490.1895"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 8 (3/5) -->
     <POI MapID="1550" xpos="546.316"   ypos="133.1194" zpos="236.3844"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="758.9067"  ypos="299.5058" zpos="192.0667"  GUID="pZtaxXm5Wkuz14ZTddwXBA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="993.4228"  ypos="360.944"  zpos="296.6677"  GUID="ATAGzca3A0GcPFd6TAPxFA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="983.0692"  ypos="411.9798" zpos="-91.85034" GUID="VGeRocGIS0OQeYGIqR7RSQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="549.1331"  ypos="79.75613" zpos="438.8122"  GUID="A8psvCQV+06Xy9MBhRvCOA==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="497.0096"  ypos="147.5897" zpos="361.7574"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="158.2639"  ypos="310.9416" zpos="-31.70581" GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 9 (4/4) -->
+    <POI MapID="1550" xpos="-306.9768" ypos="139.7005" zpos="218.4725"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-419.746"  ypos="209.9406" zpos="145.935"   GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-131.6211" ypos="254.0815" zpos="-81.59866" GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="72.89407"  ypos="155.5676" zpos="186.6121"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 10 (3/4) -->
     <POI MapID="1550" xpos="-288.3091" ypos="188.1693" zpos="388.5519"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-135.1696" ypos="312.4364" zpos="-383.5349" GUID="NtCTUjP9S0yqvcq0lFuuhQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="680.8582"  ypos="303.1454" zpos="-256.482"  GUID="WwcIAevrIUCbyqQZwdomEw==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-260.0394" ypos="62.40174" zpos="350.2034"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-303.5594" ypos="49.42041" zpos="469.1941"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <!-- Janthir Syntri -->
     <POI MapID="1554" xpos="-754.2784" ypos="87.96053" zpos="-553.8865" GUID="SWKh/5QOGEeuk8iAq8uDTg==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1554" xpos="-395.5733" ypos="144.0066" zpos="304.4761"  GUID="UcooizHGpUSjQc0BwNLIRg==" type="HMP.openWorld.miscFarm.kodanCache"/>

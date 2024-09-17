@@ -27,17 +27,17 @@ local function AddTexture(marker)
     end
     marker.Tint = I:Color(207, 207, 207, 255)
   elseif(parentCat == World:CategoryByType("HMP.openWorld.lumber")) then
-    Debug:Print("I'm wood! but also: " .. parentCat)
     if( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.lumber.lowlandPine").Namespace) then
       marker:SetTexture("Assets/OpenWorld/Circle.png")
-      marker.Tint = I:Color(255, 218, 133, 255)
+      --marker:SetTexture("MyStuff/Better Gathering Markers/PineTest34.png")
+      marker.Tint = I:Color(255, 255, 255, 255)
     else
       marker:SetTexture("Assets/OpenWorld/Logging/Wood.png")
       marker.Tint = I:Color(255, 218, 133, 255)
     end
   elseif(parentCat == World:CategoryByType("HMP.openWorld.miscFarm")) then
     marker:SetTexture("Assets/OpenWorld/Chest.png")
-    marker.Tint = I:Color(153, 153, 153, 255)
+    marker.Tint = I:Color(255, 255, 255, 255)
   end
 end
 
@@ -54,6 +54,7 @@ local function MakeMinimapMarkers()
       MinimapVisibility = true,
       MapVisibility = true,
       MapDisplaySize = 32,
+      alpha = 2,
     }
     local marker = Pack:CreateMarker(attr)
     AddTexture(marker)
