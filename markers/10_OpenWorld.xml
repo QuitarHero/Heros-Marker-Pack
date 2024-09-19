@@ -2,7 +2,10 @@
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="openWorld" DisplayName="Open World">
       <MarkerCategory name="routes" DisplayName="Gathering Routes">
-        <MarkerCategory name="1550" DisplayName="Lowland Shore" texture="Assets/OpenWorld/trail.png" alpha="1" animSpeed="0" fadeFar="3750" fadeNear="3550"/>
+        <MarkerCategory name="1550"      DisplayName="Lowland Shore" fadeFar="3750" fadeNear="3550">
+          <MarkerCategory name="markers" DisplayName="Markers"       minimapVisibility="0" mapVisibility="0"/>
+          <MarkerCategory name="trails"  DisplayName="Trails"        texture="Assets/OpenWorld/trail.png" alpha="1" animSpeed="0" trailScale="0.75"/>
+        </MarkerCategory>
       </MarkerCategory>
       <MarkerCategory name="hearts"         DisplayName="Repeatable Hearts">
         <MarkerCategory name="jSyntri_h2_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
@@ -16,31 +19,85 @@
   
   <POIs>
     <!-- ========== Lowland Shore Gathering & Heart Route ========== -->
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"         type="HMP.openWorld.routes.1550" color="3fd43f"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"         type="HMP.openWorld.routes.1550" texture="Assets/OpenWorld/star.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/1_LowlandPine.trl"       type="HMP.openWorld.routes.1550" color="ffb54d"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/1p5_MajorKodanCache.trl" type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2-1_HoneyFlower.trl"     type="HMP.openWorld.routes.1550" color="a2fc7e"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2-2_MajorKodanCache.trl" type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/3_MajorKodanCache.trl"   type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4_LowlandPine.trl"       type="HMP.openWorld.routes.1550" color="ab711a"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5_HoneyFlower.trl"       type="HMP.openWorld.routes.1550" color="ff9100"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/6_MajorKodanCache.trl"   type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7_HoneyFlower.trl"       type="HMP.openWorld.routes.1550" color="ff9100"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/8_MajorKodanCache.trl"   type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9_MajorKodanCaches.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/10_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/11_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/12_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/13_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/14_LowlandPine.trl"      type="HMP.openWorld.routes.1550" color="ab711a"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/15_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/16_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/17_LowlandPine.trl"      type="HMP.openWorld.routes.1550" color="ab711a"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/18_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/19_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/20_LowlandPine.trl"      type="HMP.openWorld.routes.1550" color="ab711a"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/21_MajorKodanCache.trl"  type="HMP.openWorld.routes.1550" color="c9c9c9"/>
+    <!-- Markers -->
+    <POI MapID="1550" xpos="-173.7054" ypos="104.8463" zpos="429.763"   GUID="oEPDl9A0mUim9bxVhvaECw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-252.042"  ypos="59.54998" zpos="363.6621"  GUID="hXJg/MQE6EKHdEOl/qu1jg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-674.8351" ypos="-1.05664" zpos="25.29995"  GUID="5xB86Q77dkWLMPwTDQDN1Q==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-727.9618" ypos="51.41932" zpos="131.3295"  GUID="SHKVej3ciUKrbR+bLVWJVQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-821.1011" ypos="196.8791" zpos="78.92155"  GUID="csomIPkhw0+oLAXTFQuw0g==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-854.9667" ypos="270.8542" zpos="-248.7164" GUID="N8Uo6ATZg0elm3mKJAhDxg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-930.8725" ypos="305.1329" zpos="-172.7726" GUID="PMXM1egT7k+F/vfg09LjHQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-531.7877" ypos="219.624"  zpos="-426.7549" GUID="VPvepk6gTkWIisbdG1/3xw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-175.4736" ypos="320.5435" zpos="-653.4155" GUID="fSHdSB6UgkW5pfhrSbsBCw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-183.5844" ypos="329.3335" zpos="-598.5789" GUID="uNo4reMgLEWZL8WO3mQWbg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-114.8968" ypos="307.3383" zpos="-427.8708" GUID="qju3AWN6IEC6h0oT3BnvBg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>    
+    <POI MapID="1550" xpos="53.50064"  ypos="317.6493" zpos="-289.2057" GUID="8F/We+f0Bk2wMxtqvYrR/w==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.75"/>
+    <POI MapID="1550" xpos="145.315"   ypos="307.971"  zpos="-263.4212" GUID="QCRG7l4Wr0OTK+Ek9ZY/jw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="233.9034"  ypos="335.4587" zpos="-618.9069" GUID="Z48+f8YMCkKUJgY/lyllBw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="259.0598"  ypos="355.2732" zpos="-607.6824" GUID="fMg3Ov2dn0qWKoHMETp8AA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="327.3322"  ypos="335.2744" zpos="-483.738"  GUID="8//sVJoLNEKrnm/keaYZjQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.75"/>
+    <POI MapID="1550" xpos="974.0302"  ypos="373.0391" zpos="-162.0208" GUID="SyUGqeW3eUeC/riiYJX9OQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="981.8862"  ypos="396.5466" zpos="-106.1713" GUID="GGG/lB2LGE+zTeSGEU/vkQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="979.705"   ypos="399.9419" zpos="-102.8356" GUID="ltgqg+pWrkygE/v68L2giA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="718.0446"  ypos="301.3614" zpos="-314.6111" GUID="w4HsuB0YKka1fHYKzNr4mg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="328.3654"  ypos="333.7544" zpos="-192.8944" GUID="NwmIB6jVLkK16afJnybKDQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="275.3078"  ypos="307.7824" zpos="-178.4607" GUID="wlmDOvMXzEa+uaWefWQINw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="296.0081"  ypos="301.7047" zpos="35.64528"  GUID="34WyMYEjmEGnwLAakVB7sA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="162.2515"  ypos="309.0089" zpos="-43.4235"  GUID="wo3h+YQjxkivmnrXM1bGcQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="290.7408"  ypos="240.7724" zpos="-85.28412" GUID="vmZz4cfXs0a+Tns/3FnatQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="327.4746"  ypos="229.6484" zpos="-145.6951" GUID="JVxGbdGC3kaqihYVUXH3yA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="367.334"   ypos="232.7376" zpos="-106.824"  GUID="/pAiN6ouh06vmdwTClu34A==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="674.8533"  ypos="329.0411" zpos="28.47759"  GUID="zg4+aC5kMEOUC7+YuG7Drg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="1007.75"   ypos="351.6519" zpos="265.9713"  GUID="SaFhg8ES10C5LgRWs7LqzA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="549.308"   ypos="132.0244" zpos="242.9249"  GUID="jZJoHP0NrUCJd3h2XhlHow==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.75"/>
+    <POI MapID="1550" xpos="495.5201"  ypos="146.5299" zpos="371.0464"  GUID="2W2SPKxsaUyWQZz1v9br7A==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="568.3525"  ypos="4.722465" zpos="462.9936"  GUID="miNpASRkyEqooLhAf+IKxg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="353.0325"  ypos="141.0814" zpos="325.7162"  GUID="XWfuBec1Z0OWyhtqSuO+0g==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="273.2016"  ypos="107.5873" zpos="353.8518"  GUID="0Mi9mn5VcUCPa6VZzQzneQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="278.6809"  ypos="95.26222" zpos="397.0569"  GUID="iSkWXDKs9ECwLVLM/udQKw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="131.1908"  ypos="176.7223" zpos="318.5695"  GUID="TFymtIepPUamr7kPjmC30w==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="99.88371"  ypos="148.5681" zpos="338.9128"  GUID="/3uCb06FT0yz0uGy/Dz0FA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="130.0539"  ypos="197.1819" zpos="187.161"   GUID="pMkYET2ZvUGKfEX77HK/IA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="67.08691"  ypos="150.9809" zpos="188.3384"  GUID="a9UvoYRwfE6z931fNr+Z4w==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="39.08701"  ypos="236.1799" zpos="-116.1823" GUID="GqBDDX/6NE+yrLeUkExoYQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="1" alpha="0.75"/>
+    <POI MapID="1550" xpos="-199.0991" ypos="227.8019" zpos="-95.34748" GUID="A55cDHhKUU6CodLT0kfZfA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-265.7378" ypos="51.786"   zpos="-59.85251" GUID="Wr4kx0cibkG0Kkqi2PDptA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="0.6"/>
+    <POI MapID="1550" xpos="-346.125"  ypos="98.79375" zpos="-30.56369" GUID="3T240afdekOkpRki5flzrQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-281.9507" ypos="183.8048" zpos="372.3611"  GUID="tD8IjPfzTk+++ry4Xf1HeA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <!-- Trails -->
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.routes.1550.trails" color="3fd43f"                                     trailScale="1"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.routes.1550.trails"                texture="Assets/OpenWorld/star.png" trailScale="1"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_1.trl"   type="HMP.openWorld.routes.1550.trails" color="ffb54d" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/10.23_MKC.trl"       type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_1.trl"   type="HMP.openWorld.routes.1550.trails" color="a2fc7e" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_2.trl"   type="HMP.openWorld.routes.1550.trails" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_3.trl"   type="HMP.openWorld.routes.1550.trails" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.23_MKC.trl"        type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_2.trl"   type="HMP.openWorld.routes.1550.trails" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_3.trl"   type="HMP.openWorld.routes.1550.trails" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.1-9.5-1.4_MKC.trl" type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_4.trl"   type="HMP.openWorld.routes.1550.trails" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     
     <!-- =========================================================================== JANTHIR WILDS REPEATABLE HEARTS =========================================================================== -->
     <!-- Supply Crates (Daily) -->
@@ -115,23 +172,26 @@
     
     <!-- =========================================================================== OPEN WORLD CHESTS =========================================================================== -->
     <!-- ==================== Major Kodan Caches (Daily, semi-rng) ==================== -->
-    <!-- Lowland Shore (34/41)-->
-    <!-- 1 (3/4) -->
+    <!-- Lowland Shore (39/41)-->
+    <!-- 1 (done) -->
     <POI MapID="1550" xpos="-788.1699" ypos="68.72815" zpos="174.2892"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 2 (3/4) -->
+    <POI MapID="1550" xpos="-341.8665" ypos="101.7095" zpos="-34.01361" GUID="8toxVQq9tUixYEs+S1g8/Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 2 (done) -->
     <POI MapID="1550" xpos="-939.5621" ypos="314.8563" zpos="-209.7522" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-511.3564" ypos="241.5573" zpos="-486.5367" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 3 (2/3) -->
+    <POI MapID="1550" xpos="-497.8565" ypos="220.6548" zpos="-170.9581" GUID="Pao6dkL3AU6AfQTOyX+8Fg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 3 (done) -->
     <POI MapID="1550" xpos="-203.6044" ypos="337.4738" zpos="-570.6389" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-135.1696" ypos="312.4364" zpos="-383.5349" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 4 (4/5) -->
+    <POI MapID="1550" xpos="165.0212"  ypos="387.083"  zpos="-577.9604" GUID="T/Bc0uvoVEuew3FbaS/7MQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 4 (done) -->
     <POI MapID="1550" xpos="-236.4181" ypos="170.6493" zpos="-130.8753" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-245.8459" ypos="187.899"  zpos="-250.9945" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-214.2683" ypos="152.3885" zpos="-266.7302" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-263.1411" ypos="53.46719" zpos="-52.89994" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="148.872"   ypos="310.786"  zpos="-249.718"  GUID="r/Jn7mrbT0yuRNhpv16Wxw==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <!-- 5 (done) -->
     <POI MapID="1550" xpos="888.2636"  ypos="417.6709" zpos="-587.4136" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="1035.776"  ypos="391.9351" zpos="-268.3466" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
@@ -147,15 +207,17 @@
     <POI MapID="1550" xpos="273.3584"  ypos="97.04655" zpos="404.8897"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="549.1331"  ypos="79.75613" zpos="438.8122"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="573.8039"  ypos="6.53209"  zpos="490.1895"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 8 (3/5) -->
+    <!-- 8 (4/5) -->
     <POI MapID="1550" xpos="546.316"   ypos="133.1194" zpos="236.3844"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="497.0096"  ypos="147.5897" zpos="361.7574"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="158.2639"  ypos="310.9416" zpos="-31.70581" GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 9 (4/4) -->
+    <POI MapID="1550" xpos="273.9571"  ypos="310.1137" zpos="-188.1129" GUID="xWMCY9EPqUeP7cdEd8AaWQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- 9 (done) -->
     <POI MapID="1550" xpos="-306.9768" ypos="139.7005" zpos="218.4725"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-419.746"  ypos="209.9406" zpos="145.935"   GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-131.6211" ypos="254.0815" zpos="-81.59866" GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="72.89407"  ypos="155.5676" zpos="186.6121"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-263.1411" ypos="53.46719" zpos="-52.89994" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <!-- 10 (3/4) -->
     <POI MapID="1550" xpos="-288.3091" ypos="188.1693" zpos="388.5519"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
     <POI MapID="1550" xpos="-260.0394" ypos="62.40174" zpos="350.2034"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
