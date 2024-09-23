@@ -1,249 +1,273 @@
 <OverlayData>
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="openWorld" DisplayName="Open World">
-      <MarkerCategory name="routes" DisplayName="Gathering Routes">
-        <MarkerCategory name="1550"      DisplayName="Lowland Shore" fadeFar="3750" fadeNear="3550">
-          <MarkerCategory name="markers" DisplayName="Markers"       minimapVisibility="0" mapVisibility="0"/>
-          <MarkerCategory name="trails"  DisplayName="Trails"        texture="Assets/OpenWorld/trail.png" alpha="1" animSpeed="0" trailScale="0.75"/>
-        </MarkerCategory>
+      <MarkerCategory name="route"   DisplayName="Gathering Route" fadeFar="3750" fadeNear="3550">
+        <MarkerCategory name="1550_M" DisplayName="Markers"       defaultToggle="0" minimapVisibility="0" mapVisibility="0"/>
+        <MarkerCategory name="1550_T" DisplayName="Trails"        defaultToggle="0" texture="Assets/OpenWorld/trail.png" alpha="1" animSpeed="0" trailScale="0.75"/>
       </MarkerCategory>
-      <MarkerCategory name="hearts"         DisplayName="Repeatable Hearts">
-        <MarkerCategory name="jSyntri_h2_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
-        <MarkerCategory name="jSyntri_h2_2" DisplayName="Echoing Hills - Fires"         alpha="1" fadeFar="4000" fadeNear="3750" iconFile="Assets/OpenWorld/Hearts/Fire1.png"         iconSize="0.75" behavior="1" triggerRange="6" autoTrigger="1"/>
+      <MarkerCategory name="hearts"      DisplayName="Repeatable Hearts" fadeFar="4000" fadeNear="3750">
+        <MarkerCategory name="1550_CU_1" DisplayName="Coarsing Uplands"/>
+        <MarkerCategory name="1550_HD_1" DisplayName="Harvest Den"/>
+        <MarkerCategory name="1555_EH_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
+        <MarkerCategory name="1555_EH_2" DisplayName="Echoing Hills - Fires"         alpha="1" iconFile="Assets/OpenWorld/Hearts/Fire1.png"         iconSize="0.75" behavior="1" triggerRange="6" autoTrigger="1"/>
       </MarkerCategory>
-      <MarkerCategory name="miscFarm"     DisplayName="Open World Farms"   autoTrigger="0" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="chestFarm"    DisplayName="Open World Chests"  autoTrigger="0" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
         <MarkerCategory name="kodanCache" DisplayName="Major Kodan Caches" iconFile="Assets/OpenWorld/102438.png"/>
+      </MarkerCategory>
+      <MarkerCategory name="others" DisplayName="Misc. Features">
+        <MarkerCategory name="1550_1" DisplayName="Champ. Valraven Heart Credit Boundary"/>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
   
   <POIs>
     <!-- ========== Lowland Shore Gathering & Heart Route ========== -->
+    <!-- Start of Gathering & Heart Trail -->
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="Ag+F9EZWuUm3wbT1K+qJnQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/Lowland Shore/Board - Start.png" cull="CounterClockwise" iconSize="2.5" rotate="110,0,39" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="ZTyFHdwDOkmKbjHl4h7AQw==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                         triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_M"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="kZfk50KAr0GKi86NmoaMyg==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                         triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_T"/>
     <!-- Markers -->
-    <POI MapID="1550" xpos="-173.7054" ypos="104.8463" zpos="429.763"   GUID="oEPDl9A0mUim9bxVhvaECw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-252.042"  ypos="59.54998" zpos="363.6621"  GUID="hXJg/MQE6EKHdEOl/qu1jg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-674.8351" ypos="-1.05664" zpos="25.29995"  GUID="5xB86Q77dkWLMPwTDQDN1Q==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-727.9618" ypos="51.41932" zpos="131.3295"  GUID="SHKVej3ciUKrbR+bLVWJVQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-821.1011" ypos="196.8791" zpos="78.92155"  GUID="csomIPkhw0+oLAXTFQuw0g==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-854.9667" ypos="270.8542" zpos="-248.7164" GUID="N8Uo6ATZg0elm3mKJAhDxg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-930.8725" ypos="305.1329" zpos="-172.7726" GUID="PMXM1egT7k+F/vfg09LjHQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-531.7877" ypos="219.624"  zpos="-426.7549" GUID="VPvepk6gTkWIisbdG1/3xw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-175.4736" ypos="320.5435" zpos="-653.4155" GUID="fSHdSB6UgkW5pfhrSbsBCw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-183.5844" ypos="329.3335" zpos="-598.5789" GUID="uNo4reMgLEWZL8WO3mQWbg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-114.8968" ypos="307.3383" zpos="-427.8708" GUID="qju3AWN6IEC6h0oT3BnvBg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>    
-    <POI MapID="1550" xpos="53.50064"  ypos="317.6493" zpos="-289.2057" GUID="8F/We+f0Bk2wMxtqvYrR/w==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.75"/>
-    <POI MapID="1550" xpos="145.315"   ypos="307.971"  zpos="-263.4212" GUID="QCRG7l4Wr0OTK+Ek9ZY/jw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="233.9034"  ypos="335.4587" zpos="-618.9069" GUID="Z48+f8YMCkKUJgY/lyllBw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="259.0598"  ypos="355.2732" zpos="-607.6824" GUID="fMg3Ov2dn0qWKoHMETp8AA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="327.3322"  ypos="335.2744" zpos="-483.738"  GUID="8//sVJoLNEKrnm/keaYZjQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.75"/>
-    <POI MapID="1550" xpos="974.0302"  ypos="373.0391" zpos="-162.0208" GUID="SyUGqeW3eUeC/riiYJX9OQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="981.8862"  ypos="396.5466" zpos="-106.1713" GUID="GGG/lB2LGE+zTeSGEU/vkQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="979.705"   ypos="399.9419" zpos="-102.8356" GUID="ltgqg+pWrkygE/v68L2giA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="718.0446"  ypos="301.3614" zpos="-314.6111" GUID="w4HsuB0YKka1fHYKzNr4mg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="328.3654"  ypos="333.7544" zpos="-192.8944" GUID="NwmIB6jVLkK16afJnybKDQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="275.3078"  ypos="307.7824" zpos="-178.4607" GUID="wlmDOvMXzEa+uaWefWQINw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="296.0081"  ypos="301.7047" zpos="35.64528"  GUID="34WyMYEjmEGnwLAakVB7sA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="162.2515"  ypos="309.0089" zpos="-43.4235"  GUID="wo3h+YQjxkivmnrXM1bGcQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="290.7408"  ypos="240.7724" zpos="-85.28412" GUID="vmZz4cfXs0a+Tns/3FnatQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="327.4746"  ypos="229.6484" zpos="-145.6951" GUID="JVxGbdGC3kaqihYVUXH3yA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="367.334"   ypos="232.7376" zpos="-106.824"  GUID="/pAiN6ouh06vmdwTClu34A==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="674.8533"  ypos="329.0411" zpos="28.47759"  GUID="zg4+aC5kMEOUC7+YuG7Drg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="1007.75"   ypos="351.6519" zpos="265.9713"  GUID="SaFhg8ES10C5LgRWs7LqzA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="549.308"   ypos="132.0244" zpos="242.9249"  GUID="jZJoHP0NrUCJd3h2XhlHow==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.75"/>
-    <POI MapID="1550" xpos="495.5201"  ypos="146.5299" zpos="371.0464"  GUID="2W2SPKxsaUyWQZz1v9br7A==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="568.3525"  ypos="4.722465" zpos="462.9936"  GUID="miNpASRkyEqooLhAf+IKxg==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="353.0325"  ypos="141.0814" zpos="325.7162"  GUID="XWfuBec1Z0OWyhtqSuO+0g==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="273.2016"  ypos="107.5873" zpos="353.8518"  GUID="0Mi9mn5VcUCPa6VZzQzneQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="278.6809"  ypos="95.26222" zpos="397.0569"  GUID="iSkWXDKs9ECwLVLM/udQKw==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="131.1908"  ypos="176.7223" zpos="318.5695"  GUID="TFymtIepPUamr7kPjmC30w==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="99.88371"  ypos="148.5681" zpos="338.9128"  GUID="/3uCb06FT0yz0uGy/Dz0FA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="130.0539"  ypos="197.1819" zpos="187.161"   GUID="pMkYET2ZvUGKfEX77HK/IA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="67.08691"  ypos="150.9809" zpos="188.3384"  GUID="a9UvoYRwfE6z931fNr+Z4w==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="39.08701"  ypos="236.1799" zpos="-116.1823" GUID="GqBDDX/6NE+yrLeUkExoYQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="1" alpha="0.75"/>
-    <POI MapID="1550" xpos="-199.0991" ypos="227.8019" zpos="-95.34748" GUID="A55cDHhKUU6CodLT0kfZfA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-265.7378" ypos="51.786"   zpos="-59.85251" GUID="Wr4kx0cibkG0Kkqi2PDptA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="0.6"/>
-    <POI MapID="1550" xpos="-346.125"  ypos="98.79375" zpos="-30.56369" GUID="3T240afdekOkpRki5flzrQ==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1550" xpos="-281.9507" ypos="183.8048" zpos="372.3611"  GUID="tD8IjPfzTk+++ry4Xf1HeA==" type="HMP.openWorld.routes.1550.markers" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-173.7054" ypos="104.8463" zpos="429.763"   GUID="oEPDl9A0mUim9bxVhvaECw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-252.042"  ypos="59.54998" zpos="363.6621"  GUID="hXJg/MQE6EKHdEOl/qu1jg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-674.8351" ypos="-1.05664" zpos="25.29995"  GUID="5xB86Q77dkWLMPwTDQDN1Q==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-727.9618" ypos="51.41932" zpos="131.3295"  GUID="SHKVej3ciUKrbR+bLVWJVQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-821.1011" ypos="196.8791" zpos="78.92155"  GUID="csomIPkhw0+oLAXTFQuw0g==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-854.9667" ypos="270.8542" zpos="-248.7164" GUID="N8Uo6ATZg0elm3mKJAhDxg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-930.8725" ypos="305.1329" zpos="-172.7726" GUID="PMXM1egT7k+F/vfg09LjHQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-531.7877" ypos="219.624"  zpos="-426.7549" GUID="VPvepk6gTkWIisbdG1/3xw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-175.4736" ypos="320.5435" zpos="-653.4155" GUID="fSHdSB6UgkW5pfhrSbsBCw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-183.5844" ypos="329.3335" zpos="-598.5789" GUID="uNo4reMgLEWZL8WO3mQWbg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-114.8968" ypos="307.3383" zpos="-427.8708" GUID="qju3AWN6IEC6h0oT3BnvBg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>    
+    <POI MapID="1550" xpos="53.50064"  ypos="317.6493" zpos="-289.2057" GUID="8F/We+f0Bk2wMxtqvYrR/w==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.75"/>
+    <POI MapID="1550" xpos="145.315"   ypos="307.971"  zpos="-263.4212" GUID="QCRG7l4Wr0OTK+Ek9ZY/jw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="233.9034"  ypos="335.4587" zpos="-618.9069" GUID="Z48+f8YMCkKUJgY/lyllBw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="259.0598"  ypos="355.2732" zpos="-607.6824" GUID="fMg3Ov2dn0qWKoHMETp8AA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="327.3322"  ypos="335.2744" zpos="-483.738"  GUID="8//sVJoLNEKrnm/keaYZjQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.75"/>
+    <POI MapID="1550" xpos="974.0302"  ypos="373.0391" zpos="-162.0208" GUID="SyUGqeW3eUeC/riiYJX9OQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="981.8862"  ypos="396.5466" zpos="-106.1713" GUID="GGG/lB2LGE+zTeSGEU/vkQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="979.705"   ypos="399.9419" zpos="-102.8356" GUID="ltgqg+pWrkygE/v68L2giA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="718.0446"  ypos="301.3614" zpos="-314.6111" GUID="w4HsuB0YKka1fHYKzNr4mg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="328.3654"  ypos="333.7544" zpos="-192.8944" GUID="NwmIB6jVLkK16afJnybKDQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="275.3078"  ypos="307.7824" zpos="-178.4607" GUID="wlmDOvMXzEa+uaWefWQINw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="296.0081"  ypos="301.7047" zpos="35.64528"  GUID="34WyMYEjmEGnwLAakVB7sA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="162.2515"  ypos="309.0089" zpos="-43.4235"  GUID="wo3h+YQjxkivmnrXM1bGcQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="290.7408"  ypos="240.7724" zpos="-85.28412" GUID="vmZz4cfXs0a+Tns/3FnatQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="327.4746"  ypos="229.6484" zpos="-145.6951" GUID="JVxGbdGC3kaqihYVUXH3yA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="367.334"   ypos="232.7376" zpos="-106.824"  GUID="/pAiN6ouh06vmdwTClu34A==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="674.8533"  ypos="329.0411" zpos="28.47759"  GUID="zg4+aC5kMEOUC7+YuG7Drg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="1007.75"   ypos="351.6519" zpos="265.9713"  GUID="SaFhg8ES10C5LgRWs7LqzA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="549.308"   ypos="132.0244" zpos="242.9249"  GUID="jZJoHP0NrUCJd3h2XhlHow==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.75"/>
+    <POI MapID="1550" xpos="495.5201"  ypos="146.5299" zpos="371.0464"  GUID="2W2SPKxsaUyWQZz1v9br7A==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="568.3525"  ypos="4.722465" zpos="462.9936"  GUID="miNpASRkyEqooLhAf+IKxg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="353.0325"  ypos="141.0814" zpos="325.7162"  GUID="XWfuBec1Z0OWyhtqSuO+0g==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="273.2016"  ypos="107.5873" zpos="353.8518"  GUID="0Mi9mn5VcUCPa6VZzQzneQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="278.6809"  ypos="95.26222" zpos="397.0569"  GUID="iSkWXDKs9ECwLVLM/udQKw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="131.1908"  ypos="176.7223" zpos="318.5695"  GUID="TFymtIepPUamr7kPjmC30w==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="55.64094"  ypos="9.209183" zpos="389.031"   GUID="O+me/4x2PUuW2YuwsImR+w==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="103.5309"  ypos="128.21"   zpos="348.3466"  GUID="qLb7UhGO7Ee2YZ4G6yzKaQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="130.0539"  ypos="197.1819" zpos="187.161"   GUID="pMkYET2ZvUGKfEX77HK/IA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="67.08691"  ypos="150.9809" zpos="188.3384"  GUID="a9UvoYRwfE6z931fNr+Z4w==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="39.08701"  ypos="236.1799" zpos="-116.1823" GUID="GqBDDX/6NE+yrLeUkExoYQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="1" alpha="0.75"/>
+    <POI MapID="1550" xpos="-199.0991" ypos="227.8019" zpos="-95.34748" GUID="A55cDHhKUU6CodLT0kfZfA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-265.7378" ypos="51.786"   zpos="-59.85251" GUID="Wr4kx0cibkG0Kkqi2PDptA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="0.6"/>
+    <POI MapID="1550" xpos="-346.125"  ypos="98.79375" zpos="-30.56369" GUID="3T240afdekOkpRki5flzrQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1550" xpos="-281.9507" ypos="183.8048" zpos="372.3611"  GUID="tD8IjPfzTk+++ry4Xf1HeA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
     <!-- Trails -->
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.routes.1550.trails" color="3fd43f"                                     trailScale="1"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.routes.1550.trails"                texture="Assets/OpenWorld/star.png" trailScale="1"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_1.trl"   type="HMP.openWorld.routes.1550.trails" color="ffb54d" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/10.23_MKC.trl"       type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_1.trl"   type="HMP.openWorld.routes.1550.trails" color="a2fc7e" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_2.trl"   type="HMP.openWorld.routes.1550.trails" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_3.trl"   type="HMP.openWorld.routes.1550.trails" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.23_MKC.trl"        type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_2.trl"   type="HMP.openWorld.routes.1550.trails" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.4_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_3.trl"   type="HMP.openWorld.routes.1550.trails" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.3_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.1-9.5-1.4_MKC.trl" type="HMP.openWorld.routes.1550.trails" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_4.trl"   type="HMP.openWorld.routes.1550.trails" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.1_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.2_MKC.trl"         type="HMP.openWorld.routes.1550.trails" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T" color="3fd43f"                                     trailScale="1"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T"                texture="Assets/OpenWorld/star.png" trailScale="1"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_1.trl"   type="HMP.openWorld.route.1550_T" color="ffb54d" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/10.23_MKC.trl"       type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_1.trl"   type="HMP.openWorld.route.1550_T" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_2.trl"   type="HMP.openWorld.route.1550_T" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_3.trl"   type="HMP.openWorld.route.1550_T" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.23_MKC.trl"        type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_2.trl"   type="HMP.openWorld.route.1550_T" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.1-10.4_MKC.trl"    type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_3.trl"   type="HMP.openWorld.route.1550_T" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.1-9.5-1.4_MKC.trl" type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_4.trl"   type="HMP.openWorld.route.1550_T" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <!-- Other Trails -->
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/ValravenCredit.trl"  type="HMP.openWorld.others.1550_1" color="ffe626" texture="Assets/Boundary/WhiteLine.png"/>
     
     <!-- =========================================================================== JANTHIR WILDS REPEATABLE HEARTS =========================================================================== -->
+    <!-- ========== Lowland Shore ========== -->
+    <!-- Coarsing Uplands Heart -->
+    <POI MapID="1550" xpos="-782.794" ypos="210.975" zpos="-0.0833" GUID="gckU8KbvrUGMjxRz/Z044Q==" type="HMP.openWorld.hearts.1550_CU_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_CU-Heart.png"  cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.5"  rotate="90,0,325"  minimapVisibility="0" mapVisibility="0"/>
+    <!-- Harvest Den Heart -->
+    <POI MapID="1550" xpos="718.784"  ypos="91.168"  zpos="256.424" GUID="utyjz2MBy0eY4t6lNB6+rA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="1.5"  rotate="90,0,235"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="561.964"  ypos="149.074" zpos="171.001" GUID="DA0c2RnznEC22gL3BRw4GA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="91,0,15"   minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="488.86"   ypos="146.24"  zpos="370.708" GUID="bMAWprSw5k27y+QIUqZG5Q==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart3.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2"    rotate="90,0,205"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="181.733"  ypos="214.509" zpos="288.443" GUID="X2Z2xku+i0ucwG9qqp4Zcw==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart4.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="100,0,350" minimapVisibility="0" mapVisibility="0"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD2.trl"                                 type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD3.trl"                                 type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD4.trl"                                 type="HMP.openWorld.hearts.1550_HD_1" color="ffe626"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HDfin.trl"                               type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <!-- ========== Janthir Syntri ========== -->
     <!-- Supply Crates (Daily) -->
-    <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308"  GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="185.53"   ypos="3.06422"  zpos="3.89612"   GUID="Um9QpndSPkmw0/auKMHCTA==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="321.8287" ypos="35.36352" zpos="96.69124"  GUID="fkEPtKL3xUqL2N22WzlbjQ==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="337.4701" ypos="19.69677" zpos="-35.7840"  GUID="xkNy6SpHDkm0Xx76xIo5FQ==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="377.7111" ypos="4.808895" zpos="462.5662"  GUID="YE8teOPFnkmj/Rs97mTPjg==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="388.8679" ypos="7.798257" zpos="3.908484"  GUID="X6YeSBX9+0ean0MBRhtEhg==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="426.6658" ypos="21.95288" zpos="223.7552"  GUID="ZyZYDAo8Fke6OFtRsCvV5Q==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="525.2288" ypos="17.96843" zpos="40.12445"  GUID="4gyWJgcZVEe2VjSrLcTtjA==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="561.7662" ypos="1.565976" zpos="328.3217"  GUID="oWXdIqNZqUC2IZMKLZfe3Q==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
-    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533"  GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.openWorld.hearts.jSyntri_h2_1"/>
+    <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308"  GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="185.53"   ypos="3.06422"  zpos="3.89612"   GUID="Um9QpndSPkmw0/auKMHCTA==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="321.8287" ypos="35.36352" zpos="96.69124"  GUID="fkEPtKL3xUqL2N22WzlbjQ==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="337.4701" ypos="19.69677" zpos="-35.7840"  GUID="xkNy6SpHDkm0Xx76xIo5FQ==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="377.7111" ypos="4.808895" zpos="462.5662"  GUID="YE8teOPFnkmj/Rs97mTPjg==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="388.8679" ypos="7.798257" zpos="3.908484"  GUID="X6YeSBX9+0ean0MBRhtEhg==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="426.6658" ypos="21.95288" zpos="223.7552"  GUID="ZyZYDAo8Fke6OFtRsCvV5Q==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="525.2288" ypos="17.96843" zpos="40.12445"  GUID="4gyWJgcZVEe2VjSrLcTtjA==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="561.7662" ypos="1.565976" zpos="328.3217"  GUID="oWXdIqNZqUC2IZMKLZfe3Q==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533"  GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.openWorld.hearts.1555_EH_1"/>
     <!-- Fires (Respawn on map reload) -->
-    <POI MapID="1554" xpos="192.0655" ypos="5.026712" zpos="385.607"   GUID="iUWRBelq4EmZ/JvZK5+r3w==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="195.5457" ypos="5.839172" zpos="382.0966"  GUID="Hzsx+I0NgkKc9RenDw98Tw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="235.2303" ypos="20.86074" zpos="393.0341"  GUID="en5+2L/JfEmtIkLp6vvMIg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="241.5515" ypos="8.601617" zpos="132.9535"  GUID="zsnDvb3pLka/pCprdMsBZw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="243.1572" ypos="7.270152" zpos="106.5964"  GUID="8tvNAQqBYEWKf+51vRQdzw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="248.042"  ypos="26.94962" zpos="410.3308"  GUID="jogj/kXC2UaIupAUaOaNtQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="248.5365" ypos="1.540037" zpos="210.076"   GUID="RShHVVN+3USiQsEVmhoEFQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="256.1929" ypos="9.65125"  zpos="41.47018"  GUID="JgbeQUqj6k2BRaCGfAQs/Q==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="259.2079" ypos="13.97246" zpos="275.0411"  GUID="qLma24Ctn06FhwPsFJmHGw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="259.868"  ypos="9.637221" zpos="43.36603"  GUID="3+VsY/RIXUuMQepchAXwSg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="261.2618" ypos="14.49481" zpos="267.2753"  GUID="v1mqIbwUZECMj0vj0w1ZHA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="265.8872" ypos="11.76366" zpos="59.24366"  GUID="+jYYF1TVN0azt3epmq35fg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="266.8777" ypos="11.39473" zpos="56.22625"  GUID="+ASN1PljxE+zWwT8282/zg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="269.2546" ypos="5.929757" zpos="175.6126"  GUID="3D64ArdjHE+z0Jc11H2hCQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="275.5424" ypos="13.62843" zpos="245.9343"  GUID="AsDDDsLPLEqtIZcDvlbS1g==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="275.6115" ypos="4.180611" zpos="206.0286"  GUID="qhgrSatfxUSHwcaZfHgcAQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="279.8496" ypos="44.39857" zpos="387.6074"  GUID="9iSr3TQY6kWB9kbHlUSbCA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="282.1162" ypos="8.931123" zpos="512.7133"  GUID="SDtl/ga6oUS4Q8ESIxFOQw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="284.5782" ypos="13.45696" zpos="536.7693"  GUID="bZ4wZn+F1kCyz+mBlwTgnw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="288.239"  ypos="4.385766" zpos="188.0545"  GUID="hGMcwpBObEeI30PPljSvqA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="304.2815" ypos="4.65345"  zpos="498.6313"  GUID="+rqgQptQYEOB8wl9a1PNYg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="319.0153" ypos="32.21286" zpos="350.1428"  GUID="tj7lscvU1U+ayYUmQXQahg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="327.4999" ypos="13.80734" zpos="-20.13711" GUID="7bdvghzeakm8GcZINtOwMw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="328.2641" ypos="46.41994" zpos="375.1789"  GUID="R1cm/E2DQ0K6ctsV0pZzNw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="328.5404" ypos="12.81768" zpos="-16.70189" GUID="u7pYk6kkrEqiL810cv3Clw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="322.6265" ypos="4.169271" zpos="534.452"   GUID="ZDpyU8yvfE+joudxdQHm9w==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="332.8093" ypos="44.20522" zpos="381.7616"  GUID="sX45FMvPbkOVoWxKrBJbzQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="342.325"  ypos="6.42907"  zpos="-80.32499" GUID="sbo3w3VYxU+DBsC+BAkmwA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="346.3562" ypos="18.38661" zpos="-27.18467" GUID="reA8OZW6skS6CS2Oh5XO9Q==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="346.9834" ypos="17.05186" zpos="223.6761"  GUID="aI8Ad03/4keQC+eAHFCCDA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="353.3964" ypos="5.85812"  zpos="-85.54993" GUID="Z6LpAVL1h02nsTFMRWBS0g==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="355.3853" ypos="14.21478" zpos="-2.930364" GUID="urwC4Ir92Em73/cDCvIV9A==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="368.1888" ypos="41.49443" zpos="366.959"   GUID="JahlyMud20ePBadAexDyXg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="371.5484" ypos="10.55564" zpos="102.5895"  GUID="s82vJ/m6gkawa71GXEKgWA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="373.2068" ypos="43.80421" zpos="393.1744"  GUID="aQFyTrCss0yIMx0iHi2gHA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="375.9236" ypos="4.08213"  zpos="-77.3624"  GUID="aUkG4sTiREutrrpZ9jhdXw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="376.8737" ypos="6.917405" zpos="103.6237"  GUID="Ap7Kh7eRvEGaD31xLbOffw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="380.996"  ypos="4.669713" zpos="131.7163"  GUID="l5aErmmcTUG8a5aHJazjOQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="383.7805" ypos="4.230249" zpos="104.3419"  GUID="D3Map+1mREazBhWAJKr6iQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="454.3369" ypos="12.65198" zpos="-78.37618" GUID="0GticZgKl0yBLvvDzYbJXQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="467.1257" ypos="21.37437" zpos="-39.48603" GUID="wx16SX/8ykq6dBPhpQbKsw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="474.2618" ypos="20.91701" zpos="-49.77507" GUID="xupx/KJ87kiUOqJm/+SVrg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="503.6599" ypos="10.1706"  zpos="-57.12854" GUID="/hZqIv1Ct0uPVC2keWy4Sg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="511.5571" ypos="12.5965"  zpos="149.5647"  GUID="XPa2Mk3g2UGRo/Xih5Lhlw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="511.6416" ypos="12.51183" zpos="145.6936"  GUID="tYTkL7Cu90uvCSZwPVk30g==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="516.1038" ypos="15.26421" zpos="124.8996"  GUID="ctUyHdC8NEScdFwafarW2w==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="527.3163" ypos="10.88252" zpos="184.268"   GUID="Gao+OyBFb0q4aMk/0X2dhQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="529.3243" ypos="9.000756" zpos="-93.59152" GUID="ScX4CDK4XkKJGrdkh0P4Cg==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="533.4273" ypos="8.826676" zpos="187.1929"  GUID="iwJYHtyaFkOlJBrHzDkzgQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="535.9221" ypos="6.042046" zpos="247.2617"  GUID="ctQUj3f/GkOFIK0G+o0Hww==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="536.9962" ypos="7.210709" zpos="-86.18975" GUID="IDf1jIc65kWFDPly/pODCA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="557.8345" ypos="6.956054" zpos="153.2286"  GUID="fnCe4wMM4E+fxnwb60tJag==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="567.6514" ypos="6.209114" zpos="233.5995"  GUID="kebjx/iHeUiSCpOuB8lHVA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="568.5565" ypos="12.12633" zpos="43.72731"  GUID="3gXcIQHFbUONZLcinZkNdQ==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="570.6665" ypos="9.219757" zpos="38.41471"  GUID="Xru4Pcqm/E+ZhF9IkOaNcA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="571.9899" ypos="6.476819" zpos="225.1724"  GUID="nNf+tzxX80iBCkzT6V2+CA==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    <POI MapID="1554" xpos="578.142"  ypos="4.117079" zpos="223.3441"  GUID="ajUrDl2dFU2CofV8kNqtQw==" type="HMP.openWorld.hearts.jSyntri_h2_2"/>
-    
-    <!-- =========================================================================== OPEN WORLD CHESTS =========================================================================== -->
+    <POI MapID="1554" xpos="192.0655" ypos="5.026712" zpos="385.607"   GUID="iUWRBelq4EmZ/JvZK5+r3w==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="195.5457" ypos="5.839172" zpos="382.0966"  GUID="Hzsx+I0NgkKc9RenDw98Tw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="235.2303" ypos="20.86074" zpos="393.0341"  GUID="en5+2L/JfEmtIkLp6vvMIg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="241.5515" ypos="8.601617" zpos="132.9535"  GUID="zsnDvb3pLka/pCprdMsBZw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="243.1572" ypos="7.270152" zpos="106.5964"  GUID="8tvNAQqBYEWKf+51vRQdzw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="248.042"  ypos="26.94962" zpos="410.3308"  GUID="jogj/kXC2UaIupAUaOaNtQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="248.5365" ypos="1.540037" zpos="210.076"   GUID="RShHVVN+3USiQsEVmhoEFQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="256.1929" ypos="9.65125"  zpos="41.47018"  GUID="JgbeQUqj6k2BRaCGfAQs/Q==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="259.2079" ypos="13.97246" zpos="275.0411"  GUID="qLma24Ctn06FhwPsFJmHGw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="259.868"  ypos="9.637221" zpos="43.36603"  GUID="3+VsY/RIXUuMQepchAXwSg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="261.2618" ypos="14.49481" zpos="267.2753"  GUID="v1mqIbwUZECMj0vj0w1ZHA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="265.8872" ypos="11.76366" zpos="59.24366"  GUID="+jYYF1TVN0azt3epmq35fg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="266.8777" ypos="11.39473" zpos="56.22625"  GUID="+ASN1PljxE+zWwT8282/zg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="269.2546" ypos="5.929757" zpos="175.6126"  GUID="3D64ArdjHE+z0Jc11H2hCQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="275.5424" ypos="13.62843" zpos="245.9343"  GUID="AsDDDsLPLEqtIZcDvlbS1g==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="275.6115" ypos="4.180611" zpos="206.0286"  GUID="qhgrSatfxUSHwcaZfHgcAQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="279.8496" ypos="44.39857" zpos="387.6074"  GUID="9iSr3TQY6kWB9kbHlUSbCA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="282.1162" ypos="8.931123" zpos="512.7133"  GUID="SDtl/ga6oUS4Q8ESIxFOQw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="284.5782" ypos="13.45696" zpos="536.7693"  GUID="bZ4wZn+F1kCyz+mBlwTgnw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="288.239"  ypos="4.385766" zpos="188.0545"  GUID="hGMcwpBObEeI30PPljSvqA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="304.2815" ypos="4.65345"  zpos="498.6313"  GUID="+rqgQptQYEOB8wl9a1PNYg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="319.0153" ypos="32.21286" zpos="350.1428"  GUID="tj7lscvU1U+ayYUmQXQahg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="327.4999" ypos="13.80734" zpos="-20.13711" GUID="7bdvghzeakm8GcZINtOwMw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="328.2641" ypos="46.41994" zpos="375.1789"  GUID="R1cm/E2DQ0K6ctsV0pZzNw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="328.5404" ypos="12.81768" zpos="-16.70189" GUID="u7pYk6kkrEqiL810cv3Clw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="322.6265" ypos="4.169271" zpos="534.452"   GUID="ZDpyU8yvfE+joudxdQHm9w==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="332.8093" ypos="44.20522" zpos="381.7616"  GUID="sX45FMvPbkOVoWxKrBJbzQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="342.325"  ypos="6.42907"  zpos="-80.32499" GUID="sbo3w3VYxU+DBsC+BAkmwA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="346.3562" ypos="18.38661" zpos="-27.18467" GUID="reA8OZW6skS6CS2Oh5XO9Q==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="346.9834" ypos="17.05186" zpos="223.6761"  GUID="aI8Ad03/4keQC+eAHFCCDA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="353.3964" ypos="5.85812"  zpos="-85.54993" GUID="Z6LpAVL1h02nsTFMRWBS0g==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="355.3853" ypos="14.21478" zpos="-2.930364" GUID="urwC4Ir92Em73/cDCvIV9A==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="368.1888" ypos="41.49443" zpos="366.959"   GUID="JahlyMud20ePBadAexDyXg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="371.5484" ypos="10.55564" zpos="102.5895"  GUID="s82vJ/m6gkawa71GXEKgWA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="373.2068" ypos="43.80421" zpos="393.1744"  GUID="aQFyTrCss0yIMx0iHi2gHA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="375.9236" ypos="4.08213"  zpos="-77.3624"  GUID="aUkG4sTiREutrrpZ9jhdXw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="376.8737" ypos="6.917405" zpos="103.6237"  GUID="Ap7Kh7eRvEGaD31xLbOffw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="380.996"  ypos="4.669713" zpos="131.7163"  GUID="l5aErmmcTUG8a5aHJazjOQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="383.7805" ypos="4.230249" zpos="104.3419"  GUID="D3Map+1mREazBhWAJKr6iQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="454.3369" ypos="12.65198" zpos="-78.37618" GUID="0GticZgKl0yBLvvDzYbJXQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="467.1257" ypos="21.37437" zpos="-39.48603" GUID="wx16SX/8ykq6dBPhpQbKsw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="474.2618" ypos="20.91701" zpos="-49.77507" GUID="xupx/KJ87kiUOqJm/+SVrg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="503.6599" ypos="10.1706"  zpos="-57.12854" GUID="/hZqIv1Ct0uPVC2keWy4Sg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="511.5571" ypos="12.5965"  zpos="149.5647"  GUID="XPa2Mk3g2UGRo/Xih5Lhlw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="511.6416" ypos="12.51183" zpos="145.6936"  GUID="tYTkL7Cu90uvCSZwPVk30g==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="516.1038" ypos="15.26421" zpos="124.8996"  GUID="ctUyHdC8NEScdFwafarW2w==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="527.3163" ypos="10.88252" zpos="184.268"   GUID="Gao+OyBFb0q4aMk/0X2dhQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="529.3243" ypos="9.000756" zpos="-93.59152" GUID="ScX4CDK4XkKJGrdkh0P4Cg==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="533.4273" ypos="8.826676" zpos="187.1929"  GUID="iwJYHtyaFkOlJBrHzDkzgQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="535.9221" ypos="6.042046" zpos="247.2617"  GUID="ctQUj3f/GkOFIK0G+o0Hww==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="536.9962" ypos="7.210709" zpos="-86.18975" GUID="IDf1jIc65kWFDPly/pODCA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="557.8345" ypos="6.956054" zpos="153.2286"  GUID="fnCe4wMM4E+fxnwb60tJag==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="567.6514" ypos="6.209114" zpos="233.5995"  GUID="kebjx/iHeUiSCpOuB8lHVA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="568.5565" ypos="12.12633" zpos="43.72731"  GUID="3gXcIQHFbUONZLcinZkNdQ==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="570.6665" ypos="9.219757" zpos="38.41471"  GUID="Xru4Pcqm/E+ZhF9IkOaNcA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="571.9899" ypos="6.476819" zpos="225.1724"  GUID="nNf+tzxX80iBCkzT6V2+CA==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    <POI MapID="1554" xpos="578.142"  ypos="4.117079" zpos="223.3441"  GUID="ajUrDl2dFU2CofV8kNqtQw==" type="HMP.openWorld.hearts.1555_EH_2"/>
+    `
+    <!-- =========================================================================== OPEN WORLD CHESTS ===========================`================================================ -->
     <!-- ==================== Major Kodan Caches (Daily, semi-rng) ==================== -->
-    <!-- Lowland Shore (39/41)-->
-    <!-- 1 (done) -->
-    <POI MapID="1550" xpos="-788.1699" ypos="68.72815" zpos="174.2892"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-341.8665" ypos="101.7095" zpos="-34.01361" GUID="8toxVQq9tUixYEs+S1g8/Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 2 (done) -->
-    <POI MapID="1550" xpos="-939.5621" ypos="314.8563" zpos="-209.7522" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-511.3564" ypos="241.5573" zpos="-486.5367" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-497.8565" ypos="220.6548" zpos="-170.9581" GUID="Pao6dkL3AU6AfQTOyX+8Fg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 3 (done) -->
-    <POI MapID="1550" xpos="-203.6044" ypos="337.4738" zpos="-570.6389" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-135.1696" ypos="312.4364" zpos="-383.5349" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="165.0212"  ypos="387.083"  zpos="-577.9604" GUID="T/Bc0uvoVEuew3FbaS/7MQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 4 (done) -->
-    <POI MapID="1550" xpos="-236.4181" ypos="170.6493" zpos="-130.8753" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-245.8459" ypos="187.899"  zpos="-250.9945" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-214.2683" ypos="152.3885" zpos="-266.7302" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="148.872"   ypos="310.786"  zpos="-249.718"  GUID="r/Jn7mrbT0yuRNhpv16Wxw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 5 (done) -->
-    <POI MapID="1550" xpos="888.2636"  ypos="417.6709" zpos="-587.4136" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="1035.776"  ypos="391.9351" zpos="-268.3466" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="983.0692"  ypos="411.9798" zpos="-91.85034" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="680.8582"  ypos="303.1454" zpos="-256.482"  GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 6 (done) -->
-    <POI MapID="1550" xpos="665.9812"  ypos="334.5788" zpos="26.03078"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="758.9067"  ypos="299.5058" zpos="192.0667"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="993.4228"  ypos="360.944"  zpos="296.6677"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="875.1518"  ypos="274.7716" zpos="278.5246"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 7 (done) -->
-    <POI MapID="1550" xpos="93.66795"  ypos="151.7457" zpos="331.5753"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="273.3584"  ypos="97.04655" zpos="404.8897"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="549.1331"  ypos="79.75613" zpos="438.8122"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="573.8039"  ypos="6.53209"  zpos="490.1895"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 8 (4/5) -->
-    <POI MapID="1550" xpos="546.316"   ypos="133.1194" zpos="236.3844"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="497.0096"  ypos="147.5897" zpos="361.7574"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="158.2639"  ypos="310.9416" zpos="-31.70581" GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="273.9571"  ypos="310.1137" zpos="-188.1129" GUID="xWMCY9EPqUeP7cdEd8AaWQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 9 (done) -->
-    <POI MapID="1550" xpos="-306.9768" ypos="139.7005" zpos="218.4725"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-419.746"  ypos="209.9406" zpos="145.935"   GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-131.6211" ypos="254.0815" zpos="-81.59866" GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="72.89407"  ypos="155.5676" zpos="186.6121"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-263.1411" ypos="53.46719" zpos="-52.89994" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <!-- 10 (3/4) -->
-    <POI MapID="1550" xpos="-288.3091" ypos="188.1693" zpos="388.5519"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-260.0394" ypos="62.40174" zpos="350.2034"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1550" xpos="-303.5594" ypos="49.42041" zpos="469.1941"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <!-- Lowland Shore (40/40)-->
+    <!-- 1 -->
+    <POI MapID="1550" xpos="-788.1699" ypos="68.72815" zpos="174.2892"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-653.7739" ypos="26.61446" zpos="99.8548"   GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-734.2451" ypos="29.05838" zpos="468.9704"  GUID="Xn4Ubp0sbUGvNmFjuSsLcA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-341.8665" ypos="101.7095" zpos="-34.01361" GUID="8toxVQq9tUixYEs+S1g8/Q==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 2 -->
+    <POI MapID="1550" xpos="-939.5621" ypos="314.8563" zpos="-209.7522" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-652.2932" ypos="336.0698" zpos="-560.8103" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-511.3564" ypos="241.5573" zpos="-486.5367" GUID="1QI8SmRiOUevh4wq0ody7w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-497.8565" ypos="220.6548" zpos="-170.9581" GUID="Pao6dkL3AU6AfQTOyX+8Fg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 3 -->
+    <POI MapID="1550" xpos="-203.6044" ypos="337.4738" zpos="-570.6389" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-135.1696" ypos="312.4364" zpos="-383.5349" GUID="xSp9D+w57UWqqAi1nu6p+w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="165.0212"  ypos="387.083"  zpos="-577.9604" GUID="T/Bc0uvoVEuew3FbaS/7MQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 4 -->
+    <POI MapID="1550" xpos="-236.4181" ypos="170.6493" zpos="-130.8753" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-245.8459" ypos="187.899"  zpos="-250.9945" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-214.2683" ypos="152.3885" zpos="-266.7302" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="148.872"   ypos="310.786"  zpos="-249.718"  GUID="r/Jn7mrbT0yuRNhpv16Wxw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 5 -->
+    <POI MapID="1550" xpos="888.2636"  ypos="417.6709" zpos="-587.4136" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="1035.776"  ypos="391.9351" zpos="-268.3466" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="983.0692"  ypos="411.9798" zpos="-91.85034" GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="680.8582"  ypos="303.1454" zpos="-256.482"  GUID="7L1bRQ4Q/keLK/Jk9Qpcbg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 6 -->
+    <POI MapID="1550" xpos="665.9812"  ypos="334.5788" zpos="26.03078"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="758.9067"  ypos="299.5058" zpos="192.0667"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="993.4228"  ypos="360.944"  zpos="296.6677"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="875.1518"  ypos="274.7716" zpos="278.5246"  GUID="chk14+8iSk6EnuEx7zkfqw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 7 -->
+    <POI MapID="1550" xpos="93.66795"  ypos="151.7457" zpos="331.5753"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="273.3584"  ypos="97.04655" zpos="404.8897"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="549.1331"  ypos="79.75613" zpos="438.8122"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="573.8039"  ypos="6.53209"  zpos="490.1895"  GUID="cd7IoDsKdkKo2588x64KJg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 8 -->
+    <POI MapID="1550" xpos="546.316"   ypos="133.1194" zpos="236.3844"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="497.0096"  ypos="147.5897" zpos="361.7574"  GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="158.2639"  ypos="310.9416" zpos="-31.70581" GUID="1oCmNO+9gUK4AmYr+LAleQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="273.9571"  ypos="310.1137" zpos="-188.1129" GUID="xWMCY9EPqUeP7cdEd8AaWQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 9 -->
+    <POI MapID="1550" xpos="-306.9768" ypos="139.7005" zpos="218.4725"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-419.746"  ypos="209.9406" zpos="145.935"   GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-131.6211" ypos="254.0815" zpos="-81.59866" GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="72.89407"  ypos="155.5676" zpos="186.6121"  GUID="Lc8ZeIlJGUimyzoGGrDrZQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-263.1411" ypos="53.46719" zpos="-52.89994" GUID="W8xbf2Za20u5RD9RnIcX5Q==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <!-- 10 -->
+    <POI MapID="1550" xpos="-288.3091" ypos="188.1693" zpos="388.5519"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-260.0394" ypos="62.40174" zpos="350.2034"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="-303.5594" ypos="49.42041" zpos="469.1941"  GUID="zUHEXF9DqUWi01ckabW8YQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1550" xpos="34.23016"  ypos="20.84464" zpos="389.7037"  GUID="pORwYoPtS0iTIeXCQl2QJQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
     <!-- Janthir Syntri -->
-    <POI MapID="1554" xpos="-754.2784" ypos="87.96053" zpos="-553.8865" GUID="SWKh/5QOGEeuk8iAq8uDTg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-395.5733" ypos="144.0066" zpos="304.4761"  GUID="UcooizHGpUSjQc0BwNLIRg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-367.294"  ypos="29.93341" zpos="-152.4021" GUID="jdC9dbIsUki/sYow4qLqUA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-355.3222" ypos="31.80698" zpos="-10.07854" GUID="71geVlttk0y8tP/+YgWE7A==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-343.7178" ypos="183.277"  zpos="225.7166"  GUID="Sl59nZhpSkGbbU/YKSLhNQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-342.2993" ypos="60.92655" zpos="-771.7569" GUID="lV/6pNaQa0WsCeP+2hrvzg==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-309.4681" ypos="51.78889" zpos="574.3536"  GUID="3hGCDgnWZ0CAgE8jB/gLuw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-267.3035" ypos="52.57034" zpos="-324.2029" GUID="LxeEMucaM0aRMIhFz/eILA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="-22.50694" ypos="66.16671" zpos="-341.9213" GUID="oOYgy9YCiEuvLrRFpE3M1w==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="75.24842"  ypos="76.10401" zpos="-735.4258" GUID="3X9aN7BRrUuZaeeE6fwOsA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="232.0074"  ypos="59.08014" zpos="66.64367"  GUID="vO+gF+6AfkizFh1gDImj8A==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="233.3587"  ypos="30.74854" zpos="-602.8594" GUID="5DdbVkcKKEiDAhcR0XpbuA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="329.5385"  ypos="26.86537" zpos="-251.8269" GUID="ecPXhLQBA0irg892c3LXKA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="385.8389"  ypos="27.59825" zpos="448.9902"  GUID="/iR4NytxQ0e4sHVmRVUMRw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="446.393"   ypos="29.52873" zpos="201.043"   GUID="puEBptGf5UWLKz/rDeYFqA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="482.482"   ypos="15.55325" zpos="-143.8417" GUID="myGBGTHeJ0u22PBeCrKErA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="493.8618"  ypos="38.44069" zpos="-240.4948" GUID="Q5nCfVQ4Uky6hPS2lRRRAw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="530.7496"  ypos="50.09403" zpos="486.8323"  GUID="b+C0318gM0C8O1LThTVHRw==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="607.1757"  ypos="24.2021"  zpos="-244.8475" GUID="nEkRtjXxRU+YK1Y31lZwZQ==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="737.8562"  ypos="1.221907" zpos="-252.55"   GUID="j9vwHSw330e5GxkxUcUufA==" type="HMP.openWorld.miscFarm.kodanCache"/>
-    <POI MapID="1554" xpos="782.3848"  ypos="43.98698" zpos="-606.9794" GUID="Pc4EAJhF+Eu9Zr1XC+qGdg==" type="HMP.openWorld.miscFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-754.2784" ypos="87.96053" zpos="-553.8865" GUID="SWKh/5QOGEeuk8iAq8uDTg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-395.5733" ypos="144.0066" zpos="304.4761"  GUID="UcooizHGpUSjQc0BwNLIRg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-367.294"  ypos="29.93341" zpos="-152.4021" GUID="jdC9dbIsUki/sYow4qLqUA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-355.3222" ypos="31.80698" zpos="-10.07854" GUID="71geVlttk0y8tP/+YgWE7A==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-343.7178" ypos="183.277"  zpos="225.7166"  GUID="Sl59nZhpSkGbbU/YKSLhNQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-342.2993" ypos="60.92655" zpos="-771.7569" GUID="lV/6pNaQa0WsCeP+2hrvzg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-309.4681" ypos="51.78889" zpos="574.3536"  GUID="3hGCDgnWZ0CAgE8jB/gLuw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-267.3035" ypos="52.57034" zpos="-324.2029" GUID="LxeEMucaM0aRMIhFz/eILA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="-22.50694" ypos="66.16671" zpos="-341.9213" GUID="oOYgy9YCiEuvLrRFpE3M1w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="75.24842"  ypos="76.10401" zpos="-735.4258" GUID="3X9aN7BRrUuZaeeE6fwOsA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="232.0074"  ypos="59.08014" zpos="66.64367"  GUID="vO+gF+6AfkizFh1gDImj8A==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="233.3587"  ypos="30.74854" zpos="-602.8594" GUID="5DdbVkcKKEiDAhcR0XpbuA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="329.5385"  ypos="26.86537" zpos="-251.8269" GUID="ecPXhLQBA0irg892c3LXKA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="385.8389"  ypos="27.59825" zpos="448.9902"  GUID="/iR4NytxQ0e4sHVmRVUMRw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="446.393"   ypos="29.52873" zpos="201.043"   GUID="puEBptGf5UWLKz/rDeYFqA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="482.482"   ypos="15.55325" zpos="-143.8417" GUID="myGBGTHeJ0u22PBeCrKErA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="493.8618"  ypos="38.44069" zpos="-240.4948" GUID="Q5nCfVQ4Uky6hPS2lRRRAw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="530.7496"  ypos="50.09403" zpos="486.8323"  GUID="b+C0318gM0C8O1LThTVHRw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="607.1757"  ypos="24.2021"  zpos="-244.8475" GUID="nEkRtjXxRU+YK1Y31lZwZQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="737.8562"  ypos="1.221907" zpos="-252.55"   GUID="j9vwHSw330e5GxkxUcUufA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1554" xpos="782.3848"  ypos="43.98698" zpos="-606.9794" GUID="Pc4EAJhF+Eu9Zr1XC+qGdg==" type="HMP.openWorld.chestFarm.kodanCache"/>
     
   </POIs>
 </OverlayData>

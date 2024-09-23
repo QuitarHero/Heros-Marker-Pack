@@ -34,7 +34,7 @@ local function AddTexture(marker)
       marker:SetTexture("Assets/OpenWorld/Logging/Wood.png")
       marker.Tint = I:Color(255, 218, 133, 255)
     end
-  elseif(parentCat == World:CategoryByType("HMP.openWorld.miscFarm")) then
+  elseif(parentCat == World:CategoryByType("HMP.openWorld.chestFarm")) then
     marker:SetTexture("Assets/OpenWorld/Chest.png")
     marker.Tint = I:Color(255, 255, 255, 255)
   else
@@ -52,6 +52,7 @@ local function MakeMinimapMarkers()
       ypos = newCoords.Z,
       zpos = newCoords.Y + 2,
       type = gIcons.Markers[_].Category.Namespace,
+      guid = gIcons.Markers[_].Guid,
       InGameVisibility = false,
       MinimapVisibility = true,
       MapVisibility = true,
