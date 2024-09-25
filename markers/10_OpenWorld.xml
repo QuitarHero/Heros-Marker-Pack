@@ -77,8 +77,8 @@
     <POI MapID="1550" xpos="-265.7378" ypos="51.786"   zpos="-59.85251" GUID="Wr4kx0cibkG0Kkqi2PDptA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="0.6"/>
     <POI MapID="1550" xpos="-346.125"  ypos="98.79375" zpos="-30.56369" GUID="3T240afdekOkpRki5flzrQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
     
-    <POI MapID="1550" xpos="207.1259"  ypos="324.8025" zpos="-596.9667" GUID="ZNz55dNk30qqj/5a1qXo0w==" type="HMP.openWorld.route.1550_M" iconFile="MyStuff/Springer.png"            iconSize="0.6"/>
-    <POI MapID="1550" xpos="188.0591"  ypos="351.207"  zpos="-587.3964" GUID="HYbgwOeHuU2zna9/Ig4JnA==" type="HMP.openWorld.route.1550_M" iconFile="MyStuff/Springer.png"            iconSize="0.6"/>
+    <POI MapID="1550" xpos="207.1259"  ypos="324.8025" zpos="-596.9667" GUID="ZNz55dNk30qqj/5a1qXo0w==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Springer.png"   iconSize="0.6"/>
+    <POI MapID="1550" xpos="188.0591"  ypos="351.207"  zpos="-587.3964" GUID="HYbgwOeHuU2zna9/Ig4JnA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Springer.png"   iconSize="0.6"/>
     <!-- Trails -->
     <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T"  color="3fd43f"                                     trailScale="1"/>
     <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T"                 texture="Assets/OpenWorld/star.png" trailScale="1"/>
