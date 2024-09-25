@@ -6,7 +6,7 @@
         <MarkerCategory name="1550_T" DisplayName="Trails"        defaultToggle="0" texture="Assets/OpenWorld/trail.png" alpha="1" animSpeed="0" trailScale="0.75"/>
       </MarkerCategory>
       <MarkerCategory name="hearts"      DisplayName="Repeatable Hearts" fadeFar="4000" fadeNear="3750" animSpeed="0">
-        <MarkerCategory name="1550_CU_1" DisplayName="Coarsing Uplands"/>
+        <MarkerCategory name="1550_CU_1" DisplayName="Coursing Upland"/>
         <MarkerCategory name="1550_HD_1" DisplayName="Harvest Den"/>
         <MarkerCategory name="1550_AV_1" DisplayName="Autumn's Vale"/>
         <MarkerCategory name="1555_EH_1" DisplayName="Echoing Hills - Supply Crates" alpha="1" iconFile="Assets/OpenWorld/Hearts/Supply Crate1.png" iconSize="0.75" behavior="7" triggerRange="6"/>
@@ -22,18 +22,16 @@
   </MarkerCategory>
   
   <POIs>
-  
-  <POI MapID="1550" xpos="-790.7408" ypos="67.88728" zpos="173.5718" GUID="L0LtknWL20KzX72cTXjGOg=="/>
     <!-- ========== Lowland Shore Gathering & Heart Route ========== -->
     <!-- Start of Gathering & Heart Trail -->
-    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="Ag+F9EZWuUm3wbT1K+qJnQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/Lowland Shore/Start Board.png" cull="CounterClockwise" iconSize="2.5" rotate="110,0,39"            minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="ZTyFHdwDOkmKbjHl4h7AQw==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                       triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_M" minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="kZfk50KAr0GKi86NmoaMyg==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                       triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_T" minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="aEw8/4ed00mb3Q6T9tqIQQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/WarclawRoute.png"              MapDisplaySize="36" tip-description="Lowland Shore Warclaw Route"   inGameVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="Ag+F9EZWuUm3wbT1K+qJnQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/Lowland Shore/Start Board.png"  cull="CounterClockwise" iconSize="2.5" rotate="110,0,39"            minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="ZTyFHdwDOkmKbjHl4h7AQw==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_M" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="kZfk50KAr0GKi86NmoaMyg==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_T" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="aEw8/4ed00mb3Q6T9tqIQQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/WarclawRoute.png"               MapDisplaySize="36" tip-description="Lowland Shore Warclaw Route"   inGameVisibility="0"/>
     <!-- End of Gathering & Heart Trail -->
-    <POI MapID="1550" xpos="-293.03"   ypos="184.4105" zpos="398.569"  GUID="tcaMAmUvFEuL+f7SggeeIw==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/Lowland Shore/Start Board.png"  cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="3" rotate="110,0,210" minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437" GUID="W3JuB2Z2DkOB06qsF7UBtQ==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1550_M" minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437" GUID="7cvOqy39X0uztoGmKdcJ1Q==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1550_T" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-293.03"   ypos="184.4105" zpos="398.569"   GUID="tcaMAmUvFEuL+f7SggeeIw==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/Lowland Shore/Finish Board.png" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="3" rotate="110,0,210" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437"  GUID="W3JuB2Z2DkOB06qsF7UBtQ==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1550_M" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437"  GUID="7cvOqy39X0uztoGmKdcJ1Q==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1550_T" minimapVisibility="0" mapVisibility="0"/>
     <!-- Markers -->
     <POI MapID="1550" xpos="-173.7054" ypos="104.8463" zpos="429.763"   GUID="oEPDl9A0mUim9bxVhvaECw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
     <POI MapID="1550" xpos="-252.042"  ypos="59.54998" zpos="363.6621"  GUID="hXJg/MQE6EKHdEOl/qu1jg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
@@ -204,8 +202,8 @@
     <POI MapID="1554" xpos="570.6665" ypos="9.219757" zpos="38.41471"  GUID="Xru4Pcqm/E+ZhF9IkOaNcA==" type="HMP.openWorld.hearts.1555_EH_2"/>
     <POI MapID="1554" xpos="571.9899" ypos="6.476819" zpos="225.1724"  GUID="nNf+tzxX80iBCkzT6V2+CA==" type="HMP.openWorld.hearts.1555_EH_2"/>
     <POI MapID="1554" xpos="578.142"  ypos="4.117079" zpos="223.3441"  GUID="ajUrDl2dFU2CofV8kNqtQw==" type="HMP.openWorld.hearts.1555_EH_2"/>
-    `
-    <!-- =========================================================================== OPEN WORLD CHESTS ===========================`================================================ -->
+    
+    <!-- =========================================================================== OPEN WORLD CHESTS =========================================================================== -->
     <!-- ==================== Major Kodan Caches (Daily, semi-rng) ==================== -->
     <!-- Lowland Shore (40/40)-->
     <!-- 1 -->

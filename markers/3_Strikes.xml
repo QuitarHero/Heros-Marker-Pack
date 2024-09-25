@@ -6,8 +6,8 @@
       <MarkerCategory name="sc2"    DisplayName="Phase 2"                                                                iconFile="Assets/General/dot2.png"/>
     </MarkerCategory>
     <MarkerCategory name="StrB1_c3" DisplayName="Slaying"         cull="CounterClockwise"                                                                                                          mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="sc1"    DisplayName="Cave Entrance"   alpha="0.9"             fadeFar="3000" fadeNear="2750"                                          iconSize="2.5" rotate="80,0,255"/>
-      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                                                                                                      iconSize="2"   rotate="95,0,32"/>
+      <MarkerCategory name="sc1"    DisplayName="Cave Entrance"   alpha="0.9"             fadeFar="3000" fadeNear="2750"                                          iconSize="2.5" rotate="80,0,255" tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
+      <MarkerCategory name="sc2"    DisplayName="IC's Arena"                                                                                                      iconSize="2"   rotate="95,0,32"  tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -41,7 +41,7 @@
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB2_c1" DisplayName="Boundary"                               fadeFar="700"  fadeNear="575"  texture="Assets/Boundary/RedLine.png"    trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;dsappears on Combat Start"/>
     <MarkerCategory name="StrB2_c2" DisplayName="Boss Positions"                         fadeFar="4000" fadeNear="3750"                                                         rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB2_c3" DisplayName="Slaying"        cull="CounterClockwise" fadeFar="800"  fadeNear="650"                                           iconSize="1.4" rotate="96,0,155" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB2_c3" DisplayName="Slaying"        cull="CounterClockwise" fadeFar="800"  fadeNear="650"                                           iconSize="1.4" rotate="96,0,155" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -59,7 +59,7 @@
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB3_c1" DisplayName="Boundary"                               fadeFar="800"  fadeNear="675"  texture="Assets/Boundary/RedLine.png"     trailScale="1.5"                 mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     <MarkerCategory name="StrB3_c2" DisplayName="Stack Spots" alpha="0.6" color="34f1fa" fadeFar="4000" fadeNear="3750" iconFile="Assets/General/dot.png"         iconSize="0.5"  rotate-x="180"   mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB3_c3" DisplayName="Slaying"     cull="CounterClockwise"    fadeFar="1000" fadeNear="850"                                            iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB3_c3" DisplayName="Slaying"     cull="CounterClockwise"    fadeFar="1000" fadeNear="850"                                            iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -76,7 +76,7 @@
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB4_c1" DisplayName="Boundary"                                        fadeFar="500"  fadeNear="375"  trailScale="1.5"              mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     <MarkerCategory name="StrB4_c2" DisplayName="Torches"  color="66A144" cull="CounterClockwise" fadeFar="4000" fadeNear="3750" iconSize="1" rotate-x="90"/>
-    <MarkerCategory name="StrB4_c3" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1200" fadeNear="1050" iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB4_c3" DisplayName="Slaying"                 cull="CounterClockwise" fadeFar="1200" fadeNear="1050" iconSize="2.25" rotate="90,0,35" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
   </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -96,7 +96,7 @@
 <!-- ========================================= WHISPER OF JORMAG =========================================================================================================================================================== -->
   <MarkerCategory   name="HMP"      DisplayName="Hero's Pack">
     <MarkerCategory name="StrB5_c1" DisplayName="Directions" color="1fc4ed" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="1"   rotate-x="90"/>
-    <MarkerCategory name="StrB5_c2" DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="1250" fadeNear="1100" iconSize="1.5" rotate="140,0,85" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB5_c2" DisplayName="Slaying"                   cull="CounterClockwise" fadeFar="1250" fadeNear="1100" iconSize="1.5" rotate="140,0,85" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
     <MarkerCategory name="StrB5_c3" DisplayName="Max Melee"  defaultToggle="0"                      fadeFar="300"  fadeNear="250"  trailScale="1.5">
       <MarkerCategory name="sc1"    DisplayName="Phase 1"/>
       <MarkerCategory name="sc2"    DisplayName="Phases 2/3"/>
@@ -121,7 +121,7 @@
     <MarkerCategory name="StrB6_c1" DisplayName="Boundary"                                   fadeFar="800"  fadeNear="700"  trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     <MarkerCategory name="StrB6_c2" DisplayName="Boss Spawn"  alpha="0.75"                   fadeFar="5000" fadeNear="4750" iconSize="0.5" rotate-x="180"     mapDisplaySize="15"/>
     <MarkerCategory name="StrB6_c3" DisplayName="Champ Spawn" alpha="0.75" defaultToggle="1" fadeFar="5000" fadeNear="4750" iconSize="0.5" rotate-x="180"     mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="StrB6_c4" DisplayName="Slaying"     cull="CounterClockwise"        fadeFar="1400" fadeNear="1250" iconSize="2.5" rotate="140,0,141" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Bloodlust"/>
  </MarkerCategory>
   <POIs>
     <!-- ========== Boundary ========== -->
@@ -160,7 +160,7 @@
       <MarkerCategory   name="sc2"       DisplayName="Max Melee"                                               fadeFar="3000" fadeNear="2500" trailScale="2"/>
     </MarkerCategory>
     <MarkerCategory     name="StrB7_c4"  DisplayName="Boundary"                        defaultToggle="0"       fadeFar="600"  fadeNear="450"  trailScale="1.5"                   minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="Only relevant after a wipe&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950"  fadeNear="800"  iconSize="1.75" rotate="90,0,225"                                          script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory     name="StrB7_c5"  DisplayName="Slaying"                         cull="CounterClockwise" fadeFar="950"  fadeNear="800"  iconSize="1.75" rotate="90,0,225"                                          script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Force&#xA;• Impact"/>
     
   </MarkerCategory>
   
@@ -215,7 +215,7 @@
         <MarkerCategory name="sc1" DisplayName="Dump Site 2"/>
         <MarkerCategory name="sc2" DisplayName="Dump Site 1"/>
       </MarkerCategory>
-      <MarkerCategory name="strB8_c4" DisplayName="Slaying"                                        cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                   iconSize="2"    rotate="90,0,225" minimapVisibility="0" mapVisibility="0"/>
+      <MarkerCategory name="strB8_c4" DisplayName="Slaying"                                        cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                   iconSize="2"    rotate="90,0,225" minimapVisibility="0" mapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact / Night"/>
   </MarkerCategory>
   
   <POIs>
@@ -268,7 +268,7 @@
         <MarkerCategory   name="sc1" DisplayName="In-Game"         alpha="0.85" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="0.6"                                       inGameVisibility="1" minimapVisibility="0" mapVisibility="0"/>
         <MarkerCategory   name="sc2" DisplayName="Minimap and Map"                                                                                                      mapDisplaySize="30" inGameVisibility="0" minimapVisibility="1" mapVisibility="1"/>
       </MarkerCategory>
-      <MarkerCategory     name="strB9_c5" DisplayName="Slaying"    alpha="0.6" cull="CounterClockwise"  fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53"                     minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory     name="strB9_c5" DisplayName="Slaying"    alpha="0.6" cull="CounterClockwise"  fadeFar="1500" fadeNear="1350" iconSize="2.4" rotate="90,0,-53"                     minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Force&#xA;• Night"/>
   </MarkerCategory>
   
   <POIs>
@@ -353,7 +353,7 @@
       </MarkerCategory>
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Assets/General/s.png"          iconSize="1" rotate="90,0,0"/>
-      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                          iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                          iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Night&#xA;• Bloodlust"/>
       <MarkerCategory   name="sc5"  DisplayName="Hitbox Ranges"            defaultToggle="0"                                                                                                                            tip-description="Displays there area where usage of&#xA;certain skills makes them auto-trigger.">
         <MarkerCategory name="asc1" DisplayName="Mines"/>
         <MarkerCategory name="asc2" DisplayName="Traps"/>
@@ -1088,8 +1088,8 @@
       <MarkerCategory name="sc3"        DisplayName="Third"                                         iconFile="Assets/General/dot3.png"                                   rotate-z="270"/>
     </MarkerCategory>
     <MarkerCategory   name="StrB11_c2"  DisplayName="Boundary"                                      fadeFar="750"  fadeNear="600"                      trailScale="1.5"                     mapVisibility="0" minimapVisibility="0" script-filter="combatFade"  tip-description="Only relevant after a wipe&#xA;If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory   name="StrB11_c3"  DisplayName="(CM) Puzzle Solutions" cull="CounterClockwise" fadeFar="1625" fadeNear="1475" heightOffset="21.5" iconSize="0.64" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"               cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                     iconSize="1.75" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory   name="StrB11_c3"  DisplayName="(CM) Puzzle Solutions" cull="CounterClockwise" fadeFar="1750" fadeNear="1600" heightOffset="21.5" iconSize="0.64" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory   name="StrB11_c9"  DisplayName="Slaying"               cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                     iconSize="1.75" rotate="85,-1.5,123" mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Force&#xA;• Impact / Night"/>
   </MarkerCategory>
   
   <POIs>
@@ -1112,7 +1112,7 @@
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="StrB12_c1" DisplayName="Max Melee"        fadeFar="650" fadeNear="600"                                                                                                                minimapVisibility="0" mapVisibility="0"/>
     <MarkerCategory name="StrB12_c2" DisplayName="Tormented Spawns" alpha="0.55" color="bdbdbd" cull="CounterClockwise" heightOffset="-0.05" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180"    minimapVisibility="0" mapVisibility="0"/>
-    <MarkerCategory name="StrB12_c3" DisplayName="Slaying"                                      cull="CounterClockwise"                                                        iconSize="2.1" rotate="90,0,122" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB12_c3" DisplayName="Slaying"                                      cull="CounterClockwise"                                                        iconSize="2.1" rotate="90,0,122" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Force&#xA;• Impact / Night"/>
   </MarkerCategory>
   
   <POIs>
@@ -1151,7 +1151,11 @@
       <MarkerCategory name="sc5" DisplayName="Rage"     mapDisplaySize="15" tip-name="Rage"/>
       <MarkerCategory name="sc6" DisplayName="Regret"   mapDisplaySize="15" tip-name="Regret"/>
     </MarkerCategory>
-    <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB13_c3" DisplayName="Malicious Shadow Long Walk" defaultToggle="0" fadeFar="10000" fadeNear="9975">
+      <MarkerCategory name="sc1"     DisplayName="South East"/>
+      <MarkerCategory name="sc2"     DisplayName="North East"/>
+    </MarkerCategory>
+    <MarkerCategory name="StrB13_c4" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1350" iconSize="1.46" rotate="105,0,90" minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Force&#xA;• Impact"/>
     <MarkerCategory name="StrB13_c90" DisplayName="Despair Pool Adventure" fadeFar="3000" fadeNear="2750" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="sc1"      DisplayName="Enable Script"/>
       <MarkerCategory name="sc2"      DisplayName="Adventure Board" IsSeparator="1" rotate="90,0,270" triggerRange="5" cull="CounterClockwise">
@@ -1224,6 +1228,8 @@
     <POI MapID="1520" xpos="-11.331" ypos="177.1"   zpos="-121.739" GUID="XlOqrOrGuk6qtPh/Ln8lGA==" type="HMP.StrB13_c2.sc4" tip-description=""/>
     <POI MapID="1520" xpos="11.718"  ypos="177.1"   zpos="-85.983"  GUID="u8q+0b/3LUaWiH6JlVsVPQ==" type="HMP.StrB13_c2.sc5" tip-description=""/>
     <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6" tip-description=""/>
+    <!-- Long Walk Areas -->
+    <Trail trailData="Assets/Strikes/StrB13_SE-longwalk.trl" texture="Assets/Boundary/RedLine.png" trailScale="1" alpha="1" animSpeed="0" type="HMP.StrB13_c3.sc1"/>
     <!-- Slaying -->
     <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"     iconFile="Assets/Strikes/Slaying/Febe.png"/>
     <POI MapID="1520" xpos="11.600"  ypos="192.063" zpos="-214.424" GUID="TFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"     iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
