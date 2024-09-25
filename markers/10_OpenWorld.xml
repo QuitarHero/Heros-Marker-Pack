@@ -78,61 +78,64 @@
     <POI MapID="1550" xpos="-199.0991" ypos="227.8019" zpos="-95.34748" GUID="A55cDHhKUU6CodLT0kfZfA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
     <POI MapID="1550" xpos="-265.7378" ypos="51.786"   zpos="-59.85251" GUID="Wr4kx0cibkG0Kkqi2PDptA==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/GlideBoost.png" iconSize="0.6"/>
     <POI MapID="1550" xpos="-346.125"  ypos="98.79375" zpos="-30.56369" GUID="3T240afdekOkpRki5flzrQ==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    
+    <POI MapID="1550" xpos="207.1259"  ypos="324.8025" zpos="-596.9667" GUID="ZNz55dNk30qqj/5a1qXo0w==" type="HMP.openWorld.route.1550_M" iconFile="MyStuff/Springer.png"            iconSize="0.6"/>
+    <POI MapID="1550" xpos="188.0591"  ypos="351.207"  zpos="-587.3964" GUID="HYbgwOeHuU2zna9/Ig4JnA==" type="HMP.openWorld.route.1550_M" iconFile="MyStuff/Springer.png"            iconSize="0.6"/>
     <!-- Trails -->
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T" color="3fd43f"                                     trailScale="1"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T"                texture="Assets/OpenWorld/star.png" trailScale="1"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_1.trl"   type="HMP.openWorld.route.1550_T" color="ffb54d" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/10.23_MKC.trl"       type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_1.trl"   type="HMP.openWorld.route.1550_T" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_2.trl"   type="HMP.openWorld.route.1550_T" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_3.trl"   type="HMP.openWorld.route.1550_T" color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.23_MKC.trl"        type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_2.trl"   type="HMP.openWorld.route.1550_T" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.1-10.4_MKC.trl"    type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.4_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_3.trl"   type="HMP.openWorld.route.1550_T" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.3_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.1-9.5-1.4_MKC.trl" type="HMP.openWorld.route.1550_T" color="c9c9c9"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_4.trl"   type="HMP.openWorld.route.1550_T" color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.1_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.2_MKC.trl"         type="HMP.openWorld.route.1550_T" color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T"  color="3fd43f"                                     trailScale="1"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/0_MainTrail.trl"     type="HMP.openWorld.route.1550_T"                 texture="Assets/OpenWorld/star.png" trailScale="1"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_1.trl"   type="HMP.openWorld.route.1550_T"  color="ffb54d" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/10.23_MKC.trl"       type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_1.trl"   type="HMP.openWorld.route.1550_T"  color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_2.trl"   type="HMP.openWorld.route.1550_T"  color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.1_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.2_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/HoneyFlower_3.trl"   type="HMP.openWorld.route.1550_T"  color="ff9100" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.4_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/2.3_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.23_MKC.trl"        type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.1_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.4_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/3.3_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.1_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.2_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/5.3_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/8.4_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.1_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/6.3_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_2.trl"   type="HMP.openWorld.route.1550_T"  color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.4_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.2_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/7.1-10.4_MKC.trl"    type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.4_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_3.trl"   type="HMP.openWorld.route.1550_T"  color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.3_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/4.1-9.5-1.4_MKC.trl" type="HMP.openWorld.route.1550_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/LowlandPine_4.trl"   type="HMP.openWorld.route.1550_T"  color="ab711a" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.1_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/9.2_MKC.trl"         type="HMP.openWorld.route.1550_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <!-- Other Trails -->
     <Trail trailData="Assets/OpenWorld/Lowland Shore/ValravenCredit.trl"  type="HMP.openWorld.others.1550_1" color="ffe626" texture="Assets/Boundary/WhiteLine.png"/>
     
     <!-- =========================================================================== JANTHIR WILDS REPEATABLE HEARTS =========================================================================== -->
     <!-- ========== Lowland Shore ========== -->
     <!-- Coarsing Uplands Heart -->
-    <POI MapID="1550" xpos="-782.794" ypos="210.975" zpos="-0.0833" GUID="gckU8KbvrUGMjxRz/Z044Q==" type="HMP.openWorld.hearts.1550_CU_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_CU-Heart.png"  cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.5"  rotate="90,0,325"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-782.794" ypos="210.975" zpos="-0.0833"  GUID="gckU8KbvrUGMjxRz/Z044Q==" type="HMP.openWorld.hearts.1550_CU_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_CU-Heart.png"  cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.5"  rotate="90,0,325"  minimapVisibility="0" mapVisibility="0"/>
     <!-- Harvest Den Heart -->
-    <POI MapID="1550" xpos="718.784"  ypos="91.168"  zpos="256.424" GUID="utyjz2MBy0eY4t6lNB6+rA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="1.5"  rotate="90,0,235"  minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="561.964"  ypos="149.074" zpos="171.001" GUID="DA0c2RnznEC22gL3BRw4GA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="91,0,15"   minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="488.86"   ypos="146.24"  zpos="370.708" GUID="bMAWprSw5k27y+QIUqZG5Q==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart3.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2"    rotate="90,0,205"  minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="181.733"  ypos="214.509" zpos="288.443" GUID="X2Z2xku+i0ucwG9qqp4Zcw==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart4.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="100,0,350" minimapVisibility="0" mapVisibility="0"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD2.trl"                                 type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD3.trl"                                 type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD4.trl"                                 type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/trail.png"/>
-    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HDfin.trl"                               type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <POI MapID="1550" xpos="718.784"  ypos="91.168"  zpos="256.424"  GUID="utyjz2MBy0eY4t6lNB6+rA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="1.5"  rotate="90,0,235"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="561.964"  ypos="149.074" zpos="171.001"  GUID="DA0c2RnznEC22gL3BRw4GA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="91,0,15"   minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="488.86"   ypos="146.24"  zpos="370.708"  GUID="bMAWprSw5k27y+QIUqZG5Q==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart3.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2"    rotate="90,0,205"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="181.733"  ypos="214.509" zpos="288.443"  GUID="X2Z2xku+i0ucwG9qqp4Zcw==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_HD-Heart4.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="100,0,350" minimapVisibility="0" mapVisibility="0"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD2.trl"                                  type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD3.trl"                                  type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HD4.trl"                                  type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/trail.png"/>
+    <Trail trailData="Assets/OpenWorld/Lowland Shore/Heart-HDfin.trl"                                type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <!-- Autumn's Vale Heart -->
-    <POI MapID="1550" xpos="-127.713" ypos="90.9317" zpos="230.511"  GUID="tE7p2jUix0S1ApsVUxVydA==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.75"  rotate="110,0,201"  minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-13.6071" ypos="237.271" zpos="-121.434" GUID="+drkqamrAkyEoMl6aItGOQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.75"  rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-288.173" ypos="186.051" zpos="402.035"  GUID="ytjdmROi60i4vYlz5+tmpQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart3.png" cull="CounterClockwise" fadeFar="2250" fadeNear="2000" iconSize="3"     rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-127.713" ypos="90.9317" zpos="230.511"  GUID="tE7p2jUix0S1ApsVUxVydA==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.75" rotate="110,0,201"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-13.6071" ypos="237.271" zpos="-121.434" GUID="+drkqamrAkyEoMl6aItGOQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.75" rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-288.173" ypos="186.051" zpos="402.035"  GUID="ytjdmROi60i4vYlz5+tmpQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart3.png" cull="CounterClockwise" fadeFar="2250" fadeNear="2000" iconSize="3"    rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
     <!-- ========== Janthir Syntri ========== -->
-    <!-- Supply Crates (Daily) -->
+    <!-- Supply Crates (Daily) 
     <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308"  GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.1555_EH_1"/>
     <POI MapID="1554" xpos="185.53"   ypos="3.06422"  zpos="3.89612"   GUID="Um9QpndSPkmw0/auKMHCTA==" type="HMP.openWorld.hearts.1555_EH_1"/>
     <POI MapID="1554" xpos="321.8287" ypos="35.36352" zpos="96.69124"  GUID="fkEPtKL3xUqL2N22WzlbjQ==" type="HMP.openWorld.hearts.1555_EH_1"/>
@@ -142,7 +145,7 @@
     <POI MapID="1554" xpos="426.6658" ypos="21.95288" zpos="223.7552"  GUID="ZyZYDAo8Fke6OFtRsCvV5Q==" type="HMP.openWorld.hearts.1555_EH_1"/>
     <POI MapID="1554" xpos="525.2288" ypos="17.96843" zpos="40.12445"  GUID="4gyWJgcZVEe2VjSrLcTtjA==" type="HMP.openWorld.hearts.1555_EH_1"/>
     <POI MapID="1554" xpos="561.7662" ypos="1.565976" zpos="328.3217"  GUID="oWXdIqNZqUC2IZMKLZfe3Q==" type="HMP.openWorld.hearts.1555_EH_1"/>
-    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533"  GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.openWorld.hearts.1555_EH_1"/>
+    <POI MapID="1554" xpos="704.3544" ypos="4.498551" zpos="158.7533"  GUID="XaeLjmoE6EikRau7i0ISpw==" type="HMP.openWorld.hearts.1555_EH_1"/> -->
     <!-- Fires (Respawn on map reload) -->
     <POI MapID="1554" xpos="192.0655" ypos="5.026712" zpos="385.607"   GUID="iUWRBelq4EmZ/JvZK5+r3w==" type="HMP.openWorld.hearts.1555_EH_2"/>
     <POI MapID="1554" xpos="195.5457" ypos="5.839172" zpos="382.0966"  GUID="Hzsx+I0NgkKc9RenDw98Tw==" type="HMP.openWorld.hearts.1555_EH_2"/>

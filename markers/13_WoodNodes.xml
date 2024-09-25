@@ -1,7 +1,7 @@
 <OverlayData>
   <MarkerCategory name="HMP"               DisplayName="Hero's Pack">
     <MarkerCategory name="openWorld"       DisplayName="Open World">
-      <MarkerCategory name="lumber"        DisplayName="Refined Lumber Farms" autoTrigger="0" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="lumber"        DisplayName="Refined Lumber Farms" autoTrigger="1" behavior="1" fadeFar="4000" fadeNear="3750" heightOffset="2.5" iconSize="1" triggerRange="15" miniMapVisibility="0" mapVisibility="0">
         <MarkerCategory name="green"       DisplayName="Green Wood Logs"    iconFile="Assets/OpenWorld/Logging/Green Wood Log1.png"/>
         <MarkerCategory name="soft"        DisplayName="Soft Wood Logs"     iconFile="Assets/OpenWorld/Logging/Soft Wood Log1.png"/>
         <MarkerCategory name="seasoned"    DisplayName="Seasoned Wood Logs" iconFile="Assets/OpenWorld/Logging/Seasoned Wood Log1.png"/>
@@ -20,7 +20,7 @@
     <!-- ==================== Soft Wood Log ==================== -->
     
     <!-- ==================== Seasoned Wood Log ==================== -->
-    <!-- Blazeridge Steppes -->
+    <!-- Blazeridge Steppes 
     <POI MapID="20" xpos="210.6158" ypos="27.43633" zpos="743.3677" GUID="irQ0kFKMd0+qu4gf0lrpXA==" type="HMP.openWorld.lumber.seasoned"/>
     <POI MapID="20" xpos="-154.383" ypos="28.41658" zpos="1062.535" GUID="cTUrEPHEFEegD4GM9soNKA==" type="HMP.openWorld.lumber.seasoned"/>
     <POI MapID="20" xpos="-177.180" ypos="28.182"   zpos="1046.726" GUID="qADaLvWn606S9e2+IVOzFA==" type="HMP.openWorld.lumber.seasoned"/>
@@ -76,7 +76,7 @@
     <POI MapID="20" xpos="406.7238" ypos="82.02296" zpos="-171.693" GUID="utdBPO4CckKrykIiYjaUvw==" type="HMP.openWorld.lumber.seasoned"/>
     <POI MapID="20" xpos="299.6291" ypos="76.01483" zpos="-94.6724" GUID="2VXL7eOpDEKYFzNCEqxh5Q==" type="HMP.openWorld.lumber.seasoned"/>
     <POI MapID="20" xpos="202.1317" ypos="65.84496" zpos="-82.4099" GUID="gqFSWFuZ3kW8V7hNdo1a0A==" type="HMP.openWorld.lumber.seasoned"/>
-    <POI MapID="20" xpos="83.70422" ypos="65.34029" zpos="5.664657" GUID="xOa+yeuvS0KMQfbSrqYTTQ==" type="HMP.openWorld.lumber.seasoned"/>
+    <POI MapID="20" xpos="83.70422" ypos="65.34029" zpos="5.664657" GUID="xOa+yeuvS0KMQfbSrqYTTQ==" type="HMP.openWorld.lumber.seasoned"/> -->
     
     <!-- ==================== Hard Wood Log ==================== -->
     
