@@ -217,6 +217,15 @@
     <POI MapID="1554" xpos="472.8815"  ypos="52.22828" zpos="569.6182"  GUID="Nv8IVsrZCkywZHHUY7ld7g==" type="HMP.openWorld.harvesting.raspberry"/>
     <POI MapID="1554" xpos="723.1112"  ypos="5.024563" zpos="-434.5739" GUID="S/569+fn+kSNPhRjcBReOw==" type="HMP.openWorld.harvesting.raspberry"/>
     <POI MapID="1554" xpos="727.8809"  ypos="0.250927" zpos="-570.0541" GUID="v8kCTlpo6kyPNUgtBcNh0w==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="673.5906"  ypos="0.204108" zpos="-578.0849" GUID="v3i/lIjnJk2HLLA8x/D6lw==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="288.8628"  ypos="2.760845" zpos="-426.6113" GUID="XH9ymepY/k2h0xbcyv0vmg==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="-550.4123" ypos="8.945657" zpos="-528.8903" GUID="gC51NMM+00iGFHAM0nyNEA==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="-692.6107" ypos="87.59006" zpos="38.05318"  GUID="lJm1lG2oy0av5bu+q1Bv3A==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="-594.4445" ypos="78.46796" zpos="-124.4053" GUID="Z2DHo8y4qUKkXJidQ8dJ4w==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="226.6878"  ypos="4.010035" zpos="495.8674"  GUID="6KSS6mSzd0KcU+f3VlLVDg==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="156.4356"  ypos="3.183527" zpos="588.0744"  GUID="YuFi8yjpGEuaBeej/q9P5Q==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="-365.7487" ypos="41.62653" zpos="-724.546"  GUID="wSh+HSuvGUuxnnPnEGpbsw==" type="HMP.openWorld.harvesting.raspberry"/>
+    <POI MapID="1554" xpos="-576.3106" ypos="93.32153" zpos="-90.41511" GUID="GBX1gu8szE6G7595gqSq9g==" type="HMP.openWorld.harvesting.raspberry"/>
     
     <!-- ==================== Saffron Thread ==================== -->
     <!-- Jahai Bluffs, Black Crocus 
@@ -386,6 +395,8 @@
     <!-- <POI MapID="1554" xpos="591.3117" ypos="-0.42058" zpos="-563.8797" GUID="OTXhjPHzK0i7p75OoyErGA==" type="HMP.openWorld.harvesting.verdantHerbs" MapDisplaySize="36" iconFile="MyStuff/Herbs.png" minimapVisibility="1"/> -->
     <POI MapID="1554" xpos="602.7027" ypos="1.674676" zpos="-454.9265" GUID="gsawGF91vkOAmrTm02y7Dg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="1554" xpos="634.7682" ypos="2.780002" zpos="-328.9979" GUID="kDAbgDc3jE+rqppZ9mxqsw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1554" xpos="-155.618" ypos="8.564018" zpos="-436.0085" GUID="/kWZp7e+v0KwSa3NO/KL6Q==" type="HMP.openWorld.harvesting.verdantHerbs"/>
+    <POI MapID="1554" xpos="141.8829" ypos="1.481393" zpos="-229.2862" GUID="BCjaGtH8Zk+K+yhbkRUjyQ==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <!-- Queensdale, Herb Patch -->
     <POI MapID="15"   xpos="863.4767" ypos="22.03006" zpos="214.5439"  GUID="SJ0AHv6IkUOvFkdQNw2Abg==" type="HMP.openWorld.harvesting.verdantHerbs"/>
     <POI MapID="15"   xpos="875.442"  ypos="21.90906" zpos="253.188"   GUID="s5HZYNN4B0KaXEuL432FEw==" type="HMP.openWorld.harvesting.verdantHerbs"/>
