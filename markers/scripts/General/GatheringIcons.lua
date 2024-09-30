@@ -22,6 +22,8 @@ local function AddTexture(marker)
       marker:SetTexture("Assets/OpenWorld/Mining/Charged Titan.png")
     elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.rottedAmber").Namespace) then
       marker:SetTexture("Assets/OpenWorld/Mining/Rotted Amber.png")
+    elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.combo").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Circle.png")
     else
       marker:SetTexture("Assets/OpenWorld/Mining/Ores.png")
     end
@@ -64,4 +66,7 @@ local function MakeMinimapMarkers()
   end
 end
 
+while(gIcons.Markers[1].Position.X == nil) do
+
+end
 MakeMinimapMarkers()
