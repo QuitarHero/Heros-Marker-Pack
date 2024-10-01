@@ -128,17 +128,13 @@
     <!-- Charged Titan Ore -->
     <POI MapID="1554" xpos="570.5486"  ypos="21.94152" zpos="-254.6588" GUID="DUe6Stvuc0OYZII4xr++KA==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="452.771"   ypos="23.87681" zpos="231.2442"  GUID="Kj/uoZHXdEy6K0GpP4v24w==" type="HMP.openWorld.mining.chargedTitan"/>
-    <POI MapID="1554" xpos="387.0173"  ypos="40.34443" zpos="425.4719"  GUID="ZS5bj2nbaUW2sfvs2mjNTw==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-572.6744" ypos="33.01495" zpos="-423.9565" GUID="W2ybREKTNEWk5uZy5a4a+g==" type="HMP.openWorld.mining.chargedTitan"/>
-    <POI MapID="1554" xpos="-382.6343" ypos="51.07275" zpos="-281.1087" GUID="s/68MdRJYkKS34zFm3nkkA==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-60.02871" ypos="30.5251"  zpos="-43.87243" GUID="zx+Xn7o0M0e/NhHtaeDqjA==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-759.1744" ypos="79.2569"  zpos="672.8514"  GUID="kz8LIgi+W0ShC7S6RiB9jA==" type="HMP.openWorld.mining.chargedTitan"/>
-    <POI MapID="1554" xpos="905.6054"  ypos="45.38458" zpos="-501.0882" GUID="0caSBp4nBUOuipbYEGg3RA==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="576.5703"  ypos="5.424931" zpos="-109.5804" GUID="Z9eVHWsFxEegoeqNG+sufQ==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="176.0348"  ypos="3.105452" zpos="361.7281"  GUID="dv6PXH/ncU6ilCHOua7FMA==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="226.1714"  ypos="5.006988" zpos="674.2101"  GUID="SytvD6djZki5wX2uvKYB0w==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-688.9141" ypos="55.44178" zpos="377.2702"  GUID="imNfbb84aE2Trt5LhaS7Bw==" type="HMP.openWorld.mining.chargedTitan"/>
-    <POI MapID="1554" xpos="-601.289"  ypos="37.68895" zpos="497.9755"  GUID="UXsnRhCkkkmPNXerEzfo0w==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="655.5546"  ypos="2.61394"  zpos="-528.9487" GUID="03tYlyF9EUiM8L52IlAnkg==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="408.64"    ypos="2.049253" zpos="432.1358"  GUID="1jVAbHmuMkmHQAgLvc3AuQ==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-784.275"  ypos="68.85497" zpos="-485.4734" GUID="96EoznIgsUmSX7caSgL7Rg==" type="HMP.openWorld.mining.chargedTitan"/>
@@ -148,6 +144,14 @@
     <POI MapID="1554" xpos="-713.7617" ypos="19.78808" zpos="-620.083"  GUID="2XmDIHxJD0CXXcqM+HuAvg==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-395.8982" ypos="57.35188" zpos="-127.7641" GUID="CEjoA1azmUi/caqz60jykQ==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-197.2091" ypos="58.19879" zpos="98.29078"  GUID="49QDbtFUr0+f5TfZYhU+kQ==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-37.41816" ypos="21.47968" zpos="-68.93427" GUID="3au57sf6QE+rXci+yCpQYg==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-243.547"  ypos="10.78249" zpos="-120.9538" GUID="J05xgjXdA02tPjSLFm85aw==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-728.8701" ypos="46.99035" zpos="-394.2885" GUID="0ljgqVgCjk6gtSVrLREM2g==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-539.5816" ypos="41.66638" zpos="454.5517"  GUID="pOCTFEskYUucFu0gZeaU0Q==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="590.0001"  ypos="2.773098" zpos="271.3386"  GUID="sBARPau/ZUGW+re9KUekPA==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="565.6785"  ypos="48.08474" zpos="420.7681"  GUID="FdYwHhsI6UyjoWGhpROXSg==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-570.0024" ypos="33.03695" zpos="-451.4416" GUID="+D1Em7+S0UybLfH3AJF27g==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-109.4708" ypos="1.542909" zpos="-186.6886" GUID="BJMvg3u1TE2qgxB5vYDtng==" type="HMP.openWorld.mining.chargedTitan"/>
     <!-- Rotten Titan Amber -->
     <POI MapID="1554" xpos="391.8655"  ypos="6.966297" zpos="-71.00639" GUID="+a3X57FEPEeo1G7U+G6ouQ==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="344.2864"  ypos="15.39189" zpos="443.9922"  GUID="D4pmgJ33b0mLjPIxLjJ8Jg==" type="HMP.openWorld.mining.rottedAmber"/>
@@ -159,13 +163,15 @@
     <POI MapID="1554" xpos="550.7458"  ypos="8.545371" zpos="370.3947"  GUID="dvJZyfdrBEuzcQW4ESu0yA==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-757.6425" ypos="57.41516" zpos="-442.1578" GUID="h/p8GCkv3kez+fsMz2em1Q==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-290.3864" ypos="32.54355" zpos="-283.3655" GUID="Xv5JRyjbb0iGRFMbipNLwQ==" type="HMP.openWorld.mining.rottedAmber"/>
-    <POI MapID="1554" xpos="-775.0416" ypos="45.59343" zpos="408.9956"  GUID="/fiLBSse30aZXwQukuY3Fw==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="807.523"   ypos="17.55998" zpos="-484.7695" GUID="tuy7BRiQBk2fu3n0qZP95A==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="181.6248"  ypos="22.30702" zpos="-640.3408" GUID="nJFXV7VKjkilc2IoyQmQkw==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-638.3633" ypos="64.52749" zpos="-633.6094" GUID="4WMLfFG5xEe41OpCYa5FqQ==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-760.7892" ypos="15.46559" zpos="-613.2807" GUID="UR4OiSe1e0KlJbCpbnSnlQ==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-699.3839" ypos="50.36129" zpos="-340.9743" GUID="w8RseS+NyEuMEkOxKqua8w==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-761.5758" ypos="46.98691" zpos="530.0081"  GUID="f+ldjNPbCUuUraaNq9v31g==" type="HMP.openWorld.mining.rottedAmber"/>
+    <POI MapID="1554" xpos="-85.82758" ypos="1.348537" zpos="-151.5418" GUID="7ygXQeeKF06J6SHeGmVDZg==" type="HMP.openWorld.mining.rottedAmber"/>
+    <POI MapID="1554" xpos="-643.936"  ypos="52.1741"  zpos="-596.2742" GUID="P5WSutiYD0iZPGC8ipV+RA==" type="HMP.openWorld.mining.rottedAmber"/>
+    <POI MapID="1554" xpos="319.4102"  ypos="5.650261" zpos="501.3996"  GUID="rtjo2OYT7kChtVh/Wq6nbg==" type="HMP.openWorld.mining.rottedAmber"/>
 
     <!-- Both Charged Ore and Rotted Amber -->
     <POI MapID="1554" xpos="308.5758"  ypos="13.23028" zpos="178.372"   GUID="dKrJv5921kusNiFWabWuQA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
@@ -175,8 +181,9 @@
     <POI MapID="1554" xpos="-575.783"  ypos="37.81778" zpos="284.7103"  GUID="qqFMoEilXkyYjOKTTAYuxw==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
     <POI MapID="1554" xpos="363.7146"  ypos="3.941204" zpos="162.2663"  GUID="W3lhU77TgUWA+9TOPuXkxA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
     <POI MapID="1554" xpos="-474.3948" ypos="104.6435" zpos="-163.6462" GUID="FEHKqCZf1Eq3nEfjVXyKoA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
-    
-    
+    <POI MapID="1554" xpos="-382.6343" ypos="51.07275" zpos="-281.1087" GUID="s/68MdRJYkKS34zFm3nkkA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
+    <POI MapID="1554" xpos="387.0173"  ypos="40.34443" zpos="425.4719"  GUID="ZS5bj2nbaUW2sfvs2mjNTw==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
+    <POI MapID="1554" xpos="-729.4947" ypos="79.68127" zpos="730.4912"  GUID="8mbSeCejtUC61owAMED7gg==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
     
     <!-- Either Charged Ore and/or Rotted Amber and/or Mithril Ore -->
     <POI MapID="1554" xpos="628.3376"  ypos="4.355731" zpos="-447.4961" GUID="IHhNjIVGOkOsPSwsktU27A==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
@@ -198,8 +205,9 @@
     <POI MapID="1554" xpos="-741.0943" ypos="43.99356" zpos="654.1489"  GUID="nGJgxw5zJUqv8cwwRh5NVQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     <POI MapID="1554" xpos="-499.3004" ypos="75.14594" zpos="-273.9096" GUID="+E93WsIJ7kmjMAsl60ooew==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     <POI MapID="1554" xpos="-186.8009" ypos="6.47544"  zpos="-226.9789" GUID="9uvvQy35f0udAKnsbmslzQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
-    
-    
+    <POI MapID="1554" xpos="-775.0416" ypos="45.59343" zpos="408.9956"  GUID="/fiLBSse30aZXwQukuY3Fw==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
+    <POI MapID="1554" xpos="905.6054"  ypos="45.38458" zpos="-501.0882" GUID="0caSBp4nBUOuipbYEGg3RA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
+    <POI MapID="1554" xpos="-601.289"  ypos="37.68895" zpos="497.9755"  GUID="UXsnRhCkkkmPNXerEzfo0w==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     
   </POIs>
 </OverlayData>
