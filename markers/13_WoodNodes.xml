@@ -108,7 +108,6 @@
     <POI MapID="1554" xpos="136.4208"  ypos="22.10718" zpos="-567.0292" GUID="BM//0jHUt0ypJeFSgkJe3A==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="316.3571"  ypos="17.94412" zpos="-50.77505" GUID="st33+Y/K4UKve/z6m5614w==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="426.7789"  ypos="20.94173" zpos="295.3466"  GUID="gTpzgSoDUk+gd+QYjDnRrg==" type="HMP.openWorld.lumber.ancient"/>
-    <POI MapID="1554" xpos="522.6788"  ypos="7.0213"   zpos="282.7419"  GUID="u1x9MFlf/0mEOiAbJwiI2g==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="0.7460126" ypos="32.24022" zpos="-696.9755" GUID="iOYIB8XwZEe5abFmPKLIAQ==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="-428.132"  ypos="6.801929" zpos="-588.3328" GUID="W0rqFGyaCkm1AdJ82aMGyg==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="-636.0274" ypos="43.42905" zpos="422.7378"  GUID="YVx1GAGKvE6cMHZnEJoW6Q==" type="HMP.openWorld.lumber.ancient"/>
@@ -117,6 +116,10 @@
     <POI MapID="1554" xpos="-530.6656" ypos="24.77089" zpos="-685.7407" GUID="U0DZc76F+ESOZKhByWa6IA==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="67.23632"  ypos="49.84831" zpos="-693.1211" GUID="pwF2xK0tx02iu6x1OypV2Q==" type="HMP.openWorld.lumber.ancient"/>
     <POI MapID="1554" xpos="251.8635"  ypos="9.298011" zpos="-37.88358" GUID="CKwvly9omEyQpzXEC+vzdA==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-13.99642" ypos="43.50741" zpos="-576.3102" GUID="vEPfBeI68ku6lEuvSzJd+w==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-341.1207" ypos="36.93104" zpos="-421.7832" GUID="eY5mEhzyt0GzX+wWy1R1Dw==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-59.40551" ypos="50.64178" zpos="-349.4396" GUID="y4Tb9Dw6s0eQyHqShiT6EA==" type="HMP.openWorld.lumber.ancient"/>
+    <POI MapID="1554" xpos="-349.2583" ypos="58.14367" zpos="537.7917"  GUID="C/oibm2NxEukAPiSbDxj2Q==" type="HMP.openWorld.lumber.ancient"/>
     <!-- Janthir Syntri | Ancient or Elder Wood -->
     <POI MapID="1554" xpos="231.7691"  ypos="3.934899" zpos="303.3879"  GUID="s3ZGbaQcJ0yieJdcBTdSYg==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="216.06"    ypos="3.18781"  zpos="462.8142"  GUID="vwW9he1ZikGWuKzjX/vupQ==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
@@ -125,6 +128,7 @@
     <POI MapID="1554" xpos="-21.77063" ypos="46.85013" zpos="-776.1907" GUID="3TByOBTCR0itpjLzLyuC9w==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="495.261"   ypos="29.99435" zpos="76.80791"  GUID="NxoLTGHsaECiCPWhE2wlOw==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="282.024"   ypos="45.39345" zpos="399.6136"  GUID="5/gQpXiysEWYri29136mGg==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <POI MapID="1554" xpos="522.6788"  ypos="7.0213"   zpos="282.7419"  GUID="u1x9MFlf/0mEOiAbJwiI2g==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     
     <!-- ==================== Lowland Pine Log ==================== -->
     <!-- Lowland Pine OR Elder Wood -->
