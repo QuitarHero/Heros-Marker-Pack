@@ -26,14 +26,15 @@
   <POIs>
     <!-- ========== Lowland Shore Gathering & Heart Route ========== -->
     <!-- Start of Gathering & Heart Trail -->
-    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="Ag+F9EZWuUm3wbT1K+qJnQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/1550-Lowland_Shore/Start Board.png"  cull="CounterClockwise" iconSize="2.5" rotate="110,0,39"            minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="Ag+F9EZWuUm3wbT1K+qJnQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/1550-Lowland_Shore/Start Board.png"  cull="CounterClockwise" iconSize="2.5" rotate="110,0,39"       minimapVisibility="0" mapVisibility="0"/>
     <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="ZTyFHdwDOkmKbjHl4h7AQw==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_M" minimapVisibility="0" mapVisibility="0"/>
     <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="kZfk50KAr0GKi86NmoaMyg==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1550_T" minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="aEw8/4ed00mb3Q6T9tqIQQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/WarclawRoute.png"               MapDisplaySize="36" tip-description="Lowland Shore Warclaw Route"   inGameVisibility="0"/>
+    <POI MapID="1550" xpos="-124.237"  ypos="89.3864"  zpos="191.034"   GUID="aEw8/4ed00mb3Q6T9tqIQQ==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/WarclawRouteStart.png"          MapDisplaySize="36" tip-description="Warclaw Gathering Route Start" inGameVisibility="0"/>
     <!-- End of Gathering & Heart Trail -->
     <POI MapID="1550" xpos="-293.03"   ypos="184.4105" zpos="398.569"   GUID="tcaMAmUvFEuL+f7SggeeIw==" type="HMP.openWorld.route"  iconFile="Assets/OpenWorld/1550-Lowland_Shore/Finish Board.png" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="3" rotate="110,0,210" minimapVisibility="0" mapVisibility="0"/>
     <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437"  GUID="W3JuB2Z2DkOB06qsF7UBtQ==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1550_M" minimapVisibility="0" mapVisibility="0"/>
     <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437"  GUID="7cvOqy39X0uztoGmKdcJ1Q==" type="HMP.openWorld.route"  iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1550_T" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-292.0076" ypos="187.6271" zpos="386.2437"  GUID="biTorVREUkqNxiqL3dj3ng==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/WarclawRouteEnd.png"      MapDisplaySize="50" tip-description="Warclaw Gathering Route End"   inGameVisibility="0"  minimapVisibility="1" mapVisibility="1"/>
     <!-- Markers -->
     <POI MapID="1550" xpos="-173.7054" ypos="104.8463" zpos="429.763"   GUID="oEPDl9A0mUim9bxVhvaECw==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
     <POI MapID="1550" xpos="-252.042"  ypos="59.54998" zpos="363.6621"  GUID="hXJg/MQE6EKHdEOl/qu1jg==" type="HMP.openWorld.route.1550_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
@@ -118,41 +119,56 @@
     <Trail trailData="Assets/OpenWorld/1550-Lowland_Shore/ValravenCredit.trl"  type="HMP.openWorld.others.1550_1" color="ffe626" texture="Assets/Boundary/WhiteLine.png"/>
     
     <!-- ========== Janthir Syntri Gathering Route ========== -->
+    <!-- Start of Gathering & Heart Trail -->
+    <POI MapID="1554" xpos="705.759"  ypos="19.9888"  zpos="-695.793"  GUID="t3Db7XbiwkCti9h2PI8WlQ==" type="HMP.openWorld.route"        iconFile="Assets/OpenWorld/1554-Janthir_Syntri/Start Board.png" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="2.75" rotate="102,0,65"      minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1554" xpos="705.759"  ypos="19.9888"  zpos="-695.793"  GUID="OCXNXYJJc0+iBDWoScWT5w==" type="HMP.openWorld.route"        iconFile="Assets/General/empty.png"                        triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1554_M" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1554" xpos="705.759"  ypos="19.9888"  zpos="-695.793"  GUID="Qp7yG2LX7EmvKIKomHVa5g==" type="HMP.openWorld.route"        iconFile="Assets/General/empty.png"                        triggerRange="20" autoTrigger="0" show="HMP.openWorld.route.1554_T" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1554" xpos="705.759"  ypos="19.9888"  zpos="-695.793"  GUID="xTVk/bPGQESI4cI9Tfvzzg==" type="HMP.openWorld.route"        iconFile="Assets/OpenWorld/WarclawRouteStart.png"          MapDisplaySize="36" tip-description="Warclaw Gathering Route Start" inGameVisibility="0"/>
+    <!-- End of Gathering & Heart Trail -->
+    <POI MapID="1554" xpos="-562.496" ypos="43.6647"  zpos="278.523"   GUID="tcaMAmUvFEuL+f7SggeeIw==" type="HMP.openWorld.route"        iconFile="Assets/OpenWorld/1554-Janthir_Syntri/Finish Board.png" cull="CounterClockwise" fadeFar="2500" fadeNear="2250" iconSize="3" rotate="100,0,50" minimapVisibility="0" mapVisibility="0"/>    
+    <POI MapID="1554" xpos="-562.496" ypos="43.6647"  zpos="278.523"   GUID="dgRIpP2h4Ui9KKoS7SBCiw==" type="HMP.openWorld.route"        iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1554_M" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1554" xpos="-562.496" ypos="43.6647"  zpos="278.523"   GUID="BhWPyqt0vkSq95HvyeIzMQ==" type="HMP.openWorld.route"        iconFile="Assets/General/empty.png"                        triggerRange="25" autoTrigger="1" hide="HMP.openWorld.route.1554_T" minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1554" xpos="-562.496" ypos="43.6647"  zpos="278.523"   GUID="Sc6/WUbyy0yz3EAJYcqzVQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/WarclawRouteEnd.png"      MapDisplaySize="50" tip-description="Warclaw Gathering Route End"   inGameVisibility="0"  minimapVisibility="1" mapVisibility="1"/>
     <!-- Markers -->
-    <POI MapID="1554" xpos="840.3846" ypos="24.99716" zpos="-453.146"  GUID="qfY+7rmF8kOmyTwS4fzCoA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="270.8039" ypos="39.81392" zpos="71.87445"  GUID="CBWSc2QbU0+FrFtobWieoQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="575.15"   ypos="21.19108" zpos="-256.8383" GUID="bFCpRWT8jEaCymF1R+gcrQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="552.0628" ypos="27.69188" zpos="480.9768"  GUID="9s3zShlCjkuUBJHiqTyzjg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="558.4473" ypos="43.86456" zpos="424.457"   GUID="5U6tPRawnEiyYNNJ17Ddew==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="515.9946" ypos="45.78555" zpos="488.2087"  GUID="S3M846iI802Rnz45UPinhQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="166.4225" ypos="-0.70162" zpos="419.3762"  GUID="TrYsW0mV3UqZr9O8rmTdmg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="93.4674"  ypos="24.55364" zpos="487.6015"  GUID="wULWhtYDhEK1hUCO/c6kUA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="33.49893" ypos="75.13046" zpos="559.6157"  GUID="bEsudXB9e06o1+vsoH1VZQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-6.89199" ypos="84.48761" zpos="682.2214"  GUID="ZdKmF/Kj30WVCpadKrJlrA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-25.3996" ypos="79.34347" zpos="775.5514"  GUID="XTroNCZBGUeVs9gU7DADFA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="254.6418" ypos="8.466026" zpos="-587.3925" GUID="bOtbThUaRk6/zs7MUDdbdg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-151.161" ypos="45.53132" zpos="-764.5225" GUID="M/7HhAxcAEKtcsi9eEpfMQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-333.565" ypos="39.94675" zpos="-566.7042" GUID="KMMV4IzYvkS1dTlsvR+hwg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-675.786" ypos="41.83405" zpos="-358.2365" GUID="XhcIYLr6wUGvjVTdxTagvg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-586.017" ypos="33.30802" zpos="-614.7885" GUID="dr123tyF9k28ZrdcoJ8oQA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-704.809" ypos="18.88974" zpos="-606.6435" GUID="dT3L2erq606QNAR4TslRpw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-588.962" ypos="78.24264" zpos="-118.3345" GUID="QF2cIGFUoUeMJ+SjyfCQcQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-527.487" ypos="93.50683" zpos="-103.9717" GUID="z9scCfRXvEuzjSzRpXKCjg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-136.763" ypos="22.86607" zpos="-492.2999" GUID="Kqt1QtQl0Uiacd2ukAEjew==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-1.55379" ypos="45.60733" zpos="-444.3633" GUID="k8MUZ7lNU0ukjJuI0jUyBA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="21.9353"  ypos="49.38011" zpos="-387.5394" GUID="NKMn8Wvk00WwrqRFb5CzIw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="99.4489"  ypos="6.176402" zpos="-191.4124" GUID="T1RrIB6vHE+LIxYV1ba86Q==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="26.75098" ypos="11.59685" zpos="-125.121"  GUID="xkdYcrlXtEex1/m5O4Dmww==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-43.3607" ypos="19.81176" zpos="-75.87568" GUID="V0GIweyOjkqWzXqrCh4Q0Q==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-126.417" ypos="79.40526" zpos="141.6675"  GUID="g1uG3syNoUezQpwBjE43IQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-272.774" ypos="29.30681" zpos="-177.2258" GUID="dzeSUQBy8Em1oSpVnxDMbw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-316.487" ypos="31.25124" zpos="-229.7107" GUID="XsttxRca/0yf+F7pRYVm6Q==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-350.240" ypos="42.41951" zpos="-225.4748" GUID="QpT2Sq+HkUiC+CzEqE0nIw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-412.472" ypos="72.01807" zpos="-188.5944" GUID="RooWbBnuSUyN5I+7le2NQQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-338.557" ypos="112.2176" zpos="107.8659"  GUID="yloFrryJSEWf9i4U77nspg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-320.678" ypos="119.5053" zpos="128.4697"  GUID="fUpmkMUs60SP/w1FIoYydw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-274.3651" ypos="63.26214" zpos="639.0032" GUID="g1OHV3n9aEqgRqpfb8Peag==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump4.png"      iconSize="0.6"/>
-    <POI MapID="1554" xpos="-628.5562" ypos="37.36906" zpos="302.7269" GUID="QTh8XkuJ9UuX0bYfDXjBFw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png"      iconSize="0.6"/>
+    <POI MapID="1554" xpos="840.3846" ypos="24.99716" zpos="-453.146"  GUID="qfY+7rmF8kOmyTwS4fzCoA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="270.8039" ypos="39.81392" zpos="71.87445"  GUID="CBWSc2QbU0+FrFtobWieoQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="575.15"   ypos="21.19108" zpos="-256.8383" GUID="bFCpRWT8jEaCymF1R+gcrQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="552.0628" ypos="27.69188" zpos="480.9768"  GUID="9s3zShlCjkuUBJHiqTyzjg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="558.4473" ypos="43.86456" zpos="424.457"   GUID="5U6tPRawnEiyYNNJ17Ddew==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="515.9946" ypos="45.78555" zpos="488.2087"  GUID="S3M846iI802Rnz45UPinhQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="166.4225" ypos="-0.70162" zpos="419.3762"  GUID="TrYsW0mV3UqZr9O8rmTdmg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="93.4674"  ypos="24.55364" zpos="487.6015"  GUID="wULWhtYDhEK1hUCO/c6kUA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="33.49893" ypos="75.13046" zpos="559.6157"  GUID="bEsudXB9e06o1+vsoH1VZQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-6.89199" ypos="84.48761" zpos="682.2214"  GUID="ZdKmF/Kj30WVCpadKrJlrA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-25.3996" ypos="79.34347" zpos="775.5514"  GUID="XTroNCZBGUeVs9gU7DADFA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="254.6418" ypos="8.466026" zpos="-587.3925" GUID="bOtbThUaRk6/zs7MUDdbdg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-151.161" ypos="45.53132" zpos="-764.5225" GUID="M/7HhAxcAEKtcsi9eEpfMQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-333.565" ypos="39.94675" zpos="-566.7042" GUID="KMMV4IzYvkS1dTlsvR+hwg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-675.786" ypos="41.83405" zpos="-358.2365" GUID="XhcIYLr6wUGvjVTdxTagvg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-586.017" ypos="33.30802" zpos="-614.7885" GUID="dr123tyF9k28ZrdcoJ8oQA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-704.809" ypos="18.88974" zpos="-606.6435" GUID="dT3L2erq606QNAR4TslRpw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-588.962" ypos="78.24264" zpos="-118.3345" GUID="QF2cIGFUoUeMJ+SjyfCQcQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-527.487" ypos="93.50683" zpos="-103.9717" GUID="z9scCfRXvEuzjSzRpXKCjg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-136.763" ypos="22.86607" zpos="-492.2999" GUID="Kqt1QtQl0Uiacd2ukAEjew==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-1.55379" ypos="45.60733" zpos="-444.3633" GUID="k8MUZ7lNU0ukjJuI0jUyBA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="21.9353"  ypos="49.38011" zpos="-387.5394" GUID="NKMn8Wvk00WwrqRFb5CzIw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="99.4489"  ypos="6.176402" zpos="-191.4124" GUID="T1RrIB6vHE+LIxYV1ba86Q==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="26.75098" ypos="11.59685" zpos="-125.121"  GUID="xkdYcrlXtEex1/m5O4Dmww==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-43.3607" ypos="19.81176" zpos="-75.87568" GUID="V0GIweyOjkqWzXqrCh4Q0Q==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-126.417" ypos="79.40526" zpos="141.6675"  GUID="g1uG3syNoUezQpwBjE43IQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-272.774" ypos="29.30681" zpos="-177.2258" GUID="dzeSUQBy8Em1oSpVnxDMbw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-316.487" ypos="31.25124" zpos="-229.7107" GUID="XsttxRca/0yf+F7pRYVm6Q==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-350.240" ypos="42.41951" zpos="-225.4748" GUID="QpT2Sq+HkUiC+CzEqE0nIw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump3.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-412.472" ypos="72.01807" zpos="-188.5944" GUID="RooWbBnuSUyN5I+7le2NQQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-338.557" ypos="112.2176" zpos="107.8659"  GUID="yloFrryJSEWf9i4U77nspg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-320.678" ypos="119.5053" zpos="128.4697"  GUID="fUpmkMUs60SP/w1FIoYydw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump4.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-274.365" ypos="63.26214" zpos="639.0032"  GUID="g1OHV3n9aEqgRqpfb8Peag==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump4.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-628.556" ypos="37.36906" zpos="302.7269"  GUID="QTh8XkuJ9UuX0bYfDXjBFw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <!-- Leaning Tower MKC Markers -->
+    <POI MapID="1554" xpos="-473.783" ypos="139.7747" zpos="-97.86657" GUID="o1ijWkkEck6I6EAj3vjlMw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1"/>
+    <POI MapID="1554" xpos="-492.122" ypos="132.6243" zpos="-86.01659" GUID="9KXrLovV40OkcGbxmKNWXw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1"/>
+    <POI MapID="1554" xpos="-512.808" ypos="125.0239" zpos="-73.95197" GUID="ORqVhufMHkCG34xtQgqfZg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1"/>
+    <POI MapID="1554" xpos="-534.564" ypos="117.7237" zpos="-62.19022" GUID="6rulaMUG5EmZBdjP6lOtyA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1"/>
     <!-- Trails -->
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/0_MainTrail.trl"     type="HMP.openWorld.route.1554_T"  color="3fd43f"                                     trailScale="1"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/0_MainTrail.trl"     type="HMP.openWorld.route.1554_T"                 texture="Assets/OpenWorld/star.png" trailScale="1"/>
