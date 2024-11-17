@@ -176,6 +176,7 @@
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/1.4_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Herb1.trl"           type="HMP.openWorld.route.1554_T"  color="60ab4f" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Herb2.trl"           type="HMP.openWorld.route.1554_T"  color="60ab4f"/>
+    
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/3.2_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/2.4_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore1.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995"/>
@@ -187,8 +188,10 @@
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore2.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/4.4_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore3.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    
+    <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/10.4_MKC.trl"        type="HMP.openWorld.route.1554_T"  color="c9c9c9"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/10.3_MKC.trl"        type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
-    <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/10.2_MKC.trl"        type="HMP.openWorld.route.1554_T"  color="c9c9c9"/>
+    <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/10.2_MKC.trl"        type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/9.2_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/9.1_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore4.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
@@ -198,11 +201,13 @@
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore5.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Herb6.trl"           type="HMP.openWorld.route.1554_T"  color="60ab4f" texture="Assets/OpenWorld/DoubleArrow.png"/>    
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/6.2_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/5.1-5.2_MKC.trl"     type="HMP.openWorld.route.1554_T"  color="c9c9c9" alpha="0.35"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore6.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore7.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/5.4_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore8.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    
     
     <!-- =========================================================================== JANTHIR WILDS REPEATABLE HEARTS =========================================================================== -->
     <!-- ========== Lowland Shore ========== -->
