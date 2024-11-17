@@ -142,6 +142,7 @@
     <POI MapID="1554" xpos="897.0365"  ypos="15.05535" zpos="-171.5549" GUID="VXkaAU90CUaE8dixsOPl0Q==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-714.9526" ypos="1.801243" zpos="-502.3462" GUID="bGOUzj0HB0mCw/oMdttkxQ==" type="HMP.openWorld.mining.chargedTitan"/>
     <POI MapID="1554" xpos="-449.1709" ypos="68.87299" zpos="23.33591"  GUID="m1FGoWBw9UqYw9QFSz+T/Q==" type="HMP.openWorld.mining.chargedTitan"/>
+    <POI MapID="1554" xpos="-319.5092" ypos="50.91113" zpos="-351.9829" GUID="QDKEgDlVKU6DfJWicJLpAA==" type="HMP.openWorld.mining.chargedTitan"/>
     
     <!-- Rotten Titan Amber -->
     <POI MapID="1554" xpos="391.8655"  ypos="6.966297" zpos="-71.00639" GUID="+a3X57FEPEeo1G7U+G6ouQ==" type="HMP.openWorld.mining.rottedAmber"/>
