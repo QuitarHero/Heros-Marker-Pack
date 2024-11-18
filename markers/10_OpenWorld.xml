@@ -203,7 +203,6 @@
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Herb6.trl"           type="HMP.openWorld.route.1554_T"  color="60ab4f" texture="Assets/OpenWorld/DoubleArrow.png"/>    
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/6.2_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     
-    <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/5.1-5.2_MKC.trl"     type="HMP.openWorld.route.1554_T"  color="c9c9c9" alpha="0.35"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore6.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore7.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/5.4_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9"/>
