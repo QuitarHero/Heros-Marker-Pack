@@ -164,11 +164,20 @@
     <POI MapID="1554" xpos="-320.678" ypos="119.5053" zpos="128.4697"  GUID="fUpmkMUs60SP/w1FIoYydw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump4.png" iconSize="0.6"/>
     <POI MapID="1554" xpos="-274.365" ypos="63.26214" zpos="639.0032"  GUID="g1OHV3n9aEqgRqpfb8Peag==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump4.png" iconSize="0.6"/>
     <POI MapID="1554" xpos="-628.556" ypos="37.36906" zpos="302.7269"  GUID="QTh8XkuJ9UuX0bYfDXjBFw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="255.0706" ypos="1.682"    zpos="-486.61"   GUID="y9ToIF2EHUWNS9tnrdwYsA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    
+    <POI MapID="1554" xpos="-462.3026" ypos="153.9702" zpos="-126.465" GUID="oBVgX0GJDkmn4Y9DiX9/7w==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-463.7007" ypos="159.4009" zpos="-147.203" GUID="ZzFx+lOSsEuKClfczKLr8w==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump2.png" iconSize="0.6"/>
+    <POI MapID="1554" xpos="-427.671"  ypos="183.1441" zpos="-133.986" GUID="Dd0vLHdhAEe+mtJOBsdTOg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="0.6"/>
     <!-- Leaning Tower MKC Markers -->
-    <POI MapID="1554" xpos="-473.783" ypos="139.5747" zpos="-97.86657" GUID="o1ijWkkEck6I6EAj3vjlMw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
-    <POI MapID="1554" xpos="-492.122" ypos="132.4243" zpos="-86.01659" GUID="9KXrLovV40OkcGbxmKNWXw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
-    <POI MapID="1554" xpos="-512.808" ypos="124.8239" zpos="-73.95197" GUID="ORqVhufMHkCG34xtQgqfZg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
-    <POI MapID="1554" xpos="-534.564" ypos="117.5237" zpos="-62.19022" GUID="6rulaMUG5EmZBdjP6lOtyA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
+    <POI MapID="1554" xpos="-470.671" ypos="138.0047" zpos="-99.16505" GUID="o1ijWkkEck6I6EAj3vjlMw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
+    <POI MapID="1554" xpos="-491.157" ypos="130.481"  zpos="-86.92518" GUID="9KXrLovV40OkcGbxmKNWXw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
+    <POI MapID="1554" xpos="-513.032" ypos="123.7217" zpos="-74.82423" GUID="ORqVhufMHkCG34xtQgqfZg==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
+    <POI MapID="1554" xpos="-533.517" ypos="117.3814" zpos="-62.9835"  GUID="6rulaMUG5EmZBdjP6lOtyA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/Jump1.png" iconSize="1" alpha="0.5"/>
+    <!-- Misc. Board Markers -->
+    <POI MapID="1554" xpos="111.147"  ypos="-0.24989" zpos="679.458"   GUID="q7KUu2LkSUynJBgVf4haKw==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/1554-Janthir_Syntri/Adventure.png"   cull="CounterClockwise" iconSize="2" rotate="110,6,210"/>
+    <POI MapID="1554" xpos="-411.591" ypos="107.0717" zpos="210.257"   GUID="/yQPhxUgz0G+YPxDy75yCA==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/1554-Janthir_Syntri/5.1-5.2_MKC.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1850" iconSize="2.75" rotate="110,0,285"/>
+    <POI MapID="1554" xpos="-545.380" ypos="118.7499" zpos="-53.14917" GUID="OClXfvIc1kO1qUPcyPGzoQ==" type="HMP.openWorld.route.1554_M" iconFile="Assets/OpenWorld/1554-Janthir_Syntri/8.2_MKC.png"     cull="CounterClockwise" fadeFar="1500" fadeNear="1250" iconSize="2.75" rotate="100,0,160"/>
     <!-- Trails -->
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/0_MainTrail.trl"     type="HMP.openWorld.route.1554_T"  color="3fd43f"                                     trailScale="1"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/0_MainTrail.trl"     type="HMP.openWorld.route.1554_T"                 texture="Assets/OpenWorld/star.png" trailScale="1"/>
@@ -200,6 +209,7 @@
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/8.4_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Herb5.trl"           type="HMP.openWorld.route.1554_T"  color="60ab4f" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Ore5.trl"            type="HMP.openWorld.route.1554_T"  color="bfa995" texture="Assets/OpenWorld/DoubleArrow.png"/>
+    <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/8.2_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/Herb6.trl"           type="HMP.openWorld.route.1554_T"  color="60ab4f" texture="Assets/OpenWorld/DoubleArrow.png"/>    
     <Trail trailData="Assets/OpenWorld/1554-Janthir_Syntri/6.2_MKC.trl"         type="HMP.openWorld.route.1554_T"  color="c9c9c9" texture="Assets/OpenWorld/DoubleArrow.png"/>
     
