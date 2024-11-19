@@ -179,6 +179,7 @@
     <POI MapID="1554" xpos="-37.41816" ypos="21.47968" zpos="-68.93427" GUID="3au57sf6QE+rXci+yCpQYg==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
     <POI MapID="1554" xpos="-152.6058" ypos="4.469374" zpos="-85.12836" GUID="AMjnV3td2k+CtSpouWJ7aQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
     <POI MapID="1554" xpos="-469.2661" ypos="63.65362" zpos="-473.7564" GUID="fnH28eVDz0i0qcFYGY7sig==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
+    <POI MapID="1554" xpos="-158.8186" ypos="8.975263" zpos="-225.6181" GUID="EcOsFcKXfEWTQJeqA2CENA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/ChargedAmber1.png"/>
     
     <!-- Either Charged Ore and/or Rotted Amber and/or Mithril Ore -->
     <POI MapID="1554" xpos="628.3376"  ypos="4.355731" zpos="-447.4961" GUID="IHhNjIVGOkOsPSwsktU27A==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
