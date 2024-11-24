@@ -222,7 +222,7 @@
     <!-- =========================================================================== JANTHIR WILDS REPEATABLE HEARTS =========================================================================== -->
     <!-- ========== Lowland Shore ========== -->
     <!-- Coarsing Uplands Heart -->
-    <POI MapID="1550" xpos="-782.794" ypos="210.975" zpos="-0.0833"  GUID="gckU8KbvrUGMjxRz/Z044Q==" type="HMP.openWorld.hearts.1550_CU_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_CU-Heart.png"  cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.5"  rotate="90,0,325"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-782.794" ypos="210.975" zpos="-0.0833"  GUID="gckU8KbvrUGMjxRz/Z044Q==" type="HMP.openWorld.hearts.1550_CU_1" iconFile="Assets/OpenWorld/1550-Lowland_Shore/1550_CU-Heart.png"  cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.5"  rotate="90,0,325"  minimapVisibility="0" mapVisibility="0"/>
     <!-- Harvest Den Heart -->
     <POI MapID="1550" xpos="718.784"  ypos="91.168"  zpos="256.424"  GUID="utyjz2MBy0eY4t6lNB6+rA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/1550-Lowland_Shore/1550_HD-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="1.5"  rotate="90,0,235"  minimapVisibility="0" mapVisibility="0"/>
     <POI MapID="1550" xpos="561.964"  ypos="149.074" zpos="171.001"  GUID="DA0c2RnznEC22gL3BRw4GA==" type="HMP.openWorld.hearts.1550_HD_1" iconFile="Assets/OpenWorld/1550-Lowland_Shore/1550_HD-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="91,0,15"   minimapVisibility="0" mapVisibility="0"/>
@@ -233,9 +233,9 @@
     <Trail trailData="Assets/OpenWorld/1550-Lowland_Shore/Heart-HD4.trl"                             type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/trail.png"/>
     <Trail trailData="Assets/OpenWorld/1550-Lowland_Shore/Heart-HDfin.trl"                           type="HMP.openWorld.hearts.1550_HD_1" color="ffe626" texture="Assets/OpenWorld/DoubleArrow.png"/>
     <!-- Autumn's Vale Heart -->
-    <POI MapID="1550" xpos="-127.713" ypos="90.9317" zpos="230.511"  GUID="tE7p2jUix0S1ApsVUxVydA==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.75" rotate="110,0,201"  minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-13.6071" ypos="237.271" zpos="-121.434" GUID="+drkqamrAkyEoMl6aItGOQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.75" rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
-    <POI MapID="1550" xpos="-288.173" ypos="186.051" zpos="402.035"  GUID="ytjdmROi60i4vYlz5+tmpQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/Lowland Shore/1550_AV-Heart3.png" cull="CounterClockwise" fadeFar="2250" fadeNear="2000" iconSize="3"    rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-127.713" ypos="90.9317" zpos="230.511"  GUID="tE7p2jUix0S1ApsVUxVydA==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/1550-Lowland_Shore/1550_AV-Heart1.png" cull="CounterClockwise" fadeFar="3000" fadeNear="2750" iconSize="2.75" rotate="110,0,201"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-13.6071" ypos="237.271" zpos="-121.434" GUID="+drkqamrAkyEoMl6aItGOQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/1550-Lowland_Shore/1550_AV-Heart2.png" cull="CounterClockwise" fadeFar="2000" fadeNear="1750" iconSize="2.75" rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
+    <POI MapID="1550" xpos="-288.173" ypos="186.051" zpos="402.035"  GUID="ytjdmROi60i4vYlz5+tmpQ==" type="HMP.openWorld.hearts.1550_AV_1" iconFile="Assets/OpenWorld/1550-Lowland_Shore/1550_AV-Heart3.png" cull="CounterClockwise" fadeFar="2250" fadeNear="2000" iconSize="3"    rotate="110,0,210"  minimapVisibility="0" mapVisibility="0"/>
     <!-- ========== Janthir Syntri ========== -->
     <!-- Supply Crates (Daily) -->
     <POI MapID="1554" xpos="173.9573" ypos="1.574458" zpos="350.7308"  GUID="Lssu3ehMs0SAjTBzCYFJag==" type="HMP.openWorld.hearts.1555_EH_1"/>
