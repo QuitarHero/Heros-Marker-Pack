@@ -766,7 +766,9 @@
       <MarkerCategory name="c1" DisplayName="Max Melee" minimapVisibility="0" mapVisibility="0"/>
       <MarkerCategory name="c2" DisplayName="Boundary"  minimapVisibility="0" mapVisibility="0" trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     </MarkerCategory>
-    <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer"/>
+    <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer">
+      <MarkerCategory name="c1" DisplayName="Boundary" minimapVisibility="0" mapVisibility="0" trailScale="1.5"/>
+    </MarkerCategory>
     <MarkerCategory name="W8_B3" DisplayName="Ura the Steamshrieker"/>
   </MarkerCategory>
   <POIs>
@@ -775,5 +777,8 @@
     <Trail trailData="Assets/Raids/w8b1_maxMelee.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B1.c1" fadeFar="400" fadeNear="350"/>
     <!-- Boundary -->
     <Trail trailData="Assets/Boundary/W8B1-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B1.c2" fadeFar="750" fadeNear="650"/>
+    <!-- ===== Greer, the Blightbringer ===== -->
+    <!-- Boundary -->
+    <Trail trailData="Assets/Boundary/W8B2-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B2.c1" fadeFar="750" fadeNear="650"/>
   </POIs>
 </OverlayData>
