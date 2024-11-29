@@ -235,5 +235,6 @@
     <POI MapID="1550" xpos="124.2363"  ypos="88.20313" zpos="363.3579"  GUID="wMMpo8z4ykyca8AjWZ11+A==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
     <POI MapID="1550" xpos="-801.4345" ypos="60.40924" zpos="225.595"   GUID="7C0xQaD0eEKuWnmhsZuNpw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
     <POI MapID="1550" xpos="-616.0656" ypos="9.48261"  zpos="-58.1959"  GUID="ECWJK6gwLUKn9nwaGjdpqA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="227.7664"  ypos="313.7127" zpos="-58.4115"  GUID="v7+nEH1n3UmhmFFzOLurCg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
   </POIs>
 </OverlayData>
