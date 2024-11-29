@@ -762,12 +762,22 @@
   
 <!-- ======================================== MOUNT BALRIOR ========================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="W8_B1" DisplayName="Decima the Stormsinger">
-      <MarkerCategory name="c1" DisplayName="Max Melee" minimapVisibility="0" mapVisibility="0"/>
-      <MarkerCategory name="c2" DisplayName="Boundary"  minimapVisibility="0" mapVisibility="0" trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="W8_B1" DisplayName="Decima the Stormsinger" minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="c1" DisplayName="Max Melee"/>
+      <MarkerCategory name="c2" DisplayName="Boundary"                                              trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     </MarkerCategory>
-    <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer">
-      <MarkerCategory name="c1" DisplayName="Boundary" minimapVisibility="0" mapVisibility="0" trailScale="1.5"/>
+    <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="c1" DisplayName="Boundary"                                              trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory name="c2" DisplayName="Titan-Spawn Positions" defaultToggle="0">
+        <MarkerCategory name="sc1" DisplayName="Gree, the Bringer"                                                                              tip-description="Melee-focused Titan">
+          <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1"   rotate-x="180"/>
+          <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade" tip-description="• '1' is initial spawn position.&#xA;• '2' is split phase position.&#xA;• If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="Reeg, the Blighter"                                                                             tip-description="Ranged-focused Titan">
+          <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1"   rotate-x="180"/>
+          <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade" tip-description="• '1' is initial spawn position.&#xA;• '2' is split phase position.&#xA;• If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+        </MarkerCategory>
+      </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory name="W8_B3" DisplayName="Ura the Steamshrieker"/>
   </MarkerCategory>
@@ -780,5 +790,20 @@
     <!-- ===== Greer, the Blightbringer ===== -->
     <!-- Boundary -->
     <Trail trailData="Assets/Boundary/W8B2-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B2.c1" fadeFar="750" fadeNear="650"/>
+    <!-- Gree's Spawn Positions -->
+    <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="AaiV76xX5EaprZKnENQDjA==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="nFjAxPB270O03vriIw6jNQ==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="nW88bgZ/0k++AuJJ4H/dWA==" type="HMP.W8_B2.c2.sc1.asc2" iconFile="Assets/General/1.png"/>
+    <POI MapID="1564" xpos="407.373" ypos="77.929" zpos="-157.435" GUID="ugLmKaLLlEOnh//xNPh8qQ==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1564" xpos="407.373" ypos="77.929" zpos="-157.435" GUID="Nxwz0OncqUaACSCYJSLxSg==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="407.373" ypos="77.929" zpos="-157.435" GUID="cmQWwZ554kSR6gmGZ190kA==" type="HMP.W8_B2.c2.sc1.asc2" iconFile="Assets/General/2.png"/>
+    <!-- Reeg's Spawn Positions -->
+    <POI MapID="1564" xpos="383.232" ypos="77.48"  zpos="-238.062" GUID="XX7GzRLPAkiC/yoy7DeWSQ==" type="HMP.W8_B2.c2.sc2.asc1" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1564" xpos="383.232" ypos="77.48"  zpos="-238.062" GUID="5OLEdALMUEem+2PX0+KgrA==" type="HMP.W8_B2.c2.sc2.asc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="383.232" ypos="77.48"  zpos="-238.062" GUID="K+WAg4osBE+ERJKKJsLVcg==" type="HMP.W8_B2.c2.sc2.asc2" iconFile="Assets/General/1.png"/>
+    <POI MapID="1564" xpos="330.634" ypos="77.393" zpos="-205.063" GUID="qB6QPUJ9CUi9Q7Qdc+0iiQ==" type="HMP.W8_B2.c2.sc2.asc1" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1564" xpos="330.634" ypos="77.393" zpos="-205.063" GUID="HbAb2FuVGkKvvLu0GhIkRA==" type="HMP.W8_B2.c2.sc2.asc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="330.634" ypos="77.393" zpos="-205.063" GUID="t9n5Ky6knUimKmwefxeX+w==" type="HMP.W8_B2.c2.sc2.asc2" iconFile="Assets/General/2.png"/>
+    
   </POIs>
 </OverlayData>
