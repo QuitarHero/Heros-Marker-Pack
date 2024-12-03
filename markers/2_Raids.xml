@@ -38,6 +38,7 @@
     <POI MapID="1155" xpos="126.696" ypos="38.5188" zpos="-410.424" GUID="+OvnGuiooUyiTIt3BKhoaw==" type="HMP.titles.minimapTitle" iconFile="Assets/General/5.png"/>
     <POI MapID="1155" xpos="164.334" ypos="37.631"  zpos="-389.406" GUID="CuZmrGCh7E+jFiAvPhJ5sQ==" type="HMP.titles.minimapTitle" iconFile="Assets/General/6.png"/>
     <POI MapID="1155" xpos="157.603" ypos="43.8003" zpos="-413.826" GUID="awdjQKEq6ka7CKDM5FGEqQ==" type="HMP.titles.minimapTitle" iconFile="Assets/General/7.png"/>
+    <POI MapID="1155" xpos="126.836" ypos="44.131"  zpos="-424.241" GUID="e3TsOnIiE0yYWvZbtiH+EA==" type="HMP.titles.minimapTitle" iconFile="Assets/General/8.png"/>
     <!-- Numerical Titles (map only) -->
     <POI MapID="1155" xpos="57.4783" ypos="38.4273" zpos="-344.755" GUID="CUhEmzH6/0WKZMNAEs/GXA==" type="HMP.titles.mapTitle"     iconFile="Assets/General/1.png"/>
     <POI MapID="1155" xpos="64.6076" ypos="44.0377" zpos="-371.238" GUID="hYvR0sExgkyaZXwgz8pviQ==" type="HMP.titles.mapTitle"     iconFile="Assets/General/2.png"/>
@@ -46,6 +47,7 @@
     <POI MapID="1155" xpos="126.696" ypos="38.5188" zpos="-410.424" GUID="bvlX95NjHE2aDcirAaYJTg==" type="HMP.titles.mapTitle"     iconFile="Assets/General/5.png"/>
     <POI MapID="1155" xpos="166.334" ypos="37.631"  zpos="-389.406" GUID="9TX1TCl3GEiuLeDKP8nL+Q==" type="HMP.titles.mapTitle"     iconFile="Assets/General/6.png"/>
     <POI MapID="1155" xpos="157.603" ypos="43.8003" zpos="-413.826" GUID="GiIrFWeu6kOr6846Qn2Szg==" type="HMP.titles.mapTitle"     iconFile="Assets/General/7.png"/>
+    <POI MapID="1155" xpos="126.836" ypos="44.131"  zpos="-424.241" GUID="lfTOymwnP0CK/uDza2bbiw==" type="HMP.titles.mapTitle"     iconFile="Assets/General/8.png"/>
   </POIs>
 
 
@@ -770,7 +772,7 @@
     </MarkerCategory>
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c1" DisplayName="Boundary"                                              trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory name="c2" DisplayName="Titan-Spawn Positions" defaultToggle="0" fadeFar="5000" fadeNear="4750">
+      <MarkerCategory name="c2" DisplayName="Titan-Spawn Positions" defaultToggle="0" fadeFar="7000" fadeNear="6750">
         <MarkerCategory name="sc1" DisplayName="Gree, the Bringer"                                                                              tip-description="Melee-focused Titan">
           <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1"   rotate-x="180"/>
           <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade" tip-description="• '1' is initial spawn position.&#xA;• '2' is split phase position.&#xA;• If lua scripts are enabled,&#xA;disappears on Combat Start"/>
@@ -791,7 +793,7 @@
     <Trail trailData="Assets/Boundary/W8B1-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B1.c2" fadeFar="750" fadeNear="650"/>
     <!-- ===== Greer, the Blightbringer ===== -->
     <!-- Boundary -->
-    <Trail trailData="Assets/Boundary/W8B2-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B2.c1" fadeFar="750" fadeNear="650"/>
+    <Trail trailData="Assets/Boundary/W8B2-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B2.c1" fadeFar="950" fadeNear="850"/>
     <!-- Gree's Spawn Positions -->
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="AaiV76xX5EaprZKnENQDjA==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="nFjAxPB270O03vriIw6jNQ==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot-border.png"/>
