@@ -64,10 +64,18 @@ HMP.LAA_Fade = {
     "tVsrnBnHKkWlsRTSkQKq4A==", "aJvDffbyl0mgBMu3qNbBFw==", "Q6N03WNWrEG9HdYuXcqncg==", "P/u3l2qkl0a+WtW7bnKwtQ==", "01kKt+/upEyGXFjq8/3akg==",
     "pAdRQLf7WkGFMkd2Q5lC5g==", "v9uuOb9rq0qD1GvQUOmOvQ==", "SPgkBZKtrkGUBHunQy5+8w==", "g2y4D7BSN0SPbyHEdgbMKg==",
     "nn5Ed6cLokqPrpKr2CFkdA==", "ncE1YBSs/ESj3VWnrGsuZg==", "IvNiK6vpBkOcyPPyFvX9hg==",
+  }, -- (8) Mount Balrior
+  { -- Titles / Ruined Camp / Decima / Greer / Ura / Full Clear
+    "LVyXSMMXFEmzH/keHWc1Dg==", "aYLAysVMAECISV4JYKyizg==",
+    "ie67a5i5c0OFA61zwjLBIQ==", "1pxxqshQQkyDalMJs8vyzw==", "oFa42LZbt0mskCrKCXM1zw==", "WY/v4GIL5UKYbZe8yj5NWg==", "B4I8hc3QckyNVLD4X+T5BQ==",
+    "RPQ8/5i2vk2kDBFBZC628A==", "G7UScS49DEmdlH1eEqCMfg==", "btyBhXI+VEWOcqniDbPXZw==", "EyreTyG5AU6eXwcsKaKn9g==", "S0obZSwQQ0qoqtFtC+Ht9g==",
+    "GTh+InpVMEunsMKNljYfxw==", "tFqp7En/+Uqb5oYuBF07Hw==", "xgjJGocey0OQRmF+vCxV9A==", "Pn4sbL6550WjPaGG6B1e0A==", "Q9ySKePOUkWkh0oU1pYNGg==",
+    "jy59GMvChkS0udXv1SnZbQ==", "zx2IhdGJ8U25yDJghRX9hg==", "I5/20oSylECtK/gWvSMvXA==", "XXLRDsD7rkavbDogPkVumA==", "cXfp0tSSo0S8kjQ+lVwVWA==",
+    "pKYkP+W3LkOXgnL0rSGI6w==", "dBOI9jTbj06gT7pJUx6KGQ==", "0xRANu+RqUirQZjVBuCFaA==", "CBP32EfWP0CI3y8KKp+2/w==",
   }
 }
 HMP.LAA_Trigger = { -- Wings 1 / 2 / 3 / 4 / 5 / 6 / 7
-  "tuacr+Gv9UiLskdieMqAvw==", "5HcLprv7mUmqFhNvSHhBnA==", "ELxXulJmCE6O4GPh10/zMA==", "lbslvR+bEUSgUEHN2TFhIg==", "xxUWfcVQA06WCiou6qVnFw==", "6ZfzJPriqEuUB2ZX2wqTtA==", "9ySCoUBWeU2GkeZD8j1nRg=="
+  "tuacr+Gv9UiLskdieMqAvw==", "5HcLprv7mUmqFhNvSHhBnA==", "ELxXulJmCE6O4GPh10/zMA==", "lbslvR+bEUSgUEHN2TFhIg==", "xxUWfcVQA06WCiou6qVnFw==", "6ZfzJPriqEuUB2ZX2wqTtA==", "9ySCoUBWeU2GkeZD8j1nRg==", "MlsjvBaykEe4k8QMBgye1A=="
 }
 
 function LAA_Fade(marker, focused)

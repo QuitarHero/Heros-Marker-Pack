@@ -20,6 +20,7 @@
     <POI MapID="1155" xpos="126.696" ypos="37.7538" zpos="-410.424" GUID="HUhMw0PB0EqN13Z1yFTLyQ==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w5-title.png" rotate-z="4"/>
     <POI MapID="1155" xpos="164.334" ypos="36.931"  zpos="-389.406" GUID="5PS5QzCDa0y4mHdlwsb9dw==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w6-title.png" rotate-z="57"/>
     <POI MapID="1155" xpos="157.603" ypos="43.0003" zpos="-413.826" GUID="j6ZEEP0JUUKCYUYkDM363Q==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w7-title.png" rotate-z="44"/>
+    <POI MapID="1155" xpos="126.836" ypos="43.331"  zpos="-424.241" GUID="LVyXSMMXFEmzH/keHWc1Dg==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w8-title.png" rotate-z="2"/>
     <!-- Numerical Titles (in-world only) -->
     <POI MapID="1155" xpos="57.4783" ypos="38.4273" zpos="-344.755" GUID="OF/Tf7csfkOhr+LnIPUVkA==" type="HMP.titles.numTitle"     iconFile="Assets/General/1.png"      rotate-z="-38"/>
     <POI MapID="1155" xpos="64.6076" ypos="44.0377" zpos="-371.238" GUID="NsnruMz4WEC8wn1BQPZGRw==" type="HMP.titles.numTitle"     iconFile="Assets/General/2.png"      rotate-z="-68"/>
@@ -28,6 +29,7 @@
     <POI MapID="1155" xpos="126.696" ypos="38.5188" zpos="-410.424" GUID="IKwQjo0jzESpPHcanHt96w==" type="HMP.titles.numTitle"     iconFile="Assets/General/5.png"      rotate-z="4"/>
     <POI MapID="1155" xpos="164.334" ypos="37.631"  zpos="-389.406" GUID="6WIRCtjB90imU1y6QSWang==" type="HMP.titles.numTitle"     iconFile="Assets/General/6.png"      rotate-z="57"/>
     <POI MapID="1155" xpos="157.603" ypos="43.8003" zpos="-413.826" GUID="28wSDARdakCZ07bJ4Z7Uiw==" type="HMP.titles.numTitle"     iconFile="Assets/General/7.png"      rotate-z="44"/>
+    <POI MapID="1155" xpos="126.836" ypos="44.131"  zpos="-424.241" GUID="aYLAysVMAECISV4JYKyizg==" type="HMP.titles.numTitle"     iconFile="Assets/General/8.png"      rotate-z="2"/>
     <!-- Numerical Titles (minimap only) -->
     <POI MapID="1155" xpos="57.4783" ypos="38.4273" zpos="-344.755" GUID="GO4eC6VH9kevI3ZhKu/f/A==" type="HMP.titles.minimapTitle" iconFile="Assets/General/1.png"/>
     <POI MapID="1155" xpos="64.6076" ypos="44.0377" zpos="-371.238" GUID="cWrh6nNpGEGJ0fJcx7/CLw==" type="HMP.titles.minimapTitle" iconFile="Assets/General/2.png"/>
@@ -768,7 +770,7 @@
     </MarkerCategory>
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c1" DisplayName="Boundary"                                              trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory name="c2" DisplayName="Titan-Spawn Positions" defaultToggle="0">
+      <MarkerCategory name="c2" DisplayName="Titan-Spawn Positions" defaultToggle="0" fadeFar="5000" fadeNear="4750">
         <MarkerCategory name="sc1" DisplayName="Gree, the Bringer"                                                                              tip-description="Melee-focused Titan">
           <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1"   rotate-x="180"/>
           <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade" tip-description="• '1' is initial spawn position.&#xA;• '2' is split phase position.&#xA;• If lua scripts are enabled,&#xA;disappears on Combat Start"/>
