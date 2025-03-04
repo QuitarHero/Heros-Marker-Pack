@@ -144,6 +144,10 @@
     <POI MapID="1554" xpos="99.07995"  ypos="44.91336" zpos="-673.019"  GUID="pYM9okpX5EqFwU1Rhc0TOQ==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="-140.4622" ypos="47.37091" zpos="-768.1645" GUID="OLoWF3uWq0ClFzARPDQEwA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="102.6006"  ypos="18.11596" zpos="-527.0952" GUID="dFuyFmMvK0m3y2MTjLouiA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <POI MapID="1554" xpos="83.76249"  ypos="49.35938" zpos="-799.9868" GUID="hfCfmeq4Y0WMDthzM5UPFA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <POI MapID="1554" xpos="227.718"   ypos="7.808776" zpos="-43.12247" GUID="beuyigjRXkSCulLE8ef7KA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <POI MapID="1554" xpos="438.8736"  ypos="5.690461" zpos="77.48969"  GUID="1B3AStymnkGAiUwdivPx7Q==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <POI MapID="1554" xpos="23.66303"  ypos="36.85238" zpos="-705.2515" GUID="cqrPJUjeykegzXsiDxbFcA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     
     <!-- ==================== Lowland Pine Log ==================== -->
     <!-- Lowland Pine OR Elder Wood -->
@@ -236,5 +240,7 @@
     <POI MapID="1550" xpos="-801.4345" ypos="60.40924" zpos="225.595"   GUID="7C0xQaD0eEKuWnmhsZuNpw==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
     <POI MapID="1550" xpos="-616.0656" ypos="9.48261"  zpos="-58.1959"  GUID="ECWJK6gwLUKn9nwaGjdpqA==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
     <POI MapID="1550" xpos="227.7664"  ypos="313.7127" zpos="-58.4115"  GUID="v7+nEH1n3UmhmFFzOLurCg==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    <POI MapID="1550" xpos="886.6237"  ypos="365.674"  zpos="-361.1858" GUID="QhTBFjVZh0aNQdOfP5CLuQ==" type="HMP.openWorld.lumber.lowlandPine" iconFile="Assets/OpenWorld/Logging/ElderPine1.png"/>
+    
   </POIs>
 </OverlayData>
