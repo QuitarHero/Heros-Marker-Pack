@@ -22,6 +22,10 @@ local function AddTexture(marker)
       marker:SetTexture("Assets/OpenWorld/Mining/Charged Titan.png")
     elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.rottedAmber").Namespace) then
       marker:SetTexture("Assets/OpenWorld/Mining/Rotted Amber.png")
+    elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.mursaatObs").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Mining/MursaatObsidian.png")
+    elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.titanHeatstone").Namespace) then
+      marker:SetTexture("Assets/OpenWorld/Mining/TitanHeatstone.png")
     elseif( marker.Category.Namespace == World:CategoryByType("HMP.openWorld.mining.combo").Namespace) then
       marker:SetTexture("Assets/OpenWorld/Circle.png")
     else

@@ -148,6 +148,9 @@
     <POI MapID="1554" xpos="227.718"   ypos="7.808776" zpos="-43.12247" GUID="beuyigjRXkSCulLE8ef7KA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="438.8736"  ypos="5.690461" zpos="77.48969"  GUID="1B3AStymnkGAiUwdivPx7Q==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
     <POI MapID="1554" xpos="23.66303"  ypos="36.85238" zpos="-705.2515" GUID="cqrPJUjeykegzXsiDxbFcA==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <!-- Mistburned Barrens | Ancient or Elder Wood -->
+    <POI MapID="1575" xpos="-439.9141" ypos="93.93786" zpos="-169.8459" GUID="U6iP5fyxoEG/FoBkFsTzTg==" type="HMP.openWorld.lumber.ancient" iconFile="Assets/OpenWorld/Logging/AncientElder1.png"/>
+    <POI MapID="1575" xpos="-522.8522" ypos="143.373"  zpos="-193.1163" GUID="N9ja3VkH6EqyrbCMgnVCbg==" type="HMP.openWorld.lumber.ancient"/>
     
     <!-- ==================== Lowland Pine Log ==================== -->
     <!-- Lowland Pine OR Elder Wood -->

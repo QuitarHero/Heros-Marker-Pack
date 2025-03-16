@@ -262,5 +262,127 @@
     <POI MapID="1554" xpos="-708.674"  ypos="48.48608" zpos="366.1729"  GUID="IX8213a4MEur9HQMuKTBIw==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     <POI MapID="1554" xpos="-714.9526" ypos="1.801243" zpos="-502.3462" GUID="bGOUzj0HB0mCw/oMdttkxQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     
+    <!-- ==================================================================================================================== -->
+    <!-- Mursaat Obsidian -->
+    <POI MapID="1575" xpos="-203.0572" ypos="4.388665" zpos="425.6304" GUID="npUenJeEPUik9Jz91r2Euw==" type="HMP.openWorld.mining.mursaatObs"/> <!-- bad -->
+    <POI MapID="1575" xpos="-289.7776" ypos="4.297576" zpos="337.4846" GUID="rlS4R3Cl5UKcObhH6YDukA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-634.6161" ypos="19.80551" zpos="337.3921" GUID="GUNTz2H0NU6l1VfqEvQx2g==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-665.8492" ypos="16.26759" zpos="402.9048" GUID="Rj3OI2ndzkyFysfpgjbZhg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-730.3467" ypos="15.15837" zpos="403.511"  GUID="T8eGyaE/D0+v1OhbEl8eLA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-772.9199" ypos="14.76485" zpos="396.979"  GUID="/49k4zFLYkCUwOck4h3VAQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-414.7844" ypos="70.65681" zpos="-357.873" GUID="gKo8qcusHUOMQOoHzZiq2w==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-709.0002" ypos="63.62366" zpos="-316.994" GUID="ePAJWkde6UCr/j/hosSnyg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-879.688"  ypos="128.2684" zpos="19.58904" GUID="LIE1kximuUmCl4syNLDSRQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-611.0141" ypos="78.97692" zpos="140.1296" GUID="lyeejJyvVUOi9i9BsPeiQA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-683.9354" ypos="78.98362" zpos="139.0033" GUID="BE0bQ46GkkuRVSsdsVgD8g==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-493.5303" ypos="112.5485" zpos="72.75601" GUID="0avcffII9kqclhoDjtZScg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-349.7943" ypos="85.49993" zpos="-52.4725" GUID="Rffbvx/rXUW09B5nI6PJ3w==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-570.3821" ypos="77.01148" zpos="-192.722" GUID="eXpKqSRehkWIoj8S3x/H9A==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-588.7647" ypos="102.1028" zpos="-557.591" GUID="IJwrbaQct0i1yM7IBe53ww==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-827.8251" ypos="1.490317" zpos="-562.008" GUID="wnhSHUXPfUiXySzANnC81Q==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-948.6435" ypos="49.18725" zpos="-312.422" GUID="U4FBjJ8PHU+WnzePgSsxuQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-604.1091" ypos="150.2062" zpos="383.3152" GUID="uLcnBWp1bkuw4fVb9VObeQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-924.649"  ypos="128.2391" zpos="-44.3281" GUID="FegYv9hKQUeV1zy1+xt5MA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-651.0569" ypos="106.7929" zpos="-394.182" GUID="o+ZLDPjNrUOTA/s+xd2JAA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-453.8314" ypos="70.58886" zpos="-356.002" GUID="8iSYspoeIkK0+fjNlmMQiQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-349.5439" ypos="66.408"   zpos="-404.710" GUID="H3nb7F9ApEq3sD2GmSLAdw==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-467.4719" ypos="101.7573" zpos="-620.916" GUID="gKoP3p24EE6WD/hxSzZRsA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-164.7064" ypos="100.3934" zpos="-30.0350" GUID="5/kaHROdE0KFeccjqteH8g==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-375.8049" ypos="85.42125" zpos="42.91912" GUID="LVI68PQoqECcnveIYYZfXA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-434.0275" ypos="112.558"  zpos="-68.3574" GUID="CygwRYSTR0mMOKFqYDzy/g==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-579.6083" ypos="78.98214" zpos="52.06339" GUID="Br19mpb3QUiggD7YkISHKA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-896.3344" ypos="131.6116" zpos="37.50396" GUID="cMllOllGAE+kjfq4qm+UfQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-658.0679" ypos="106.803"  zpos="-453.088" GUID="DLO77kObaUCbTnySMx1ktA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-472.3914" ypos="70.46058" zpos="-357.295" GUID="zspeoA5k8EKCJ39MvOA/0g==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-332.3079" ypos="62.69271" zpos="-410.368" GUID="Xeu1578qkkS1TTq9ZzoJrw==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-579.1945" ypos="78.96252" zpos="-69.5571" GUID="G2P584EbiU+NjireFe85XA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-564.9172" ypos="15.76613" zpos="426.9663" GUID="uWN7t098JEelKJ1ed2cC7Q==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-512.6987" ypos="16.95664" zpos="360.2476" GUID="gZRmAKL0WUCHekGd2FAFHA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-286.6099" ypos="4.597867" zpos="429.5713" GUID="k4tPEoCuj06zIlbrpiQabQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-250.6751" ypos="2.565789" zpos="453.0694" GUID="qMkbl0XaeEq2vagotdkNpg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-960.7125" ypos="128.1946" zpos="-40.2628" GUID="sEoOxb1+PEaE3PawwESVlQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-375.5399" ypos="97.52398" zpos="-436.418" GUID="Vxqu3PJzm02GxhA0chXjzQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-411.1809" ypos="70.37928" zpos="-423.186" GUID="vGFwPNANp0u2ZPAPMn1vjg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-218.2131" ypos="62.69938" zpos="-351.619" GUID="2kn35ysyyUueP8s+kBuh0A==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-167.2628" ypos="100.5549" zpos="31.9782"  GUID="5NAOd3j5U0i/36j7EIGhBQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-263.4768" ypos="85.50611" zpos="-29.6786" GUID="Eoa+2P2iEUiZlwnWtFYA0Q==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-578.6315" ypos="78.97318" zpos="-39.8681" GUID="+StEJIfDVkmvHFKGgjwZLw==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-731.1547" ypos="78.97956" zpos="37.36642" GUID="ejI9bo4wq0KWaZ+xyIwooA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-586.8284" ypos="14.21856" zpos="352.4368" GUID="bs/+PpOTmkii5Kudkc0lLg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-244.6703" ypos="4.223577" zpos="328.0507" GUID="Ren8Siog+EOwwLK7HUlNSA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-372.6263" ypos="85.51044" zpos="-30.0697" GUID="6ZfxPzfpz0K7mWj3n8iUsg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-465.6887" ypos="112.5634" zpos="75.67966" GUID="VOrbKwnLrU+uV+oUB2AlYw==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-734.9285" ypos="128.8778" zpos="122.0536" GUID="kNkuvgFs2EKURGp9KKMUhQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-914.752"  ypos="128.2455" zpos="52.2894"  GUID="DUGF2whR1UOz4Y/Gk6KWiA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-972.7295" ypos="131.5963" zpos="43.69106" GUID="HTCG6WUMZUy+LOeYHFXdCg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-956.1234" ypos="51.78928" zpos="-290.433" GUID="2aRBmZIkgESwJJmf8g4MCg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-653.2682" ypos="55.24844" zpos="-381.465" GUID="Tq28jZFxT0mJ+/7mIm4gOQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-585.6288" ypos="102.0864" zpos="-591.811" GUID="S5lMY1SfxkKYQiaZc1PVVg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-472.4505" ypos="102.821"  zpos="-585.215" GUID="5Yc+xNrvgESkAiHaDnPRUQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-472.3596" ypos="70.22162" zpos="-423.621" GUID="6g4k6QpcCUOV1BQv1kuIUA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-542.9216" ypos="78.55264" zpos="-207.062" GUID="OktiY7aKj0+DphTUw6hOsQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-688.5981" ypos="63.63299" zpos="-286.730" GUID="jDnCDL63+UG/bm1bdJ2VLQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-551.3453" ypos="82.21735" zpos="-29.1491" GUID="8wZoqNJm90eit+dXiD1zyg==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-505.3327" ypos="15.29895" zpos="428.5152" GUID="g/PlkdfO60e33+cYiPv7yQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-623.7387" ypos="16.81397" zpos="394.8349" GUID="gFd4/nX8J02U881rG4ahhw==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-688.2208" ypos="15.4755"  zpos="341.2339" GUID="ximVYkPImUSsKnjoa5AT6Q==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-470.8567" ypos="15.85758" zpos="389.7097" GUID="wp2+5Hqj0U21IOR68SaKTQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-950.7012" ypos="128.2507" zpos="55.42834" GUID="dPaIT1FjA0CL12I6DokqPA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-985.2931" ypos="49.66552" zpos="-290.573" GUID="TOanB1L8YU27xGHiVJIOhQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-844.0394" ypos="1.498607" zpos="-529.407" GUID="/ruAOizLxkmbbErSSGRSXQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-439.8651" ypos="70.27038" zpos="-423.390" GUID="e0Dn0s4RCUiI+U4Os/6VBQ==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-513.0458" ypos="85.52784" zpos="59.91318" GUID="yls+CFQOvUOkZl5T5OybNA==" type="HMP.openWorld.mining.mursaatObs"/>
+    <POI MapID="1575" xpos="-739.1887" ypos="128.0512" zpos="-6.75006" GUID="JZc37mXNdUSIekXZ06LH4g==" type="HMP.openWorld.mining.mursaatObs"/>
+    
+    <!-- Titan Heatsone Cluster -->
+    <POI MapID="1575" xpos="-874.4982" ypos="81.60769" zpos="-71.81354" GUID="oFTvw1zCcUC27yi3Tw0g1A==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-694.545"  ypos="45.67129" zpos="103.7733"  GUID="SwuP4Yeui0ihZe7ak7UqrA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-784.9737" ypos="83.56617" zpos="151.4512"  GUID="LhdG64dhDkyKHOgg6gKzJQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-987.8618" ypos="0.496256" zpos="-455.759"  GUID="xoBWo7GSAUenc1r8NSH+WA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-1006.795" ypos="77.55756" zpos="357.2446"  GUID="B8jtqN+JN0Gvd8oIf+lysg==" type="HMP.openWorld.mining.titanHeatstone"/> <!-- needs modification -->
+    <POI MapID="1575" xpos="-781.647"  ypos="0.601453" zpos="-655.1996" GUID="Vg8f/1mruEW1LkJ/nFTFHA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-468.8994" ypos="97.41479" zpos="-461.5415" GUID="0gcq11upMUeAQadH0YhWKQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-517.8809" ypos="79.21982" zpos="-229.5775" GUID="mL/yOiY9+0i/DlUPsDR86Q==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-200.0572" ypos="87.72155" zpos="-12.45963" GUID="b1CQ3Hp2n0Gn8vd36ZzKgw==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-582.5916" ypos="78.31747" zpos="115.7684"  GUID="rkxPjhDTGkmDZ/iiX26x4A==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-822.9061" ypos="84.30073" zpos="189.9038"  GUID="HMEj5mR+S0q9g8+IgUb8EQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-1036.179" ypos="74.90507" zpos="-179.0167" GUID="PGQGEXAIVkGcz+EP/mUexA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-754.1564" ypos="0.476731" zpos="-598.787"  GUID="8bKyDaIg7UmeCaF6Nm6bKA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-599.4338" ypos="78.75565" zpos="-278.1308" GUID="W7Bp56U9qkq8iS0LGK5Ydg==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-239.3592" ypos="87.43471" zpos="38.08313"  GUID="h615PYQEmkSSs2OUI4GLcA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-995.9302" ypos="75.14777" zpos="306.5866"  GUID="jdRKZIXgV0GCjdR0JVHNdQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-1040.202" ypos="50.03553" zpos="-317.0535" GUID="uD1VkiEB8UaXqO0OybestQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-1020.087" ypos="2.957338" zpos="-529.2861" GUID="11MxjEmOokGpZcvAJpsGXA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-709.2208" ypos="60.44733" zpos="-252.444"  GUID="+tUxP7s0XE2vhThvEkUV5Q==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-234.2044" ypos="86.23746" zpos="17.11064"  GUID="HDyvRmAy80+z+bJvB8pNKg==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-692.9692" ypos="45.69947" zpos="31.87042"  GUID="UWN4xfhFrEiVqtnAcXVSKg==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-745.3311" ypos="191.2508" zpos="-5.520832" GUID="ICeIppaP6U2Gi2/UQNno2A==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-842.8805" ypos="76.49578" zpos="474.0833"  GUID="c276gaC8wkCpt0OyMMAudA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-422.7446" ypos="92.38367" zpos="273.7426"  GUID="jwMj1gAepUaa9pPOtWNELw==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-715.4643" ypos="80.11539" zpos="256.3112"  GUID="0kZrda5uIkqwBVMRlTocCA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-1012.346" ypos="50.28845" zpos="-238.2818" GUID="267TVw0hiESdRZv0zE6QqQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-789.025"  ypos="0.498051" zpos="-476.4306" GUID="xyDDKHbvQ0yqGi775aAwxw==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-680.0945" ypos="60.35443" zpos="-124.3897" GUID="KPSaOamvikiT+ChDD0yCLA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-708.794"  ypos="62.91483" zpos="69.46653"  GUID="uspPmBmFZEChY/54XVqF2A==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-776.1826" ypos="79.87713" zpos="98.75995"  GUID="eO5hJ6/sp0SsD5DD+6QZ4w==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-559.8074" ypos="91.04469" zpos="495.2857"  GUID="TlJW9nQUPUi2SN3+o/1pNQ==" type="HMP.openWorld.mining.titanHeatstone"/> <!-- needs improvement -->
+    <POI MapID="1575" xpos="-779.4174" ypos="78.31176" zpos="-19.26339" GUID="SdjJx1WbV02wTYNQy5TKpQ==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-730.4785" ypos="0.603976" zpos="-542.9942" GUID="l2VlErWw8EWdPoWh+z56nw==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-720.7505" ypos="77.9692"  zpos="132.1176"  GUID="9nWmo/5lTkejbzqm7PqTsw==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-206.793"  ypos="87.95441" zpos="18.33637"  GUID="S6zj1lpLp0aXk+R4byMnTw==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-1006.539" ypos="75.34275" zpos="253.3988"  GUID="2oNowJPGaEyDYlW9R8Qdcg==" type="HMP.openWorld.mining.titanHeatstone"/>
+    <POI MapID="1575" xpos="-847.2075" ypos="71.44697" zpos="269.2846"  GUID="f4fdaWgi6UOrKkPITBM0fA==" type="HMP.openWorld.mining.titanHeatstone"/>
+    
+    <!-- Mithril & Titan Heatstone -->
+    <POI MapID="1575" xpos="-855.0243" ypos="72.94988" zpos="226.1857"  GUID="U17DJ8/4v0SVuox/9g6wFQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-554.4963" ypos="72.12658" zpos="-278.7015" GUID="eAlSn1SBU0GlDRZwBh8qxg==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-884.5914" ypos="73.41866" zpos="-135.907"  GUID="Q1g7iYRNn0mK69Xz7LoPeg==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-942.9476" ypos="65.53555" zpos="-215.9105" GUID="H+crs1f9uUiwAvURF4t6GQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-703.7616" ypos="44.60403" zpos="-473.7605" GUID="h8lIl2LFlESLvvYuV9qFNA==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-301.9708" ypos="136.2147" zpos="-642.7758" GUID="7NvYuiOc4USE8Jw7/o7d6Q==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/> <!-- needs improvement -->
+    <POI MapID="1575" xpos="-617.1196" ypos="72.31954" zpos="-157.0914" GUID="Y64mFMTteU26E7jLv5kHYg==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-629.1738" ypos="81.76141" zpos="220.1574"  GUID="VhjRwOK3dUaTtjP04QIJXQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-1014.348" ypos="74.23009" zpos="195.4652"  GUID="TatMTt9U50yu/5mwai+rUw==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/>
+    <POI MapID="1575" xpos="-745.0401" ypos="77.70349" zpos="468.4861"  GUID="Dix7msBvDUKVlTkYuWi0OQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilHeatstone1.png"/> <!-- needs modification -->
   </POIs>
 </OverlayData>

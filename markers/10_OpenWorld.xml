@@ -417,5 +417,15 @@
     <POI MapID="1554" xpos="706.465"  ypos="4.783209" zpos="393.5432"  GUID="CJ9H7DLA3UqX4xgs3EhODg==" type="HMP.openWorld.chestFarm.kodanCache"/>
     <POI MapID="1554" xpos="419.8406" ypos="2.232495" zpos="415.8611"  GUID="etNwREhwekakTKo6RnTAdQ==" type="HMP.openWorld.chestFarm.kodanCache"/>
     <!-- End -->
+    <!-- Mistburned Barrens -->
+    <POI MapID="1575" xpos="-188.9381" ypos="266.7106" zpos="-447.8542" GUID="8UQMt+zMk0+dfhJkzfQE3Q==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-444.3438" ypos="190.6307" zpos="350.0291"  GUID="25NWh73bu0+wzC3BGBQZEw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-889.451"  ypos="127.6227" zpos="-116.1662" GUID="2x1oRjujxEqM3KYvFy6Wdw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-951.7524" ypos="81.32126" zpos="-593.4412" GUID="b8IX0FBBQUqQa380jILsbA==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-758.8652" ypos="127.8512" zpos="-7.563279" GUID="1FlrHfMEbU+Etim/Ddp+Fw==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-761.2617" ypos="191.9728" zpos="-5.269598" GUID="QzA/1p8q/EyCaFP6HHoW9w==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-210.0735" ypos="130.6727" zpos="299.3935"  GUID="ZIjqfMfChUGsHhHaRvduew==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    <POI MapID="1575" xpos="-844.5585" ypos="94.40721" zpos="-441.0645" GUID="ApD4HG2/0U6p4w4U1ma9Lg==" type="HMP.openWorld.chestFarm.kodanCache"/>
+    
   </POIs>
 </OverlayData>
