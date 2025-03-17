@@ -773,18 +773,19 @@
         <MarkerCategory name="sc1" DisplayName="Phase 1"/>
         <MarkerCategory name="sc2" DisplayName="Phase 2" defaultToggle="0"/>
       </MarkerCategory>
-      <MarkerCategory name="c999" DisplayName="CM Conduit Positions" defaultToggle="0" fadeFar="7000" fadeNear="6750" iconFile="Assets/Shapes/Orb1.png" color="ff9900" iconSize="2.24" rotate-x="180" heightOffset="-0.05">
-        <MarkerCategory name="sc1" DisplayName="Phase 1" tip-description="100% - 70%">
+      <MarkerCategory name="c999" DisplayName="CM Conduit Formations" defaultToggle="0" fadeFar="7000" fadeNear="6750" iconFile="Assets/Shapes/Orb1.png" color="ff9900" iconSize="2.24" rotate-x="180" heightOffset="-0.05">
+        <MarkerCategory name="sc1" DisplayName="Phase 1">
           <MarkerCategory name="asc1" DisplayName="Pre-Split" tip-description="• Begins furthest away&#xA;• Moves in after 1st Orange Arrow&#xA;• Moves in after 1st Red Arrow&#xA;• Moves out/in during Orange/Red arrows afterwards, respectively."/>
           <MarkerCategory name="asc2" DisplayName="Split Phase" defaultToggle="0"/>
         </MarkerCategory>
-        <MarkerCategory name="sc2" DisplayName="Phase 2" defaultToggle="0" tip-description="70% - 40%">
-          <MarkerCategory name="asc1" DisplayName="Pre-Split #1"/>
-          <MarkerCategory name="asc2" DisplayName="Pre-Split #2" defaultToggle="0"/>
-          <MarkerCategory name="asc3" DisplayName="Pre-Split #3" defaultToggle="0"/>
-          <MarkerCategory name="asc4" DisplayName="Pre-Split #4" defaultToggle="0"/>
-          <MarkerCategory name="asc5" DisplayName="Split Phase"  defaultToggle="0"/>
+        <MarkerCategory name="sc2" DisplayName="Phase 2" defaultToggle="0" tip-description="• The conduit formations constantly change, and you can get the Red Arrow on any of them.&#xA;• These are static examples to help visualize and prepare.">
+          <MarkerCategory name="asc1" DisplayName="Example Formation 1"/>
+          <MarkerCategory name="asc2" DisplayName="Example Formation 2" defaultToggle="0"/>
+          <MarkerCategory name="asc3" DisplayName="Example Formation 3" defaultToggle="0"/>
+          <MarkerCategory name="asc5" DisplayName="Split Phase"         defaultToggle="0" tip-description="• Sometimes the mini-arenas end up offset to one another, complicating Orange Arrows.&#xA;• This is an example showcasing that, to visualize and prepare."/>
         </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="Phase 3" defaultToggle="0" tip-description="• Where Decima jumps is RNG.&#xA;• This is an example conduit formation to help visualize."/>
+        <MarkerCategory name="sc4" DisplayName="Phase 4" defaultToggle="0" tip-description="• Where the conduits begin is dependent on their position during Phase 3.&#xA;• This is an example to help visualize and prepare for the Red Arrow."/>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
@@ -921,7 +922,7 @@
     <POI MapID="1564" xpos="-260.136" ypos="138.518" zpos="369.334" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
     <POI MapID="1564" xpos="-199.176" ypos="139.214" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
     <POI MapID="1564" xpos="-209.336" ypos="138.935" zpos="316.542" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
-    <!-- 20250315-231214 Phase 2 (1st Orange Arrows & Greens) -->
+    <!-- 20250315-231214 Phase 2 (Example Formation 1) -->
     <POI MapID="1564" xpos="-299.967" ypos="138.516" zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
     <POI MapID="1564" xpos="-236.726" ypos="138.799" zpos="331.999" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
     <POI MapID="1564" xpos="-233.442" ypos="138.43"  zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
@@ -940,44 +941,44 @@
     <POI MapID="1564" xpos="-240.433" ypos="138.517" zpos="372.547" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
     <POI MapID="1564" xpos="-273.695" ypos="138.516" zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
     <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="309.247" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
-    <!-- 20250315-231214 Phase 2 (1st Red Arrow)-->
-    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="296.744" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-242.356" ypos="138.516" zpos="307.743" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-222.036" ypos="138.95"  zpos="325.34"  GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="279.147" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="336.339" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-246.166" ypos="138.517" zpos="305.543" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-246.166" ypos="138.516" zpos="362.735" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="353.937" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-286.806" ypos="138.522" zpos="305.543" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-237.276" ypos="138.811" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-196.636" ypos="139.687" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-242.356" ypos="138.53"  zpos="360.536" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-222.036" ypos="138.772" zpos="342.938" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="371.534" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-286.806" ypos="138.516" zpos="362.735" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="389.132" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="331.94"  GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="314.342" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
-    <!-- 20250315-231214 Phase 2 (2nd Orange Arrows) -->
-    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="301.419" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-207.17"  ypos="138.905" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-223.59"  ypos="138.869" zpos="359.031" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-240.433" ypos="138.516" zpos="295.731" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-273.695" ypos="138.516" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="312.795" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="370.407" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="359.031" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="290.043" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-223.59"  ypos="138.71"  zpos="347.655" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-236.726" ypos="138.576" zpos="370.407" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-236.726" ypos="138.821" zpos="336.279" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-233.442" ypos="138.669" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-299.967" ypos="138.516" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="347.655" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="336.279" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="278.667" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
-    <POI MapID="1564" xpos="-266.704" ypos="138.516" zpos="295.731" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <!-- 20250315-231214 Phase 2 (Example Formation 2) -->
+    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="301.419" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-207.17"  ypos="138.905" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-223.59"  ypos="138.869" zpos="359.031" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-240.433" ypos="138.516" zpos="295.731" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-273.695" ypos="138.516" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="312.795" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="370.407" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="359.031" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="290.043" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-223.59"  ypos="138.71"  zpos="347.655" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-236.726" ypos="138.576" zpos="370.407" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-236.726" ypos="138.821" zpos="336.279" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-233.442" ypos="138.669" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-299.967" ypos="138.516" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="347.655" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="336.279" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="278.667" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-266.704" ypos="138.516" zpos="295.731" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <!-- 20250315-231214 Phase 2 (Example Formation 3)-->
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="296.744" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-242.356" ypos="138.516" zpos="307.743" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-222.036" ypos="138.95"  zpos="325.34"  GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="279.147" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="336.339" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-246.166" ypos="138.517" zpos="305.543" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-246.166" ypos="138.516" zpos="362.735" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="353.937" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-286.806" ypos="138.522" zpos="305.543" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-237.276" ypos="138.811" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-196.636" ypos="139.687" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-242.356" ypos="138.53"  zpos="360.536" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-222.036" ypos="138.772" zpos="342.938" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="371.534" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-286.806" ypos="138.516" zpos="362.735" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="389.132" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="331.94"  GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="314.342" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
     <!-- 20250315-231214 Phase 2 (Split Phase) -->
     <POI MapID="1564" xpos="-259.778" ypos="138.516" zpos="312.482" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
     <POI MapID="1564" xpos="-221.24"  ypos="138.915" zpos="380.474" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
@@ -997,6 +998,46 @@
     <POI MapID="1564" xpos="-289.232" ypos="138.516" zpos="327.06"  GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
     <POI MapID="1564" xpos="-239.458" ypos="138.516" zpos="277.286" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
     <POI MapID="1564" xpos="-259.778" ypos="138.516" zpos="277.286" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <!-- 20250315-231214 Phase 3 (Example Formation) -->
+    <POI MapID="1564" xpos="-253.857" ypos="138.516" zpos="284.334" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-298.236" ypos="138.516" zpos="347.337" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-305.856" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-266.416" ypos="138.516" zpos="284.334" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-237.276" ypos="138.572" zpos="347.337" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-243.697" ypos="138.516" zpos="291.715" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-237.276" ypos="138.651" zpos="320.941" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-244.896" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-276.576" ypos="138.516" zpos="291.715" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-282.996" ypos="138.516" zpos="347.337" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-298.236" ypos="138.516" zpos="320.941" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-275.376" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-282.996" ypos="138.516" zpos="320.941" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-222.036" ypos="138.983" zpos="320.941" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-222.036" ypos="138.741" zpos="347.337" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-214.416" ypos="138.86"  zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="303.659" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-239.816" ypos="138.516" zpos="303.659" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-290.616" ypos="138.53"  zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <POI MapID="1564" xpos="-229.656" ypos="138.53"  zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc3"/>
+    <!-- 20250315-231214 Phase 4 (Example Formation) -->
+    <POI MapID="1564" xpos="-294.467" ypos="138.516" zpos="310.101" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-302.79"  ypos="138.516" zpos="364.005" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-307.328" ypos="138.516" zpos="312.134" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-298.12"  ypos="138.516" zpos="351.851" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-268.354" ypos="138.519" zpos="364.807" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-256.484" ypos="138.516" zpos="292.389" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-282.587" ypos="138.516" zpos="311.689" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-290.805" ypos="138.516" zpos="342.357" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-263.789" ypos="138.516" zpos="375.89"  GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-255.598" ypos="138.516" zpos="386.011" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-264.675" ypos="138.516" zpos="282.267" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-212.945" ypos="138.777" zpos="356.145" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-217.483" ypos="138.516" zpos="304.273" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-251.919" ypos="138.516" zpos="303.471" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-237.686" ypos="138.6"   zpos="356.59"  GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-229.468" ypos="138.774" zpos="325.922" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-225.806" ypos="138.81"  zpos="358.178" GUID="" type="HMP.W8_B1.c999.sc4"/>
+    <POI MapID="1564" xpos="-222.153" ypos="138.849" zpos="316.427" GUID="" type="HMP.W8_B1.c999.sc4"/>
     
     <!-- ========================= Greer, the Blightbringer ========================= -->
     <!-- Boundary -->
