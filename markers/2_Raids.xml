@@ -769,12 +769,22 @@
     <MarkerCategory name="W8_B1" DisplayName="Decima the Stormsinger" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c1" DisplayName="Max Melee"/>
       <MarkerCategory name="c2" DisplayName="Boundary"                                              trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
-      <MarkerCategory name="c3" DisplayName="Split Phase Positions" alpha="0.5" fadeFar="5000" fadeNear="4750" iconFile="Assets/General/dot.png" iconSize="0.65" rotate-x="180" heightOffset="-0.05"/>
-      <MarkerCategory name="c999" DisplayName="CM Phase 1 Conduit Positions" fadeFar="7000" fadeNear="6750" iconFile="Assets/Shapes/Orb1.png" color="ff9900" iconSize="2.24" rotate-x="180" heightOffset="-0.05">
-        <MarkerCategory name="p1_1" DisplayName="Phase 1 Pre-Split"/>
-        <MarkerCategory name="p1_2" DisplayName="Phase 1 Split Phase"/>
-        
-        
+      <MarkerCategory name="c3" DisplayName="CM Split Phase Positions" alpha="0.5" fadeFar="5000" fadeNear="4750" iconFile="Assets/General/dot.png" iconSize="0.65" rotate-x="180" heightOffset="-0.05">
+        <MarkerCategory name="sc1" DisplayName="Phase 1"/>
+        <MarkerCategory name="sc2" DisplayName="Phase 2" defaultToggle="0"/>
+      </MarkerCategory>
+      <MarkerCategory name="c999" DisplayName="CM Conduit Positions" defaultToggle="0" fadeFar="7000" fadeNear="6750" iconFile="Assets/Shapes/Orb1.png" color="ff9900" iconSize="2.24" rotate-x="180" heightOffset="-0.05">
+        <MarkerCategory name="sc1" DisplayName="Phase 1" tip-description="100% - 70%">
+          <MarkerCategory name="asc1" DisplayName="Pre-Split" tip-description="• Begins furthest away&#xA;• Moves in after 1st Orange Arrow&#xA;• Moves in after 1st Red Arrow&#xA;• Moves out/in during Orange/Red arrows afterwards, respectively."/>
+          <MarkerCategory name="asc2" DisplayName="Split Phase" defaultToggle="0"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="Phase 2" defaultToggle="0" tip-description="70% - 40%">
+          <MarkerCategory name="asc1" DisplayName="Pre-Split #1"/>
+          <MarkerCategory name="asc2" DisplayName="Pre-Split #2" defaultToggle="0"/>
+          <MarkerCategory name="asc3" DisplayName="Pre-Split #3" defaultToggle="0"/>
+          <MarkerCategory name="asc4" DisplayName="Pre-Split #4" defaultToggle="0"/>
+          <MarkerCategory name="asc5" DisplayName="Split Phase"  defaultToggle="0"/>
+        </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
@@ -819,99 +829,174 @@
     <Trail trailData="Assets/Raids/w8b1_maxMelee.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B1.c1" fadeFar="400" fadeNear="350"/>
     <!-- Boundary -->
     <Trail trailData="Assets/Boundary/W8B1-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B1.c2" fadeFar="750" fadeNear="650"/>
-    <!-- Split Phase Positions (Decima / T-Boulder / T-Boulder)-->
-    <POI MapID="1564" xpos="-219.496" ypos="138.925" zpos="334.139" GUID="uNw4FBm6HE25IENBlA8kMw==" type="HMP.W8_B1.c3"/>
-    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="298.944" GUID="OVoh3stedk+6FtIo4JxCnQ==" type="HMP.W8_B1.c3"/>
-    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="369.334" GUID="P9ilG1KL1E2vbI3J6fcm2w==" type="HMP.W8_B1.c3"/>
-    
-    <POI MapID="1564" xpos="-219.496" ypos="138.925" zpos="334.139" GUID="uNw4FBm6HE25IENBlA8kMw==" type="HMP.W8_B1.c3" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="298.944" GUID="OVoh3stedk+6FtIo4JxCnQ==" type="HMP.W8_B1.c3" iconFile="Assets/General/dot-border.png"/>
-    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="369.334" GUID="P9ilG1KL1E2vbI3J6fcm2w==" type="HMP.W8_B1.c3" iconFile="Assets/General/dot-border.png"/>
-    
-    
-    
+    <!-- Split Phase (1) Positions (Decima / T-Boulder / T-Boulder)-->
+    <POI MapID="1564" xpos="-219.496" ypos="138.925" zpos="334.139" GUID="uNw4FBm6HE25IENBlA8kMw==" type="HMP.W8_B1.c3.sc1"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="298.944" GUID="OVoh3stedk+6FtIo4JxCnQ==" type="HMP.W8_B1.c3.sc1"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="369.334" GUID="P9ilG1KL1E2vbI3J6fcm2w==" type="HMP.W8_B1.c3.sc1"/>
+    <POI MapID="1564" xpos="-219.496" ypos="138.925" zpos="334.139" GUID="uNw4FBm6HE25IENBlA8kMw==" type="HMP.W8_B1.c3.sc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="298.944" GUID="OVoh3stedk+6FtIo4JxCnQ==" type="HMP.W8_B1.c3.sc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="369.334" GUID="P9ilG1KL1E2vbI3J6fcm2w==" type="HMP.W8_B1.c3.sc1" iconFile="Assets/General/dot-border.png"/>
+    <!-- Split Phase (2) Positions (Decima / T-Boulder / T-Boulder) -->
+    <POI MapID="1564" xpos="-299.392" ypos="138.516" zpos="344.658" GUID="" type="HMP.W8_B1.c3.sc2"/>
+    <POI MapID="1564" xpos="-249.618" ypos="138.519" zpos="294.884" GUID="" type="HMP.W8_B1.c3.sc2"/>
+    <POI MapID="1564" xpos="-231.4"   ypos="138.678" zpos="362.876" GUID="" type="HMP.W8_B1.c3.sc2"/>
+    <POI MapID="1564" xpos="-299.392" ypos="138.516" zpos="344.658" GUID="" type="HMP.W8_B1.c3.sc2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="-249.618" ypos="138.519" zpos="294.884" GUID="" type="HMP.W8_B1.c3.sc2" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1564" xpos="-231.4"   ypos="138.678" zpos="362.876" GUID="" type="HMP.W8_B1.c3.sc2" iconFile="Assets/General/dot-border.png"/>
     
     <!-- EVEN MORE CONDUIT RESEARCH -->
     <!-- 20250314-212909 Phase 1 (Initial / 1st Orange Arrows) -->
-    <POI MapID="1564" xpos="-236.787" ypos="138.575" zpos="353.731" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-254.844" ypos="138.516" zpos="304.122" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-253.079" ypos="138.516" zpos="374.162" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-267.193" ypos="138.516" zpos="294.117" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-310.936" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-298.325" ypos="138.516" zpos="320.24"  GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-291.268" ypos="138.516" zpos="360.262" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-288.778" ypos="138.516" zpos="344.564" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-265.429" ypos="138.521" zpos="364.156" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-283.485" ypos="138.516" zpos="314.547" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-285.536" ypos="138.516" zpos="378.133" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-285.536" ypos="138.516" zpos="290.145" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-221.947" ypos="138.743" zpos="348.039" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-231.495" ypos="138.793" zpos="323.714" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-234.736" ypos="138.516" zpos="290.145" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-234.736" ypos="138.556" zpos="378.133" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-229.004" ypos="138.456" zpos="308.016" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-209.336" ypos="138.799" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_1"/>
+    <POI MapID="1564" xpos="-236.787" ypos="138.575" zpos="353.731" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-254.844" ypos="138.516" zpos="304.122" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-253.079" ypos="138.516" zpos="374.162" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-267.193" ypos="138.516" zpos="294.117" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-310.936" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-298.325" ypos="138.516" zpos="320.24"  GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-291.268" ypos="138.516" zpos="360.262" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-288.778" ypos="138.516" zpos="344.564" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-265.429" ypos="138.521" zpos="364.156" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-283.485" ypos="138.516" zpos="314.547" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-285.536" ypos="138.516" zpos="378.133" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-285.536" ypos="138.516" zpos="290.145" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-221.947" ypos="138.743" zpos="348.039" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-231.495" ypos="138.793" zpos="323.714" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-234.736" ypos="138.516" zpos="290.145" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-234.736" ypos="138.556" zpos="378.133" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-229.004" ypos="138.456" zpos="308.016" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-209.336" ypos="138.799" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
     <!-- 20250314-220126 Phase 1 (1st Greens) -->
-    <POI MapID="1564" xpos="-294.745" ypos="138.516" zpos="321.543" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-305.856" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-237.276" ypos="138.68"  zpos="373.734" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-238.733" ypos="138.523" zpos="352.099" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-255.285" ypos="138.516" zpos="306.624" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-264.988" ypos="138.524" zpos="361.655" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-266.532" ypos="138.516" zpos="297.869" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-281.54"  ypos="138.516" zpos="316.18"  GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-282.996" ypos="138.516" zpos="294.545" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-282.996" ypos="138.516" zpos="373.734" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-286.391" ypos="138.516" zpos="343.695" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-288.35"  ypos="138.516" zpos="357.813" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-253.741" ypos="138.516" zpos="370.41"  GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-233.881" ypos="138.74"  zpos="324.583" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-231.923" ypos="138.367" zpos="310.465" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-225.528" ypos="138.658" zpos="346.736" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-214.416" ypos="138.86"  zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-237.276" ypos="138.516" zpos="294.545" GUID="" type="HMP.W8_B1.c999.p1_1"/>
+    <POI MapID="1564" xpos="-294.745" ypos="138.516" zpos="321.543" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-305.856" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-237.276" ypos="138.68"  zpos="373.734" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-238.733" ypos="138.523" zpos="352.099" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-255.285" ypos="138.516" zpos="306.624" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-264.988" ypos="138.524" zpos="361.655" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-266.532" ypos="138.516" zpos="297.869" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-281.54"  ypos="138.516" zpos="316.18"  GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-282.996" ypos="138.516" zpos="294.545" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-282.996" ypos="138.516" zpos="373.734" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-286.391" ypos="138.516" zpos="343.695" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-288.35"  ypos="138.516" zpos="357.813" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-253.741" ypos="138.516" zpos="370.41"  GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-233.881" ypos="138.74"  zpos="324.583" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-231.923" ypos="138.367" zpos="310.465" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-225.528" ypos="138.658" zpos="346.736" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-214.416" ypos="138.86"  zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-237.276" ypos="138.516" zpos="294.545" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
     <!-- 20250314-220126 Phase 1 (2nd Orange Arrows) -->
-    <POI MapID="1564" xpos="-291.165" ypos="138.516" zpos="322.846" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-300.776" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-239.816" ypos="138.516" zpos="369.334" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-240.679" ypos="138.516" zpos="350.466" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-255.726" ypos="138.516" zpos="309.125" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-264.547" ypos="138.527" zpos="359.153" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-265.87"  ypos="138.516" zpos="301.621" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-279.594" ypos="138.516" zpos="317.812" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="369.334" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-284.005" ypos="138.516" zpos="342.827" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-285.431" ypos="138.516" zpos="355.364" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-253.741" ypos="138.516" zpos="370.41"  GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-236.268" ypos="138.601" zpos="325.452" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-234.842" ypos="138.279" zpos="312.914" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-229.108" ypos="138.644" zpos="345.433" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-219.496" ypos="138.925" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_1"/>
-    <POI MapID="1564" xpos="-239.816" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.p1_1"/>
+    <POI MapID="1564" xpos="-291.165" ypos="138.516" zpos="322.846" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-300.776" ypos="138.516" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-239.816" ypos="138.516" zpos="369.334" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-240.679" ypos="138.516" zpos="350.466" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-255.726" ypos="138.516" zpos="309.125" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-264.547" ypos="138.527" zpos="359.153" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-265.87"  ypos="138.516" zpos="301.621" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-279.594" ypos="138.516" zpos="317.812" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-280.456" ypos="138.516" zpos="369.334" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-284.005" ypos="138.516" zpos="342.827" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-285.431" ypos="138.516" zpos="355.364" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-253.741" ypos="138.516" zpos="370.41"  GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-236.268" ypos="138.601" zpos="325.452" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-234.842" ypos="138.279" zpos="312.914" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-229.108" ypos="138.644" zpos="345.433" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-219.496" ypos="138.925" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
+    <POI MapID="1564" xpos="-239.816" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.sc1.asc1"/>
     <!-- 20250314-220126 Phase 1 (Split Phase) -->
-    <POI MapID="1564" xpos="-300.776" ypos="138.516" zpos="369.334" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-239.816" ypos="138.604" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-209.336" ypos="138.959" zpos="351.737" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-260.136" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="281.346" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="316.542" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="351.737" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-300.776" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-229.656" ypos="138.583" zpos="316.542" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-229.656" ypos="138.563" zpos="351.737" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="316.542" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="386.932" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="386.932" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="281.346" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="351.737" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-260.136" ypos="138.518" zpos="369.334" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-199.176" ypos="139.214" zpos="334.139" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    <POI MapID="1564" xpos="-209.336" ypos="138.935" zpos="316.542" GUID="" type="HMP.W8_B1.c999.p1_2"/>
-    
-    
-    
-    
+    <POI MapID="1564" xpos="-300.776" ypos="138.516" zpos="369.334" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-239.816" ypos="138.604" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-209.336" ypos="138.959" zpos="351.737" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-260.136" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="281.346" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="316.542" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="351.737" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-300.776" ypos="138.516" zpos="298.944" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-229.656" ypos="138.583" zpos="316.542" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-229.656" ypos="138.563" zpos="351.737" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="316.542" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-290.616" ypos="138.516" zpos="386.932" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="386.932" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="281.346" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-270.296" ypos="138.516" zpos="351.737" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-260.136" ypos="138.518" zpos="369.334" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-199.176" ypos="139.214" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <POI MapID="1564" xpos="-209.336" ypos="138.935" zpos="316.542" GUID="" type="HMP.W8_B1.c999.sc1.asc2"/>
+    <!-- 20250315-231214 Phase 2 (1st Orange Arrows & Greens) -->
+    <POI MapID="1564" xpos="-299.967" ypos="138.516" zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-236.726" ypos="138.799" zpos="331.999" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-233.442" ypos="138.43"  zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="331.999" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="389.611" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="297.871" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-269.988" ypos="138.517" zpos="355.484" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-266.704" ypos="138.516" zpos="372.547" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="320.623" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-223.59"  ypos="138.878" zpos="320.623" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-236.726" ypos="138.516" zpos="297.871" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-207.17"  ypos="138.932" zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-223.59"  ypos="138.608" zpos="309.247" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-256.852" ypos="138.518" zpos="366.859" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="378.235" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-240.433" ypos="138.517" zpos="372.547" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-273.695" ypos="138.516" zpos="314.935" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="309.247" GUID="" type="HMP.W8_B1.c999.sc2.asc1"/>
+    <!-- 20250315-231214 Phase 2 (1st Red Arrow)-->
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="296.744" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-242.356" ypos="138.516" zpos="307.743" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-222.036" ypos="138.95"  zpos="325.34"  GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="279.147" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="336.339" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-246.166" ypos="138.517" zpos="305.543" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-246.166" ypos="138.516" zpos="362.735" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="353.937" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-286.806" ypos="138.522" zpos="305.543" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-237.276" ypos="138.811" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-196.636" ypos="139.687" zpos="334.139" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-242.356" ypos="138.53"  zpos="360.536" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-222.036" ypos="138.772" zpos="342.938" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="371.534" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-286.806" ypos="138.516" zpos="362.735" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="389.132" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-291.886" ypos="138.516" zpos="331.94"  GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <POI MapID="1564" xpos="-271.566" ypos="138.516" zpos="314.342" GUID="" type="HMP.W8_B1.c999.sc2.asc2"/>
+    <!-- 20250315-231214 Phase 2 (2nd Orange Arrows) -->
+    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="301.419" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-207.17"  ypos="138.905" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-223.59"  ypos="138.869" zpos="359.031" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-240.433" ypos="138.516" zpos="295.731" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-273.695" ypos="138.516" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="312.795" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="370.407" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="359.031" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-256.852" ypos="138.516" zpos="290.043" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-223.59"  ypos="138.71"  zpos="347.655" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-236.726" ypos="138.576" zpos="370.407" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-236.726" ypos="138.821" zpos="336.279" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-233.442" ypos="138.669" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-299.967" ypos="138.516" zpos="353.343" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-290.115" ypos="138.516" zpos="347.655" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-303.251" ypos="138.516" zpos="336.279" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-269.988" ypos="138.516" zpos="278.667" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <POI MapID="1564" xpos="-266.704" ypos="138.516" zpos="295.731" GUID="" type="HMP.W8_B1.c999.sc2.asc3"/>
+    <!-- 20250315-231214 Phase 2 (Split Phase) -->
+    <POI MapID="1564" xpos="-259.778" ypos="138.516" zpos="312.482" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-221.24"  ypos="138.915" zpos="380.474" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-241.56"  ypos="138.618" zpos="380.474" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-239.458" ypos="138.516" zpos="312.482" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-289.232" ypos="138.516" zpos="362.255" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-269.938" ypos="138.516" zpos="294.884" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-319.712" ypos="138.516" zpos="344.658" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-309.552" ypos="138.516" zpos="362.255" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-229.298" ypos="138.516" zpos="294.884" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-211.08"  ypos="138.754" zpos="362.876" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-251.72"  ypos="138.516" zpos="362.876" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-221.24"  ypos="138.615" zpos="345.278" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-241.56"  ypos="138.516" zpos="345.278" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-309.552" ypos="138.516" zpos="327.06"  GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-279.072" ypos="138.516" zpos="344.658" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-289.232" ypos="138.516" zpos="327.06"  GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-239.458" ypos="138.516" zpos="277.286" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
+    <POI MapID="1564" xpos="-259.778" ypos="138.516" zpos="277.286" GUID="" type="HMP.W8_B1.c999.sc2.asc5"/>
     
     <!-- ========================= Greer, the Blightbringer ========================= -->
     <!-- Boundary -->
@@ -996,7 +1081,6 @@
     <POI MapID="1564" xpos="193.88"  ypos="269.82"  zpos="219.206" GUID="" type="HMP.W8_B3.c1" iconFile="Assets/Numbers/26.png" heightOffset=""/> <!-- 489.159 -->
     <POI MapID="1564" xpos="183.058" ypos="269.856" zpos="235.223" GUID="" type="HMP.W8_B3.c1" iconFile="Assets/Numbers/27.png" heightOffset=""/> <!-- 513.159 -->
     <POI MapID="1564" xpos="165.246" ypos="269.917" zpos="253.157" GUID="" type="HMP.W8_B3.c1" iconFile="Assets/Numbers/28.png" heightOffset=""/> <!-- 537.159 -->
-    
     <!-- Titanspawn Geysers -->
     <POI MapID="1564" xpos="171.516" ypos="269.833" zpos="218.84"  GUID="" type="HMP.W8_B3.c2" iconFile="Assets/General/dot.png"/> <!-- 126.959 -->
     <POI MapID="1564" xpos="128.843" ypos="269.86"  zpos="234.446" GUID="" type="HMP.W8_B3.c2" iconFile="Assets/General/dot.png"/> <!-- 163.960 -->
@@ -1008,14 +1092,6 @@
     <POI MapID="1564" xpos="150.502" ypos="269.842" zpos="255.448" GUID="" type="HMP.W8_B3.c2" iconFile="Assets/General/dot.png"/> <!-- 430.259 -->
     <POI MapID="1564" xpos="171.516" ypos="270.165" zpos="218.84"  GUID="" type="HMP.W8_B3.c2" iconFile="Assets/General/dot.png"/> <!-- 471.659 -->
     <POI MapID="1564" xpos="141.474" ypos="269.847" zpos="210.485" GUID="" type="HMP.W8_B3.c2" iconFile="Assets/General/dot.png"/> <!-- 521.059 -->
-    
-    <!-- Sulfuric Geysers Timings -->
-    <!-- 133.754, 141.878, 162.110, 180.082, 187.561, 222.319, 236.829, 244.477, 271.989, 304.755, 312.316, 346.561, 361.795, 395.433, 414.904, 422.471, 460.787, 463.194, 501.712, 528.468, 536.584, -->
-    
-    
-    
-    
-    
     
   </POIs>
 </OverlayData>
