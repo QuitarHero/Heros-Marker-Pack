@@ -789,7 +789,10 @@
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory name="c1" DisplayName="Boundary"                                              trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+      <MarkerCategory name="c1" DisplayName="Boundary"                                                          trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
+        <MarkerCategory name="sc1" DisplayName="Ground"/>
+        <MarkerCategory name="sc2" DisplayName="Aerial" alpha="0.6" fadeFar="8000" fadeNear="7500" iconFile="Assets/Shapes/Orb20-half.png" iconSize="70.85" tip-description="As a reminder, the Skyscale's hitbox is below its feet."/>
+      </MarkerCategory>
       <MarkerCategory name="c2" DisplayName="Normal Mode Spawn Positions" defaultToggle="0" fadeFar="7000" fadeNear="6750">
         <MarkerCategory name="sc1" DisplayName="Gree, the Bringer"                                                                              tip-description="Melee-focused Titan">
           <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1"   rotate-x="180"/>
@@ -1042,6 +1045,19 @@
     <!-- ========================= Greer, the Blightbringer ========================= -->
     <!-- Boundary -->
     <Trail trailData="Assets/Boundary/W8B2-Bound.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="1" type="HMP.W8_B2.c1" fadeFar="950" fadeNear="850"/>
+    <!-- Aerial Boundary -->
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,0"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,15"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,30"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,45"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,60"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,75"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,90"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,105"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,120"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,135"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,150"/>
+    <POI MapID="1564" xpos="375.262" ypos="75.797" zpos="-179.55" GUID="" type="HMP.W8_B2.c1.sc2" rotate="90,0,165"/>
     <!-- Gree's Spawn Positions -->
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="AaiV76xX5EaprZKnENQDjA==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="nFjAxPB270O03vriIw6jNQ==" type="HMP.W8_B2.c2.sc1.asc1" iconFile="Assets/General/dot-border.png"/>
