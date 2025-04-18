@@ -789,17 +789,17 @@
         <MarkerCategory name="sc1" DisplayName="Gree, the Bringer">
           <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1" rotate-x="180"/>
           <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade"/>
-          <MarkerCategory name="asc3" DisplayName="Boons"/>
+          <MarkerCategory name="asc3" DisplayName="Boons"                                             iconSize="0.5" script-filter="combatFade" tip-description="Gree has 25 Might and Resolution. Killing Gree removes Protection from Greer and the others."/>
         </MarkerCategory>
-        <MarkerCategory name="sc2" DisplayName="Reeg, the Blighter">
+        <MarkerCategory name="sc2" DisplayName="Reeg, the Blighter" defaultToggle="0">
           <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1" rotate-x="180"/>
           <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade"/>
-          <MarkerCategory name="asc3" DisplayName="Boons"/>
+          <MarkerCategory name="asc3" DisplayName="Boons"                                             iconSize="0.5" script-filter="combatFade" tip-description="Reeg has 25 Might and Protection. Killing Reeg removes Resolution from Greer and the others."/>
         </MarkerCategory>
-        <MarkerCategory name="sc3" DisplayName="Ereg, the Enabler">
+        <MarkerCategory name="sc3" DisplayName="Ereg, the Enabler" defaultToggle="0">
           <MarkerCategory name="asc1" DisplayName="Spawn Positions" alpha="0.35" heightOffset="-0.05" iconSize="1" rotate-x="180"/>
           <MarkerCategory name="asc2" DisplayName="Numbers"                                           iconSize="1.5" script-filter="combatFade"/>
-          <MarkerCategory name="asc3" DisplayName="Boons"/>
+          <MarkerCategory name="asc3" DisplayName="Boons"                                             iconSize="0.5" script-filter="combatFade" tip-description="Ereg has Protection and Resolution. Killing Ereg removes 25 Might from Greer and the others."/>
         </MarkerCategory>
         <MarkerCategory name="sc4" DisplayName="Proto-Greerlings"  defaultToggle="0" alpha="1" heightOffset="-0.05" iconSize="1" rotate-x="180"/>
       </MarkerCategory>
@@ -856,23 +856,35 @@
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="" type="HMP.W8_B2.c3.sc1.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="" type="HMP.W8_B2.c3.sc1.asc1" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1564" xpos="342.359" ypos="77.392" zpos="-139.306" GUID="" type="HMP.W8_B2.c3.sc1.asc2" iconFile="Assets/General/1.png"/>
+    <POI MapID="1564" xpos="342.359" ypos="78.992" zpos="-139.306" GUID="" type="HMP.W8_B2.c3.sc1.asc3" iconFile="Assets/General/Might.png"/>
+    <POI MapID="1564" xpos="342.359" ypos="80.092" zpos="-139.306" GUID="" type="HMP.W8_B2.c3.sc1.asc3" iconFile="Assets/General/Reso.png"/>
     <POI MapID="1564" xpos="407.373" ypos="77.929" zpos="-157.435" GUID="" type="HMP.W8_B2.c3.sc1.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="407.373" ypos="77.929" zpos="-157.435" GUID="" type="HMP.W8_B2.c3.sc1.asc1" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1564" xpos="407.373" ypos="77.929" zpos="-157.435" GUID="" type="HMP.W8_B2.c3.sc1.asc2" iconFile="Assets/General/2.png"/>
+    <POI MapID="1564" xpos="407.373" ypos="79.429" zpos="-157.435" GUID="" type="HMP.W8_B2.c3.sc1.asc3" iconFile="Assets/General/Might.png"/>
+    <POI MapID="1564" xpos="407.373" ypos="80.529" zpos="-157.435" GUID="" type="HMP.W8_B2.c3.sc1.asc3" iconFile="Assets/General/Reso.png"/>
     <!-- Reeg, the Blighter -->
     <POI MapID="1564" xpos="383.232" ypos="77.48"  zpos="-238.062" GUID="" type="HMP.W8_B2.c3.sc2.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="383.232" ypos="77.48"  zpos="-238.062" GUID="" type="HMP.W8_B2.c3.sc2.asc1" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1564" xpos="383.232" ypos="77.48"  zpos="-238.062" GUID="" type="HMP.W8_B2.c3.sc2.asc2" iconFile="Assets/General/1.png"/>
+    <POI MapID="1564" xpos="383.232" ypos="78.98"  zpos="-238.062" GUID="" type="HMP.W8_B2.c3.sc2.asc3" iconFile="Assets/General/Might.png"/>
+    <POI MapID="1564" xpos="383.232" ypos="80.08"  zpos="-238.062" GUID="" type="HMP.W8_B2.c3.sc2.asc3" iconFile="Assets/General/Prot.png"/>
     <POI MapID="1564" xpos="334.988" ypos="77.646" zpos="-149.461" GUID="" type="HMP.W8_B2.c3.sc2.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="334.988" ypos="77.646" zpos="-149.461" GUID="" type="HMP.W8_B2.c3.sc2.asc1" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1564" xpos="334.988" ypos="77.646" zpos="-149.461" GUID="" type="HMP.W8_B2.c3.sc2.asc2" iconFile="Assets/General/2.png"/>
+    <POI MapID="1564" xpos="334.988" ypos="79.146" zpos="-149.461" GUID="" type="HMP.W8_B2.c3.sc2.asc3" iconFile="Assets/General/Might.png"/>
+    <POI MapID="1564" xpos="334.988" ypos="80.246" zpos="-149.461" GUID="" type="HMP.W8_B2.c3.sc2.asc3" iconFile="Assets/General/Prot.png"/>
     <!-- Ereg, the Enabler -->
     <POI MapID="1564" xpos="422.158" ypos="77.361" zpos="-164.097" GUID="" type="HMP.W8_B2.c3.sc3.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="422.158" ypos="77.361" zpos="-164.097" GUID="" type="HMP.W8_B2.c3.sc3.asc1" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1564" xpos="422.158" ypos="77.361" zpos="-164.097" GUID="" type="HMP.W8_B2.c3.sc3.asc2" iconFile="Assets/General/1.png"/>
+    <POI MapID="1564" xpos="422.158" ypos="78.961" zpos="-164.097" GUID="" type="HMP.W8_B2.c3.sc3.asc3" iconFile="Assets/General/Prot.png"/>
+    <POI MapID="1564" xpos="422.158" ypos="80.061" zpos="-164.097" GUID="" type="HMP.W8_B2.c3.sc3.asc3" iconFile="Assets/General/Reso.png"/>
     <POI MapID="1564" xpos="330.634" ypos="77.393" zpos="-205.063" GUID="" type="HMP.W8_B2.c3.sc3.asc1" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="330.634" ypos="77.393" zpos="-205.063" GUID="" type="HMP.W8_B2.c3.sc3.asc1" iconFile="Assets/General/dot-border.png"/>
     <POI MapID="1564" xpos="330.634" ypos="77.393" zpos="-205.063" GUID="" type="HMP.W8_B2.c3.sc3.asc2" iconFile="Assets/General/2.png"/>
+    <POI MapID="1564" xpos="330.634" ypos="78.943" zpos="-205.063" GUID="" type="HMP.W8_B2.c3.sc3.asc3" iconFile="Assets/General/Prot.png"/>
+    <POI MapID="1564" xpos="330.634" ypos="80.043" zpos="-205.063" GUID="" type="HMP.W8_B2.c3.sc3.asc3" iconFile="Assets/General/Reso.png"/>
     <!-- Proto-Greerlings -->
     <POI MapID="1564" xpos="366.913" ypos="77.393" zpos="-211.665" GUID="" type="HMP.W8_B2.c3.sc4" iconFile="Assets/General/dot.png"/>
     <POI MapID="1564" xpos="388.503" ypos="77.393" zpos="-214.449" GUID="" type="HMP.W8_B2.c3.sc4" iconFile="Assets/General/dot.png"/>
