@@ -773,7 +773,7 @@
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c1" DisplayName="Boundary"                                                          trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
         <MarkerCategory name="sc1" DisplayName="Ground"/>
-        <MarkerCategory name="sc2" DisplayName="Aerial" alpha="0.6" fadeFar="8000" fadeNear="7500" iconFile="Assets/Shapes/Orb20-half.png" iconSize="70.85" tip-description="As a reminder, the Skyscale's hitbox is below their feet."/>
+        <MarkerCategory name="sc2" DisplayName="Aerial" defaultToggle="0" alpha="0.6" fadeFar="8000" fadeNear="7500" iconFile="Assets/Shapes/Orb20-half.png" iconSize="70.85" tip-description="As a reminder, the Skyscale's hitbox is below their feet."/>
       </MarkerCategory>
       <MarkerCategory name="c2" DisplayName="Normal Mode Spawn Positions" defaultToggle="0" fadeFar="7000" fadeNear="6750">
         <MarkerCategory name="sc1" DisplayName="Gree, the Bringer"                                                                              tip-description="Melee-focused Titan">
