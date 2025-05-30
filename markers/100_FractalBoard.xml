@@ -1,0 +1,249 @@
+<OverlayData>
+  <MarkerCategory name="HMPalpha" DisplayName="Hero's Alpha Pack">
+    <MarkerCategory name="fractalBoard" DisplayName="Fractal Board" rotate="90,0,270" autoTrigger="1" triggerRange="9999">
+      
+      <MarkerCategory   name="c1"  DisplayName="Daily Type"      IsSeparator="1" cull="CounterClockwise"  fadeFar="2850" fadeNear="2600" iconSize="2.25" >
+        <MarkerCategory name="sc1" DisplayName="Today"/>
+        <MarkerCategory name="sc2" DisplayName="Tomorrow"        defaultToggle="0"/>
+      </MarkerCategory>
+      
+      <MarkerCategory   name="c2"  DisplayName="Fractal Display" IsSeparator="1"  cull="CounterClockwise" fadeFar="2850" fadeNear="2600">
+        <MarkerCategory name="sc1" DisplayName="All CM's + T4's" defaultToggle="0"/>
+        <MarkerCategory name="sc2" DisplayName="T4's + Recs"/>
+        <MarkerCategory name="sc3" DisplayName="T4's only"       defaultToggle="0"/>
+      </MarkerCategory>
+      
+      <MarkerCategory   name="c3"  DisplayName="Show Fractal Set?" cull="CounterClockwise"/>
+      
+      <MarkerCategory   name="c4"  DisplayName="Slaying">
+      </MarkerCategory>
+      
+      
+      
+      
+      
+      
+      <MarkerCategory name="c99"        DisplayName="Occlusion" isHidden="1" cull="CounterClockwise"                                alpha="0" iconFile="Assets/Shapes/Masking/Square.png" occlude="1"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- Some Trigger Marker -->
+    <POI MapID="872" xpos="61.65614" ypos="236.4122" zpos="-18.60179" GUID="8+vk6aBsREOCtoR5AyGSwg==" type="HMPalpha.fractalBoard" iconFile="Assets/General/empty.png" script-once="SetFractalDailies"/>
+    
+    <!-- Today / Tomorrow Trigger Markers -->
+    <POI MapID="872" xpos="58.4768"  ypos="236.862"  zpos="-18.428" GUID="aiEXUIs8B0OPfrda3MejBw==" type="HMPalpha.fractalBoard.c1.sc1" iconFile="Assets/General/empty.png" triggerRange="5" autoTrigger="0" show="HMPalpha.fractalBoard.c1.sc2" hide="HMPalpha.fractalBoard.c1.sc1"/>
+    <POI MapID="872" xpos="58.4768"  ypos="236.862"  zpos="-18.428" GUID="owfbNutfRUqJ41V33kq7uA==" type="HMPalpha.fractalBoard.c1.sc2" iconFile="Assets/General/empty.png" triggerRange="5" autoTrigger="0" show="HMPalpha.fractalBoard.c1.sc1" hide="HMPalpha.fractalBoard.c1.sc2"/>
+    
+    
+    
+    
+    
+    
+    <!-- ==================== INSTABILITY HOLOGRAM BOARD ==================== -->
+    <!-- Instability Board -->
+    <POI MapID="872" xpos="58.4768"  ypos="264.862"  zpos="-18.428"   GUID="Mm8wswPV7UiGM/50Oyt5Hg==" type="HMPalpha.fractalBoard"           fadeFar="3300" fadeNear="3050" heightOffset="-26.5" iconSize="4.35" iconFile="Assets/Fracs/DailyBoard/Main Board 4.png"/>
+    
+    <!-- Floating Hexes -->
+    <POI MapID="872" xpos="58.4768" ypos="242.175" zpos="-22.2289" GUID="" type="HMPalpha.fractalBoard" fadeFar="3300" fadeNear="3050" iconSize="1.5" iconFile="Assets/Fracs/DailyBoard/1466107-1.png" alpha="0.75" color="45f7f5" bounce-height="0.5" bounce-duration="10" rotate="100,0,270"/>
+    <POI MapID="872" xpos="58.4768" ypos="242.175" zpos="-22.2289" GUID="" type="HMPalpha.fractalBoard" fadeFar="3300" fadeNear="3050" iconSize="1.5" iconFile="Assets/Fracs/DailyBoard/1466109-1.png" alpha="0.75" color="45f7f5" bounce-height="0.5" bounce-duration="10" rotate="100,0,270"/>
+    
+    <POI MapID="872" xpos="66.9648" ypos="241.607" zpos="-15.3234" GUID="9SqIcqp7a0qIk71pXwzysQ==" type="HMPalpha.fractalBoard" fadeFar="3300" fadeNear="3050" iconSize="1" iconFile="Assets/Fracs/DailyBoard/1466107-1.png" alpha="1" color="44c5e3" rotate="90,0,215" bounce-height="1"   bounce-duration="15"/>
+    <POI MapID="872" xpos="66.9648" ypos="241.607" zpos="-15.3234" GUID="uPj3tcDshkOaSTGX/u9k/g==" type="HMPalpha.fractalBoard" fadeFar="3300" fadeNear="3050" iconSize="1" iconFile="Assets/Fracs/DailyBoard/1466109-1.png" alpha="1" color="35a3bd" rotate="90,0,215" bounce-height="1"   bounce-duration="15"/>
+    
+    
+    
+    
+    
+    
+    <!-- ========== TODAY / TOMORROW ========== -->
+    <!-- Today -->
+    <POI MapID="872" xpos="58.4768"  ypos="239.206"  zpos="-20.5422"  GUID="" type="HMPalpha.fractalBoard.c1.sc1" iconFile="Assets/Fracs/DailyBoard/Title Text/Today-title.png"/>
+    <!-- Tomorrow -->
+    <POI MapID="872" xpos="58.4768"  ypos="239.206"  zpos="-20.5422"  GUID="" type="HMPalpha.fractalBoard.c1.sc2" iconFile="Assets/Fracs/DailyBoard/Title Text/Tomorrow-title.png"/>
+    
+    <!-- ========== FRACTAL COMBOS ========== -->
+    <!-- ===== ALL CM's + T4's ===== -->
+    <!-- CM Divider -->
+    <POI MapID="872" xpos="58.4768" ypos="264.812" zpos="-18.428"  GUID="egGaTYx2dUy2MziXF5z6Bw==" type="HMPalpha.fractalBoard.c2.sc1" fadeFar="3300" fadeNear="3050" heightOffset="-26.5" iconSize="4.35" iconFile="Assets/Fracs/DailyBoard/Divider-CMs.png" cull="CounterClockwise"/>
+    <!-- T4 Divider -->
+    <POI MapID="872" xpos="58.4768" ypos="264.762" zpos="-18.428"  GUID="+37jcc8HlE+jX5UZ8iMAVg==" type="HMPalpha.fractalBoard.c2.sc1" fadeFar="3300" fadeNear="3050" heightOffset="-26.5" iconSize="4.35" iconFile="Assets/Fracs/DailyBoard/Divider-T4.png"  cull="CounterClockwise"/>
+    <!-- Row 1 -->
+    <POI MapID="872" xpos="58.4768" ypos="238.43" zpos="-20.7886" GUID="PWpW92xQPESBDzjBUhEkQQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Lonely_Tower-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.43" zpos="-22.0995" GUID="KYbkwDfmFEuifWx9cWxQsw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.13" zpos="-20.7386" GUID="RQDSAVR0IUy19jKh9pF/6g==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.83" zpos="-20.7386" GUID="Q1KQiNTGM06Er6E91x+Vcw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.53" zpos="-20.7386" GUID="PYNB9BeaV0uCWLFo3/iqNw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.12" zpos="-21.8836" GUID="nCq0mfnP/k+6hfkOXwtpQw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.82" zpos="-21.8836" GUID="Fq8cTi/wLkmCLV3zs+n+oQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.52" zpos="-21.8836" GUID="Y7vnYUlqw0qITADB8JQklA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="238.43" zpos="-18.2069" GUID="g8S0rIRWukmg5pPZxpmQAw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Silent_Surf-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.43" zpos="-19.5178" GUID="lEAWtPK2iUiQZXf+0vIzPA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.13" zpos="-18.1569" GUID="JHjvsK1YK0iyPe8pk/gL7A==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.83" zpos="-18.1569" GUID="Yj4legNhzEKJNyFRtIWeKQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.53" zpos="-18.1569" GUID="Q4Gg/hDamEaM7gDvWRk2rQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.12" zpos="-19.3019" GUID="dgbkJswTQ0+7sZQNQQxpug==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.82" zpos="-19.3019" GUID="vMkVN1syYUS+TatRh7kIhw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.52" zpos="-19.3019" GUID="Z24UaJVZ20ivMBoXgRlnog==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="238.43" zpos="-15.6252" GUID="8Qf3HQLxCEqt8WMoASu9KQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Sunqua_Peak-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.43" zpos="-16.9361" GUID="BpQNCUcaTEuQ8Q9yAa0Lgg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.13" zpos="-15.5752" GUID="LlhoCegvK0aHMuMJGLwfwg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.83" zpos="-15.5752" GUID="K0mkPjX/D0KHFqNehqehaQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.53" zpos="-15.5752" GUID="7HLbXuUDREuJ/7hF2iZUuw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.12" zpos="-16.7202" GUID="iKRWKaCuyE6+6bhDN0f5sQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.82" zpos="-16.7202" GUID="Ty1Mutuh40ytf+GiiTzvsA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.52" zpos="-16.7202" GUID="ZfBmbo3wpEGniuAEgD109w==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <!-- Row 2 -->
+    <POI MapID="872" xpos="58.4768" ypos="237.03" zpos="-20.7886" GUID="cDiMuQri4EKWK7VF/m/XMA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.03" zpos="-22.0995" GUID="l9tkrju7tUW5pNZgzOzkJA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.73" zpos="-20.7386" GUID="2f1o4KGlYU2o2K/bczBPmw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.43" zpos="-20.7386" GUID="IQam7KU8BUSoMTmfQMeAXg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.13" zpos="-20.7386" GUID="bzi+hifZmk+egPcRcFhBQw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.72" zpos="-21.8836" GUID="tdjb5UwUKESnEONDo6J2jA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.42" zpos="-21.8836" GUID="bqCK7RYnWkCfRdlxHwN4DQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.12" zpos="-21.8836" GUID="eer4ysZKiE+MjGMel1WzDw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="237.03" zpos="-18.2069" GUID="ChAAthDSr0+o6IE0Gg18VA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Nightmare-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.03" zpos="-19.5178" GUID="TeFlIVpdFkeAyVW+UdyW/A==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.73" zpos="-18.1569" GUID="jiloRg7YCECx8QelubktuQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.43" zpos="-18.1569" GUID="i3q7kCs4hUO8z3v2ViBccA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.13" zpos="-18.1569" GUID="Z5hnUrOiDEWAOkw+/OKG3A==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.72" zpos="-19.3019" GUID="puaA6Gtp2kG+eCiWeevl5w==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.42" zpos="-19.3019" GUID="P1SXeH92G0uvn+ZHqFYcfw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.12" zpos="-19.3019" GUID="mOBNq1oC1kOtxfdEZdHfPg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="237.03" zpos="-15.6252" GUID="hVYi4OUsP0eG0wAFAzLhaw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Captain_Mai_Trin-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.03" zpos="-16.9361" GUID="gOgrthtC2EuMN/yA95nB8g==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.73" zpos="-15.5752" GUID="86aIzQzz+UyzXFc02SW4OA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.43" zpos="-15.5752" GUID="Tz2cp1ZSiUarw2LOrXFtBQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.13" zpos="-15.5752" GUID="tr9hUJhD6EySH1Tri6QEPw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.72" zpos="-16.7202" GUID="7JmmuljCA0yRntsbWnJdFA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.42" zpos="-16.7202" GUID="wYz/ocJULEWISizE6nbm5g==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.12" zpos="-16.7202" GUID="Sg+GZuxheEq+JFr7LLxi1A==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <!-- Row 3 -->
+    <POI MapID="872" xpos="58.4768" ypos="235.33" zpos="-20.7886" GUID="HhGgdWL9yESOC7j0q0nWog==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.33" zpos="-22.0995" GUID="nCvsALXbqUW8b10w/VwKGA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.03" zpos="-20.7386" GUID="l4oTq2/dmkW/ECmII4Mixg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.73" zpos="-20.7386" GUID="4g+eIRRCGUGLWe7Ocb+icg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.43" zpos="-20.7386" GUID="RcYAy2cgQEadsgvp0gBOOg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.02" zpos="-21.8836" GUID="IE+NktzH5kqFCLzicjNWsQ==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.72" zpos="-21.8836" GUID="as5HDwuoH0+2kqu7XY8SbA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.42" zpos="-21.8836" GUID="KMjopgfUs0KgWNYZssdrNw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="235.33" zpos="-18.2069" GUID="ICHD0UV5P02KdQrmxBWPlg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.33" zpos="-19.5178" GUID="juh47IJUaEaGC3w2fdphSg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.03" zpos="-18.1569" GUID="qn2dMqNnEUex/BXk0rpwLg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.73" zpos="-18.1569" GUID="QB0tg3P93EOFG1AgEjtvpg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.43" zpos="-18.1569" GUID="/Nz+BCKpEU+IJhLiT7wnfg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.02" zpos="-19.3019" GUID="1pYGG423xkijtwmbKO1Syg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.72" zpos="-19.3019" GUID="8FVktJMidUqbjRAD4Qf3wg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.42" zpos="-19.3019" GUID="6FPF5id/WkyTB9QSQ7kkCw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="235.33" zpos="-15.6252" GUID="divyfIMstkejRUsUJzdb5g==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.33" zpos="-16.9361" GUID="iXbEgnMBJk+FFi4JysrE9g==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.15" iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.03" zpos="-15.5752" GUID="0wOkWYB7mkG7Ng20f5we5Q==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.73" zpos="-15.5752" GUID="VMSX53Y/CEeRGH/6kZbnBg==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.43" zpos="-15.5752" GUID="kKY/hnXxIEe6ONdHeyS2FA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="1"    iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.02" zpos="-16.7202" GUID="wglfDZsdS02vt2TyITLvhw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.72" zpos="-16.7202" GUID="T3qKNEkGM029tny2deOwyw==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.42" zpos="-16.7202" GUID="2LtHGUTcUU2Sym85W+C0SA==" type="HMPalpha.fractalBoard.c2.sc1" iconSize="0.1"  iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <!-- ===== T4's + Recs ===== -->
+    <!-- T4 Divider -->
+    <POI MapID="872" xpos="58.4768" ypos="260.870" zpos="-18.428"  GUID="1KJIJ8r1DEmXTXHhE8lRfg==" type="HMPalpha.fractalBoard.c2.sc2" fadeFar="3300" fadeNear="3050" heightOffset="-19.5" iconSize="4.35" iconFile="Assets/Fracs/DailyBoard/Divider-T4.png"  cull="CounterClockwise"/>
+    <!-- Row 1 -->
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-20.0328" GUID="j7/i7AYJs0yDB4dbk88/1g==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-21.5437" GUID="Jj7h0i4GEEyM4F8E4icqIA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.801" zpos="-19.9228" GUID="HOnEkbn4J06NyrraeLkpHg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.301" zpos="-19.9228" GUID="2UVo4Nf3s0mmq6mOsdCykA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.801" zpos="-19.9228" GUID="KihjplR/Skq9HYE138W6zw==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.791" zpos="-21.2678" GUID="h0lWkL9NJEeyimMjJUEopw==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.291" zpos="-21.2678" GUID="Elf7DTYfCEaNz1UZBxm3eQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.791" zpos="-21.2678" GUID="u2W7xoN7nkK+QNDYrjccVw==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-16.2328" GUID="uyN1nCX5ykeAREAgFjn6dg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-17.7437" GUID="z1qMlCxbA0WaXePIrHeNIQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.801" zpos="-16.1228" GUID="Cb/D8L2sw02OYjv/IiCWSg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.301" zpos="-16.1228" GUID="GnJnKOXiSka7QrtuwZBmOQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.801" zpos="-16.1228" GUID="tXobATiLCUGjFIp43+pf/A==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.791" zpos="-17.4678" GUID="SXEWtAgRiUSGvN+NcAPE6Q==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.291" zpos="-17.4678" GUID="tsGv3cRnzE2PFRc/K0mDag==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.791" zpos="-17.4678" GUID="p/Jx2/G1GEmozCj3s6dgiw==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <!-- Row 2 -->
+    <POI MapID="872" xpos="58.4768" ypos="236.101" zpos="-20.0328" GUID="if4EzJE4dEWCOmOUYjlInA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.101" zpos="-21.5437" GUID="8dYWRMy5CEeJ4gZ+bWjkKA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.601" zpos="-19.9228" GUID="eVQNCha4nUmVeP8OkBU4kQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.101" zpos="-19.9228" GUID="eVQNCha4nUmVeP8OkBU4kQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.601" zpos="-19.9228" GUID="C37fCushdkenMcT2lvURvA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.591" zpos="-21.2678" GUID="t/ivnTvAr0y7erqkscKfNA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.091" zpos="-21.2678" GUID="tSocjU2lC0y9al8hl7HPDg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.591" zpos="-21.2678" GUID="/MElFvZuLkyKALRS1EX+Kg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="236.101" zpos="-16.2328" GUID="57ya8XEsWkexRbjTW3SzSQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Daily_Rec-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.101" zpos="-17.7437" GUID="V9LLzg7UzU2MhuCkN35PLA==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.601" zpos="-16.0528" GUID="tb6jPM7g+EadZxrLtwZuUQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.101" zpos="-16.0528" GUID="sLpsoQup5EGtlxINvRR70A==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Swampland-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.601" zpos="-16.0528" GUID="CYraBwUSpEua5rO7obK0Hg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Title Text/Molten_Boss-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.601" zpos="-17.4478" GUID="gVelhAPLFkS4sAFQSgwdvw==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.18" iconFile="Assets/Numbers/11.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.101" zpos="-17.4478" GUID="+bhr+xFFkE6IbjHFa8uT1Q==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.18" iconFile="Assets/Numbers/23.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.601" zpos="-17.4478" GUID="jGxgN+77nkG+afcwYykbeQ==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.18" iconFile="Assets/Numbers/35.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.601" zpos="-17.4428" GUID="AqOshSP3P0SiA7UhcIzzAw==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.24" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png" alpha="0.2" color="3db32b"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.101" zpos="-17.4428" GUID="vMTgR8yKc06Md4yxsIatng==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.24" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png" alpha="0.2" color="3db32b"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.601" zpos="-17.4428" GUID="nv5BRGMjMUyN9TUUZrrIqg==" type="HMPalpha.fractalBoard.c2.sc2" iconSize="0.24" iconFile="Assets/Fracs/DailyBoard/Icon-Rec.png" alpha="0.2" color="3db32b"/>
+    <!-- ===== T4's Only ===== -->
+    <!-- T4 Divider -->
+    <POI MapID="872" xpos="58.4768" ypos="260.870" zpos="-18.428"  GUID="CK+eVL5a30ObYFhc5/cfQg==" type="HMPalpha.fractalBoard.c2.sc3" fadeFar="3300" fadeNear="3050" heightOffset="-19.5" iconSize="4.35" iconFile="Assets/Fracs/DailyBoard/Divider-T4.png"  cull="CounterClockwise"/>
+    <!-- Row 1 -->
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-20.0328" GUID="qhZF3SxRQ0mV+E7RQf6Haw==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-21.5437" GUID="noOZHePY9Ui79MQghUI1Nw==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.801" zpos="-19.9228" GUID="pLkBxDG6F0GbVpfcCTIsqA==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.301" zpos="-19.9228" GUID="flDMaQ5qSkGVCPKf0MEVPw==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.801" zpos="-19.9228" GUID="AJgkQrEvcEWjrHoGyGHz9A==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.791" zpos="-21.2678" GUID="QttUAPNC706VeTIB1o5eMg==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.291" zpos="-21.2678" GUID="Bgo0djIN8Uu3T+p9DKD6kw==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.791" zpos="-21.2678" GUID="/3uUL9xwIUmbrfsD1E4IxA==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-16.2328" GUID="HMydTh5KvUCjhCKetqoxLg==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="238.301" zpos="-17.7437" GUID="13SJxT7XgEezW3fcNknahg==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.801" zpos="-16.1228" GUID="FTDT+BKKe0+l8wSwD5UIXA==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.301" zpos="-16.1228" GUID="DkzBwEm5q0OoUTQYZ6NxTg==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.801" zpos="-16.1228" GUID="h6v6owvdxU2dYF9Y3q4h8w==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.791" zpos="-17.4678" GUID="23O5MSu2b0WjNtzw9lsQYg==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="237.291" zpos="-17.4678" GUID="0kkTd1Y9OkuQlwJXe8l6IA==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.791" zpos="-17.4678" GUID="szQeZCLuLEOQCvXZwRLlAQ==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <!-- Row 2 -->
+    <POI MapID="872" xpos="58.4768" ypos="236.101" zpos="-18.1328" GUID="S4lRtPqJs0Wli7/VlHtMug==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.3"  iconFile="Assets/Fracs/DailyBoard/Title Text/Shattered_Observatory-title.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="236.101" zpos="-19.6437" GUID="mzrYYDML1EOqo3YVI1qC3g==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.2"  iconFile="Assets/Fracs/DailyBoard/Icon-T4.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.601" zpos="-18.0228" GUID="MCImqhw2IkeekkAvHtQhlw==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.101" zpos="-18.0228" GUID="qYwPeotorUaO8e7vwPQF2Q==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.601" zpos="-18.0228" GUID="B2ytz8bKekaK56raPulXxw==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="1.15" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.591" zpos="-19.3678" GUID="Hpsb4CnmdkuGcVzMB5w4xQ==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="235.091" zpos="-19.3678" GUID="EH44cWODN06kSctDvWzq2g==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    <POI MapID="872" xpos="58.4768" ypos="234.591" zpos="-19.3678" GUID="iGAdEsuUtUyB25BRLLR7VQ==" type="HMPalpha.fractalBoard.c2.sc3" iconSize="0.14" iconFile="Assets/Fracs/DailyBoard/Instabilities/Social_Awkwardness-icon.png"/>
+    
+    <!-- ========== FRACTAL SET ========== -->
+    <POI MapID="872" xpos="58.4768"  ypos="239.317"  zpos="-18.428"   GUID="fiVvzDpXUEmhgDUlVmCUaQ==" type="HMPalpha.fractalBoard.c3"  iconSize="0.6"  iconFile="Assets/Fracs/DailyBoard/Title Text/Set-title.png"/>
+    <POI MapID="872" xpos="58.4768"  ypos="239.336"  zpos="-18.7926"  GUID="xO1yHv8CR0SlVZKkdzZ8gw==" type="HMPalpha.fractalBoard.c3"  iconSize="0.31" iconFile="Assets/Numbers/0.png"/>
+    <POI MapID="872" xpos="58.4768"  ypos="239.336"  zpos="-18.5726"  GUID="IdZhDQJ/K06zN4zHnPheJA==" type="HMPalpha.fractalBoard.c3"  iconSize="0.31" iconFile="Assets/Numbers/0.png"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Occlusion Markers -->
+    <POI MapID="872" xpos="73.8892" ypos="226.037" zpos="-23.9069" GUID="t6240yYj3E2hudYydpiYeA==" type="HMPalpha.fractalBoard.c99" iconSize="6" rotate="90,25,260"/>
+    
+  </POIs>
+</OverlayData>
