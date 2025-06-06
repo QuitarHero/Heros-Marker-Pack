@@ -139,6 +139,28 @@
   </POIs>
   
   
+<!-- ======================================== KINFALL ========================================================================================================================================================= -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="F_KF_c1" DisplayName="Boundary"/>
+    
+    <MarkerCategory name="F_KF_sy" DisplayName="Slaying" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"    DisplayName="Start"             fadeFar="1900" fadeNear="1750" cull="CounterClockwise" iconSize="2.5"  rotate="93,0,171"   tip-description="• Svanir&#xA;• Force&#xA;• Wrath"/>
+      <MarkerCategory name="s2"    DisplayName="Whispering Shadow" fadeFar="2000" fadeNear="1750"                         iconSize="2.25" rotate="90,0,271.5" tip-description="• Ice Brood&#xA;• Force&#xA;• Icebrood"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- Whispering Shadow Boundary -->
+    
+    
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1584" xpos="-47.3506" ypos="6.9057"  zpos="-167.371" GUID="1XG3QvASjEaxOlfqOS3u3Q==" type="HMP.F_KF_sy.s1"                                     heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="1584" xpos="-47.3506" ypos="20.9057" zpos="-167.371" GUID="6MLMZKhNskCkLKf44rEUEw==" type="HMP.F_KF_sy.s1"                                                         iconFile="Assets/Fracs/Slaying/KF1.png"/>
+    <POI MapID="1584" xpos="28.5278"  ypos="83.1139" zpos="-192.88"  GUID="uQ7v3V2yR0+iL57fbROk0Q==" type="HMP.F_KF_sy.s2" alpha="0.5" cull="Clockwise"        heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="1584" xpos="28.5288"  ypos="83.1139" zpos="-192.88"  GUID="5Ji2UwsIVUKAUAfjT+wAaQ==" type="HMP.F_KF_sy.s2"             cull="CounterClockwise" heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
+    <POI MapID="1584" xpos="28.5288"  ypos="97.1139" zpos="-192.88"  GUID="9h98ZxmAsk6NWlkWIPs93Q==" type="HMP.F_KF_sy.s2"             cull="CounterClockwise"                     iconFile="Assets/Fracs/Slaying/KF2.png"/>
+  </POIs>
+  
+  
 <!-- ======================================== MISTLOCK OBSERVATORY ========================================================================================================================================================= -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_MO_c1" DisplayName="Jumping Puzzle" iconSize="0.2" mapVisibility="0" minimapVisibility="0"/>
