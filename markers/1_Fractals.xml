@@ -141,7 +141,7 @@
   
 <!-- ======================================== KINFALL ========================================================================================================================================================= -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="F_KF_c1" DisplayName="Boundary" fadeFar="900"  fadeNear="800"                                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="F_KF_c1" DisplayName="Boundary" fadeFar="900"  fadeNear="800"                                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start" mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_KF_sy" DisplayName="Slaying"  fadeFar="1900" fadeNear="1750" cull="CounterClockwise" iconSize="2.5"  rotate="93,0,171"   tip-description="• Ice Brood&#xA;• Force&#xA;• Icebrood" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
