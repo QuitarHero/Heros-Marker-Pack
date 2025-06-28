@@ -2,9 +2,9 @@ HMP.Fractal_Slaying = {
   names = { --Table references to each fractal's MapID and type abbreviation
     { 956,  "AB" }, { 951,  "AR" }, { 960,  "CMT" }, { 1164, "CI" },  { 952,  "CS" },
     { 1290, "DS" }, { 1584, "KF" }, { 959,  "MB"  }, { 955,  "MF" },  { 1177, "NM" },
-    { 1205, "ShO"}, { 1309, "SR" }, { 948,  "SB"  }, { 958,  "SoO"},  { 1384, "SP" }, --{ 1500, "SS" }, Silent Surf not supported yet.
-    { 949,  "SL" }, { 957,  "TR" }, {1538,  "TLT" }, { 1267, "TO" },  { 947,  "UC" },
-    { 953,  "UF" }, { 950,  "UB" }, { 954,  "VO"  }
+    { 1205, "ShO"}, { 1309, "SR" }, { 948,  "SB"  }, { 958,  "SoO"},  { 1384, "SP" },
+    { 1500, "SS" }, { 949,  "SL" }, { 957,  "TR" },  {1538,  "TLT" }, { 1267, "TO" },
+    { 947,  "UC" }, { 953,  "UF" }, { 950,  "UB" },  { 954,  "VO"  }
   },
   markers = nil
 }
@@ -12,7 +12,7 @@ HMP.Fractal_Slaying = {
 local slaying, map = HMP.Fractal_Slaying, Mumble.CurrentMap.Id
 
 local function DisplaySlaying()
-  if( map ~= 872 and map ~= 1500 ) then --If the map we're on is *not* Mistlock Observatory nor Silent Surf
+  if( map ~= 872 ) then --If the map we're on is *not* Mistlock Observatory
     
     for _,v in ipairs(slaying.names) do
       if( map == v[1] ) then
