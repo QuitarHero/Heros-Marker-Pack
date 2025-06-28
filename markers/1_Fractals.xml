@@ -302,6 +302,17 @@
   </POIs>
   
   
+<!-- ======================================== SILENT SURF ================================================================================================================================================================= -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="F_SS_sy" DisplayName="Slaying" cull="CounterClockwise" fadeFar="1500" fadeNear="1250" iconSize="2" rotate="135,0,135" mapVisibility="0" minimapVisibility="0" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
+  </MarkerCategory>
+  <POIs>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1500" xpos="195.427" ypos="624.193" zpos="168.306" GUID="xgq6FzMP8U+FU58Zhv9T/w==" type="HMP.F_SS_sy" iconFile="Assets/Fracs/Slaying/SS1.png"/>
+    <POI MapID="1500" xpos="195.427" ypos="610.193" zpos="168.306" GUID="iwhXOxwZQkuM0RcMWi9ScQ==" type="HMP.F_SS_sy" iconFile="Assets/Fracs/Slaying/fBG.png" heightOffset="15.5"/>
+  </POIs>
+  
+  
 <!-- ======================================== SIREN'S REEF ================================================================================================================================================================= -->
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory name="F_SR_c1" DisplayName="Chest Spawns" fadeFar="3250" fadeNear="3000" iconFile="Assets/Fracs/SR.png" iconSize="0.75" rotate-x="175"     mapVisibility="0" minimapVisibility="0"/>
