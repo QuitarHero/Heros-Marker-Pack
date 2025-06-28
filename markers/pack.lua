@@ -25,13 +25,20 @@ HMP.MapScripts = {
   { {15, {Dir[1] .. "GatheringIcons"} }, {20, {Dir[1] .. "GatheringIcons"} }, {51, {Dir[1] .. "GatheringIcons"} }, {62, {Dir[1] .. "GatheringIcons"} }, {1045, {Dir[1] .. "GatheringIcons"} }, {1052, {Dir[1] .. "GatheringIcons"} }, {1175, {Dir[1] .. "GatheringIcons"} }, {1195, {Dir[1] .. "GatheringIcons"} }, {1203, {Dir[1] .. "GatheringIcons"} }, {1271, {Dir[1] .. "GatheringIcons"} }, {1288, {Dir[1] .. "GatheringIcons"} }, {1301, {Dir[1] .. "GatheringIcons"} }, {1310, {Dir[1] .. "GatheringIcons"} }, {1550, {Dir[1] .. "GatheringIcons"} }, {1554, {Dir[1] .. "GatheringIcons"} }, {1575, {Dir[1] .. "GatheringIcons"} } }
 }
 
---We're forced to load this script, else the script console errors out due to the, "PackScriptToggle" check below.
+--We're forced to load these scripts for Pathing Module and script compatibility.
 Pack:Require(Dir[3] .. "Storage")
+Pack:Require(Dir[3] .. "VersionCheck")
 
 if(not Mumble.IsAvailable) then Debug:Error("Hero's Pack: Mumble API unavailable, script load aborted.")
 elseif( not GetBool("PackScriptToggle") ) then Debug:Error("Hero's Pack: Main Script loading aborted on user preference.")
+elseif( HMP_GetPathingVersion(1) == false ) then Debug:Error("Hero's Pack: Pathing Module version is not the Stable nor a Pre-Release version. Please update the Pathing Module.")
 else
   local map, check = Mumble.CurrentMap.Id, false
+  
+  --Temporary check for the Fractal Daily Script (Future me needs to make this better)
+  if( map == 872 and HMP_GetPathingVersion(2) ) then Pack:Require("scripts/Fractals/Fractal_Dailies.lua")
+  elseif( HMP_GetPathingVersion(2) == false ) then Debug:Error("Hero's Pack: Pathing Module version is not v1.10.2 or above. Fractal Daily script aborted.") HMP_NotifyUser(2)
+  end
   
   -- ========== Script Loading ==========
   for a,maps in ipairs(HMP.MapScripts) do
@@ -49,8 +56,6 @@ else
     end
     if( check ) then break end
   end
-  
-  if( map == 872 ) then Pack:Require("scripts/Fractals/Fractal_Dailies.lua") end
   
   --For use with the script-filter attribute
   function combatFade(marker) return Mumble.PlayerCharacter.IsInCombat end
