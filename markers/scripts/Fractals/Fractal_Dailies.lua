@@ -612,7 +612,6 @@ end
 
 --This should only run when the end-user has a real-life day change while inside the Mistlock Observatory
 local function ChangeInstabTextures()
-  Debug:Print("Changing Instability Textures!")
   local ref = {
     Fotm.T4_and_CM.T4_Title, Fotm.T4_and_CM.T4_Instabs.Names, Fotm.T4_and_CM.T4_Instabs.Icons, Fotm.T4_and_CM.CM_Instabs.Names, Fotm.T4_and_CM.CM_Instabs.Icons,
     Fotm.T4_and_Recs.T4_Title, Fotm.T4_and_Recs.Rec_Title, Fotm.T4_and_Recs.Rec_Number, Fotm.T4_and_Recs.T4_Instabs.Names, Fotm.T4_and_Recs.T4_Instabs.Icons,
@@ -627,8 +626,6 @@ local function ChangeInstabTextures()
       if( c > 1 and c <= 3 ) then
         --We go through every marker in the currently referenced table
         for e,f in ipairs(ref[a][c]) do
-          --Debug:Print("T: " .. c-1 .. "," .. c .. " | M: " .. e .. "," .. e .. "| Marker: " .. ref[a][(c-1)][e].Guid:ToBase64())
-          --ref[a][(c-1)][e].Texture = nil
           ref[a][(c-1)][e].Texture = ref[a][c][e].Texture
         end
       elseif( c > 3 ) then
@@ -657,8 +654,6 @@ local function ChangeSlayingTextures()
       end
     end
   end
-  
-  Debug:Print("I'm done with titles")
   
   for a,b in ipairs(slayingRef) do
     for c,d in ipairs(slayingRef[a]) do

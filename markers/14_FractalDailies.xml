@@ -20,7 +20,7 @@
         <MarkerCategory name="sc1" DisplayName="Show Fractal Set"  cull="CounterClockwise" tip-description="Fractal Dailies are on a 15 day cycle. This option tells you which daily combination (or Set) it is."/>
       </MarkerCategory>
       <!-- Instability Display, Today (1) -->
-      <MarkerCategory name="hiddenC1" DisplayName="Today"             isHidden="0"    cull="CounterClockwise" fadeFar="2750" fadeNear="2600">
+      <MarkerCategory name="hiddenC1" DisplayName="Today"             isHidden="1"    cull="CounterClockwise" fadeFar="2750" fadeNear="2600">
         <MarkerCategory name="fracSet" DisplayName="Fractal Set"      iconSize="0.3"  iconFile="Assets/General/empty.png"/>
         <MarkerCategory name="page"    DisplayName="Display / Page"   iconSize="0.3"/>
         <MarkerCategory name="allcmT4" DisplayName="All CM's + T4's"  defaultToggle="0">
@@ -71,7 +71,7 @@
         </MarkerCategory>
       </MarkerCategory>
       <!-- Instability Display, Tomorrow (2) -->
-      <MarkerCategory name="hiddenC2" DisplayName="Tomorrow"          isHidden="0"    defaultToggle="0" cull="CounterClockwise" fadeFar="2850" fadeNear="2600">
+      <MarkerCategory name="hiddenC2" DisplayName="Tomorrow"          isHidden="1"    defaultToggle="0" cull="CounterClockwise" fadeFar="2850" fadeNear="2600">
         <MarkerCategory name="fracSet" DisplayName="Fractal Set"      iconSize="0.3"  iconFile="Assets/General/empty.png"/>
         <MarkerCategory name="page"    DisplayName="Display / Page"   iconSize="0.3"/>
         <MarkerCategory name="allcmT4" DisplayName="All CM's + T4's"  defaultToggle="0">
@@ -122,7 +122,7 @@
         </MarkerCategory>
       </MarkerCategory>
       <!-- Instability Display, Following Day (3) -->
-      <MarkerCategory name="hiddenC3" DisplayName="Following Day"     isHidden="0"   defaultToggle="0" cull="CounterClockwise" fadeFar="2850" fadeNear="2600">
+      <MarkerCategory name="hiddenC3" DisplayName="Following Day"     isHidden="1"   defaultToggle="0" cull="CounterClockwise" fadeFar="2850" fadeNear="2600">
         <MarkerCategory name="fracSet" DisplayName="Fractal Set"      iconSize="0.3" iconFile="Assets/General/empty.png"/>
         <MarkerCategory name="page"    DisplayName="Display / Page"   iconSize="0.3"/>
         <MarkerCategory name="allcmT4" DisplayName="All CM's + T4's"  defaultToggle="0">
@@ -478,8 +478,6 @@
           </MarkerCategory>
         </MarkerCategory>
       </MarkerCategory>
-      <!-- Occlusion -->
-      <MarkerCategory name="c99"        DisplayName="Occlusion" IsHidden="0" alpha="0.5" cull="CounterClockwise" iconFile="Assets/Shapes/Masking/Square.png" occlude="1"/>
     </MarkerCategory>
   </MarkerCategory>
   
@@ -499,14 +497,6 @@
     <POI xpos="58.4768"  ypos="236.862"  zpos="-18.428"   GUID="yd53rDgzCkeUyTicbXqtAQ==" type="HMP.Daily_Fractals.c3.sc4"   iconFile="Assets/General/empty.png"/>
     <POI xpos="58.4768"  ypos="236.862"  zpos="-18.428"   GUID="ChpSx0JA+UyLqzVZPJ23EQ==" type="HMP.Daily_Fractals.c4.sc1"   iconFile="Assets/General/empty.png"/>
     <POI xpos="58.4768"  ypos="236.862"  zpos="-18.428"   GUID="2EJCjLCMGEes9tMqSOWBDw==" type="HMP.Daily_Fractals.hiddenC1" iconFile="Assets/General/empty.png"/>
-    
-    <!-- ==================== VFX / DECORATION MARKERS ==================== -->
-    <!-- Floating Hexes -->
-    <POI xpos="58.4768" ypos="242.175" zpos="-22.2289" GUID="FNPCDpVVV0GSZKA0UNjLcg==" type="HMP.Daily_Fractals" fadeFar="3300" fadeNear="3050" iconSize="1.5" iconFile="Assets/Fracs/Dailies/1466107-1.png" alpha="0.75" color="45f7f5" rotate="100,0,270" bounce-height="0.5" bounce-duration="10"/>
-    <POI xpos="58.4768" ypos="242.175" zpos="-22.2289" GUID="HNngszaF3kqMARbz5FHoug==" type="HMP.Daily_Fractals" fadeFar="3300" fadeNear="3050" iconSize="1.5" iconFile="Assets/Fracs/Dailies/1466109-1.png" alpha="0.75" color="45f7f5" rotate="100,0,270" bounce-height="0.5" bounce-duration="10"/>
-    
-    <POI xpos="66.9648" ypos="241.607" zpos="-15.3234" GUID="9SqIcqp7a0qIk71pXwzysQ==" type="HMP.Daily_Fractals" fadeFar="3300" fadeNear="3050" iconSize="1"   iconFile="Assets/Fracs/Dailies/1466107-1.png" alpha="1"    color="44c5e3" rotate="90,0,215"  bounce-height="1"   bounce-duration="15"/>
-    <POI xpos="66.9648" ypos="241.607" zpos="-15.3234" GUID="uPj3tcDshkOaSTGX/u9k/g==" type="HMP.Daily_Fractals" fadeFar="3300" fadeNear="3050" iconSize="1"   iconFile="Assets/Fracs/Dailies/1466109-1.png" alpha="1"    color="35a3bd" rotate="90,0,215"  bounce-height="1"   bounce-duration="15"/>
     
     <!-- ==================== INSTABILITY HOLOGRAM DISPLAY ==================== -->
     <!-- Instability Board -->
@@ -984,22 +974,14 @@
     <POI xpos="58.4768" ypos="235.091" zpos="-19.3678" GUID="FskU80woOkWzjpU6ePuf+A==" type="HMP.Daily_Fractals.hiddenC3.onlyT4.c4.sc2"/>
     <POI xpos="58.4768" ypos="234.591" zpos="-19.3678" GUID="cgn9ifnAGk+Xd+WRAIxY4w==" type="HMP.Daily_Fractals.hiddenC3.onlyT4.c4.sc2"/>
     
-    <!-- ========== SLAYING BOARD ========== -->
-    <!-- Key for moving markers on the Slaying Board -->
-    <!-- xpos="58.4768"  ypos="264.862"  zpos="-18.428" -->
-    <!--                 ypos="236.862"                 -->
-    <!--                  OFFSET: 1.5                   -->
-    <!-- LEFT:    (+/-) -->
-    <!-- RIGHT:   (-/+) -->
-    <!-- BACK:    (+/+) -->
-    <!-- FORWARD: (-/-) -->
     
+    <!-- ========== SLAYING DISPLAY ========== -->
     <!-- Trigger Markers -->
     <POI xpos="111.366"  ypos="209.867"  zpos="-111.209"  GUID="6zLgI/WXyUC16C+46LUMNw==" type="HMP.Daily_Fractals.hiddenC4"                         iconFile="Assets/General/empty.png" autoTrigger="0" triggerRange="3" show="HMP.Daily_Fractals.hiddenC5" hide="HMP.Daily_Fractals.hiddenC4"/>
     <POI xpos="111.366"  ypos="209.867"  zpos="-111.209"  GUID="uglRxGnTVUqniNbb/fsflw==" type="HMP.Daily_Fractals.hiddenC5"                         iconFile="Assets/General/empty.png" autoTrigger="0" triggerRange="3" show="HMP.Daily_Fractals.hiddenC4" hide="HMP.Daily_Fractals.hiddenC5"/>
     <POI xpos="111.366"  ypos="209.867"  zpos="-111.209"  GUID="yV11v3iXUEi0aZCwm2Efog==" type="HMP.Daily_Fractals.hiddenC6"                         iconFile="Assets/General/empty.png" autoTrigger="0" triggerRange="3" show="HMP.Daily_Fractals.hiddenC7" hide="HMP.Daily_Fractals.hiddenC6"/>
     <POI xpos="111.366"  ypos="209.867"  zpos="-111.209"  GUID="pE0N3p/ow0WoO/xw8BFiWQ==" type="HMP.Daily_Fractals.hiddenC7"                         iconFile="Assets/General/empty.png" autoTrigger="0" triggerRange="3" show="HMP.Daily_Fractals.hiddenC6" hide="HMP.Daily_Fractals.hiddenC7"/>
-    <!-- Slaying Board | 213.149 -->
+    <!-- Slaying Board -->
     <POI xpos="106.483"  ypos="241.149"  zpos="-107.446"  GUID="T1VQlCQS0k2Fr0KTkhtEWg==" type="HMP.Daily_Fractals.c3.sc1"           iconSize="4.35" iconFile="Assets/Fracs/Dailies/Display.png" rotate="90,0,-45" heightOffset="-26.5" alpha="0.2" cull="Clockwise"/>
     <POI xpos="106.483"  ypos="241.149"  zpos="-107.446"  GUID="rApYUANmhE6v0WMfd/uoFA==" type="HMP.Daily_Fractals.c3.sc1"           iconSize="4.35" iconFile="Assets/Fracs/Dailies/Display.png" rotate="90,0,-45" heightOffset="-26.5"/>
     <!-- Slaying Button Markers -->
@@ -1051,13 +1033,13 @@
     <POI xpos="105.0124" ypos="215.343"  zpos="-105.9754" GUID="odNZyq4ziEOXn3juPRwxQA==" type="HMP.Daily_Fractals.hiddenC8.page"    iconSize="1.25" iconFile="Assets/Fracs/Dailies/Title Text/Fractal-Start.png"/>
     <POI xpos="105.0124" ypos="215.343"  zpos="-105.9754" GUID="2jEC3yIc9UKhNU80AZvA0g==" type="HMP.Daily_Fractals.hiddenC9.page"    iconSize="1.25" iconFile="Assets/Fracs/Dailies/Title Text/Fractal-Further.png"/>
     
-    <!-- ============================================================ SLAYING BOARD | FRACTAL COMBOS ============================================================ -->
+    <!-- ============================================================ SLAYING DISPLAY | FRACTAL COMBOS ============================================================ -->
     <!-- ==================== TODAY - PAGE ONE (1) ==================== -->
     <!-- ===== ALL CM's + T4's ===== -->
     <!-- Dividers (CM / T4) -->
     <POI xpos="106.483"  ypos="236.099"  zpos="-107.446"  GUID="vIaysI9yNUWYgrkuLoQfWw==" type="HMP.Daily_Fractals.hiddenC4.allcmT4.c1"     iconFile="Assets/Fracs/Dailies/Divider-CMs.png"/>
     <POI xpos="106.483"  ypos="232.999"  zpos="-107.446"  GUID="WL169GqI9U69XWCXChMV9Q==" type="HMP.Daily_Fractals.hiddenC4.allcmT4.c1"     iconFile="Assets/Fracs/Dailies/Divider-T4.png"/>
-    <!-- Row 1 ||| -0 / -0.03 / -0.06 ||| zpos:  +0.07 / +0.09 -->
+    <!-- Row 1 -->
     <POI xpos="108.1572" ypos="214.737"  zpos="-109.1202" GUID="NKgg5AE2lEObBbY0c/He1g==" type="HMP.Daily_Fractals.hiddenC4.allcmT4.c3.sc1" iconFile="Assets/Fracs/Dailies/Title Text/Lonely_Tower-title.png"/>
     <POI xpos="109.0869" ypos="214.717"  zpos="-110.0499" GUID="5VXoWmkMAkeA2NxepUEkLQ==" type="HMP.Daily_Fractals.hiddenC4.allcmT4.c3.sc2"/>
     <POI xpos="108.1714" ypos="214.417"  zpos="-109.1344" GUID="cGEujdt2zUiYhNOGcTEJnw==" type="HMP.Daily_Fractals.hiddenC4.allcmT4.c5.sc1"/>
@@ -1951,80 +1933,5 @@
     <POI xpos="107.1495" ypos="211.878" zpos="-108.1125" GUID="83ASTk6NuEaYQLNZfVYJyw==" type="HMP.Daily_Fractals.hiddenC9.onlyT4.c4.sc2"/>
     <POI xpos="107.1495" ypos="211.378" zpos="-108.1125" GUID="HaleUiUfYkiZwesoPqZx5w==" type="HMP.Daily_Fractals.hiddenC9.onlyT4.c4.sc2"/>
     <POI xpos="107.1495" ypos="210.878" zpos="-108.1125" GUID="O9Rhqz+leUurs+cGaM+aUA==" type="HMP.Daily_Fractals.hiddenC9.onlyT4.c4.sc2"/>
-    
-    <!-- ==================== OCCLUSION MARKERS ==================== -->
-    <!-- ========== Fractal Gate ========== -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <POI xpos="59.4085" ypos="230.698" zpos="-41.8488" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.44"  rotate="180,30,90"/>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!-- -->
-    <POI xpos="58.4148" ypos="240.686" zpos="-46.9286" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.3"   rotate="90,110,90"/>
-    <POI xpos="58.4148" ypos="238.542" zpos="-47.8656" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.26"  rotate="90,96,90"/>
-    <POI xpos="58.4148" ypos="237.374" zpos="-48.6465" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.26"  rotate="90,81,90"/>
-    <POI xpos="58.4148" ypos="236.278" zpos="-47.5309" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.2"   rotate="90,83,90"/>
-    <POI xpos="58.4148" ypos="234.136" zpos="-47.827"  GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.9"   rotate="90,82,90"/>
-    <POI xpos="58.4148" ypos="233.705" zpos="-47.5866" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.9"   rotate="90,58,90"/>
-    <POI xpos="58.4148" ypos="233.813" zpos="-48.1252" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.9"   rotate="90,72,90"/>
-    <POI xpos="58.4148" ypos="234.586" zpos="-48.9357" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,82,90"/>
-    <POI xpos="58.4148" ypos="234.499" zpos="-48.9943" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,70,90"/>
-    <POI xpos="58.4148" ypos="232.662" zpos="-48.3794" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,72,90"/>
-    <POI xpos="58.4148" ypos="232.594" zpos="-48.2404" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,59,90"/>
-    <POI xpos="58.4148" ypos="232.225" zpos="-48.472"  GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.1"   rotate="90,60,90"/>
-    <POI xpos="58.4148" ypos="234.74"  zpos="-49.2977" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.1"   rotate="90,75,90"/>
-    <POI xpos="58.4148" ypos="232.182" zpos="-45.9748" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.3"   rotate="90,56,90"/>
-    <POI xpos="58.4148" ypos="229.985" zpos="-45.5164" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1"     rotate="90,47,90"/>
-    <!-- -->
-    <POI xpos="60.6837" ypos="240.686" zpos="-46.9286" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.3"   rotate="90,70,270"/>
-    <POI xpos="60.6941" ypos="238.542" zpos="-47.8656" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.26"  rotate="90,84,270"/>
-    <POI xpos="60.7309" ypos="237.374" zpos="-48.6465" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.26"  rotate="90,99,270"/>
-    <POI xpos="60.7161" ypos="236.278" zpos="-47.5309" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.2"   rotate="90,7,270"/>
-    <POI xpos="60.7161" ypos="234.136" zpos="-47.827"  GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.9"   rotate="90,8,270"/>
-    <POI xpos="60.7161" ypos="233.705" zpos="-47.5866" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.9"   rotate="90,32,270"/>
-    <POI xpos="60.7161" ypos="233.813" zpos="-48.1252" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.9"   rotate="90,18,270"/>
-    <POI xpos="60.7161" ypos="234.586" zpos="-48.9357" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,8,270"/>
-    <POI xpos="60.7161" ypos="234.499" zpos="-48.9943" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,20,270"/>
-    <POI xpos="60.7082" ypos="232.662" zpos="-48.3794" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,18,270"/>
-    <POI xpos="60.7082" ypos="232.594" zpos="-48.2404" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.3"   rotate="90,31,270"/>
-    <POI xpos="60.7082" ypos="232.225" zpos="-48.472"  GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.1"   rotate="90,30,270"/>
-    <POI xpos="60.7082" ypos="234.74"  zpos="-49.2977" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="0.1"   rotate="90,15,270"/>
-    <POI xpos="60.6306" ypos="232.182" zpos="-45.9748" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.3"   rotate="90,32,270"/>
-    <POI xpos="60.6368" ypos="229.985" zpos="-45.5164" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1"     rotate="90,47,270"/>
-    <!-- -->
-    <POI xpos="59.5279" ypos="241.25"  zpos="-48.1049" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="110,0,180"/>
-    <POI xpos="59.5279" ypos="240.954" zpos="-48.2058" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="110,0,180"/>
-    <POI xpos="59.5149" ypos="239.701" zpos="-47.8536" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="190,0,181"/>
-    <POI xpos="59.5519" ypos="238.736" zpos="-49.0833" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="97,0,180"/>
-    <POI xpos="59.5519" ypos="238.583" zpos="-49.1124" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="97,0,180"/>
-    <POI xpos="59.5519" ypos="237.34"  zpos="-48.1219" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="5,0,180"/>
-    <POI xpos="59.5519" ypos="236.271" zpos="-48.7533" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="83,0,180"/>
-    <POI xpos="59.5519" ypos="236.059" zpos="-48.7059" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="83,0,180"/>
-    <POI xpos="59.5519" ypos="234.974" zpos="-48.2839" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="172,0,180"/>
-    <POI xpos="59.5519" ypos="233.725" zpos="-49.0575" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="72,0,180"/>
-    <POI xpos="59.5519" ypos="233.207" zpos="-48.8733" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="72,0,180"/>
-    <POI xpos="59.5519" ypos="232.726" zpos="-47.5374" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="-33,0,180"/>
-    <POI xpos="59.5146" ypos="231.609" zpos="-47.1406" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="58,0,180"/>
-    <POI xpos="59.5005" ypos="231.368" zpos="-47.0044" GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="58,0,180"/>
-    <POI xpos="59.5005" ypos="230.817" zpos="-46.109"  GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="133,0,180"/>
-    <POI xpos="59.5005" ypos="229.144" zpos="-46.091"  GUID="/i4nQK11p0iUFpQ+qLprkA==" type="HMP.Daily_Fractals.c99" iconSize="1.175" rotate="45,0,180"/>
-    <!-- -->
   </POIs>
 </OverlayData>
