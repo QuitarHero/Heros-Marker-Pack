@@ -33,6 +33,7 @@ local cycle, markers = HMP.dailyCycle, HMP.dailyIbsMarkers
 
 function SetIBSDaily()
   local remain, currentMap = HMPtime.GetUtcTime(6), Mumble.CurrentMap.Id
+  Debug:Print("Remain: " .. remain)
   --Easy access to time markers
   local noDaily, yesDaily, nextDaily = cycle.incompleteDaily, cycle.completeDaily, cycle.upcomingDaily
   if(currentMap == 1370) then
@@ -42,41 +43,41 @@ function SetIBSDaily()
     cycle.completeBorder:SetTexture("Assets/General/dot-border.png")
     cycle.resetBorder:SetTexture("Assets/General/dot-border.png")
   end
-  --Boneskinner Daily
-  if(remain == 0) then
-    noDaily:SetTexture("Assets/Strikes/Track/B4g.png")
-    yesDaily:SetTexture("Assets/Strikes/Track/B4c.png")
-    nextDaily:SetTexture("Assets/Strikes/Track/B6c.png")
-  end
   --Cold War Daily
-  if(remain == 1) then
+  if(remain == 0) then
     noDaily:SetTexture("Assets/Strikes/Track/B6g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B6c.png")
     nextDaily:SetTexture("Assets/Strikes/Track/B3c.png")
   end
   --Fraenir of Jormag Daily
-  if(remain == 2) then
+  if(remain == 1) then
     noDaily:SetTexture("Assets/Strikes/Track/B3g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B3c.png")
     nextDaily:SetTexture("Assets/Strikes/Track/B1c.png")
   end
   --Icebrood Construct Daily
-  if(remain == 3) then
+  if(remain == 2) then
     noDaily:SetTexture("Assets/Strikes/Track/B1g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B1c.png")
     nextDaily:SetTexture("Assets/Strikes/Track/B2c.png")
   end
   --Kodan Brothers Daily
-  if(remain == 4) then
+  if(remain == 3) then
     noDaily:SetTexture("Assets/Strikes/Track/B2g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B2c.png")
     nextDaily:SetTexture("Assets/Strikes/Track/B5c.png")
   end
   --Whisper of Jormag Daily
-  if(remain == 5) then
+  if(remain == 4) then
     noDaily:SetTexture("Assets/Strikes/Track/B5g.png")
     yesDaily:SetTexture("Assets/Strikes/Track/B5c.png")
     nextDaily:SetTexture("Assets/Strikes/Track/B4c.png")
+  end
+  --Boneskinner Daily
+  if(remain == 5) then
+    noDaily:SetTexture("Assets/Strikes/Track/B4g.png")
+    yesDaily:SetTexture("Assets/Strikes/Track/B4c.png")
+    nextDaily:SetTexture("Assets/Strikes/Track/B6c.png")
   end
 end
 

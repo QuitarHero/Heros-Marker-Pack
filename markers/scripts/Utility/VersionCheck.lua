@@ -1,6 +1,6 @@
 HMP.PathingVersionCheck = {
   {1, 9, 0}, --Stable
-  {1, 10, 2} --Daily Fractal Script Requirement
+  {1, 10, 4} --Daily Fractal Script Requirement
 }
 
 local moduleCheck = HMP.PathingVersionCheck

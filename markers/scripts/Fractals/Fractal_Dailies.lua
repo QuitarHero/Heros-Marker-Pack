@@ -259,14 +259,14 @@ Debug:Watch("Fractal Dailies", Fotm)
 
 --Getting the "Correct" Fractal Set based on the end-user's Today / Tomorrow preferences
 local function FractalSet(Set, dayOffset)
-  if( Set + dayOffset > 14 ) then
-    if( Set + dayOffset > 15 ) then
-      Set = 2
-    else
-      Set = 1
-    end
+  local num = Set + dayOffset
+  
+  if( num == 16 ) then
+    Set = 1
+  elseif( num == 17 ) then
+    Set = 2
   else
-    Set = Set + dayOffset
+    Set = num
   end
   
   return Set
