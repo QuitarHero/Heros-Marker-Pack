@@ -1,6 +1,6 @@
 HMP.PathingVersionCheck = {
   {1, 9, 0}, --Stable
-  {1, 10, 4} --Daily Fractal Script Requirement
+  {1, 10, 5} --Daily Fractal Script Requirement
 }
 
 local moduleCheck = HMP.PathingVersionCheck
@@ -53,7 +53,7 @@ function HMP_NotifyUser(version)
     type = "HMP.Daily_Fractals",
     TriggerRange = 10000,
     AutoTrigger = true,
-    Info = "Hero's Pack: The Daily Fractal features of the marker pack requires a Pathing Module version of " .. ver .. " or above. Please update your Pathing Module. You may need to enable Preview Releases in Blish HUD."
+    Info = "Hero's Pack: The Fractal Dailies features of this pack requires a Pathing Module version of " .. ver .. " or above. Please update your Pathing Module.\nYou may need to enable 'Preview Releases' in Blish HUD's Overlay Settings.\n\nAdditionally, when updating from a Pathing Module version below v1.10.5, you must do so outside of the Fractal Lobby, or else Blish HUD will crash."
   }
   local marker = Pack:CreateMarker(attr)
   marker:SetTexture("Assets/General/empty.png")

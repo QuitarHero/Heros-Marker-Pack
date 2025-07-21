@@ -37,7 +37,7 @@ else
   
   --Temporary check for the Fractal Daily Script (Future me needs to make this better)
   if( map == 872 and HMP_GetPathingVersion(2) ) then Pack:Require("scripts/Fractals/Fractal_Dailies.lua")
-  elseif( HMP_GetPathingVersion(2) == false ) then Debug:Error("Hero's Pack: Pathing Module version is not v1.10.2 or above. Fractal Daily script aborted.") HMP_NotifyUser(2)
+  elseif( map == 872 and HMP_GetPathingVersion(2) == false ) then Debug:Error("Hero's Pack: Pathing Module version is not v1.10.5 or above. Fractal Daily script aborted.") HMP_NotifyUser(2)
   end
   
   -- ========== Script Loading ==========
