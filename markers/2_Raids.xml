@@ -966,8 +966,8 @@
     <POI MapID="1564" xpos="176.858" ypos="269.847" zpos="243.991" GUID="4M6LPDXmqUKIFSKZDr0Kkg==" type="HMP.W8_B3.c2" iconFile="Assets/General/dot-border.png"/>
     
     <!-- ===== Attack Ranges ===== -->
-    <Trail trailData="Assets/Raids/W8B3-hitbox.trl"   alpha="0.75" animSpeed="0" type="HMP.W8_B3.c3.sc1" trailScale="3" fadeFar="550" fadeNear="500"/>
-    <Trail trailData="Assets/Raids/W8B3-maxMelee.trl" alpha="1"    animSpeed="0" type="HMP.W8_B3.c3.sc2" trailScale="1" fadeFar="615" fadeNear="600"/>
+    <Trail trailData="Assets/Raids/W8B3-hitbox.trl"   alpha="1" animSpeed="0" type="HMP.W8_B3.c3.sc1" trailScale="3" fadeFar="550" fadeNear="500"/>
+    <Trail trailData="Assets/Raids/W8B3-maxMelee.trl" alpha="1" animSpeed="0" type="HMP.W8_B3.c3.sc2" trailScale="1" fadeFar="615" fadeNear="600"/>
     
   </POIs>
 </OverlayData>
