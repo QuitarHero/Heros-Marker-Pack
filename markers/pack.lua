@@ -28,6 +28,7 @@ HMP.MapScripts = {
 --We're forced to load these scripts for Pathing Module and script compatibility.
 Pack:Require(Dir[3] .. "Storage")
 Pack:Require(Dir[3] .. "VersionCheck")
+Pack:Require(Dir[1] .. "MenuInfo")
 
 if(not Mumble.IsAvailable) then Debug:Error("Hero's Pack: Mumble API unavailable, script load aborted.")
 elseif( not GetBool("PackScriptToggle") ) then Debug:Error("Hero's Pack: Main Script loading aborted on user preference.")
@@ -45,7 +46,6 @@ else
     for b,id in ipairs(maps) do
       if( map == id[1] ) then
         check = true
-        Pack:Require(Dir[1] .. "MenuInfo") --Info Categories
         if( id[2][1] ~= nil ) then
           for c,script in ipairs(id[2]) do
             Pack:Require(script)
