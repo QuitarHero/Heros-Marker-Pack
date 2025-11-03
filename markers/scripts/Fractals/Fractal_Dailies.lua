@@ -230,7 +230,7 @@ HMP_FractalDailies = {
     {"Cliffside",             {94,  68, 46, 6},      { {"Outlaw", "Force", "Justice"},                 {"Outlaw", "Force", "Justice"} } },
     {"Deepstone",             {84,  67, 33, 11},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
     {"Kinfall",               {95,  70, 38, 17},     { {"Ice_Brood", "Force", "Icebrood_Slaying"},     {"Ice_Brood", "Force", "Icebrood_Slaying"} } },
-    {"Lonely_Tower",          {100, 75, 50, 25},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Demon_Slaying"} } },
+    {"Lonely_Tower",          {100, 75, 50, 25},     { {"Sharp_Stone", "Force", "Impact"},             {"Demon", "Force", "Demon_Slaying"} } },
     {"Molten_Boss",           {90,  69, 40, 10},     { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Impact"} } },
     {"Molten_Furnace",        {83,  58, 39, 9},      { {"Scarlet_Armies", "Force", "Impact"},          {"Dredge", "Force", "Sorrow"} } },
     {"Nightmare",             {96,  72, 47, 22},     { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Serpent_Slaying"} } },
