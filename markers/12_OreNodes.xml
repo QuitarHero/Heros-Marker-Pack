@@ -143,7 +143,6 @@
     <POI MapID="1554" xpos="391.8655"  ypos="6.966297" zpos="-71.00639" GUID="+a3X57FEPEeo1G7U+G6ouQ==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-658.5936" ypos="18.47204" zpos="-752.3183" GUID="hkXBgdLq/EKdhaVAVhsxdg==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-547.0837" ypos="80.37751" zpos="37.89947"  GUID="tBLOxQ4qC0Kju6cx/uPgfQ==" type="HMP.openWorld.mining.rottedAmber"/>
-    <POI MapID="1554" xpos="-757.6425" ypos="57.41516" zpos="-442.1578" GUID="h/p8GCkv3kez+fsMz2em1Q==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="181.6248"  ypos="22.30702" zpos="-640.3408" GUID="nJFXV7VKjkilc2IoyQmQkw==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-638.3633" ypos="64.52749" zpos="-633.6094" GUID="4WMLfFG5xEe41OpCYa5FqQ==" type="HMP.openWorld.mining.rottedAmber"/>
     <POI MapID="1554" xpos="-760.7892" ypos="15.46559" zpos="-613.2807" GUID="UR4OiSe1e0KlJbCpbnSnlQ==" type="HMP.openWorld.mining.rottedAmber"/>
@@ -261,6 +260,7 @@
     <POI MapID="1554" xpos="-401.5359" ypos="78.32693" zpos="-171.3643" GUID="mgl849/B60intRe0AZj8gQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     <POI MapID="1554" xpos="-708.674"  ypos="48.48608" zpos="366.1729"  GUID="IX8213a4MEur9HQMuKTBIw==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     <POI MapID="1554" xpos="-714.9526" ypos="1.801243" zpos="-502.3462" GUID="bGOUzj0HB0mCw/oMdttkxQ==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
+    <POI MapID="1554" xpos="-757.6425" ypos="57.41516" zpos="-442.1578" GUID="h/p8GCkv3kez+fsMz2em1Q==" type="HMP.openWorld.mining.combo" iconFile="Assets/OpenWorld/Mining/MithrilChargedAmber1.png"/>
     
     <!-- ==================================================================================================================== -->
     <!-- Mursaat Obsidian -->
