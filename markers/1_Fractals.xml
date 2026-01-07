@@ -219,16 +219,21 @@
   
   
 <!-- ======================================== NIGHTMARE ==================================================================================================================================================================== -->
-  <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory   name="F_NM_c1" DisplayName="Knight Spawns"   alpha="0.75" color="faedd9" cull="CounterClockwise" fadeFar="3500" fadeNear="3000"                                  iconSize="0.75" rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_NM_c2" DisplayName="Siax Directions"              color="9aad79" cull="CounterClockwise" fadeFar="2250" fadeNear="2000"                                  iconSize="1"    rotate-x="90"/>
-    <MarkerCategory   name="F_NM_c3" DisplayName="Ensolyss' Orbs"  alpha="0.6"                 cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/Fracs/ball.png" iconSize="0.5"  rotate="180,0,0"  mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory   name="F_NM_c4" DisplayName="North"                        color="669468" cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/General/n.png"  iconSize="1"    rotate="90,0,180"/>
-    <MarkerCategory   name="F_NM_sy" DisplayName="Slaying"                                     cull="CounterClockwise"                                                                 iconSize="1.6"                    mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory name="s1"      DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050"                                                  rotate="90,0,25"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
-      <MarkerCategory name="s2"      DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250"                                                  rotate="90,-8,25" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
-      <MarkerCategory name="s3"      DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000"                                                  rotate="80,0,260" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
-      <MarkerCategory name="s4"      DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"                                                   rotate="95,0,90"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+  <MarkerCategory     name="HMP"       DisplayName="Hero's Pack">
+    <MarkerCategory   name="F_NM_c1"   DisplayName="Knight Spawns"   alpha="0.75" color="faedd9" cull="CounterClockwise" fadeFar="3500" fadeNear="3000"                                   iconSize="0.75"  rotate-x="180"    mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_NM_c1_2" DisplayName="MAMA Invisible Gadget" defaultToggle="0"     cull="CounterClockwise"                                texture="Assets/Boundary/RedLine.png"                                mapVisibility="0" minimapVisibility="0" tip-description="These are radii around an invisible gadget in MAMA's arena that affects combat state and autotriggers for traps/mines/marks/etc.">
+      <MarkerCategory name="sc1"       DisplayName="Hitbox"                                                              fadeFar="350"  fadeNear="325"                                                                                                               tip-description="This is the base hitbox of the gadget for reference.&#xA;This is the area to avoid having skills touch to prevent entering combat."/>
+      <MarkerCategory name="sc2"       DisplayName="Trap Range"                                                          fadeFar="375"  fadeNear="350"                                                                                                               tip-description="This is the area that if you were to place a trap within, would automatically trigger it."/>
+      <MarkerCategory name="sc3"       DisplayName="Autoattack Range"                                                    fadeFar="400"  fadeNear="375"                                                                                                               tip-description="This is the area that if you were to autoattack within, would put you in combat."/>
+    </MarkerCategory>
+    <MarkerCategory   name="F_NM_c2"   DisplayName="Siax Directions"              color="9aad79" cull="CounterClockwise" fadeFar="2250" fadeNear="2000"                                   iconSize="1"     rotate-x="90"/>
+    <MarkerCategory   name="F_NM_c3"   DisplayName="Ensolyss' Orbs"  alpha="0.6"                 cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/Fracs/ball.png"  iconSize="0.5"   rotate="180,0,0"  mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_NM_c4"   DisplayName="North"                        color="669468" cull="CounterClockwise" fadeFar="2500" fadeNear="2000" iconFile="Assets/General/n.png"   iconSize="1"     rotate="90,0,180"/>
+    <MarkerCategory   name="F_NM_sy"   DisplayName="Slaying"                                     cull="CounterClockwise"                                                                  iconSize="1.6"                     mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="s1"        DisplayName="MAMA"                                                                fadeFar="1300" fadeNear="1050"                                                    rotate="90,0,25"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Impact"/>
+      <MarkerCategory name="s2"        DisplayName="Capture Points"                                                      fadeFar="1500" fadeNear="1250"                                                    rotate="90,-8,25" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+      <MarkerCategory name="s3"        DisplayName="Siax"                                                                fadeFar="1250" fadeNear="1000"                                                    rotate="80,0,260" tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
+      <MarkerCategory name="s4"        DisplayName="Ensolyss"                                                            fadeFar="900"  fadeNear="650"                                                     rotate="95,0,90"  tip-description="• Scarlet's Armies&#xA;• Force&#xA;• Serpent"/>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -236,6 +241,10 @@
     <POI MapID="1177" xpos="115.401" ypos="12.456" zpos="153.006"  GUID="D3TdNEjLFECd1ntKnkDcaA==" type="HMP.F_NM_c1"    iconFile="Assets/General/1.png" rotate-z="90"/>
     <POI MapID="1177" xpos="92.618"  ypos="12.069" zpos="168.462"  GUID="ZeSgHnJTfECytz2/yyLeXw==" type="HMP.F_NM_c1"    iconFile="Assets/General/2.png" rotate-z="205"/>
     <POI MapID="1177" xpos="90.366"  ypos="11.947" zpos="139.640"  GUID="Z+mzkaYKOECG+yc90OclmA==" type="HMP.F_NM_c1"    iconFile="Assets/General/3.png" rotate-z="-35"/>
+    <!-- ========== MAMA Invisible Gadget ========== -->
+    <Trail trailData="Assets/Fracs/NM_MAMA-Hitbox.trl"             alpha="1" animSpeed="0"         type="HMP.F_NM_c1_2.sc1"/>
+    <Trail trailData="Assets/Fracs/NM_MAMA-Traps.trl"              alpha="1" animSpeed="0"         type="HMP.F_NM_c1_2.sc2"/>
+    <Trail trailData="Assets/Fracs/NM_MAMA-AutoRange.trl"          alpha="1" animSpeed="0"         type="HMP.F_NM_c1_2.sc3"/>
     <!-- ========== Siax Directions ========== -->
     <POI MapID="1177" xpos="39.624"  ypos="44.601" zpos="-46.315"  GUID="BanG0e6C0EepzwjZ8642gg==" type="HMP.F_NM_c2"    iconFile="Assets/General/n.png" rotate-z="180" tip-name="North"/>
     <POI MapID="1177" xpos="43.504"  ypos="44.928" zpos="-104.055" GUID="/4jQnjR4qU+d3yZktZDSiw==" type="HMP.F_NM_c2"    iconFile="Assets/General/s.png"                tip-name="South"/>

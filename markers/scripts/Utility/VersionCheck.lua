@@ -34,13 +34,21 @@ function HMP_GetPathingVersion(checkRef)
   end
   
   --Checking version
-  for i = 1, #moduleCheck[checkRef] do
-    if( userVersion[i] < moduleCheck[checkRef][i] ) then
+  if( userVersion[1] >= moduleCheck[checkRef][1] ) then
+    if( userVersion[2] > moduleCheck[checkRef][2] ) then
+      return true
+    elseif( userVersion[2] == moduleCheck[checkRef][2] ) then
+      if( userVersion[3] >= moduleCheck[checkRef][3] ) then
+        return true
+      else
+        return false
+      end
+    else
       return false
     end
+  else
+    return false
   end
-  
-  return true
 end
 
 function HMP_NotifyUser(version)
