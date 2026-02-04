@@ -16,7 +16,7 @@
     <POI MapID="1155" xpos="57.4783" ypos="37.6873" zpos="-344.755" GUID="xxDqXTXM+kmC7TdIrADQdQ==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w1-title.png" rotate-z="-38"/>
     <POI MapID="1155" xpos="64.6076" ypos="43.3377" zpos="-371.238" GUID="mdhEf+Xf30mxlZOSkqxRSA==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w2-title.png" rotate-z="-68"/>
     <POI MapID="1155" xpos="84.979"  ypos="37.7338" zpos="-386.14"  GUID="jpbhO3Be10CGHJrcSC44qA==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w3-title.png" rotate-z="-65"/>
-    <POI MapID="1155" xpos="92.1329" ypos="43.3405" zpos="-415.56"  GUID="FSd7f7j000SJzB8pIRE2aA==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w4-title.png" rotate-z="-35"/>
+    <POI MapID="1155" xpos="73.6808" ypos="43.3569" zpos="-392.996" GUID="FSd7f7j000SJzB8pIRE2aA==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w4-title.png" rotate-z="-61"/>
     <POI MapID="1155" xpos="126.696" ypos="37.7538" zpos="-410.424" GUID="HUhMw0PB0EqN13Z1yFTLyQ==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w5-title.png" rotate-z="4"/>
     <POI MapID="1155" xpos="164.334" ypos="36.931"  zpos="-389.406" GUID="5PS5QzCDa0y4mHdlwsb9dw==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w6-title.png" rotate-z="57"/>
     <POI MapID="1155" xpos="157.603" ypos="43.0003" zpos="-413.826" GUID="j6ZEEP0JUUKCYUYkDM363Q==" type="HMP.titles.textTitle"    iconFile="Assets/Raids/w7-title.png" rotate-z="44"/>
@@ -25,7 +25,7 @@
     <POI MapID="1155" xpos="57.4783" ypos="38.4273" zpos="-344.755" GUID="OF/Tf7csfkOhr+LnIPUVkA==" type="HMP.titles.numTitle"     iconFile="Assets/General/1.png"      rotate-z="-38"/>
     <POI MapID="1155" xpos="64.6076" ypos="44.0377" zpos="-371.238" GUID="NsnruMz4WEC8wn1BQPZGRw==" type="HMP.titles.numTitle"     iconFile="Assets/General/2.png"      rotate-z="-68"/>
     <POI MapID="1155" xpos="84.979"  ypos="38.4538" zpos="-386.14"  GUID="m9upIieYDUua1F1BoOpppw==" type="HMP.titles.numTitle"     iconFile="Assets/General/3.png"      rotate-z="-65"/>
-    <POI MapID="1155" xpos="92.1329" ypos="44.0305" zpos="-415.56"  GUID="KX+/8158HUu8hGHdMfb6Qw==" type="HMP.titles.numTitle"     iconFile="Assets/General/4.png"      rotate-z="-35"/>
+    <POI MapID="1155" xpos="73.6808" ypos="44.0452" zpos="-392.996" GUID="KX+/8158HUu8hGHdMfb6Qw==" type="HMP.titles.numTitle"     iconFile="Assets/General/4.png"      rotate-z="-61"/>
     <POI MapID="1155" xpos="126.696" ypos="38.5188" zpos="-410.424" GUID="IKwQjo0jzESpPHcanHt96w==" type="HMP.titles.numTitle"     iconFile="Assets/General/5.png"      rotate-z="4"/>
     <POI MapID="1155" xpos="164.334" ypos="37.631"  zpos="-389.406" GUID="6WIRCtjB90imU1y6QSWang==" type="HMP.titles.numTitle"     iconFile="Assets/General/6.png"      rotate-z="57"/>
     <POI MapID="1155" xpos="157.603" ypos="43.8003" zpos="-413.826" GUID="28wSDARdakCZ07bJ4Z7Uiw==" type="HMP.titles.numTitle"     iconFile="Assets/General/7.png"      rotate-z="44"/>
@@ -34,20 +34,20 @@
     <POI MapID="1155" xpos="57.4783" ypos="38.4273" zpos="-344.755" GUID="GO4eC6VH9kevI3ZhKu/f/A==" type="HMP.titles.minimapTitle" iconFile="Assets/General/1.png"/>
     <POI MapID="1155" xpos="64.6076" ypos="44.0377" zpos="-371.238" GUID="cWrh6nNpGEGJ0fJcx7/CLw==" type="HMP.titles.minimapTitle" iconFile="Assets/General/2.png"/>
     <POI MapID="1155" xpos="84.979"  ypos="38.4538" zpos="-386.14"  GUID="YnVXNDikF0qfAMCHdjHNag==" type="HMP.titles.minimapTitle" iconFile="Assets/General/3.png"/>
-    <POI MapID="1155" xpos="92.1329" ypos="44.0305" zpos="-415.56"  GUID="oS6clxR+HUOv1JjTHq5abg==" type="HMP.titles.minimapTitle" iconFile="Assets/General/4.png"/>
+    <POI MapID="1155" xpos="63.6021" ypos="44.0952" zpos="-396.026" GUID="oS6clxR+HUOv1JjTHq5abg==" type="HMP.titles.minimapTitle" iconFile="Assets/General/4.png"/>
     <POI MapID="1155" xpos="126.696" ypos="38.5188" zpos="-410.424" GUID="+OvnGuiooUyiTIt3BKhoaw==" type="HMP.titles.minimapTitle" iconFile="Assets/General/5.png"/>
     <POI MapID="1155" xpos="164.334" ypos="37.631"  zpos="-389.406" GUID="CuZmrGCh7E+jFiAvPhJ5sQ==" type="HMP.titles.minimapTitle" iconFile="Assets/General/6.png"/>
     <POI MapID="1155" xpos="157.603" ypos="43.8003" zpos="-413.826" GUID="awdjQKEq6ka7CKDM5FGEqQ==" type="HMP.titles.minimapTitle" iconFile="Assets/General/7.png"/>
-    <POI MapID="1155" xpos="126.836" ypos="44.131"  zpos="-424.241" GUID="e3TsOnIiE0yYWvZbtiH+EA==" type="HMP.titles.minimapTitle" iconFile="Assets/General/8.png"/>
+    <POI MapID="1155" xpos="127.386" ypos="44.0952" zpos="-427.331" GUID="e3TsOnIiE0yYWvZbtiH+EA==" type="HMP.titles.minimapTitle" iconFile="Assets/General/8.png"/>
     <!-- Numerical Titles (map only) -->
     <POI MapID="1155" xpos="57.4783" ypos="38.4273" zpos="-344.755" GUID="CUhEmzH6/0WKZMNAEs/GXA==" type="HMP.titles.mapTitle"     iconFile="Assets/General/1.png"/>
     <POI MapID="1155" xpos="64.6076" ypos="44.0377" zpos="-371.238" GUID="hYvR0sExgkyaZXwgz8pviQ==" type="HMP.titles.mapTitle"     iconFile="Assets/General/2.png"/>
     <POI MapID="1155" xpos="84.979"  ypos="38.4538" zpos="-386.14"  GUID="6odcbVu/90C8NVR57fuS+g==" type="HMP.titles.mapTitle"     iconFile="Assets/General/3.png"/>
-    <POI MapID="1155" xpos="92.1329" ypos="44.0305" zpos="-415.56"  GUID="Z58JXf3Hsk+raTabXTvAIw==" type="HMP.titles.mapTitle"     iconFile="Assets/General/4.png"/>
+    <POI MapID="1155" xpos="63.6021" ypos="44.0952" zpos="-396.026" GUID="Z58JXf3Hsk+raTabXTvAIw==" type="HMP.titles.mapTitle"     iconFile="Assets/General/4.png"/>
     <POI MapID="1155" xpos="126.696" ypos="38.5188" zpos="-410.424" GUID="bvlX95NjHE2aDcirAaYJTg==" type="HMP.titles.mapTitle"     iconFile="Assets/General/5.png"/>
     <POI MapID="1155" xpos="166.334" ypos="37.631"  zpos="-389.406" GUID="9TX1TCl3GEiuLeDKP8nL+Q==" type="HMP.titles.mapTitle"     iconFile="Assets/General/6.png"/>
     <POI MapID="1155" xpos="157.603" ypos="43.8003" zpos="-413.826" GUID="GiIrFWeu6kOr6846Qn2Szg==" type="HMP.titles.mapTitle"     iconFile="Assets/General/7.png"/>
-    <POI MapID="1155" xpos="126.836" ypos="44.131"  zpos="-424.241" GUID="lfTOymwnP0CK/uDza2bbiw==" type="HMP.titles.mapTitle"     iconFile="Assets/General/8.png"/>
+    <POI MapID="1155" xpos="127.386" ypos="44.0952" zpos="-427.331" GUID="lfTOymwnP0CK/uDza2bbiw==" type="HMP.titles.mapTitle"     iconFile="Assets/General/8.png"/>
   </POIs>
 
 
