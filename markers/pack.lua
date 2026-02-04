@@ -15,8 +15,8 @@ HMP.MapScripts = {
   { {1155, {Dir[1] .. "LAA-Fade", Dir[1] .. "W6-WeeklyEvent"} }, {1062, {Dir[3] .. "Countdown", Dir[6] .. "W1B4-Compass"} }, {1149, {nil} }, {1156, {nil} }, {1188, {nil} }, {1264, {nil} }, {1303, {Dir[1] .. "W6-WeeklyEvent", Dir[1] .. "W6_B2-Aide"} }, {1323, {nil} } },
     -- EotN ---------- IC ------------ KB ------------ FoJ ----------- Bone ---------- WoJ ----------- CW (Varina)
   { {1370, {nil} }, {1332, {nil} }, {1346, {nil} }, {1341, {nil} }, {1339, {nil} }, {1359, {nil} }, {1374, {nil} } },
-  -- Arborstone ------------------------ Aetherblade Hideout --------------- Xunlai Jade Junkyard -------------- Kaineng Overlook ------------------ Harvest Temple ------------------------------------------------------------------------------------------------------ Old Lion's Court
-  { {1428, {Dir[4] .. "EoD Strikes"} }, {1432, {Dir[4] .. "EoD Strikes"} }, {1450, {Dir[4] .. "EoD Strikes"} }, {1451, {Dir[4] .. "EoD Strikes"} }, {1437, {Dir[3] .. "Throw Helper", Dir[1] .. "StrB10_D2_SafeSpot", Dir[1] .. "StrB10_RevGS5", Dir[5] .. "HT-Main" } }, {1485, {Dir[4] .. "EoD Strikes"} } },
+  -- Arborstone ---- A-Hideout ----- XJJunkyard ---- K-Overlook ---- Harvest Temple ------------------------------------------------------------------------------------------------------ OLC
+  { {1428, {nil} }, {1432, {nil} }, {1450, {nil} }, {1451, {nil} }, {1437, {Dir[3] .. "Throw Helper", Dir[1] .. "StrB10_D2_SafeSpot", Dir[1] .. "StrB10_RevGS5", Dir[5] .. "HT-Main" } }, {1485, {nil} } },
   -- C-Observatory - Temple of Febe
   { {1515, {nil} }, {1520, {Dir[1] .. "DP_Adventure"} } },
   -- Ascalon Cat - blahblah
