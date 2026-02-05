@@ -1282,4 +1282,66 @@
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="kP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.4"  inGameVisibility="0"/>
     <POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="kP0ha4KahUOS7ozTeNAyzg==" type="HMP.StrB13_c90.sc6.asc2.5"  inGameVisibility="0"/>
   </POIs>
+  
+<!-- ========================================= GUARDIAN'S GLADE (KELA, SENESCHAL OF WAVES) ==================================================================================================================================================================== -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="StrB14_c1" DisplayName="Initial Spawn"                              fadeFar="800"  fadeNear="700"                                                                                        script-filter="combatFade" minimapVisibility="0" mapVisibility="0" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start."/>
+    <MarkerCategory name="StrB14_c2" DisplayName="Arena Boundary"           defaultToggle="0" fadeFar="4000" fadeNear="3750" alpha="0.75"                                                                                                     minimapVisibility="0" mapVisibility="0"/>
+    <MarkerCategory name="StrB14_c3" DisplayName="Scalding Wave Boundaries" defaultToggle="0" fadeFar="4000" fadeNear="3750" alpha="0.75" heightOffset="-0.05" iconFile="Assets/Shapes/Arrow Boundary.png" rotate-x="180"                     minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="sc1"      DisplayName="Left Wave"   iconSize="4.714" rotate-z="135"/>
+      <MarkerCategory name="sc2"      DisplayName="Middle Wave"/>
+      <MarkerCategory name="sc3"      DisplayName="Right Wave"  iconSize="4.8635" rotate-z="-52"/>
+    </MarkerCategory>
+  </MarkerCategory>
+    
+  <POIs>
+    <!-- ===== Initial Spawn ===== -->
+    <Trail trailData="Assets/Strikes/B14-Hitbox.trl" texture="Assets/Boundary/RedLine.png" trailScale="1.5" animSpeed="0" alpha="1" type="HMP.StrB14_c1"/>
+    <!-- ===== Boss Arena ===== -->
+    <Trail trailData="Assets/Strikes/B14-Arena.trl"  texture="Assets/Boundary/RedLine.png" trailScale="2.5" animSpeed="0" alpha="1" type="HMP.StrB14_c2"/>
+    <!-- ========== Scalding Wave Boundaries ========== -->
+    <!-- Left Wave v2 -->
+    <POI MapID="1609" xpos="-553.47971" ypos="43.2" zpos="292.004465" GUID="1Fy+WiAu1kK6RW0ZaIWS/A==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-546.81313" ypos="43.2" zpos="298.670395" GUID="nsoji9fEiESBngHKyLrBIA==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-540.14655" ypos="43.2" zpos="305.336325" GUID="HoK601RCnUm4iQfK+UrKFQ==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-533.47997" ypos="43.2" zpos="312.002255" GUID="Cxeq7hXnjE6Pixt2YB2XSw==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-526.81339" ypos="43.2" zpos="318.668185" GUID="0uh3oTAqK0WxmCKEi3eTWg==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-520.14681" ypos="43.2" zpos="325.334115" GUID="OJEuQQ27gkmyTbMm9CQWwQ==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-513.48023" ypos="43.2" zpos="332.000045" GUID="qSLFBH7H3k+7UP2CWQJ01A==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-506.81365" ypos="43.2" zpos="338.665975" GUID="KTS1awUWYUGNZJfX5lVhwQ==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-500.14707" ypos="43.2" zpos="345.331905" GUID="ekoS/UeM0E6VW0lXImjBcw==" type="HMP.StrB14_c3.sc1"/>
+    <POI MapID="1609" xpos="-493.48049" ypos="43.2" zpos="351.997835" GUID="gCURkwZ3l0+U0/iEbx/bPg==" type="HMP.StrB14_c3.sc1"/>
+    <!-- Middle Wave v2 (Left / Right) -->
+    <POI MapID="1609" xpos="-546.70514" ypos="43.2" zpos="287.322605" GUID="RFKa80Reakqnyto+TuW3mQ==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-540.13503" ypos="43.2" zpos="292.834415" GUID="UKlN3/IeZ0ezT6jQsCMysA==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-533.56492" ypos="43.2" zpos="298.346225" GUID="NJKsNeatCkqJOSsC5JjrSw==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-526.99481" ypos="43.2" zpos="303.858035" GUID="8gjcpfEzCU2gPA9j7XmLYA==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-520.42470" ypos="43.2" zpos="309.369845" GUID="rWtj3u3Frkm7L6Pd4RhubA==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-513.85459" ypos="43.2" zpos="314.881655" GUID="YOGtltyyMkyl9xDb2GNk7A==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-507.28448" ypos="43.2" zpos="320.393465" GUID="J8PyiHAOTUyuouZ3LZFiAA==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-500.71437" ypos="43.2" zpos="325.905275" GUID="2iSrEPPZE0+WOzf43aaDrw==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-494.14426" ypos="43.2" zpos="331.417085" GUID="4kIsahMYbkquw0F0Q9wkxg==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-487.57415" ypos="43.2" zpos="336.928895" GUID="2wQk54UxW0y0YPBqwLyg7w==" type="HMP.StrB14_c3.sc2" iconSize="4.288" rotate-z="-50"/>
+    <POI MapID="1609" xpos="-576.34009" ypos="43.2" zpos="323.765995" GUID="9q2nz7MBkEydnI2C+OWfOQ==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-569.73787" ypos="43.2" zpos="329.306585" GUID="Z0KR56BbyE2qdlyj6XgIzw==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-563.13565" ypos="43.2" zpos="334.847175" GUID="HVIS4iy520qttfwqXc7gyQ==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-556.53343" ypos="43.2" zpos="340.387765" GUID="qDyCY8mCCUSO/0HOJnMOhA==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-549.93121" ypos="43.2" zpos="345.928355" GUID="h5joMq15aka8BALyRm5JpA==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-543.32899" ypos="43.2" zpos="351.468945" GUID="B0nqCBUjyUG/BrjzHFHpYQ==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-536.72677" ypos="43.2" zpos="357.009535" GUID="DdAYbahLh0S3My9XrP7g+Q==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-530.12455" ypos="43.2" zpos="362.550125" GUID="yHPCHAPuGEijW6INOa1GWg==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-523.52233" ypos="43.2" zpos="368.090715" GUID="hSimNXVSqEm2nyUssk5XVA==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <POI MapID="1609" xpos="-516.92011" ypos="43.2" zpos="373.631305" GUID="pK9ddEheLU6ig5CB0PqCig==" type="HMP.StrB14_c3.sc2" iconSize="4.31"  rotate-z="130"/>
+    <!-- Right Wave v2 -->
+    <POI MapID="1609" xpos="-570.148335" ypos="43.2" zpos="308.89663" GUID="6t0cZVm3UkiiHd2VheWVMQ==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-562.484205" ypos="43.2" zpos="314.88569" GUID="gIjidforH0GwkRxeSlD9uQ==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-554.820075" ypos="43.2" zpos="320.87475" GUID="LjVFYusSuU+xRHXFUXG5EQ==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-547.155945" ypos="43.2" zpos="326.86381" GUID="uMfQkIM9HUaZV6wbPTqDQg==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-539.491815" ypos="43.2" zpos="332.85287" GUID="Cm5qGxWyDEiMxKgjMYELkQ==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-531.827685" ypos="43.2" zpos="338.84193" GUID="hezy5V8ENkG4rPd7XatGpQ==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-524.163555" ypos="43.2" zpos="344.83099" GUID="4gvoBxKpkkilVRUEYKFKiQ==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-516.499425" ypos="43.2" zpos="350.82005" GUID="H37FdFf4tkCydwIKZy93fw==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-508.835295" ypos="43.2" zpos="356.80911" GUID="Ofx9EuaKIU+zAW8IXsRhWw==" type="HMP.StrB14_c3.sc3"/>
+    <POI MapID="1609" xpos="-501.171165" ypos="43.2" zpos="362.79817" GUID="LUq7EoUKekiZueNH+G555Q==" type="HMP.StrB14_c3.sc3"/>
+  </POIs>
 </OverlayData>
