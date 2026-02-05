@@ -557,7 +557,7 @@
     
     <!-- ==================== MOUNT BALRIOR ================================================================================================================================================================ -->
     <!-- Fade Trigger Marker -->
-    <POI MapID="1155" xpos="127.912"  ypos="139.637" zpos="-425.363"  GUID="MlsjvBaykEe4k8QMBgye1A==" type="HMP.raidT.c99.sc2"                                                                  iconFile="Assets/General/Empty.png"                                        triggerRange="5.15" script-focus="LAA_Fade"/>
+    <POI MapID="1155" xpos="127.912"  ypos="39.637" zpos="-425.363"  GUID="MlsjvBaykEe4k8QMBgye1A==" type="HMP.raidT.c99.sc2"                                                                  iconFile="Assets/General/Empty.png"                                        triggerRange="5.15" script-focus="LAA_Fade"/>
     <!-- Ruined Camp -->
     <POI MapID="1155" xpos="128.836"  ypos="7.521"   zpos="-424.121"  GUID="ie67a5i5c0OFA61zwjLBIQ==" type="HMP.raidT"                            fadeFar="3500" fadeNear="3000" heightOffset="36.5" iconFile="Assets/Raids/Track/W8B0g.png"  iconSize="0.5"  rotate="90,0,5" cull="CounterClockwise"/>
     <POI MapID="1155" xpos="128.836"  ypos="7.521"   zpos="-424.121"  GUID="1pxxqshQQkyDalMJs8vyzw==" type="HMP.raidT"             color="141414" fadeFar="3500" fadeNear="3000" heightOffset="36.5" iconFile="Assets/General/dot-border.png" iconSize="0.75" rotate="90,0,5" cull="CounterClockwise"/>
