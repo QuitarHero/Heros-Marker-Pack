@@ -1,13 +1,6 @@
 <OverlayData>
   <MarkerCategory   name="HMP"     DisplayName="Hero's Pack">
-    <MarkerCategory name="strikeT" DisplayName="Strike Tracking" triggerRange="0" minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory name="c1"    DisplayName="Dailies"  tip-description="Only works if Lua Scripts are enabled">
-        <MarkerCategory name="sc1" DisplayName="Today">
-          <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
-          <MarkerCategory name="yes" DisplayName="Complete"/>
-        </MarkerCategory>
-        <MarkerCategory name="sc2" DisplayName="Tomorrow" tip-name="At Reset"/>
-      </MarkerCategory>
+    <MarkerCategory name="strikeT" DisplayName="Core/EoD Encounter Tracking" triggerRange="0" minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="c8"    DisplayName="Weekly Clears">
         <MarkerCategory   name="sc1" DisplayName="Aetherblade Hideout">
           <MarkerCategory name="no"  DisplayName="Incomplete" script-filter="combatFade"/>
@@ -56,53 +49,6 @@
   </MarkerCategory>
 
   <POIs>
-  <!-- ====================================================================== DAILY STRIKES / SCRIPT MARKERS / TITLES ====================================================================== -->
-  <!-- Stupid marker -->
-  <POI MapID="1428" xpos="-790.1943" ypos="9.807883" zpos="440.5246" GUID="5JGYjSPnjUWjibeWHM2M6g==" iconFile="Assets/General/empty.png" script-once="SetEOD_StrikeTextures" autoTrigger="1" triggerRange="9999"/>
-  <!-- Titles -->
-  <POI MapID="1428" xpos="-815.772" ypos="17.700"  zpos="409.145"  GUID="r4PNILi5GkGaY6vsPUbBeg==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/empty.png"    iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-817.497" ypos="17.700"  zpos="410.860"  GUID="s4N9z1PQQUu+BqXsONAm8g==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/empty.png"    iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <!-- Today's Daily -->
-  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="SBNx62U+Wk+R/HzTuahvRg==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/General/empty.png"      iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="qYsyfNVwuUGMG/zcKMEkPg==" type="HMP.strikeT.c1.sc1.no"  color="141414" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/General/empty.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="St08I1dXk0uOpOmNAsPDwg==" type="HMP.strikeT.c1.sc1.yes"                fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/General/empty.png"      iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-815.772" ypos="2.450"   zpos="409.145"  GUID="vO6PxN4zfU2WsWXrz3BGuw==" type="HMP.strikeT.c1.sc1.yes" color="41ab44" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/General/empty.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-815.772" ypos="16.450"  zpos="409.145"  GUID="WAiviQ9nnE+Qi1+vLXem4Q==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/empty.png"      iconSize="0.6"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-815.772" ypos="15.350"  zpos="409.145"  GUID="3GUG2QUyskm9MXz366R18g==" type="HMP.strikeT.c1.sc1"                    fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/empty.png"      iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <!-- Tomorrow's Daily -->
-  <POI MapID="1428" xpos="-817.497" ypos="2.450"   zpos="410.860"  GUID="sV2IORDNeEWW4HXb3PY5bw==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/General/empty.png"      iconSize="0.7"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-817.497" ypos="2.450"   zpos="410.860"  GUID="Jg/58iiYuEOh+8kIiDGz8A==" type="HMP.strikeT.c1.sc2"     color="2f4e8f" fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/General/empty.png" iconSize="0.98" rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-817.497" ypos="16.450"  zpos="410.860"  GUID="MJ79TNqau0G8rrfFvnW+jg==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/empty.png"      iconSize="0.6"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <POI MapID="1428" xpos="-817.497" ypos="15.350"  zpos="410.860"  GUID="UA8kgqnmaUqvV7jdeKmdmQ==" type="HMP.strikeT.c1.sc2"                    fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/empty.png"      iconSize="1.1"  rotate="90,0,-45" cull="CounterClockwise"/>
-  <!-- Aetherblade Hideout -->
-  <POI MapID="1432" xpos="51.594"   ypos="32.498"  zpos="60.535"   GUID="1PmCxJRILU+yl+W1q/3CZQ==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="15.5" iconFile="Assets/Strikes/Track/B7c.png"            iconSize="0.65"                                           inGameVisibility="0"/>
-  <POI MapID="1432" xpos="51.594"   ypos="39.198"  zpos="60.535"   GUID="izkIPFHs1EaLjdryA6UkUw==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="8.5"  iconFile="Assets/Strikes/Track/Cleared.png"        iconSize="0.8"                                            inGameVisibility="0"/>
-  <POI MapID="1432" xpos="51.594"   ypos="46.498"  zpos="60.535"   GUID="26StaSazpU62MjG6E36Bjg==" type="HMP.strikeT.c1.sc1.no"  color="41ab44"                                                    iconFile="Assets/General/dot-border.png" iconSize="0.9"                                            inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
-  <!-- Xunlai Jade Junkyard -->
-  <POI MapID="1450" xpos="-56.893"  ypos="144.945" zpos="155.171"  GUID="B/nAAmq6e0CjnhklDGKULQ==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="2750" fadeNear="2550" heightOffset="15.5" iconFile="Assets/Strikes/Track/B8c.png"            iconSize="0.7"                                            inGameVisibility="0"/>
-  <POI MapID="1450" xpos="-56.893"  ypos="151.645" zpos="155.171"  GUID="dfZCy6Ijv0m9/RXxKOhjSQ==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="2750" fadeNear="2550" heightOffset="8.5"  iconFile="Assets/Strikes/Track/Cleared.png"        iconSize="0.93"                                           inGameVisibility="0"/>
-  <POI MapID="1450" xpos="-56.893"  ypos="158.945" zpos="155.171"  GUID="+F/P0X7h9EaJ3muNBmUqSw==" type="HMP.strikeT.c1.sc1.no"  color="41ab44" fadeFar="2750" fadeNear="2550"                     iconFile="Assets/General/dot-border.png" iconSize="1"                                              inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
-  <!-- Kaineng Overlook -->
-  <POI MapID="1451" xpos="-583.141" ypos="259.960" zpos="-388.195" GUID="LcaQS9gJzE2ZglZoJCmaBQ==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="15.5" iconFile="Assets/Strikes/Track/B9c.png"            iconSize="0.7"  rotate="90,0,127" cull="CounterClockwise" inGameVisibility="0"/>
-  <POI MapID="1451" xpos="-583.141" ypos="266.680" zpos="-388.195" GUID="vGrXHfva6kqJVh4/gOskFw==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="8.5"  iconFile="Assets/Strikes/Track/Cleared.png"        iconSize="0.93" rotate="90,0,127" cull="CounterClockwise" inGameVisibility="0"/>
-  <POI MapID="1451" xpos="-583.141" ypos="273.960" zpos="-388.195" GUID="Z8yMRvRmAUWR27fDfVTCGg==" type="HMP.strikeT.c1.sc1.no"  color="41ab44"                                                    iconFile="Assets/General/dot-border.png" iconSize="1"    rotate="90,0,127" cull="CounterClockwise" inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
-  <!-- Harvest Temple -->
-  <POI MapID="1437" xpos="0.799"    ypos="377.401" zpos="-484.290" GUID="snQTyBzM80K4qQOuqn3vHw==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="1550" fadeNear="1400" heightOffset="15.5" iconFile="Assets/Strikes/Track/B10c.png"           iconSize="0.85" rotate="90,0,203" cull="CounterClockwise" inGameVisibility="0"/>
-  <POI MapID="1437" xpos="0.799"    ypos="384.101" zpos="-484.290" GUID="F8aXXCKYPE6LtBGZChX0Mg==" type="HMP.strikeT.c1.sc1.no"                 fadeFar="1500" fadeNear="1350" heightOffset="8.5"  iconFile="Assets/Strikes/Track/Cleared.png"        iconSize="1.17" rotate="90,0,203" cull="CounterClockwise" inGameVisibility="0"/>
-  <POI MapID="1437" xpos="0.799"    ypos="391.401" zpos="-484.290" GUID="mGZjMOjlkUS8OZNn8qvScQ==" type="HMP.strikeT.c1.sc1.no"  color="41ab44" fadeFar="1500" fadeNear="1350"                     iconFile="Assets/General/dot-border.png" iconSize="1.25" rotate="90,0,203" cull="CounterClockwise" inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
-  <!-- Old Lion's Court -->
-  <POI MapID="1485" xpos="-47.133"  ypos="7.205"   zpos="123.835"  GUID="ot6D59Lht0qfEVWWHjgz0w==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="15.5" iconFile="Assets/Strikes/Track/B11c.png"           iconSize="0.7"                                            inGameVisibility="0"/>
-  <POI MapID="1485" xpos="-47.133"  ypos="13.905"  zpos="123.835"  GUID="3KDgFNk7WUCTwj8XSc8e/g==" type="HMP.strikeT.c1.sc1.no"                                                heightOffset="8.5"  iconFile="Assets/Strikes/Track/Cleared.png"        iconSize="0.93"                                           inGameVisibility="0"/>
-  <POI MapID="1485" xpos="-47.133"  ypos="21.205"  zpos="123.835"  GUID="t7PJnF8FO0GNxmIK5BO09Q==" type="HMP.strikeT.c1.sc1.no"  color="41ab44"                                                    iconFile="Assets/General/dot-border.png" iconSize="1"                                              inGameVisibility="0" triggerRange="0"     show="HMP.strikeT.c1.sc1.yes" hide="HMP.strikeT.c1.sc1.no"/>
-  <!-- Daily Reset Markers -->
-  <POI MapID="1428" xpos="-817.465" ypos="2.119"   zpos="521.253"  GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Assets/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
-  <POI MapID="1428" xpos="70.179"   ypos="45.735"  zpos="41.076"   GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Assets/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
-  <POI MapID="1450" xpos="-69.934"  ypos="158.882" zpos="142.007"  GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Assets/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
-  <POI MapID="1428" xpos="-553.604" ypos="266.182" zpos="-377.757" GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Assets/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
-  <POI MapID="1437" xpos="15.364"   ypos="391.723" zpos="-518.401" GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Assets/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
-  <POI MapID="1485" xpos="3.345"    ypos="21.497"  zpos="113.785"  GUID="icuH+GuFrkalAKYLP4xZPQ==" type="HMP.strikeT.c1" autoTrigger="1" behavior="2" iconFile="Assets/General/empty.png" triggerRange="10000" show="HMP.strikeT.c1.sc1.no" hide="HMP.strikeT.c1.sc1.yes"/>
-  
-  
   <!-- ====================================================================== WEEKLY CLEARS AND CM's ====================================================================== -->
   <!-- ==================== Arborstone ==================== -->
   <!-- Weekly Reset -->

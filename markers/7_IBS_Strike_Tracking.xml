@@ -1,6 +1,6 @@
 <OverlayData>
   <MarkerCategory name="HMP"       DisplayName="Hero's Pack">
-    <MarkerCategory name="ibsT"    DisplayName="IBS Strike Tracking" mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory name="ibsT"    DisplayName="IBS Encounter Tracking" mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="c8"    DisplayName="Weekly Clears">
         <MarkerCategory name="sc1" DisplayName="Icebrood Construct" tip-description="Completion is assumed when&#xA;you enter the combat area.">
           <MarkerCategory name="no"  DisplayName="Incomplete"/>

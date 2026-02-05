@@ -1,6 +1,6 @@
 <OverlayData>
   <MarkerCategory         name="HMP"   DisplayName="Hero's Pack">
-    <MarkerCategory       name="raidT" DisplayName="Raid Tracking"                                                                                                                    tip-description="This toggles the entire&#xA;raid tracking feature." mapVisibility="0" minimapVisibility="0">
+    <MarkerCategory       name="raidT" DisplayName="Raid Wing Tracking"                                                                                                                    tip-description="This toggles the entire&#xA;raid tracking feature." mapVisibility="0" minimapVisibility="0">
       <MarkerCategory     name="c2"    DisplayName="Chests"              behavior="101"    cull="CounterClockwise" fadeFar="3500" fadeNear="3000" iconSize="0.15" mapDisplaySize="20" tip-description="This toggles the entire&#xA;chest tracking feature." triggerRange="0"/>
       <MarkerCategory     name="c3"    DisplayName="Weekly CM"                                                                                             script-filter="combatFade" tip-description="This toggles the Weekly CM tracking feature&#xA;If lua scripts are enabled, all in-raid markers&#xA;disappear on combat start." triggerRange="0">
         <MarkerCategory   name="sc1"   DisplayName="Keep Construct">
