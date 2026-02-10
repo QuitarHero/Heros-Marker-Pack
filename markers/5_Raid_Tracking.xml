@@ -261,7 +261,7 @@
     <POI MapID="1155" xpos="85.7585"  ypos="35.3338" zpos="-387.770" GUID="brW6Za7nO06RPzulHK3yvQ==" type="HMP.raidT.c3.sc1.yes"                 fadeFar="3500" fadeNear="3000"                     iconFile="Assets/Raids/Track/CmTag.png"  iconSize="0.38" rotate="90,30,-64" cull="CounterClockwise"/>
     <POI MapID="1156" xpos="-113.407" ypos="136.051" zpos="210.8653" GUID="brW6Za7nO06RPzulHK3yvQ==" type="HMP.raidT.c3.sc1.no"                  fadeFar="2500" fadeNear="2350" heightOffset="15.5" iconFile="Assets/Raids/Track/W3B2c.png"  iconSize="0.65"/>
     <POI MapID="1156" xpos="-113.407" ypos="142.711" zpos="210.8653" GUID="brW6Za7nO06RPzulHK3yvQ==" type="HMP.raidT.c3.sc1.no"                  fadeFar="2500" fadeNear="2350" heightOffset="8.5"  iconFile="Assets/Raids/Track/CmText.png" iconSize="0.8"/>
-    <POI MapID="1156" xpos="-113.407" ypos="150.051" zpos="210.8653" GUID="brW6Za7nO06RPzulHK3yvQ==" type="HMP.raidT.c3.sc1.no"  color="bf8f15"  fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/dot-border.png" iconSize="0.92"                   2triggerRange="4.5"   show="HMP.raidT.c3.sc1.yes" hide="HMP.raidT.c3.sc1.no"/>
+    <POI MapID="1156" xpos="-113.407" ypos="150.051" zpos="210.8653" GUID="brW6Za7nO06RPzulHK3yvQ==" type="HMP.raidT.c3.sc1.no"  color="bf8f15"  fadeFar="2500" fadeNear="2350"                     iconFile="Assets/General/dot-border.png" iconSize="0.92"                   triggerRange="4.5"   show="HMP.raidT.c3.sc1.yes" hide="HMP.raidT.c3.sc1.no"/>
     
     
     <!-- ==================== BASTION OF THE PENITENT ================================================================================================================================================================ -->
