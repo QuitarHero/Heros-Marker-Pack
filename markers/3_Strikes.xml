@@ -353,7 +353,7 @@
       </MarkerCategory>
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Assets/General/s.png"          iconSize="1" rotate="90,0,0"/>
-      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                          iconSize="2" rotate="90,0,180" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Night&#xA;• Bloodlust"/>
+      <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                          iconSize="2" rotate="90,0,210" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Night&#xA;• Bloodlust"/>
       <MarkerCategory   name="sc5"  DisplayName="Hitbox Ranges"            defaultToggle="0"                                                                                                                            tip-description="Displays there area where usage of&#xA;certain skills makes them auto-trigger.">
         <MarkerCategory name="asc1" DisplayName="Mines"/>
         <MarkerCategory name="asc2" DisplayName="Traps"/>
@@ -495,8 +495,8 @@
     <!-- South -->
     <POI MapID="1437" xpos="15.213" ypos="391.192" zpos="-555.102" GUID="HMP=STRIKEB10=C1=SC3"     type="HMP.strikeB10_c1.sc3"/>
     <!-- Slaying -->
-    <POI MapID="1437" xpos="15.352" ypos="391.220" zpos="-481.393" GUID="44tcLh1scE6DRXx0nQm7AA==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/HT.png"/>
-    <POI MapID="1437" xpos="15.352" ypos="377.220" zpos="-481.393" GUID="15rAMZ/DwkiBdcIWSu9W2A==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
+    <POI MapID="1437" xpos="-3.510944" ypos="391.220" zpos="-486.6584" GUID="44tcLh1scE6DRXx0nQm7AA==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/HT.png"/>
+    <POI MapID="1437" xpos="-3.510944" ypos="377.220" zpos="-486.6584" GUID="15rAMZ/DwkiBdcIWSu9W2A==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
     <!-- Hitbox Ranges -->
     <Trail trailData="Assets/Strikes/B10-mineRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc1" texture="Assets/Boundary/RedLine.png"/>
     <Trail trailData="Assets/Strikes/B10-trapRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc2" texture="Assets/Boundary/RedLine.png"/>
