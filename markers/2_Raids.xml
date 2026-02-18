@@ -812,9 +812,9 @@
         <MarkerCategory name="sc4" DisplayName="Visual Aide" tip-description="Adds lines between the numbers, showcasing their 'Line Formations.'"/>
       </MarkerCategory>
       <MarkerCategory name="c2" DisplayName="Titanspawn Geyser Spawns" defaultToggle="0" alpha="0.75" fadeFar="7000" fadeNear="6750" iconSize="0.75" rotate-x="180" heightOffset="-0.05" minimapVisibility="0" mapVisibility="0" tip-description="These are the 5 possible spawn locations for Titanspawn Geysers."/>
-      <MarkerCategory name="c3" DisplayName="Attack Ranges"            defaultToggle="0" texture="Assets/Boundary/RedLine.png"                                                           minimapVisibility="0" mapVisibility="0">
-        <MarkerCategory name="sc1" DisplayName="Hitbox"                defaultToggle="0"/>
-        <MarkerCategory name="sc2" DisplayName="Max Melee"/>
+      <MarkerCategory name="c3" DisplayName="Attack Ranges"            defaultToggle="0"                                                                                                 minimapVisibility="0" mapVisibility="0">
+        <MarkerCategory name="sc1" DisplayName="Hitbox"                defaultToggle="0"                                             texture="Assets/Boundary/HitboxLine.png"/>
+        <MarkerCategory name="sc2" DisplayName="Max Melee"                                                                           texture="Assets/Boundary/RedLine.png"/>
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
@@ -966,8 +966,8 @@
     <POI MapID="1564" xpos="176.858" ypos="269.847" zpos="243.991" GUID="4M6LPDXmqUKIFSKZDr0Kkg==" type="HMP.W8_B3.c2" iconFile="Assets/General/dot-border.png"/>
     
     <!-- ===== Attack Ranges ===== -->
-    <Trail trailData="Assets/Raids/W8B3-hitbox.trl"   alpha="1" animSpeed="0" type="HMP.W8_B3.c3.sc1" trailScale="3" fadeFar="550" fadeNear="500"/>
-    <Trail trailData="Assets/Raids/W8B3-maxMelee.trl" alpha="1" animSpeed="0" type="HMP.W8_B3.c3.sc2" trailScale="1" fadeFar="615" fadeNear="600"/>
+    <Trail trailData="Assets/Raids/W8B3-hitbox.trl"   alpha="0.7" animSpeed="0" type="HMP.W8_B3.c3.sc1" trailScale="3" fadeFar="550" fadeNear="500"/>
+    <Trail trailData="Assets/Raids/W8B3-maxMelee.trl" alpha="1"   animSpeed="0" type="HMP.W8_B3.c3.sc2" trailScale="1" fadeFar="615" fadeNear="600"/>
     
   </POIs>
 </OverlayData>
