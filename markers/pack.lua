@@ -16,7 +16,7 @@ HMP.MapScripts = {
     -- EotN ---------- IC ------------ KB ------------ FoJ ----------- Bone ---------- WoJ ----------- CW (Varina)
   { {1370, {nil} }, {1332, {nil} }, {1346, {nil} }, {1341, {nil} }, {1339, {nil} }, {1359, {nil} }, {1374, {nil} } },
   -- Arborstone ---- A-Hideout ----- XJJunkyard ---- K-Overlook ---- Harvest Temple ------------------------------------------------------------------------------------------------------ OLC
-  { {1428, {nil} }, {1432, {nil} }, {1450, {nil} }, {1451, {nil} }, {1437, {Dir[3] .. "Throw Helper", Dir[1] .. "StrB10_D2_SafeSpot", Dir[1] .. "StrB10_RevGS5", Dir[5] .. "HT-Main" } }, {1485, {nil} } },
+  { {1428, {nil} }, {1432, {nil} }, {1450, {nil} }, {1451, {nil} }, {1437, {Dir[3] .. "Throw Helper", Dir[1] .. "StrB10_D2_SafeSpot", Dir[1] .. "StrB10_RevGS5", Dir[5] .. "HT-Main",  Dir[1] .. "StrB10_HitboxRanges" } }, {1485, {nil} } },
   -- C-Observatory - Temple of Febe
   { {1515, {nil} }, {1520, {Dir[1] .. "DP_Adventure"} } },
   -- Ascalon Cat - blahblah

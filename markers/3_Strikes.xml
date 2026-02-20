@@ -354,10 +354,21 @@
       <MarkerCategory   name="sc2"  DisplayName="Max Edge"/>
       <MarkerCategory   name="sc3"  DisplayName="South"       cull="CounterClockwise"                                iconFile="Assets/General/s.png"          iconSize="1" rotate="90,0,0"/>
       <MarkerCategory   name="sc4"  DisplayName="Slaying"     cull="CounterClockwise" fadeFar="1500" fadeNear="1350"                                          iconSize="2" rotate="90,0,210" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start&#xA;Slaying:&#xA;• Sharp Stone&#xA;• Night&#xA;• Bloodlust"/>
-      <MarkerCategory   name="sc5"  DisplayName="Hitbox Ranges"            defaultToggle="0"                                                                                                                            tip-description="Displays there area where usage of&#xA;certain skills makes them auto-trigger.">
-        <MarkerCategory name="asc1" DisplayName="Mines"/>
-        <MarkerCategory name="asc2" DisplayName="Traps"/>
-        <MarkerCategory name="asc3" DisplayName="Necro Marks"/>
+      <MarkerCategory   name="sc5"  DisplayName="Hitbox Ranges"       defaultToggle="0" animSpeed="0" alpha="0.75"   texture="Assets/Boundary/RedLine.png"                                                              tip-description="Displays the 2 areas that when using certain skills, would automatically trigger.">
+        <MarkerCategory name="asc1" DisplayName="Mines"                                                                                                                                                                 tip-description="This is for Engineer's 'Throw Mine' skill.">
+          <MarkerCategory name="yasc1" DisplayName="Soo-Won Gadget"/>
+          <MarkerCategory name="yasc2" DisplayName="Attack Indicator" defaultToggle="0"/>
+        </MarkerCategory>
+        <MarkerCategory name="asc2" DisplayName="Traps"                                                                                                                                                                 tip-description="This is for Ranger and Dragonhunter Traps.">
+          <MarkerCategory name="yasc1" DisplayName="Soo-Won Gadget"/>
+          <MarkerCategory name="yasc2" DisplayName="Attack Indicator" defaultToggle="0"/>
+        </MarkerCategory>
+        <MarkerCategory name="asc3" DisplayName="Marks"                                                                                                                                                                 tip-description="This is for Necromancer's Staff and Traited Marks.">
+          <MarkerCategory name="yasc1" DisplayName="Soo-Won Gadget"/>
+          <MarkerCategory name="yasc2" DisplayName="Attack Indicator" defaultToggle="0"/>
+        </MarkerCategory>
+        <MarkerCategory name="asc4" DisplayName="Druid CA5"                                                                                                                                                             tip-description="This is for Druid's Celestial Avatar's #5 skill (Natural Convergence).&#xA;• Only relevant for the Target Indicator, when CA5 completes and it targets the Target Indicator, it spawns an attackable Black Hole, which can break enemies' stealthing logic when transitioning between phases, resulting in a failed group stealth check."/>
+        <MarkerCategory name="asc90" DisplayName="Information"        IsSeparator="1" tip-description="• Soo-Won's Gadget is an invisible gadget that is always present that triggers certain skills and inadvertently destroys projectiles and some attacks.&#xA;• The Target Indicator is the indicator that you see and target onto to attack the Dragonvoid.&#xA;• If lua scripts are enabled and both hitbox ranges are enabled for a specific skill type, the hitbox ranges will change to a combo trail to minimize visual clutter."/>
       </MarkerCategory>
       <MarkerCategory   name="sc6"  DisplayName="Hitbox"      alpha="0.9" defaultToggle="0"     heightOffset="-0.05" iconFile="Assets/Shapes/HalfCircle.png"  iconSize="10.1" rotate="360,0,0.3"/>
     </MarkerCategory>
@@ -498,9 +509,17 @@
     <POI MapID="1437" xpos="-3.510944" ypos="391.220" zpos="-486.6584" GUID="44tcLh1scE6DRXx0nQm7AA==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/HT.png"/>
     <POI MapID="1437" xpos="-3.510944" ypos="377.220" zpos="-486.6584" GUID="15rAMZ/DwkiBdcIWSu9W2A==" type="HMP.strikeB10_c1.sc4" iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
     <!-- Hitbox Ranges -->
-    <Trail trailData="Assets/Strikes/B10-mineRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc1" texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Strikes/B10-trapRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc2" texture="Assets/Boundary/RedLine.png"/>
-    <Trail trailData="Assets/Strikes/B10-markRange.trl" animSpeed="0" alpha="0.75" type="HMP.strikeB10_c1.sc5.asc3" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Strikes/B10-Gadget-Mines.trl"    GUID="pwy1EhjUZE+AspfyuMG8rw==" type="HMP.strikeB10_c1.sc5.asc1.yasc1"/>
+    <Trail trailData="Assets/Strikes/B10-Target-Mines.trl"    GUID="R6Qp1ZPj6Eq64trrAobSYA==" type="HMP.strikeB10_c1.sc5.asc1.yasc2"/>
+    <Trail trailData="Assets/Strikes/B10-BothRange-Mines.trl" GUID="rkutxEcMXEeoDK3QmCw/aw==" type="HMP.strikeB10_c1.sc5.asc1.yasc2" InGameVisibility="0"/>
+    <Trail trailData="Assets/Strikes/B10-Gadget-Traps.trl"    GUID="ncYLuIE5E0KLYhbHyUuodw==" type="HMP.strikeB10_c1.sc5.asc2.yasc1"/>
+    <Trail trailData="Assets/Strikes/B10-Target-Traps.trl"    GUID="HpfKnTZ7CkK1oO+Jiz8Cdg==" type="HMP.strikeB10_c1.sc5.asc2.yasc2"/>
+    <Trail trailData="Assets/Strikes/B10-BothRange-Traps.trl" GUID="X6GiFGgLDkq4cnsqG2ur5Q==" type="HMP.strikeB10_c1.sc5.asc2.yasc2" InGameVisibility="0"/>
+    <Trail trailData="Assets/Strikes/B10-Gadget-Marks.trl"    GUID="nZMOvufdGU+xS3Pyz6aL3w==" type="HMP.strikeB10_c1.sc5.asc3.yasc1"/>
+    <Trail trailData="Assets/Strikes/B10-Target-Marks.trl"    GUID="3sivNbIgN0iJ1j9AZyCQ7w==" type="HMP.strikeB10_c1.sc5.asc3.yasc2"/>
+    <Trail trailData="Assets/Strikes/B10-BothRange-Marks.trl" GUID="mn73out29Ue39XZn/Z2EDw==" type="HMP.strikeB10_c1.sc5.asc3.yasc2" InGameVisibility="0"/>
+    <Trail trailData="Assets/Strikes/B10-Target-DruidCA5.trl" GUID="q9QWP9FCR0e1oYD3WrsXSQ==" type="HMP.strikeB10_c1.sc5.asc4"/>
+    <POI MapID="1437" xpos="0" ypos="0" zpos="0"              GUID="/iQpJQrPPUirWK24+u9SQg==" type="HMP.strikeB10_c1.sc5.asc90"      InGameVisibility="0" iconFile="Assets/General/empty.png"/>
     <!-- Hitbox -->
     <POI MapID="1437" xpos="15.555" ypos="391.723" zpos="-554.495" GUID="FfaiH36dw0GWVUTZvtuEVQ==" type="HMP.strikeB10_c1.sc6"/>
     
