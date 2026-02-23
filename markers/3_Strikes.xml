@@ -1304,13 +1304,14 @@
   
 <!-- ========================================= GUARDIAN'S GLADE (KELA, SENESCHAL OF WAVES) ==================================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="StrB14_c1" DisplayName="Initial Spawn"                              fadeFar="800"  fadeNear="700"                                                                                        script-filter="combatFade" minimapVisibility="0" mapVisibility="0" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start."/>
-    <MarkerCategory name="StrB14_c2" DisplayName="Arena Boundary"           defaultToggle="0" fadeFar="4000" fadeNear="3750" alpha="0.75"                                                                                                     minimapVisibility="0" mapVisibility="0"/>
-    <MarkerCategory name="StrB14_c3" DisplayName="Scalding Wave Boundaries" defaultToggle="0" fadeFar="4000" fadeNear="3750" alpha="0.75" heightOffset="-0.05" iconFile="Assets/Shapes/Arrow Boundary.png" rotate-x="180"                     minimapVisibility="0" mapVisibility="0">
+    <MarkerCategory name="StrB14_c1" DisplayName="Initial Spawn"                               fadeFar="800"  fadeNear="700"                                                                                        script-filter="combatFade" minimapVisibility="0" mapVisibility="0" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start."/>
+    <MarkerCategory name="StrB14_c2" DisplayName="Arena Boundary"            defaultToggle="0" fadeFar="4000" fadeNear="3750" alpha="0.75"                                                                                                     minimapVisibility="0" mapVisibility="0"/>
+    <MarkerCategory name="StrB14_c3" DisplayName="Scalding Wave Boundaries"  defaultToggle="0" fadeFar="4000" fadeNear="3750" alpha="0.75" heightOffset="-0.05" iconFile="Assets/Shapes/Arrow Boundary.png" rotate-x="180"                     minimapVisibility="0" mapVisibility="0">
       <MarkerCategory name="sc1"      DisplayName="Left Wave"   iconSize="4.714" rotate-z="135"/>
       <MarkerCategory name="sc2"      DisplayName="Middle Wave"/>
       <MarkerCategory name="sc3"      DisplayName="Right Wave"  iconSize="4.8635" rotate-z="-52"/>
     </MarkerCategory>
+    <MarkerCategory name="StrB14_c4"  DisplayName="Executor Spawn Locations" defaultToggle="0" alpha="0.75" heightOffset="-0.05" iconFile="Assets/General/dot.png" iconSize="0.75" rotate-x="180" minimapVisibility="0" mapVisibility="0"/>
   </MarkerCategory>
     
   <POIs>
@@ -1362,5 +1363,17 @@
     <POI MapID="1609" xpos="-516.499425" ypos="43.2" zpos="350.82005" GUID="H37FdFf4tkCydwIKZy93fw==" type="HMP.StrB14_c3.sc3"/>
     <POI MapID="1609" xpos="-508.835295" ypos="43.2" zpos="356.80911" GUID="Ofx9EuaKIU+zAW8IXsRhWw==" type="HMP.StrB14_c3.sc3"/>
     <POI MapID="1609" xpos="-501.171165" ypos="43.2" zpos="362.79817" GUID="LUq7EoUKekiZueNH+G555Q==" type="HMP.StrB14_c3.sc3"/>
+    <!-- ========== Executor Spawns ========== -->
+    <POI MapID="1609" xpos="-547.301" ypos="43.223" zpos="292.585" GUID="aYrrV0mo60KJY2+4MO20bQ==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-549.226" ypos="43.223" zpos="313.167" GUID="jZ7Qtn7oEE6sZ7cDw+aHmw==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-566.836" ypos="43.223" zpos="313.101" GUID="rqtdC/h3DkiN9iP6l+azvg==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-511.33"  ypos="43.256" zpos="331.079" GUID="w4JN4F/U4kqUxQahSw0tYw==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-524.781" ypos="43.205" zpos="313.565" GUID="H/38W3nR0USGPXIy6hSVIQ==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-504.073" ypos="43.223" zpos="306.11"  GUID="kYPBxh0aRU2eVthVQkclJg==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-555.62"  ypos="43.223" zpos="359.039" GUID="vim6IoqGyEeVLjjo0o8R/g==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-530.98"  ypos="43.223" zpos="290.105" GUID="Ad4qu3wxKE+rDYwsOk4qvg==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-539.259" ypos="43.235" zpos="343.024" GUID="ymMicLuX9Em41EHkv6rn4A==" type="HMP.StrB14_c4"/>
+    <POI MapID="1609" xpos="-565.106" ypos="43.223" zpos="334.157" GUID="WJYjoP/ZY0G1RvOcIHyy3Q==" type="HMP.StrB14_c4"/>
+    
   </POIs>
 </OverlayData>
