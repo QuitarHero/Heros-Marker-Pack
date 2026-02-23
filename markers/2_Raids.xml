@@ -817,6 +817,13 @@
         <MarkerCategory name="sc1" DisplayName="Hitbox"                defaultToggle="0"                                             texture="Assets/Boundary/HitboxLine.png"/>
         <MarkerCategory name="sc2" DisplayName="Max Melee"                                                                           texture="Assets/Boundary/RedLine.png"/>
       </MarkerCategory>
+      <MarkerCategory name="c4" DisplayName="Sulfuric Safe Zones"       defaultToggle="0"                                                                    texture="Assets/Boundary/RedLine.png" minimapVisibility="0" mapVisibility="0" tip-description="These ranges are for taking Sulfuric Geysers off group.&#xA;They don't matter if you deal with them on Normal Mode.">
+        <MarkerCategory name="sc1" DisplayName="Normal Mode"                                             fadeFar="700"  fadeNear="650"                                                                                                     tip-description="This radius allows the group to still have full access to Max Melee."/>
+        <MarkerCategory name="sc2" DisplayName="CM / LCM Modes"         defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Safe Placement Zone"                                  fadeFar="2000" fadeNear="1750"/>
+          <MarkerCategory name="asc2" DisplayName="Sulfuric Showcase"   defaultToggle="0" color="d58314" fadeFar="3000" fadeNear="2750" heightOffset="-0.05" iconFile="Assets/Shapes/Orb10.png"    iconSize="15.2399917704" rotate-x="180" tip-description="• This shows roughly the worst-case scenario for dealing with Toxic Geysers for a better visualization.&#xA;• If lua scripts are enabled, disappears on combat start." script-filter="combatFade"/>
+        </MarkerCategory>
+      </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
@@ -984,6 +991,55 @@
     <!-- ===== Attack Ranges ===== -->
     <Trail trailData="Assets/Raids/W8B3-hitbox.trl"   alpha="0.7" animSpeed="0" type="HMP.W8_B3.c3.sc1" trailScale="3" fadeFar="550" fadeNear="500"/>
     <Trail trailData="Assets/Raids/W8B3-maxMelee.trl" alpha="1"   animSpeed="0" type="HMP.W8_B3.c3.sc2" trailScale="1" fadeFar="615" fadeNear="600"/>
+    
+    <!-- ===== Sulfuric Geyser Safe Zone ===== -->
+    <!-- Normal Mode -->
+    <Trail trailData="Assets/Raids/W8B3-SulfuricSafeZone-NM.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="0.6" type="HMP.W8_B3.c4.sc1" trailScale="3"/>
+    <!-- Challenge Modes -->
+    <Trail trailData="Assets/Raids/W8B3-SulfuricSafeZone-CM.trl" texture="Assets/Boundary/RedLine.png" animSpeed="0" alpha="0.8" type="HMP.W8_B3.c4.sc2.asc1" trailScale="4"/>
+    <!-- Sulfuric Geyser Showcase -->
+    <POI MapID="1564" xpos="199.299"  ypos="269.9278" zpos="262.5844" GUID="i/kgfTPoNEaZH7QROvvqpA==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="199.299"  ypos="269.9278" zpos="262.5844" GUID="i/kgfTPoNEaZH7QROvvqpA==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="199.299"  ypos="269.9278" zpos="262.5844" GUID="i/kgfTPoNEaZH7QROvvqpA==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="195.361"  ypos="270.0288" zpos="269.5642" GUID="r9ppJ8UkkkSbNZu3vp26Kw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="195.361"  ypos="270.0288" zpos="269.5642" GUID="r9ppJ8UkkkSbNZu3vp26Kw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="195.361"  ypos="270.0288" zpos="269.5642" GUID="r9ppJ8UkkkSbNZu3vp26Kw==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="171.4971" ypos="269.9133" zpos="288.7403" GUID="bOshOhs5mU+O1E6F+3mOjg==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="171.4971" ypos="269.9133" zpos="288.7403" GUID="bOshOhs5mU+O1E6F+3mOjg==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="171.4971" ypos="269.9133" zpos="288.7403" GUID="bOshOhs5mU+O1E6F+3mOjg==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="143.8209" ypos="269.929"  zpos="274.7818" GUID="h7X82uEp/0ayw43DKfbvBQ==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="143.8209" ypos="269.929"  zpos="274.7818" GUID="h7X82uEp/0ayw43DKfbvBQ==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="143.8209" ypos="269.929"  zpos="274.7818" GUID="h7X82uEp/0ayw43DKfbvBQ==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="131.2178" ypos="269.9289" zpos="264.3846" GUID="s1TZ17fyt0mDMZ5oj5Gc8w==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="131.2178" ypos="269.9289" zpos="264.3846" GUID="s1TZ17fyt0mDMZ5oj5Gc8w==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="131.2178" ypos="269.9289" zpos="264.3846" GUID="s1TZ17fyt0mDMZ5oj5Gc8w==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="129.5627" ypos="269.9289" zpos="263.429"  GUID="egFI0oXT4kmcOrSRUPd38A==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="129.5627" ypos="269.9289" zpos="263.429"  GUID="egFI0oXT4kmcOrSRUPd38A==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="129.5627" ypos="269.9289" zpos="263.429"  GUID="egFI0oXT4kmcOrSRUPd38A==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="109.2873" ypos="269.9289" zpos="241.3532" GUID="gyIo5xg/uk+JHoTU+7srnw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="109.2873" ypos="269.9289" zpos="241.3532" GUID="gyIo5xg/uk+JHoTU+7srnw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="109.2873" ypos="269.9289" zpos="241.3532" GUID="gyIo5xg/uk+JHoTU+7srnw==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="99.15703" ypos="269.9298" zpos="230.1246" GUID="wEPwFg0RakqpZG2HixY/5A==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="99.15703" ypos="269.9298" zpos="230.1246" GUID="wEPwFg0RakqpZG2HixY/5A==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="99.15703" ypos="269.9298" zpos="230.1246" GUID="wEPwFg0RakqpZG2HixY/5A==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="115.9007" ypos="269.9297" zpos="204.5127" GUID="wBp7TOJAZ0OscLROpRUw0w==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="115.9007" ypos="269.9297" zpos="204.5127" GUID="wBp7TOJAZ0OscLROpRUw0w==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="115.9007" ypos="269.9297" zpos="204.5127" GUID="wBp7TOJAZ0OscLROpRUw0w==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="121.2562" ypos="269.9297" zpos="200.1239" GUID="a+xt3GlMzkacKzQdzt9UnA==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="121.2562" ypos="269.9297" zpos="200.1239" GUID="a+xt3GlMzkacKzQdzt9UnA==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="121.2562" ypos="269.9297" zpos="200.1239" GUID="a+xt3GlMzkacKzQdzt9UnA==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="149.8841" ypos="269.9289" zpos="191.4486" GUID="6tR3xvVGqUKx2TWKTdH8eQ==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="149.8841" ypos="269.9289" zpos="191.4486" GUID="6tR3xvVGqUKx2TWKTdH8eQ==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="149.8841" ypos="269.9289" zpos="191.4486" GUID="6tR3xvVGqUKx2TWKTdH8eQ==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="172.2849" ypos="269.9403" zpos="188.2084" GUID="5BuanBBynkWTCzKaSMjrPA==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="172.2849" ypos="269.9403" zpos="188.2084" GUID="5BuanBBynkWTCzKaSMjrPA==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="172.2849" ypos="269.9403" zpos="188.2084" GUID="5BuanBBynkWTCzKaSMjrPA==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="194.3647" ypos="269.9403" zpos="203.6272" GUID="xlEkx7er0kelGNH7OWwfyw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="194.3647" ypos="269.9403" zpos="203.6272" GUID="xlEkx7er0kelGNH7OWwfyw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="194.3647" ypos="269.9403" zpos="203.6272" GUID="xlEkx7er0kelGNH7OWwfyw==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <POI MapID="1564" xpos="201.6941" ypos="269.9403" zpos="232.5707" GUID="/16Cm5cZvUS8rG/kKFAFZw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="201.6941" ypos="269.9403" zpos="232.5707" GUID="/16Cm5cZvUS8rG/kKFAFZw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="201.6941" ypos="269.9403" zpos="232.5707" GUID="/16Cm5cZvUS8rG/kKFAFZw==" type="HMP.W8_B3.c4.sc2.asc2"/>
     
   </POIs>
 </OverlayData>
