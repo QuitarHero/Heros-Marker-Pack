@@ -805,11 +805,12 @@
       </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory name="W8_B3" DisplayName="Ura the Steamshrieker">
-      <MarkerCategory name="c1" DisplayName="CM Toxic Geyser Spawns" defaultToggle="0" fadeFar="7000" fadeNear="6750" iconSize="1.25" heightOffset="0.75">
+      <MarkerCategory name="c1" DisplayName="CM Toxic Geyser Spawns" defaultToggle="0" fadeFar="7000" fadeNear="6750" heightOffset="0.75"                                     iconSize="1.25">
         <MarkerCategory name="sc1" DisplayName="Phase 1"/>
-        <MarkerCategory name="sc2" DisplayName="Phase 2" defaultToggle="0"/>
-        <MarkerCategory name="sc3" DisplayName="Phase 3" defaultToggle="0"/>
-        <MarkerCategory name="sc4" DisplayName="Visual Aide" tip-description="Adds lines between the numbers, showcasing their 'Line Formations.'"/>
+        <MarkerCategory name="sc2" DisplayName="Phase 2"             defaultToggle="0"/>
+        <MarkerCategory name="sc3" DisplayName="Phase 3"             defaultToggle="0"/>
+        <MarkerCategory name="sc4" DisplayName="Visual Aide"                                                                                                                                                                                                 tip-description="Adds lines between the numbers, showcasing their 'Line Formations.'"/>
+        <MarkerCategory name="sc5" DisplayName="SAK Zone"            alpha="1"         fadeFar="4000" fadeNear="3750" heightOffset="-0.05" iconFile="Assets/Shapes/Orb10.png" iconSize="8.1279956109" rotate-x="180" minimapVisibility="0" mapVisibility="0" tip-description="Displays the radius where using your SAK/Shard will dispel the geyser's protection.&#xA;• If lua scripts are enabled, disappears on combat start." script-filter="combatFade"/>
       </MarkerCategory>
       <MarkerCategory name="c2" DisplayName="Titanspawn Geyser Spawns" defaultToggle="0" alpha="0.75" fadeFar="7000" fadeNear="6750" iconSize="0.75" rotate-x="180" heightOffset="-0.05" minimapVisibility="0" mapVisibility="0" tip-description="These are the 5 possible spawn locations for Titanspawn Geysers."/>
       <MarkerCategory name="c3" DisplayName="Attack Ranges"            defaultToggle="0"                                                                                                 minimapVisibility="0" mapVisibility="0">
@@ -952,6 +953,21 @@
     <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="aWKh9Em0q02835qgQ/QVRA==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/14.png"/>
     <!-- Visual Aide -->
     <Trail trailData="Assets/Raids/W8B3_TG_VisualAide.trl" alpha="0.75" animSpeed="0"              type="HMP.W8_B3.c1.sc4" texture="Assets/Boundary/Redline.png" trailScale="3" fadeFar="5000" fadeNear="4850"/>
+    <!-- SAK Usage Zone -->
+    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="Kyyk3nfYBUKhWaAMWW7ufw==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="a/lOORXFqU6UiAxIbbMMNw==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="N3mcbJDghEa6yoHQh6ZBUQ==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="iG7gaBnpsk+gvvkyNv2j6g==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="cOXjTwTCKESsNJ/kXvHzbA==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="02yYAJi23EWX3PBMH9Pn0A==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="9eRtD5Qs/0+7emcPApO4bg==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="zPKxpzo5ZUSxKErpyfKVug==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="SMYBPqNyWUallFlIGfp5TQ==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="ccjf82C+FEWmaugeuiwTiQ==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="m4rDUbce306b+ZRsIR4uNg==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="gdwsd1N9vkyyKVO5d2gkFg==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="DquPl1rvCkSiaZW7q0CK5A==" type="HMP.W8_B3.c1.sc5"/>
+    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="18xy8DF8oUC8ETzQYl3YWw==" type="HMP.W8_B3.c1.sc5"/>
     
     <!-- ===== Titanspawn Geysers Potential Spawn Positions ===== -->
     <POI MapID="1564" xpos="171.516" ypos="269.847" zpos="218.84"  GUID="CUwXxvDmE0SkYRaO2xT2UQ==" type="HMP.W8_B3.c2" iconFile="Assets/General/dot.png"/>

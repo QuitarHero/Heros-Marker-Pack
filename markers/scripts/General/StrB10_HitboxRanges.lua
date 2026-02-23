@@ -6,7 +6,6 @@ HMP.StrB10_HitboxRanges = {
 }
 
 local HitboxRanges = HMP.StrB10_HitboxRanges
-Debug:Watch("Hitbox Ranges", HitboxRanges)
 
 local function UpdateCategoryStates(category, hitbox, catState)
   HitboxRanges[category][1][hitbox] = catState
