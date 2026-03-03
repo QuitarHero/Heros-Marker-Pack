@@ -278,10 +278,10 @@ local function GetFractalSet(addTime)
   --Time function and generally accepted fractal "set" order have offsets. Conditional checks account for this.
   for i = 0, 14 do
     if(Fotm.CurSet == i) then
-      if( i > 8 ) then
-        Fotm.CurSet = Fotm.CurSet - 8
+      if( i > 7 ) then
+        Fotm.CurSet = Fotm.CurSet - 7
       else
-        Fotm.CurSet = Fotm.CurSet + 7
+        Fotm.CurSet = Fotm.CurSet + 8
       end
       break
     end
