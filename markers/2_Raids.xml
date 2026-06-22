@@ -445,6 +445,42 @@
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W4_B1" DisplayName="Cairn"                                            fadeFar="4000" fadeNear="3500"                                                                         mapVisibility="0" minimapVisibility="0">
       <MarkerCategory   name="c1"    DisplayName="Max Melee"                                        fadeFar="225"  fadeNear="175"                                        trailScale="1.5"/>
+      <MarkerCategory   name="c2"    DisplayName="Green Locations" color="61cc2b" defaultToggle="0"                                heightOffset="-0.05" ypos="33.72"                                       script-filter="combatFade">
+        <MarkerCategory name="sc0"   DisplayName="Information"     IsSeparator="1"                                                                                                                         tip-description="• There are issues with pre-stacking on Slow Greens; strive to avoid doing so.&#xA;• If lua scripts are enabled, disappears on Combat Start&#xA;• Slow Greens: The set of 5 greens; 1 Big, 2 Medium, 2 Small.&#xA;• Tele Greens: The set of 5 greens that spawn as Cairn teleports around.&#xA;• Fast Greens: The set of 5-8 greens that spawn after Cairn's Orbital Sweep."/>
+        <MarkerCategory name="sc1" DisplayName="Starting Green"           defaultToggle="0" iconSize="3.172514" rotate-x="180"/>
+        <MarkerCategory name="sc2" DisplayName="Soft-Phase 1 (100% - 75%)">
+          <MarkerCategory name="asc1" DisplayName="Slow Greens"                                                 rotate-x="180"/>
+          <MarkerCategory name="asc2" DisplayName="Tele Greens"           defaultToggle="0">
+            <MarkerCategory name="yasc1" DisplayName="Numbers"            color="FFFFFF"    iconSize="1.25"     heightOffset="1.25"/>
+            <MarkerCategory name="yasc2" DisplayName="Circles"                              iconSize="2.838267" rotate-x="180"/>
+          </MarkerCategory>
+          <MarkerCategory name="asc3" DisplayName="Fast Greens"           defaultToggle="0" iconSize="4.643542" rotate-x="180"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="Soft-Phase 2 (75% - 50%)" defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Slow Greens"                                                 rotate-x="180"/>
+          <MarkerCategory name="asc2" DisplayName="Tele Greens"           defaultToggle="0">
+            <MarkerCategory name="yasc1" DisplayName="Numbers"            color="FFFFFF"    iconSize="1.25"     heightOffset="1.25"/>
+            <MarkerCategory name="yasc2" DisplayName="Circles"                              iconSize="2.838267" rotate-x="180"/>
+          </MarkerCategory>
+          <MarkerCategory name="asc3" DisplayName="Fast Greens"           defaultToggle="0" iconSize="4.643542" rotate-x="180"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc4" DisplayName="Soft-Phase 3 (50% - 25%)" defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Slow Greens"                                                 rotate-x="180"/>
+          <MarkerCategory name="asc2" DisplayName="Tele Greens"           defaultToggle="0">
+            <MarkerCategory name="yasc1" DisplayName="Numbers"            color="FFFFFF"    iconSize="1.25"     heightOffset="1.25"/>
+            <MarkerCategory name="yasc2" DisplayName="Circles"                              iconSize="2.838267" rotate-x="180"/>
+          </MarkerCategory>
+          <MarkerCategory name="asc3" DisplayName="Fast Greens"           defaultToggle="0" iconSize="4.643542" rotate-x="180"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc5" DisplayName="Soft-Phase 4 (25% - 0%)"  defaultToggle="0">
+          <MarkerCategory name="asc1" DisplayName="Slow Greens"                                                 rotate-x="180"/>
+          <MarkerCategory name="asc2" DisplayName="Tele Greens"           defaultToggle="0">
+            <MarkerCategory name="yasc1" DisplayName="Numbers"            color="FFFFFF"    iconSize="1.25"     heightOffset="1.25"/>
+            <MarkerCategory name="yasc2" DisplayName="Circles"                              iconSize="2.838267" rotate-x="180"/>
+          </MarkerCategory>
+          <MarkerCategory name="asc3" DisplayName="Fast Greens"           defaultToggle="0" iconSize="4.643542" rotate-x="180"/>
+        </MarkerCategory>
+      </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory     name="W4_B3" DisplayName="Samarog">
       <MarkerCategory   name="c1"    DisplayName="Boundary"                                         fadeFar="600"  fadeNear="525"                                        trailScale="1.5"                  mapVisibility="0" minimapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
@@ -463,6 +499,177 @@
     <!-- ==================== Cairn ==================== -->
     <!-- Max Melee -->
     <Trail trailData="Assets/Raids/cairn_maxMelee.trl" animSpeed="0" alpha="0.75"                      type="HMP.W4_B1.c1"     texture="Assets/Boundary/RedLine.png"/>
+    <!-- Green Positions -->
+    <!-- Marker for Separator -->
+    <POI MapID="1188" xpos="0" ypos="0" zpos="0" GUID="2eP0rDU4+0Sj0LxHVWZTIg==" type="HMP.W4_B1.c2.sc0" iconFile="Assets/General/empty.png" InGameVisibility="0"/>
+    <!-- ~~~~~ IN-GAME ~~~~~ -->
+    <!-- Start -->
+    <POI MapID="1188" xpos="370.466" zpos="60.458" type="HMP.W4_B1.c2.sc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="370.466" zpos="60.458" type="HMP.W4_B1.c2.sc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P1 - Slow Greens (Big / Medium / Medium / Small / Small)-->
+    <POI MapID="1188" xpos="359.163" zpos="59.055" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="4.631591"/>
+    <POI MapID="1188" xpos="359.163" zpos="59.055" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="4.631591"/>
+    <POI MapID="1188" xpos="350.667" zpos="55.9"   type="HMP.W4_B1.c2.sc2.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="350.667" zpos="55.9"   type="HMP.W4_B1.c2.sc2.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="356.052" zpos="37.097" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="356.052" zpos="37.097" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="365.496" zpos="42.753" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="365.496" zpos="42.753" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <POI MapID="1188" xpos="368.597" zpos="58.575" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="368.597" zpos="58.575" type="HMP.W4_B1.c2.sc2.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <!-- P1 - Tele Greens -->
+    <POI MapID="1188" xpos="364.134" zpos="27.397" type="HMP.W4_B1.c2.sc2.asc2.yasc1"              iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1188" xpos="387.136" zpos="53.691" type="HMP.W4_B1.c2.sc2.asc2.yasc1"              iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1188" xpos="363.967" zpos="78.203" type="HMP.W4_B1.c2.sc2.asc2.yasc1"              iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1188" xpos="340.106" zpos="52.561" type="HMP.W4_B1.c2.sc2.asc2.yasc1"              iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1188" xpos="364.591" zpos="51.167" type="HMP.W4_B1.c2.sc2.asc2.yasc1"              iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1188" xpos="364.134" zpos="27.397" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="364.134" zpos="27.397" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="387.136" zpos="53.691" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="387.136" zpos="53.691" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="363.967" zpos="78.203" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="363.967" zpos="78.203" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="340.106" zpos="52.561" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="340.106" zpos="52.561" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="364.591" zpos="51.167" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="364.591" zpos="51.167" type="HMP.W4_B1.c2.sc2.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P1 - Fast Greens -->
+    <POI MapID="1188" xpos="375.59"  zpos="72.59"  type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="375.59"  zpos="72.59"  type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="349.864" zpos="72.988" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="349.864" zpos="72.988" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="376.829" zpos="54.064" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="376.829" zpos="54.064" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="388.109" zpos="42.99"  type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="388.109" zpos="42.99"  type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="364.584" zpos="21.911" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="364.584" zpos="21.911" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="361.587" zpos="32.262" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="361.587" zpos="32.262" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="341.83"  zpos="32.523" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="341.83"  zpos="32.523" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="349.824" zpos="54.881" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="349.824" zpos="54.881" type="HMP.W4_B1.c2.sc2.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P2 - Slow Greens (Big / Medium / Medium / Small / Small) -->
+    <POI MapID="1188" xpos="371.63"  zpos="43.175" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="4.631591"/>
+    <POI MapID="1188" xpos="371.63"  zpos="43.175" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="4.631591"/>
+    <POI MapID="1188" xpos="360.497" zpos="59.181" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="360.497" zpos="59.181" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="382.298" zpos="61.193" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="382.298" zpos="61.193" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="348.427" zpos="46.911" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="348.427" zpos="46.911" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <POI MapID="1188" xpos="360.738" zpos="34.612" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="360.738" zpos="34.612" type="HMP.W4_B1.c2.sc3.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <!-- P2 - Tele Greens -->
+    <POI MapID="1188" xpos="391.574" zpos="63.726" type="HMP.W4_B1.c2.sc3.asc2.yasc1"              iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1188" xpos="375.927" zpos="79.138" type="HMP.W4_B1.c2.sc3.asc2.yasc1"              iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1188" xpos="363.967" zpos="78.203" type="HMP.W4_B1.c2.sc3.asc2.yasc1"              iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1188" xpos="340.106" zpos="52.561" type="HMP.W4_B1.c2.sc3.asc2.yasc1"              iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1188" xpos="364.591" zpos="51.167" type="HMP.W4_B1.c2.sc3.asc2.yasc1"              iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1188" xpos="391.574" zpos="63.726" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="391.574" zpos="63.726" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="375.927" zpos="79.138" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="375.927" zpos="79.138" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="363.967" zpos="78.203" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="363.967" zpos="78.203" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="340.106" zpos="52.561" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="340.106" zpos="52.561" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="364.591" zpos="51.167" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="364.591" zpos="51.167" type="HMP.W4_B1.c2.sc3.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P2 - Fast Greens -->
+    <POI MapID="1188" xpos="355.579" zpos="40.38"  type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="355.579" zpos="40.38"  type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="363.677" zpos="34.769" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="363.677" zpos="34.769" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="352.526" zpos="53.364" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="352.526" zpos="53.364" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="370.632" zpos="37.336" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="370.632" zpos="37.336" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="363.106" zpos="66.413" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="363.106" zpos="66.413" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="382.76"  zpos="67.363" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="382.76"  zpos="67.363" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="395.038" zpos="51.147" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="395.038" zpos="51.147" type="HMP.W4_B1.c2.sc3.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P3 - Slow Greens (Big / Medium / Medium / Small / Small) -->
+    <POI MapID="1188" xpos="360.093" zpos="29.186" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="4.631591"/>
+    <POI MapID="1188" xpos="360.093" zpos="29.186" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="4.631591"/>
+    <POI MapID="1188" xpos="377.947" zpos="70.691" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="377.947" zpos="70.691" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="353.835" zpos="65.678" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="353.835" zpos="65.678" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="343.174" zpos="43.344" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="343.174" zpos="43.344" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <POI MapID="1188" xpos="391.203" zpos="50.452" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="391.203" zpos="50.452" type="HMP.W4_B1.c2.sc4.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <!-- P3 - Tele Greens -->
+    <POI MapID="1188" xpos="379.384" zpos="50.926" type="HMP.W4_B1.c2.sc4.asc2.yasc1"              iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1188" xpos="381.203" zpos="68.066" type="HMP.W4_B1.c2.sc4.asc2.yasc1"              iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1188" xpos="367.871" zpos="24.918" type="HMP.W4_B1.c2.sc4.asc2.yasc1"              iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1188" xpos="344.688" zpos="59.966" type="HMP.W4_B1.c2.sc4.asc2.yasc1"              iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1188" xpos="388.292" zpos="69.557" type="HMP.W4_B1.c2.sc4.asc2.yasc1"              iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1188" xpos="379.384" zpos="50.926" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="379.384" zpos="50.926" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="367.871" zpos="24.918" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="367.871" zpos="24.918" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="381.203" zpos="68.066" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="381.203" zpos="68.066" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="344.688" zpos="59.966" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="344.688" zpos="59.966" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="388.292" zpos="69.557" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="388.292" zpos="69.557" type="HMP.W4_B1.c2.sc4.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P3 - Fast Greens -->
+    <POI MapID="1188" xpos="381.203" zpos="68.066" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="381.203" zpos="68.066" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="382.397" zpos="51.304" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="382.397" zpos="51.304" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="381.62"  zpos="33.685" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="381.62"  zpos="33.685" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="364.723" zpos="67.044" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="364.723" zpos="67.044" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="348.13"  zpos="51.171" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="348.13"  zpos="51.171" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="349.623" zpos="67.565" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="349.623" zpos="67.565" type="HMP.W4_B1.c2.sc4.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P4 - Slow Greens (Big / Medium / Medium / Small / Small) -->
+    <POI MapID="1188" xpos="351.46"  zpos="77.419" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="4.631591"/>
+    <POI MapID="1188" xpos="351.46"  zpos="77.419" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="4.631591"/>
+    <POI MapID="1188" xpos="379.189" zpos="57.493" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="379.189" zpos="57.493" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="370.39"  zpos="22.503" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="370.39"  zpos="22.503" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="2.1012163"/>
+    <POI MapID="1188" xpos="387.802" zpos="71.052" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="387.802" zpos="71.052" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <POI MapID="1188" xpos="390.52"  zpos="53.084" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png" iconSize="1.432651"/>
+    <POI MapID="1188" xpos="390.52"  zpos="53.084" type="HMP.W4_B1.c2.sc5.asc1" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"       iconSize="1.432651"/>
+    <!-- P4 - Tele Greens -->
+    <POI MapID="1188" xpos="370.317" zpos="58.362" type="HMP.W4_B1.c2.sc5.asc2.yasc1"              iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1188" xpos="386.057" zpos="34.298" type="HMP.W4_B1.c2.sc5.asc2.yasc1"              iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1188" xpos="361.005" zpos="79.228" type="HMP.W4_B1.c2.sc5.asc2.yasc1"              iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1188" xpos="376.994" zpos="47.497" type="HMP.W4_B1.c2.sc5.asc2.yasc1"              iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1188" xpos="345.275" zpos="36.414" type="HMP.W4_B1.c2.sc5.asc2.yasc1"              iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1188" xpos="370.317" zpos="58.362" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="370.317" zpos="58.362" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="386.057" zpos="34.298" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="386.057" zpos="34.298" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="376.994" zpos="47.497" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="376.994" zpos="47.497" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="361.005" zpos="79.228" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="361.005" zpos="79.228" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="345.275" zpos="36.414" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="345.275" zpos="36.414" type="HMP.W4_B1.c2.sc5.asc2.yasc2" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <!-- P4 - Fast Greens -->
+    <POI MapID="1188" xpos="343.89"  zpos="52.751" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="343.89"  zpos="52.751" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="334.589" zpos="50.996" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="334.589" zpos="50.996" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="385.303" zpos="72.632" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="385.303" zpos="72.632" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="363.354" zpos="81.231" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="363.354" zpos="81.231" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
+    <POI MapID="1188" xpos="387.101" zpos="51.111" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.35" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1188" xpos="387.101" zpos="51.111" type="HMP.W4_B1.c2.sc5.asc3" alpha="0.9"  iconFile="Assets/Shapes/Orb5.png"/>
     <!-- ==================== Samarog ==================== -->
     <!-- Boundary -->
     <Trail trailData="Assets/Boundary/W4B3-Bound.trl"  animSpeed="0" alpha="1"                         type="HMP.W4_B3.c1"     texture="Assets/Boundary/RedLine.png"/>
