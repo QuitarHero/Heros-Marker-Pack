@@ -211,42 +211,43 @@ HMP_FractalDailies = {
   
   Sets = {
     T4 = {
-      {96, 92, 86}, {93, 82, 79}, {94,  88, 87}, {99, 91, 84}, {96,  86, 80},
-      {88, 85, 79}, {84, 83, 78}, {90,  87, 81}, {99, 92, 89}, {100, 82, 76},
-      {98, 85, 81}, {96, 93, 88}, {100, 95, 94}, {89, 84, 80}, {97,  91, 90}
+      {96, 91, 86}, {92, 82, 79}, {93,  88, 87}, {99, 90, 84}, {96,  94, 80},
+      {88, 85, 79}, {84, 83, 78}, {89,  87, 81}, {99, 91, 77}, {100, 82, 76},
+      {98, 85, 81}, {96, 92, 88}, {100, 95, 93}, {84, 80, 77}, {97,  90, 89}
     },
     Recs = {
-      {53, 37, 2},  {61, 28, 6},  {65, 32, 10}, {74, 34, 14}, {70, 50, 19},
+      {53, 37, 2},  {61, 28, 6},  {65, 32, 10}, {74, 34, 14}, {70, 50, 1},
       {60, 48, 15}, {66, 35, 24}, {75, 36, 21}, {67, 40, 7},  {54, 31, 8},
       {59, 39, 11}, {64, 27, 18}, {58, 30, 4},  {62, 42, 16}, {68, 47, 5}
     },
     CM = { 8, 13, 17, 12, 11, 7 }
   },
   Fractals = { --Fractal strings must directly correlate to file name (without -title.png).
-    {"Aetherblade",           {93,  65, 45, 14},     { {"Scarlet_Armies", "Force", "Impact"},          {"Inquest", "Force", "Mad_Scientists"} } },
-    {"Aquatic_Ruins",         {76,  61, 26, 7},      { {"Scarlet_Armies", "Force", "Serpent_Slaying"}, {"Scarlet_Armies", "Force", "Serpent_Slaying"} } },
-    {"Captain_Mai_Trin",      {91,  71, 42, 18},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
-    {"Chaos",                 {88,  63, 30, 13},     { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Impact"} } },
-    {"Cliffside",             {94,  68, 46, 6},      { {"Outlaw", "Force", "Justice"},                 {"Outlaw", "Force", "Justice"} } },
-    {"Deepstone",             {84,  67, 33, 11},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
-    {"Kinfall",               {95,  70, 38, 17},     { {"Ice_Brood", "Force", "Icebrood_Slaying"},     {"Ice_Brood", "Force", "Icebrood_Slaying"} } },
-    {"Lonely_Tower",          {100, 75, 50, 25},     { {"Sharp_Stone", "Force", "Impact"},             {"Demon", "Force", "Demon_Slaying"} } },
-    {"Molten_Boss",           {90,  69, 40, 10},     { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Impact"} } },
-    {"Molten_Furnace",        {83,  58, 39, 9},      { {"Scarlet_Armies", "Force", "Impact"},          {"Dredge", "Force", "Sorrow"} } },
-    {"Nightmare",             {96,  72, 47, 22},     { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Serpent_Slaying"} } },
-    {"Shattered_Observatory", {97,  73, 48, 23},     { {"Sharp_Stone", "Force", "Impact"},             {"Scarlet_Armies", "Force", "Impact"} } },
-    {"Silent_Surf",           {99,  66, 43, 21},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
-    {"Sirens_Reef",           {78,  54, 37, 12},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
-    {"Snowblind",             {86,  51, 27, 3},      { {"Sons_of_Svanir", "Night", "Wrath"},           {"Sons_of_Svanir", "Night", "Wrath"} } },
-    {"Solid_Ocean",           {80,  60, 44, 35, 20}, { {"Elemental", "Elemental_Slaying", "Night"},    {"Elemental", "Elemental_Slaying", "Night"} } },
-    {"Sunqua_Peak",           {98,  74, 49, 24},     { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Night"} } },
-    {"Swampland",             {89,  77, 56, 32, 5},  { {"Sharp_Stone", "Force", "Night"},              {"Sharp_Stone", "Force", "Night"} } },
-    {"Thaumanova_Reactor",    {82,  64, 55, 34, 15}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
-    {"Twilight_Oasis",        {87,  59, 41, 16},     { {"Sharp_Stone", "Force", "Night"},              {"Sharp_Stone", "Force", "Night"} } },
-    {"Uncategorized",         {79,  62, 36, 2},      { {"Sharp_Stone", "Force", "Impact"},             {"Inquest", "Force", "Mad_Scientists"} } },
-    {"Underground_Facility",  {81,  53, 29, 8},      { {"Dredge", "Sorrow", "Night"},                  {"Elemental", "Elemental_Slaying", "Night"} } },
-    {"Urban_Battleground",    {85,  57, 31, 4},      { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
-    {"Volcanic",              {92,  52, 28, 19, 1},  { {"Grawl", "Grawl_Slaying", "Night"},            {"Elemental", "Elemental_Slaying", "Night"} } },
+    {"Aetherblade",           {92,  65, 45, 14}, { {"Scarlet_Armies", "Force", "Impact"},          {"Inquest", "Force", "Mad_Scientists"} } },
+    {"Aquatic_Ruins",         {76,  61, 26, 7},  { {"Scarlet_Armies", "Force", "Serpent_Slaying"}, {"Scarlet_Armies", "Force", "Serpent_Slaying"} } },
+    {"Captain_Mai_Trin",      {90,  71, 42, 18}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Chaos",                 {88,  63, 30, 13}, { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Impact"} } },
+    {"Cliffside",             {93,  68, 46, 6},  { {"Outlaw", "Force", "Justice"},                 {"Outlaw", "Force", "Justice"} } },
+    {"Deepstone",             {84,  67, 33, 11}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Kinfall",               {95,  70, 38, 17}, { {"Ice_Brood", "Force", "Icebrood_Slaying"},     {"Ice_Brood", "Force", "Icebrood_Slaying"} } },
+    {"Lonely_Tower",          {100, 75, 50, 25}, { {"Sharp_Stone", "Force", "Impact"},             {"Demon", "Force", "Demon_Slaying"} } },
+    {"Molten_Boss",           {89,  69, 40, 10}, { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Impact"} } },
+    {"Molten_Furnace",        {83,  58, 39, 9},  { {"Scarlet_Armies", "Force", "Impact"},          {"Dredge", "Force", "Sorrow"} } },
+    {"Nightmare",             {96,  72, 47, 22}, { {"Scarlet_Armies", "Force", "Impact"},          {"Scarlet_Armies", "Force", "Serpent_Slaying"} } },
+    {"Shattered_Observatory", {97,  73, 48, 23}, { {"Sharp_Stone", "Force", "Impact"},             {"Scarlet_Armies", "Force", "Impact"} } },
+    {"Silent_Surf",           {99,  66, 43, 21}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Sirens_Reef",           {78,  54, 37, 12}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Snowblind",             {86,  51, 27, 3},  { {"Sons_of_Svanir", "Night", "Wrath"},           {"Sons_of_Svanir", "Night", "Wrath"} } },
+    {"Solid_Ocean",           {80,  60, 35, 20}, { {"Elemental", "Elemental_Slaying", "Night"},    {"Elemental", "Elemental_Slaying", "Night"} } },
+    {"Solitary_Throne",       {94,  64, 44, 19}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Sunqua_Peak",           {98,  74, 49, 24}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Night"} } },
+    {"Swampland",             {77,  56, 32, 5},  { {"Sharp_Stone", "Force", "Night"},              {"Sharp_Stone", "Force", "Night"} } },
+    {"Thaumanova_Reactor",    {82,  55, 34, 15}, { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Twilight_Oasis",        {87,  59, 41, 16}, { {"Sharp_Stone", "Force", "Night"},              {"Sharp_Stone", "Force", "Night"} } },
+    {"Uncategorized",         {79,  62, 36, 2},  { {"Sharp_Stone", "Force", "Impact"},             {"Inquest", "Force", "Mad_Scientists"} } },
+    {"Underground_Facility",  {81,  53, 29, 8},  { {"Dredge", "Sorrow", "Night"},                  {"Elemental", "Elemental_Slaying", "Night"} } },
+    {"Urban_Battleground",    {85,  57, 31, 4},  { {"Sharp_Stone", "Force", "Impact"},             {"Sharp_Stone", "Force", "Impact"} } },
+    {"Volcanic",              {91,  52, 28, 1},  { {"Grawl", "Grawl_Slaying", "Night"},            {"Elemental", "Elemental_Slaying", "Night"} } },
   },
   Names = {"Adrenaline_Rush", "Afflicted",  "Boon_Overload",     "Flux_Bomb",       "Fractal_Vindicators", "Frailty",
            "Hamstrung",       "Last_Laugh", "Mists_Convergence", "No_Pain_No_Gain", "Outflanked",          "Social_Awkwardness",
@@ -310,6 +311,7 @@ end
 --dayOffset must be 0 (today), 1 (tomorrow), or 2 (following day)
 local function Set_T4_Dailies(Set, dayOffset)
   local month, day = ( os.date("!%m", os.time() + (86400 * dayOffset) ) ), tonumber(os.date("!%d", os.time() + (86400 * dayOffset)))
+  
   Set = FractalSet(Set, dayOffset)
   
   for a,T4 in ipairs(Fotm.Sets.T4[Set]) do
