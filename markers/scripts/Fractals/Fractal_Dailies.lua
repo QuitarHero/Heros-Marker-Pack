@@ -220,7 +220,7 @@ HMP_FractalDailies = {
       {60, 48, 15}, {66, 35, 24}, {75, 36, 21}, {67, 40, 7},  {54, 31, 8},
       {59, 39, 11}, {64, 27, 18}, {58, 30, 4},  {62, 42, 16}, {68, 47, 5}
     },
-    CM = { 8, 13, 17, 12, 11, 7 }
+    CM = { 8, 13, 18, 12, 11, 7, 17 }
   },
   Fractals = { --Fractal strings must directly correlate to file name (without -title.png).
     {"Aetherblade",           {92,  65, 45, 14}, { {"Scarlet_Armies", "Force", "Impact"},          {"Inquest", "Force", "Mad_Scientists"} } },
@@ -356,7 +356,7 @@ end
 
 --dayOffset must be 0 (today), 1 (tomorrow), or 2 (following day)
 local function Set_CM_Dailies(dayOffset)
-  for i = 1, 6 do
+  for i = 1, 7 do
     local curDay = os.time() + (86400 * dayOffset)
     --Load the required lua "database" file
     Pack:Require("scripts/Fractals/Instabs/" .. (101-i) .. "/" .. ( os.date("!%m", curDay) ) .. ".lua")
@@ -368,13 +368,14 @@ local function Set_CM_Dailies(dayOffset)
       ComboSet[1].CM_Instabs.Names[page][marker]:SetTexture(Fotm.Dir[2] .. Fotm.Names[instab] .. ".png")
       ComboSet[1].CM_Instabs.Icons[page][marker]:SetTexture(Fotm.Dir[2] .. Fotm.Names[instab] .. "-Icon.png")
     end
-    
-    --Sets CM Slaying
-    for j = 1, 18, 3 do
-      for k = 0, 2 do
-        local marker, cm, page, info = j+k, math.ceil(j/3), ((i+1) % 2) + 1, k+1
-        ComboSet[1].CM_Slaying.Names[i][marker]:SetTexture(Fotm.Dir[3] .. Fotm.Fractals[Fotm.Sets.CM[cm]][3][page][info] .. "-Title.png")
-        ComboSet[1].CM_Slaying.Icons[i][marker]:SetTexture(Fotm.Dir[3] .. Fotm.Fractals[Fotm.Sets.CM[cm]][3][page][info] .. "-Icon.png")
+    --Sets CM Slaying (FIX THE 'i < 7' HACK FUTURE ME THANKS)
+    if(i < 7 ) then
+      for j = 1, 21, 3 do
+        for k = 0, 2 do
+          local marker, cm, page, info = j+k, math.ceil(j/3), ((i+1) % 2) + 1, k+1
+          ComboSet[1].CM_Slaying.Names[i][marker]:SetTexture(Fotm.Dir[3] .. Fotm.Fractals[Fotm.Sets.CM[cm]][3][page][info] .. "-Title.png")
+          ComboSet[1].CM_Slaying.Icons[i][marker]:SetTexture(Fotm.Dir[3] .. Fotm.Fractals[Fotm.Sets.CM[cm]][3][page][info] .. "-Icon.png")
+        end
       end
     end
   end
