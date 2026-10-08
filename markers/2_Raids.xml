@@ -1028,7 +1028,8 @@
         <MarkerCategory name="sc1" DisplayName="Normal Mode"                                             fadeFar="700"  fadeNear="650"                                                                                                     tip-description="This radius allows the group to still have full access to Max Melee."/>
         <MarkerCategory name="sc2" DisplayName="CM / LCM Modes"         defaultToggle="0">
           <MarkerCategory name="asc1" DisplayName="Safe Placement Zone"                                  fadeFar="2000" fadeNear="1750"/>
-          <MarkerCategory name="asc2" DisplayName="Sulfuric Showcase"   defaultToggle="0" color="d58314" fadeFar="3000" fadeNear="2750" heightOffset="-0.05" iconFile="Assets/Shapes/Orb10.png"    iconSize="15.2399917704" rotate-x="180" tip-description="• This shows roughly the worst-case scenario for dealing with Toxic Geysers for a better visualization.&#xA;• If lua scripts are enabled, disappears on combat start." script-filter="combatFade"/>
+          <MarkerCategory name="asc2" DisplayName="Worst-Case Player Sulfuric Showcase"   defaultToggle="0" color="d58314" fadeFar="3000" fadeNear="2750" heightOffset="-0.05" iconFile="Assets/Shapes/Orb10.png"    iconSize="15.2399917704" rotate-x="180" tip-description="• This shows roughly the worst-case scenario for dealing with Toxic Geysers for a better visualization.&#xA;• If lua scripts are enabled, disappears on combat start." script-filter="combatFade"/>
+          <MarkerCategory name="asc3" DisplayName="Automatic Spawn Sulfuric Showcase"     defaultToggle="0" color="d58314" fadeFar="3000" fadeNear="2750" heightOffset="-0.05" iconFile="Assets/Shapes/Orb10.png"    iconSize="15.2399917704" rotate-x="180" tip-description="• This shows all automatically spawning sulfurics that interfere with Toxic Geysers for a better visualization.&#xA;• If lua scripts are enabled, disappears on combat start."        script-filter="combatFade"/>
         </MarkerCategory>
       </MarkerCategory>
     </MarkerCategory>
@@ -1247,6 +1248,46 @@
     <POI MapID="1564" xpos="201.6941" ypos="269.9403" zpos="232.5707" GUID="/16Cm5cZvUS8rG/kKFAFZw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
     <POI MapID="1564" xpos="201.6941" ypos="269.9403" zpos="232.5707" GUID="/16Cm5cZvUS8rG/kKFAFZw==" type="HMP.W8_B3.c4.sc2.asc2" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
     <POI MapID="1564" xpos="201.6941" ypos="269.9403" zpos="232.5707" GUID="/16Cm5cZvUS8rG/kKFAFZw==" type="HMP.W8_B3.c4.sc2.asc2"/>
+    <!-- Automatic Spawn Sulfuric Geyser Showcase -->
+    <POI MapID="1564" xpos="100.929" ypos="270.073" zpos="225.626" GUID="4teEgSFApUSFBAVUgsY2nw==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="100.929" ypos="270.073" zpos="225.626" GUID="4teEgSFApUSFBAVUgsY2nw==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="100.929" ypos="270.073" zpos="225.626" GUID="4teEgSFApUSFBAVUgsY2nw==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="111.696" ypos="270.073" zpos="204.072" GUID="KCTKFSatdUigytpaCTGi2w==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="111.696" ypos="270.073" zpos="204.072" GUID="KCTKFSatdUigytpaCTGi2w==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="111.696" ypos="270.073" zpos="204.072" GUID="KCTKFSatdUigytpaCTGi2w==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="202.895" ypos="270.073" zpos="220.337" GUID="bF1t3+zihkKULy1hWGueYQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="202.895" ypos="270.073" zpos="220.337" GUID="bF1t3+zihkKULy1hWGueYQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="202.895" ypos="270.073" zpos="220.337" GUID="bF1t3+zihkKULy1hWGueYQ==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="186.945" ypos="270.073" zpos="198.074" GUID="4L7rG7dsXkGlPv1/W7Wi5A==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="186.945" ypos="270.073" zpos="198.074" GUID="4L7rG7dsXkGlPv1/W7Wi5A==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="186.945" ypos="270.073" zpos="198.074" GUID="4L7rG7dsXkGlPv1/W7Wi5A==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="204.697" ypos="270.073" zpos="250.816" GUID="tyHxngYe+Uu2EUGRXH3FHg==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="204.697" ypos="270.073" zpos="250.816" GUID="tyHxngYe+Uu2EUGRXH3FHg==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="204.697" ypos="270.073" zpos="250.816" GUID="tyHxngYe+Uu2EUGRXH3FHg==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="162.13"  ypos="270.073" zpos="186.429" GUID="X3/cTjnYIEO/sZF3NrlNjQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="162.13"  ypos="270.073" zpos="186.429" GUID="X3/cTjnYIEO/sZF3NrlNjQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="162.13"  ypos="270.073" zpos="186.429" GUID="X3/cTjnYIEO/sZF3NrlNjQ==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="139.398" ypos="270.073" zpos="287.518" GUID="nhne6LEM8ke5yZ1I008Eow==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="139.398" ypos="270.073" zpos="287.518" GUID="nhne6LEM8ke5yZ1I008Eow==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="139.398" ypos="270.073" zpos="287.518" GUID="nhne6LEM8ke5yZ1I008Eow==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="166.553" ypos="270.073" zpos="294.122" GUID="wNOBb1JNmUOCfq86xfLcPQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="166.553" ypos="270.073" zpos="294.122" GUID="wNOBb1JNmUOCfq86xfLcPQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="166.553" ypos="270.073" zpos="294.122" GUID="wNOBb1JNmUOCfq86xfLcPQ==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="188.728" ypos="270.073" zpos="293.67"  GUID="wNEZFH9MvU26eLNukNFj1Q==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="188.728" ypos="270.073" zpos="293.67"  GUID="wNEZFH9MvU26eLNukNFj1Q==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="188.728" ypos="270.073" zpos="293.67"  GUID="wNEZFH9MvU26eLNukNFj1Q==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="130.848" ypos="270.073" zpos="190.084" GUID="p+qwRrGMuUWfqd1mRSacGQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="130.848" ypos="270.073" zpos="190.084" GUID="p+qwRrGMuUWfqd1mRSacGQ==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="130.848" ypos="270.073" zpos="190.084" GUID="p+qwRrGMuUWfqd1mRSacGQ==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="202.468" ypos="270.073" zpos="274.711" GUID="NO/q2dhyJE6oYxUyCloKNA==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="202.468" ypos="270.073" zpos="274.711" GUID="NO/q2dhyJE6oYxUyCloKNA==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="202.468" ypos="270.073" zpos="274.711" GUID="NO/q2dhyJE6oYxUyCloKNA==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="111.749" ypos="270.073" zpos="275.953" GUID="jRfCsYFKTUiEB9TUpbaRsw==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="111.749" ypos="270.073" zpos="275.953" GUID="jRfCsYFKTUiEB9TUpbaRsw==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="111.749" ypos="270.073" zpos="275.953" GUID="jRfCsYFKTUiEB9TUpbaRsw==" type="HMP.W8_B3.c4.sc2.asc3"/>
+    <POI MapID="1564" xpos="96.845"  ypos="270.073" zpos="251.183" GUID="OpNb0laHAE6i49LLlAXR4g==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.5" iconFile="Assets/General/dot.png" iconSize="0.75"/>
+    <POI MapID="1564" xpos="96.845"  ypos="270.073" zpos="251.183" GUID="OpNb0laHAE6i49LLlAXR4g==" type="HMP.W8_B3.c4.sc2.asc3" alpha="0.2" iconFile="Assets/Shapes/CircleFill.png"/>
+    <POI MapID="1564" xpos="96.845"  ypos="270.073" zpos="251.183" GUID="OpNb0laHAE6i49LLlAXR4g==" type="HMP.W8_B3.c4.sc2.asc3"/>
     
   </POIs>
 </OverlayData>
