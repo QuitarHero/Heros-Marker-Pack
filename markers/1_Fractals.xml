@@ -436,6 +436,29 @@
   </POIs>
   
   
+<!-- ======================================== SOLITARY THRONE ================================================================================================================================================================== -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="F_ST_c1" DisplayName="Arena Boundary"     cull="CounterClockwise" fadeFar="1500" fadeNear="1250"                                    minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="F_ST_sy" DisplayName="Slaying"                                                                                                      minimapVisibility="0" mapVisibility="0" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start">
+      <MarkerCategory name="s1"    DisplayName="Platform 1"                                 fadeFar="2000" fadeNear="1750" iconSize="2.5"  rotate="90,0,180"/>
+      <MarkerCategory name="s2"    DisplayName="Platforms 2-4"                              fadeFar="2000" fadeNear="1750" iconSize="2.25" rotate="90,0,13.5"/>
+      <MarkerCategory name="s3"    DisplayName="The Eternal Tyrant" alpha="0.9"             fadeFar="2000" fadeNear="1750" iconSize="2.5"  rotate="90,0,170"/>
+    </MarkerCategory>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- ========== Boundary ========== -->
+    <Trail trailData="Assets/Boundary/FracST1-Bound.trl" animSpeed="0" alpha="1" type="HMP.F_ST_c1" texture="Assets/Boundary/RedLine.png"/>
+    <!-- ========== Slaying ========== -->
+    <POI MapID="1636" xpos="32.358"  ypos="-56.621" zpos="-130.336" GUID="k3CERLo/00G2lz+OZoHD7g==" type="HMP.F_ST_sy.s1" iconFile="Assets/Fracs/Slaying/fBG.png" cull="CounterClockwise" heightOffset="10.5"/>
+    <POI MapID="1636" xpos="32.358"  ypos="-47.621" zpos="-130.336" GUID="qdEcg4XIgkOnTikdIR5bYA==" type="HMP.F_ST_sy.s1" iconFile="Assets/Fracs/Slaying/ST1.png" cull="CounterClockwise"/>
+    <POI MapID="1636" xpos="-33.687" ypos="-18.483" zpos="91.449"   GUID="n9diTHoR/UaXx0b2FdnXTA==" type="HMP.F_ST_sy.s2" iconFile="Assets/Fracs/Slaying/fBG.png"                         heightOffset="10.5"/>
+    <POI MapID="1636" xpos="-33.687" ypos="-9.483"  zpos="91.449"   GUID="8CsbHrkAN0WOclRQ3EwKzA==" type="HMP.F_ST_sy.s2" iconFile="Assets/Fracs/Slaying/ST2.png" cull="CounterClockwise"/>
+    <POI MapID="1636" xpos="32.886"  ypos="50.411"  zpos="-52.438"  GUID="meF8IVFz40WuvMx9gsirIQ==" type="HMP.F_ST_sy.s3" iconFile="Assets/Fracs/Slaying/fBG.png" cull="CounterClockwise" heightOffset="10.5"/>
+    <POI MapID="1636" xpos="32.886"  ypos="50.411"  zpos="-52.438"  GUID="7LKI8jl1HE651yMEgtzMZg==" type="HMP.F_ST_sy.s3" iconFile="Assets/Fracs/Slaying/ST3.png" cull="CounterClockwise" heightOffset="10.5"/>
+  </POIs>
+  
+  
 <!-- ======================================== SUNQUA PEAK ================================================================================================================================================================== -->
   <MarkerCategory     name="HMP"     DisplayName="Hero's Pack">
     <MarkerCategory   name="F_SP_c1" DisplayName="Platform Jumps"       cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0"/>
