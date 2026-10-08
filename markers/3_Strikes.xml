@@ -1376,4 +1376,42 @@
     <POI MapID="1609" xpos="-565.106" ypos="43.223" zpos="334.157" GUID="WJYjoP/ZY0G1RvOcIHyy3Q==" type="HMP.StrB14_c4"/>
     
   </POIs>
+<!-- ========================================= NEXUS OF ETERNITY (VLOXX) ==================================================================================================================================================================== -->
+  <MarkerCategory name="HMP" DisplayName="Hero's Pack">
+    <MarkerCategory name="StrB15_c1" DisplayName="Arena Boundary"                      fadeFar="750" fadeNear="600"                        minimapVisibility="0" mapVisibility="0" script-filter="combatFade"  tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
+    <MarkerCategory name="StrB15_c2" DisplayName="Aspect Spawn Positions" alpha="0.75" heightOffset="-0.05" iconSize="0.75" rotate-x="180" minimapVisibility="0" mapVisibility="0">
+      <MarkerCategory name="sc1" DisplayName="Aspect of the Staff"/>
+      <MarkerCategory name="sc2" DisplayName="Aspect of the Spear"/>
+    </MarkerCategory>
+    <MarkerCategory name="StrB15_c3" DisplayName="Shielded Phase Add Positions" alpha="0.6" heightOffset="-0.05" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0" tip-description="These are all 8 possible spawn locations.&#xA;• 70%/40%/10% vary by a couple inches. What's displayed are 70%'s."/>
+  </MarkerCategory>
+  
+  <POIs>
+    <!-- Arena Boundary -->
+    <Trail trailData="Assets/Boundary/StrB15-Bound.trl" texture="Assets/Boundary/RedLine.png" alpha="0.75" animSpeed="0" type="HMP.StrB15_c1"/>
+    
+    <!-- Weapon Aspect Spawn Positions -->
+    <POI MapID="1638" xpos="309.979" ypos="314.837" zpos="406.379" GUID="VsOiN22kKU2H6zJGDL2l5Q==" type="HMP.StrB15_c2.sc1" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="309.979" ypos="314.837" zpos="406.379" GUID="v/X913CIhEq4skCNkyhvJw==" type="HMP.StrB15_c2.sc1" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="310.355" ypos="314.837" zpos="371.934" GUID="cGGvSYw4K0OAJZpqt/HupA==" type="HMP.StrB15_c2.sc2" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="310.355" ypos="314.837" zpos="371.934" GUID="rOae0Ibh8EShxy2VBA1c5w==" type="HMP.StrB15_c2.sc2" iconFile="Assets/General/dot-border.png"/>
+    
+    <!-- Shielded Phase Add Spawn Positions -->
+    <POI MapID="1638" xpos="292.587" ypos="314.837" zpos="389.166" GUID="MmCXQLS4/k+4G0exQjU7nA==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="292.587" ypos="314.837" zpos="389.166" GUID="ERQ0a9ytNEubGoarBPKr8A==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="297.637" ypos="314.837" zpos="400.88"  GUID="zVI2kfD3akqPHDWZNpzXaQ==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="297.637" ypos="314.837" zpos="400.88"  GUID="6QUZUQpo4EuGGs/G/Sk3bA==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="297.975" ypos="314.837" zpos="377.901" GUID="ZW3fnyMw90qktR1P8jJtSA==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="297.975" ypos="314.837" zpos="377.901" GUID="7BZT7KcQSUiMe7qXufk19w==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="309.181" ypos="314.837" zpos="372.465" GUID="xkOWK9D6P02r1L9eNemFaQ==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="309.181" ypos="314.837" zpos="372.465" GUID="j0fKva3mRUScAMXjndzJlw==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="309.364" ypos="314.837" zpos="405.884" GUID="0yz78gYNFEeaj/doEKZZYQ==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="309.364" ypos="314.837" zpos="405.884" GUID="E20Bo+HF9USWhDB9GQNSdQ==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="320.995" ypos="314.837" zpos="377.373" GUID="mM63u3oiuEK7aCek+I0vhQ==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="320.995" ypos="314.837" zpos="377.373" GUID="llX+ZPlaWEm1YfiCYIyJwQ==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="321.183" ypos="314.837" zpos="401.165" GUID="1l6DfRA8fUanBfmckWdjNg==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="321.183" ypos="314.837" zpos="401.165" GUID="YBuyup5z10iTzHonjxK3LA==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1638" xpos="325.877" ypos="314.836" zpos="388.96"  GUID="4rrHYcBeGU2CB8pHpfTdRA==" type="HMP.StrB15_c3" iconFile="Assets/General/dot.png"/>
+    <POI MapID="1638" xpos="325.877" ypos="314.836" zpos="388.96"  GUID="Jmjj+yfVYk20+fTCDUxg8g==" type="HMP.StrB15_c3" iconFile="Assets/General/dot-border.png"/>  
+  </POIs>
 </OverlayData>
