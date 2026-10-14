@@ -974,7 +974,11 @@
 <!-- ======================================== MOUNT BALRIOR ========================================================================================================================================================== -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="W8_B1" DisplayName="Decima the Stormsinger" minimapVisibility="0" mapVisibility="0">
-      <MarkerCategory name="c1" DisplayName="Max Melee"/>
+      <MarkerCategory name="c1" DisplayName="Max Ranges"   texture="Assets/Boundary/RedLine.png">
+        <MarkerCategory name="sc1" DisplayName="Max Melee"/>
+        <MarkerCategory name="sc2" DisplayName="Mines"     defaultToggle="0" trailScale="1.25"/>
+        <MarkerCategory name="sc3" DisplayName="Traps"     defaultToggle="0" trailScale="1.25"                            tip-description="This also includes Guardian Pistol 3"/>
+      </MarkerCategory>
       <MarkerCategory name="c2" DisplayName="Boundary"                                             trailScale="1.5" script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start"/>
     </MarkerCategory>
     <MarkerCategory name="W8_B2" DisplayName="Greer the Blightbringer" minimapVisibility="0" mapVisibility="0">
@@ -1036,8 +1040,10 @@
   </MarkerCategory>
   <POIs>
     <!-- ============================== Decima, the Stormbringer ============================== -->
-    <!-- Max Melee -->
-    <Trail trailData="Assets/Raids/w8b1_maxMelee.trl" animSpeed="0" alpha="1" type="HMP.W8_B1.c1" texture="Assets/Boundary/RedLine.png"  fadeFar="400" fadeNear="350"/>
+    <!-- Max Ranges (Melee / Mines / Traps / Marks) -->
+    <Trail trailData="Assets/Raids/w8b1_maxMelee.trl" animSpeed="0" alpha="1" type="HMP.W8_B1.c1.sc1" fadeFar="400" fadeNear="350"/>
+    <Trail trailData="Assets/Raids/w8b1_mines.trl"    animSpeed="0" alpha="1" type="HMP.W8_B1.c1.sc2" fadeFar="425" fadeNear="375"/>
+    <Trail trailData="Assets/Raids/w8b1_traps.trl"    animSpeed="0" alpha="1" type="HMP.W8_B1.c1.sc3" fadeFar="425" fadeNear="375"/>
     <!-- Boundary -->
     <Trail trailData="Assets/Boundary/W8B1-Bound.trl" animSpeed="0" alpha="1" type="HMP.W8_B1.c2" texture="Assets/Boundary/RedLine.png"  fadeFar="750" fadeNear="650"/>
     
