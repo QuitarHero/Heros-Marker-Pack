@@ -444,7 +444,10 @@
 <!-- ======================================== BASTION OF THE PENITENT ====================================================================================================================================================== -->
   <MarkerCategory       name="HMP"   DisplayName="Hero's Pack">
     <MarkerCategory     name="W4_B1" DisplayName="Cairn"                                            fadeFar="4000" fadeNear="3500"                                                                         mapVisibility="0" minimapVisibility="0">
-      <MarkerCategory   name="c1"    DisplayName="Max Melee"                                        fadeFar="225"  fadeNear="175"                                        trailScale="1.5"/>
+      <MarkerCategory   name="c1"    DisplayName="Max Ranges">
+        <MarkerCategory name="sc1"   DisplayName="Max Melee"                                        fadeFar="225"  fadeNear="175"                                        trailScale="1.5"/>
+        <MarkerCategory name="sc2"   DisplayName="Max Agony Range"                defaultToggle="0" fadeFar="225"  fadeNear="175"                                        trailScale="1"                    tip-description="While within this radius, when Agony would be applied to a player, you are ineligible to get it."/>
+      </MarkerCategory>
       <MarkerCategory   name="c2"    DisplayName="Green Locations" color="61cc2b" defaultToggle="0"                                heightOffset="-0.05" ypos="33.72"                                       script-filter="combatFade">
         <MarkerCategory name="sc0"   DisplayName="Information"     IsSeparator="1"                                                                                                                         tip-description="• There are issues with pre-stacking on Slow Greens; strive to avoid doing so.&#xA;• If lua scripts are enabled, disappears on Combat Start&#xA;• Slow Greens: The set of 5 greens; 1 Big, 2 Medium, 2 Small.&#xA;• Tele Greens: The set of 5 greens that spawn as Cairn teleports around.&#xA;• Fast Greens: The set of 5-8 greens that spawn after Cairn's Orbital Sweep."/>
         <MarkerCategory name="sc1" DisplayName="Starting Green"           defaultToggle="0" iconSize="3.172514" rotate-x="180"/>
@@ -497,8 +500,9 @@
   </MarkerCategory>
   <POIs>
     <!-- ==================== Cairn ==================== -->
-    <!-- Max Melee -->
-    <Trail trailData="Assets/Raids/cairn_maxMelee.trl" animSpeed="0" alpha="0.75"                      type="HMP.W4_B1.c1"     texture="Assets/Boundary/RedLine.png"/>
+    <!-- Max Ranges -->
+    <Trail trailData="Assets/Raids/cairn_maxMelee.trl"     animSpeed="0" alpha="0.75"                      type="HMP.W4_B1.c1.sc1" texture="Assets/Boundary/RedLine.png"/>
+    <Trail trailData="Assets/Raids/w4b1_maxAgonyRange.trl" animSpeed="0" alpha="0.85"                      type="HMP.W4_B1.c1.sc2" texture="Assets/Boundary/RedLine.png"/>
     <!-- Green Positions -->
     <!-- Marker for Separator -->
     <POI MapID="1188" xpos="0" ypos="0" zpos="0" GUID="2eP0rDU4+0Sj0LxHVWZTIg==" type="HMP.W4_B1.c2.sc0" iconFile="Assets/General/empty.png" InGameVisibility="0"/>
