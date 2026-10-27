@@ -1021,9 +1021,54 @@
     </MarkerCategory>
     <MarkerCategory name="W8_B3" DisplayName="Ura the Steamshrieker">
       <MarkerCategory name="c1" DisplayName="CM Toxic Geyser Spawns" defaultToggle="0" fadeFar="7000" fadeNear="6750" heightOffset="0.75"                                     iconSize="1.25">
-        <MarkerCategory name="sc1" DisplayName="Phase 1"/>
-        <MarkerCategory name="sc2" DisplayName="Phase 2"             defaultToggle="0"/>
-        <MarkerCategory name="sc3" DisplayName="Phase 3"             defaultToggle="0"/>
+        <MarkerCategory name="sc1" DisplayName="Phase 1">
+          <MarkerCategory name="num1"  DisplayName="1"/>
+          <MarkerCategory name="num2"  DisplayName="2"/>
+          <MarkerCategory name="num3"  DisplayName="3"/>
+          <MarkerCategory name="num4"  DisplayName="4"/>
+          <MarkerCategory name="num5"  DisplayName="5"/>
+          <MarkerCategory name="num6"  DisplayName="6"/>
+          <MarkerCategory name="num7"  DisplayName="7"/>
+          <MarkerCategory name="num8"  DisplayName="8"/>
+          <MarkerCategory name="num9"  DisplayName="9"/>
+          <MarkerCategory name="num10" DisplayName="10"/>
+          <MarkerCategory name="num11" DisplayName="11"/>
+          <MarkerCategory name="num12" DisplayName="12"/>
+          <MarkerCategory name="num13" DisplayName="13"/>
+          <MarkerCategory name="num14" DisplayName="14"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc2" DisplayName="Phase 2"             defaultToggle="0">
+          <MarkerCategory name="num1"  DisplayName="1"/>
+          <MarkerCategory name="num2"  DisplayName="2"/>
+          <MarkerCategory name="num3"  DisplayName="3"/>
+          <MarkerCategory name="num4"  DisplayName="4"/>
+          <MarkerCategory name="num5"  DisplayName="5"/>
+          <MarkerCategory name="num6"  DisplayName="6"/>
+          <MarkerCategory name="num7"  DisplayName="7"/>
+          <MarkerCategory name="num8"  DisplayName="8"/>
+          <MarkerCategory name="num9"  DisplayName="9"/>
+          <MarkerCategory name="num10" DisplayName="10"/>
+          <MarkerCategory name="num11" DisplayName="11"/>
+          <MarkerCategory name="num12" DisplayName="12"/>
+          <MarkerCategory name="num13" DisplayName="13"/>
+          <MarkerCategory name="num14" DisplayName="14"/>
+        </MarkerCategory>
+        <MarkerCategory name="sc3" DisplayName="Phase 3"             defaultToggle="0">
+          <MarkerCategory name="num1"  DisplayName="1"/>
+          <MarkerCategory name="num2"  DisplayName="2"/>
+          <MarkerCategory name="num3"  DisplayName="3"/>
+          <MarkerCategory name="num4"  DisplayName="4"/>
+          <MarkerCategory name="num5"  DisplayName="5"/>
+          <MarkerCategory name="num6"  DisplayName="6"/>
+          <MarkerCategory name="num7"  DisplayName="7"/>
+          <MarkerCategory name="num8"  DisplayName="8"/>
+          <MarkerCategory name="num9"  DisplayName="9"/>
+          <MarkerCategory name="num10" DisplayName="10"/>
+          <MarkerCategory name="num11" DisplayName="11"/>
+          <MarkerCategory name="num12" DisplayName="12"/>
+          <MarkerCategory name="num13" DisplayName="13"/>
+          <MarkerCategory name="num14" DisplayName="14"/>
+        </MarkerCategory>
         <MarkerCategory name="sc4" DisplayName="Visual Aide"                                                                                                                                                                                                 tip-description="Adds lines between the numbers, showcasing their 'Line Formations.'&#xA;• If lua scripts are enabled, disappears on combat start." script-filter="combatFade"/>
         <MarkerCategory name="sc5" DisplayName="SAK Zone"            alpha="1"         fadeFar="4000" fadeNear="3750" heightOffset="-0.05" iconFile="Assets/Shapes/Orb10.png" iconSize="8.1279956109" rotate-x="180" minimapVisibility="0" mapVisibility="0" tip-description="Displays the radius where using your SAK/Shard will dispel the geyser's protection.&#xA;• If lua scripts are enabled, disappears on combat start." script-filter="combatFade"/>
       </MarkerCategory>
@@ -1132,50 +1177,50 @@
     <!-- ========================= Ura, the Steamshrieker ========================= -->
     <!-- Challenge Mode | Toxic Geyser Spawn Positions -->
     <!-- Phase 1 -->
-    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="on7lPQGWxEyQBNrWgHKazg==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/1.png"/>
-    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="Kz6Vj8ngOEWDmuX+DzuLgA==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/2.png"/>
-    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="9IdfFb62lUScvXjaio8J4A==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/3.png"/>
-    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="uUZIRVHl9Uuzmmdr6B9tIQ==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/4.png"/>
-    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="PF4APWBMi0qN6W2dUWahZg==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/5.png"/>
-    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="DwpUQzfAfU6EqtaeI+vdUQ==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/6.png"/>
-    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="ZKAacWLKb0usGewnEAUV/A==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/7.png"/>
-    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="23Z/C0F1D0SFVu75l35b5Q==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/8.png"/>
-    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="rXx+mNb/l0W2gbEq7RFfBA==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/9.png"/>
-    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="7J8Gfm+lEEyprHJNJudDTg==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/10.png"/>
-    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="1wIffqi3PUe9UYI6AmVfCw==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/11.png"/>
-    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="n8KiwIMOl0aWriaHIUMdEg==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/12.png"/>
-    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="Ba6djDvPZkS+yTUpeGMmGw==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/13.png"/>
-    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="ccmtaRWxrkSV2p+mG87c1w==" type="HMP.W8_B3.c1.sc1" iconFile="Assets/Numbers/14.png"/>
+    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="on7lPQGWxEyQBNrWgHKazg==" type="HMP.W8_B3.c1.sc1.num1"  iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="Kz6Vj8ngOEWDmuX+DzuLgA==" type="HMP.W8_B3.c1.sc1.num2"  iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="9IdfFb62lUScvXjaio8J4A==" type="HMP.W8_B3.c1.sc1.num3"  iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="uUZIRVHl9Uuzmmdr6B9tIQ==" type="HMP.W8_B3.c1.sc1.num4"  iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="PF4APWBMi0qN6W2dUWahZg==" type="HMP.W8_B3.c1.sc1.num5"  iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="DwpUQzfAfU6EqtaeI+vdUQ==" type="HMP.W8_B3.c1.sc1.num6"  iconFile="Assets/Numbers/6.png"/>
+    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="ZKAacWLKb0usGewnEAUV/A==" type="HMP.W8_B3.c1.sc1.num7"  iconFile="Assets/Numbers/7.png"/>
+    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="23Z/C0F1D0SFVu75l35b5Q==" type="HMP.W8_B3.c1.sc1.num8"  iconFile="Assets/Numbers/8.png"/>
+    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="rXx+mNb/l0W2gbEq7RFfBA==" type="HMP.W8_B3.c1.sc1.num9"  iconFile="Assets/Numbers/9.png"/>
+    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="7J8Gfm+lEEyprHJNJudDTg==" type="HMP.W8_B3.c1.sc1.num10" iconFile="Assets/Numbers/10.png"/>
+    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="1wIffqi3PUe9UYI6AmVfCw==" type="HMP.W8_B3.c1.sc1.num11" iconFile="Assets/Numbers/11.png"/>
+    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="n8KiwIMOl0aWriaHIUMdEg==" type="HMP.W8_B3.c1.sc1.num12" iconFile="Assets/Numbers/12.png"/>
+    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="Ba6djDvPZkS+yTUpeGMmGw==" type="HMP.W8_B3.c1.sc1.num13" iconFile="Assets/Numbers/13.png"/>
+    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="ccmtaRWxrkSV2p+mG87c1w==" type="HMP.W8_B3.c1.sc1.num14" iconFile="Assets/Numbers/14.png"/>
     <!-- Phase 2 -->
-    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="+K3zSrHmPkmfoUGFxBubew==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/1.png"/>
-    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="EAfrA7IyM0eltcSn9Hxi8w==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/2.png"/>
-    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="QRdOirY8GkGrl/KMyHbRsA==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/3.png"/>
-    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="EJ1u39nDZk6HOtsLczYiCg==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/4.png"/>
-    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="p2m4vjfqBUeebFrnbJ8spA==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/5.png"/>
-    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="ZpAtf9ufnk6vQ+LZoEGZZA==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/6.png"/>
-    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="tGNlUNNoPUOk6lZZt6R4Xw==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/7.png"/>
-    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="QgCqm0Su4kapdkYsjug2jQ==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/8.png"/>
-    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="yPJaQM868kiTToKMcAxNKA==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/9.png"/>
-    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="kgXy5x7/tEKHl933QHbGUg==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/10.png"/>
-    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="eJey6TlVd062eZ2jr6eiaQ==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/11.png"/>
-    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="Tek2kkkKmE+tp+TKCGwmcQ==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/12.png"/>
-    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="h8XiWqqt+kiH+AJZvxSeRg==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/13.png"/>
-    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="LYySj7C+O0yWhtDqaoQJIg==" type="HMP.W8_B3.c1.sc2" iconFile="Assets/Numbers/14.png"/>
+    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="+K3zSrHmPkmfoUGFxBubew==" type="HMP.W8_B3.c1.sc2.num1"  iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="EAfrA7IyM0eltcSn9Hxi8w==" type="HMP.W8_B3.c1.sc2.num2"  iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="QRdOirY8GkGrl/KMyHbRsA==" type="HMP.W8_B3.c1.sc2.num3"  iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="EJ1u39nDZk6HOtsLczYiCg==" type="HMP.W8_B3.c1.sc2.num4"  iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="p2m4vjfqBUeebFrnbJ8spA==" type="HMP.W8_B3.c1.sc2.num5"  iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="ZpAtf9ufnk6vQ+LZoEGZZA==" type="HMP.W8_B3.c1.sc2.num6"  iconFile="Assets/Numbers/6.png"/>
+    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="tGNlUNNoPUOk6lZZt6R4Xw==" type="HMP.W8_B3.c1.sc2.num7"  iconFile="Assets/Numbers/7.png"/>
+    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="QgCqm0Su4kapdkYsjug2jQ==" type="HMP.W8_B3.c1.sc2.num8"  iconFile="Assets/Numbers/8.png"/>
+    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="yPJaQM868kiTToKMcAxNKA==" type="HMP.W8_B3.c1.sc2.num9"  iconFile="Assets/Numbers/9.png"/>
+    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="kgXy5x7/tEKHl933QHbGUg==" type="HMP.W8_B3.c1.sc2.num10" iconFile="Assets/Numbers/10.png"/>
+    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="eJey6TlVd062eZ2jr6eiaQ==" type="HMP.W8_B3.c1.sc2.num11" iconFile="Assets/Numbers/11.png"/>
+    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="Tek2kkkKmE+tp+TKCGwmcQ==" type="HMP.W8_B3.c1.sc2.num12" iconFile="Assets/Numbers/12.png"/>
+    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="h8XiWqqt+kiH+AJZvxSeRg==" type="HMP.W8_B3.c1.sc2.num13" iconFile="Assets/Numbers/13.png"/>
+    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="LYySj7C+O0yWhtDqaoQJIg==" type="HMP.W8_B3.c1.sc2.num14" iconFile="Assets/Numbers/14.png"/>
     <!-- Phase 3 -->
-    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="H0Rext2aaEuS7qB6MSSI0g==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/1.png"/>
-    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="5IoMPqb++0eY3MXh8rzBVA==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/2.png"/>
-    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="h+87WHbovEeIs0+m2bqX9g==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/3.png"/>
-    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="sKbHm43UTEeDmXxPR6gQ0g==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/4.png"/>
-    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="N3LUUgtLzEafEfo5S1rfAg==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/5.png"/>
-    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="9xEQ5ls9dE2zdV8ysLyAkQ==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/6.png"/>
-    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="Lq0hnFCZmUuwGh/blpIoRw==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/7.png"/>
-    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="LfiLezvYyUmPKe9GutbGLQ==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/8.png"/>
-    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="5sYAtQYImkuvXFpo0yrjnQ==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/9.png"/>
-    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="mBVpGoap8ku7ZTZUcEfptQ==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/10.png"/>
-    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="O9HYmgvk8EyDAJFdDX7BvQ==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/11.png"/>
-    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="vcKSMrDVwUyES/gNSCGkFA==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/12.png"/>
-    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="WksKT/MnJEalYtSI095jew==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/13.png"/>
-    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="aWKh9Em0q02835qgQ/QVRA==" type="HMP.W8_B3.c1.sc3" iconFile="Assets/Numbers/14.png"/>
+    <POI MapID="1564" xpos="178.848" ypos="269.771" zpos="202.34"  GUID="H0Rext2aaEuS7qB6MSSI0g==" type="HMP.W8_B3.c1.sc3.num1"  iconFile="Assets/Numbers/1.png"/>
+    <POI MapID="1564" xpos="161.719" ypos="269.771" zpos="228.768" GUID="5IoMPqb++0eY3MXh8rzBVA==" type="HMP.W8_B3.c1.sc3.num2"  iconFile="Assets/Numbers/2.png"/>
+    <POI MapID="1564" xpos="145.962" ypos="269.771" zpos="259.4"   GUID="h+87WHbovEeIs0+m2bqX9g==" type="HMP.W8_B3.c1.sc3.num3"  iconFile="Assets/Numbers/3.png"/>
+    <POI MapID="1564" xpos="162.642" ypos="269.771" zpos="200.384" GUID="sKbHm43UTEeDmXxPR6gQ0g==" type="HMP.W8_B3.c1.sc3.num4"  iconFile="Assets/Numbers/4.png"/>
+    <POI MapID="1564" xpos="145.578" ypos="269.771" zpos="228.939" GUID="N3LUUgtLzEafEfo5S1rfAg==" type="HMP.W8_B3.c1.sc3.num5"  iconFile="Assets/Numbers/5.png"/>
+    <POI MapID="1564" xpos="122.406" ypos="269.771" zpos="249.628" GUID="9xEQ5ls9dE2zdV8ysLyAkQ==" type="HMP.W8_B3.c1.sc3.num6"  iconFile="Assets/Numbers/6.png"/>
+    <POI MapID="1564" xpos="136.756" ypos="269.771" zpos="199.693" GUID="Lq0hnFCZmUuwGh/blpIoRw==" type="HMP.W8_B3.c1.sc3.num7"  iconFile="Assets/Numbers/7.png"/>
+    <POI MapID="1564" xpos="109.508" ypos="269.771" zpos="218.631" GUID="LfiLezvYyUmPKe9GutbGLQ==" type="HMP.W8_B3.c1.sc3.num8"  iconFile="Assets/Numbers/8.png"/>
+    <POI MapID="1564" xpos="196.737" ypos="269.771" zpos="247.251" GUID="5sYAtQYImkuvXFpo0yrjnQ==" type="HMP.W8_B3.c1.sc3.num9"  iconFile="Assets/Numbers/9.png"/>
+    <POI MapID="1564" xpos="181.636" ypos="269.771" zpos="276.954" GUID="mBVpGoap8ku7ZTZUcEfptQ==" type="HMP.W8_B3.c1.sc3.num10" iconFile="Assets/Numbers/10.png"/>
+    <POI MapID="1564" xpos="193.88"  ypos="269.771" zpos="219.206" GUID="O9HYmgvk8EyDAJFdDX7BvQ==" type="HMP.W8_B3.c1.sc3.num11" iconFile="Assets/Numbers/11.png"/>
+    <POI MapID="1564" xpos="183.058" ypos="269.771" zpos="235.223" GUID="vcKSMrDVwUyES/gNSCGkFA==" type="HMP.W8_B3.c1.sc3.num12" iconFile="Assets/Numbers/12.png"/>
+    <POI MapID="1564" xpos="165.246" ypos="269.771" zpos="253.157" GUID="WksKT/MnJEalYtSI095jew==" type="HMP.W8_B3.c1.sc3.num13" iconFile="Assets/Numbers/13.png"/>
+    <POI MapID="1564" xpos="158.04"  ypos="269.771" zpos="280.916" GUID="aWKh9Em0q02835qgQ/QVRA==" type="HMP.W8_B3.c1.sc3.num14" iconFile="Assets/Numbers/14.png"/>
     <!-- Visual Aide -->
     <Trail trailData="Assets/Raids/W8B3_TG_VisualAide.trl" alpha="0.75" animSpeed="0"              type="HMP.W8_B3.c1.sc4" texture="Assets/Boundary/Redline.png" trailScale="3" fadeFar="5000" fadeNear="4850"/>
     <!-- SAK Usage Zone -->
