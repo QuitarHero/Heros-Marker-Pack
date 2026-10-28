@@ -24,6 +24,10 @@ HMP.MapScripts = {
   -- Queensdale ------------------------- Blazeridge Steppes ----------------- Straits of Devastation ------------- Cursed Shore ----------------------- Tangled Depths ----------------------- Verdant Brink ------------------------ Ember Bay ---------------------------- Draconis Mons ------------------------ Siren's Landing ---------------------- Sandswept Isles ---------------------- Domain of Kourna --------------------- Jahai Bluffs ------------------------- Thunderhead Peaks -------------------- Lowland Shore ------------------------ Janthir Syntri ----------------------- Mistburned Barrens
   { {15, {Dir[1] .. "GatheringIcons"} }, {20, {Dir[1] .. "GatheringIcons"} }, {51, {Dir[1] .. "GatheringIcons"} }, {62, {Dir[1] .. "GatheringIcons"} }, {1045, {Dir[1] .. "GatheringIcons"} }, {1052, {Dir[1] .. "GatheringIcons"} }, {1175, {Dir[1] .. "GatheringIcons"} }, {1195, {Dir[1] .. "GatheringIcons"} }, {1203, {Dir[1] .. "GatheringIcons"} }, {1271, {Dir[1] .. "GatheringIcons"} }, {1288, {Dir[1] .. "GatheringIcons"} }, {1301, {Dir[1] .. "GatheringIcons"} }, {1310, {Dir[1] .. "GatheringIcons"} }, {1550, {Dir[1] .. "GatheringIcons"} }, {1554, {Dir[1] .. "GatheringIcons"} }, {1575, {Dir[1] .. "GatheringIcons"} } }
 }
+HMP.FractalDailyMaps = {
+--Divinity's Reach -------------------- Gendarran Fields -------------------- Lion's Arch ------------------------- Mistlock Observatory ----------------- Verdant Brink ------------------------- Ember Bay ----------------------------- Mistlock Sanctuary -------------------- Crystal Oasis ------------------------- Armstice Bastion ---------------------- Thousand Seas Pavilion ---------------- Memory of Old Lion's Arch
+ {18, {Dir[8] .. "Fractal_Dailies"} }, {24, {Dir[8] .. "Fractal_Dailies"} }, {50, {Dir[8] .. "Fractal_Dailies"} }, {872, {Dir[8] .. "Fractal_Dailies"} }, {1158, {Dir[8] .. "Fractal_Dailies"} }, {1175, {Dir[8] .. "Fractal_Dailies"} }, {1206, {Dir[8] .. "Fractal_Dailies"} }, {1210, {Dir[8] .. "Fractal_Dailies"} }, {1315, {Dir[8] .. "Fractal_Dailies"} }, {1465, {Dir[8] .. "Fractal_Dailies"} }, {1483, {Dir[8] .. "Fractal_Dailies"} }
+}
 
 --We're forced to load these scripts for Pathing Module and script compatibility.
 Pack:Require(Dir[3] .. "Storage")
@@ -37,8 +41,10 @@ else
   local map, check = Mumble.CurrentMap.Id, false
   
   --Temporary check for the Fractal Daily Script (Future me needs to make this better)
-  if( map == 872 and HMP_GetPathingVersion(2) ) then Pack:Require("scripts/Fractals/Fractal_Dailies.lua")
-  elseif( map == 872 and HMP_GetPathingVersion(2) == false ) then Debug:Error("Hero's Pack: Pathing Module version is not v1.10.5 or above. Fractal Daily script aborted.") HMP_NotifyUser(2)
+  for a, FractalMaps in ipairs(HMP.FractalDailyMaps) do
+    if( map == FractalMaps[1] and HMP_GetPathingVersion(2) ) then Pack:Require("scripts/Fractals/Fractal_Dailies.lua")
+    elseif( map == FractalMaps[1] and HMP_GetPathingVersion(2) == false ) then Debug:Error("Hero's Pack: Pathing Module version is not v1.10.5 or above. Fractal Daily script aborted.") HMP_NotifyUser(2)
+    end
   end
   
   -- ========== Script Loading ==========

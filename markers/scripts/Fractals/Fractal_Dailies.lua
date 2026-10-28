@@ -6,7 +6,6 @@ if( Storage:ReadValue("hmp", "FractalDailyDisplay_Day") == nil ) then
   Storage:UpsertValue("hmp", "FractalDailyDisplay_Type", "T4_Recs")
 end
 
-
 HMP_FractalDailies = {
   -- Reference Marker
   Marker = World:CategoryByType("HMP.Daily_Fractals_" .. Mumble.CurrentMap.Id .. ".c1"):GetMarkers(),
@@ -278,7 +277,6 @@ HMP_FractalDailies = {
 
 local Fotm = HMP_FractalDailies
 local CategoryType = "HMP.Daily_Fractals_" .. Mumble.CurrentMap.Id
-Debug:Watch("Fractal Dailies #2", Fotm)
 
 local function GetPosX(Marker, Offset)
   return Marker.Position.X + (Offset * Marker.Size) * math.cos(Marker.RotationXyz.Z)
@@ -487,8 +485,6 @@ local function Fill_TextureInfo()
           if( d == 2 ) then
             --This adds the T4 Fractal Name
             if( c <= 3 ) then
-              --Debug:Print("scripts/Fractals/Instabs/" .. Fotm.Fractals[Fotm.Fractal_Sets[Fotm.FractalSets[a]].Daily[c]].Daily[1] .. "/" .. Fotm.CurrentTime.Month[a])
-              
               Pack:Require("scripts/Fractals/Instabs/" .. Fotm.Fractals[Fotm.Fractal_Sets[Fotm.FractalSets[a]].Daily[c]].Daily[1] .. "/" .. Fotm.CurrentTime.Month[a])
               table.insert(Texture_Table, Fotm.Fractal_Sets[Fotm.FractalSets[a]].Daily[c] .. "-title")
             end
@@ -550,8 +546,6 @@ local function CreateHologramMarkers(Marker, Table, HeightOffset, Category, Mark
     fadeNear = Marker.FadeNear * 0.87,
     heightOffset = HeightOffset,
   }
-  
-  --Debug:Print(attributes.type)
   
   table.insert(MarkerTable, Pack:CreateMarker(attributes))
   MarkerTable[#MarkerTable].RotationXyz = Marker.RotationXyz
@@ -655,7 +649,6 @@ Set_CategoryStates()
 
 
 function Hide_FractalDailies(TriggerMarker)
-  Debug:Print("Hi!")
   local AllMarkers = World:CategoryByType(CategoryType):GetMarkers(true)
   for a, Marker in ipairs(AllMarkers) do
     Marker.InGameVisibility = false
@@ -672,7 +665,6 @@ function Check_PlayerDistance(TriggerMarker)
       Marker.InGameVisibility = true
     end
   end
-  Debug:Watch("My Distance", distance)
 end
 
 
