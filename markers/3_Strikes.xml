@@ -1383,7 +1383,7 @@
       <MarkerCategory name="sc1" DisplayName="Aspect of the Staff"/>
       <MarkerCategory name="sc2" DisplayName="Aspect of the Spear"/>
     </MarkerCategory>
-    <MarkerCategory name="StrB15_c3" DisplayName="Shielded Phase Add Positions" alpha="0.6" heightOffset="-0.05" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0" tip-description="These are all 8 possible spawn locations.&#xA;• 70%/40%/10% vary by a couple inches. What's displayed are 70%'s."/>
+    <MarkerCategory name="StrB15_c3" DisplayName="Shielded Phase Add Positions" alpha="0.6" defaultToggle="0" heightOffset="-0.05" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180" minimapVisibility="0" mapVisibility="0" tip-description="These are all 8 possible spawn locations.&#xA;• 70%/40%/10% vary by a couple inches. What's displayed are 70%'s."/>
   </MarkerCategory>
   
   <POIs>
