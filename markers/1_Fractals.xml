@@ -292,15 +292,15 @@
   </MarkerCategory>
   <POIs>
     <!-- ========== Skorvald Launches ========== -->
-    <POI MapID="1205" xpos="-511.784" ypos="79.3191" zpos="428.161"  GUID="1Xat6OPQV0uXUk65wVUUKw==" type="HMP.F_ShO_c0"                            fadeFar="750"  fadeNear="500"                                      rotate="180,0,135"/>
-    <POI MapID="1205" xpos="-519.533" ypos="79.3154" zpos="435.175"  GUID="XLvdiwR3cUSv33BwnP+7kA==" type="HMP.F_ShO_c0"                            fadeFar="750"  fadeNear="500"                                      rotate="180,0,135"/>
-    <POI MapID="1205" xpos="-532.289" ypos="78.8292" zpos="397.643"  GUID="dc5sbB9be0WGPOgE5TNhXg==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,230"/>
-    <POI MapID="1205" xpos="-526.032" ypos="79.0114" zpos="406.479"  GUID="oaSkxzwnTEGfISy406c3Ww==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,230"/>
-    <POI MapID="1205" xpos="-454.225" ypos="82.2568" zpos="422.191"  GUID="Q1BIKN2JgUqTkBEi6qjiSw==" type="HMP.F_ShO_c0"                            fadeFar="1500" fadeNear="1250"                                     rotate="180,0,-30"/>
-    <POI MapID="1205" xpos="-463.614" ypos="86.8204" zpos="492.318"  GUID="2diKqwUfmEWVTW7wFimCWA==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,60"/>
-    <POI MapID="1205" xpos="-458.293" ypos="86.861"  zpos="499.323"  GUID="c57n3YMEqkKxX8fKx9x3tA==" type="HMP.F_ShO_c0"                            fadeFar="1350" fadeNear="1100"                                     rotate="180,0,60"/>
-    <POI MapID="1205" xpos="-529.305" ypos="90.1263" zpos="487.876"  GUID="mavKd4/ix020J6cnrkUT8A==" type="HMP.F_ShO_c0"                            fadeFar="1250" fadeNear="1000"                                     rotate="180,0,220"/>
-    <POI MapID="1205" xpos="-535.123" ypos="90.0154" zpos="477.761"  GUID="g/UtW9etl0mkEfKTlcpplQ==" type="HMP.F_ShO_c0"                            fadeFar="1250" fadeNear="1000"                                     rotate="180,0,220"/>
+    <POI MapID="1205" xpos="-511.784" ypos="79.3191" zpos="428.161"  GUID="1Xat6OPQV0uXUk65wVUUKw==" type="HMP.F_ShO_c0.sc1"                        fadeFar="750"  fadeNear="500"                                      rotate="180,0,135"/>
+    <POI MapID="1205" xpos="-519.533" ypos="79.3154" zpos="435.175"  GUID="XLvdiwR3cUSv33BwnP+7kA==" type="HMP.F_ShO_c0.sc1"                        fadeFar="750"  fadeNear="500"                                      rotate="180,0,135"/>
+    <POI MapID="1205" xpos="-532.289" ypos="78.8292" zpos="397.643"  GUID="dc5sbB9be0WGPOgE5TNhXg==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1350" fadeNear="1100"                                     rotate="180,0,230"/>
+    <POI MapID="1205" xpos="-526.032" ypos="79.0114" zpos="406.479"  GUID="oaSkxzwnTEGfISy406c3Ww==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1350" fadeNear="1100"                                     rotate="180,0,230"/>
+    <POI MapID="1205" xpos="-454.225" ypos="82.2568" zpos="422.191"  GUID="Q1BIKN2JgUqTkBEi6qjiSw==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1500" fadeNear="1250"                                     rotate="180,0,-30"/>
+    <POI MapID="1205" xpos="-463.614" ypos="86.8204" zpos="492.318"  GUID="2diKqwUfmEWVTW7wFimCWA==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1350" fadeNear="1100"                                     rotate="180,0,60"/>
+    <POI MapID="1205" xpos="-458.293" ypos="86.861"  zpos="499.323"  GUID="c57n3YMEqkKxX8fKx9x3tA==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1350" fadeNear="1100"                                     rotate="180,0,60"/>
+    <POI MapID="1205" xpos="-529.305" ypos="90.1263" zpos="487.876"  GUID="mavKd4/ix020J6cnrkUT8A==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1250" fadeNear="1000"                                     rotate="180,0,220"/>
+    <POI MapID="1205" xpos="-535.123" ypos="90.0154" zpos="477.761"  GUID="g/UtW9etl0mkEfKTlcpplQ==" type="HMP.F_ShO_c0.sc1"                        fadeFar="1250" fadeNear="1000"                                     rotate="180,0,220"/>
     <!-- Rift Borders -->
     <Trail trailData="Assets/Fracs/ShO_B1_Rift1.trl"    animSpeed="0" alpha="1"                      type="HMP.F_ShO_c0.sc2"/>
     <Trail trailData="Assets/Fracs/ShO_B1_Rift2.trl"    animSpeed="0" alpha="1"                      type="HMP.F_ShO_c0.sc2"/>
