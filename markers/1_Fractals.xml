@@ -141,12 +141,21 @@
   
 <!-- ======================================== KINFALL ========================================================================================================================================================= -->
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
-    <MarkerCategory name="F_KF_c1" DisplayName="Boundary" fadeFar="900"  fadeNear="800"                                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start" mapVisibility="0" minimapVisibility="0"/>
-    <MarkerCategory name="F_KF_sy" DisplayName="Slaying"  fadeFar="1900" fadeNear="1750" cull="CounterClockwise" iconSize="2.5"  rotate="93,0,171"   tip-description="• Ice Brood&#xA;• Force&#xA;• Icebrood" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_KF_c1" DisplayName="Boundary"   fadeFar="900"  fadeNear="800"                                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start" mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory name="F_KF_c2" DisplayName="Max Ranges" fadeFar="300"  fadeNear="275">
+      <MarkerCategory name="sc1" DisplayName="Max Melee"/>
+      <MarkerCategory name="sc2" DisplayName="Mines"        defaultToggle="0"/>
+      <MarkerCategory name="sc3" DisplayName="Traps"        defaultToggle="0"/>
+    </MarkerCategory>
+    <MarkerCategory name="F_KF_sy" DisplayName="Slaying"    fadeFar="1900" fadeNear="1750" cull="CounterClockwise" iconSize="2.5"  rotate="93,0,171"   tip-description="• Ice Brood&#xA;• Force&#xA;• Icebrood" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
   <POIs>
     <!-- Whispering Shadow Boundary -->
     <Trail trailData="Assets/Boundary/FracKF1-Bound.trl" texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c1"/>
+    <!-- Max Ranges (Melee / Mines / Traps) -->
+    <Trail trailData="Assets/Fracs/F_KF_MaxMelee.trl"  texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c2.sc1"/>
+    <Trail trailData="Assets/Fracs/F_KF_MineRange.trl" texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c2.sc2"/>
+    <Trail trailData="Assets/Fracs/F_KF_TrapRange.trl" texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c2.sc3"/>
     
     <!-- ========== Slaying ========== -->
     <POI MapID="1584" xpos="-47.3506" ypos="6.9057"  zpos="-167.371" GUID="1XG3QvASjEaxOlfqOS3u3Q==" type="HMP.F_KF_sy" heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
