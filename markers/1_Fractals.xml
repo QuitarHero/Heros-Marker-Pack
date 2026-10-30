@@ -143,9 +143,17 @@
   <MarkerCategory name="HMP" DisplayName="Hero's Pack">
     <MarkerCategory name="F_KF_c1" DisplayName="Boundary"   fadeFar="900"  fadeNear="800"                                   script-filter="combatFade" tip-description="If lua scripts are enabled,&#xA;disappears on Combat Start" mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory name="F_KF_c2" DisplayName="Max Ranges" fadeFar="300"  fadeNear="275">
-      <MarkerCategory name="sc1" DisplayName="Max Melee"/>
-      <MarkerCategory name="sc2" DisplayName="Mines"        defaultToggle="0"/>
-      <MarkerCategory name="sc3" DisplayName="Traps"        defaultToggle="0"/>
+      <MarkerCategory name="sc1"   DisplayName="Max Melee"/>
+      <MarkerCategory name="sc2"   DisplayName="Mines"      defaultToggle="0"/>
+      <MarkerCategory name="sc3"   DisplayName="Traps"      defaultToggle="0"/>
+    </MarkerCategory>
+    <MarkerCategory name="F_KF_c3" DisplayName="Optimizations" defaultToggle="0">
+      <MarkerCategory name="sc1"   DisplayName="Initial Updraft Positions" fadeFar="1800" fadeNear="1650" heightOffset="-0.1" iconFile="Assets/General/dot.png" iconSize="0.5" rotate-x="180" tip-description="At the start of the Whispering Shadow fight, the person with the highest toughness within the Shadow's FoV can aim her PoV at the Mistlock to roughly, statically set the 1st updraft positions.">
+        <MarkerCategory name="n" DisplayName="North"/>
+        <MarkerCategory name="w" DisplayName="West"/>
+        <MarkerCategory name="s" DisplayName="South"/>
+        <MarkerCategory name="e" DisplayName="East"/>
+      </MarkerCategory>
     </MarkerCategory>
     <MarkerCategory name="F_KF_sy" DisplayName="Slaying"    fadeFar="1900" fadeNear="1750" cull="CounterClockwise" iconSize="2.5"  rotate="93,0,171"   tip-description="• Ice Brood&#xA;• Force&#xA;• Icebrood" mapVisibility="0" minimapVisibility="0"/>
   </MarkerCategory>
@@ -156,6 +164,17 @@
     <Trail trailData="Assets/Fracs/F_KF_MaxMelee.trl"  texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c2.sc1"/>
     <Trail trailData="Assets/Fracs/F_KF_MineRange.trl" texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c2.sc2"/>
     <Trail trailData="Assets/Fracs/F_KF_TrapRange.trl" texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_KF_c2.sc3"/>
+    
+    <!-- ========== Optimizations ========== -->
+    <!-- Initial Updraft Positions -->
+    <POI MapID="1584" xpos="78.69628" ypos="87.55494" zpos="-185.0508" GUID="rqGcJIUqKUmOslBlHYKS6A==" type="HMP.F_KF_c3.sc1.n"/>
+    <POI MapID="1584" xpos="78.69628" ypos="87.55494" zpos="-185.0508" GUID="5c7OpnR8SUeNL9XZtOyaQg==" type="HMP.F_KF_c3.sc1.n" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1584" xpos="67.50311" ypos="87.71483" zpos="-200.6143" GUID="11KpiikhvUGY0T7CekAaQA==" type="HMP.F_KF_c3.sc1.w"/>
+    <POI MapID="1584" xpos="67.50311" ypos="87.71483" zpos="-200.6143" GUID="BZJp88In2EqHS/tUDJ+c/g==" type="HMP.F_KF_c3.sc1.w" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1584" xpos="83.94003" ypos="87.67616" zpos="-211.8821" GUID="e+DeIvLyaUKXMquoEsNEUQ==" type="HMP.F_KF_c3.sc1.s"/>
+    <POI MapID="1584" xpos="83.94003" ypos="87.67616" zpos="-211.8821" GUID="zvB5o1W8kUC/gS25yy8YHA==" type="HMP.F_KF_c3.sc1.s" iconFile="Assets/General/dot-border.png"/>
+    <POI MapID="1584" xpos="94.8036"  ypos="87.342"   zpos="-195.9801" GUID="z6XAxQlkLUa1ddefIuvtLQ==" type="HMP.F_KF_c3.sc1.e"/>
+    <POI MapID="1584" xpos="94.8036"  ypos="87.342"   zpos="-195.9801" GUID="ytK5j9K0cE6Gj7cGZnaPEA==" type="HMP.F_KF_c3.sc1.e" iconFile="Assets/General/dot-border.png"/>
     
     <!-- ========== Slaying ========== -->
     <POI MapID="1584" xpos="-47.3506" ypos="6.9057"  zpos="-167.371" GUID="1XG3QvASjEaxOlfqOS3u3Q==" type="HMP.F_KF_sy" heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
