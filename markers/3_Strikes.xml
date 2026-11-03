@@ -1249,6 +1249,7 @@
     <POI MapID="1520" xpos="22.859"  ypos="177.1"   zpos="-103.363" GUID="+PYP5yVA60qOT1L4kkOt1w==" type="HMP.StrB13_c2.sc6" tip-description=""/>
     <!-- Long Walk Areas -->
     <Trail trailData="Assets/Strikes/StrB13_SE-longwalk.trl" texture="Assets/Boundary/RedLine.png" trailScale="1" alpha="1" animSpeed="0" type="HMP.StrB13_c3.sc1"/>
+    <Trail trailData="Assets/Strikes/StrB13-NE-longwalk.trl" texture="Assets/Boundary/RedLine.png" trailScale="1" alpha="1" animSpeed="0" type="HMP.StrB13_c3.sc2"/>
     <!-- Slaying -->
     <POI MapID="1520" xpos="11.600"  ypos="206.063" zpos="-214.424" GUID="SFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"     iconFile="Assets/Strikes/Slaying/Febe.png"/>
     <POI MapID="1520" xpos="11.600"  ypos="192.063" zpos="-214.424" GUID="TFJvKLq8pUSrbei6oPUyKw==" type="HMP.StrB13_c4"     iconFile="Assets/Strikes/Slaying/EodBG.png" heightOffset="15.5"/>
