@@ -508,6 +508,13 @@
     </MarkerCategory>
     <MarkerCategory   name="F_SP_c5" DisplayName="FotM Skip"            cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0"/>
     <MarkerCategory   name="F_SP_c6" DisplayName="Dialogue Door Skip"                                                                                           mapVisibility="0" minimapVisibility="0"/>
+    <MarkerCategory   name="F_SP_opti" DisplayName="Boss Optimizations" defaultToggle="0" mapVisibility="0" minimapVisibility="0">
+      <MarkerCategory name="sc1" DisplayName="Ai's Hitbox" defaultToggle="0" fadeFar="320" fadeNear="270"/>
+      <MarkerCategory name="sc2" DisplayName="Max Ranges">
+        <MarkerCategory name="asc1" DisplayName="Mines" fadeFar="320" fadeNear="270"/>
+        <MarkerCategory name="asc2" DisplayName="Traps" fadeFar="265" fadeNear="215"/>
+      </MarkerCategory>
+    </MarkerCategory>
     <MarkerCategory   name="F_SP_sy" DisplayName="Slaying"              cull="CounterClockwise"                                                                 mapVisibility="0" minimapVisibility="0">
       <MarkerCategory name="s1"      DisplayName="Normal"                                       fadeFar="750" fadeNear="500" iconSize="1.75" rotate="105,0,192" tip-description="• Sharp Stone&#xA;• Force&#xA;• Impact"/>
       <MarkerCategory name="s2"      DisplayName="Challenge"                                    fadeFar="900" fadeNear="750" iconSize="1.9"  rotate="94,0,-90"  tip-description="• Sharp Stone&#xA;• Force&#xA;• Night"/>
@@ -570,6 +577,12 @@
     <POI MapID="1384" xpos="69.837"   ypos="244.425" zpos="209.42"   GUID="gqv0EM4QfUCFU5w9uzSXnw==" type="HMP.F_SP_c6"     cull="CounterClockwise" fadeFar="750"  fadeNear="550"  iconFile="Assets/Fracs/C-Jump-1.png"            iconSize="0.3"                        rotate="90,0,0"/>
     <POI MapID="1384" xpos="75.599"   ypos="247.166" zpos="189.42"   GUID="x4aIKJojSECbsW2+FQEm2A==" type="HMP.F_SP_c6"     cull="CounterClockwise" fadeFar="500"  fadeNear="300"  iconFile="Assets/Fracs/C-Jump-1.png"            iconSize="0.5"                        rotate="90,0,105"/>
     <POI MapID="1384" xpos="131.267"  ypos="231.789" zpos="167.652"  GUID="bZT/L00Dt0OaMPmvWynFHg==" type="HMP.F_SP_c6"                             fadeFar="750"  fadeNear="500"  iconFile="Assets/Fracs/C-Choya-1.png"           iconSize="0.65"/>
+    <!-- ========== Optimizations ========== -->
+    <!-- Boss Hitbox -->
+    <Trail trailData="Assets/Fracs/SP_BossHitbox.trl" texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_SP_opti.sc1"/>
+    <!-- Max Ranges -->
+    <Trail trailData="Assets/Fracs/SP_Mines.trl"      texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_SP_opti.sc2.asc1"/>
+    <Trail trailData="Assets/Fracs/SP_Traps.trl"      texture="Assets/Boundary/RedLine.png" alpha="1" animSpeed="0" type="HMP.F_SP_opti.sc2.asc2"/>
     <!-- ========== Slaying ========== -->
     <POI MapID="1384" xpos="181.581"  ypos="25.648"  zpos="-148.331" GUID="ojMTy8Jl4kOLg6PAroWJwQ==" type="HMP.F_SP_sy.s1"                                                         iconFile="Assets/Fracs/Slaying/SP1.png"/>
     <POI MapID="1384" xpos="181.581"  ypos="11.648"  zpos="-148.331" GUID="pjMTy8Jl4kOLg6PAroWJwQ==" type="HMP.F_SP_sy.s1"                                     heightOffset="15.5" iconFile="Assets/Fracs/Slaying/fBG.png"/>
